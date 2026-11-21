@@ -1,0 +1,290 @@
+=== ll-cold
+Subject: Quick question about your rental property
+
+Hi [Landlord's Name],
+I came across your listing for [address or description] and wanted to ask if it's still available. I'm looking for a long-term rental, but not in the traditional way. I run a small property management company focused on short-to-mid term stays for vetted guests like remote workers, digital nomads, and business travelers.
+
+We take care of the property like it's our own: professional cleanings, regular maintenance, and rent paid on time every time. I'd love to chat and explain more if you're open to alternative rental strategies that bring in stable income with less hassle.
+
+Would you be open to a quick call or meeting this week?
+
+Thanks so much,
+[Your Name]
+[Your Contact Info]
+=== ll-follow
+Subject: Follow-up on rental proposal
+
+Hi [Landlord's Name],
+
+Thanks again for taking the time to chat. I know this approach may be different from a standard long-term rental, but I’d love to highlight the key benefits for you, especially compared to the typical risks landlords often face.
+
+With a standard rental, it’s common to experience things like:
+- Tenants who don’t pay rent on time or stop paying altogether
+- Properties left in poor condition after move-out
+- Difficulties accessing the property for inspections or maintenance
+- Disputes over damage, deposits, or responsibility for upkeep
+
+What we're offering is a more hands-off, professional arrangement designed to protect your property and give you peace of mind:
+
+Monthly rent: [Insert amount] guaranteed, on time, every month
+Guests: Verified professionals (remote workers, digital nomads, responsible travelers)
+Cleaning: Professionally cleaned after each stay far more frequently than in a standard lease
+Maintenance: Regularly inspected and maintained by our team, at no cost to you
+
+I’ve attached a sample guest guide, cleaning checklist, and house rules so you can see exactly how we operate and care for the property.
+
+Let me know if you have any questions or would like to discuss further. I’d be happy to adjust the proposal or clarify any details.
+
+Looking forward to hearing your thoughts,
+[Your Name]
+=== listing-desc
+DESCRIPTION
+[property description eg: boutique villa, shared apartment,...] @ [Instagram handle or property tag]
+You'll get access to your own private [room/suite/apartment]. The rest of the [property/home/building] including the [pool/living room/kitchen/garden] is shared with other guests.
+
+Located in a [peaceful/lively/central/secluded] area just minutes from [key landmarks, neighborhoods, or attractions].
+
+You'll have exclusive access to your own [room/suite/apartment] with a [private/shared] bathroom, [bed size] bed, fresh sheets, towels, and [any additional amenities]. Fast WiFi available.
+
+Daily [cleaning/housekeeping] included so you can fully relax and enjoy your stay.
+
+THE SPACE
+This [property/home/apartment] is located in a [quiet/friendly] residential neighborhood.
+
+It sits between [local features e.g. shops, beach, nature], offering the perfect mix of [tranquility/convenience/culture/adventure].
+
+The shared [pool/garden/lounge] is ideal for [sunbathing/working/relaxing]. The design combines [style keywords: minimalist/boho/industrial] elements with comfort and functionality.
+
+It’s a [photogenic/stylish/welcoming] space perfect for unwinding or working remotely. Unlike many other properties in the area, we have [reliable access/no humidity/easy parking/etc.].
+
+[Add unique comfort notes e.g. High-quality mattress from [brand], blackout curtains, or noise insulation.] Minimum age: [e.g. 12+ / 18+ / Adults-only]. [Pets allowed upon request / No pets allowed]. Luggage drop-off available from [time].
+
+GUEST ACCESS
+You’ll have access to:
+- Your private [room/suite/apartment]
+- [Private/shared] bathroom
+- Shared [pool/kitchen/living room/outdoor space]
+
+This property includes [#] private [rooms/suites], hosting up to [#] guests total. This booking includes [#] private [room/suite] for a maximum of [#] guests.
+
+DURING YOUR STAY
+This property is perfect for guests who enjoy [privacy/social connection/both]. [Optional: mention self-check-in, 24/7 support, or host availability.]
+
+OTHER THINGS TO NOTE
+We’ve installed a [water filter system/eco-friendly solution/security camera/exhaust fan] for your [comfort/safety/convenience].
+
+The [kitchen/living area/pool/outdoor space] is shared with other guests unless you’ve booked the entire property. Only your [bedroom/bathroom] is private.
+=== house-rules
+- Check-out is strictly at [11:00 AM]. Guests must be fully out of the apartment by this time (not just the bedroom). A [€50] late checkout fine will be charged if not respected.
+- Use of the washing machine does not include detergent. Bleach is strictly prohibited. The machine is unavailable when the cleaner is present.
+- Pets are not allowed.
+- Smoking is not permitted anywhere inside the apartment. It is only allowed on the balconies, with window doors closed.
+- Inviting friends or additional guests requires prior permission from the host.
+- Respect toward other guests must always be maintained (no loud noise, no mess).
+- Common areas must remain clean and organized at all times. Personal belongings should be kept inside your room.
+- Guests must sleep in their assigned bedrooms. Sleeping on the couch in the shared areas is not allowed.
+- Dishes must be washed immediately after use.
+- The kitchen is organized with labeled shelves. Guests must store their food and drinks on the shelf marked with their room label. We are not responsible for lost or misplaced items.
+- Any damages caused by the guest must be paid for in full.
+- No parties are allowed. Please keep noise to a minimum and respect the neighbors. If we receive a fine for noise disturbances, the responsible guest will be charged.
+- In cases of drunk, aggressive, or disrespectful behavior toward other guests, the host reserves the right to cancel your booking without a refund.
+- If loud noise or music at night disturbs other guests, the responsible guest may be held liable and charged a compensation fee.
+- If the apartment or room is left in an excessively dirty condition, an additional cleaning fee will apply.
+- We cannot make exceptions to the cancellation policy under any circumstance
+=== qr-shared
+As mentioned in the listing, you will have access to [# private suite] with a [private bathroom], suitable for [up to # guests].
+The [pool, kitchen, and living room] are shared with other guests.
+There are [# suites in total] in the property, meaning up to [# guests] may be staying at the property at the same time. Each suite is fully private and secure.
+Let me know if you have any further questions.
+=== qr-people
+The property has a total of [# private suites], accommodating up to [# guests] in total.
+This booking includes [# suite] for a maximum of [# guests].
+=== qr-night
+Yes, since it's self check-in with a digital code, you can arrive at any time during the night at no extra cost.
+=== qr-night2
+Yes, since it's self check-in with a digital code, you can arrive at any time during the night at no extra cost.
+If you're arriving after midnight, just to double-check:
+Can you confirm you're arriving the night between [date] and [date]?
+If your check-in is past 00:00, you’ll need to book starting from the previous day, since that night still belongs to that calendar date.
+For example, if you arrive at 1:00 AM on the 7th, your booking must start on the 6th, not the 7th. As a booking from the 7th only grants access after check-in time [..PM] on the 7th.
+=== qr-disc-no
+Unfortunately, we’re not offering discounts. While we do accommodate long-term stays and multiple room bookings, our focus is primarily on short-term stays, so we don’t offer lower rates for extended stays or multiple rooms. That said, we’d still love to host you and you're welcome to stay.
+=== qr-disc-yes
+Yes, we offer a 10% discount for longer stays. When you enter your travel dates, the discount will be automatically applied.
+=== qr-visit
+Unfortunately, it’s not common to arrange viewings for Airbnb bookings. The platform doesn’t allow us to share contact details before a reservation is confirmed, and the room is currently occupied, so we must respect the guest’s privacy.
+You are fully protected through Airbnb: if the room is not exactly as described or doesn’t match the photos, you’re entitled to a refund or alternative accommodation. This guarantees that what you see in the listing is exactly what you will receive.
+If you have any other questions, feel free to ask them here — we’re happy to clarify anything and make sure you feel completely confident.
+=== qr-park
+There is free parking available directly in front of the property, with space for [amount of car park spaces]. It’s usually available, but not guaranteed.
+=== qr-third
+According to Airbnb's policy, third-party bookings are not permitted. Would it be possible for you to cancel the current reservation (you’ll get a full refund) so the guest can create their own account and book directly? Alternatively, we could make an exception if you share your login details with the guest, allowing us to communicate through your account.
+It's important as we send all the check-in instructions and other details on here and we need to be able to communicate with the guest directly.
+=== qr-refund
+You’ll receive a full refund only if you cancel within 48 hours of booking, as long as it’s at least 14 days before check-in.
+- If you cancel between 7 and 14 days before check-in, you’ll receive a 50% refund.
+- If you cancel less than 7 days before check-in or during your stay, there is no refund.
+Upon booking you agreed to this policy. Please know that it's here to protect us as hosts, as we specifically reserved the room for you during the dates you chose and we probably won't be able to secure another booking on short notice. Hope you understand.
+
+For more info you can read the full policy in our listing or contact airbnb directly.
+=== qr-lug-in
+You’re welcome to drop off your luggage starting at [time eg 11am] and leave it in your suite. Please note that the suite will still be in the process of being cleaned, but it will be ready and clean by the latest at check-in time, [time eg 3PM].
+=== qr-exc
+Yes no worries, everyone makes mistakes sometimes so we will allow you a full refund minus €15 admin costs. To cancel, you have to go into the details of your booking and cancel from there. Once you do this, I receive an email where I will accept the full refund.
+Please make sure to do this within the next hour so that our calendar opens up again. Unfortunately, as a host I can not cancel for you cause then I have to pay a fine and will lose my superhost status.
+If you need help cancelling, you can contact with airbnb support directly.
+=== qr-dates
+Unfortunately, we can only approve date changes if requested at least 14 days before your original check-in date. As we rely on our bookings, we reserve these dates specifically for you and would not be able to get a new good booking for these dates last minute.
+
+However, according to our cancellation policy, if your check-in is still 7 days away, you can receive a 50% refund if you decide to cancel. We hope you understand.
+=== qr-transfer
+We recommend booking an airport transfer with us, as we offer a better price than most taxis at the airport. The cost for pick-up is [insert price].
+If that's okay for you then please confirm and let me know your flight details.
+=== qr-getthere
+You will receive the check-in instructions on the day of your arrival at 11am. If you already want to check out the exact location you can find it by searching for [address] into google maps.
+=== qr-money
+Unfortunately we can’t make exceptions on the cancellation policy and there are no refunds possible within 7 days of check-in or during the stay.
+Upon booking you agreed to our policy. Please know that it's here to protect us as hosts, as we specifically reserved the room for you during the dates you chose and we probably won't be able to secure another booking on short notice. For more info you can read the full policy in our listing or contact airbnb directly.
+If you prefer more flexibility; next time you book an airbnb you can choose a filter in the search to show only announcements with flexible cancellation policies but unfortunately we don’t have that option as we really depend on our reservations.
+=== qr-iron
+Yes there is an iron and ironing board inside the laundry room. After use, please make sure to put it back so other guests can use it as well
+=== qr-lug-s
+You can leave your luggage in the [place]. Please only return to collect your luggage and avoid using the common areas so we can keep the space clean and peaceful for the new guests. Around what time will you come back to pick them up? Latest pickup is [time].
+=== qr-lug-p
+You can leave your luggage in the [place]. Around what time will you come back to pick them up? Latest pickup is [time].
+=== qr-lug-n
+Unfortunately, we don’t have a secure space for luggage storage. However, we recommend a nearby storage service that many of our guests use. Here’s the link: [insert link]
+=== qr-locked
+Hi there,
+It's past our 11am checkout time, and the cleaner is at your bedroom door, which appears to be locked. Are you nearby? The next guests are arriving soon, so we need to start cleaning.
+Just a friendly reminder: we have a late checkout fee of €50 to prevent delays, as we have a tight schedule between reservations. However, if you can check out within the next 15 minutes, we won't apply the charge. I've also tried calling but couldn't reach you.
+To ensure we stay on schedule, I'll have the cleaner enter the room and begin changing the sheets for washing.
+Please get back to us as soon as possible. Thank you!
+=== qr-late
+Hi there,
+It's past our 11am checkout time. The next guests are arriving soon, so we need to start cleaning.
+Just a friendly reminder: we have a late checkout fee of €50 to prevent delays, as we have a tight schedule between reservations. However, if you can check out within the next 15 minutes (not just outside the room but also outside the apartment), we won't apply the charge.
+We have to make sure to stay on schedule so hope you understand.
+Thank you!
+=== qr-thought
+I’m very sorry that you misunderstood. We are exactly offering what you booked as it is mentioned multiple times in the announcement that it is shared. So I hope that you understand that we haven’t made any mistakes or given you incorrect information.
+You are welcome to cancel the reservation but the rules of the terms of cancellation which you agreed upon when booking would be applied. You can cancel by going to the details of your reservation and finding the cancel button.
+If you have any more questions or complaints, please contact airbnb itself. They will assist you further.
+=== qr-key
+No worries, we have a spare key in a secret spot in [place]. The code to the lockbox is [xxxx]. Once you open it, you’ll find it [where they find it]
+Please note that if the key is lost, we’ll need to charge a €50 fee to cover the cost of replacing it. Hopefully you still find it somehow!
+=== qr-key2
+I just sent you a payment request via airbnb. You should have received an email where you can accept it within 24 hours.
+=== qr-noise-g
+Hi, I hope everything is going well.
+We got a general noise complaint from a guest, and as there are multiple people in the property we don't want to blame a specific person. Therefore we're messaging everyone to kindly remind to keep the music down and not talk too loud, especially at night.
+In case this has also affected you, then I sincerely apologise and we are making an effort to control the situation. The comfort of our guests (including you) is our biggest priority so that everyone can enjoy their stay to the fullest.
+If there's anything else let us know. We are here to help!
+=== qr-noise-s
+Hi, I hope you are doing well. We are messaging you cause unfortunately we received a noise complaint from other guests.
+As a host, we never jump to conclusions after hearing only one side of the story, but we want to kindly ask you, in case there was indeed a lot of noise, to please make sure to keep it quiet in the villa especially at night.
+The guest has now asked me for a refund for this night, so we had to get in contact with airbnb to see how we can solve this situation.
+Our guests comfort is our #1 priority, not just other guests but also yours. Please let me know if you received this message and if there is anything else you'd like to let us know, you can.
+Thank you for your understanding and cooperation.
+=== qr-clutter
+Hi, we noticed that there is a lot of clutter in the common areas; so we’re sending this message to everyone in the villa with a friendly reminder to keep personal items as much in the private bedroom as possible and if you do place them in the shared areas to keep it organised.
+This way we keep it a nice space for all the guests in the villa. If this doesn’t apply to you then you can ignore this message. Thank you and have a great day!
+=== qr-reply
+We’re so sorry to hear that! While most guests are respectful and quiet, unfortunately, in shared accommodations there’s always a small risk of occasional disturbances, which is why we mention in the listing that there is potential for noise.
+That said, we absolutely agree that things should always stay within respectful limits.
+We do our best to set clear house rules and quiet hours, and we’re available 24/7 to contact us in case there is a situation that needs to be controlled.
+We’ll speak to the guests involved, and if the situation doesn’t improve immediately, please let us know again.
+Your comfort is our top priority, and we sincerely apologize for the inconvenience caused. Thank you so much for letting us know so we can take action.
+=== qr-spider
+Oh no! I get that that's very scary. No worries, they’re usually harmless (especially the big spiders look scary but are harmless).
+Normally there should be insect spray [where eg: under your bathroom sink]
+You can spray in the direction of the spider and it will die within a couple of minutes. If you need help, let us know. I can check if someone from our staff is available to help.
+=== declutter-1
+Hi everyone,
+We did a deep clean and we’ll be removing items left behind by previous tenants to declutter, keep things clean, and free up space for you.
+
+To make sure we don’t accidentally remove anything that belongs to you, we kindly ask you to do the following by [specific date]
+
+🔹 Shower:
+Please place your items either in the soap basket on the wall or on your dedicated shelf.
+🔹 Freezer:
+Move your items out of the top drawer
+🔹 Fridge door:
+Place your items on your shelf or label them using tape (there’s a roll on top of the microwave).
+🔹 Hallway box:
+There’s a box in the hallway with food & items we found outside of personal shelves.
+If anything is yours, feel free to take it back!
+
+Once everyone has collected their things, any remaining items can be “adopted” [the day before the deadline] if you’d like to keep something.
+
+⚠ On [specific date] all unclaimed items will be removed, including:
+- Items on the shower floor
+- Items in the fridge door without tape
+- Food in the top freezer drawer
+- Items in the hallway box
+
+Thanks a lot for your help and cooperation!
+=== declutter-2
+Hi everyone,
+
+Just a quick final reminder that tomorrow is the deadline to claim your items as part of the decluttering process.
+
+We’ll be removing the following:
+- Items left on the shower floor
+- Unlabeled items in the fridge door
+- Food in the top freezer drawer
+- Items in the hallway box
+
+If there’s anything still left that you’d like to keep, feel free to “adopt” it before it goes!
+Thanks for your cooperation.
+=== sm-1
+Hi [guest first name]
+We can't wait to welcome you soon. Around what time will you arrive? Check-in is starting from [time eg: 3PM] (but it's possible to drop off luggage starting from 11AM).
+On your day of arrival you'll receive the exact address and code for self-check in, at 11AM. If you won't have WIFI let me know and I will send it earlier.
+
+OTHER INFO:
+- If you cook or use the kitchen; please wash, dry & store dishes to keep it tidy. You have your own shelve in the fridge and in the kitchen cabinets with a label of your suite.
+- [insert info about cleaning eg: there is daily cleaning of the bedroom and change of sheets 2x week. If you want new towels, you can leave them in the laundry basket. Please help us save energy by reusing towels during your stay.]
+- WIFI
+  Network: [xxxx]
+  Password: [xxxx]
+- If you have any issues or need help, please let us know! If we don't know about it, we can not solve it. Your comfort is our #1 priority
+
+Here's a list with our local recommendations:
+[link to your airbnb guidebook]
+
+Do you have any other questions? Ask away!
+=== sm-2
+Hi [guest first name]
+The location is [location] in google maps.
+[add more info or even a picture with instructions to find it easily eg: Since it's a new address, some taxi drivers may stop on the main street
+- Go left at the rice field.
+- At the end of that street, turn left again just before the black mini temple.]
+
+You can enter the villa using this keypad code: [code eg: 1234#] (first tap the keypad so it lights up, then enter the number)
+Your private room is SUITE [#]
+The room will be ready latest at check-in time [eg 3PM] but if you want to drop off luggage earlier you can.
+If you can't find it you can call our emergency contact 24/7 [name manager +00 0000 000 (WhatsApp)].
+See you soon!
+=== sm-3
+Good morning [guest first name]
+How was your first night? Is everything okay in the villa? If you need anything else, please let us know, we're here to help :)
+Have a great day!
+=== sm-4
+Hope you had a great time with us. Tomorrow is your checkout at 11:00 am sharp.
+We kindly ask you to not only leave the bedroom but also be outside the villa latest at this time so that the cleaner can work his magic.
+
+CHECKOUT INSTRUCTIONS:
+- turn off lights & airco
+- leave the key on the desk
+- leave the bedroom door open (so we know you left)
+- be outside the villa by 11am
+
+Need to store your luggage? That's fine! You can leave your luggage in the laundry room (left of suite 2) and pick it up the same day. Let us know and we'll send you the code to the lockbox with the key.
+Have an amazing last day. Thank you!
+=== sm-5
+Thank you for staying and being a great guest!
+I’ll leave you a 5-star review. If you enjoyed your stay, could you leave one for us? Since our villa is new, your review is incredibly valuable for us to get more bookings.
+Just a quick note: Airbnb ratings work differently from hotels. Anything below 5 stars truly impacts our listing in a negative way. If there’s anything we could improve, feel free to share your feedback directly with us.
+If you ever plan to return, we'd love to host you again!
+Have an amazing day.

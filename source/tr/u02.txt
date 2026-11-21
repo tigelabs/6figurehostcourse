@@ -1,0 +1,194 @@
+241|I'll list shared spaces
+242|Choose long-term or short-term stays
+243|Choose a private or a shared setup
+244|Understanding local rules
+245|<strong>Rules around Airbnb rentals vary widely depending on where you are. </strong>In general, larger cities tend to have stricter regulations due to housing shortages, tourism limits, and local government control.
+246|Cities like Barcelona, Paris, New York City, and Amsterdam often require licenses, limit the number of rental nights, or restrict short-term rentals to certain zones.
+247|<strong>That doesn't mean strictly regulated places are a no-go.</strong> We currently run five successful Airbnb apartments in Barcelona, one of the most difficult cities for short- term rentals. They all operate without a tourist license but are still legal because we focus on long-term stays of 31 nights or more, which are permitted under local law.
+248|While long-term stays tend to generate less income per night than short-term bookings, they’re still highly profitable. Plus, they come with fewer guest turnovers, less day-to-day management, and more stability. You might not even need a manager or a full-time team.
+249|On the other hand, <strong>some areas are much more flexible and easier to start in.</strong> Places like Bali, parts of Mexico, Portugal, and Southern Spain are known for being more open to short-term rentals, especially in tourist-friendly zones or when offering longer stays. This is why choosing the right location is key.
+250|Before you list any property on Airbnb, it's crucial to understand the local laws and regulations in your area. Every city has its own rules when it comes to short-term rentals. Some require specific licenses or permits, others have restrictions on the number of nights you can rent, and some zones may not allow Airbnb at all.
+251|Rule type
+252|What it means
+253|Example
+254|Minimum stay requirements
+255|Some cities only allow short-term rentals if stays are longer than a specific number of days.
+256|<strong>Barcelona:</strong> Only allowed if the stay is 31+ days unless you have a tourist license
+257|Tourist license or permit
+258|Many cities require a special license to operate legally.
+259|<strong>Paris:</strong> Requires registration number and permit for short-term rentals
+260|Zoning restrictions
+261|Not all areas within a city allow short-term rentals.
+262|<strong>New York City:</strong> Some buildings and zones prohibit short-term listings entirely
+263|Primary residence requirement
+264|In some cities, you can only rent out your primary residence and not an investment property.
+265|<strong>San Francisco:</strong> Must be your primary residence and registered with the city
+266|Limit on rental nights
+267|Some places limit how many nights per year you can rent out a property.
+268|<strong>London:</strong> Max 90 nights per year without a permit
+269|Co-op and HOA rules
+270|Apartment buildings and homeowner associations may have their own restrictions.
+271|<strong>Varies:</strong> Always check building policies separately from city laws
+272|Research the local Airbnb rules in the area you're interested in
+273|Bonus: 30-day roadmap to launch your 1st listing
+274|This roadmap is your step-by-step guide to launching your first Airbnb listing and building a freedom-based business; from idea to income. It’s designed to give you structure, clarity, and direction without the overwhelm.
+275|For some, this process might move faster or slower depending on how much setup your property needs. Use it as your airbnb project HQ and check off each task or add more tasks as you go.
+276|Access your roadmap
+277|Open your 30-day roadmap and tick off what you have already done
+278|You have chosen your business model, stay length and type of space.
+279|You know the short-term rental rules in your area.
+280|You have opened your 30-day roadmap and know your next task.
+281|<small>← Back</small>Start here
+282|<small>Next →</small>Think like a business owner
+283|Chapter 2 · Part 1
+284|Think like a business owner, <x1>not a host</span>
+285|<b>1</b>Overcoming fear of getting started
+286|<b>2</b>What it really costs to start
+287|<b>3</b>Legal setup: self-employed or company?
+288|<b>4</b>Creative ways to make extra money
+289|<b>5</b>Bonus: must-have tools to run your biz
+290|Overcoming fear of getting started
+291|Getting started is often the hardest part. It’s completely normal to feel uncertain, nervous, or even overwhelmed when stepping into something new. You might be thinking, “What if something goes wrong?” or “Am I really ready for this?” These doubts are common, but they’re also what keep most people stuck on the sidelines.
+292|The truth is, <strong>no one feels fully ready in the beginning. </strong>Every successful host once stood exactly where you are now; unsure, questioning themselves, and wondering if they could actually do it. <strong>What made the difference is that they took action anyway.</strong>
+293|If you want to succeed, you need to <strong>shift your mindset from being just a host to thinking like a business owner. </strong>Hosting isn’t just about giving someone a nice place to sleep. It’s about creating systems, solving problems, managing relationships, and building something that can grow. A business owner makes decisions based on vision and long- term goals, not just today’s to-do list.
+294|<strong>You don’t need to have it all figured out. You just need to start. </strong>Follow the steps in this guide, one task at a time. You’ll learn by doing, gain confidence as you go, and build momentum with every small win.
+295|Yes, you’ll face challenges. And yes, mistakes will happen. But every problem is figure-outable, and every obstacle is an opportunity to get better. Confidence doesn’t come from waiting until you’re ready. It comes from showing up anyway.
+296|So take a deep breath, trust yourself, and begin. <strong>You’re not just launching a listing. You’re building a business that can change your life.</strong>
+297|What it really costs to start
+298|(&amp; how to keep it low)
+299|One of the biggest questions people have is: <strong>How much does it actually cost to start an Airbnb business? The good news is, it’s probably a lot less than you think,</strong> especially if you’re not buying property.
+300|If you’re using rental arbitrage, your main costs will be the first month’s rent, security deposit, and furnishing the space. If you’re co-hosting, your costs are close to zero since you’re working with someone else’s property. Either way, you can start lean and grow smart.
+301|Here are the typical startup costs for rental arbitrage:
+302|First month’s rent
+303|Security deposit (usually one month)
+304|Furniture and essentials
+305|Cleaning supplies
+306|Photography (can be DIY with a good phone)
+307|To keep costs low, start simple. You don’t need luxury furniture or fancy interior design to impress guests. You need cleanliness, comfort, and functionality. Use secondhand platforms like Facebook Marketplace, buy-in bundles, or furnish slowly and improve as you earn.
+308|Also, focus on what truly matters to guests: <strong>a good bed, fast Wi-Fi, a clean space, and clear communication. These are what get you bookings and five-star reviews.</strong>
+309|Starting small and reinvesting profits is exactly how we built our business. Don’t overthink it, don’t overspend, and don’t try to make it perfect. Launch smart, keep it simple, and upgrade as you grow.
+310|Run your own numbers
+311|Want to see what these costs mean for your profit? Use the Profit &amp; ROI calculator.
+312|Open the profit calculator
+313|Legal setup: self-employed or company?
+314|Let’s be real, no one gets excited about legal paperwork. Luckily, you don’t need a complicated legal setup to get started but it’s important to treat this like a real business from day one.
+315|You have two main options: <strong>start as self-employed or register an official company.</strong> The best choice depends on where you live, how fast you want to grow, and how much you plan to earn.
+316|Category
+317|Self-employed
+318|Register an official company
+319|Getting started quickly with low risk and minimal costs
+320|Scaling your business, hiring people, and protecting yourself legally
+321|• Easy and cheap to register<br>• Less paperwork and admin<br>• Great for testing the waters
+322|• Separates personal &amp; business assets<br>• More credibility with landlords, banks,...<br>• Possible tax advantages<br>• Easier to partner or raise capital
+323|• No legal separation<br>• You're personally liable<br>• Might seem less professional
+324|• More complex setup<br>• Ongoing admin and costs<br>• Likely need an accountant
+325|Ideal for
+326|If you're just starting or managing 1–2 listings
+327|If you're growing fast, managing multiple properties, or hiring a team
+328|So, what should you do?
+329|Start as self-employed if you’re launching your first listing or keeping things small. It’s simple, flexible, and lets you focus on building momentum instead of getting lost in admin.
+330|Once you start earning consistent income and want to protect your personal assets, or if you're ready to grow bigger, you can upgrade to an official business structure like a limited company. That way, you're growing smart without overcomplicating things in the beginning.
+331|Setting up an official business
+332|This needs to be ready once you start making money:
+333|Register as self-employed or the equivalent in your country
+334|Open a business bank account to keep your money organized
+335|Track all income and expenses from the start
+336|Talk to a local accountant or tax advisor to stay compliant
+337|Creative ways to make extra money
+338|Being an Airbnb host isn’t just about charging for a night’s stay. You can boost your income by offering extra services and experiences; many of which can be set up passively. Here are some creative ideas:
+339|<strong>Affiliate referrals:</strong> Some local websites offer referral (affiliate) programs for event tickets, tourist activities and restaurants, and pay you a commission when you send them customers. At one point, for example, we earned commission selling tickets for Barcelona parties to our guests. The commission was really high, around €10 per ticket, and in summer about 60% of our guests bought them, because it was an activity made for them.
+340|<strong>Airport Transfers: </strong>Guests often prefer a smooth arrival, especially in unfamiliar destinations. Partner with a reliable local driver to offer airport pick-up. Add a commission for yourself or bundle it as a premium add-on.
+341|<strong>Floating Breakfasts (especially in Bali):</strong> If your property has a pool, a beautiful floating breakfast is a popular experience. It creates shareable content for guests and earns you extra without much work. You can partner with a local café or set up your own simple breakfast tray.
+342|<strong>Collaborate with Local Tour Operators:</strong> From surf lessons to motorbike rentals, work with local businesses to offer add-ons that enhance the guest experience. You get a commission, and your guests get trusted recommendations.
+343|<strong>Vintage Clothing Market:</strong> In our own shared Airbnb apartment, we set up a small vintage clothing corner with pieces Farah's does no longer wear. It runs completely passively with a simple money box and a label explaining that she is a content creator with a link to her Instagram for extra followers. It’s based on trust, and so far, nothing has ever gone missing. Even if something did, the effort saved compared to apps like Vinted still makes it 100% worth it. Plus, it's a fun, unique feature that guests love.
+344|The key is to think about what fits naturally with your property and your lifestyle. These add-ons can increase your income, improve guest satisfaction, and build a more memorable hosting brand with very little extra effort.
+345|Bonus: must-have tools to run your biz
+346|Here’s an overview of the must-have apps, websites, and tools to run your Airbnb business like a pro. Don’t worry, we’ll explain each one later in this course, so you know exactly what to use and how to set it up.
+347|AirDNA.co
+348|Analyze short-term rental data.
+349|Open AirDNA
+350|AirROI.com
+351|Another tool to analyze short-term rental data.
+352|Open AirROI
+353|Airbnb profit calculator
+354|Calculate your possible profits.
+355|Open calculator
+356|PriceLabs (optional)
+357|To automatically update your prices depending on occupancy, popular dates,...
+358|Open PriceLabs
+359|Canva
+360|To create your welcome booklet, labels,...
+361|Open Canva
+362|Airbnb app
+363|Publish your listings and receive bookings.
+364|Open Airbnb
+365|You know the typical startup costs and how to keep them low.
+366|Your legal setup is chosen and the four admin steps are planned or done.
+367|<small>← Back</small>Airbnb business models
+368|<small>Next →</small>Finding the right property
+369|Chapter 3 · Part 1
+370|7 parts · about 15 min
+371|Finding the right <x1>property</span>
+372|<b>1</b>Location vs. demand
+373|<b>2</b>How to use AirDNA
+374|<b>3</b>How to use AirROI
+375|<b>4</b>Where and how to find units that allow Airbnb
+376|<b>5</b>Red flags to avoid when choosing a property
+377|<b>6</b>Bonus: profit &amp; ROI calculator
+378|<b>7</b>Bonus: decision-making matrix for new properties
+379|Location <x1>vs</span> demand
+380|what actually drives bookings
+381|Most people think location is everything in Airbnb. And yes, being in a prime spot helps but it's not the full story. <strong>A great location with low demand will struggle. A less obvious location with high demand and the right setup? That can become a goldmine.</strong>
+382|Location matters, but demand is what drives bookings.
+383|Here’s how to think about it:
+384|Location is fixed. It’s where your property is.
+385|Demand is dynamic. It’s what people are searching for, when, and why.
+386|The secret is to find the sweet spot where the two meet.
+387|For example:
+388|A beach town 20 minutes from a popular city might outperform a central apartment if it taps into weekend getaways and local tourism trends.
+389|A quiet suburb near a hospital, university, or big event venue can have consistent bookings if you target the right audience (traveling nurses, researchers, digital nomads, etc.)
+390|<strong>Don’t just chase the obvious tourist hotspots. </strong>Instead, ask:
+391|Who is coming here?
+392|Why are they coming?
+393|When is demand highest?
+394|What kind of stays are most common: short trips, weekend getaways, monthly relocations?
+395|Use tools like AirDNA, AirROI or even just Airbnb’s own search filters to explore demand in specific areas. Look at occupancy rates, average nightly rates, and competition.
+396|The goal isn’t just to be in a “good area.” The goal is to be in the right area for the right guest with a listing that speaks directly to what they need.
+397|How to use AirDNA
+398|to analyse profit potential
+399|Before committing to a property, you need to know one thing: <strong>Will it actually make money?</strong>
+400|AirDNA is one of the most powerful tools available to Airbnb hosts for understanding local demand, competition, pricing, and projected revenue.
+401|You can use AirDNA to:
+402|Check average nightly rates and occupancy rates in your target area
+403|See how similar listings are performing (with real data)
+404|Estimate your monthly revenue potential
+405|Compare neighborhoods side by side
+406|Spot seasonal trends and adjust your pricing accordingly
+407|<strong>You can use AirDNA or AirROI.</strong> They are the two main tools for this research. Use whichever you prefer, or run both and compare what they say.
+408|Step-by-step:
+409|Go to AirDNA.co and type in the city or neighborhood you're researching
+410|Click on “Rentalizer” to get profit estimates for a specific property
+411|Fill in the number of bedrooms, bathrooms, and other features
+412|AirDNA will show you:
+413|Estimated monthly revenue
+414|Average daily rate (ADR)
+415|Occupancy rate
+416|Comparison to other local listings
+417|Use this data to calculate your own potential profit and ROI (don’t forget to use your <x1>Profit Calculator</a>!)
+418|Even with great data, don’t rely on just one source. Cross-check with platforms like Airbnb itself, Booking.com, or local Facebook rental groups. The more data you have, the better your decision will be.
+419|If you want to go deeper, AirDNA also offers paid subscriptions that unlock more detailed insights, like property-level performance, revenue history, and custom market comparisons.
+420|Understanding the numbers upfront is key to building a profitable Airbnb business. Use the data, not guesswork, to guide your choices.
+421|Research demand vs. location on AirDNA.co or AirROI.com
+422|How to use AirROI
+423|<x1>AirROI</a> does the same job as AirDNA: it shows you what a short-term rental can earn in a specific place, based on real booking data. Its calculator and market data are free to use.
+424|Go to AirROI.com and open the Calculator
+425|Type in the address (or the area) you're researching and the number of bedrooms
+426|AirROI compares it with around 50 comparable properties nearby and shows you:
+427|What a short-term rental there could earn
+428|Month-by-month income projections
+429|The comparable listings it used
+430|Add your operating costs to go from income to net income
+431|Open the market map to explore the area and compare neighborhoods
+432|Take the nightly price and occupancy you found into your <x1>Profit Calculator</a>
+433|If AirDNA and AirROI give you very different numbers for the same property, be careful and use the lower one.
+434|Where and how to find units that allow Airbnb

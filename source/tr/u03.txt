@@ -1,0 +1,179 @@
+435|Not every unit is Airbnb-friendly, and blindly signing a lease can cost you time, money, and legal headaches. The good news? There are plenty of properties out there that work, you just need to know how and where to look.
+436|1. Start with the legal rules
+437|Before anything else, research the local laws and regulations for short-term rentals in your target city or region. Some cities only allow short-term rentals if it’s your primary residence. Others require a license, registration, or a minimum stay (like 32+ days in Barcelona). If you're not sure, look up your city’s official website or contact the local municipality. You can also use AI prompts included in this guide to help you look it up fast.
+438|2. Look on the right platforms
+439|You can find Airbnb-friendly listings on:
+440|Facebook Marketplace &amp; local groups (look for flexible landlords)
+441|Real estate websites (search for furnished mid-term or corporate rentals)
+442|Airbnb itself (reach out to property owners who don’t live there — some are open to co-hosting deals)
+443|Furnished apartment platforms like Spotahome, Flatio, or Idealista
+444|Word of mouth or local connections (especially helpful in places like Bali or Portugal)
+445|3. Know what to ask
+446|When inquiring about a property, don’t ask “Can I Airbnb this?” right away. Instead, frame it professionally.
+447|For example: <em>“I’m looking to rent long-term and manage the unit as a furnished mid-stay rental for professionals and travelers. Would that be acceptable?”</em> Use the landlord pitch templates included in this guide to approach conversations the right way (more about this later).
+448|Look for properties &amp; contact agencies or landlords
+449|Red flags to avoid when choosing a property
+450|Not all properties are good Airbnb investments, even if they look beautiful, cheap, or perfectly located. Some places come with hidden issues that can cost you time, money, and a ton of stress. The key is learning to spot these red flags before you commit.
+451|Here’s what to watch out for:
+452|1. Strict building rules or HOAs
+453|If you’re looking at an apartment in a building with a homeowner’s association (HOA), make sure to ask about short-term rental policies. Some buildings have strict rules that ban or heavily restrict Airbnb. If the building has security, a concierge, or nosy neighbors, they’ll notice guest traffic quickly.
+454|Red flag: Contracts that mention “no subletting,” “no commercial use,” or restrictions on guest frequency.
+455|2. Uncooperative landlords or property managers
+456|If a landlord seems uncomfortable with your plan or won’t give you permission in writing, don’t move forward. Vague verbal approvals won’t protect you if things go wrong. You want a clear agreement up front.
+457|Red flag: Landlords who avoid the topic, say “let’s just see how it goes,” or refuse to put anything in writing.
+458|3. Problematic neighbors or thin walls
+459|Angry neighbors are one of the fastest ways to lose a listing. If you’re sharing walls with people who hate noise, guests, or strangers in the building, you’re asking for complaints and potential legal issues.
+460|Red flag: Past conflicts in the building, complaints from other tenants, or extra-thin walls.
+461|4. Bad layout or limited privacy
+462|Guests value privacy, functionality, and comfort. Avoid properties with awkward layouts, no doors between sleeping areas, or bathrooms that feel exposed. This can lead to bad reviews and poor occupancy rates.
+463|Red flag: Studios trying to act like 2-bedrooms, shared bathrooms, or no soundproofing.
+464|5. Hard-to-reach locations or no parking
+465|Location isn’t just about being central. It’s about being convenient. If the property is hard to find, far from transport, or has zero parking, it could turn off potential guests.
+466|Red flag: Remote areas with no public transport or city apartments with expensive or no parking options.
+467|6. Too much personal stuff or damage
+468|Properties that are still full of the owner's belongings, expensive artwork, or delicate furniture can be a headache. Airbnb hosting requires a space that’s guest-ready, durable, and easy to clean.
+469|Red flag: Cluttered units, sentimental or fragile items, and spaces that aren’t fully “handed over.”
+470|7. No Track Record
+471|If the unit has never been rented before and the landlord is unsure, treat it as a test. Try a shorter lease, or ask for a trial period to minimize your risk.
+472|Red flag: High rent, no data to support demand, or landlords who expect full-year commitment without flexibility.
+473|Bottom line: It’s better to walk away from a risky deal than to regret it later. Trust your gut, do your research, and don’t compromise on legal clarity, location quality, or guest experience. A solid property sets the foundation for a stress-free, profitable Airbnb business.
+474|Part 6
+475|Bonus: profit &amp; ROI calculator
+476|To help you run the numbers before committing to a property, we created a Profit &amp; ROI Calculator.
+477|This tool lets you plug in expected costs, nightly rates, occupancy, and other key numbers to estimate your monthly profit and return on investment. Use it to compare different properties, spot red flags, and make smart, data-driven decisions.
+478|Run the numbers for a property you are considering
+479|Part 7
+480|Bonus: decision-making matrix for new properties
+481|Before you commit to any property, you need to make sure it’s actually a smart investment. Instead of going off 'vibes' or falling in love with a nice kitchen, this tool helps you evaluate potential listings based on the things that really matter.
+482|Score each category, add it up, and you’ll have a clear picture of whether it’s worth your time and money.
+483|Decision-making matrix
+484|Name property
+485|Demand in the area
+486|Is there high Airbnb demand based on AirDNA or local research?
+487|Legal permission
+488|Is short- or long-term rental allowed legally in this area?
+489|Profit potential
+490|What’s the estimated monthly profit after expenses? Use your <x1>ROI calculator</a> to help.
+491|Condition of the property
+492|Is it move-in ready or will it require major renovation or investment?
+493|Upfront costs
+494|How affordable is the deposit, furniture, and setup compared to your available budget?
+495|Ease of management
+496|Will turnovers, check-ins, and guest support be easy to handle in this location?
+497|Guest appeal
+498|Is it photogenic, well-located, and likely to impress guests? Does it have unique features?
+499|Landlord relationship (if not buying property)
+500|Is the landlord open to Airbnb? Are they easy to communicate with and reliable?
+501|Potential to scale
+502|Could you potentially manage more units in this building or area later on?
+503|Neighbours &amp; community
+504|Are neighbors friendly or tolerant toward short-term guests? Is the community Airbnb-friendly?
+505|Total score
+506|Score another property
+507|Score your top property with the decision-making matrix
+508|You researched demand in your target area with real data.
+509|You ran the profit numbers and scored at least one property.
+510|You have contacted agencies or landlords.
+511|<small>← Back</small>Think like a business owner
+512|<small>Next →</small>Pitching landlords
+513|Chapter 4 · Part 1
+514|3 parts · about 15 min
+515|Pitching <x1>landlords</span>
+516|<b>1</b>Why landlords say yes
+517|<b>2</b>Handling objections and closing the deal
+518|<b>3</b>Bonus: scripts, email templates &amp; face-to-face pitch
+519|Why landlords say yes
+520|(&amp; how to position your offer)
+521|Most people assume landlords will say no to Airbnb. But here’s the truth: many say yes when your offer is positioned the right way.
+522|Why? Because you're solving a real problem for them.
+523|Most landlords want exactly three things: reliable income, a well-maintained property, and as little stress as possible. Traditional long-term tenants can bring risks like late payments, poor communication, damage, or even legal disputes.
+524|With Airbnb, you offer a smart alternative:
+525|Consistent, on-time payments
+526|Professional cleaning after every guest
+527|Ongoing maintenance and inspections
+528|Hands-off, well-organized management
+529|When you're pitching to a landlord, keep this in mind: if they’re renting out a property, they likely own at least two (one to live in and one to rent). That often means they’re business-minded or entrepreneurial.
+530|They may be more open than you think, especially when they see that you treat this like a serious business, not a casual side hustle.
+531|Your success as a host depends on keeping their place in top condition because bad reviews kill bookings. That means it's in your best interest to take better care of their property than most long-term tenants ever would.
+532|To build trust, show your systems. Walk them through the cleaning checklist, guest communication templates, and SOPs (you’ll find them all in this guide). Show them you’re not just winging it, you’re running a well-organized, guest-focused business. And that gives them peace of mind.
+533|Most importantly, make it clear that you deeply respect the neighbors and community. You screen guests, respect the house rules, and maintain quiet hours because happy neighbors mean long-term success. Position your offer right, and you’re not just asking for permission. You’re offering a win-win.
+534|Handling objections and closing the deal
+535|You’ve found a great property. You’re ready to pitch. But the landlord isn’t convinced… yet.
+536|Welcome to the part where most people freeze or give up. Don’t. Objections are normal and often, they’re just questions in disguise. When you understand what landlords are really worried about, you can answer with confidence and turn hesitation into a yes.
+537|Common objections (and how to respond)
+538|Tap an objection to see how to respond. Say your answer out loud before you open it.
+539|“Isn’t Airbnb illegal?”
+540|Reassure them that you follow local laws and clarify that you’re offering mid-term stays (32+ nights) or that you’ll manage everything professionally, including respectful guests, cleaning, and noise control.
+541|“What if guests damage the apartment?”
+542|Explain that Airbnb offers insurance and you also have your own maintenance plan in place. Let them know damages are rare, and you handle everything — the landlord won’t be bothered.
+543|“I don’t want parties or problems.”
+544|Let them know your strict guest screening, house rules, and no-party policy. You use smart tools like noise monitors and security deposits to prevent issues.
+545|“Why don’t you just rent it normally?”
+546|Because this is a business, not a side hustle. Explain how your model gives the landlord stable rent, while you handle all the headaches of guest turnover, cleaning, and communication.
+547|You can also show them what they gain compared with a classic long-term contract, where they are tied to the same tenant for years. With this model they keep flexibility: they don’t have to wait for a long contract to end to get their property back. If they have an emergency or simply need the property, they can ask for it back with a much shorter notice period. And every stay comes with Airbnb’s host protection and insurance on top.
+548|Pro tips for closing the deal
+549|<strong>Speak their language.</strong> Don’t sell the dream of Airbnb. Sell peace of mind. Focus on how you’ll take care of their property, pay rent on time, and be the best tenant they’ve ever had.
+550|<strong>Use social proof.</strong> Show examples of your listings, reviews, or experience. If you’re new, show your systems, your professionalism, and your plan. Confidence builds trust.
+551|<strong>Offer a win-win.</strong> Think about what the landlord wants most: no stress, steady income, a well-kept property. Your offer should check those boxes clearly.
+552|<strong>Always get it in writing.</strong> Once they say yes, have a simple agreement ready to sign. It protects both sides and shows you’re serious.
+553|Final Word
+554|You’re not begging for permission. You’re offering a professional service. Be respectful, but firm. Be clear, but flexible. You’ll hear a many no’s but with the right pitch and the right attitude, you will get that yes.
+555|Now go close the deal!
+556|Bonus: scripts, email templates &amp; face-to-face pitch
+557|To help you confidently reach out to landlords, we’ve included a set of ready-to-use scripts, email templates, and face-to-face pitch outlines. These are based on real conversations that worked for us and are designed to position your offer in a professional, trustworthy way, even if you’re just starting out.
+558|Whether you’re writing your first cold email or sitting down for a meeting, these templates will help you speak with clarity, build trust, and show landlords that you’re serious, prepared, and easy to work with. Just tweak the details to fit your situation and start pitching with confidence.
+559|Open the one you need. Edit the parts in [brackets] and copy it, or download everything as a PDF.
+560|<small>01 · Email</small>Cold email to a landlord (initial contact)
+561|Cold email to a landlord
+562|Reset
+563|Edit the parts in [brackets], then copy. Your changes are saved on this device.
+564|<small>02 · In person</small>Face-to-face pitch framework (landlord meeting)
+565|Face-to-face pitch framework
+566|<strong>Start with rapport:</strong> "Thanks again for taking the time to meet. I really appreciate it. I wanted to walk you through a different kind of rental agreement that might work well for both of us."
+567|<strong>Position the offer:</strong> "I run a small-scale hospitality business. I rent properties and host professionals for short-to-mid-term stays think business travelers, digital nomads, consultants. These are quiet, respectful guests who treat the place like a hotel."
+568|<strong>Handle objections before they come up:</strong> "We pay rent like clockwork, clean the space professionally after every stay, and handle maintenance. No late payments, no long-term damage risks, and you never have to chase tenants. I can show you how everything’s organized: we’ve got cleaning schedules, communication templates, and full transparency."
+569|<strong>Address neighbor concerns:</strong> "We take community impact seriously. No parties, no loud guests. We have strict house rules and vet every guest. My goal is to be the easiest tenant you’ve ever worked with."
+570|<strong>Close confidently:</strong> "If you're open, I’d love to send over a proposal with how it would look financially and operationally. I really believe this can be a win for both of us."
+571|<small>03 · Email</small>Follow-up email after a conversation
+572|Follow-up email after a conversation
+573|<small>04 · Cheat sheet</small>Objection handling cheat sheet
+574|“I don’t want random people in my property.”
+575|Totally understandable. All our guests are vetted and verified through Airbnb. These are not party travelers, they’re often professionals staying for work or extended visits. We also have strict house rules and immediate support in case of any issues.
+576|“What if the property gets damaged?”
+577|Airbnb provides host protection and insurance, but we also do inspections and professional cleanings between stays. It’s in our best interest to keep the property in perfect shape.
+578|“I prefer a long-term tenant.”
+579|We provide the same stability in terms of income but with more care for the property. Our rent is on time, guaranteed. And if you ever want to return to a traditional tenant, we handle the transition.
+580|“Will this upset the neighbors?”
+581|We screen all guests carefully and enforce quiet hours and respectful behavior. We also have a local contact for emergencies and a direct line of communication.
+582|Open the files in Google Drive
+583|Download as it is (PDF)
+584|Customizable
+585|Landlord information brochure
+586|<strong>Use this PDF to introduce yourself to landlords</strong> and help them understand exactly what you do and <strong>how your rental model works.</strong> Adding this PDF to your standard email increases your chances, because it <strong>looks professional and clearly presents your idea.</strong>
+587|Access your template
+588|Opens the editable design in Canva, where you add your own name, photos and numbers.
+589|Open the scripts and adapt one email to your property
+590|Practice your answer to each of the four objections
+591|Pitch your first landlord
+592|Get the yes in writing with a simple signed agreement
+593|You have pitched at least one landlord.
+594|You have a written agreement, or a list of the next landlords to contact.
+595|<small>← Back</small>Finding the right property
+596|<small>Next →</small>A home away from home
+597|Chapter 5 · Part 2
+598|4 parts · about 15 min
+599|Make your space feel like a home away from <x1>home</span>
+600|<b>1</b>What you really need
+601|<b>2</b>Design a space that fully books
+602|<b>3</b>Guest-proof your space
+603|<b>4</b>Bonus: setup checklist and welcome booklets
+604|What you really need
+605|(and what’s a waste of money)
+606|When you’re setting up your first Airbnb, it’s tempting to think you need to buy everything. But most of that is just noise. What really matters is creating a space that’s comfortable, functional, and stands out without blowing your budget.
+607|ESSENTIAL THINGS YOU NEED:
+608|A comfortable bed with good-quality bedding
+609|Blackout curtains so guests can sleep well
+610|Free earplugs if there is potential for noise
+611|Strong Wi-Fi (non-negotiable)
+612|A clean, functional kitchen or kitchenette
+613|Self-check-in system that’s smooth and stress-free

@@ -1,0 +1,122 @@
+Idioma
+Progresso do curso
+Curso
+Villa minimalista de concreto com uma espreguiçadeira ao lado da piscina
+ex.: Barcelona, Espanha
+Cidade, País
+E-mail frio para um proprietário
+E-mail de acompanhamento depois de uma conversa
+Prévia do folheto informativo para o proprietário: uma capa com o título Rental arbitrage e páginas explicando quem somos e o que fazemos
+Página do Airbnb convidando você a começar a hospedar na sua casa
+ex.: villa, apartamento, loft
+cidade, bairro, o que fica perto
+ex.: piscina, rooftop, Wi-Fi rápido, vista
+ex.: casais, nômades digitais, famílias
+ex.: minimalista, tropical, tranquilo
+cidade/bairro
+ex.: piscina, rooftop, tudo a pé, design, vista
+ex.: Loft Boho com Vista do Rooftop no Centro de Barcelona
+ex.: loft moderno, villa aconchegante
+ex.: luz natural, Wi-Fi rápido, piscina, cozinha, varanda
+ex.: casais, quem trabalha remoto, famílias
+ex.: minimalista, tropical, estiloso, tranquilo
+Modelo de descrição do anúncio
+Nosso anúncio no Airbnb com uma foto de capa grande e quatro fotos menores
+Anúncio no Airbnb do quarto com a mesa que o fazia parecer maior
+Anúncio no Airbnb do quarto espelhado com a mesa menos atraente
+Nossas regras da casa
+Seção O espaço do anúncio mencionando a piscina e a cozinha compartilhadas
+Mensagem de boas-vindas lembrando o hóspede de que a villa é compartilhada
+Seção Sobre este espaço do anúncio dizendo que o restante da villa é compartilhado
+Mensagem aos hóspedes avisando sobre obra por perto e que o preço inclui um desconto
+Seção Outras observações do anúncio mencionando o barulho de obra e o desconto
+A propriedade é privada ou compartilhada com outros hóspedes?
+Número de pessoas na propriedade
+Pergunta se é possível fazer check-in à noite
+Check-in à noite, se passar da meia-noite
+Tem desconto se eu ficar um mês? (se você não oferece)
+Tem desconto se eu ficar um mês? (se você oferece)
+Posso visitar a propriedade?
+Tem estacionamento?
+Alguém reserva para outra pessoa
+Posso cancelar e receber reembolso total? (política de cancelamento rígida, recomendada)
+Guarda de bagagem antes do check-in
+Exceção à política de cancelamento (reembolso total em até 12h depois da reserva)
+Quer mudar as datas a menos de 14 dias do check-in
+Transfer do aeroporto
+Como chegar à villa
+Cancelamento, quer o dinheiro de volta
+Tem ferro de passar?
+Guarda de bagagem depois do checkout: sim (propriedade compartilhada)
+Guarda de bagagem depois do checkout: sim (propriedade privada)
+Guarda de bagagem depois do checkout: não é possível
+Quarto trancado depois do horário de checkout
+Não fez checkout depois das 11h
+Achei que era privado, mas é compartilhado
+Perdi a chave do meu quarto
+Perdi a chave do meu quarto: na hora de cobrar
+Reclamação de barulho (geral), propriedade compartilhada
+Reclamação: barulho alto (hóspede específico), propriedade compartilhada
+Hóspedes deixando bagunça, propriedade compartilhada
+Resposta a uma reclamação, propriedade compartilhada
+Socorro, tem uma aranha no meu quarto
+Contrato de gerente da propriedade
+Contrato de serviços de limpeza
+Contrato de faz-tudo
+Contrato de manutenção de piscina e jardim
+Modelo de mensagem: aviso de organização
+Modelo de mensagem: lembrete final
+Checklist de inspeção de manutenção
+Checklist de inspeção de limpeza
+Tabela do checklist de limpeza profunda
+Tabela de inventário de roupa de cama e itens para hóspedes
+Exemplo de guia de check-in passo a passo com fotos numeradas e setas
+Fechadura inteligente com teclado e app no celular
+Cofre de chave com senha guardando chaves
+Dispositivo de interfone inteligente
+Configuração de mensagem programada do Airbnb com a opção Enviar para reservas de última hora e estadias curtas ativada
+Tela do Airbnb Defina suas tarifas sazonais e disponibilidade, com um botão para criar um conjunto de regras
+1. Mensagem de boas-vindas
+2. Instruções de check-in
+3. Perguntar se está tudo bem
+4. Instruções de checkout
+5. Deixe uma avaliação
+Planilha de controle de lucro para várias propriedades
+Prazo
+Adicione sua própria tarefa
+ex.: Casa Mewali
+Insira o endereço completo
+Insira os detalhes
+Instruções de acesso passo a passo
+ex.: A partir das 15h
+ex.: Até as 11h
+ex.: +00 00 0000 0000
+Insira nome + número
+Link para a galeria
+Link opcional para imagem ou desenho
+Paleta de cores, guia de estilo, regras de decoração
+Link para o seu checklist de limpeza
+ex.: 3 dias
+ex.: trocadas se deixadas no cesto de roupa
+ex.: Papel higiênico, sabonete, sacos de lixo etc.
+ex.: Embaixo da pia da cozinha ou no depósito
+Onde encontrar
+Nome da pessoa ou função responsável
+ex.: €50/mês
+Nome + número
+Processo ou instruções do grupo
+Links para PDFs ou fotos dos manuais importantes
+ex.: lâmpadas e pilhas reserva – local
+Copie do seu anúncio no Airbnb ou use uma versão simplificada
+Incêndio, vazamento, hóspede trancado para fora etc.
+valor em €
+Link de convite
+nome e telefone
+DESTINO
+MOEDA
+Modelo de negócio
+Taxa de ocupação no pior cenário, em porcentagem
+Taxa de ocupação média, em porcentagem
+Taxa de ocupação no melhor cenário, em porcentagem
+Gráfico de linhas: lucro acumulado subindo e capital inicial restante caindo até o ponto de equilíbrio, na taxa de ocupação média
+Visualizador de imagem

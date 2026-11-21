@@ -1,0 +1,207 @@
+240|Os hóspedes alugam um quarto e compartilham as áreas comuns.
+1944|Pessoa da limpeza (reserva)
+1945|Serviço de lavanderia
+1946|Piscineiro e jardineiro
+1947|Coleta de lixo
+1948|Códigos importantes
+1949|Código da porta da frente
+1950|Código do cofre de chave
+1951|Os códigos ficam guardados só neste navegador, neste dispositivo. Altere aqui sempre que mudar na propriedade.
+1952|<small>← Voltar</small>Checklist de montagem
+1953|<small>Próximo →</small>Calculadora de lucro
+1954|Add-on · Lucro e ROI
+1955|Calculadora de lucro e ROI do <x1>Airbnb</span>
+1956|Anfitriões inteligentes fazem as contas primeiro; a emoção vem depois.
+1957|Antes de assinar um contrato ou investir em móveis, é fundamental entender seus números. Esta Calculadora de Lucro e ROI te ajuda a estimar quanto uma propriedade pode render e quanto tempo vai levar para recuperar seu investimento inicial.
+1958|Ela foi pensada para te dar um retrato rápido e realista de: lucro mensal e anual, retorno sobre o investimento (ROI), prazo até o ponto de equilíbrio e como seus números mudam em diferentes taxas de ocupação.
+1959|Como usar
+1960|<strong>Passo 1:</strong> escolha sua moeda e preencha as despesas do seu negócio.
+1961|<strong>Passo 2:</strong> escolha seu modelo de negócio e insira seus números em “Insira seus dados aqui”. As tabelas se atualizam automaticamente.
+1962|Analise os resultados em diferentes taxas de ocupação (70%, 85%, 95%) para ver como cada cenário se comporta.
+1963|Para mais explicações sobre um campo, toque em “O que é isso?” abaixo dele. Seus números ficam salvos neste dispositivo.
+1964|Passo 1 <x1>visão geral das despesas do negócio</span>
+1965|Calcule primeiro as despesas do seu negócio. Se precisar de ajuda para estimar algum custo, use o prompt de IA abaixo. Depois de preenchidas, suas despesas entram automaticamente nas três calculadoras do passo 2.
+1966|Escolha a moeda
+1967|EUR
+1968|USD
+1969|CAD
+1970|BRL
+1971|IDR
+1972|THB
+1973|AUD
+1974|MXN
+1975|JPY
+1976|CHF
+1977|AED
+1978|Muda a moeda em toda a calculadora.
+1979|Custos mensais
+1980|Contas de consumo
+1981|Eletricidade
+1982|Gás (opcional)
+1983|Internet
+1984|Água
+1985|Seguro (opcional)
+1986|Total
+1987|Equipe
+1988|Limpeza 1
+1989|Limpeza 2 (opcional)
+1990|Gerente (opcional)
+1991|Piscineiro (opcional)
+1992|Jardineiro (opcional)
+1993|Contador (opcional)
+1994|Outros custos
+1995|Suprimentos
+1996|Manutenção mensal
+1997|Custos únicos
+1998|Montagem
+1999|Área externa (opcional)
+2000|Não sabe quanto vai custar a montagem? O <x1>checklist de montagem</a> te dá um orçamento estimado, cômodo por cômodo.
+2001|Total de custos mensais
+2002|Total de custos únicos
+2003|Prompt de IA: estimar meus custos
+2004|Você é um especialista em negócios de Airbnb.⏎⏎Estou planejando uma propriedade de Airbnb em <x1></mark>, com [Nº DE QUARTOS] quartos, limpa [FREQUÊNCIA DE LIMPEZA POR MÊS] vezes por mês.⏎⏎Por favor, me dê estimativas realistas de custos médios mensais e de custos únicos para esse destino, com base em operações típicas de aluguel de curta duração.⏎⏎Use <x2></mark> em todos os valores.⏎⏎Detalhe os custos na seguinte estrutura:⏎Despesas mensais: Contas de consumo (eletricidade, gás se houver, internet, água, seguro), Equipe (limpeza com base na frequência acima, faz-tudo, gerente da propriedade se for comum nesse destino, piscineiro se houver, jardineiro se houver, contador / administrativo), Outras despesas mensais (suprimentos como itens de higiene e consumíveis com base na rotatividade, reserva de manutenção).⏎⏎Custos únicos de montagem: montagem da cozinha, da sala, do quarto, do banheiro, da lavanderia, da área externa / piscina se houver.⏎⏎Para cada custo, informe:⏎- Uma faixa média realista (mínimo–máximo)⏎- Uma estimativa recomendada para usar no planejamento financeiro⏎⏎Mencione também:⏎- Custos que costumam ser subestimados nesse destino⏎- Se os custos são mais altos ou mais baixos que a média em comparação com mercados parecidos⏎⏎Mantenha a resposta prática, realista e pronta para inserir direto em uma calculadora de lucro e ROI de Airbnb.
+2005|Precisa de uma ajudinha? Preencha suas informações nos colchetes, depois copie e cole no seu assistente de IA.
+2006|Passo 2 <x1>faça as contas para o seu modelo de negócio</span>
+2007|Alugar uma propriedade
+2008|Comprar uma propriedade
+2009|Arrendar uma propriedade (leasehold)
+2010|Rental arbitrage <x1>calculadora de lucro</span>
+2011|Insira seus dados aqui
+2012|Aluguel mensal
+2013|O que é isso?
+2014|Quanto é o aluguel mensal?
+2015|Depósito caução
+2016|0 aluguel mensal
+2017|1 aluguel mensal
+2018|2 aluguéis mensais
+2019|3 aluguéis mensais
+2020|4 aluguéis mensais
+2021|5 aluguéis mensais
+2022|Selecione quantos meses de depósito a imobiliária ou o proprietário está pedindo.
+2023|Custos administrativos extras
+2024|Os custos administrativos extras podem incluir impostos sobre o aluguel, taxas de imobiliária...
+2025|Quartos
+2026|Quantos quartos você vai alugar?
+2027|Diária por quarto
+2028|É o preço que os hóspedes vão pagar pelo seu quarto por noite. Para estimar a diária, recomendo fazer dois tipos de pesquisa:
+2029|Veja anúncios parecidos na plataforma do Airbnb.
+2030|Use uma ferramenta de dados de mercado, como AirDNA ou AirROI, para analisar as métricas locais.
+2031|O Airbnb aplica taxas da plataforma e impostos de aproximadamente 17%, dependendo do país. Essas taxas normalmente são pagas pelo hóspede. Por isso, os preços que você vê no Airbnb como viajante geralmente já incluem esses 17% adicionais.
+2032|Investimento inicial total
+2033|Despesas mensais
+2034|Do passo 1.
+2035|Alterar
+2036|Receita mensal
+2037|Lucro mensal
+2038|Lucro anual
+2039|ROI
+2040|Ponto de equilíbrio
+2041|Pior cenário
+2042|Médio
+2043|Melhor cenário
+2044|O que significam as colunas?
+2045|<strong>Taxa de ocupação.</strong> A taxa de ocupação é a porcentagem de aluguel, ou seja, quantos dias sua acomodação fica alugada em relação aos dias vazia. Por exemplo: se sua propriedade é reservada por 15 dias no mês e os outros 15 ficam sem aluguel, sua taxa de ocupação é de 50%. Pior cenário, médio e melhor cenário são a pior, a média e a melhor ocupação da região onde você vai começar. Você pode alterar cada porcentagem.
+2046|<strong>Receita mensal.</strong> Quanto você ganharia por mês antes de descontar qualquer despesa, também chamada de lucro bruto mensal.
+2047|<strong>Custos mensais.</strong> Os custos para gerenciar uma propriedade no Airbnb: limpeza, produtos de limpeza, serviços de faz-tudo, contas de consumo (água, eletricidade, gás, internet)... Você pode alterá-los no passo 1.
+2048|<strong>Lucro mensal.</strong> Sua receita estimada depois de subtrair todos os custos mensais recorrentes, como aluguel, equipe, contas de consumo e limpeza.
+2049|<strong>ROI.</strong> É o retorno anual sobre o investimento, em porcentagem.
+2050|<strong>Ponto de equilíbrio.</strong> Quanto tempo (em meses) vai levar para recuperar seu investimento inicial.
+2051|Lucro em 5 anos
+2052|Cenário
+2053|×1 propriedade
+2054|×2 propriedades
+2055|×4 propriedades
+2056|Seu lucro estimado depois de 5 anos com 1, 2 ou 4 propriedades parecidas.
+2057|Lucro e meses até o ponto de equilíbrio
+2058|<x1></i>Lucro
+2059|<x1></i>Capital inicial
+2060|Na sua taxa de ocupação média. As linhas se cruzam na metade do caminho até o ponto de equilíbrio; a linha do capital chega a zero no ponto de equilíbrio.
+2061|Meses
+2062|Lucro
+2063|Capital inicial
+2064|A tabela não considera impostos, pois eles mudam em cada país. Você ainda precisa considerar:
+2065|Imposto de renda da empresa
+2066|Tudo bem se você quiser começar pequeno e não abrir uma empresa, mas tenha em mente o imposto de renda da empresa se no futuro planejar abrir uma para gerenciar suas propriedades.
+2067|Taxa de turismo
+2068|Algumas cidades aplicam taxas de turismo diretamente pela plataforma do Airbnb. Verifique o que se aplica no seu local.
+2069|Imposto sobre dividendos
+2070|Se você já tem uma empresa para gerenciar sua propriedade e planeja transferir lucro da empresa para sua conta pessoal, considere os impostos sobre dividendos aplicáveis onde você é residente fiscal.
+2071|Proprietário <x1>calculadora de lucro</span>
+2072|Preço da propriedade
+2073|Quanto custa a propriedade?
+2074|Os custos administrativos extras podem incluir impostos de compra, taxas de imobiliária...
+2075|Leasehold <x1>calculadora de lucro</span>
+2076|Preço do leasehold
+2077|Quanto você paga pelo leasehold?
+2078|*Leasehold é quando você arrenda uma propriedade por longo prazo, muitas vezes por vários anos, com o direito de usá-la como se fosse sua. Em lugares como Bali, estrangeiros não podem ser donos de terra, então o leasehold é a forma mais comum de controlar legalmente uma propriedade e lucrar com ela sem de fato comprá-la. Você paga adiantado ou por ano e, em troca, tem uso total da propriedade durante o prazo do contrato.
+2079|<strong>Nota:</strong> os impostos não estão incluídos nesta calculadora, pois variam de país para país. Lembre-se de considerar o imposto de renda local ou da empresa, as taxas de turismo/ocupação e o imposto sobre dividendos ou ganho de capital, se houver.
+2080|Use esta ferramenta antes de se comprometer com qualquer propriedade. Se os números não fecham no papel, não vale o risco.
+2081|© Todos os direitos reservados. Não compartilhe, copie, reproduza ou venda qualquer parte deste documento sem a permissão por escrito de Farah Cuyvers e Daniel Martí. Todas as infrações serão processadas.
+2082|<small>← Voltar</small>Manual da propriedade
+2083|<small>Próximo →</small>Add-ons
+2084|Vá mais <x1>fundo</span>
+2085|Minicursos opcionais para mercados específicos.
+2086|Rascunho para Daniel e Farah:
+2087|estes dois cards são provisórios. Os títulos e os tópicos são sugestões tiradas do que o guia já diz sobre cada mercado. As aulas em si ainda não foram escritas, e os botões de desbloqueio serão conectados ao pagamento quando configurarmos o checkout.
+2088|Bloqueado · add-on
+2089|Minicurso Barcelona
+2090|Como gerenciamos cinco apartamentos em uma das cidades mais difíceis para aluguel de curta duração.
+2091|O modelo de 31+ noites que funciona sem licença turística
+2092|Como encontrar proprietários em Barcelona e apresentar sua proposta
+2093|Apartamentos compartilhados: quartos, regras e preços
+2094|Desbloquear (em breve)
+2095|Minicurso Indonésia
+2096|Dos apartamentos em Barcelona à villa dos nossos sonhos em Bali.
+2097|Por que Bali é mais aberta ao aluguel de curta duração
+2098|Gerenciar uma villa de outro país com uma equipe local
+2099|Extras que vendem: café da manhã flutuante, transfers e parceiros locais
+2100|<small>← Voltar</small>Calculadora de lucro
+2101|<small>Próximo →</small>Kit inicial do anfitrião
+2102|Bônus
+2103|Kit inicial do <x1>anfitrião</span>
+2104|Todos os modelos, ferramentas e recursos bônus mencionados no curso em um só lugar, para acesso fácil.
+2105|Parte 1: fundamentos
+2106|Checklist de tarefas do roadmap de 30 dias
+2107|Checklist de tarefas do roadmap para lançar sua primeira propriedade.
+2108|Abrir o roadmap
+2109|Ferramentas indispensáveis
+2110|Os apps e sites para começar.
+2111|Ver a lista
+2112|Calculadora de lucro e ROI
+2113|Alugar, comprar ou arrendar: faça as contas na página.
+2114|Dê nota a uma propriedade na página e veja o resultado.
+2115|Abrir o capítulo 3
+2116|Scripts, modelos de e-mail e guia de pitch
+2117|E-mail frio, pitch presencial, e-mail de acompanhamento, cola de objeções e o folheto para o proprietário.
+2118|Abrir o capítulo 4
+2119|Parte 2: lançamento
+2120|Checklist completo de montagem do Airbnb
+2121|Móveis, decoração e essenciais, cômodo por cômodo.
+2122|Abrir o checklist
+2123|Livreto de boas-vindas editável para o Airbnb.
+2124|Abrir no Canva
+2125|Checklist de otimização do anúncio
+2126|A versão para marcar fica no fim do Capítulo 6.
+2127|Biblioteca de respostas rápidas
+2128|Modelos de atendimento ao hóspede.
+2129|Abrir o capítulo 7
+2130|Parte 3: sistemas e escala
+2131|Modelos de contratos / acordos
+2132|Quatro contratos para sua equipe, para editar ou baixar.
+2133|Abrir o capítulo 8
+2134|Inspeções de manutenção e de limpeza, para editar ou baixar.
+2135|Abrir o capítulo 9
+2136|Preencha uma vez e compartilhe com sua equipe.
+2137|Abrir o manual
+2138|Turnover e limpeza profunda.
+2139|Abrir no Drive
+2140|Suprimentos e roupa de cama.
+2141|Receita, despesas e lucro por propriedade.
+2142|<small>← Voltar</small>Add-ons
+2143|<small>Próximo →</small>Prompts e modelos
+2144|Prompts e <x1>modelos</span>
+2145|Todos os prompts de IA e mensagens prontas para copiar do curso, em um só lugar.
+2146|<small>← Voltar</small>Kit inicial do anfitrião
+2147|Ampliar
+2148|Fechar
+3|Curso de Airbnb

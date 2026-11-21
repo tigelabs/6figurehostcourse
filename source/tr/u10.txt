@@ -1,0 +1,205 @@
+1944|Cleaner (backup)
+1945|Laundry service
+1946|Pool &amp; garden guy
+1947|Trash service
+1948|Important codes
+1949|Code front door
+1950|Code lock box
+1951|Codes are stored only in this browser, on this device. Change them here whenever you change them at the property.
+1952|<small>← Back</small>Setup checklist
+1953|<small>Next →</small>Profit calculator
+1954|Add-on · Profit &amp; ROI
+1955|Airbnb profit &amp; ROI <x1>calculator</span>
+1956|Smart Airbnb hosts run the numbers first, emotion comes second.
+1957|Before signing a lease or investing in furniture, it’s crucial to understand your numbers. This Profit &amp; ROI Calculator helps you estimate how much income a property can generate and how long it will take to earn back your initial investment.
+1958|It’s designed to give you a quick, realistic snapshot of: monthly and yearly profit, return on investment (ROI), break-even timeline, and how your numbers shift at different occupancy rates.
+1959|How to use it
+1960|<strong>Step 1:</strong> choose your currency and fill in your business expenses.
+1961|<strong>Step 2:</strong> pick your business model and enter your numbers under “Enter your data here”. The tables update automatically.
+1962|Review the results at different occupancy rates (70%, 85%, 95%) to see how scenarios play out.
+1963|For more explanation of a field, tap “What is this?” under it. Your numbers are saved on this device.
+1964|Step 1 <x1>business expenses overview</span>
+1965|Calculate your business expenses first. If you need help estimating any costs, use the AI prompt below. Once completed, your expenses automatically flow into the three calculators in step 2.
+1966|Choose currency
+1967|EUR
+1968|USD
+1969|CAD
+1970|BRL
+1971|IDR
+1972|THB
+1973|AUD
+1974|MXN
+1975|JPY
+1976|CHF
+1977|AED
+1978|Changes the currency everywhere in the calculator.
+1979|Monthly costs
+1980|Utilities
+1981|Electricity
+1982|Gas (optional)
+1983|Internet
+1984|Water
+1985|Insurance (optional)
+1986|Total
+1987|Team
+1988|Cleaner 1
+1989|Cleaner 2 (optional)
+1990|Manager (optional)
+1991|Pool cleaner (optional)
+1992|Gardener (optional)
+1993|Accountant (optional)
+1994|Other costs
+1995|Supplies
+1996|Monthly maintenance
+1997|One-time costs
+1998|Set up
+1999|Outside area (optional)
+2000|Not sure what the setup will cost? The <x1>setup checklist</a> gives you an estimated budget, room by room.
+2001|Total monthly costs
+2002|Total one-time costs
+2003|AI prompt: estimate my costs
+2004|You are an Airbnb business expert.⏎⏎I am planning an Airbnb property in <x1></mark>, with [# BEDROOMS] bedrooms, cleaned [CLEANING FREQUENCY PER MONTH] times per month.⏎⏎Please give me realistic average monthly and one-time cost estimates for this destination, based on typical short-term rental operations.⏎⏎Use <x2></mark> for all numbers.⏎⏎Break down the costs in the following structure:⏎Monthly expenses: Utilities (electricity, gas if applicable, internet, water, insurance), Team (cleaner based on the cleaning frequency above, handyman, property manager if commonly used in this destination, pool cleaner if applicable, gardener if applicable, accountant / admin), Other monthly expenses (supplies such as toiletries and consumables based on turnover, maintenance reserve).⏎⏎One-time setup costs: Kitchen setup, living room setup, bedroom setup, bathroom setup, laundry setup, outdoor / pool area if applicable.⏎⏎For each cost, provide:⏎- A realistic average range (low–high)⏎- A recommended estimate to use for financial planning⏎⏎Also mention:⏎- Any costs that are commonly underestimated in this destination⏎- Whether costs are higher or lower than average compared to similar markets⏎⏎Keep the answer practical, realistic, and suitable for plugging directly into an Airbnb profit &amp; ROI calculator.
+2005|Need a little help? Fill in your info in the brackets, then copy and paste into your AI assistant.
+2006|Step 2 <x1>run the numbers for your business model</span>
+2007|Renting a property
+2008|Buying a property
+2009|Leasing a property
+2010|Rental arbitrage <x1>profit calculator</span>
+2011|Enter your data here
+2012|Monthly rent
+2013|What is this?
+2014|How much is the monthly rental?
+2015|Security deposit
+2016|0 monthly rent
+2017|1 monthly rent
+2018|2 monthly rents
+2019|3 monthly rents
+2020|4 monthly rents
+2021|5 monthly rents
+2022|Select how many months of deposit the agency or owner is asking.
+2023|Extra admin costs
+2024|Extra admin costs can include rental taxes, agency fees ...
+2025|Rooms
+2026|How many rooms are you going to rent?
+2027|Nightly price per room
+2028|This is the price that guests will pay for your room per night. To estimate the nightly rate, I recommend doing two types of research:
+2029|Check similar listings on the Airbnb platform.
+2030|Use a market data tool like AirDNA or AirROI to review local metrics.
+2031|Airbnb applies platform fees and taxes of approximately 17%, depending on the country. These fees are typically paid by the guest. Therefore, the prices you see on Airbnb as a traveler usually already include this additional 17%.
+2032|Total initial investment
+2033|Monthly expenses
+2034|From step 1.
+2035|Change them
+2036|Monthly income
+2037|Monthly profit
+2038|Yearly profit
+2039|ROI
+2040|Break even
+2041|Worst-case
+2042|Average
+2043|Best-case
+2044|What do the columns mean?
+2045|<strong>Occupancy rate.</strong> The occupation rate is the rental percentage, like how many days your accommodation is rented vs empty. For example: if your property gets booked for 15 days in the month and the other 15 days are not rented, your occupation rate is 50%. Worst-case, average and best-case are the worst, average and best occupancy in the zone where you are going to start. You can change each percentage.
+2046|<strong>Monthly income.</strong> How much you would earn per month before deducting any expenses — also called Monthly Gross Profit.
+2047|<strong>Monthly costs.</strong> The costs to manage an Airbnb property: cleaners, cleaning products, handyman services, utility bills (water, electricity, gas, internet) ... You can change them in step 1.
+2048|<strong>Monthly profit.</strong> Your estimated income after subtracting all recurring monthly costs, such as rent, team, utilities and cleaning costs.
+2049|<strong>ROI.</strong> This is the annual return of investment in percentage.
+2050|<strong>Break even.</strong> How long (in months) it will take to recover your initial investment.
+2051|5 year profit
+2052|Scenario
+2053|×1 property
+2054|×2 properties
+2055|×4 properties
+2056|Your estimated profit after 5 years with 1, 2 or 4 similar properties.
+2057|Profit and months for break even
+2058|<x1></i>Profit
+2059|<x1></i>Initial capital
+2060|At your average occupancy rate. The lines cross halfway to break even; the capital line reaches zero at break even.
+2061|Months
+2062|Profit
+2063|Initial capital
+2064|The table does not consider taxes as it changes in every country, you still need to consider:
+2065|Company income tax
+2066|That’s ok if you want to start small and do not open a company, but you should be aware of the company income tax if in the future you plan to open a company to manage your properties.
+2067|Touristic tax
+2068|Some cities apply touristic taxes directly through the Airbnb platform. You need to check what applies at your place.
+2069|Dividends income tax
+2070|If you already have a company to manage your property and plan to take profit from the company to your personal account, you should consider the applicable dividend taxes where you are fiscal resident.
+2071|Property owner <x1>profit calculator</span>
+2072|Property price
+2073|How much does the property cost?
+2074|Extra admin costs can include purchase taxes, agency fees ...
+2075|Leasehold <x1>profit calculator</span>
+2076|Lease price
+2077|How much do you pay for the lease?
+2078|*A leasehold is when you rent a property long-term, often for several years, with the right to use it as your own. In places like Bali, foreigners can’t own land, so leaseholds are the most common way to legally control and profit from a property without actually buying it. You pay upfront or yearly, and in return, you get full use of the property for the length of the lease.
+2079|<strong>Note:</strong> Taxes are not included in this calculator, as they vary by country. Be sure to account for local income or corporate tax, tourist/occupancy taxes, and dividend or capital gain tax if applicable.
+2080|Use this tool before committing to any property. If the numbers don’t look good on paper, it’s not worth the risk.
+2081|© All rights reserved. Do not share, copy, reproduce or sell any part of this document unless you have written permission from Farah Cuyvers and Daniel Martí. All infringements will be prosecuted.
+2082|<small>← Back</small>Property manual
+2083|<small>Next →</small>Add-ons
+2084|Go <x1>deeper</span>
+2085|Optional mini courses for specific markets.
+2086|Draft for Daniel &amp; Farah:
+2087|these two cards are placeholders. The titles and bullet points are suggestions taken from what the guide already says about each market. The lessons themselves are not written yet, and the unlock buttons will be connected to payment when we set up checkout.
+2088|Locked · add-on
+2089|Barcelona mini course
+2090|How we run five apartments in one of the most difficult cities for short-term rentals.
+2091|The 31+ night model that works without a tourist license
+2092|Finding and pitching landlords in Barcelona
+2093|Shared apartments: rooms, rules and pricing
+2094|Unlock (coming soon)
+2095|Indonesia mini course
+2096|From Barcelona apartments to our dream villa in Bali.
+2097|Why Bali is more open to short-term rentals
+2098|Running a villa from another country with a local team
+2099|Extras that sell: floating breakfasts, transfers and local partners
+2100|<small>← Back</small>Profit calculator
+2101|<small>Next →</small>Host starter kit
+2102|Bonus
+2103|Host starter <x1>kit</span>
+2104|All templates, tools, and bonus resources mentioned in the course in one place for easy access.
+2105|Part 1: foundations
+2106|30-day roadmap task checklist
+2107|Roadmap task checklist to launching your first property.
+2108|Open roadmap
+2109|Must-have tools
+2110|The apps and websites to get started.
+2111|See the list
+2112|Profit and ROI calculator
+2113|Renting, buying or leasing: run the numbers on the page.
+2114|Score a property on the page and see the result.
+2115|Open chapter 3
+2116|Scripts, email templates &amp; pitch guide
+2117|Cold email, face-to-face pitch, follow-up email, objection cheat sheet and the landlord brochure.
+2118|Open chapter 4
+2119|Part 2: launching
+2120|Full Airbnb setup checklist
+2121|Furniture, decor &amp; essentials, room by room.
+2122|Open checklist
+2123|Editable Airbnb welcome booklet.
+2124|Open in Canva
+2125|Listing optimization checklist
+2126|The tick-off version lives at the end of Chapter 6.
+2127|Quick replies library
+2128|Customer service templates.
+2129|Open chapter 7
+2130|Part 3: systems and scaling
+2131|Contract / agreement templates
+2132|Four agreements for your team, to edit or download.
+2133|Open chapter 8
+2134|Maintenance and cleaning inspections, to edit or download.
+2135|Open chapter 9
+2136|Fill it in once and share it with your team.
+2137|Open manual
+2138|Turnover &amp; deep-clean.
+2139|Open in Drive
+2140|Supplies and linens.
+2141|Income, expenses and profit per property.
+2142|<small>← Back</small>Add-ons
+2143|<small>Next →</small>Prompts &amp; templates
+2144|Prompts &amp; <x1>templates</span>
+2145|Every AI prompt and copy-paste message from the course, in one place.
+2146|<small>← Back</small>Host starter kit
+2147|Zoom in
+2148|Close

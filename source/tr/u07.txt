@@ -1,0 +1,193 @@
+1191|Ensure all items go back in the right place
+1192|Help new team members quickly understand the system
+1193|Make your space more intuitive for guests
+1194|Avoid loss or misuse of supplies
+1195|Reduce daily questions and communication
+1196|What to Label:
+1197|For guests:
+1198|Fridge shelves (label with room/suite names or numbers)
+1199|Kitchen cabinets or drawers (clearly mark shared vs. private)
+1200|Water dispensers (e.g. “Drinking Water Only”)
+1201|Trash &amp; recycling bins
+1202|Which program you recommend on the washing machine
+1203|Bathroom storage areas (“Shared” / “Private”)
+1204|For staff use:
+1205|Cleaning product shelves or boxes
+1206|Supply restock bins (e.g. “spare towels”, “toilet paper stock”)
+1207|Lost &amp; Found box
+1208|Garden tools or pool supply storage
+1209|Instructions for wash cycles on the washing machine
+1210|Laundry room baskets (e.g. “dirty towels”, “stained sheets”, “ready to wash”)
+1211|Label Tips:
+1212|Use laminated or waterproof labels in kitchens, bathrooms, and outdoor areas.
+1213|For visual clarity, include icons or color codes if your team includes non-native speakers. Here is a website with free icons that you can use: www.flaticon.com
+1214|Make sure all labels are consistent in font, size, and wording.
+1215|Labels sometimes need to be renewed. Therefore, it's useful to invest in a plastifying machine or label maker. It doesn't need to be an expensive one, just a simple one will do.
+1216|KEEP IT SIMPLE! Stick to clear, simple wording: e.g., “Suite 1 Shelf”, “Refills Only”, “Not for Guests”. Don't add multiple languages cause too much text gets overwhelming. Use 1 language eg: English and icons or images.
+1217|Little details that save big headaches
+1218|Once your operations are up and running, it’s the tiny things. The ones no one thinks to document that can cause the biggest slowdowns.
+1219|Whether it’s a cleaner using the wrong washing cycle or a guest confused about the trash bins, small issues pile up fast when you’re managing multiple listings.
+1220|Here are the extra details that can save you hours of messages, confusion, and fire-fighting:
+1221|<strong>Label the washing machine programs</strong> so your team knows exactly which settings to use. We even add a label that says 'WASH' on the machine so you avoid that guest use large programs of 3 hours which saves you energy (a lot of people don't know how to use a washing machine).
+1222|<strong>Label how things work</strong> like the coffee machine, how to turn on the heater,... especially in shared apartments where guests may not figure it out on their own.
+1223|<strong>Take photos of everything: </strong>electricity box, boiler, heating controls, WiFi router and store them in your house manual for easy reference whenever you have to explain something to a guest.
+1224|<strong>Keep 1 extra set of pillow protectors and mattress covers </strong>per property so they can be washed without ever leaving the bed unprotected.
+1225|<strong>Buy stainless steel pans</strong> they last longer and look cleaner for longer too.
+1226|<strong>Stock up on small spoons.</strong> They always go missing. Always.
+1227|<strong>Add visual trash instructions: </strong>include labeled photos or icons showing guests exactly where and how to separate and dispose of waste.
+1228|Pro tip: If a guest reports that “something isn’t working”, <strong>always ask for a quick video</strong> or offer to jump on a video call before sending maintenance. Maybe they are just using it the wrong way and it's not broken at all.
+1229|This one step alone can save time, unnecessary callouts, and help you diagnose issues faster.
+1230|The shared spaces special
+1231|Essential things you need to know
+1232|Managing shared apartments where guests have private rooms but share common areas like kitchens, bathrooms, or living rooms can be a profitable setup. But it comes with its own set of rules, systems, and potential friction points.
+1233|Here’s what makes shared spaces different and how to manage them smoothly:
+1234|Set<strong> clear boundaries</strong> from day one and add clear house rules to your listing.
+1235|Be specific in your listing and guest messages about what’s private vs. shared.
+1236|Include photos, floor plans, and highlight any rules around shared areas (quiet hours, no personal items in common spaces, etc).
+1237|Every private room should have a secure <strong>bedroom door lockfrom both the inside and outside.</strong> It’s non-negotiable for safety, privacy, and guest trust.
+1238|Give your guests <strong>dedicated spaces that are clearly labeled </strong>eg: in shared kitchens or bathrooms, label shelves, drawers, and even fridge sections.
+1239|<strong>Schedule more frequent cleanings</strong> even daily in high-turnover properties. Shared spaces can get messy fast, and cleanliness is one of the top review killers in co-living setups.
+1240|<strong>Have extra items</strong> such as towels, toilet paper, small utensils, mugs,...so there are enough items for everyone to use.
+1241|<strong>Fast conflict resolution:</strong> if one guest complains about another, respond fast, stay neutral, and offer solutions (like changing rooms or reinforcing rules). Check the 'common replies' template in chapter 7 for message templates you can use to deal with complaints.
+1242|PRO TIP:
+1243|Install a shared house rules sign (or mini welcome booklet) in the living room or kitchen. Keep it friendly, clear, and simple it’s a subtle way to guide behavior and avoid awkward situations.
+1244|The 3-step decluttering process for shared spaces
+1245|Over time, shared spaces like the kitchen and bathroom can get cluttered with items left behind by previous guests or tenants, especially in longer stays or co-living setups. This creates mess, confusion, and even hygiene issues.
+1246|To maintain a clean, welcoming space for everyone, it’s important to periodically reset and declutter. Here’s a simple system you can use to clear shared areas without causing misunderstandings or tension.
+1247|There are two main approaches that we recommend to avoid removing items that are still in use.
+1248|The “lost &amp; found” system
+1249|Designate a specific spot for unclaimed or leftover items, like a basket in the bathroom or a drawer in the freezer. Let guests know that anything placed there will be removed after a set deadline.
+1250|This method works especially well for things like shampoo bottles, freezer items, or personal belongings left in shared spaces.
+1251|The label system
+1252|Place a roll of tape and a marker near shared storage areas (like the fridge door or pantry). Ask guests to label their items with their name. Anything left unlabeled will be cleared out.
+1253|Key areas to declutter:
+1254|Shampoo and soap bottles in the shower
+1255|Freezer and fridge door
+1256|Unlabeled drawers and shelves
+1257|Random items in common areas
+1258|1. Start with a deep clean
+1259|Start with a full cleaning of shared areas, especially the kitchen, bathroom, and hallway. This is the best time to spot forgotten items, expired food, or things taking up unnecessary space. Depending on the decluttering method you choose, either place these items in a designated removal spot or start labeling them with tape and a marker.
+1260|2. Communicate clearly &amp; kindly
+1261|Even if you've spoken to someone in person, follow up with a message to set clear expectations and avoid any surprises. Include a short deadline and explain the decluttering method to identify or collect their items. Make sure to send a reminder the day before you are removing the items.
+1262|3. Set a clear removal date
+1263|Give a 48–72 hour window for people to claim their belongings. After that, remove everything left behind. Optional: allow remaining items to be “adopted” before discarding eg: this is the last chance to collect your items. Anything still here after [time] is free to be taken or will be discarded.
+1264|You can send this as a WhatsApp, Airbnb or group message after a deep clean:
+1265|Message template: declutter announcement
+1266|Message template: final reminder
+1267|Routine property inspections
+1268|(every 6 months)
+1269|No matter how clean or well-managed your property is, wear and tear is inevitable. That’s why doing a full fix-up<strong> every 6 months</strong> is key to maintaining high standards, avoiding complaints, and keeping your property looking fresh and professional. This can be done by you or a manager.
+1270|This doesn’t have to be a massive renovation, think of it as a deep maintenance check- up.
+1271|🔧 Maintenance inspection
+1272|Fill any holes or scratches in the wall using wall putty or filler
+1273|Repaint scuffed or stained areas for a clean finish
+1274|Check for any signs of mold, leaks, or humidity
+1275|Tighten loose screws (shelves, handles, fixtures)
+1276|Replace missing or broken items (remotes, kitchenware, lightbulbs)
+1277|Deep clean or replace air filters and check AC units
+1278|👀 Cleaning inspection
+1279|Even with a great cleaner, some things can get overlooked over time. Do a surprise visit or ask your manager for a video call walk-through. Check these often-missed details:
+1280|Inside the trash bin (clean or smelly?)
+1281|Inside the microwave (clean?)
+1282|Inside the freezer (accumulated items or ice?)
+1283|Light switches (dirty or not working?)
+1284|Power plugs (clean?)
+1285|Behind doors, under beds, and top shelves
+1286|Start a new inspection
+1287|This 6-month fix-up routine helps you:
+1288|Prevent negative reviews
+1289|Keep your maintenance budget low by catching small issues early
+1290|Maintain property value over time
+1291|Consistency is everything. Add a recurring reminder to your calendar and make it part of your hosting system. A well-maintained property speaks volumes and keeps guests coming back.
+1292|Bonus: checklists, property manual and inventory
+1293|Property inspection checklists
+1294|To maintain high standards across your Airbnb properties, it's essential to have clear inspection systems in place. The Maintenance Checklist helps your manager spot and fix small issues before they turn into costly repairs, ensuring everything is functional, safe, and guest-ready.
+1295|Meanwhile, the Cleaning Inspection Checklist is designed to uphold your property's cleanliness, organization, and hygiene beyond the basic turnover by focusing on deeper tasks that are often overlooked. Both lists should be used regularly (at least once a month for maintenance and weekly for cleaning) to protect your property, impress guests, and reduce negative reviews.
+1296|Maintenance inspection
+1297|Cleaning inspection
+1298|Maintenance inspection checklist
+1299|Use it at least once a month.
+1300|Cleaning inspection checklist
+1301|Use it weekly.
+1302|This is your go-to hub for everything related to the property. From how to check in and where extra towels are stored, to emergency contacts, appliance instructions, and restocking guides, it’s all here.
+1303|Whether you’re training a new team member, managing remotely, or just want things to run smoothly, this centralized system keeps everyone aligned and your Airbnb business running like a well-oiled machine.
+1304|Fill it in once, here in the course, then copy or download it for your team.
+1305|Open your property manual
+1306|Cleaning checklists for turnovers &amp; deep-clean
+1307|Consistency is key to delivering a high-quality guest experience and that starts with a clear system. These checklists are designed to help you or your team follow the same process every time, ensuring your property stays spotless, functional, and welcoming.
+1308|Print your checklists and display them in a visible spot, preferably laminated so they’re reusable. Use dry-erase markers to tick off tasks without needing to reprint.
+1309|Deep-clean checklist
+1310|Add reference photos of the bed setup and key areas of the property. This ensures your team maintains consistency and the space always looks just like it does in the listing photos.
+1311|Turnover checklist
+1312|37 steps in the order that saves your cleaner the most time.
+1313|Tasks by zone, each with its frequency and a date grid to tick.
+1314|Pool &amp; garden checklist
+1315|Plants, garden and pool, with frequencies.
+1316|Inventory overview
+1317|Keeping track of your supplies and linens is essential for smooth operations, especially as you scale or work with a team. This inventory overview helps you stay organized, avoid last-minute shortages, and make bulk restocking more efficient.
+1318|Supplies and linens tracker.
+1319|Print and laminate your turnover cleaning checklist
+1320|Buy three sets of linens per bed and three sets of towels per guest
+1321|Set up a lost &amp; found box and a locked supply cabinet
+1322|Set up your inventory tracker and a working capital for restocking
+1323|Build your property wiki
+1324|Label storage, appliances and the washing machine programs
+1325|Add a recurring 6-month inspection reminder to your calendar
+1326|A turnover can run from checklist to restock without anyone messaging you.
+1327|Your property wiki is live and your team has access.
+1328|<small>← Back</small>Build your dream team
+1329|<small>Next →</small>Automations for passive income
+1330|Chapter 10 · Part 3
+1331|Automations for passive <x1>income</span>
+1332|<b>1</b>How to set up self-check-in
+1333|<b>2</b>What to automate and what to delegate
+1334|<b>3</b>Communication systems for your team
+1335|<b>4</b>Bonus: scheduled messages that feel personal
+1336|How to set up self-check-in
+1337|(keys, locks, and codes)
+1338|Self-check-in is one of the best systems you can implement as a host. It saves time, reduces stress, and allows your guests the flexibility to arrive whenever it suits them, even in the middle of the night. But to make it smooth and secure, you need the right setup.
+1339|1. Choose your self-check-in method
+1340|<strong>Smart locks</strong> (e.g., TTLock, Nuki, Igloohome): You can create digital codes for each guest and manage access remotely. Ideal for full automation. Make sure you buy one that also has the option to open with a key (for emergencies).
+1341|<strong>Lockboxes</strong>: A physical box with a code that holds a key. Easy to set up, especially if your front door uses a traditional key.
+1342|<strong>Smart door bell: </strong>If your apartment is in a building with an intercom you can install a smart device that connects to your intercom and automatically opens the building door when someone rings the bell.
+1343|Tools like Nuki Opener, Bticino with Home+Control, or Ring Intercom (depending on your region) work well and are easy to install.
+1344|Pro tip: Combine with a smart lock on your apartment door for fully remote check-ins, no key handovers needed.
+1345|<strong>Key handoff at a nearby location:</strong> Less ideal, but still useful if digital access isn’t possible.
+1346|Example: 'Keynest tool' allows you to drop off and collect keys at local partner locations (like supermarkets, key lockers or cafés). We use that for two of our apartments and it works very well. You only have to be careful for closing hours. Guests need to pick up the key before the place closes.
+1347|Overview of all the keynest locations
+1348|2. Where to place it
+1349|If you're using a lockbox, make sure it's:
+1350|Installed securely to a wall, gate, or railing near the entrance
+1351|Well-lit at night
+1352|Clearly mentioned in your check-in guide with photos
+1353|If you're using a smart lock, make sure Wi-Fi or Bluetooth works well at the door, and test that codes work before the guest arrives.
+1354|3. Set up your codes
+1355|For smart locks, you can:
+1356|Create a unique code per booking
+1357|Set it to activate at check-in time and deactivate after checkout
+1358|Reuse a master code for emergencies
+1359|For lockboxes, change the code frequently (weekly or after each guest if possible) and avoid obvious codes like 0000 or 1234.
+1360|4. Create a clear check-in guide
+1361|Include step-by-step instructions
+1362|Add photos of the lock, building entrance, and path to the door
+1363|Mention Wi-Fi access, parking info, and anything they need to know before entering
+1364|Send it the day before or morning of check-in
+1365|IMPORTANT: Your instructions must be foolproof. Think of it this way: your guest is likely tired, possibly jet-lagged, standing outside a property they’ve never seen before, and struggling with low attention and patience.
+1366|Your self-check-in instructions should be so clear that even a child could follow them.
+1367|Break everything down into step-by-
+1368|step instructions
+1369|Use arrows, images, and clear
+1370|markers to show each part of the
+1371|process (from the front gate to the
+1372|exact location of the key box)
+1373|Repeat the steps in written format in
+1374|your message, even if you’re also
+1375|using images or a PDF guide
+1376|Never assume something is obvious. The more visual and detailed you make it, the fewer late-night calls you’ll get and the smoother your guest’s arrival will be.
+1377|One of our check-in guides
+1378|5. Back-up plan
+1379|Things can go wrong. Always have a backup in place like a lockbox with a spare key, just in case the battery dies or the code malfunctions.so always have a plan B:
+1380|A hidden backup key nearby
+1381|A neighbor, co-host or manager who lives close and can help
+1382|A master code or manual override in case of tech failure
+1383|Important considerations when choosing your lock system <strong>Digital locks </strong>are super convenient, but they come with responsibilities. You’ll need to monitor battery life and make sure they’re recharged or replaced regularly. It’s a great system, but only if your team stays on top of it.

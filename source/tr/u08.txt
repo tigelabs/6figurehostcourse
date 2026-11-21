@@ -1,0 +1,190 @@
+1384|If you choose to use <strong>physical keys,</strong> be aware that they often get lost. In places like Barcelona, guests sometimes lose them when their bags are stolen. Even when you ask guests to return the key to the original spot, many forget or ignore the instructions. Factor in this risk when deciding which system to use.
+1385|Final note:
+1386|Self-check-in is only stress-free when it works reliably. Test your system, update your instructions regularly, and always have a backup key or contact available in case something goes wrong.
+1387|Which system fits your property?
+1388|The right lock depends a lot on your region and on the type of property you have.
+1389|<strong>Lockboxes don’t work everywhere.</strong> In Barcelona, for example, there is nowhere in the city to leave them. They often get broken, and boxes fixed to walls or railings end up cluttering the city.
+1390|<strong>Some buildings don’t allow smart locks.</strong> Historic buildings are the typical case.
+1391|So study your options before you buy. Every property can have self check-in: today there are alternatives on the market for almost every problem and situation. Try not to overcomplicate it.
+1392|When checking in guests in person is the better choice
+1393|There are specific cases where receiving the guest yourself, or having someone do it, makes sense. We have had properties with more tension with the neighbors: people who didn’t like having an Airbnb in the building.
+1394|To avoid bothering them, we always had someone receive the guest. That way nobody was lost in the building or ringing the bell of the wrong apartment. Our person met the guest on arrival, called the elevator, showed the whole way, explained the apartment quickly, and the guest was settled and knew their way from then on.
+1395|Each case has to be thought through for its own situation.
+1396|Tap the method you will use.
+1397|Smart lock
+1398|Digital codes for each guest, managed remotely.
+1399|My check-in method
+1400|Lockbox
+1401|A physical box with a code that holds a key.
+1402|Smart door bell
+1403|Opens the building door when someone rings the bell.
+1404|Key handoff
+1405|Keys dropped off and collected at a nearby location.
+1406|In person
+1407|Someone from your team receives the guest.
+1408|Decide your check-in method
+1409|Write a foolproof check-in guide with step-by-step photos
+1410|Put a backup in place: spare key, nearby contact or master code
+1411|What to automate and what to delegate
+1412|If you want to run a successful Airbnb with less stress and more freedom, the key is knowing the difference between what to automate, what to delegate, and what truly requires your attention.
+1413|Automation saves you time, avoids human error, and keeps things running even when you're sleeping. If a task happens over and over again in the same way, it can probably be automated.
+1414|Scheduled messages:
+1415|Use scheduled messages in the Airbnb inbox to automate welcome messages, check-in info, checkout instructions, review requests, and FAQ answers.
+1416|Important: Keep your communication simple and easy. Always think: could a 5-year old child understand this?
+1417|People have low attention span when they're traveling, as they already have so many things to think about.
+1418|Especially with self-check-in, only include the essential information they need to get in smoothly. If you want to share local tips or extra details, put them in a separate document or link, so the message stays clean and clear. You can also schedule a follow-up message for the day after arrival with helpful extras once they’ve settled in.
+1419|Important: for essential information, make sure to enable the toggle that says “send for last-minute bookings and short stays” This ensures that last-minute bookings still receive the message, no matter when or for how long they book.
+1420|Send your check-in photos inside the Airbnb chat
+1421|Airbnb used to not allow photos in automated check-in messages, so you had to send them by hand. Today it does. Prepare your step-by-step check-in photos once, add them to your scheduled check-in message, and every guest receives the instructions with the pictures automatically. That is practically zero work for you.
+1422|Keep the conversation on Airbnb, not on WhatsApp
+1423|Don’t send guests to WhatsApp. It gives you more work, because you end up answering in two places. And only the conversations inside the Airbnb chat can be followed by Airbnb’s support team. If there is an incident or a conflict, or a guest claims you said one thing or another, messages outside Airbnb are not taken into account.
+1424|The more you keep the conversation inside the Airbnb chat, the better.
+1425|We only give a phone number for emergencies. Guests still sometimes write there to ask for the check-in instructions. When that happens we answer on WhatsApp with one line only, and then reply properly in the Airbnb chat:
+1426|“This is an emergency number. I’ll reply to you in the Airbnb chat.”
+1427|That sets the boundary. From then on, the guest talks to you on Airbnb.
+1428|Turn this toggle on
+1429|Pricing:
+1430|Use a dynamic pricing tool like PriceLabs, Wheelhouse or Beyond Pricing to automatically adjust your nightly rates based on demand, events, and competition.
+1431|Airbnb also has the option to create 'rule sets'. This allows you to automatically put the prices higher or lower for example for last-minute discounts or when it's high season.
+1432|Calendar sync:
+1433|Sync multiple calendars if you're on other platforms (Booking.com, VRBO) to avoid double bookings.
+1434|Smart locks:
+1435|Use digital locks that allow remote code setup and automatic activation/deactivation per guest.
+1436|Cleaning:
+1437|give your cleaner access to the calender view so they are automatically updated about bookings (without messaging access so they can not see your earnings).
+1438|Airbnb rule sets
+1439|Delegate: anything that requires physical presence or personal interaction
+1440|Delegation is about building a team you trust to handle tasks that can’t be automated especially on-site operations. You shouldn’t be cleaning your own Airbnb or doing late-night guest check-ins.
+1441|<strong>Cleaning &amp; laundry:</strong> Hire a reliable cleaner and create a standard checklist so the job gets done the same way every time.
+1442|<strong>Maintenance &amp; handyman tasks:</strong> Have someone on-call to handle small repairs, broken appliances, or emergencies.
+1443|<strong>Guest support &amp; coordination:</strong> If you want to step away fully, hire a co-host or manager to answer messages, coordinate cleaning, and solve issues.
+1444|<strong>Restocking supplies:</strong> Delegate weekly or monthly restocking and use a working capital system with receipt tracking.
+1445|WHAT TO DO YOURSELF (AT LEAST AT FIRST)
+1446|At the beginning, managing a few things yourself will help you learn the business inside-out. Once you understand how things work, you’ll be in a better position to delegate with clarity.
+1447|Keep control over:
+1448|Guest experience (especially tone of voice and messaging templates)
+1449|Branding and listing optimization
+1450|Reviews and reputation management
+1451|Systems creation (SOPs, templates, trackers)
+1452|You can always pass these on later, but set the foundation yourself.
+1453|Automate the repetitive. Delegate the physical. Focus your time on what actually grows the business, branding, strategy, and experience. This is the recipe for scaling with freedom.
+1454|Schedule your messages and turn on “send for last-minute bookings and short stays”
+1455|Set up dynamic pricing or Airbnb rule sets
+1456|Give your cleaner access to the calendar view
+1457|Communication systems for your team
+1458|Clear communication is the backbone of a smooth and professional Airbnb operation, especially when you’re managing multiple people like cleaners, a handyman, a manager, or even freelancers. Without systems in place, things fall through the cracks. Here’s how to set up simple but effective communication flows with your team.
+1459|1. create one central group per property
+1460|Use WhatsApp (or your preferred app) and create a group chat for each property that includes the manager, cleaners, handyman, or anyone involved. This keeps everyone on the same page and allows you to document updates and issues in one place.
+1461|You can name it something simple like: [Property Name] – Operations Team
+1462|Use this group for:
+1463|Schedule coordination
+1464|Sharing guest updates (late check-outs, early check-ins)
+1465|Reporting damage or missing items (with pictures)
+1466|Sending receipts and tracking the remaining balance (if you use working capital)
+1467|2. give access to the property wiki (see bonus template)
+1468|Your team should always have access to the property wiki. It should include:
+1469|Cleaning checklist
+1470|Supply list
+1471|Product links
+1472|Emergency contacts
+1473|How-tos for appliances
+1474|Photos or videos for walkthroughs
+1475|This saves you from repeating yourself and speeds up onboarding for new team members.
+1476|3. set expectations for response time
+1477|Be clear about when and how fast people should respond. For example:
+1478|Cleaners should reply to check-out confirmations within 2 hours.
+1479|Emergency contacts should be reachable by phone when guests are on-site.
+1480|Managers should give a daily update or summary when needed.
+1481|4. use pinned messages or shared folders
+1482|In WhatsApp, pin the most important info (like door codes, checklists, or payment info) to the top of the group. For more complex systems, use a shared folder on Google Drive or Dropbox with everything organized.
+1483|5. use voice notes when helpful
+1484|Not everything needs to be typed. For longer updates or walk-throughs, a quick voice note can save time and make communication more human and clear.
+1485|f<em>inal tip: clarity = fewer mistakes</em>
+1486|Miscommunication is one of the top causes of mistakes, missed cleanings, and bad guest experiences. The clearer your systems are, the smoother your operations will run—and the less you’ll be needed in the day-to-day.
+1487|Create one WhatsApp group per property and pin the key info
+1488|Bonus: scheduled messages that feel personal
+1489|Scheduled messages save you time but that doesn’t mean they should feel robotic. The key is to write them in a warm, friendly tone and include personal touches like the guest’s name.
+1490|When done right, scheduled messages feel like genuine communication while ensuring every guest gets the info they need on time, every time.
+1491|How to set them up
+1492|<strong>Where they go:</strong> in Airbnb, under “Scheduled messages”. Each one has a trigger and a time, shown above its title here.
+1493|<strong>Automatic:</strong> once saved, Airbnb sends them to every guest on its own. Use Airbnb’s shortcodes for the guest’s first name so each message feels personal.
+1494|<strong>Add your check-in photos</strong> to message 2, so the guest gets the pictures without you sending anything.
+1495|<small>Automatic · immediately after booking</small>1. Welcome message
+1496|1. Welcome message
+1497|Scheduled message. Edit the [brackets], then paste it into Airbnb › Scheduled messages.
+1498|<small>Automatic · day of arrival, 11am</small>2. Check-in instructions
+1499|2. Check-in instructions
+1500|<small>Automatic · day after arrival, 10am</small>3. Ask if everything is okay
+1501|3. Ask if everything is okay
+1502|<small>Automatic · day before checkout, 2pm</small>4. Check-out instructions
+1503|4. Check-out instructions
+1504|<small>Automatic · day of checkout, 12pm</small>5. Leave a review
+1505|5. Leave a review
+1506|Guests can check in without you, and there is a backup if it fails.
+1507|Your messages and prices run on their own.
+1508|<small>← Back</small>Streamline your operations
+1509|<small>Next →</small>Scaling up for 6-figures
+1510|Chapter 11 · Part 3
+1511|6 parts · about 20 min
+1512|Scaling up for <x1>6-figures</span>
+1513|<b>1</b>When to expand (and when to wait)
+1514|<b>2</b>Managing multiple listings from different countries
+1515|<b>3</b>Staying legally compliant while scaling
+1516|<b>4</b>Mistakes to avoid as a host
+1517|<b>5</b>Bonus: multi-property profit tracker
+1518|<b>6</b>Congrats!
+1519|When to expand (and when to wait)
+1520|One of the most exciting milestones in your Airbnb journey is the decision to expand. But growing too fast or too soon can backfire. Knowing when you're truly ready is key to long-term success.
+1521|Are you ready to expand?
+1522|You’re ready to expand if:
+1523|<strong>Your current listing runs like a well-oiled machine:</strong> Systems are in place, guests are happy, reviews are great, and operations don’t depend on you 24/7.
+1524|<strong>You’ve built a reliable team:</strong> Cleaners, a handyman, and a manager or co-host are already trained and capable of handling turnovers and guest issues without your direct involvement.
+1525|<strong>You’ve automated repetitive tasks:</strong> Messaging, pricing, and check-ins run with minimal input thanks to tools like automated messaging, dynamic pricing tools, and smart locks.
+1526|<strong>You consistently turn a profit:</strong> Your current property is generating reliable income, even during low season.
+1527|<strong>You have capital (or cash flow) to invest:</strong> Expansion requires upfront costs. If you don’t have a buffer, the stress can outweigh the rewards.
+1528|You should wait if:
+1529|<strong>You’re still figuring out your systems:</strong> If your current property requires constant attention or if things often go wrong, focus on refining your process first.
+1530|<strong>Your reviews are mixed or inconsistent:</strong> Expanding while you're still trying to deliver a great guest experience can compound problems and hurt your reputation.
+1531|<strong>You don’t have a strong team in place:</strong> Trying to manage two properties without support will lead to burnout and mistakes.
+1532|<strong>Cash flow is tight:</strong> Stretching your budget can put pressure on the guest experience, maintenance, and quality, which hurts long-term success.
+1533|Expanding too soon is one of the most common mistakes new hosts make. Instead, focus on building a strong foundation, then scale intentionally. A second listing should feel like a natural next step, not a leap of faith. When in doubt, optimize before you expand.
+1534|Run the ready-to-expand check honestly
+1535|Managing multiple listings from different countries
+1536|Expanding your Airbnb business across countries can be a powerful move. It allows you to diversify income, tap into different markets, and operate year-round without being tied to a single location. But it also comes with unique challenges especially when it comes to time zones, legal regulations, and team coordination.
+1537|Here’s how to manage multiple listings across different countries efficiently:
+1538|1. Build strong local teams
+1539|Since you can’t be everywhere at once, your success depends on having a reliable on-the-ground team. This includes:
+1540|Cleaners (with a backup)
+1541|A local handyman
+1542|A trusted property manager or co-host
+1543|An emergency contact who lives nearby
+1544|Invest time in finding, testing, and training your people. Once they’re solid, your properties can run with minimal input from you.
+1545|2. Standardize everything
+1546|Create templates, checklists, and systems that work across all properties:
+1547|Cleaning checklists
+1548|Guest message templates
+1549|Supply restock trackers
+1550|SOPs for turnovers and emergencies
+1551|see bonus templates
+1552|3. Use automation to your advantage
+1553|Automated messaging keeps communication consistent.
+1554|Dynamic pricing tools like PriceLabs or BeyondPricing help adapt to local demand.
+1555|Smart locks and self check-in reduce the need for physical presence.
+1556|Use time zone-based schedulers to avoid sending messages at 3am local time.
+1557|4. Know the local laws and taxes
+1558|Each country has its own rules for short-term rentals. Make sure you:
+1559|Understand local licensing or registration requirements
+1560|Know how taxes work (VAT, tourist tax, etc.)
+1561|Hire local accountants or legal advisors if needed
+1562|Compliance protects your business and avoids fines or shutdowns.
+1563|5. Create financial separation
+1564|Keep a separate bank account, payment method, and working capital for each property. This helps you track performance and simplifies tax reporting in each country.
+1565|6. Centralize communication
+1566|Use tools like WhatsApp groups or shared Google folders to stay in sync with your team. Make it clear who’s responsible for what, and set up simple routines (e.g., send a picture of every receipt or report checkouts daily).
+1567|7. Protect your time and sanity
+1568|Managing listings in different time zones can be overwhelming. Batch tasks by time zone and consider hiring a virtual assistant to help monitor messages while you sleep.
+1569|S<em>tart with one country first and build solid systems. Once your first international listing runs smoothly without your constant involvement, you’ll have a blueprint to replicate elsewhere.</em>
+1570|Managing properties in multiple countries is fully doable as long as you treat it like a business, not a hobby. Systems, teams, and tools are your best friends.
+1571|Standardize your checklists, message templates and SOPs across properties
+1572|Keep a separate bank account and working capital for each property
+1573|Staying legally compliant while scaling

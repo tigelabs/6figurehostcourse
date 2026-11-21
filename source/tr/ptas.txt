@@ -1,0 +1,290 @@
+=== ll-cold
+Assunto: Uma pergunta rápida sobre o seu imóvel para alugar
+
+Olá, [Nome do proprietário],
+Vi o seu anúncio de [endereço ou descrição] e queria saber se ainda está disponível. Estou procurando um aluguel de longa duração, mas não do jeito tradicional. Tenho uma pequena empresa de gestão de propriedades focada em estadias de curta e média duração para hóspedes selecionados, como pessoas que trabalham remoto, nômades digitais e viajantes a negócios.
+
+Cuidamos do imóvel como se fosse nosso: limpezas profissionais, manutenção regular e aluguel pago em dia, sempre. Adoraria conversar e explicar melhor, caso você esteja aberto a estratégias alternativas de aluguel que trazem renda estável com menos dor de cabeça.
+
+Você teria disponibilidade para uma ligação ou reunião rápida esta semana?
+
+Muito obrigado,
+[Seu nome]
+[Seus dados de contato]
+=== ll-follow
+Assunto: Retorno sobre a proposta de aluguel
+
+Olá, [Nome do proprietário],
+
+Obrigado mais uma vez pelo tempo da nossa conversa. Sei que essa abordagem pode ser diferente de um aluguel tradicional de longa duração, mas gostaria de destacar os principais benefícios para você, principalmente em comparação com os riscos que os proprietários costumam enfrentar.
+
+Em um aluguel tradicional, é comum passar por situações como:
+- Inquilinos que não pagam o aluguel em dia ou simplesmente param de pagar
+- Imóveis devolvidos em más condições
+- Dificuldade de acesso ao imóvel para vistorias ou manutenção
+- Disputas sobre danos, caução ou responsabilidade pela conservação
+
+O que oferecemos é um acordo mais tranquilo e profissional, pensado para proteger o seu imóvel e te dar paz de espírito:
+
+Aluguel mensal: [Insira o valor] garantido, em dia, todos os meses
+Hóspedes: profissionais verificados (pessoas que trabalham remoto, nômades digitais, viajantes responsáveis)
+Limpeza: limpeza profissional depois de cada estadia, com muito mais frequência do que em um aluguel tradicional
+Manutenção: vistorias e manutenção regulares pela nossa equipe, sem custo para você
+
+Envio em anexo um exemplo de guia do hóspede, o checklist de limpeza e as regras da casa, para você ver exatamente como trabalhamos e cuidamos do imóvel.
+
+Fico à disposição se tiver alguma dúvida ou quiser conversar mais. Terei prazer em ajustar a proposta ou esclarecer qualquer detalhe.
+
+Aguardo o seu retorno,
+[Seu nome]
+=== listing-desc
+DESCRIÇÃO
+[descrição da propriedade, ex.: villa boutique, apartamento compartilhado...] @ [perfil do Instagram ou tag da propriedade]
+Você terá acesso a [seu quarto/sua suíte/seu apartamento] privado. O restante [da propriedade/da casa/do prédio], incluindo [piscina/sala/cozinha/jardim], é compartilhado com outros hóspedes.
+
+Localizado em uma área [tranquila/animada/central/reservada], a poucos minutos de [principais pontos de referência, bairros ou atrações].
+
+Você terá acesso exclusivo a [seu quarto/sua suíte/seu apartamento], com banheiro [privado/compartilhado], cama [tamanho da cama], lençóis limpos, toalhas e [outras comodidades]. Wi-Fi rápido disponível.
+
+[Limpeza/arrumação] diária incluída, para você relaxar e aproveitar a estadia por completo.
+
+O ESPAÇO
+[Esta propriedade/casa/Este apartamento] fica em um bairro residencial [tranquilo/acolhedor].
+
+Fica entre [características locais, ex.: comércio, praia, natureza], oferecendo a combinação perfeita de [tranquilidade/praticidade/cultura/aventura].
+
+[A piscina/O jardim/O lounge] compartilhado é ideal para [tomar sol/trabalhar/relaxar]. O design combina elementos [palavras de estilo: minimalista/boho/industrial] com conforto e funcionalidade.
+
+É um espaço [fotogênico/estiloso/acolhedor], perfeito para descansar ou trabalhar remotamente. Diferente de muitas outras propriedades da região, temos [acesso fácil/nenhuma umidade/estacionamento fácil/etc.].
+
+[Adicione detalhes de conforto, ex.: colchão de alta qualidade da [marca], cortinas blackout ou isolamento acústico.] Idade mínima: [ex.: 12+ / 18+ / Somente adultos]. [Animais permitidos mediante consulta / Não são permitidos animais]. Guarda de bagagem disponível a partir das [horário].
+
+ACESSO DO HÓSPEDE
+Você terá acesso a:
+- [Seu quarto/Sua suíte/Seu apartamento] privado
+- Banheiro [privado/compartilhado]
+- [Piscina/cozinha/sala/área externa] compartilhada
+
+Esta propriedade tem [#] [quartos/suítes] privados e recebe até [#] hóspedes no total. Esta reserva inclui [#] [quarto/suíte] privado para no máximo [#] hóspedes.
+
+DURANTE A SUA ESTADIA
+Esta propriedade é perfeita para quem gosta de [privacidade/convívio social/as duas coisas]. [Opcional: mencione self check-in, suporte 24 horas ou disponibilidade do anfitrião.]
+
+OUTRAS OBSERVAÇÕES
+Instalamos [um sistema de filtro de água/uma solução ecológica/uma câmera de segurança/um exaustor] para [seu conforto/sua segurança/sua comodidade].
+
+[A cozinha/A sala/A piscina/A área externa] é compartilhada com outros hóspedes, a menos que você tenha reservado a propriedade inteira. Somente [seu quarto/seu banheiro] é privado.
+=== house-rules
+- O check-out é rigorosamente às [11h]. Os hóspedes devem ter saído completamente do apartamento até esse horário (não apenas do quarto). Será cobrada uma multa de [€50] por check-out tardio se isso não for respeitado.
+- O uso da máquina de lavar não inclui sabão. É estritamente proibido usar água sanitária. A máquina não está disponível quando a pessoa da limpeza está presente.
+- Não são permitidos animais.
+- Não é permitido fumar em nenhum lugar dentro do apartamento. Só é permitido nas varandas, com as portas de vidro fechadas.
+- Convidar amigos ou hóspedes adicionais exige autorização prévia do anfitrião.
+- O respeito pelos outros hóspedes deve ser sempre mantido (sem barulho alto, sem bagunça).
+- As áreas comuns devem permanecer limpas e organizadas o tempo todo. Os pertences pessoais devem ficar dentro do seu quarto.
+- Os hóspedes devem dormir nos quartos que lhes foram atribuídos. Não é permitido dormir no sofá das áreas compartilhadas.
+- A louça deve ser lavada imediatamente depois do uso.
+- A cozinha é organizada com prateleiras etiquetadas. Os hóspedes devem guardar alimentos e bebidas na prateleira marcada com a etiqueta do seu quarto. Não nos responsabilizamos por itens perdidos ou extraviados.
+- Qualquer dano causado pelo hóspede deve ser pago integralmente.
+- Não são permitidas festas. Por favor, mantenha o barulho no mínimo e respeite os vizinhos. Se recebermos uma multa por perturbação do sossego, o hóspede responsável será cobrado.
+- Em casos de comportamento alcoolizado, agressivo ou desrespeitoso com outros hóspedes, o anfitrião se reserva o direito de cancelar a sua reserva sem reembolso.
+- Se barulho alto ou música à noite incomodar outros hóspedes, o hóspede responsável poderá ser responsabilizado e cobrado em uma taxa de compensação.
+- Se o apartamento ou o quarto for deixado em condições de sujeira excessiva, será aplicada uma taxa adicional de limpeza.
+- Não podemos abrir exceções à política de cancelamento em nenhuma circunstância
+=== qr-shared
+Como mencionado no anúncio, você terá acesso a [# suíte privada] com [banheiro privado], adequada para [até # hóspedes].
+[A piscina, a cozinha e a sala] são compartilhadas com outros hóspedes.
+Há [# suítes no total] na propriedade, o que significa que até [# hóspedes] podem estar hospedados ao mesmo tempo. Cada suíte é totalmente privada e segura.
+Se tiver mais alguma dúvida, é só me avisar.
+=== qr-people
+A propriedade tem um total de [# suítes privadas] e acomoda até [# hóspedes] no total.
+Esta reserva inclui [# suíte] para no máximo [# hóspedes].
+=== qr-night
+Sim, como o self check-in é feito com um código digital, você pode chegar a qualquer hora da noite sem custo extra.
+=== qr-night2
+Sim, como o self check-in é feito com um código digital, você pode chegar a qualquer hora da noite sem custo extra.
+Se você for chegar depois da meia-noite, só para confirmar:
+Você confirma que chega na noite de [data] para [data]?
+Se o seu check-in for depois da 00h, você precisa reservar a partir do dia anterior, já que essa noite ainda pertence àquela data do calendário.
+Por exemplo, se você chegar à 1h da manhã do dia 7, sua reserva deve começar no dia 6, não no dia 7. Uma reserva a partir do dia 7 só dá acesso depois do horário de check-in [..h] do dia 7.
+=== qr-disc-no
+Infelizmente não estamos oferecendo descontos. Embora aceitemos estadias longas e reservas de vários quartos, nosso foco é principalmente em estadias curtas, por isso não oferecemos tarifas menores para estadias longas ou vários quartos. Dito isso, adoraríamos receber você, e será muito bem-vindo.
+=== qr-disc-yes
+Sim, oferecemos 10% de desconto para estadias mais longas. Quando você inserir as datas da viagem, o desconto será aplicado automaticamente.
+=== qr-visit
+Infelizmente não é comum agendar visitas para reservas do Airbnb. A plataforma não nos permite compartilhar dados de contato antes de a reserva ser confirmada, e o quarto está ocupado no momento, então precisamos respeitar a privacidade do hóspede.
+Você está totalmente protegido pelo Airbnb: se o quarto não for exatamente como descrito ou não corresponder às fotos, você tem direito a reembolso ou a uma acomodação alternativa. Isso garante que o que você vê no anúncio é exatamente o que vai receber.
+Se tiver qualquer outra dúvida, pode perguntar por aqui — teremos prazer em esclarecer tudo para que você se sinta totalmente seguro.
+=== qr-park
+Há estacionamento gratuito bem em frente à propriedade, com espaço para [número de vagas]. Geralmente há vaga, mas não é garantido.
+=== qr-third
+De acordo com a política do Airbnb, não são permitidas reservas feitas em nome de terceiros. Seria possível você cancelar a reserva atual (você receberá reembolso total) para que o hóspede crie a própria conta e reserve diretamente? Como alternativa, podemos abrir uma exceção se você compartilhar seus dados de acesso com o hóspede, para que possamos nos comunicar pela sua conta.
+Isso é importante porque enviamos por aqui todas as instruções de check-in e outros detalhes, e precisamos conseguir falar diretamente com o hóspede.
+=== qr-refund
+Você só recebe reembolso total se cancelar em até 48 horas depois da reserva, desde que faltem pelo menos 14 dias para o check-in.
+- Se cancelar entre 7 e 14 dias antes do check-in, você recebe 50% de reembolso.
+- Se cancelar a menos de 7 dias do check-in ou durante a estadia, não há reembolso.
+Ao reservar, você concordou com essa política. Ela existe para nos proteger como anfitriões, já que reservamos o quarto especificamente para você nas datas escolhidas e provavelmente não conseguiremos outra reserva em cima da hora. Esperamos que compreenda.
+
+Para mais informações, você pode ler a política completa no nosso anúncio ou falar diretamente com o Airbnb.
+=== qr-lug-in
+Você pode deixar sua bagagem a partir das [horário, ex.: 11h] na sua suíte. Só avisamos que a suíte ainda estará sendo limpa, mas estará pronta e limpa no máximo até o horário do check-in, [horário, ex.: 15h].
+=== qr-exc
+Sim, sem problemas, todo mundo se engana às vezes, então vamos liberar o reembolso total, menos €15 de custos administrativos. Para cancelar, entre nos detalhes da sua reserva e cancele por lá. Assim que você fizer isso, eu recebo um e-mail no qual aceito o reembolso total.
+Por favor, faça isso na próxima hora para que nosso calendário volte a ficar disponível. Infelizmente, como anfitrião, não posso cancelar por você, porque teria que pagar uma multa e perderia meu status de superhost.
+Se precisar de ajuda para cancelar, você pode falar diretamente com o suporte do Airbnb.
+=== qr-dates
+Infelizmente só podemos aprovar mudanças de data se o pedido for feito pelo menos 14 dias antes da data original de check-in. Como dependemos das nossas reservas, bloqueamos essas datas especificamente para você e não conseguiríamos uma nova boa reserva para elas em cima da hora.
+
+No entanto, de acordo com nossa política de cancelamento, se ainda faltarem 7 dias para o seu check-in, você pode receber 50% de reembolso caso decida cancelar. Esperamos que compreenda.
+=== qr-transfer
+Recomendamos reservar o transfer do aeroporto com a gente, pois oferecemos um preço melhor do que a maioria dos táxis do aeroporto. O valor da busca é [insira o preço].
+Se estiver de acordo, por favor confirme e me envie os dados do seu voo.
+=== qr-getthere
+Você vai receber as instruções de check-in no dia da chegada, às 11h. Se já quiser conferir a localização exata, é só buscar [endereço] no Google Maps.
+=== qr-money
+Infelizmente não podemos abrir exceções à política de cancelamento, e não há reembolso a menos de 7 dias do check-in ou durante a estadia.
+Ao reservar, você concordou com a nossa política. Ela existe para nos proteger como anfitriões, já que reservamos o quarto especificamente para você nas datas escolhidas e provavelmente não conseguiremos outra reserva em cima da hora. Para mais informações, você pode ler a política completa no nosso anúncio ou falar diretamente com o Airbnb.
+Se você prefere mais flexibilidade, na próxima vez que reservar um Airbnb pode usar um filtro na busca para mostrar apenas anúncios com política de cancelamento flexível, mas infelizmente não temos essa opção, pois dependemos muito das nossas reservas.
+=== qr-iron
+Sim, há um ferro e uma tábua de passar na lavanderia. Depois de usar, por favor guarde de volta para que os outros hóspedes também possam usar
+=== qr-lug-s
+Você pode deixar sua bagagem em [local]. Por favor, volte apenas para buscar a bagagem e evite usar as áreas comuns, para mantermos o espaço limpo e tranquilo para os novos hóspedes. Por volta de que horas você vem buscar? O horário limite é [horário].
+=== qr-lug-p
+Você pode deixar sua bagagem em [local]. Por volta de que horas você vem buscar? O horário limite é [horário].
+=== qr-lug-n
+Infelizmente não temos um espaço seguro para guardar bagagem. Mas recomendamos um serviço de guarda-volumes aqui perto, que muitos dos nossos hóspedes usam. Aqui está o link: [insira o link]
+=== qr-locked
+Olá,
+Já passou do nosso horário de checkout, 11h, e a pessoa da limpeza está na porta do seu quarto, que parece estar trancada. Você está por perto? Os próximos hóspedes chegam em breve, então precisamos começar a limpeza.
+Só um lembrete amigável: temos uma taxa de €50 por checkout tardio para evitar atrasos, já que o tempo entre as reservas é apertado. Mas, se você conseguir fazer o checkout nos próximos 15 minutos, não vamos cobrar. Também tentei ligar, mas não consegui falar com você.
+Para não atrasar, vou pedir à pessoa da limpeza que entre no quarto e comece a trocar os lençóis para lavar.
+Por favor, responda assim que possível. Obrigado!
+=== qr-late
+Olá,
+Já passou do nosso horário de checkout, 11h. Os próximos hóspedes chegam em breve, então precisamos começar a limpeza.
+Só um lembrete amigável: temos uma taxa de €50 por checkout tardio para evitar atrasos, já que o tempo entre as reservas é apertado. Mas, se você conseguir fazer o checkout nos próximos 15 minutos (não só sair do quarto, mas também do apartamento), não vamos cobrar.
+Precisamos manter o cronograma, então esperamos que compreenda.
+Obrigado!
+=== qr-thought
+Sinto muito pelo mal-entendido. Estamos oferecendo exatamente o que você reservou, pois o anúncio menciona várias vezes que o espaço é compartilhado. Espero que compreenda que não cometemos nenhum erro nem passamos informações incorretas.
+Você pode cancelar a reserva, mas serão aplicadas as regras da política de cancelamento com a qual você concordou ao reservar. Para cancelar, entre nos detalhes da sua reserva e procure o botão de cancelar.
+Se tiver mais dúvidas ou reclamações, por favor fale com o próprio Airbnb. Eles vão te ajudar.
+=== qr-key
+Sem problemas, temos uma chave reserva em um lugar secreto em [local]. O código do cofre de chave é [xxxx]. Ao abrir, você vai encontrá-la [onde ela está]
+Só avisamos que, se a chave tiver sido perdida, precisaremos cobrar uma taxa de €50 para cobrir o custo da reposição. Tomara que você ainda a encontre!
+=== qr-key2
+Acabei de te enviar uma solicitação de pagamento pelo Airbnb. Você deve ter recebido um e-mail no qual pode aceitá-la em até 24 horas.
+=== qr-noise-g
+Olá, espero que esteja tudo bem.
+Recebemos uma reclamação geral de barulho de um hóspede e, como há várias pessoas na propriedade, não queremos culpar ninguém em específico. Por isso estamos escrevendo a todos para lembrar, com carinho, de manter a música baixa e não falar muito alto, principalmente à noite.
+Caso isso também tenha afetado você, peço sinceras desculpas; estamos nos esforçando para controlar a situação. O conforto dos nossos hóspedes (incluindo você) é nossa maior prioridade, para que todos aproveitem a estadia ao máximo.
+Se houver mais alguma coisa, é só avisar. Estamos aqui para ajudar!
+=== qr-noise-s
+Olá, espero que você esteja bem. Estamos escrevendo porque, infelizmente, recebemos uma reclamação de barulho de outros hóspedes.
+Como anfitriões, nunca tiramos conclusões ouvindo só um lado da história, mas queremos pedir, com carinho, que, caso realmente tenha havido muito barulho, você mantenha o silêncio na villa, principalmente à noite.
+O hóspede nos pediu reembolso por essa noite, então tivemos que entrar em contato com o Airbnb para ver como resolver a situação.
+O conforto dos nossos hóspedes é nossa prioridade nº 1, não só o dos outros hóspedes, mas também o seu. Por favor, confirme que recebeu esta mensagem e, se quiser nos contar mais alguma coisa, fique à vontade.
+Obrigado pela compreensão e pela colaboração.
+=== qr-clutter
+Olá, notamos que há muita coisa espalhada nas áreas comuns; por isso estamos enviando esta mensagem a todos na villa, com um lembrete amigável para manter os itens pessoais o máximo possível no quarto privado e, se forem deixados nas áreas compartilhadas, mantê-los organizados.
+Assim mantemos um espaço agradável para todos os hóspedes da villa. Se isso não se aplica a você, pode ignorar esta mensagem. Obrigado e tenha um ótimo dia!
+=== qr-reply
+Sentimos muito por isso! Embora a maioria dos hóspedes seja respeitosa e silenciosa, infelizmente em acomodações compartilhadas sempre existe um pequeno risco de incômodos ocasionais, e por isso mencionamos no anúncio que pode haver barulho.
+Dito isso, concordamos totalmente que tudo deve ficar sempre dentro de limites de respeito.
+Fazemos o possível para estabelecer regras da casa e horários de silêncio claros, e estamos disponíveis 24 horas por dia caso haja uma situação que precise ser controlada.
+Vamos falar com os hóspedes envolvidos e, se a situação não melhorar imediatamente, por favor nos avise de novo.
+Seu conforto é nossa maior prioridade, e pedimos sinceras desculpas pelo transtorno. Muito obrigado por nos avisar, para que possamos agir.
+=== qr-spider
+Ah, não! Entendo que dá muito medo. Não se preocupe, elas geralmente são inofensivas (principalmente as aranhas grandes, que assustam mas não fazem mal).
+Normalmente deve haver spray inseticida [onde, ex.: embaixo da pia do seu banheiro]
+Você pode borrifar na direção da aranha, e ela morre em poucos minutos. Se precisar de ajuda, avise. Posso ver se alguém da nossa equipe está disponível para ajudar.
+=== declutter-1
+Olá, pessoal,
+Fizemos uma limpeza profunda e vamos retirar os itens deixados por moradores anteriores para organizar, manter tudo limpo e liberar espaço para vocês.
+
+Para não retirarmos por engano nada que seja seu, pedimos que você faça o seguinte até [data específica]
+
+🔹 Chuveiro:
+Coloque seus itens no cesto de sabonete da parede ou na sua prateleira.
+🔹 Freezer:
+Tire seus itens da gaveta de cima
+🔹 Porta da geladeira:
+Coloque seus itens na sua prateleira ou etiquete com fita (há um rolo em cima do micro-ondas).
+🔹 Caixa do corredor:
+Há uma caixa no corredor com alimentos e itens que encontramos fora das prateleiras pessoais.
+Se algo for seu, fique à vontade para pegar de volta!
+
+Depois que todos recolherem suas coisas, os itens restantes podem ser “adotados” [na véspera do prazo], se você quiser ficar com algo.
+
+⚠ Em [data específica], todos os itens não reclamados serão retirados, incluindo:
+- Itens no chão do chuveiro
+- Itens na porta da geladeira sem fita
+- Alimentos na gaveta de cima do freezer
+- Itens na caixa do corredor
+
+Muito obrigado pela ajuda e pela colaboração!
+=== declutter-2
+Olá, pessoal,
+
+Só um último lembrete rápido: amanhã termina o prazo para recolher seus itens, como parte do processo de organização.
+
+Vamos retirar o seguinte:
+- Itens deixados no chão do chuveiro
+- Itens sem etiqueta na porta da geladeira
+- Alimentos na gaveta de cima do freezer
+- Itens na caixa do corredor
+
+Se ainda houver algo que você queira guardar, fique à vontade para “adotar” antes que vá embora!
+Obrigado pela colaboração.
+=== sm-1
+Olá, [primeiro nome do hóspede]
+Mal podemos esperar para te receber. Por volta de que horas você chega? O check-in é a partir das [horário, ex.: 15h] (mas dá para deixar a bagagem a partir das 11h).
+No dia da chegada, às 11h, você vai receber o endereço exato e o código do self check-in. Se você não for ter Wi-Fi, me avise e eu envio antes.
+
+OUTRAS INFORMAÇÕES:
+- Se você cozinhar ou usar a cozinha, por favor lave, seque e guarde a louça para manter tudo em ordem. Você tem sua própria prateleira na geladeira e nos armários da cozinha, com a etiqueta da sua suíte.
+- [insira informações sobre a limpeza, ex.: o quarto é limpo todos os dias e os lençóis são trocados 2x por semana. Se quiser toalhas novas, deixe as usadas no cesto de roupa. Ajude-nos a economizar energia reutilizando as toalhas durante a estadia.]
+- WI-FI
+  Rede: [xxxx]
+  Senha: [xxxx]
+- Se tiver qualquer problema ou precisar de ajuda, por favor nos avise! Se não ficamos sabendo, não conseguimos resolver. Seu conforto é nossa prioridade nº 1
+
+Aqui está uma lista com nossas recomendações locais:
+[link para o seu guia do Airbnb]
+
+Tem mais alguma dúvida? É só perguntar!
+=== sm-2
+Olá, [primeiro nome do hóspede]
+A localização é [localização] no Google Maps.
+[adicione mais informações ou até uma foto com instruções para encontrar facilmente, ex.: como é um endereço novo, alguns taxistas podem parar na rua principal
+- Vire à esquerda no arrozal.
+- No fim dessa rua, vire à esquerda de novo logo antes do pequeno templo preto.]
+
+Você entra na villa com este código no teclado: [código, ex.: 1234#] (primeiro toque no teclado para ele acender, depois digite o número)
+Seu quarto privado é a SUÍTE [#]
+O quarto estará pronto no máximo no horário do check-in [ex.: 15h], mas, se quiser deixar a bagagem antes, pode.
+Se não encontrar, você pode ligar para nosso contato de emergência 24 horas [nome do gerente +00 0000 000 (WhatsApp)].
+Até logo!
+=== sm-3
+Bom dia, [primeiro nome do hóspede]
+Como foi a primeira noite? Está tudo bem na villa? Se precisar de mais alguma coisa, é só avisar, estamos aqui para ajudar :)
+Tenha um ótimo dia!
+=== sm-4
+Esperamos que você tenha aproveitado muito a estadia. Amanhã é o seu checkout, às 11h em ponto.
+Pedimos com carinho que você não apenas saia do quarto, mas também esteja fora da villa até esse horário, para que a pessoa da limpeza possa fazer sua mágica.
+
+INSTRUÇÕES DE CHECKOUT:
+- apague as luzes e desligue o ar-condicionado
+- deixe a chave em cima da mesa
+- deixe a porta do quarto aberta (assim sabemos que você saiu)
+- esteja fora da villa até as 11h
+
+Precisa guardar a bagagem? Sem problemas! Você pode deixá-la na lavanderia (à esquerda da suíte 2) e buscar no mesmo dia. Avise a gente e enviaremos o código do cofre com a chave.
+Tenha um último dia incrível. Obrigado!
+=== sm-5
+Obrigado por se hospedar com a gente e por ser um ótimo hóspede!
+Vou deixar uma avaliação de 5 estrelas para você. Se você gostou da estadia, poderia deixar uma para nós? Como nossa villa é nova, sua avaliação é extremamente valiosa para conseguirmos mais reservas.
+Só um detalhe: as avaliações do Airbnb funcionam de forma diferente das de hotéis. Qualquer nota abaixo de 5 estrelas realmente prejudica nosso anúncio. Se houver algo que possamos melhorar, fique à vontade para nos enviar seu feedback diretamente.
+Se um dia você pensar em voltar, vamos adorar te receber de novo!
+Tenha um dia incrível.

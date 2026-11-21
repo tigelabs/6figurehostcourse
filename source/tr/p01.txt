@@ -1,0 +1,232 @@
+7|Início do curso
+8|Início
+9|Comece aqui
+10|Parte 1: Montando sua base
+11|Modelos de negócio no Airbnb
+12|Pense como dono de negócio
+13|Encontrando a propriedade certa
+14|Negociando com proprietários
+15|Parte 2: Lançando seu primeiro anúncio
+16|Um lar longe de casa
+17|Um anúncio que vende
+18|Experiência 5 estrelas para o hóspede
+19|Parte 3: Sistemas para renda passiva e escala
+20|Monte sua equipe dos sonhos
+21|Otimize suas operações
+22|Automações para renda passiva
+23|Escalando para os 6 dígitos
+24|Suas ferramentas
+25|Roadmap de 30 dias
+26|Checklist de montagem
+27|Manual da propriedade
+28|Calculadora de lucro
+29|Complemento
+30|Extras
+31|Complementos
+32|Novo
+33|Kit inicial do anfitrião
+34|Prompts e modelos
+35|+ kit inicial do anfitrião
+36|<x1>6-figure</span>Curso de Airbnb
+37|Seu guia passo a passo para construir um negócio legalizado de Airbnb com renda passiva <em>(mesmo sem ter imóvel próprio)</em>
+38|por Farah Cuyvers &amp; Daniel Martí
+39|Imagine ter casas lindas ao redor do mundo. Lugares onde você pode ficar, alugar e voltar quando quiser. Se você já sonhou em criar um negócio que te dê liberdade, flexibilidade e renda sem ficar preso a uma mesa nem precisar ter imóveis, este guia é para VOCÊ.
+40|Criamos este guia para te ajudar a<strong> lançar, operar e escalar um negócio lucrativo de Airbnb que trabalha para você, e não o contrário.</strong> Aqui dentro você encontra um roteiro passo a passo construído a partir de experiência real. Ele mostra como nós fizemos e como você também pode fazer.
+41|Seu plano de Airbnb até aqui
+42|Cidade
+43|Modelo de negócio
+44|Duração da estadia
+45|Espaço
+46|Check-in
+47|Isto vai sendo preenchido conforme você avança nos capítulos. Suas respostas e os passos marcados ficam salvos neste dispositivo.
+48|O curso
+49|Conheça a gente, teste sua mentalidade e conquiste a primeira vitória em 15 minutos.
+50|Mesmo sem ter imóvel próprio.
+51|Mentalidade, custos reais, parte legal e renda extra.
+52|Demanda, AirDNA, sinais de alerta e os números.
+53|Mesmo que dê medo.
+54|O que comprar, como decorar e como deixar à prova de hóspedes.
+55|Até enquanto você dorme.
+56|Expectativas, reclamações e um ótimo atendimento.
+57|Agência ou equipe própria, e como encontrar gente confiável.
+58|Turnovers, suprimentos, SOPs, etiquetas e inspeções.
+59|Self check-in, o que automatizar e o que delegar.
+60|Quando expandir, vários países e como se manter legalizado.
+61|<strong>Aviso de direitos autorais.</strong> © 2025 Farah Cuyvers &amp; Daniel Martí. Todos os direitos reservados. Este guia e todos os materiais que o acompanham são protegidos pela lei de direitos autorais. Nenhuma parte desta publicação pode ser reproduzida, distribuída ou transmitida de qualquer forma ou por qualquer meio, incluindo fotocópia, gravação ou outros métodos eletrônicos ou mecânicos, sem a autorização prévia por escrito dos autores, exceto no caso de citações breves usadas em resenhas e em outros usos não comerciais permitidos pela lei de direitos autorais. Este conteúdo é destinado apenas ao uso individual. É estritamente proibido compartilhar, revender ou reproduzir este material para fins comerciais. Para autorizações ou dúvidas, entre em contato: alugahomes@gmail.com
+62|© 2025 Farah Cuyvers &amp; Daniel Martí. Apenas para uso individual.
+64|Introdução
+65|5 partes · cerca de 15 min
+66|Comece <x1>aqui</span>
+67|<b>1</b>Bem-vindo
+68|<b>2</b>Nossa história
+69|<b>3</b>Você tem o que é preciso?
+70|<b>4</b>Como usar este curso
+71|<b>5</b>Sua primeira vitória em 15 minutos
+72|Parte 1
+73|Bem-vindo
+74|<strong>Na Parte 1, construímos a base.</strong> Você vai conhecer os diferentes modelos de negócio no Airbnb (incluindo como começar sem comprar imóvel), como se legalizar, como construir a mentalidade certa e como encontrar sua primeira propriedade lucrativa, mesmo que negociar com proprietários te deixe nervoso.
+75|<strong>Na Parte 2, o foco é lançar seu anúncio e receber seus primeiros hóspedes.</strong> Você vai aprender a montar e mobiliar o espaço, escrever um perfil que vende e gerenciar tudo com eficiência, usando sistemas simples.
+76|<strong>Na Parte 3, escalamos e chegamos aos 6 dígitos.</strong> Aprenda a automatizar tarefas, montar sua equipe dos sonhos e expandir sem se esgotar. É aqui que o seu Airbnb vira um negócio de verdade, que gera renda passiva.
+77|Incluímos tudo o que você precisa: modelos prontos, calculadoras, scripts, casos reais e ferramentas que acabam com o achismo e te poupam horas.
+78|Vamos construir algo lucrativo, sustentável e pensado para o estilo de vida que você realmente quer.
+79|Te vemos lá dentro, Farah &amp; Daniel
+80|Parte 2
+81|Nossa história
+82|De estar sem dinheiro e dormir no sofá a uma renda passiva de 6 dígitos e casas pelo mundo.
+83|Com vinte e poucos anos, nós dois deixamos nossos países (Bélgica e Brasil) e nos mudamos para Barcelona com nada além de uma mala, um pouco de economias e muita incerteza. Sem rede de segurança. Sem família por perto. Só a convicção de que<strong> a vida tinha que ser mais do que fazer as coisas do jeito “normal”.</strong>
+84|Em certo momento, a Farah alugou um quarto do Daniel. Foi assim que nos conhecemos, como dois desconhecidos dividindo um apartamento pequeno,<strong> tentando fechar as contas em uma das cidades mais caras da Europa.</strong>
+85|Depois de um tempo, ela conseguiu um lugar só dela. Mas a realidade não demorou a bater. O aluguel era alto, as economias tinham acabado e o aperto estava chegando. Voltar para o frio da Bélgica porque o dinheiro acabou? Ela não ia deixar isso acontecer. Então usou a criatividade.
+86|Ela se inspirou no Daniel, que já recebia hóspedes pelo Airbnb. A Farah anunciou o próprio quarto e transformou o sofá no seu novo “quarto”, pendurando uma canga gigante da janela até um gancho em cima da geladeira. <strong>Não era glamouroso, mas funcionou.</strong>
+87|<strong>Naquela época, não era sobre negócio. Era sobrevivência.</strong> No início, ainda não dava para pagar uma equipe. Nós dois fazíamos tudo: limpeza, check-ins, mensagens para os hóspedes, manutenção...
+88|<strong>Aí veio o momento “peraí…”.</strong> Aquele em que olhamos um para o outro e dissemos: <strong>e se isso pudesse virar algo maior? </strong>Foi quando decidimos entrar de cabeça, juntos.
+89|<strong>Cada euro que ganhávamos, nós reinvestíamos.</strong> Construímos devagar, com inteligência e dentro da lei, criando algo que não trazia só dinheiro, mas nos dava liberdade.
+90|Um apartamento virou dois. Depois cinco em Barcelona. E então veio o grande passo... a villa dos nossos sonhos em Bali. E a parte mais louca? <strong>Não somos donos de nenhuma dessas propriedades (ainda).</strong>
+91|<strong>O Daniel é engenheiro, do Brasil,</strong> um verdadeiro visionário, com talento natural para projeto de espaços. Ele entra em qualquer lugar e enxerga na hora como redesenhá-lo para dar o máximo de lucro ou aumentar seu valor.
+92|<strong>A Farah é coach de negócios e especialista em marketing digital, da Bélgica.</strong> Ela tem talento para sistemas, estética e detalhes. Criou processos, automatizou a comunicação com os hóspedes, simplificou os check-ins e faz tudo funcionar bem para que o hóspede se sinta em casa e cada detalhe seja cuidado.
+93|Avançando 8 anos, <strong>temos um negócio lucrativo e automatizado que gera meses consistentes de 5 dígitos em vários países. Mas começamos com nada além de um sonho.</strong>
+94|Este guia é exatamente o roteiro que
+95|<strong>gostaríamos de ter tido quando começamos.</strong> É passo a passo, direto ao ponto e construído a partir de <strong>experiência do mundo real, não de teoria.</strong>
+96|Seja para começar uma renda extra, criar uma nova fonte de renda ou construir um negócio que roda no piloto automático, você está no lugar certo.
+97|Se você está pronto para parar de trocar tempo por dinheiro e construir algo que te dê liberdade de verdade, vamos fazer acontecer.
+98|bjs, Farah &amp; Daniel
+99|Parte 3
+100|Você tem o que é preciso?
+101|Ter um negócio de Airbnb pode ser divertido, gratificante e muito lucrativo, mas também exige a mentalidade certa.<strong> Se você é do tipo que se apega demais ao seu espaço ou aos seus móveis, isso pode ser um desafio. </strong>
+102|A verdade é que<strong> de vez em quando alguma coisa vai ser danificada.</strong> Faz parte do jogo. É por isso que você tem alguém de manutenção de prontidão e que o Airbnb oferece proteção ao anfitrião. Se um hóspede quebrar algo e não quiser pagar, você ainda pode ser reembolsado.
+103|99% dos hóspedes são incríveis, respeitosos, gentis e agradecidos. Mas sempre existe aquele 1% que causa problemas, reclama sem razão ou tenta conseguir desconto apontando defeitos mínimos.
+104|Lembre também que<strong> as pessoas estão fora da rotina.</strong> Podem estar com jet lag, com fome, cansadas ou estressadas, e às vezes vão reagir de forma totalmente irracional. Seu trabalho (ou do seu gerente) é não levar para o lado pessoal, manter a calma e o profissionalismo.
+105|Sinceramente, vale muito a pena. Você vai aprender demais pelo caminho; não só sobre hospedagem, mas sobre pessoas. É fascinante ver como os hóspedes são diferentes, como as culturas interagem e como você cresce aprendendo a manter a calma em situações inesperadas.
+106|Essa jornada vai te desafiar, te moldar e te ajudar a crescer como dono de negócio e como pessoa.
+107|Além do lucro, a experiência vale muito a pena!
+108|99% dos hóspedes que você vai receber são ótimos, mas ah, aquele 1%..."
+109|Parte 4
+110|Como usar este curso
+111|Este guia foi feito para te conduzir passo a passo no lançamento e no crescimento do seu negócio de Airbnb. Você vai encontrar<strong> instruções claras, tarefas práticas e estratégias do mundo real</strong> que foram testadas e refinadas ao longo de anos de experiência.
+112|Em certos pontos, você vai receber <strong>tarefas práticas específicas para concluir.</strong> Todas elas estão organizadas no seu <x1>roadmap de 30 dias para lançar seu primeiro anúncio</a>, aqui no curso. Use-o para manter o rumo, marcar seu progresso e não se sentir sobrecarregado.
+113|Você também vai ver <strong>prompts de IA prontos para usar </strong>ao longo do guia. Eles servem para simplificar seu trabalho, escrever mais rápido e conseguir resultados melhores com menos esforço.
+114|Use este guia como seu manual de jogo. Dê um passo de cada vez, seja consistente e não deixe que pequenos tropeços te atrasem.
+115|Você consegue.
+116|Nesta versão interativa
+117|Todo capítulo termina com <strong>seus passos</strong>. Marque cada um e a barra de progresso lá em cima avança.
+118|Os prompts e modelos têm um botão <strong>Copiar</strong>. Os campos que você preenche uma vez (como a sua cidade) já entram nos prompts para você.
+119|As calculadoras, o roadmap e os modelos funcionam aqui mesmo na página, então você nunca precisa sair do curso.
+120|Parte 5
+121|Sua primeira vitória em 15 minutos
+122|Antes de ler outro capítulo, responda à pergunta que decide todo o resto: é legal onde você quer hospedar?
+123|Confira as regras da sua cidade
+124|Cidade e país onde você quer hospedar
+125|Prompt de IA: descubra as regras locais do Airbnb na sua região
+126|Copiar
+127|Você pode me ajudar a encontrar as regras atuais de aluguel de curta duração em <x1></mark>?⏎Quero saber:⏎- Se o aluguel de curta duração é permitido⏎- Se preciso de licença ou autorização⏎- Se há exigência de estadia mínima⏎- Obrigações fiscais (taxa de ocupação ou de turismo)⏎- Restrições de zoneamento ou regras de residência principal⏎Por favor, inclua links ou recursos úteis de sites oficiais do governo, se houver.
+128|Seus passos
+129|Leia nossa história e o teste de mentalidade
+130|Digite a cidade onde você quer hospedar
+131|Copie o prompt das regras locais, rode no seu assistente de IA e leia a resposta
+132|<x1>Pronto</span> quando
+133|Você sabe se o aluguel de curta duração é permitido na sua cidade, e sob quais regras.
+134|Tudo feito e pronto para seguir?
+135|Sim, concluído!
+136|<small>← Voltar</small>Início do curso
+137|<small>Próximo →</small>Modelos de negócio no Airbnb
+138|Capítulo 1 · Parte 1
+139|5 partes · cerca de 20 min
+140|Modelos de negócio no <x1>Airbnb</span>
+141|<b>1</b>Rental arbitrage vs co-hosting vs propriedade própria
+142|<b>2</b>Aluguéis de longa vs curta duração
+143|<b>3</b>Propriedades compartilhadas vs privadas
+144|<b>4</b>Entendendo as regras locais
+145|<b>5</b>Bônus: roadmap de 30 dias para lançar seu 1º anúncio
+146|Rental arbitrage <x1>vs</span> co-hosting <x2>vs</span> propriedade própria
+147|Se você já quis ter seu próprio negócio, mas se sentiu travado por causa de dinheiro, talvez isto seja exatamente o que você procurava. <strong>A maioria das pessoas acha que lançar um negócio de Airbnb exige um investimento enorme, anos de economia ou ter um imóvel. Mas não é o caso.</strong>
+148|Na prática, alguns dos anfitriões mais lucrativos do Airbnb não são donos de nenhum imóvel, e muitos começaram quase sem orçamento (como nós).
+149|Existem diferentes formas de ganhar dinheiro com o Airbnb.
+150|Com modelos de negócio como<strong> rental arbitrage e co-hosting,</strong> você pode lançar seu negócio de Airbnb sem comprar imóvel. Você não precisa de financiamento, de uma entrada alta nem de um compromisso de longo prazo. O que você precisa é de estratégia e dos sistemas certos.
+151|Esses modelos são perfeitos se você está começando com pouco orçamento, mas tem grandes ambições. Eles permitem construir um negócio com potencial sério de renda, mantendo o risco baixo. Você pode começar pequeno, ganhar rápido e escalar no seu ritmo.
+152|Se você <strong>tem um imóvel</strong>... Melhor ainda. Você está sentado em cima de um ativo poderoso de geração de renda. Anunciar seu espaço no Airbnb libera todo o potencial de ganho dele, seja uma segunda casa, um imóvel de investimento ou até só um quarto sobrando.
+153|Com a montagem e a estratégia certas, você pode transformá-lo em uma fonte consistente de renda passiva.
+154|Aqui está uma visão geral dos modelos de negócio mais comuns no Airbnb. Toque no que combina com você.
+155|Co-hosting
+156|Você gerencia a propriedade de outra pessoa em troca de uma parte da receita.
+157|Prós
+158|Baixo risco
+159|Baixo custo inicial
+160|Ótima forma de começar
+161|Contras
+162|Menos controle
+163|Precisa provar seu valor
+164|Ideal para
+165|Iniciantes com orçamento limitado e boas habilidades operacionais
+166|Este é o meu modelo
+167|Rental arbitrage
+168|Você aluga um imóvel a longo prazo e o subloca no Airbnb.
+169|Alto potencial de renda
+170|Controle total
+171|Escala rápido
+172|Precisa da autorização do proprietário
+173|Precisa seguir as leis locais
+174|Crescimento rápido com capital inicial moderado
+175|Propriedade própria
+176|Você compra o imóvel e o anuncia no Airbnb.
+177|Constrói patrimônio
+178|Liberdade total
+179|Investimento de longo prazo
+180|Custos iniciais altos
+181|Mais responsabilidade financeira
+182|Quem busca patrimônio de longo prazo e controle
+183|Decida seu modelo de negócio no Airbnb
+184|Aluguéis de longa <x1>vs</span> curta duração
+185|Ao desenhar sua estratégia de Airbnb, é importante escolher o tipo de estadia e de estrutura que combina com seus objetivos, sua localização e seu estilo de vida.
+186|ALUGUÉIS DE LONGA DURAÇÃO
+187|Os hóspedes ficam 28 dias ou mais, geralmente por trabalho, mudança ou férias prolongadas.
+188|Prós:
+189|Renda mais estável, com menos trocas de hóspedes.
+190|Custos menores de limpeza e operação.
+191|Melhor para locais com demanda sazonal ou onde estadias curtas são restritas.
+192|Contras:
+193|Diária mais baixa em comparação com a curta duração.
+194|Os hóspedes esperam uma experiência mais parecida com a de casa e podem exigir mais manutenção ou flexibilidade.
+195|Menos disponibilidade para receber outras reservas.
+196|ALUGUÉIS DE CURTA DURAÇÃO
+197|As reservas vão de 1 noite a algumas semanas.
+198|Diárias mais altas.
+199|Mais flexibilidade e controle sobre o seu calendário.
+200|Os hóspedes costumam passar a maior parte do tempo fora explorando o destino, então usam menos os móveis, a cozinha e as outras comodidades do que em um aluguel de longa duração.
+201|Mais exposição e visibilidade no ranking de busca do Airbnb.
+202|Se você tiver hóspedes “chatos”, eles vão embora logo.
+203|Trocas frequentes = mais trabalho de limpeza e de comunicação com hóspedes.
+204|Risco de hóspedes difíceis ou de danos ocasionais.
+205|Exige sistemas fortes e automação para escalar.
+206|Longa duração
+207|Os hóspedes ficam 28 dias ou mais.
+208|Vou oferecer estadias de longa duração
+209|Curta duração
+210|Vou oferecer estadias de curta duração
+211|Propriedades compartilhadas <x1>vs</span> privadas
+212|PROPRIEDADES PRIVADAS
+213|Os hóspedes têm uso exclusivo de uma unidade ou suíte inteira, com entrada, quarto e banheiro privativos.
+214|Preferidas pela maioria dos viajantes, com avaliações melhores e menos reclamações.
+215|Mais fácil alinhar expectativas.
+216|Diária mais alta.
+217|Custos maiores de montagem e de operação.
+218|Você precisa mobiliar e manter o espaço inteiro.
+219|ESPAÇOS COMPARTILHADOS
+220|Os hóspedes alugam um quarto em uma unidade maior e dividem as áreas comuns (cozinha, piscina, sala).
+221|Maior potencial de ganho por metro quadrado.
+222|Mais acessível para os viajantes = mais demanda.
+223|Ótimo para quem viaja sozinho e para hóspedes sociáveis.
+224|Comunicação clara é essencial; mal-entendidos podem acontecer.
+225|Maior chance de reclamações de barulho ou conflitos entre hóspedes.
+226|Exige mais regras e etiquetas claras.
+227|Bom saber: “coliving”
+228|A maioria das pessoas que opera o formato de espaços compartilhados chama isso de <strong>coliving</strong>, não de Airbnb. É a mesma estrutura: quartos privativos e áreas comuns compartilhadas.
+229|O nome pode jogar a seu favor. Em cidades com regras mais rígidas e mais tensão em torno do nome Airbnb, apresentar seu espaço como coliving pode tornar a conversa mais fácil.
+230|QUAL É O CERTO PARA VOCÊ?
+231|Não existe um modelo único para todos. Se você busca <strong>renda passiva com o mínimo de trabalho, os aluguéis de longa duração </strong>podem ser a sua opção.
+232|Se você quer maximizar o lucro e não se importa em colocar a mão na massa (ou tem sistemas fortes), <strong>a curta duração pode ser mais lucrativa. </strong>
+233|<strong>As acomodações compartilhadas </strong>funcionam muito bem em destinos de mochileiros ou nômades digitais, mas <strong>exigem mais supervisão. </strong>
+234|<strong>Os anúncios privados </strong>atraem um mercado mais amplo, mas <strong>precisam de mais investimento inicial.</strong>
+235|O segredo é escolher seu modelo de forma intencional, com base na localização, na sua personalidade, no público-alvo e nos sistemas que você está disposto a construir.
+236|Privada
+237|Os hóspedes têm uso exclusivo de uma unidade ou suíte inteira.
+238|Vou anunciar um espaço privado
+239|Compartilhada

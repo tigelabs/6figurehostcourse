@@ -1,0 +1,122 @@
+Language
+Course progress
+Course
+Minimal concrete villa with a sunbed beside a pool
+e.g. Barcelona, Spain
+City, Country
+Cold email to a landlord
+Follow-up email after a conversation
+Preview of the landlord information brochure: a cover titled Rental arbitrage and pages explaining who we are and what we do
+Airbnb page inviting you to start hosting your home
+e.g. villa, apartment, loft
+city, neighborhood, what it’s near
+e.g. pool, rooftop, fast Wi-Fi, view
+e.g. couples, digital nomads, families
+e.g. minimal, tropical, peaceful
+city/neighborhood
+e.g. pool, rooftop, walkable, design, view
+e.g. Boho Loft with Rooftop Views in Central Barcelona
+e.g. modern loft, cozy villa
+e.g. natural light, fast Wi-Fi, pool, kitchen, balcony
+e.g. couples, remote workers, families
+e.g. minimal, tropical, stylish, peaceful
+Listing description template
+Our Airbnb listing with one large cover photo and four smaller photos
+Airbnb listing of the room with the desk that made it look bigger
+Airbnb listing of the mirrored room with the less appealing desk
+Our house rules
+Listing section The space mentioning the shared pool and kitchen
+Welcome message reminding the guest that the villa is shared
+Listing section About this place stating the rest of the villa is shared
+Message to guests noting construction nearby and that the price includes a discount
+Listing section Other things to note mentioning construction noise and the discount
+Is the property private or shared with other guests?
+Amount of people in the property
+Asks if it is possible to check in at night
+Check-in at night, if it is past 00h
+Can I get a discount if I stay for a month? (if you don’t offer one)
+Can I get a discount if I stay for a month? (if you do)
+Can I visit the property?
+Is there car park?
+Someone books for another person
+Can I cancel and get a full refund? (strict cancellation policy, recommended)
+Luggage storage before check-in
+Exception to the cancellation policy (full refund within 12h after booking)
+Wants to change dates within 14 days of check-in
+Transfer from the airport
+How to get to the villa
+Cancellation, wants money back
+Is there an iron?
+Luggage storage after checkout: yes (shared property)
+Luggage storage after checkout: yes (private property)
+Luggage storage after checkout: not possible
+Room is locked past checkout
+Not checked out after 11am
+I thought it was private but it’s shared
+Lost my room key
+Lost my room key: when charging
+Noise complaint (in general), shared property
+Complaint: loud noise (specific guest), shared property
+Guests leaving clutter, shared property
+Reply to complaint, shared property
+Help, there is a spider in my room
+Property manager agreement
+Cleaning services agreement
+Handyman agreement
+Pool and garden maintenance agreement
+Message template: declutter announcement
+Message template: final reminder
+Maintenance inspection checklist
+Cleaning inspection checklist
+Deep cleaning checklist table
+Linen and guest essentials inventory table
+Example of a step-by-step photo check-in guide with numbered pictures and arrows
+Smart lock with keypad and phone app
+Lockbox with code holding keys
+Smart intercom device
+Airbnb scheduled message setting with the toggle Send for last minute bookings and short stays switched on
+Airbnb screen Set your seasonal rates and availability with a button to create a rule-set
+1. Welcome message
+2. Check-in instructions
+3. Ask if everything is okay
+4. Check-out instructions
+5. Leave a review
+Multi-property profit tracker spreadsheet
+Deadline
+Add your own task
+e.g. Casa Mewali
+Insert full address
+Insert details
+Step-by-step access instructions
+e.g. After 3:00 PM
+e.g. Before 11:00 AM
+e.g. +00 00 0000 0000
+Insert name + number
+Link to gallery
+Optional link to image or sketch
+Color palette, style guide, decor rules
+Link to your cleaning checklist
+e.g. 3 days
+e.g. replaced if left in laundry basket
+e.g. Toilet paper, soap, trash bags, etc.
+e.g. Under kitchen sink or storage room
+Where to find them
+Name of responsible person or role
+e.g. €50/month
+Name + number
+Process or group chat instructions
+Links to PDFs or photos of important manuals
+e.g. spare light bulbs, batteries – location
+Copy from your Airbnb listing or a simplified version
+Fire, water leak, guest locked out, etc.
+€ amount
+Invite link
+name and phone number
+DESTINATION
+CURRENCY
+Business model
+Worst-case occupancy rate in percent
+Average occupancy rate in percent
+Best-case occupancy rate in percent
+Line chart: cumulative profit rising and remaining initial capital falling until break even, at the average occupancy rate
+Image viewer

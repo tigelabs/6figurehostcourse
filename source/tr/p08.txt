@@ -1,0 +1,190 @@
+1384|Se você optar por <strong>chaves físicas,</strong> saiba que elas se perdem com frequência. Em lugares como Barcelona, os hóspedes às vezes as perdem quando têm a bolsa roubada. Mesmo quando você pede que devolvam a chave ao lugar original, muitos esquecem ou ignoram as instruções. Leve esse risco em conta ao decidir qual sistema usar.
+1385|Nota final:
+1386|O self check-in só é livre de estresse quando funciona de forma confiável. Teste seu sistema, atualize suas instruções com regularidade e tenha sempre uma chave reserva ou um contato disponível caso algo dê errado.
+1387|Qual sistema combina com a sua propriedade?
+1388|A fechadura certa depende muito da sua região e do tipo de propriedade que você tem.
+1389|<strong>Cofres de chave não funcionam em todo lugar.</strong> Em Barcelona, por exemplo, não há onde deixá-los na cidade. Eles costumam ser quebrados, e as caixas presas em paredes ou grades acabam poluindo a cidade.
+1390|<strong>Alguns prédios não permitem fechaduras inteligentes.</strong> Prédios históricos são o caso típico.
+1391|Então estude suas opções antes de comprar. Toda propriedade pode ter self check-in: hoje existem alternativas no mercado para quase todo problema e situação. Tente não complicar demais.
+1392|Quando receber os hóspedes pessoalmente é a melhor escolha
+1393|Há casos específicos em que faz sentido receber o hóspede você mesmo, ou ter alguém para isso. Já tivemos propriedades com mais tensão com os vizinhos: pessoas que não gostavam de ter um Airbnb no prédio.
+1394|Para não incomodá-los, sempre tínhamos alguém para receber o hóspede. Assim ninguém ficava perdido no prédio nem tocava a campainha do apartamento errado. Nossa pessoa encontrava o hóspede na chegada, chamava o elevador, mostrava todo o caminho, explicava o apartamento rapidamente, e o hóspede ficava instalado e sabia se virar dali em diante.
+1395|Cada caso precisa ser pensado de acordo com a própria situação.
+1396|Toque no método que você vai usar.
+1397|Fechadura inteligente
+1398|Códigos digitais para cada hóspede, gerenciados à distância.
+1399|Meu método de check-in
+1400|Cofre de chave
+1401|Uma caixa física com senha que guarda uma chave.
+1402|Campainha inteligente
+1403|Abre a porta do prédio quando alguém toca a campainha.
+1404|Entrega de chave
+1405|Chaves deixadas e retiradas em um local próximo.
+1406|Pessoalmente
+1407|Alguém da sua equipe recebe o hóspede.
+1408|Decida seu método de check-in
+1409|Escreva um guia de check-in à prova de erros, com fotos passo a passo
+1410|Tenha um plano B: chave reserva, contato próximo ou código mestre
+1411|O que automatizar e o que delegar
+1412|Se você quer ter um Airbnb de sucesso com menos estresse e mais liberdade, o segredo é saber a diferença entre o que automatizar, o que delegar e o que realmente exige a sua atenção.
+1413|A automação economiza seu tempo, evita erros humanos e mantém tudo funcionando até enquanto você dorme. Se uma tarefa se repete sempre do mesmo jeito, provavelmente pode ser automatizada.
+1414|Mensagens programadas:
+1415|Use as mensagens programadas da caixa de entrada do Airbnb para automatizar mensagens de boas-vindas, informações de check-in, instruções de checkout, pedidos de avaliação e respostas a perguntas frequentes.
+1416|Importante: mantenha sua comunicação simples e fácil. Pense sempre: uma criança de 5 anos entenderia isso?
+1417|As pessoas têm pouca atenção quando estão viajando, porque já têm muita coisa na cabeça.
+1418|Principalmente no self check-in, inclua só as informações essenciais para entrar sem dificuldade. Se quiser compartilhar dicas locais ou detalhes extras, coloque em um documento ou link separado, para a mensagem ficar limpa e clara. Você também pode programar uma mensagem de acompanhamento para o dia seguinte à chegada, com extras úteis, quando o hóspede já estiver instalado.
+1419|Importante: para informações essenciais, ative a opção “enviar para reservas de última hora e estadias curtas”. Assim, as reservas de última hora também recebem a mensagem, não importa quando ou por quanto tempo a pessoa reserve.
+1420|Envie as fotos do check-in dentro do chat do Airbnb
+1421|Antes o Airbnb não permitia fotos nas mensagens automáticas de check-in, então era preciso enviar manualmente. Hoje permite. Prepare uma vez suas fotos do check-in passo a passo, adicione-as à sua mensagem programada de check-in, e todo hóspede recebe as instruções com as imagens automaticamente. É praticamente zero trabalho para você.
+1422|Mantenha a conversa no Airbnb, não no WhatsApp
+1423|Não leve os hóspedes para o WhatsApp. Isso te dá mais trabalho, porque você acaba respondendo em dois lugares. E só as conversas dentro do chat do Airbnb podem ser acompanhadas pela equipe de suporte do Airbnb. Se houver um incidente ou um conflito, ou se um hóspede alegar que você disse isso ou aquilo, as mensagens fora do Airbnb não são consideradas.
+1424|Quanto mais você mantiver a conversa dentro do chat do Airbnb, melhor.
+1425|Só damos um número de telefone para emergências. Mesmo assim, às vezes os hóspedes escrevem ali para pedir as instruções de check-in. Quando isso acontece, respondemos no WhatsApp com uma única linha e depois respondemos direito no chat do Airbnb:
+1426|“Este é um número de emergência. Vou te responder no chat do Airbnb.”
+1427|Isso estabelece o limite. A partir daí, o hóspede fala com você pelo Airbnb.
+1428|Ative esta opção
+1429|Preços:
+1430|Use uma ferramenta de preço dinâmico como PriceLabs, Wheelhouse ou Beyond Pricing para ajustar automaticamente suas diárias com base em demanda, eventos e concorrência.
+1431|O Airbnb também tem a opção de criar “conjuntos de regras”. Com isso você sobe ou baixa os preços automaticamente, por exemplo para descontos de última hora ou na alta temporada.
+1432|Sincronização de calendários:
+1433|Sincronize vários calendários se você estiver em outras plataformas (Booking.com, VRBO) para evitar reservas duplicadas.
+1434|Fechaduras inteligentes:
+1435|Use fechaduras digitais que permitam configurar códigos à distância e ativar/desativar automaticamente por hóspede.
+1436|Limpeza:
+1437|dê à pessoa da limpeza acesso à visualização do calendário, para que ela fique automaticamente atualizada sobre as reservas (sem acesso às mensagens, para não ver seus ganhos).
+1438|Conjuntos de regras do Airbnb
+1439|Delegue: tudo o que exige presença física ou interação pessoal
+1440|Delegar é montar uma equipe de confiança para cuidar das tarefas que não podem ser automatizadas, principalmente a operação no local. Você não deveria estar limpando seu próprio Airbnb nem fazendo check-ins de madrugada.
+1441|<strong>Limpeza e lavanderia:</strong> contrate uma pessoa de limpeza confiável e crie um checklist padrão para que o trabalho seja feito sempre do mesmo jeito.
+1442|<strong>Manutenção e tarefas de faz-tudo:</strong> tenha alguém de plantão para pequenos reparos, aparelhos quebrados ou emergências.
+1443|<strong>Atendimento ao hóspede e coordenação:</strong> se você quer se afastar por completo, contrate um coanfitrião ou gerente para responder mensagens, coordenar a limpeza e resolver problemas.
+1444|<strong>Reposição de suprimentos:</strong> delegue a reposição semanal ou mensal e use um sistema de capital de giro com controle de recibos.
+1445|O QUE FAZER VOCÊ MESMO (PELO MENOS NO INÍCIO)
+1446|No começo, cuidar de algumas coisas você mesmo vai te ajudar a aprender o negócio por dentro. Quando você entender como tudo funciona, estará em uma posição melhor para delegar com clareza.
+1447|Mantenha o controle sobre:
+1448|A experiência do hóspede (principalmente o tom de voz e os modelos de mensagem)
+1449|A marca e a otimização do anúncio
+1450|As avaliações e a gestão da reputação
+1451|A criação de sistemas (POPs, modelos, controles)
+1452|Você sempre pode passar isso adiante depois, mas construa a base você mesmo.
+1453|Automatize o repetitivo. Delegue o físico. Concentre seu tempo no que realmente faz o negócio crescer: marca, estratégia e experiência. Essa é a receita para escalar com liberdade.
+1454|Programe suas mensagens e ative “enviar para reservas de última hora e estadias curtas”
+1455|Configure o preço dinâmico ou os conjuntos de regras do Airbnb
+1456|Dê à pessoa da limpeza acesso à visualização do calendário
+1457|Sistemas de comunicação para sua equipe
+1458|Comunicação clara é a espinha dorsal de uma operação de Airbnb tranquila e profissional, principalmente quando você coordena várias pessoas, como limpeza, faz-tudo, gerente ou até freelancers. Sem sistemas, as coisas se perdem. Veja como montar fluxos de comunicação simples, mas eficazes, com sua equipe.
+1459|1. Crie um grupo central por propriedade
+1460|Use o WhatsApp (ou o app que preferir) e crie um grupo para cada propriedade com o gerente, a limpeza, o faz-tudo e todos os envolvidos. Isso mantém todo mundo alinhado e permite documentar atualizações e problemas em um só lugar.
+1461|Você pode dar um nome simples, como: [Nome da propriedade] – Equipe de operações
+1462|Use esse grupo para:
+1463|Coordenar a agenda
+1464|Compartilhar avisos sobre hóspedes (checkouts tardios, check-ins antecipados)
+1465|Relatar danos ou itens faltando (com fotos)
+1466|Enviar recibos e acompanhar o saldo restante (se você usa capital de giro)
+1467|2. Dê acesso à wiki da propriedade (veja o modelo bônus)
+1468|Sua equipe deve ter sempre acesso à wiki da propriedade. Ela deve incluir:
+1469|Checklist de limpeza
+1470|Lista de suprimentos
+1471|Links de produtos
+1472|Contatos de emergência
+1473|Instruções de uso dos aparelhos
+1474|Fotos ou vídeos mostrando o passo a passo
+1475|Isso evita que você se repita e acelera a integração de novas pessoas na equipe.
+1476|3. Defina expectativas de tempo de resposta
+1477|Seja claro sobre quando e com que rapidez as pessoas devem responder. Por exemplo:
+1478|A limpeza deve responder às confirmações de checkout em até 2 horas.
+1479|Os contatos de emergência devem estar disponíveis por telefone quando houver hóspedes na propriedade.
+1480|Os gerentes devem enviar uma atualização ou um resumo diário quando necessário.
+1481|4. Use mensagens fixadas ou pastas compartilhadas
+1482|No WhatsApp, fixe as informações mais importantes (como códigos da porta, checklists ou dados de pagamento) no topo do grupo. Para sistemas mais complexos, use uma pasta compartilhada no Google Drive ou no Dropbox com tudo organizado.
+1483|5. Use áudios quando ajudar
+1484|Nem tudo precisa ser digitado. Para atualizações mais longas ou explicações passo a passo, um áudio rápido economiza tempo e deixa a comunicação mais humana e clara.
+1485|d<em>ica final: clareza = menos erros</em>
+1486|A falha de comunicação é uma das principais causas de erros, limpezas esquecidas e experiências ruins para o hóspede. Quanto mais claros forem seus sistemas, melhor sua operação vai rodar, e menos você será necessário no dia a dia.
+1487|Crie um grupo de WhatsApp por propriedade e fixe as informações principais
+1488|Bônus: mensagens programadas com toque pessoal
+1489|Mensagens programadas economizam seu tempo, mas isso não significa que precisem parecer robóticas. O segredo é escrevê-las em um tom caloroso e simpático e incluir toques pessoais, como o nome do hóspede.
+1490|Quando bem feitas, as mensagens programadas parecem uma comunicação de verdade e garantem que todo hóspede receba as informações de que precisa na hora certa, todas as vezes.
+1491|Como configurar
+1492|<strong>Onde elas ficam:</strong> no Airbnb, em “Mensagens programadas”. Cada uma tem um gatilho e um horário, mostrados aqui acima do título.
+1493|<strong>Automáticas:</strong> depois de salvas, o Airbnb envia sozinho para todos os hóspedes. Use os códigos de atalho do Airbnb para o primeiro nome do hóspede, para cada mensagem parecer pessoal.
+1494|<strong>Adicione suas fotos do check-in</strong> à mensagem 2, para o hóspede receber as imagens sem você enviar nada.
+1495|<small>Automática · logo após a reserva</small>1. Mensagem de boas-vindas
+1496|1. Mensagem de boas-vindas
+1497|Mensagem programada. Edite os [colchetes] e cole em Airbnb › Mensagens programadas.
+1498|<small>Automática · dia da chegada, 11h</small>2. Instruções de check-in
+1499|2. Instruções de check-in
+1500|<small>Automática · dia seguinte à chegada, 10h</small>3. Perguntar se está tudo bem
+1501|3. Perguntar se está tudo bem
+1502|<small>Automática · véspera do checkout, 14h</small>4. Instruções de checkout
+1503|4. Instruções de checkout
+1504|<small>Automática · dia do checkout, 12h</small>5. Deixe uma avaliação
+1505|5. Deixe uma avaliação
+1506|Os hóspedes conseguem fazer check-in sem você, e existe um plano B se algo falhar.
+1507|Suas mensagens e seus preços funcionam sozinhos.
+1508|<small>← Voltar</small>Otimize suas operações
+1509|<small>Próximo →</small>Escalando para os 6 dígitos
+1510|Capítulo 11 · Parte 3
+1511|6 partes · cerca de 20 min
+1512|Escalando para os <x1>6 dígitos</span>
+1513|<b>1</b>Quando expandir (e quando esperar)
+1514|<b>2</b>Gerenciando vários anúncios em países diferentes
+1515|<b>3</b>Mantendo-se dentro da lei ao escalar
+1516|<b>4</b>Erros a evitar como anfitrião
+1517|<b>5</b>Bônus: controle de lucro para várias propriedades
+1518|<b>6</b>Parabéns!
+1519|Quando expandir (e quando esperar)
+1520|Um dos marcos mais empolgantes da sua jornada no Airbnb é a decisão de expandir. Mas crescer rápido demais ou cedo demais pode sair pela culatra. Saber quando você está realmente pronto é a chave para o sucesso no longo prazo.
+1521|Você está pronto para expandir?
+1522|Você está pronto para expandir se:
+1523|<strong>Seu anúncio atual funciona como uma máquina bem azeitada:</strong> os sistemas estão implantados, os hóspedes estão felizes, as avaliações são ótimas e a operação não depende de você 24 horas por dia.
+1524|<strong>Você montou uma equipe confiável:</strong> a limpeza, um faz-tudo e um gerente ou coanfitrião já estão treinados e dão conta dos turnovers e dos problemas dos hóspedes sem o seu envolvimento direto.
+1525|<strong>Você automatizou as tarefas repetitivas:</strong> mensagens, preços e check-ins funcionam com o mínimo de intervenção, graças a ferramentas como mensagens automáticas, preço dinâmico e fechaduras inteligentes.
+1526|<strong>Você tem lucro de forma consistente:</strong> sua propriedade atual gera uma renda confiável, mesmo na baixa temporada.
+1527|<strong>Você tem capital (ou fluxo de caixa) para investir:</strong> expandir exige custos iniciais. Sem uma reserva, o estresse pode superar as recompensas.
+1528|Você deve esperar se:
+1529|<strong>Você ainda está ajustando seus sistemas:</strong> se sua propriedade atual exige atenção constante ou se as coisas dão errado com frequência, primeiro concentre-se em refinar seu processo.
+1530|<strong>Suas avaliações são mistas ou inconsistentes:</strong> expandir enquanto você ainda tenta entregar uma ótima experiência ao hóspede pode multiplicar os problemas e prejudicar sua reputação.
+1531|<strong>Você não tem uma equipe forte:</strong> tentar gerenciar duas propriedades sem apoio leva ao esgotamento e a erros.
+1532|<strong>O fluxo de caixa está apertado:</strong> esticar o orçamento pode pressionar a experiência do hóspede, a manutenção e a qualidade, o que prejudica o sucesso no longo prazo.
+1533|Expandir cedo demais é um dos erros mais comuns dos novos anfitriões. Em vez disso, concentre-se em construir uma base sólida e depois escale com intenção. Um segundo anúncio deve parecer um próximo passo natural, não um salto no escuro. Na dúvida, otimize antes de expandir.
+1534|Faça o teste “pronto para expandir” com honestidade
+1535|Gerenciando vários anúncios em países diferentes
+1536|Expandir seu negócio de Airbnb para outros países pode ser uma jogada poderosa. Permite diversificar a renda, entrar em mercados diferentes e operar o ano todo sem ficar preso a um único lugar. Mas também traz desafios próprios, principalmente com fusos horários, regras legais e coordenação da equipe.
+1537|Veja como gerenciar com eficiência vários anúncios em países diferentes:
+1538|1. Monte equipes locais fortes
+1539|Como você não pode estar em todos os lugares ao mesmo tempo, seu sucesso depende de uma equipe local confiável. Isso inclui:
+1540|Limpeza (com uma pessoa reserva)
+1541|Um faz-tudo local
+1542|Um gerente ou coanfitrião de confiança
+1543|Um contato de emergência que more por perto
+1544|Invista tempo em encontrar, testar e treinar suas pessoas. Quando elas estiverem firmes, suas propriedades funcionam com o mínimo de intervenção sua.
+1545|2. Padronize tudo
+1546|Crie modelos, checklists e sistemas que funcionem em todas as propriedades:
+1547|Checklists de limpeza
+1548|Modelos de mensagem para hóspedes
+1549|Controles de reposição de suprimentos
+1550|POPs para turnovers e emergências
+1551|veja os modelos bônus
+1552|3. Use a automação a seu favor
+1553|Mensagens automáticas mantêm a comunicação consistente.
+1554|Ferramentas de preço dinâmico como PriceLabs ou BeyondPricing ajudam a se adaptar à demanda local.
+1555|Fechaduras inteligentes e self check-in reduzem a necessidade de presença física.
+1556|Use agendadores baseados em fuso horário para não enviar mensagens às 3h da manhã no horário local.
+1557|4. Conheça as leis e os impostos locais
+1558|Cada país tem suas próprias regras para aluguel de curta duração. Garanta que você:
+1559|Entende as exigências locais de licença ou registro
+1560|Sabe como funcionam os impostos (IVA, taxa de turismo etc.)
+1561|Contrata contadores ou consultores jurídicos locais, se necessário
+1562|Estar em conformidade protege seu negócio e evita multas ou fechamento.
+1563|5. Separe as finanças
+1564|Mantenha uma conta bancária, um meio de pagamento e um capital de giro separados para cada propriedade. Isso ajuda a acompanhar o desempenho e simplifica a declaração de impostos em cada país.
+1565|6. Centralize a comunicação
+1566|Use ferramentas como grupos de WhatsApp ou pastas compartilhadas no Google para ficar em sintonia com sua equipe. Deixe claro quem é responsável pelo quê e crie rotinas simples (por exemplo, enviar foto de todo recibo ou informar os checkouts diariamente).
+1567|7. Proteja seu tempo e sua sanidade
+1568|Gerenciar anúncios em fusos horários diferentes pode ser desgastante. Agrupe as tarefas por fuso e considere contratar um assistente virtual para acompanhar as mensagens enquanto você dorme.
+1569|C<em>omece com um país e construa sistemas sólidos. Quando seu primeiro anúncio internacional funcionar bem sem seu envolvimento constante, você terá um modelo para replicar em outros lugares.</em>
+1570|Gerenciar propriedades em vários países é totalmente possível, desde que você trate isso como um negócio, não como um hobby. Sistemas, equipes e ferramentas são seus melhores amigos.
+1571|Padronize seus checklists, modelos de mensagem e POPs em todas as propriedades
+1572|Mantenha uma conta bancária e um capital de giro separados para cada propriedade
+1573|Mantendo-se dentro da lei ao escalar

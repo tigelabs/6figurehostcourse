@@ -1,0 +1,370 @@
+1574|À medida que seu negócio de Airbnb cresce, suas responsabilidades legais também crescem. Gerenciar um anúncio é simples, mas, quando você começa a operar em várias cidades ou países, a conformidade fica mais complexa e mais importante. Estar à frente das regras locais é fundamental para evitar multas, penalidades ou até ter o anúncio removido.
+1575|Veja o que você precisa saber para escalar com responsabilidade e dentro da lei:
+1576|1. Pesquise as leis locais de aluguel de curta duração
+1577|Cada lugar tem suas próprias regras. Antes de anunciar uma propriedade, pesquise:
+1578|Se o aluguel de curta duração é legal naquela área
+1579|Se há um limite de noites por ano
+1580|Se há restrições de zoneamento
+1581|Se você precisa morar no local para alugar legalmente
+1582|Dica: grupos locais de anfitriões no Facebook ou fóruns como a Central da Comunidade do Airbnb são ótimos lugares para perguntar sobre mudanças recentes nas regras.
+1583|2. Tenha as licenças e os registros certos
+1584|Muitas cidades hoje exigem:
+1585|Uma licença comercial
+1586|Uma autorização para aluguel de curta duração
+1587|Um número de registro único incluído no anúncio
+1588|Contatos de emergência visíveis na propriedade
+1589|Não cumprir isso pode resultar em multas pesadas ou na remoção automática do Airbnb. Consulte o site da prefeitura local ou um advogado local para garantir que você está totalmente regularizado.
+1590|3. Entenda os impostos
+1591|Você pode ser responsável por:
+1592|Taxas de ocupação ou de turismo
+1593|Imposto de renda (local e no exterior, se você gerencia de outro país)
+1594|IVA ou imposto sobre vendas (em alguns países)
+1595|Dependendo da sua estrutura, pode ser necessário:
+1596|Registrar-se como empresa
+1597|Entregar declarações de impostos mensais ou trimestrais
+1598|Guardar recibos e relatórios de despesas
+1599|Trabalhe com um contador que entenda de negócios de aluguel de curta duração em cada país em que você opera.
+1600|4. Siga as normas de segurança para hóspedes
+1601|Algumas jurisdições exigem padrões de segurança específicos, como:
+1602|Detectores de fumaça e de monóxido de carbono
+1603|Extintores de incêndio e kits de primeiros socorros
+1604|Saídas claramente sinalizadas
+1605|Cobertura de seguro
+1606|Mesmo quando não são obrigatórias, essas são boas práticas para proteger você e seus hóspedes, e podem ser exigidas para você ter direito à Proteção ao Anfitrião do Airbnb.
+1607|5. Acompanhe as mudanças na lei enquanto escala
+1608|As leis de aluguel de curta duração mudam o tempo todo. O que era legal quando você começou pode não ser amanhã. Configure Alertas do Google, acompanhe as notícias locais e mantenha contato com outros anfitriões para se manter informado.
+1609|Dica bônus: guarde cópias digitais de todos os seus documentos (autorizações, licenças, comprovantes de impostos) organizadas em uma pasta compartilhada, como Google Drive ou Notion, para acessar facilmente a qualquer momento.
+1610|Configure Alertas do Google para mudanças nas leis de aluguel de curta duração em cada local
+1611|Erros a evitar como anfitrião
+1612|Esteja você começando ou já gerenciando vários anúncios, há armadilhas comuns que podem te custar tempo, dinheiro e paz de espírito. Evitar esses erros poupa estresse desnecessário e te ajuda a tocar seu Airbnb de forma mais profissional:
+1613|<strong>Cuidado com check-ins de madrugada.</strong> Hóspedes que chegam depois da meia-noite tendem a ter mais problemas. Garanta que suas instruções de self check-in sejam claras e à prova de erros para evitar ligações urgentes no meio da noite.
+1614|<strong>Não aceite pedidos de alteração feitos para fugir da taxa de cancelamento. </strong>Alguns hóspedes enviam pedidos de alteração da reserva (como reduzir o número de noites) só para escapar das penalidades de cancelamento. Recusar e manter sua política protege sua renda.
+1615|<strong>Não aceite reservas fora do Airbnb. </strong>Pode ser tentador para economizar nas taxas, mas isso elimina toda a proteção, para você e para o hóspede. Mantenha sempre a comunicação e os pagamentos na plataforma.
+1616|<strong>Taças de vinho sempre quebram.</strong> Tenha extras em estoque ou considere trocar por opções mais resistentes para não ficar sem.
+1617|<strong>Oriente a pessoa da limpeza a sempre tirar fotos.</strong> Se houver dano ou algo faltando (como toalhas), as fotos são sua prova. Isso é essencial para abrir pedidos de reembolso ou resolver disputas.
+1618|<strong>Não pule o ciclo de “contratar e demitir”.</strong> Encontrar a equipe certa leva tempo. A maioria das pessoas não será perfeita na primeira tentativa, então não tenha medo de fazer mudanças até montar uma equipe confiável.
+1619|<strong>Divida as responsabilidades.</strong> Não centralize tudo em uma pessoa só. Distribua tarefas como comunicação, finanças e manutenção, para que nada desmorone se alguém não estiver disponível.
+1620|<strong>Preserve sua privacidade financeira.</strong> Nem todo mundo da equipe precisa ver seus ganhos. Transparência é importante, mas informação demais pode gerar tensão ou expectativas irreais.
+1621|<strong>Seja inteligente com o armazenamento. </strong>Use sacos a vácuo para itens volumosos como edredons. Economiza espaço e mantém tudo limpo.
+1622|<strong>Evite escrever demais nas mensagens programadas ou nas etiquetas. </strong>Seja breve e direto. Os hóspedes viajam cansados e tendem a ignorar textos longos.
+1623|Se precisar compartilhar informações extras, use um documento ou link.
+1624|<strong>Tenha sempre um jogo de chaves reserva ou uma solução de acesso alternativa.</strong> Chaves podem ser perdidas ou roubadas e, sem um plano B, você corre o risco de hóspedes trancados do lado de fora, frustração e visitas caras de chaveiro de emergência.
+1625|Evitar esses erros vai deixar sua hospedagem mais tranquila, segura e profissional no longo prazo.
+1626|Bônus: controle de lucro para várias propriedades
+1627|Um controle financeiro para várias propriedades é essencial quando você gerencia vários anúncios no Airbnb. Ele te dá uma visão clara de receita, despesas, taxas de limpeza, custos de reposição, contas de consumo e lucro por propriedade, para você ver rápido o que está rendendo e o que precisa de atenção. É dividido em abas ou categorias separadas para cada anúncio, para evitar confusão. Atualize sempre todo mês.
+1628|Controle de lucro para várias propriedades
+1629|Receita, despesas e lucro por propriedade. Atualize sempre todo mês.
+1630|Monte o controle de lucro para várias propriedades e atualize todo mês
+1631|Parabéns!
+1632|Construa uma vida da qual você não precise tirar férias.
+1633|<strong>Você chegou ao fim, e isso é só o começo.</strong> Obrigado por dedicar seu tempo a este guia. Espero de verdade que ele te ajude a construir o negócio de Airbnb (e a liberdade) com que você sonha.
+1634|Vou adorar acompanhar sua jornada e torcer por você! Vamos manter contato no Instagram: <x1>@6figurehost</a>
+1635|Você sabe se está pronto para um segundo anúncio.
+1636|Seus sistemas estão padronizados, então a próxima propriedade é uma cópia, não um projeto novo.
+1637|<small>← Voltar</small>Automações para renda passiva
+1638|<small>Próximo →</small>Roadmap de 30 dias
+1639|Bônus · checklist de tarefas
+1640|Roadmap de 30 dias para lançar seu 1º <x1>anúncio</span>
+1641|Um plano claro transforma sonhos em ação. Pequenos passos levam a grandes resultados.
+1642|Este roadmap é seu guia passo a passo para lançar seu primeiro anúncio no Airbnb e construir um negócio baseado em liberdade: da ideia à renda. Use-o como a central do seu projeto de Airbnb: marque cada tarefa, defina um prazo e adicione mais tarefas pelo caminho.
+1643|Seu progresso
+1644|Preparação
+1645|Decida seu modelo de negócio no Airbnb (rental arbitrage, co-hosting, propriedade própria)
+1646|Capítulo 1
+1647|Pesquise as regras locais do Airbnb nas áreas que te interessam
+1648|airdna.co
+1649|Inicie o processo para se tornar autônomo ou abrir uma empresa
+1650|Capítulo 2
+1651|Encontre a propriedade
+1652|Capítulo 3
+1653|Reuniões com proprietários e e-mails de acompanhamento
+1654|Scripts de pitch
+1655|Analise a propriedade com a calculadora de lucro e ROI
+1656|Calculadora
+1657|Use a matriz de decisão para a decisão final
+1658|Matriz
+1659|Assine o contrato de aluguel ou de compra
+1660|Monte a propriedade
+1661|Configure as contas de luz, água...
+1662|Instale o roteador Wi-Fi
+1663|Compre os móveis e demais itens
+1664|Compre os produtos de limpeza
+1665|Capítulo 9
+1666|Deixe tudo à prova de hóspedes e fácil para a equipe gerenciar
+1667|Capítulo 5
+1668|Apartamento compartilhado: coloque fechaduras por dentro e por fora em todos os quartos + etiquetas com o número dos quartos
+1669|Crie etiquetas (recomendamos comprar uma plastificadora)
+1670|flaticon.com
+1671|Crie a folha ou o livreto de boas-vindas
+1672|Livretos
+1673|Monte o anúncio
+1674|Crie sua conta no Airbnb e seu 1º anúncio
+1675|Capítulo 6
+1676|Escreva a descrição e preencha os detalhes do anúncio no Airbnb
+1677|Tire fotos da sua propriedade e envie para o Airbnb
+1678|Defina seu preço
+1679|Otimize seu anúncio e faça a revisão final
+1680|Checklist
+1681|Configure as respostas rápidas
+1682|Capítulo 7
+1683|Configure as mensagens programadas
+1684|Capítulo 10
+1685|Crie sua equipe
+1686|Decida se quer contratar uma agência ou criar sua própria equipe
+1687|Capítulo 8
+1688|Equipe própria: contrate limpeza, faz-tudo e gerente ou coanfitrião (opcional)
+1689|Equipe própria: assine contratos para evitar confusão
+1690|Contratos
+1691|Monte os sistemas
+1692|Personalize seu manual da propriedade
+1693|Personalize o checklist de inventário com toda a roupa de cama e os itens do apartamento
+1694|Personalize seus checklists de turnover e de limpeza profunda
+1695|Decida quem é responsável pela reposição e monte o sistema com um capital de giro
+1696|Crie um espaço para achados e perdidos (por exemplo, uma caixa)
+1697|Decida seu método de check-in (self check-in com código digital, cofre de chave, encontro pessoal, KeyNest)
+1698|Monte o sistema de comunicação da sua equipe (por exemplo, grupo de WhatsApp)
+1699|Monte o controle financeiro (para várias propriedades)
+1700|Capítulo 11
+1701|Lance seu anúncio
+1702|Lance seu anúncio!
+1703|Escale para os 6 dígitos
+1704|Quando tudo estiver rodando bem: escale
+1705|Minhas tarefas
+1706|Adicionar tarefa
+1707|<small>← Voltar</small>Escalando para os 6 dígitos
+1708|<small>Próximo →</small>Checklist de montagem
+1709|Bônus · móveis, decoração e essenciais
+1710|Checklist completo de montagem do <x1>Airbnb</span>
+1711|Tudo o que comprar, cômodo por cômodo.
+1712|É inteligente anotar onde você comprou cada item, principalmente se comprar online. Assim, se algo for danificado, seu gerente encontra rapidamente o item exato para pedir troca ou reembolso.
+1713|Mostrar
+1714|Tudo
+1715|Indispensável
+1716|Recomendado
+1717|Bom ter
+1718|Orçamento estimado
+1719|Falta comprar
+1720|Os preços são estimativas aproximadas por linha para um imóvel de um quarto. Marque o que você já tem e o “Falta comprar” diminui.
+1721|Quarto
+1722|Estrutura de cama (Queen ou King)
+1723|× 1 · 160x200cm · cerca de €150
+1724|Escolha uma base firme e confortável.
+1725|Colchão
+1726|× 1 · 160x200cm · cerca de €200
+1727|Escolha o tamanho de acordo com a cama. Firmeza média, boa qualidade
+1728|Mesas de cabeceira
+1729|× 2 · cerca de €80
+1730|Iguais dos dois lados, para dar simetria
+1731|Abajures de cabeceira
+1732|× 2 · cerca de €30
+1733|De preferência luz quente
+1734|Espelho de corpo inteiro
+1735|× 1 · cerca de €30
+1736|Ajuda os hóspedes a se arrumarem
+1737|Arara/guarda-roupa
+1738|× 1 · cerca de €80
+1739|Inclua cabides
+1740|Cabides (de madeira)
+1741|× 10+ · cerca de €15
+1742|Evite cabides baratos de arame
+1743|Edredom
+1744|× 1 jogo · depende do tamanho da sua cama · cerca de €40
+1745|Hipoalergênico (sem penas, algumas pessoas são alérgicas)
+1746|Capa de edredom
+1747|× 3 jogos · cerca de €75
+1748|Tenha extras para turnovers rápidos
+1749|Travesseiros
+1750|× 4 · quadrado / retangular · cerca de €40
+1751|Firmeza média
+1752|Capa de colchão
+1753|× 3 jogos · cerca de €45
+1754|Protetor de travesseiro
+1755|× 5 · cerca de €40
+1756|Fácil de lavar, protege o travesseiro. Tenha sempre 1 extra por propriedade, para poder lavar sem nunca deixar a cama desprotegida.
+1757|Protetor de colchão
+1758|Depende do tamanho do colchão. Tenha sempre 1 extra por propriedade, para poder lavar sem nunca deixar a cama desprotegida.
+1759|Fronhas
+1760|× 12 fronhas · cerca de €72
+1761|Veja se seus travesseiros são quadrados ou retangulares. 4 travesseiros x3 = 12 fronhas
+1762|Secador de cabelo
+1763|× 1/quarto · cerca de €15
+1764|Manta decorativa
+1765|Almofada decorativa
+1766|× 1 · cerca de €10
+1767|Capa de almofada decorativa
+1768|× 2 · cerca de €20
+1769|Varal pequeno
+1770|× 1 · cerca de €15
+1771|Os hóspedes adoram ter onde secar roupas ou toalhas
+1772|Sacos a vácuo para guardar edredons no verão
+1773|Para evitar insetos e mofo
+1774|Suporte para mala
+1775|× 1 ou 2 · cerca de €25
+1776|Ajuda os hóspedes a desfazer as malas
+1777|Toalha de praia (opcional)
+1778|× 6 · cerca de €60
+1779|Deixe claro para os hóspedes quais toalhas podem ir para a praia e quais não
+1780|Tapete
+1781|× 1 · cerca de €40
+1782|Garanta que dê para limpar
+1783|Ventilador (em climas quentes)
+1784|Quadro magnético para colar fotos
+1785|× 1/quarto · cerca de €8
+1786|Quem fica por longa duração costuma colar fotos na parede do quarto, deixando marcas. Dando um espaço para colar fotos, você evita isso. Veja no AliExpress ou na Temu
+1787|Cesto de roupa
+1788|Recomendado se você faz estadias de longa duração
+1789|Banheiro
+1790|Toalhas de banho
+1791|Boa qualidade
+1792|Toalhas de rosto
+1793|× 6 · cerca de €30
+1794|Dispenser de sabonete líquido
+1795|De preferência recarregável
+1796|Escova sanitária
+1797|× 1 · cerca de €8
+1798|Mantenha discreta e limpa
+1799|Cortina/box do chuveiro
+1800|× 1 · cerca de €20
+1801|Evita respingos de água
+1802|Lixeira para o banheiro
+1803|Com tampa. Garanta que a tampa feche fácil e sozinha.
+1804|Espelho do banheiro
+1805|× 1 · cerca de €35
+1806|Recomendado com iluminação
+1807|Frascos básicos de higiene para reabastecer
+1808|× 1 jogo · cerca de €12
+1809|Xampu, condicionador, sabonete líquido
+1810|Secador de cabelo
+1811|Tamanho de viagem já serve
+1812|Kit de primeiros socorros
+1813|Local claramente sinalizado
+1814|Sala de estar
+1815|Sofá ou sofá-cama
+1816|× 1 · cerca de €250
+1817|Considere um sofá-cama para aumentar a capacidade. Garanta que o sofá seja resistente a sujeira ou compre uma capa
+1818|Roteador Wi-Fi
+1819|Boa cobertura
+1820|Placa/livreto de boas-vindas
+1821|Inclua regras da casa e dicas
+1822|Mesa de trabalho
+1823|× 1 · cerca de €50
+1824|Pequeno espaço de trabalho para os hóspedes ou para apoiar seus objetos pessoais
+1825|Cadeira para a mesa
+1826|Confortável, mas compacta
+1827|Luminária de mesa
+1828|Luz quente, compacta
+1829|Capa de sofá
+1830|Depende do seu sofá
+1831|TV
+1832|Cozinha
+1833|Utensílios básicos de cozinha
+1834|× 1 jogo · cerca de €60
+1835|Pratos, talheres, copos, tábua de corte, facas, escorredor (as pessoas gostam de cozinhar massa quando viajam)…
+1836|Chaleira elétrica
+1837|Vão pedir se você não tiver
+1838|Panelas e frigideiras
+1839|× 1 jogo · cerca de €80
+1840|IMPORTANTE!!! Prefira aço inox, o clássico prateado. São resistentes a riscos. Senão você vai ter que trocar todo ano.
+1841|× 2 · cerca de €25
+1842|Claramente etiquetadas
+1843|Geladeira
+1844|× 1 · cerca de €200
+1845|Opcional
+1846|Cantinho do café e do chá
+1847|Coloque canecas, chaleira e talvez uma prensa francesa ou máquina Nespresso
+1848|Micro-ondas
+1849|Torradeira
+1850|Área de jantar
+1851|Mesa de jantar + cadeiras
+1852|× 1+4 · cerca de €150
+1853|Suficiente para o número de hóspedes
+1854|Lavanderia
+1855|× 1 jogo · cerca de €30
+1856|Esfregão, vassoura, esponja, detergente
+1857|Máquina de lavar
+1858|× 1 · cerca de €300
+1859|Escolha uma máquina de lavar com lavagem rápida (30 min), ciclo padrão (60 min), opção de 90°C, centrifugação forte (1500 RPM) e grande capacidade para os turnovers.
+1860|Ferro + tábua de passar
+1861|Guarde de forma organizada
+1862|Secadora
+1863|Facilita o turnover
+1864|Varal grande
+1865|Depende de você usar uma lavanderia ou ter secadora
+1866|Caixa de ferramentas
+1867|Tenha um kit de ferramentas pequeno e padrão em cada apartamento para consertos rápidos e fáceis. Inclua o essencial, como lixa, chave de fenda, tinta de parede (no tom certo), pincel e massa corrida para pequenos reparos. Assim você ou sua equipe resolve pequenos problemas de manutenção na hora, sem precisar chamar um faz-tudo toda vez.
+1868|Cesto de produtos
+1869|Uma caixa com alça que a pessoa da limpeza pode usar para guardar os produtos que está usando e levar com ela.
+1870|Carrinho de compras
+1871|× 1 · cerca de €25
+1872|Você pode fazer uma compra grande de produtos de limpeza online para o supermercado entregar em casa, mas, se não, compre um carrinho de compras para facilitar o transporte dos produtos da loja
+1873|Todos os cômodos
+1874|Cortinas ou persianas
+1875|× depende · cerca de €60
+1876|Blackout nos quartos
+1877|Plantas
+1878|× depende · cerca de €20
+1879|Artificiais ou naturais, pela estética
+1880|Outros
+1881|Extintor de incêndio
+1882|Kit de primeiros socorros
+1883|Massa adesiva para fixar etiquetas
+1884|Para não danificar suas paredes
+1885|Plastificadora + folhas plásticas
+1886|Para as etiquetas
+1887|<small>← Voltar</small>Roadmap de 30 dias
+1888|<small>Próximo →</small>Manual da propriedade
+1889|Bônus · a wiki da sua propriedade
+1890|Manual da <x1>propriedade</span>
+1891|Tudo o que sua equipe precisa saber, em um só lugar.
+1892|Como funciona
+1893|Preencha as seções abaixo uma vez. O que você digitar fica salvo neste dispositivo.
+1894|Quando estiver pronto, copie o manual inteiro ou baixe, e depois compartilhe com sua equipe (WhatsApp, Google Docs ou impresso na propriedade).
+1895|Um manual por propriedade. Atualize sempre que algo mudar.
+1896|Copiar o manual inteiro
+1897|Baixar (.txt)
+1898|Propriedade
+1899|Nome da propriedade
+1900|Informações gerais
+1901|Endereço da propriedade
+1902|Nome e senha do Wi-Fi
+1903|Instruções do cofre de chave / código digital
+1904|Horário de check-in
+1905|Horário de checkout
+1906|Telefone de emergência
+1907|Contato do gerente (WhatsApp)
+1908|Fotos e planta da propriedade
+1909|Fotos cômodo por cômodo
+1910|Planta ou desenho
+1911|Notas de design
+1912|Adicione fotos de tudo: quadro de luz, boiler, controles do aquecimento, roteador Wi-Fi… para consultar com facilidade sempre que precisar explicar algo a um hóspede.
+1913|Fluxo de turnover
+1914|Troca de lençóis a cada
+1915|Toalhas
+1916|Lista de reposição
+1917|Suprimentos e inventário
+1918|Local dos produtos de limpeza
+1919|Toalhas / lençóis extras
+1920|Responsável pela reposição
+1921|Orçamento mensal / capital de giro
+1922|Manutenção
+1923|Contato do faz-tudo de confiança
+1924|Como relatar problemas
+1925|Manuais / informações dos aparelhos
+1926|Itens reserva
+1927|Regras da casa
+1928|Resumo das regras da casa
+1929|Suas regras da casa estão no <x1>Módulo 6</a> e suas mensagens programadas no <x2>Módulo 10</a>.
+1930|Como lidar com emergências
+1931|O que fazer em emergências
+1932|Finanças e recibos
+1933|Capital de giro mensal
+1934|Grupo de WhatsApp para recibos
+1935|Como controlar as despesas:
+1936|Sempre que fizer uma compra, tire uma foto nítida do recibo.
+1937|Envie no grupo de WhatsApp compartilhado.
+1938|Sempre atualize a mensagem com o saldo restante neste formato: SALDO RESTANTE: €[novo saldo depois da despesa]
+1939|Exemplo: foto do recibo do papel higiênico €4,30. SALDO RESTANTE: €145,70
+1940|Dados de contato
+1941|Dono da propriedade
+1942|Gerente
+1943|Pessoa da limpeza

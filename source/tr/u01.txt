@@ -1,0 +1,240 @@
+1|Menu
+2|6-figure
+3|Airbnb Course
+4|EN
+5|PT
+6|ES
+7|Course home
+8|Start
+9|Start here
+10|Part 1: Setting up your foundations
+11|Airbnb business models
+12|Think like a business owner
+13|Finding the right property
+14|Pitching landlords
+15|Part 2: Launching your first listing
+16|A home away from home
+17|A listing that sells
+18|5-star guest experience
+19|Part 3: Systems for passive income &amp; scaling
+20|Build your dream team
+21|Streamline your operations
+22|Automations for passive income
+23|Scaling up for 6-figures
+24|Your tools
+25|30-day roadmap
+26|Setup checklist
+27|Property manual
+28|Profit calculator
+29|Add-on
+30|Extras
+31|Add-ons
+32|New
+33|Host starter kit
+34|Prompts &amp; templates
+35|+ host starter kit
+36|<x1>6-figure</span>Airbnb Course
+37|Your step-by-step guide to building a legal Airbnb business for passive income <em>(even without owning property)</em>
+38|by Farah Cuyvers &amp; Daniel Martí
+39|Imagine having beautiful homes around the world. Places you can stay, rent out, and return to anytime.If you’ve ever dreamed of creating a business that gives you freedom, flexibility and income without being tied to a desk or needing to own real estate, this guide is for YOU.
+40|We created this guide to help you<strong> launch, run and scale a profitable Airbnb business that works for you, not the other way around.</strong> Inside, you’ll find a step-by-step roadmap built from real experience. It teaches you how we did it and how you can too.
+41|Your Airbnb plan so far
+42|City
+43|Business model
+44|Stay length
+45|Space
+46|Check-in
+47|This fills in as you work through the chapters. Your answers and ticked steps are saved on this device.
+48|The course
+49|Meet us, check your mindset, then get a first win in 15 minutes.
+50|Even without owning property.
+51|Mindset, real costs, legal setup and extra income.
+52|Demand, AirDNA, red flags and the numbers.
+53|Even if it feels scary.
+54|What to buy, how to design it, how to guest-proof it.
+55|Even while you sleep.
+56|Expectations, complaints and great service.
+57|Agency or own team, and how to find reliable people.
+58|Turnovers, supplies, SOPs, labels and inspections.
+59|Self-check-in, what to automate, what to delegate.
+60|When to expand, multiple countries, staying legal.
+61|<strong>Copyright notice.</strong> © 2025 Farah Cuyvers &amp; Daniel Martí. All rights reserved. This guide and all accompanying materials are protected by copyright law. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations used in reviews and certain other noncommercial uses permitted by copyright law. This content is intended for individual use only. Sharing, reselling, or reproducing this material for commercial purposes is strictly prohibited. For permissions or inquiries, contact: alugahomes@gmail.com
+62|© 2025 Farah Cuyvers &amp; Daniel Martí. For individual use only.
+63|Instagram @6figurehost
+64|Introduction
+65|5 parts · about 15 min
+66|Start <x1>here</span>
+67|<b>1</b>Welcome in
+68|<b>2</b>Our story
+69|<b>3</b>Do you have what it takes?
+70|<b>4</b>How to use this course
+71|<b>5</b>Your first win in 15 minutes
+72|Part 1
+73|Welcome in
+74|<strong>In Part 1, we lay the foundation.</strong> You’ll learn about the different Airbnb business models (including how to start without buying property), how to get legally set up, build the right mindset and find your first profitable property even if pitching landlords makes you nervous.
+75|<strong>In Part 2, we focus on launching your listing and receiving your 1st guests.</strong> You’ll learn how to set up and furnish your listing, write a profile that sells, and manage your space efficiently with streamlined systems.
+76|<strong>In Part 3, we scale and turn it into 6-figures.</strong> Learn how to automate tasks, build your dream team and expand without burning out. This is where your Airbnb becomes a true business that generates passive income.
+77|We’ve included everything you need: ready-to-use templates, calculators, scripts, real case studies and tools that remove the guesswork and save you hours.
+78|Let’s build something profitable, sustainable, and designed for the lifestyle you actually want.
+79|See you inside, Farah &amp; Daniel
+80|Part 2
+81|Our story
+82|From being broke and sleeping on the couch to 6-figures passive income and homes around the world.
+83|In our early twenties, we both left our home countries behind (Belgium and Brazil) and moved to Barcelona with nothing but a suitcase, a little bit of savings, and a whole lot of uncertainty. No safety net. No family nearby. Just the belief that<strong> there had to be more to life than doing things the “normal” way.</strong>
+84|At one point, Farah rented a room from Daniel. That’s how we met, as complete strangers sharing a small apartment,<strong> trying to make ends meet in one of Europe’s most expensive cities.</strong>
+85|Eventually, she got her own place. But it didn’t take long before the reality hit. Rent was high, savings were gone, and things were getting tight. Going back to cold Belgium because the money ran out? She wasn’t gonna let that happen. So she got creative.
+86|She took inspiration from Daniel, who had already started hosting guests on Airbnb. Farah listed her bedroom and turned the couch into her new “room,” hanging a giant beach blanket from the window to a hook above the fridge. <strong>It wasn’t glamorous, but it worked.</strong>
+87|<strong>Back then, this wasn’t about business. It was survival.</strong> At first, we couldn’t afford a team yet. We both did everything ourselves: cleaning, check-ins, guest messages, maintenance,...
+88|<strong>Then came the “wait a second…” moment.</strong> The one where we looked at each other and said, <strong>what if this could actually become something bigger? </strong>That’s when we decided to go all in, together.
+89|<strong>Every euro we made, we reinvested.</strong> We built slowly, smartly, and legally, creating something that didn’t just bring in money but gave us freedom.
+90|One apartment turned into two. Then five in Barcelona. Then came the big one... our dream villa in Bali.And the wildest part? <strong>We don’t actually own a single one of the properties (yet).</strong>
+91|<strong>Daniel, is an engineer from Brazil,</strong> a true visionary and natural talent for structural design. He can walk into any space and instantly see how to redesign it for maximum profit or increase value.
+92|<strong>Farah is a business coach and digital marketing expert from Belgium.</strong> She has a talent for systems, aesthetics and detail. She built processes, automated guest communication, streamlined check-ins, and makes everything run smoothly so guests feel at home and every detail is cared for.
+93|Fast foward 8 years <strong>we run a profitable, automated business that brings in consistent 5-figure months across multiple countries. But we started with nothing but a dream.</strong>
+94|This guide is the exact roadmap we
+95|<strong>wish we had when we first started.</strong> It’s step by step, straight to the point, and built from <strong>real-world experience, not theory.</strong>
+96|Whether you're looking to start a side hustle, create a new income stream, or build a business that runs on autopilot, you're in the right place.
+97|If you're ready to stop trading time for money and build something that gives you real freedom, let's make it happen.
+98|xo Farah &amp; Daniel
+99|Part 3
+100|Do you have what it takes?
+101|Running an Airbnb business can be fun, rewarding, and highly profitable but it also takes the right mindset.<strong> If you’re the kind of person who gets too emotionally attached to your space or your furniture, this might be a challenge. </strong>
+102|The truth is,<strong> things will occasionally get damaged.</strong> It’s part of the game. That’s why you have a maintenance person on call and why Airbnb offers host protection. If a guest breaks something and doesn’t want to pay, you can still get reimbursed.
+103|99% of the guests are amazing, respectful, kind, and grateful. But there is always that 1% who cause problems, complain unfairly, or try to get a discount by pointing out minor flaws.
+104|Also remember,<strong> people are out of their usual routine.</strong> They might be jet-lagged, hungry, tired, or stressed and sometimes they will react totally unreasonable. Your job (or your manager's job) is to not take things personal, stay calm and professional.
+105|Honestly, it’s all worth it. You’ll learn so much along the way; not just about hosting, but about people. It’s fascinating to see how different guests are, how cultures interact, and how you grow by learning to stay calm in unexpected situations.
+106|This journey will challenge you, shape you, and help you grow both as a business owner and as a person.
+107|Besides the profit, it's so worth the experience!
+108|99% of the guests you'll receive are awesome, but oh that 1%..."
+109|Part 4
+110|How to use this course
+111|This guide is designed to walk you step by step through launching and growing your Airbnb business. You’ll find<strong> clear instructions, practical tasks, and real-world strategies</strong> that have been tested and refined over years of experience.
+112|At certain points, you’ll be given <strong>specific action tasks to complete.</strong> You can find all of them organized inside your <x1>30-day roadmap to launching your first listing</a>, here in the course. Use it to stay on track, mark your progress, and avoid feeling overwhelmed.
+113|You’ll also see <strong>ready-to-use AI prompts </strong>throughout the guide. These are designed to help you simplify your workflow, write faster, and get better results with less effort.
+114|Use this guide as your playbook. Take it one step at a time, stay consistent, and don’t let small setbacks slow you down.
+115|You’ve got this.
+116|In this interactive version
+117|Every chapter ends with <strong>your steps</strong>. Tick them off and the progress bar at the top moves.
+118|Prompts and templates have a <strong>Copy</strong> button. Fields you fill in once (like your city) are filled into the prompts for you.
+119|The calculators, the roadmap and the templates work right here on the page, so you never have to leave the course.
+120|Part 5
+121|Your first win in 15 minutes
+122|Before you read another chapter, answer the question that decides everything else: is it legal where you want to host?
+123|Check the rules in your city
+124|City and country you want to host in
+125|AI prompt: discover local Airbnb rules in your area
+126|Copy
+127|Can you help me find the current short-term rental regulations for <x1></mark>?⏎I want to know:⏎- If short-term rentals are legal⏎- Whether I need a license or permit⏎- Any minimum stay requirements⏎- Tax obligations (occupancy or tourism tax)⏎- Zoning restrictions or primary residence rules⏎Please include any helpful links or resources to official government sites if available.
+128|Your steps
+129|Read our story and the mindset check
+130|Type in the city you want to host in
+131|Copy the local rules prompt, run it in your AI assistant and read the answer
+132|<x1>Done</span> when
+133|You know whether short-term rentals are legal in your city, and under which rules.
+134|All done and ready to move on?
+135|Yes, done!
+136|<small>← Back</small>Course home
+137|<small>Next →</small>Airbnb business models
+138|Chapter 1 · Part 1
+139|5 parts · about 20 min
+140|Airbnb business <x1>models</span>
+141|<b>1</b>Rental arbitrage vs co-hosting vs ownership
+142|<b>2</b>Long-term vs short-term rentals
+143|<b>3</b>Shared vs private properties
+144|<b>4</b>Understanding local rules
+145|<b>5</b>Bonus: 30-day roadmap to launch your 1st listing
+146|Rental arbitrage <x1>vs</span> co-hosting <x2>vs</span> ownership
+147|If you’ve ever wanted to start your own business but felt held back by money, this might be exactly what you’ve been looking for. <strong>Most people assume that launching an Airbnb business takes a huge investment, years of saving, or owning property. But that’s not the case.</strong>
+148|In reality, some of the most profitable Airbnb hosts don’t own a single property and many started with almost no budget at all (like us).
+149|There are different ways to make money with airbnb.
+150|With business models like<strong> rental arbitrage and co-hosting,</strong> you can launch your Airbnb business without buying property. You don’t need a mortgage, a big down payment, or even long-term commitment. What you do need is strategy and the right systems.
+151|These models are perfect for you if you’re starting with a low budget but have big ambitions. It gives you a way to build a business with serious income potential, while keeping your risk low. You can start small, earn fast, and scale on your terms.
+152|If you do <strong>own a property</strong>... Even better. You’re sitting on a powerful income-generating asset. Listing your space on Airbnb allows you to unlock its full earning potential, whether it’s a second home, an investment property, or even just a spare room.
+153|With the right setup and strategy, you can turn it into a consistent source of passive income.
+154|Here is an overview of the most common Airbnb business models. Tap the one that fits you.
+155|Co-hosting
+156|You manage someone else's property for a share of the revenue.
+157|Pros
+158|Low risk
+159|Low upfront cost
+160|Great way to start
+161|Cons
+162|Less control
+163|Need to prove your value
+164|Best for
+165|Beginners with limited budget and strong ops skills
+166|This is my model
+167|Rental arbitrage
+168|You rent a property long-term and sublet it on Airbnb.
+169|High income potential
+170|Full control
+171|Scales fast
+172|Need landlord permission
+173|Must follow local laws
+174|Fast growth with moderate startup funds
+175|Ownership
+176|You buy the property and list it on Airbnb.
+177|Build equity
+178|Full freedom
+179|Long-term investment
+180|High upfront costs
+181|More financial responsibility
+182|Those looking for long-term wealth and control
+183|Decide your Airbnb business model
+184|Long-term <x1>vs</span> short-term rentals
+185|When designing your Airbnb strategy, it’s important to choose the type of stay and setup that fits your goals, location, and lifestyle.
+186|LONG-TERM RENTALS
+187|Guests stay for 28 days or more, often booked for work, relocation, or extended vacations.
+188|Pros:
+189|More stable income with fewer guest turnovers.
+190|Lower cleaning and operational costs.
+191|Better for locations with seasonal demand or where short stays are restricted.
+192|Cons:
+193|Lower nightly rate compared to short-term.
+194|Guests expect a more home-like experience and may demand more maintenance or flexibility.
+195|Less availability to host other bookings.
+196|SHORT-TERM RENTALS
+197|Bookings range from 1 night up to a few weeks.
+198|Higher nightly rates.
+199|More flexibility and control over your calendar.
+200|Guests often spend most of their time out exploring the destination, meaning they typically use the furniture, kitchen, and other amenities less than in a long-term rental.
+201|Greater exposure and visibility on Airbnb’s search rankings.
+202|If you have 'annoying' guests, they leave fast.
+203|Frequent turnovers = higher cleaning workload and guest communication.
+204|Risk of occasional difficult guests or damages.
+205|Requires strong systems and automation to scale.
+206|Long-term
+207|Guests stay for 28 days or more.
+208|I'll offer long-term stays
+209|Short-term
+210|I'll offer short-term stays
+211|Shared <x1>vs</span> private properties
+212|PRIVATE PROPERTIES
+213|Guests have exclusive use of an entire unit or suite with private entrance, bedroom, and bathroom.
+214|Preferred by most travelers, better reviews and fewer complaints.
+215|Easier to manage expectations.
+216|Higher nightly price.
+217|Higher setup and running costs.
+218|You need to furnish and maintain the entire space.
+219|SHARED SPACES
+220|Guests rent a room in a larger unit and share common areas (kitchen, pool, living room).
+221|Higher earning potential per square meter.
+222|More affordable for travelers = more demand.
+223|Great for solo travelers and social guests.
+224|Clear communication is key, misunderstandings can arise.
+225|Higher chance of noise complaints or conflicts between guests.
+226|Requires more rules and clear labels.
+227|Good to know: “coliving”
+228|Most people who run the shared spaces format call it <strong>coliving</strong>, not Airbnb. It is the same setup: private rooms, shared common areas.
+229|The name can work in your favor. In cities with stricter rules and more tension around the Airbnb name, presenting your place as a coliving can be an easier conversation.
+230|WHICH ONE IS RIGHT FOR YOU?
+231|There’s no one-size-fits-all. If you're looking for <strong>passive income with minimal work, long-term rentals </strong>might suit you.
+232|If you want to maximize profit and don’t mind being hands-on (or have strong systems in place), <strong>short-term can be more lucrative. </strong>
+233|<strong>Shared accommodations </strong>can work great in backpacker or digital nomad hotspots, but <strong>require more oversight. </strong>
+234|<strong>Private listings </strong>appeal to a broader market but <strong>need more upfront investment.</strong>
+235|The key is to choose your model intentionally; based on location, your personality, target market, and the systems you’re willing to build.
+236|Private
+237|Guests have exclusive use of an entire unit or suite.
+238|I'll list a private space
+239|Shared
+240|Guests rent a room and share common areas.
