@@ -2,7 +2,7 @@
 // everything else requires a valid session cookie for an active code.
 import { readSession, getCode } from '../src/lib.js';
 
-const PUBLIC = new Set(['/login', '/login.html', '/api/login', '/api/thrivecart', '/img/cover.webp', '/favicon.ico', '/robots.txt']);
+const PUBLIC = new Set(['/login', '/login.html', '/api/login', '/api/thrivecart', '/img/cover.webp', '/favicon.ico', '/robots.txt', '/privacy', '/privacy.html']);
 
 export async function onRequest(context) {
   const { request, env, next } = context;

@@ -27,7 +27,7 @@ Every push to the `main` branch updates the live site automatically.
 | `ADMIN_KEY` | a long random text, only for you |
 | `BREVO_API_KEY` | Brevo > SMTP & API > API keys |
 | `BREVO_TEMPLATE_ID` | the ID of the welcome email template in Brevo |
-| `BREVO_LIST_ID` | the ID of the Brevo list for buyers |
+| `BREVO_LIST_ID` | `3` (the "Bought guide" list) |
 | `COURSE_URL` | the course address, for example `https://course.6figurehost.com` |
 | `PRODUCT_IDS` | *(optional)* ThriveCart product ID(s) of the course, comma-separated |
 | `MAX_DEVICES` | *(optional)* default 5 |
