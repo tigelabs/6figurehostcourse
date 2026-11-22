@@ -4,7 +4,7 @@ The course page `public/index.html` is generated from these files. Cloudflare on
 
 - `content.txt` – all lesson text and blocks
 - `template.html` – layout, styles and scripts
-- `build.py`, `proof.py`, `setup.tsv`, `blocks.json`, `pt.json`, `tr/` – build helpers
+- `build.py`, `proof.py`, `i18n_extract.py`, `setup.tsv`, `blocks.json`, `pt.json`, `tr/` – build helpers
 
 Rebuild (the script uses fixed paths):
 
