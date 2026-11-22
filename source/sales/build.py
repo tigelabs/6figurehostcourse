@@ -416,30 +416,31 @@ def home_page():
     return page('', '6-Figure Host · Farah & Daniel', 'Ten years of hosting in Barcelona and Bali, turned into a course, city guides and a calculator to build a profitable, legal rental business.', body)
 
 
-# ---------------------------------------------------------------- masterclass
+# ---------------------------------------------------------------- masterclass video
 def masterclass_page():
     body = """OFFERBAR
-<header class="hero mc">
-<div class="in mc-in">
-<span class="pill">Free masterclass · Farah &amp; Daniel</span>
-<h1><span class="sc">Free</span><span class="dp">Masterclass</span></h1>
-<p class="lead">How we built a profitable rental business in Barcelona and Bali (with or without owning property).</p>
-<div class="mc-video"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0" title="6-Figure Host masterclass" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<div class="ctawrap mc-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><small>Ready for the full system? The 6-Figure Host Course takes you step by step.</small></div>
+<section class="mcv" aria-label="Free masterclass video">
+<div class="mcv-in">
+<p class="mcv-k"><span class="sc">Free masterclass</span> with Farah &amp; Daniel</p>
+<div class="mcv-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass with Farah and Daniel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<h1 class="mcv-h">Build a profitable rental business<span>with or without owning property</span></h1>
+<p class="mcv-lead">Ten years of hosting in Barcelona and Bali, in one free class. Watch it, then take the full step-by-step system with you.</p>
+<div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
+<ul class="mcv-proof" aria-label="About us"><li><b>10</b>years hosting</li><li><b>8</b>homes in 2 countries</li><li><b>5.0</b>guest rating</li></ul>
 </div>
-</header>
+</section>
 <section class="sec sand">
 <div class="in two">
 <div class="copy">
 <h2 class="lock"><span class="sc b">After watching</span><span class="dp">Take the next step</span></h2>
 <p>The masterclass shows you how the model works. The 6-Figure Host Course gives you everything to do it yourself: the launch roadmap, landlord scripts, the profit calculator, contracts and checklists, and our real case studies from Barcelona and Bali.</p>
-<div class="ctawrap"><a class="cta" href="/course/">See the course</a></div>
+<div class="ctawrap"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><small>One payment or split pay. Lifetime access.</small></div>
 </div>
 <img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>
 </section>"""
     body = body.replace('OFFERBAR', OFFERBAR_HTML.replace('href="#pricing"', 'href="/course/#pricing"'))
-    return page('masterclass/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Farah & Daniel: how we built a profitable rental business in Barcelona and Bali, with or without owning property.', body)
+    return page('masterclassvideo/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Farah & Daniel: how to build a profitable rental business in Barcelona, Bali or anywhere, with or without owning property.', body)
 
 
 if __name__ == '__main__':
