@@ -364,77 +364,12 @@ def calculator_page():
 
 # ---------------------------------------------------------------- home page
 def home_page():
-    body = '''<header class="hero home">
-<div class="in">
-<div class="txt">
-<h1><span class="sc">Farah &amp; Daniel</span><span class="dp">6-Figure Host</span></h1>
-<p class="lead">Ten years of hosting in Barcelona and Bali, turned into a course, city guides and tools to build a <b>profitable, legal rental business</b>, even without owning property.</p>
-<div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Or jump to <a href="#products">all products</a>.</small></div>
-</div>
-<div class="stage"><img class="photo" src="/assets/sales/c9292e2a0b9965c2ce6ed45ed6d0dd7b.webp" alt="A sunlit minimalist villa terrace with a daybed beside a pool"></div>
-</div>
-</header>
-<section class="sec sand" id="products">
-<div class="in">
-<div class="head"><h2 class="lock"><span class="sc b">Our products</span><span class="dp">Start where you are</span></h2></div>
-<div class="prods">
-<article class="prod main">
-<img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
-<div class="pbody">
-<span class="tag">The complete system</span>
-<h3 class="dp2">6-Figure Host Course</h3>
-<p>13 interactive lessons to launch, run and scale your rental business, with the host starter kit and the profit calculator included.</p>
-<p class="pp"><s>$399</s> $249</p>
-<div class="pbtns"><a class="cta" href="/course/">See the course</a><a class="more" href="/checkout">Buy now</a></div>
-</div>
-</article>
-<article class="prod">
-<img src="/assets/sales/bcn-cover.webp" alt="Rooftops of Barcelona at sunset" loading="lazy">
-<div class="pbody"><span class="tag">City guide</span><h3 class="dp3">Barcelona Host Guide</h3><p>The legal mid-term model in one of Europe’s strictest cities: rent caps, contracts and taxes.</p><p class="pp"><s>$79</s> $49</p><div class="pbtns"><a class="cta" href="/barcelona/">See the guide</a></div></div>
-</article>
-<article class="prod">
-<img src="/assets/sales/bali-cover.webp" alt="A modern villa with a pool deck at sunset" loading="lazy">
-<div class="pbody"><span class="tag">City guide</span><h3 class="dp3">Bali Host Guide</h3><p>Invest in a villa legally as a foreigner: leasehold, zoning, your PT PMA and licences.</p><p class="pp"><s>$79</s> $49</p><div class="pbtns"><a class="cta" href="/bali/">See the guide</a></div></div>
-</article>
-<article class="prod">
-<img src="/assets/sales/calc-cover.webp" alt="The Profit and ROI calculator" loading="lazy">
-<div class="pbody"><span class="tag">Tool</span><h3 class="dp3">Profit &amp; ROI Calculator</h3><p>Know if a property is profitable before you rent or buy it. Included in the course.</p><p class="pp"><s>$97</s> $27</p><div class="pbtns"><a class="cta" href="/calculator/">See the calculator</a></div></div>
-</article>
-</div>
-</div>
-</section>
-<section class="sec">
-<div class="in two flip">
-<img src="/assets/sales/eead1ca9095a1ffcb644315184a39f62.webp" alt="Farah and Daniel smiling in front of the Sagrada Familia in Barcelona" style="width:100%;aspect-ratio:3/4;object-fit:cover" loading="lazy">
-<div class="copy">
-<h2 class="lock"><span class="sc b">Who we are</span><span class="dp">From a couch to homes around the world</span></h2>
-<p>We met in 2017 as housemates in a shared flat in Barcelona, both trying to make ends meet. Farah sublet her bedroom and slept on the couch behind a beach blanket. <b>It wasn’t glamorous, but it worked.</b></p>
-<p>We went all in, built systems, and one apartment turned into five. Then came our villa in Bali. <b>We still don’t own a single one of them.</b></p>
-<p>Everything we learned is in our course and guides, so you can build your own rental business without making the same mistakes.</p>
-<p class="sign">Farah &amp; Daniel</p>
-</div>
-</div>
-<div class="in facts" aria-label="Where we are today"><ul><li><b>10 years</b><span>hosting guests</span></li><li><b>5 apartments</b><span>in Barcelona, one of the strictest cities</span></li><li><b>3 properties in Bali</b><span>our second market</span></li></ul></div>
-</section>
-<section class="sec taupe">
-<div class="in rate">
-<figure class="shot"><img src="/assets/sales/cf27743b997fc6d1d4a10740514ddd2f.webp" alt="Rating panel: 5.0 Guest favorite, with 5.0 for cleanliness, accuracy, check-in, communication, location and value" loading="lazy"><figcaption>5.0 in every category guests rate.</figcaption></figure>
-<div class="copy"><h2 class="lock"><span class="sc">Proof</span><span class="dp">The systems work</span></h2><p>Our listings hold Guest Favourite status with a 5.0 rating. Every system behind it, from cleaning to self check-in, is inside the course.</p><div class="ctawrap"><a class="cta" href="/course/">See the course</a></div></div>
-</div>
-</section>
-<section class="sec close">
-<img class="bg" src="/assets/sales/0b9a8c21c4f58deb32dc87563170d875.webp" alt="">
-<div class="in">
-<h2 class="lock"><span class="sc">Let’s stay</span><span class="dp">Connected</span></h2>
-<p class="lead narrow">Follow our journey, ask your questions and share your first booking with us on Instagram.</p>
-<div class="ctawrap"><a class="cta" href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Follow @6figurehost</a><small>Questions? <a href="mailto:contact@6figurehost.com" style="color:inherit">contact@6figurehost.com</a></small></div>
-</div>
-</section>'''
-    return page('', '6-Figure Host · Farah & Daniel', 'Ten years of hosting in Barcelona and Bali, turned into a course, city guides and tools to build a profitable, legal rental business.', body)
+    body = open(os.path.join(HERE, 'home_body.html'), encoding='utf-8').read()
+    return page('', '6-Figure Host · Farah & Daniel', 'Ten years of hosting in Barcelona and Bali, turned into a course, city guides and a calculator to build a profitable, legal rental business.', body)
 
 
 if __name__ == '__main__':
-    open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read())
+    open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'home.css')).read())
     for k in VARIANTS: print(k, course_page(k))
     for k in GUIDES: print(k, guide_page(k))
     print('calculator', calculator_page())
