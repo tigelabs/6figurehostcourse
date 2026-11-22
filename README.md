@@ -28,7 +28,7 @@ Every push to the `main` branch updates the live site automatically.
 | `BREVO_API_KEY` | Brevo > SMTP & API > API keys |
 | `BREVO_TEMPLATE_ID` | `6` (template "Course access code", HTML in emails/welcome.html). Activate it in Brevo before launch |
 | `BREVO_LIST_ID` | `3` (the "Bought guide" list) |
-| `COURSE_URL` | the course address, for example `https://course.6figurehost.com` |
+| `COURSE_URL` | the course address, for example `https://6figurehost.com/hostcourse/` |
 | `PRODUCT_IDS` | *(optional)* ThriveCart product ID(s) of the course, comma-separated |
 | `MAX_DEVICES` | *(optional)* default 5 |
 

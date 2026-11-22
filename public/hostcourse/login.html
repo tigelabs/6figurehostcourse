@@ -85,7 +85,7 @@ button[disabled]{opacity:.6;cursor:wait}
     fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},credentials:'same-origin',body:JSON.stringify({code:code,device:device()})})
       .then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j};});})
       .then(function(res){
-        if(res.ok){show('Welcome! Opening your course…',true);var next=q.get('next');location.replace(next&&next.charAt(0)==='/'&&next.charAt(1)!=='/'?next:'/');return;}
+        if(res.ok){show('Welcome! Opening your course…',true);var next=q.get('next');location.replace(next&&next.indexOf('/hostcourse')===0?next:'/hostcourse/');return;}
         show(res.j&&res.j.error?res.j.error:'Something went wrong. Please try again.');
         btn.disabled=false;btn.textContent='Open the course';
       })

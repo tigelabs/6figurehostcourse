@@ -36,5 +36,5 @@ export async function onRequestPost({ request, env }) {
 }
 
 export async function onRequestGet({ request }) {
-  return Response.redirect(new URL('/login', request.url).toString(), 302);
+  return Response.redirect(new URL('/hostcourse/login', request.url).toString(), 302);
 }

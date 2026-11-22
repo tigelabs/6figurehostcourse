@@ -11,8 +11,8 @@ Rebuild (the script uses fixed paths):
 ```
 mkdir -p /home/claude/build /home/claude/work /home/claude/site
 cp -r source/. /home/claude/build/ && cp source/blocks.json /home/claude/work/
-cp -r public/. /home/claude/site/
+cp -r public/hostcourse/. /home/claude/site/
 cd /home/claude/build && python3 -I build.py
-cp /home/claude/site/index.html public/index.html
+cp /home/claude/site/index.html public/hostcourse/index.html
 ```
-Then check `grep -c 'id="cel-stay"' public/index.html` prints 1, commit and push to `main`.
+Then check `grep -c 'id="cel-stay"' public/hostcourse/index.html` prints 1, commit and push to `main`.
