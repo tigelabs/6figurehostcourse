@@ -48,8 +48,8 @@
       set('headline', '');
     }
     set('mc-note', phase === 'pre'
-      ? '*In the video we talk about our old guide and its price. We’re upgrading that guide into a full course, so the old guide and its price are no longer available. The new 6-Figure Host Course launches on <b>Black Friday, 27 November</b>, at <b><s>' + m(297) + '</s> ' + m(197) + '</b> until 30 November.'
-      : bf ? '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b><s>' + m(297) + '</s> ' + m(197) + '</b> until 30 November.'
+      ? '*In the video we talk about our old guide and its price. We’re upgrading that guide into a full course, so the old guide and its price are no longer available. The new 6-Figure Host Course launches on <b>Black Friday, 27 November</b>, at <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
+      : bf ? '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
       : '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>' + m(297) + '</b>.');
     // Before Black Friday the course is not on sale yet: buy buttons say "Coming soon".
     $$('a[data-buy]').forEach(function (a) { var pre = phase === 'pre'; a.textContent = pre ? 'Coming soon: 27 November' : a.getAttribute('data-buy'); a.classList.toggle('is-soon', pre); if (pre) a.setAttribute('aria-disabled', 'true'); else a.removeAttribute('aria-disabled'); });
