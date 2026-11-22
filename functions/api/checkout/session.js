@@ -1,5 +1,6 @@
 // Starts a Stripe Checkout (embedded on our own /checkout page).
-// POST {item: "course" | "barcelona" | "bali", extras: ["barcelona", "bali"]} -> {clientSecret, publishableKey}
+// POST {item: "course" | "barcelona" | "bali" | "calculator", extras: [...], currency: "usd" | "eur"} -> {clientSecret, publishableKey}
+// Only USD and EUR: Adaptive Pricing (automatic local currency) is turned off, and the EUR amounts come from each price's currency_options.
 // "extras" are the city guides ticked as add-ons on the checkout page.
 import { stripe, priceFor, json, SKUS } from '../../../src/lib.js';
 
@@ -15,9 +16,10 @@ export async function onRequestPost({ request, env }) {
   const origin = new URL(request.url).origin;
   const line_items = {};
   prices.forEach((price, i) => { line_items[i] = { price, quantity: 1 }; });
-  try {
-    const s = await stripe(env, 'POST', '/checkout/sessions', {
-      ui_mode: 'embedded',
+  const currency = b.currency === 'eur' ? 'eur' : 'usd';
+  const base = {
+      currency,
+      adaptive_pricing: { enabled: 'false' },
       mode: 'payment',
       line_items,
       customer_creation: 'always',
@@ -25,9 +27,20 @@ export async function onRequestPost({ request, env }) {
       metadata: { skus: skus.join(',') },
       allow_promotion_codes: 'true',
       return_url: `${origin}/checkout/thanks?session_id={CHECKOUT_SESSION_ID}`,
-    });
-    return json({ clientSecret: s.client_secret, publishableKey: env.STRIPE_PUBLISHABLE_KEY || '' });
-  } catch (e) {
-    return json({ error: e.message }, 502);
+  };
+  // Brand colours inside the Stripe form (needs API version 2025-09-30.clover or later).
+  const branding = { background_color: '#FFFFFF', button_color: '#A05F50', border_style: 'rounded', display_name: '6-Figure Host' };
+  const attempts = [
+    ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, ...base }],
+    ['2025-09-30.clover', { ui_mode: 'embedded_page', branding_settings: branding, ...base }],
+    [undefined, { ui_mode: 'embedded', ...base }],
+  ];
+  let last;
+  for (const [version, params] of attempts) {
+    try {
+      const s = await stripe(env, 'POST', '/checkout/sessions', params, undefined, version);
+      return json({ clientSecret: s.client_secret, publishableKey: env.STRIPE_PUBLISHABLE_KEY || '' });
+    } catch (e) { last = e; if (e.status && e.status !== 400) break; }
   }
+  return json({ error: last ? last.message : 'Checkout failed' }, 502);
 }

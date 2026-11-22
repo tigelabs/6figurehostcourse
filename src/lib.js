@@ -139,8 +139,8 @@ function formEncode(obj, pre = '', out = []) {
   }
   return out;
 }
-export async function stripe(env, method, path, params, idempotencyKey) {
-  const headers = { Authorization: `Bearer ${env.STRIPE_SECRET_KEY}`, 'Stripe-Version': STRIPE_VERSION };
+export async function stripe(env, method, path, params, idempotencyKey, version) {
+  const headers = { Authorization: `Bearer ${env.STRIPE_SECRET_KEY}`, 'Stripe-Version': version || STRIPE_VERSION };
   let url = `https://api.stripe.com/v1${path}`, body;
   const qs = params ? formEncode(params).join('&') : '';
   if (method === 'GET') { if (qs) url += `?${qs}`; }
