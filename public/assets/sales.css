@@ -285,6 +285,12 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .cur button[aria-checked="true"]{background:var(--cream);color:var(--ink)}
 .cur button:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
 .pricing .pr-old{text-align:center;margin-left:auto;margin-right:auto}
+.hero.mc .mc-in{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;max-width:900px}
+.hero.mc .pill{align-self:center}
+.hero.mc .lead{max-width:640px}
+.mc-video{width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;border:1.5px solid var(--ink);background:var(--ink)}
+.mc-video iframe{width:100%;height:100%;border:0;display:block}
+.mc-cta{align-items:center}
 
 /* ---------- home page ---------- */
 .pg{--green:#313A33;--yellow:#E6CB8F;--stone:#E2DDD8;--paperx:#F4F2EF}
