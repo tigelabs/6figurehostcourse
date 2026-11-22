@@ -7,7 +7,9 @@ export async function onRequestPost({ request, env }) {
   let b = {}; try { b = await request.json(); } catch {}
   const main = SKUS.includes(b.item) ? b.item : 'course';
   const skus = [main];
-  for (const x of Array.isArray(b.extras) ? b.extras : []) if (['barcelona', 'bali'].includes(x) && !skus.includes(x)) skus.push(x);
+  // Add-ons: the city guides with any order; the calculator only with a guide (it is already in the course).
+  const allowed = main === 'course' ? ['barcelona', 'bali'] : ['barcelona', 'bali', 'calculator'];
+  for (const x of Array.isArray(b.extras) ? b.extras : []) if (allowed.includes(x) && !skus.includes(x)) skus.push(x);
   const prices = skus.map(s => priceFor(env, s));
   if (!env.STRIPE_SECRET_KEY || prices.some(p => !p)) return json({ error: 'Checkout is not set up yet.' }, 503);
   const origin = new URL(request.url).origin;

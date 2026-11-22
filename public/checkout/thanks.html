@@ -55,8 +55,8 @@
       if(!d.code){$('wait').innerHTML='<h1>We could not confirm <em>this order</em></h1><p>If you were charged, your code is on its way by email. Otherwise write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> and we will sort it out.</p>';return}
       $('wait').style.display='none';$('main').style.display='block';
       $('code').textContent=d.code;$('em').textContent=d.email||'your email';if(d.name)$('nm').textContent=', '+d.name;
-      if(d.products.indexOf('course')<0)$('go').setAttribute('href','/hostcourse/guides/'),$('go').textContent='Open your guide';
-      var N={course:'6-Figure Host Course',barcelona:'Barcelona Host Guide',bali:'Bali Host Guide'};$('gotlist').innerHTML=d.products.map(function(x){return '<li>'+(N[x]||x)+'</li>'}).join('');$('got').hidden=false;
+      if(d.products.indexOf('course')<0)$('go').setAttribute('href','/hostcourse/guides/'),$('go').textContent='Open your library';
+      var N={course:'6-Figure Host Course',barcelona:'Barcelona Host Guide',bali:'Bali Host Guide',calculator:'Profit & ROI Calculator'};$('gotlist').innerHTML=d.products.map(function(x){return '<li>'+(N[x]||x)+'</li>'}).join('');$('got').hidden=false;
     }).catch(function(){if(tries++<10)setTimeout(load,2000)});
   }
   if(sid)load();else $('wait').innerHTML='<h1>Nothing to show <em>here</em></h1><p><a href="/checkout">Go to checkout</a></p>';

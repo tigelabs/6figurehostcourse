@@ -26,12 +26,14 @@ export async function onRequest(context) {
   // Pages and guide files check the code itself, so a refund locks them right away.
   const isPage = path.endsWith('/') || path.endsWith('.html');
   const guide = path.match(/^\/hostcourse\/guides\/(barcelona|bali)\b/);
-  if (ok && (isPage || guide)) {
+  const calc = path.startsWith('/hostcourse/calculator/');
+  if (ok && (isPage || guide || calc)) {
     const rec = await getCode(env, session.c);
     ok = !!(rec && rec.active && rec.devices.includes(session.d));
     if (ok) {
       const owned = productsOf(rec);
-      const inGuides = path.startsWith('/hostcourse/guides/');
+      const inGuides = path.startsWith('/hostcourse/guides/') || calc;
+      if (calc && !owned.includes('calculator') && !owned.includes('course')) return Response.redirect(new URL('/hostcourse/guides/', url).toString(), 302);
       if (guide && !owned.includes(guide[1])) {
         return isPage || path.endsWith('.pdf') ? Response.redirect(new URL('/hostcourse/guides/', url).toString(), 302) : new Response('Not found', { status: 404 });
       }

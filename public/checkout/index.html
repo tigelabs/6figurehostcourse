@@ -94,9 +94,10 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
     <h2>Your order</h2>
     <div id="lines"></div>
     <div class="bumps" id="bumps">
-      <h3>Add a city guide to your order</h3>
+      <h3 id="bumph">Add a city guide to your order</h3>
       <p>Hosting in Barcelona or Bali? Our local guide shows you the rules, areas and numbers there. Only with this order.</p>
       <label class="bump" data-sku="barcelona"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Barcelona Host Guide</b><span class="d">The legal mid-term model, rent caps and taxes, step by step.</span></span><span class="pr"><s class="was">$79</s>$49</span></label>
+      <label class="bump" data-sku="calculator" data-only="guides"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Profit &amp; ROI Calculator</b><span class="d">Know if a property is profitable before you sign. Profit, ROI and break-even in seconds.</span></span><span class="pr"><s class="was">$97</s>$27</span></label>
       <label class="bump" data-sku="bali"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Bali Host Guide</b><span class="d">Leasehold, zoning, your PT PMA and licences, explained.</span></span><span class="pr"><s class="was">$79</s>$49</span></label>
     </div>
     <div class="total"><span>Total</span><span id="total">$249</span></div>
@@ -128,18 +129,19 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 
 <script>
 (function(){
-  var P={course:{name:'6-Figure Host Course',was:399,now:249},barcelona:{name:'Barcelona Host Guide',was:79,now:49},bali:{name:'Bali Host Guide',was:79,now:49}};
+  var P={course:{name:'6-Figure Host Course',was:399,now:249},barcelona:{name:'Barcelona Host Guide',was:79,now:49},bali:{name:'Bali Host Guide',was:79,now:49},calculator:{name:'Profit & ROI Calculator',was:97,now:27}};
   var GUIDE={
     barcelona:{title:'Barcelona Host Guide',img:'/assets/barcelona-cover.webp',promise:'How to run a <strong>legal, profitable</strong> rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',ticks:['12 interactive lessons','Rent cap checker, flat profit and tax calculators','Checklists for contracts, guest documents and taxes','Instant access with your personal code','PDF version included']},
-    bali:{title:'Bali Host Guide',img:'/assets/bali-cover.webp',promise:'How to <strong>legally invest, build and run</strong> a profitable villa rental in Bali, even as a foreigner.',ticks:['12 interactive lessons','Lease comparison, revenue check and zoning tools','Checklists for leases, land, inspections and licences','Instant access with your personal code','PDF version included']}
+    bali:{title:'Bali Host Guide',img:'/assets/bali-cover.webp',promise:'How to <strong>legally invest, build and run</strong> a profitable villa rental in Bali, even as a foreigner.',ticks:['12 interactive lessons','Lease comparison, revenue check and zoning tools','Checklists for leases, land, inspections and licences','Instant access with your personal code','PDF version included']},
+    calculator:{title:'Profit & ROI Calculator',img:'/assets/calculator-cover.webp',promise:'See in seconds if a property is <strong>profitable before you rent or buy it.</strong> No formulas, no guessing.',ticks:['Profit, ROI and break-even, calculated for you','Works for rental arbitrage, leasehold and ownership','Test prices, rooms and occupancy rates','Multi-currency in one click','Instant access with your personal code']}
   };
   var main=new URLSearchParams(location.search).get('item');if(!P[main])main='course';
   var extras=[];
   function $(i){return document.getElementById(i)}
   if(main!=='course'){var g=GUIDE[main];$('ptitle').textContent=g.title;$('pimg').src=g.img;$('pimg').alt=g.title+' cover';$('pimg').className='mock';$('pimg').style.cssText='width:100%;margin:18px 0 10px;border-radius:14px;aspect-ratio:4/3;object-fit:cover';$('ppromise').innerHTML=g.promise;$('pticks').innerHTML=g.ticks.map(function(t){return '<li>'+t+'</li>'}).join('');document.title=g.title+' · Checkout';}
-  [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main){b.remove();return}
+  [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main||(b.getAttribute('data-only')==='guides'&&main!=='barcelona'&&main!=='bali')){b.remove();return}
     var cb=b.querySelector('input');cb.addEventListener('change',function(){b.classList.toggle('on',cb.checked);extras=extras.filter(function(x){return x!==sku});if(cb.checked)extras.push(sku);render();schedule();});});
-  if(!document.querySelector('.bump'))$('bumps').remove();
+  if(!document.querySelector('.bump'))$('bumps').remove();else if(main!=='course'){$('bumph').textContent='Add to your order';$('bumps').querySelector('p').textContent='Only with this order.';}
   function money(n){return '$'+n}
   function render(){var items=[main].concat(extras),tot=0,was=0;
     $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=p.was;return '<div class="line"><span>'+p.name+'</span><span class="pr"><s class="was">'+money(p.was)+'</s>'+money(p.now)+'</span></div>'}).join('');

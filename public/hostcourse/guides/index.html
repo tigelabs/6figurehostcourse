@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Your guides · 6-Figure Host</title>
+<title>Your library · 6-Figure Host</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 <style>
 .wrap{max-width:860px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:22px}
 .g h3{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:22px;margin:0 0 4px}
 .g .act{margin-top:16px}
 .lock{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--muted)}
@@ -21,10 +21,11 @@
 <div class="top"><a href="/hostcourse/"><span class="s">6-Figure</span><span class="d">Host</span></a></div>
 <div class="wrap">
   <div class="eyebrow">Your library</div>
-  <h1>City <em>guides</em></h1>
-  <p class="muted" style="margin:0">Our local guides for hosting in Barcelona and Bali.</p>
+  <h1>Your <em>library</em></h1>
+  <p class="muted" style="margin:0">Everything you own from 6-Figure Host, in one place.</p>
   <div class="two">
     <div class="card g" data-sku="barcelona"><div class="lock" hidden>Not in your library yet</div><h3>Barcelona Host Guide</h3><div class="muted">Our local guide to hosting in Barcelona.</div><div class="act"></div></div>
+    <div class="card g" data-sku="calculator"><div class="lock" hidden>Not in your library yet</div><h3>Profit &amp; ROI Calculator</h3><div class="muted">Profit, ROI and break-even for any property.</div><div class="act"></div></div>
     <div class="card g" data-sku="bali"><div class="lock" hidden>Not in your library yet</div><h3>Bali Host Guide</h3><div class="muted">Our local guide to hosting in Bali.</div><div class="act"></div></div>
   </div>
   <p style="margin-top:28px" id="back" hidden><a class="btn ghost" href="/hostcourse/">Back to the course</a></p>
@@ -36,6 +37,7 @@ fetch('/api/me',{credentials:'same-origin'}).then(function(r){return r.json()}).
   if(d.products.indexOf('course')>=0)document.getElementById('back').hidden=false;
   [].forEach.call(document.querySelectorAll('.g'),function(g){
     var sku=g.getAttribute('data-sku'),a=g.querySelector('.act');
+    if(sku==='calculator'){if(d.products.indexOf('calculator')>=0||d.products.indexOf('course')>=0)a.innerHTML='<a class="btn" href="/hostcourse/calculator/">Open the calculator</a>';else{g.querySelector('.lock').hidden=false;a.innerHTML='<a class="btn ghost" href="/checkout?item=calculator">Get it for $27</a>'}return}
     if(d.products.indexOf(sku)>=0)a.innerHTML='<a class="btn" href="/hostcourse/guides/'+sku+'/">Open the guide</a> <a class="btn ghost" href="/hostcourse/guides/'+sku+'.pdf" target="_blank" rel="noopener" style="margin-left:6px">Download PDF</a>';
     else{g.querySelector('.lock').hidden=false;a.innerHTML='<a class="btn ghost" href="/checkout?item='+sku+'">Get it for $49</a>'}
   });

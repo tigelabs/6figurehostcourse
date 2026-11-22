@@ -116,7 +116,7 @@ export async function sendWelcome(env, rec) {
       out.email = await brevo(env, '/smtp/email', {
         templateId: Number(env.BREVO_TEMPLATE_ID),
         to: [{ email: rec.email, name: rec.name || rec.email }],
-        params: { CODE: rec.code, FIRSTNAME: rec.name || 'there', COURSE_URL: env.COURSE_URL || '' },
+        params: { CODE: rec.code, FIRSTNAME: rec.name || 'there', COURSE_URL: productsOf(rec).includes('course') ? (env.COURSE_URL || '') : (env.COURSE_URL || '').replace(/\/?$/, '/').replace(/hostcourse\/$/, 'hostcourse/guides/') },
       });
     }
   }
@@ -125,7 +125,7 @@ export async function sendWelcome(env, rec) {
 
 // ---- products ----------------------------------------------------------------
 // What each code unlocks. Older codes (review codes, ThriveCart buyers) have no list and get the course.
-export const SKUS = ['course', 'barcelona', 'bali'];
+export const SKUS = ['course', 'barcelona', 'bali', 'calculator'];
 export function productsOf(rec) { return Array.isArray(rec?.products) ? rec.products : ['course']; }
 
 // ---- Stripe ------------------------------------------------------------------

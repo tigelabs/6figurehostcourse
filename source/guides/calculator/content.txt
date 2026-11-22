@@ -1,0 +1,22 @@
+::group Your tool
+::lesson calculator | $ | Profit &amp; ROI calculator | Tool · Profit &amp; ROI | Profit &amp; ROI | calculator | Smart hosts run the numbers first, emotion comes second. |
+<section class="part" style="border-top:0;margin-top:0;padding-top:0">
+<p>Before signing a lease or investing in furniture, it’s crucial to understand your numbers. This Profit &amp; ROI Calculator helps you estimate how much income a property can generate and how long it will take to earn back your initial investment.</p>
+<p>It’s designed to give you a quick, realistic snapshot of: monthly and yearly profit, return on investment (ROI), break-even timeline, and how your numbers shift at different occupancy rates.</p>
+<div class="card">
+  <div class="label">How to use it</div>
+  <ol>
+    <li><strong>Step 1:</strong> choose your currency and fill in your business expenses.</li>
+    <li><strong>Step 2:</strong> pick your business model and enter your numbers under “Enter your data here”. The tables update automatically.</li>
+    <li>Review the results at different occupancy rates (70%, 85%, 95%) to see how scenarios play out.</li>
+  </ol>
+  <p class="added">For more explanation of a field, tap “What is this?” under it. Your numbers are saved on this device.</p>
+</div>
+::expenses
+<h3>Step 2 <span class="hsub">run the numbers for your business model</span></h3>
+::calcpanels
+<p><strong>Note:</strong> Taxes are not included in this calculator, as they vary by country. Be sure to account for local income or corporate tax, tourist/occupancy taxes, and dividend or capital gain tax if applicable.</p>
+<p>Use this tool before committing to any property. If the numbers don’t look good on paper, it’s not worth the risk.</p>
+<p class="added">© All rights reserved. Do not share, copy, reproduce or sell any part of this document unless you have written permission from Farah and Daniel. All infringements will be prosecuted.</p>
+::done You have run the numbers for your property.
+::endlesson
