@@ -421,7 +421,7 @@ def masterclass_page():
     body = """OFFERBAR
 <section class="mcv" aria-label="Free masterclass video">
 <div class="mcv-in">
-<p class="mcv-k"><span class="sc">Free masterclass</span> with Farah &amp; Daniel</p>
+<p class="mcv-k"><span class="sc">Free masterclass</span></p>
 <div class="mcv-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass with Farah and Daniel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 <h1 class="mcv-h">Build a profitable rental business<span>with or without owning property</span></h1>
 <p class="mcv-lead">Everything we learned in ten years of hosting, in one free class.</p>
