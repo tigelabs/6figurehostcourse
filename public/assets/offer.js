@@ -28,7 +28,7 @@
     var bf = phase === 'bf', n = O.months;
     set('price', bf ? '<s>' + m(297) + '</s> ' + m(197) : m(297));
     set('price-plain', m(P.one));
-    set('cta', phase === 'pre' ? 'Coming soon: 27 November' : 'Get instant access for ' + m(P.one));
+    set('cta', phase === 'pre' ? 'Coming soon on Black Friday' : 'Get instant access for ' + m(P.one));
     set('was1', bf ? '<s>' + m(297) + '</s>' : '');
     set('now1', m(P.one));
     set('save', bf ? 'Black Friday: you save ' + m(100) : 'Lifetime access, no subscription');
@@ -48,11 +48,11 @@
       set('headline', '');
     }
     set('mc-note', phase === 'pre'
-      ? '*In the video we talk about our old guide and its price. We’re upgrading that guide into a full course, so the old guide and its price are no longer available. The new 6-Figure Host Course launches on <b>Black Friday, 27 November</b>, at <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
-      : bf ? '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
-      : '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>' + m(297) + '</b>.');
+      ? '*In the video we mention our old guide and its price. We’re turning that guide into a bigger, better course, so the old guide is no longer available. The new 6-Figure Host Course launches on <b>Black Friday, 27 November</b>, at <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
+      : bf ? '*In the video we mention our old guide and its price. That guide is now the full 6-Figure Host Course: <b><s>' + m(297) + '</s> ' + m(197) + '</b>.'
+      : '*In the video we mention our old guide and its price. That guide is now the full 6-Figure Host Course: <b>' + m(297) + '</b>.');
     // Before Black Friday the course is not on sale yet: buy buttons say "Coming soon".
-    $$('a[data-buy]').forEach(function (a) { var pre = phase === 'pre'; a.textContent = pre ? 'Coming soon: 27 November' : a.getAttribute('data-buy'); a.classList.toggle('is-soon', pre); if (pre) a.setAttribute('aria-disabled', 'true'); else a.removeAttribute('aria-disabled'); });
+    $$('a[data-buy]').forEach(function (a) { var pre = phase === 'pre'; a.textContent = pre ? 'Coming soon on Black Friday' : a.getAttribute('data-buy'); a.classList.toggle('is-soon', pre); if (pre) a.setAttribute('aria-disabled', 'true'); else a.removeAttribute('aria-disabled'); });
     $$('a[href*="/checkout"]').forEach(function (a) { var h = a.getAttribute('href'); var course = !/item=(calculator|barcelona|bali)/.test(h); if (course && phase === 'pre') { a.classList.add('is-soon'); a.setAttribute('aria-disabled', 'true'); } });
     show('countdown', phase !== 'after');
     show('headline', phase !== 'after');

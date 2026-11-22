@@ -148,3 +148,6 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .mcv-proof.dark{justify-content:flex-start;color:var(--muted);border-top:1px solid var(--rule);width:100%}
 .mcv-proof.dark b{color:var(--ink)}
 .pg .mc-us img{width:100%;aspect-ratio:4/5;object-fit:cover;border:1.5px solid var(--ink)}
+.pg .mc-us img{max-width:460px;justify-self:center}
+.pg .mcv-lead{margin-top:20px}
+.pg .mcv-note{margin-top:18px}
