@@ -278,14 +278,6 @@ At the end, add a short summary I can copy into my notes, in this format:
 ::lesson ch3 | 03 | Think like a business owner | Part 1 · Lesson 3 | Think like a business owner, | not just a host | Mindset, extra income and the tools you need.
 ::part Overcoming fear of getting started
 @p25
-::part Creative ways to make extra money
-<p>Being an Airbnb host isn’t just about charging for a night’s stay. You can boost your income by offering extra services and experiences; many of which can be set up passively. Here are some creative ideas:</p>
-<ul>
-<li><strong>Local partners and referral commissions:</strong> Work with local businesses and earn a commission every time you send them a guest. Think of tour operators, surf lessons, motorbike rentals, restaurants, and websites with referral (affiliate) programs for event tickets and activities. Your guests get trusted recommendations and you get paid for them. We earned commission, for example, selling tickets for Barcelona parties to our guests. It was around €10 per ticket, and in summer about 60% of our guests bought them, because it was an activity made for them.</li>
-<li><strong>Airport transfers:</strong> Guests often prefer a smooth arrival, especially in unfamiliar destinations. Partner with a reliable local driver to offer airport pick-up. Add a commission for yourself or bundle it as a premium add-on.</li>
-<li><strong>Floating breakfasts (especially in Bali):</strong> If your property has a pool, a beautiful floating breakfast is a popular experience. It creates shareable content for guests and earns you extra without much work. You can partner with a local café or set up your own simple breakfast tray.</li>
-</ul>
-<p>The key is to think about what fits naturally with your property and your lifestyle. These add-ons can increase your income, improve guest satisfaction, and build a more memorable hosting brand with very little extra effort.</p>
 ::part Think big: our most profitable apartment
 <p>Thinking like a business owner also means looking at a property for what it <em>could</em> be, not for what it is today. Here is the apartment in Barcelona that taught us this the most.</p>
 <details class="obj tpl case"><summary><span><small>Case study · Barcelona</small>How an ugly apartment became our most profitable one</span></summary>
@@ -297,8 +289,8 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p class="ba-cap">On the left, the living room after we painted it. On the right, the same side we circled in the before picture: the new white wall with two doors is what we added.</p>
 <p><strong>Two extra rooms from one simple wall</strong></p>
 <p>Those two extra rooms make us around <strong>€1,600 extra a month</strong>, and as you can see, they don’t even have an exterior window. They have a small inner window to the living room.</p>
-<div class="ba ba3"><figure><img src="img/pa-room-door-c.webp" width="1000" height="750" decoding="async" loading="lazy" alt="One of the new bedrooms with the door open; the small inner window to the living room is circled"></figure><figure><img src="img/pa-room-a.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The first new bedroom: a double bed, a desk and an inner window"></figure><figure><img src="img/pa-room-b.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The second new bedroom: a double bed and a small table"></figure></div>
-<p class="ba-cap">These are the two bedrooms we added behind the new wall. The window we circled is an inner window to the living room, not an exterior window.</p>
+<div class="ba ba3"><figure><img src="img/pa-room-door-c.webp" width="1000" height="750" decoding="async" loading="lazy" alt="One of the new bedrooms with the door open; an arrow points to the small inner window to the living room"></figure><figure><img src="img/pa-room-a.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The first new bedroom: a double bed, a desk and an inner window"></figure><figure><img src="img/pa-room-b.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The second new bedroom: a double bed and a small table"></figure></div>
+<p class="ba-cap">These are the two bedrooms we added behind the new wall. The window with the arrow is an inner window to the living room, not an exterior window.</p>
 <p>It was Daniel’s idea. The first time he told Farah, she said: <em>“No way, that’s crazy.”</em> Today, these are some of our most popular rooms, because a lot of people in Barcelona have a smaller budget and are looking for exactly a room like this.</p>
 <p><strong>Six rooms need more than one bathroom</strong></p>
 <p>With six bedrooms, one bathroom would never have been enough. So we turned the old laundry area into an extra shower room. Now there are never issues, even with many people living in the apartment.</p>
@@ -312,6 +304,14 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p>For a lot of people, it’s a dream to live in a beautiful, big apartment like this, with balconies, in the centre of Barcelona, even if their own bedroom is small and has no window. Don’t judge a room by your own standards. Look at what your guests are looking for, and at the budget they have.</p>
 <p><small>Before you build a wall or add a bedroom, agree it with the owner in writing and check your local rules on what counts as a bedroom. How we pitched this type of apartment to the landlord is in <a href="#ch6">Lesson 6</a>.</small></p>
 </details>
+::part Creative ways to make extra money (optional)
+<p>Being an Airbnb host isn’t just about charging for a night’s stay. You can boost your income by offering extra services and experiences; many of which can be set up passively. Here are some creative ideas:</p>
+<ul>
+<li><strong>Local partners and referral commissions:</strong> Work with local businesses and earn a commission every time you send them a guest. Think of tour operators, surf lessons, motorbike rentals, restaurants, and websites with referral (affiliate) programs for event tickets and activities. Your guests get trusted recommendations and you get paid for them. We earned commission, for example, selling tickets for Barcelona parties to our guests. It was around €10 per ticket, and in summer about 60% of our guests bought them, because it was an activity made for them.</li>
+<li><strong>Airport transfers:</strong> Guests often prefer a smooth arrival, especially in unfamiliar destinations. Partner with a reliable local driver to offer airport pick-up. Add a commission for yourself or bundle it as a premium add-on.</li>
+<li><strong>Floating breakfasts (especially in Bali):</strong> If your property has a pool, a beautiful floating breakfast is a popular experience. It creates shareable content for guests and earns you extra without much work. You can partner with a local café or set up your own simple breakfast tray.</li>
+</ul>
+<p>The key is to think about what fits naturally with your property and your lifestyle. These add-ons can increase your income, improve guest satisfaction, and build a more memorable hosting brand with very little extra effort.</p>
 ::part Must-have business tools for hosts
 <p>Here’s an overview of the must-have apps, websites, and tools to run your Airbnb business like a pro. Don’t worry, we’ll explain each one later in this guide, so you know exactly what to use and how to set it up.</p>
 ::res AirROI.com | https://www.airroi.com/ | Open AirROI | Analyze short-term rental data.
@@ -489,9 +489,12 @@ Name the source for every number, and say clearly when you are estimating. If yo
 <p>In Bali, it’s much easier to convince an owner to rent a house, or a floor of a house, to you so you can rent it out on platforms like Airbnb, as long as your company and paperwork are in order. The number of bedrooms matters much less: one, two, three or four bedrooms can all work, <strong>as long as the rent makes sense for the return you can get.</strong></p>
 <p><strong>How it works: leasehold</strong></p>
 <p>Most properties in Bali work with a different system: <strong>leasehold</strong>. You don’t buy the property forever, you buy the right to use it for a fixed number of years, often 25. You pay up front, and when the lease ends, the property goes back to the original owner, together with everything you built or improved on it.</p>
-<p>You can also find leases for fewer years. We first took Casa Mobili for <strong>3 years</strong>, with the right to extend written into the contract. Because you’re not paying the price of buying a property, it was still very affordable.</p>
-<p><strong>Why we chose Casa Mobili: built for coliving</strong></p>
-<p>We chose Casa Mobili because its setup is perfect for our coliving model: a shared pool with individual bedrooms around it. Instead of trying to rent out the entire villa, we divide it up and rent out the bedrooms one by one.</p>
+<p>You can also find leases for fewer years. We first took Casa Mewali (our small boutique villa, where we also rent out the rooms individually) for <strong>3 years</strong>, with the right to extend written into the contract. Because you’re not paying the price of buying a property, it was still very affordable.</p>
+<p><strong>Why we chose Casa Mewali: built for coliving</strong></p>
+<p>We chose Casa Mewali because its setup is perfect for our coliving model: a shared pool with individual bedrooms around it. Instead of trying to rent out the entire villa, we divide it up and rent out the bedrooms one by one.</p>
+<div class="ba"><figure><img src="img/cm-pool.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Casa Mewali: the shared pool with the suites around it, behind arched black windows"></figure><figure><img src="img/cm-room.webp" width="1000" height="750" decoding="async" loading="lazy" alt="A Casa Mewali suite with a wooden bed and doors that open straight onto the pool"></figure></div>
+<p class="ba-cap">Casa Mewali, our small boutique villa in Bali.</p>
+<p><strong>Why rooms and not the whole villa?</strong> Most hosts in Bali rent out the entire villa, so that’s where the competition is. But a lot of travellers, many of them girls who love taking beautiful pictures, dream of staying in a villa this pretty and can’t afford the whole place. A single bedroom they can afford. That’s why people love booking this one.</p>
 <p>Downstairs, 2 bedrooms open onto the pool, each with its own bathroom. Upstairs there is a third bedroom, also with its own bathroom. So: 3 suites around the pool, with the kitchen separate at the entrance. That lets us run <strong>4 listings for one property</strong>: one for each room and one for the entire villa (the “List both ways” format from <a href="#ch1">Lesson 1</a>). Surprisingly, <strong>the entire villa has been booked only once.</strong> Almost every booking is for the rooms separately.</p>
 <p>Not every property works like this. We have another property with 2 bedrooms whose architecture is much more family-style and private, so it’s not a great fit for strangers sharing it. <strong>For coliving, the layout decides.</strong></p>
 <p><strong>What to look for in Bali</strong></p>
