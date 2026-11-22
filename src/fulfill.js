@@ -11,13 +11,13 @@ export async function fulfillSession(env, sessionId) {
     skus, paymentId: pi.id || s.id, customerId: s.customer, paymentMethodId: pi.payment_method,
   });
   await env.CODES.put(`cs:${s.id}`, r.rec.code);
-  // Split pay: stop the subscription after the 3rd monthly payment.
+  // Split pay: stop the subscription after the last monthly payment.
   if (s.mode === 'subscription' && s.subscription) {
     try {
       const subId = typeof s.subscription === 'string' ? s.subscription : s.subscription.id;
       const sub = await stripe(env, 'GET', `/subscriptions/${subId}`);
       if (!sub.cancel_at) {
-        const months = Number(s.metadata?.split || 3);
+        const months = Number(s.metadata?.split || 4);
         const d = new Date(sub.start_date * 1000); d.setUTCMonth(d.getUTCMonth() + months - 1); d.setUTCDate(d.getUTCDate() + 5);
         await stripe(env, 'POST', `/subscriptions/${subId}`, { cancel_at: String(Math.floor(d / 1000)), proration_behavior: 'none' });
       }

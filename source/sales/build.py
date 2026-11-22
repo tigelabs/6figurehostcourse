@@ -84,18 +84,19 @@ OFFERBAR_HTML = """<div class="bar obar">
 VALUE_STACK = """<div class="buy vstack">
 <p class="vs-h">What it’s worth</p>
 <ul class="vs">
-<li><span>6-Figure Host Course, 13 lessons</span><b>$297</b></li>
-<li><span>Profit &amp; ROI Calculator</span><b>$97</b></li>
-<li><span>Host starter kit: contracts, checklists, templates</span><b>$150</b></li>
+<li><span>6-Figure Host Course, 13 lessons</span><b data-o="vs" data-v="297">$297</b></li>
+<li><span>Profit &amp; ROI Calculator</span><b data-o="vs" data-v="97">$97</b></li>
+<li><span>Host starter kit: contracts, checklists, templates</span><b data-o="vs" data-v="150">$150</b></li>
 <li><span>Landlord scripts, pitch brochure and AI prompts</span><b>included</b></li>
 </ul>
-<p class="vs-tot"><span>Total value</span><b>$544</b></p>
+<p class="vs-tot"><span>Total value</span><b data-o="vs" data-v="544">$544</b></p>
 <p class="vs-you">Your price: <b data-o="price">$297</b></p>
 <a class="cta" href="#pricing">Choose how you pay</a>
 </div>"""
 PRICING = """<div class="pricing" id="pricing">
 <p class="pr-head" data-o="headline">Black Friday opens 27 November</p>
 <div class="cd" data-o="countdown"></div>
+<div class="curt"><span>Choose your currency</span><div class="cur" data-o="cur" role="radiogroup" aria-label="Currency"><button type="button" role="radio" data-cur="eur">€ EUR</button><button type="button" role="radio" data-cur="usd">$ USD</button></div></div>
 <div class="pr-cards">
 <div class="pr-card best"><span class="pr-badge">Best value</span>
 <h3>One-time payment</h3>
@@ -103,16 +104,16 @@ PRICING = """<div class="pricing" id="pricing">
 <p class="pr-now" data-o="now1">$297</p>
 <p class="pr-sub">The lowest total price.</p>
 <p class="pr-save" data-o="save">Lifetime access, no subscription</p>
-<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
 <a class="cta" href="/checkout">One-time payment</a>
 </div>
 <div class="pr-card">
 <h3>Split pay</h3>
 <p class="pr-was" data-o="was2"></p>
-<p class="pr-now" data-o="now2">3 × $109</p>
-<p class="pr-sub" data-o="tot2">$327 total, paid monthly</p>
-<p class="pr-save pr-save2">Start today, pay in 3 months</p>
-<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<p class="pr-now" data-o="now2">4 × $79</p>
+<p class="pr-sub" data-o="tot2">$316 total, paid monthly</p>
+<p class="pr-save pr-save2" data-o="split-note">Start today, pay in 4 months</p>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
 <a class="cta ghost" href="/checkout?plan=split">Split pay</a>
 </div>
 </div>
@@ -125,10 +126,14 @@ def course_base():
     s = re.sub(r'<div class="bar">.*?</div>\n</div>\n', lambda m: OFFERBAR_HTML, s, count=1, flags=re.S)
     s = sub(s, '<span class="pill">Now an interactive guide + host starter kit</span>', '<span class="pill">Interactive course + host starter kit</span>')
     s = sub(s, '<span class="dp">Host Guide</span>', '<span class="dp">Host Course</span>')
+    s = sub(s, '<p class="lead">The step-by-step system to build a profitable, legal rental business, even without owning property.</p>', '<p class="lead">The step-by-step system to build a profitable, legal rental business (with or without owning property).</p>')
     s = s.replace('href="#offer"', 'href="/checkout"')
     s = s.replace('Get instant access for $149', '<span data-o="cta">Get instant access for $297</span>')
     s = re.sub(r'<div class="buy">.*?</div>\n</div>\n</div>', lambda m: VALUE_STACK + '\n</div>\n' + PRICING + '\n</div>', s, count=1, flags=re.S)
     s = s.replace('<details open><summary>When do I get access?</summary>', OLD_BUYERS_FAQ + '<details open><summary>When do I get access?</summary>', 1)
+    s = re.sub(r'<img class="photo" src="/assets/sales/c9292e2a0b9965c2ce6ed45ed6d0dd7b.webp"[^>]*>\n', '', s, count=1)
+    s = s.replace('<div class="stage">', '<div class="stage mk">', 1)
+    s = s.replace('<div class="base"></div>\n</div>\n</div>\n</div>\n</header>', '<div class="base"></div>\n</div>\n<figure class="tabk"><div class="ipad"><img src="/assets/sales/kit-ipad.webp" width="1024" height="768" alt="The host starter kit inside the course on an iPad: launch roadmap, must-have tools, decision-making matrix and the profit calculator"></div></figure>\n</div>\n</div>\n</header>', 1)
     s = sub(s, '<video src="/assets/sales/0c82ae4341b1f2fc221c4fe50e96a4f3.mp4" poster="/assets/sales/52df027710a89acb2f932c71a4329f54.webp"', '<video src="/assets/sales/course-tour.mp4" poster="/assets/sales/course-tour.webp"')
     s = sub(s, 'aria-label="A scroll through the guide: the start page, a chapter, the launch roadmap, the setup checklist and the profit calculator"', 'aria-label="A scroll through the course: the start page, a lesson, the launch roadmap, the profit calculator and the host starter kit"')
     # the welcome video is not recorded yet: show Farah and Daniel instead of a placeholder

@@ -269,6 +269,22 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pr-old{font-size:15px;margin:12px auto 0;max-width:560px;color:#e9e3db;text-align:center}
 .pr-old a{color:inherit}
 @media (max-width:760px){.pr-cards{grid-template-columns:1fr;gap:32px}.cd-u{min-width:62px}.cd-u b{font-size:28px}}
+/* course hero: laptop + iPad, no photo */
+.stage.mk{padding:30px 0 40px;position:relative}
+.stage.mk .dev{position:relative;left:auto;right:auto;width:84%}
+.stage.mk .tabk{position:absolute;right:0;bottom:0;width:40%;margin:0}
+.stage.mk .tabk .ipad{border-radius:22px;padding:12px 14px}
+.stage.mk .tabk .ipad img{border-radius:6px}
+@media (max-width:860px){.stage.mk{padding:10px 0 30px}.stage.mk .tabk{width:42%}.stage.mk .tabk .ipad{border-radius:14px;padding:7px 9px}}
+.cta{color:#fff}
+.cta:hover{color:#fff}
+.curt{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:22px 0 0}
+.curt>span{font-size:15px;color:#e9e3db}
+.cur{display:inline-flex;background:#4a4440;border-radius:999px;padding:4px}
+.cur button{all:unset;cursor:pointer;font-weight:700;font-size:15px;padding:8px 18px;border-radius:999px;color:var(--cream)}
+.cur button[aria-checked="true"]{background:var(--cream);color:var(--ink)}
+.cur button:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.pricing .pr-old{text-align:center;margin-left:auto;margin-right:auto}
 
 /* ---------- home page ---------- */
 .pg{--green:#313A33;--yellow:#E6CB8F;--stone:#E2DDD8;--paperx:#F4F2EF}

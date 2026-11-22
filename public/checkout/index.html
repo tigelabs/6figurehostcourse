@@ -68,6 +68,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 .cd-u{display:flex;flex-direction:column;align-items:center;min-width:48px;padding:5px 4px;border-radius:9px;background:#4a4440}
 .cd-u b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:20px;line-height:1}
 .cd-u i{font-style:normal;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#d9d2c9;margin-top:2px}
+.curt{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin:-6px 0 12px;font-size:13px;color:var(--muted)}.cur{display:inline-flex;background:#EFEDEA;border-radius:999px;padding:3px}.cur button{all:unset;cursor:pointer;font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px}.cur button[aria-checked="true"]{background:var(--ink);color:#fff}
 .secure{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:14px}
 .fine{max-width:1080px;margin:16px auto 0;color:#bdb5ad;font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .fine a{color:#bdb5ad}
@@ -107,6 +108,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   </section>
   <section class="pay">
     <h2>Your order</h2>
+    <div class="curt"><span>Currency</span><div class="cur" data-o="cur" role="radiogroup" aria-label="Currency"><button type="button" role="radio" data-cur="eur">€ EUR</button><button type="button" role="radio" data-cur="usd">$ USD</button></div></div>
     <div class="bfbox" id="bfbox" hidden><p data-o="headline"></p><div class="cd sm" data-o="countdown"></div></div>
     <div class="plans" id="plans" hidden role="radiogroup" aria-label="How do you want to pay?">
       <button type="button" role="radio" data-plan="one"><b>One-time payment</b><span id="pl-one"></span></button>
@@ -122,7 +124,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
     <p class="save" id="save"></p>
     <div class="err" id="err" role="alert"></div>
     <div id="checkout" aria-live="polite"></div>
-    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Prices in USD, or pay in your local currency.</div>
+    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Prices in USD or EUR.</div>
   </section>
 </div>
 <div class="fine"><span>© 2026 6-Figure Host · Passion to profit LLC</span><span><a href="/privacy">Privacy policy</a></span></div>
@@ -147,7 +149,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 
 <script>
 (function(){
-  var OF=window.FH_OFFER||{one:297,was:0,split:109,splitWas:0,phase:'after'};
+  var OF=window.FH_OFFER||{one:297,was:0,split:79,splitWas:0,phase:'after',months:4,cur:'usd',money:function(n){return '$'+n}};var N=OF.months||4;
   var P={course:{name:'6-Figure Host Course',was:OF.was||0,now:OF.one},barcelona:{name:'Barcelona Host Guide',was:79,now:59},bali:{name:'Bali Host Guide',was:79,now:49},calculator:{name:'Profit & ROI Calculator',was:97,now:37}};
   var GUIDE={
     barcelona:{title:'Barcelona Host Guide',img:'/assets/barcelona-cover.webp',promise:'How to run a <strong>legal, profitable</strong> rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',ticks:['12 interactive lessons','Rent cap checker, flat profit and tax calculators','Checklists for contracts, guest documents and taxes','Instant access with your personal code','PDF version included']},
@@ -162,26 +164,29 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main||(b.getAttribute('data-only')==='guides'&&main!=='barcelona'&&main!=='bali')){b.remove();return}
     var cb=b.querySelector('input');cb.addEventListener('change',function(){b.classList.toggle('on',cb.checked);extras=extras.filter(function(x){return x!==sku});if(cb.checked)extras.push(sku);render();schedule();});});
   if(!document.querySelector('.bump'))$('bumps').remove();else if(main!=='course'){$('bumph').textContent='Add to your order';$('bumps').querySelector('p').textContent='Only with this order.';}
-  function money(n){return '$'+n}
-  if(main==='course'){$('plans').hidden=false;$('pl-one').innerHTML=(OF.was?'<s>$'+OF.was+'</s> ':'')+'$'+OF.one;$('pl-split').innerHTML=(OF.splitWas?'<s>3 × $'+OF.splitWas+'</s> ':'')+'3 × $'+OF.split;
+  function money(n){return OF.money?OF.money(n):'$'+n}
+  if(main==='course'){$('plans').hidden=false;function plans(){$('pl-one').innerHTML=(OF.was?'<s>'+money(OF.was)+'</s> ':'')+money(OF.one);$('pl-split').innerHTML=(OF.splitWas?'<s>'+N+' × '+money(OF.splitWas)+'</s> ':'')+N+' × '+money(OF.split);}plans();
     [].forEach.call(document.querySelectorAll('.plans button'),function(b){b.addEventListener('click',function(){if(plan===b.getAttribute('data-plan'))return;plan=b.getAttribute('data-plan');render();schedule();})});}
   if(main==='course'&&OF.phase!=='after')$('bfbox').hidden=false;
   function render(){
     [].forEach.call(document.querySelectorAll('.plans button'),function(b){b.setAttribute('aria-checked',b.getAttribute('data-plan')===plan?'true':'false')});
     if(main==='course'&&plan==='split'){
-      $('lines').innerHTML='<div class="line"><span>6-Figure Host Course<br><small>3 monthly payments</small></span><span class="pr">'+(OF.splitWas?'<s class="was">3 × '+money(OF.splitWas)+'</s>':'')+'3 × '+money(OF.split)+'</span></div>';
-      $('total').textContent=money(OF.split)+' today';$('save').textContent='Then '+money(OF.split)+' in 1 month and '+money(OF.split)+' in 2 months. '+money(OF.split*3)+' in total.';
+      $('lines').innerHTML='<div class="line"><span>6-Figure Host Course<br><small>'+N+' monthly payments</small></span><span class="pr">'+(OF.splitWas?'<s class="was">'+N+' × '+money(OF.splitWas)+'</s>':'')+N+' × '+money(OF.split)+'</span></div>';
+      $('total').textContent=money(OF.split)+' today';$('save').textContent='Then '+money(OF.split)+' every month for '+(N-1)+' more months. '+money(OF.split*N)+' in total.';
       if($('bumps'))$('bumps').style.display='none';return;}
     if($('bumps'))$('bumps').style.display='';
     var items=[main].concat(extras),tot=0,was=0;
     $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=(p.was||p.now);return '<div class="line"><span>'+p.name+'</span><span class="pr">'+(p.was?'<s class="was">'+money(p.was)+'</s>':'')+money(p.now)+'</span></div>'}).join('');
     $('total').textContent=money(tot);$('save').textContent=was>tot?'You save '+money(was-tot)+' today':'One payment, lifetime access';}
+  function relabel(){[].forEach.call(document.querySelectorAll('.bump'),function(b){var p=P[b.getAttribute('data-sku')];if(p)b.querySelector('.pr').innerHTML=(p.was?'<s class="was">'+money(p.was)+'</s>':'')+money(p.now)})}
+  relabel();
+  OF.onchange=function(){if(main==='course')plans();relabel();render();schedule();};
   render();
   var stripe=null,current=null,timer=null,seq=0;
   function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
   function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
   function load(){var my=++seq;fail('');$('checkout').classList.add('loading');
-    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:plan==='split'?[]:extras,plan:plan})})
+    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:plan==='split'?[]:extras,plan:plan,currency:OF.cur||'usd'})})
     .then(function(r){return r.json()}).then(function(d){
       if(my!==seq)return;
       if(!d.clientSecret||!d.publishableKey){$('checkout').classList.remove('loading');return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.')}
