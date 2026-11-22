@@ -301,14 +301,14 @@ def guide_page(key):
 <div class="head"><h2 class="lock"><span class="sc b">Not a PDF</span><span class="dp">A guide you work inside</span></h2><p class="lead narrow">It opens in your browser, remembers where you stopped and does the maths for you. The PDF is included too.</p></div>
 <ul class="feat">%s</ul>
 </div></section>''' % ''.join('<li><h3 class="dp3">%s</h3><p>%s</p></li>' % f for f in g['feats'])
-    body = '\n'.join([hero, truth, parts, feats, offer('The interactive %s Host Guide' % g['script'], g['items'], 79, g['price'], href, 'Secure payment by Stripe. Add the Profit &amp; ROI Calculator at checkout for $27.'), crosssell(), faq(g['faq'])])
+    body = '\n'.join([hero, truth, parts, feats, offer('The interactive %s Host Guide' % g['script'], g['items'], 79, g['price'], href, 'Secure payment by Stripe. Add the Profit &amp; ROI Calculator at checkout for $37.'), crosssell(), faq(g['faq'])])
     return page(key + '/', g['title'], g['desc'], body, g['active'])
 
 
 # ---------------------------------------------------------------- calculator page
 def calculator_page():
     href = '/checkout?item=calculator'
-    body = '''<div class="bar"><div class="in"><p><b>Launch offer.</b> Get the Profit &amp; ROI Calculator for $27 instead of $97.</p><a href="%(h)s">Get it now</a></div></div>
+    body = '''<div class="bar"><div class="in"><p><b>Launch offer.</b> Get the Profit &amp; ROI Calculator for $37 instead of $97.</p><a href="%(h)s">Get it now</a></div></div>
 <header class="hero calc">
 <div class="in">
 <div class="txt">
@@ -320,7 +320,7 @@ def calculator_page():
 <li><span><b>Works for rental arbitrage, leasehold and ownership</b>, so the numbers match your model.</span></li>
 <li><span><b>Test prices, rooms and costs</b> and see right away what changes.</span></li>
 </ul>
-<div class="ctawrap"><a class="cta" href="%(h)s">Get instant access for $27</a><small>Secure checkout. Lifetime access. Already included in the course.</small></div>
+<div class="ctawrap"><a class="cta" href="%(h)s">Get instant access for $37</a><small>Secure checkout. Lifetime access. Already included in the course.</small></div>
 </div>
 <figure class="tab"><div class="ipad"><img src="/assets/sales/91704d75617ebd52941e0ad615df6340.webp" alt="The rental arbitrage profit calculator: fields for rent, deposit, admin costs, rooms and nightly price, and the results with initial investment, monthly profit, ROI and break-even"></div><figcaption>The rental arbitrage calculator.</figcaption></figure>
 </div>
@@ -354,7 +354,7 @@ def calculator_page():
 </div></section>
 %(offer)s
 %(cross)s
-%(faq)s''' % dict(h=href, offer=offer('The Profit &amp; ROI Calculator', ['Calculators for rental arbitrage, ownership and leasehold', 'Business cost overview with an AI prompt for your city', 'Three occupancy scenarios, break-even chart and 5-year view', 'Multi-currency, saved on your device'], 97, 27, href, 'Secure payment by Stripe. Included in the 6-Figure Host Course.'),
+%(faq)s''' % dict(h=href, offer=offer('The Profit &amp; ROI Calculator', ['Calculators for rental arbitrage, ownership and leasehold', 'Business cost overview with an AI prompt for your city', 'Three occupancy scenarios, break-even chart and 5-year view', 'Multi-currency, saved on your device'], 97, 37, href, 'Secure payment by Stripe. Included in the 6-Figure Host Course.'),
                       cross='''<section class="sec night"><div class="in two"><div class="copy"><h2 class="lock"><span class="sc">Want the full system?</span><span class="dp">The calculator is in the course</span></h2><p class="lead">The 6-Figure Host Course includes this calculator, the host starter kit and 13 lessons to launch, run and scale your rental business.</p><div class="ctawrap"><a class="cta" href="/course/">See the course</a></div></div><img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div></section>''',
                       faq=faq([('Do I need Excel?', 'No. The calculator works in your browser, on your phone or laptop. Nothing to download.'),
                                ('I am bad at maths. Will I understand it?', 'Yes. You only type in the basics, like rent, rooms and nightly price. Every field has a short “What is this?” explanation.'),

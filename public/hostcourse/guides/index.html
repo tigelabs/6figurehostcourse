@@ -37,7 +37,7 @@ fetch('/api/me',{credentials:'same-origin'}).then(function(r){return r.json()}).
   if(d.products.indexOf('course')>=0)document.getElementById('back').hidden=false;
   [].forEach.call(document.querySelectorAll('.g'),function(g){
     var sku=g.getAttribute('data-sku'),a=g.querySelector('.act');
-    if(sku==='calculator'){if(d.products.indexOf('calculator')>=0||d.products.indexOf('course')>=0)a.innerHTML='<a class="btn" href="/hostcourse/calculator/">Open the calculator</a>';else{g.querySelector('.lock').hidden=false;a.innerHTML='<a class="btn ghost" href="/checkout?item=calculator">Get it for $27</a>'}return}
+    if(sku==='calculator'){if(d.products.indexOf('calculator')>=0||d.products.indexOf('course')>=0)a.innerHTML='<a class="btn" href="/hostcourse/calculator/">Open the calculator</a>';else{g.querySelector('.lock').hidden=false;a.innerHTML='<a class="btn ghost" href="/checkout?item=calculator">Get it for $37</a>'}return}
     if(d.products.indexOf(sku)>=0)a.innerHTML='<a class="btn" href="/hostcourse/guides/'+sku+'/">Open the guide</a> <a class="btn ghost" href="/hostcourse/guides/'+sku+'.pdf" target="_blank" rel="noopener" style="margin-left:6px">Download PDF</a>';
     else{g.querySelector('.lock').hidden=false;a.innerHTML='<a class="btn ghost" href="/checkout?item='+sku+'">Get it for $'+(sku==='barcelona'?59:49)+'</a>'}
   });
