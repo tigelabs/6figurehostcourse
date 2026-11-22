@@ -297,6 +297,9 @@ At the end, add a short summary I can copy into my notes, in this format:
 <div class="ba"><figure><img src="img/pa-laundry-before.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Before: the old, dark laundry area with a washing machine and clutter"><figcaption class="ba-b">Before</figcaption></figure><figure><img src="img/pa-shower-after.webp" width="1000" height="750" decoding="async" loading="lazy" alt="After: the new shower room with a glass shower and patterned floor tiles"><figcaption class="ba-a">After</figcaption></figure></div>
 <p><strong>Pretty sells</strong></p>
 <p>Just by making it aesthetic and pretty, you can ask <strong>20% to 30% more</strong>, without doing a crazy renovation. White walls, warm lights, simple wooden furniture and nice bedding do most of the work.</p>
+<p>We did the same in Bali with Casa Mewali, our small boutique villa. We got it for a good price and only made small upgrades: a special paint effect on the walls and nice decoration. We didn’t spend a lot, but because pretty sells, we can earn more with it. Watch the before and after:</p>
+<div class="reel"><iframe src="https://www.instagram.com/reel/DKHxcYhKZSa/embed" title="Casa Mewali before and after, on Instagram" loading="lazy" allowtransparency="true" allowfullscreen scrolling="no"></iframe></div>
+<p class="ba-cap"><a href="https://www.instagram.com/reel/DKHxcYhKZSa/" target="_blank" rel="noopener">Open the video on Instagram</a></p>
 <p><strong>Our smallest room is our most popular one</strong></p>
 <p>We even have one bedroom that is super small. It has no window, not even an inner window. And it’s our most popular bedroom, just because the price is lower, and a lot of people are looking in that budget.</p>
 <div class="ba"><figure><img src="img/pa-tiny-a.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Our smallest bedroom: a single bed, a bamboo ladder and a portable air conditioner, no window"></figure><figure><img src="img/pa-tiny-b.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The smallest bedroom from the other side, with a desk, lamp and laundry basket"></figure></div>
@@ -465,7 +468,8 @@ Name the source for every number, and say clearly when you are estimating. If yo
 ::lesson ch6 | 06 | Pitch landlords | Part 1 · Lesson 6 | Pitch | landlords | If you want to legally sublet (rental arbitrage).
 ::part Why landlords say yes
 ::h Why landlords say yes | (&amp; how to position your offer)
-<p class="hd-open">Most people assume landlords will say no to subletting. Why would they let you rent their place just so you can rent it out again? <strong>But smart landlords would actually love to work with professional renters, because you solve their biggest headaches.</strong></p>
+@p42-43
+<p class="hd-open"><strong>Smart landlords would actually love to work with professional renters, because you solve their biggest headaches.</strong></p>
 <h4 class="tc">Focus on their biggest fear: bad tenants</h4>
 <div class="hd-grid">
 <figure><img src="img/obj-dirty.webp" width="387" height="478" decoding="async" loading="lazy" alt="A home left dirty and neglected: regular tenants don’t always treat it well, and the owner only finds out when they move out."></figure>
@@ -475,7 +479,6 @@ Name the source for every number, and say clearly when you are estimating. If yo
 </div>
 <p><strong>Now compare that to renting to you, a professional renter.</strong> The landlord can count on:</p>
 <ul class="hd-ticks"><li>Guaranteed rent, no late payments</li><li>A property kept in top condition</li><li>Professional cleaning after every stay</li><li>Instant expert repairs in case of damage</li><li>Exterior security cameras</li><li>Guest screening protocols</li><li>Regular property inspections</li></ul>
-<div class="pboxes"><div class="pbox"><p><strong>Show them your systems.</strong> Walk them through your cleaning checklist, guest rules and communication templates (you’ll find them all in this course), and make clear you respect the neighbours: screened guests, house rules and quiet hours. That shows you run a real business, and it gives them peace of mind.</p></div></div>
 <div class="hd-box"><p class="hd-label">Your biggest argument to convince a landlord</p><p><strong>The better you look after the property, the more 5&#8209;star reviews you get, the more profit. You need the home to stay in excellent condition for this to work.</strong></p><p>That’s why your interests and the landlord’s are the same: a guest who finds a dirty or damaged home leaves a bad review, and bad reviews cost you money. So you take better care of their property than almost any tenant would. Reviews like this one are what you work for:</p><figure class="hd-rev"><img src="img/rev-iveta.webp" width="944" height="514" decoding="async" loading="lazy" alt="Guest review from Iveta, Australia, five stars: Absolutely amazing! The way the place is so clean and customer oriented and detailed is unbelievable. You can see that hosts put their heart in it and it’s great for people who value quality. Absolutely recommend!"></figure></div>
 <div class="pboxes"><div class="pbox"><p><strong>It’s a win-win:</strong> they get zero headaches, and you get a home you can legally sublet for profit. But it won’t work if you just message them: <em>“Hi, can I do Airbnb?”</em> You have to sell the idea, show them the benefits and make it an easy yes. You might message 10 landlords and get only 1 yes, but 1 yes is all you need.</p></div></div>
 <h4 class="tc">Pitch it as coliving</h4>
@@ -483,6 +486,7 @@ Name the source for every number, and say clearly when you are estimating. If yo
 <p>It’s also where we make the most profit: <strong>we rent out every bedroom individually</strong>, and together the rooms bring in much more than the rent for the whole apartment.</p>
 <h4 class="tc">Who you’re actually pitching to</h4>
 <p>Think about who rents out a second home. Often it’s a business owner or someone who has done well financially. People like that are often more open-minded about a business idea, and they understand the value of someone who runs things professionally.</p>
+<div class="pboxes"><div class="pbox"><p><strong>The first apartment is the hardest.</strong> In Barcelona, many owners have several apartments, sometimes a whole building. We started with one, built trust, and then rented another apartment from the same owner. After the first yes it gets easier, also because you have proof to show.</p></div></div>
 <h4 class="tc">Before you pitch: two case studies</h4>
 <p>What you pitch matters as much as how you pitch it. If you email every one- and two-bedroom flat on the market, you’ll hear “no” over and over, because those are exactly the places a landlord can rent to anyone. <strong>The fastest yes comes from the property the landlord struggles to rent.</strong> Here are two real cases from our own business, in two very different markets, so you know what to look for before you send a single email.</p>
 <details class="obj tpl case"><summary><span><small>Case study · Europe</small>Barcelona: big apartments, rented room by room</span></summary>
