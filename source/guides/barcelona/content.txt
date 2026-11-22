@@ -1,0 +1,561 @@
+::group Intro
+::lesson start | 00 | Start here | Introduction | Start | here |
+<div class="hero">
+  <div class="tx">
+    <h1><span class="s">Barcelona</span>Host Guide</h1>
+    <span class="eyebrow">+ mid-term rental toolkit</span>
+    <p>How to run a legal, profitable rental business in Barcelona with mid-term stays, <em>and copy the model to any city in Europe.</em></p>
+    <p style="font-size:14px;opacity:.8">by Farah &amp; Daniel</p>
+  </div>
+  <img src="img/cover.webp" width="675" height="1200" alt="Rooftops of Barcelona at sunset with the Sagrada Família in the distance">
+</div>
+<section class="part" style="border-top:0;margin-top:26px;padding-top:0">
+<h2>Welcome to Barcelona</h2>
+<p>Barcelona is where it all started for us. A suitcase, a shared flat, a couch with a beach blanket hanging from the window. Today it is where we run most of our business, in <strong>one of the most regulated rental markets in the world.</strong></p>
+<p>This guide is the add-on to our 6-Figure Host Course. The course shows you how to launch, run and scale a hosting business anywhere. This one shows you how to do it in a city that is actively trying to stop short-term rentals, and <strong>still build something profitable, legal and calm.</strong></p>
+</section>
+::part What you will learn
+<div class="pboxes">
+<div class="pbox"><p><strong class="blue">In Part 1, we help you understand Barcelona:</strong> the numbers, the three ways to rent, what really happens with tourist licences, and the neighbourhoods.</p></div>
+<div class="pbox"><p><strong class="blue">In Part 2, we explain the legal model we use:</strong> mid-term rentals of 32 days or more, renting by rooms under the new Catalan rules, the platforms, and whether to do it as an individual or through a company, with the taxes for each.</p></div>
+<div class="pbox"><p><strong class="blue">In Part 3, we run and scale it:</strong> day-to-day operations, the real numbers of an apartment, and how to take this model to other European cities.</p></div>
+</div>
+<blockquote class="pullquote">“If you can make it work in Barcelona, you can make it work almost anywhere in Europe.”</blockquote>
+::part The honest truth before you start
+<p>Barcelona is one of the best rental markets in Europe. It is also one of the strictest. Before you invest a single euro, you need to know this:</p>
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:key]]No new tourist licences</h4><p>The only way to rent legally for less than 32 days is to own a flat that already has a licence, and all of those licences are set to end in November 2028.</p></div>
+<div class="mk"><span class="mk-x">✓</span><h4>[[ic:sparkle]]Mid-term is the real opportunity</h4><p>Stays of 32 days or more for work, study or other temporary needs are allowed, and demand is huge.</p></div>
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:alert]]Mid-term is regulated too</h4><p>Since January 2026, Catalan law caps their rent in stressed areas, requires you to document the reason for the stay and limits how much you can charge for rooms.</p></div>
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:calendar]]Taxes matter as much as rent</h4><p>Choosing between renting as an individual or through a company can change your net income by thousands of euros a year.</p></div>
+</div>
+<div class="vk-stat"><b>€600,000</b><span>The maximum fine for operating an illegal tourist flat in Barcelona.</span></div>
+<p>Does that mean you should not invest? No. It means you need to understand the rules better than everyone else. <strong>Every time the rules get stricter, the people who do it right get less competition.</strong></p>
+<blockquote class="pullquote">“In Barcelona, the legal model is not the safe option. It is the only option.”</blockquote>
+::part How to use this guide
+<p>Read this guide in order. First you understand the city and the rules, then you set up the legal model, then you run and scale it.</p>
+<div class="tiles">
+<div><b>[[ic:refresh]]Your tasks</b>Concrete actions at the end of every lesson. Tick them off and your progress bar moves.</div>
+<div><b>[[ic:sparkle]]AI prompts</b>Ready to edit and copy, to research neighbourhoods, prepare your lawyer meeting and check your numbers.</div>
+<div><b>[[ic:box]]Checklists</b>Tick them here or take them with you when you view flats, sign contracts or meet your advisor.</div>
+<div><b>[[ic:bulb]]Calculators</b>Put in your own numbers: the rent cap, your flat’s profit and the company tax. Everything is saved on this device.</div>
+</div>
+<p class="legal-note"><strong>A note on rules and numbers.</strong> Everything in this guide reflects the situation as of October 2026. Catalan and Spanish housing rules are changing fast, and several measures are being challenged in court. This guide shares our experience and public information. It is not legal or tax advice: always confirm your case with a lawyer (abogado) and a tax advisor (gestor or asesor fiscal) before you sign or invest.</p>
+<p class="added" style="margin-top:18px;max-width:none"><strong>Copyright notice.</strong> © <span class="yr">2026</span> Farah &amp; Daniel. All rights reserved. This guide and all accompanying materials are protected by copyright law. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the publisher, except for brief quotations in reviews. This content is intended for individual use only. Sharing, reselling, or reproducing this material for commercial purposes is strictly prohibited. For permissions or inquiries, contact: contact@6figurehost.com</p>
+::task Read the intro and the honest truth
+::done You know how Barcelona works and how to use this guide.
+::endlesson
+
+::lesson story | 00 | Our Barcelona story | Introduction · Farah &amp; Daniel | From a couch to | five homes | How we built five profitable apartments in one of the most difficult cities in the world for short-term rentals.
+<section class="part" style="border-top:0;margin-top:0;padding-top:0">
+<div class="tl">
+<div class="tl-item"><div class="tl-title"><b>01</b> It started on a couch</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/us.webp" width="675" height="1200" alt="Farah and Daniel together in Barcelona" loading="lazy"></figure><figure class="tl-slide"><img src="img/cover.webp" width="675" height="1200" alt="Barcelona rooftops at sunset" loading="lazy"></figure></div><div class="tl-text"><p>If you took our course, you know the beginning: two strangers sharing a small flat in Barcelona, trying to make ends meet. Farah rented out her bedroom and slept on the couch behind a beach blanket. <strong>It was not glamorous, but it worked.</strong></p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>02</b> Barcelona shaped how we run our whole business</div><div class="tl-body"><div class="tl-text"><p>Here, you cannot just buy a flat, list it on Airbnb and hope for the best. <strong>The city has been closing the door on tourist rentals for years, and the fines are huge.</strong></p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>03</b> So we learned to play a different game</div><div class="tl-body"><div class="tl-text"><p>We focus on <strong>stays of 32 nights or more</strong>, for people who come to Barcelona to work, study, do an internship or find a long-term home. These rentals are permitted, the demand is enormous and, done right, they are very profitable.</p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>04</b> Five apartments, zero tourist licences</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/farah.webp" width="675" height="1200" alt="Farah on a terrace in Barcelona at night" loading="lazy"></figure><figure class="tl-slide"><img src="img/room.webp" width="736" height="736" alt="A calm, light bedroom in one of our apartments" loading="lazy"></figure></div><div class="tl-text"><p>Today we run five apartments in Barcelona <strong>without a single tourist licence.</strong> Compared with classic short-term rentals, they mean fewer check-ins, less wear and tear and much less stress.</p><p>This guide is everything we learned: the rules, the numbers, the neighbourhoods, the taxes and the small details that make the difference between a model that works and one that gets you a fine.</p><p class="tl-close"><strong>Will it be easy? No. Is it possible? 100%.</strong></p></div></div></div>
+</div>
+</section>
+::task Get inspired by our Barcelona story
+::done You know how we built five legal apartments in Barcelona.
+::endlesson
+
+::group Part 1: Understanding Barcelona
+::lesson ch1 | 01 | Barcelona by the numbers | Part 1 · Lesson 1 | Barcelona by the | numbers | Why demand never stops.
+::part A city everyone wants to live in
+<p>Barcelona is not only a holiday destination. It is a city people move to: to study, to work, to start a company, to try a new life by the sea. <strong>That constant flow of newcomers is the engine of the mid-term rental model.</strong></p>
+<div class="vk-two">
+<div class="vk-stat"><b>20M+</b><span>foreign tourists visited Catalonia in 2025, a record (INE).</span></div>
+<div class="vk-stat"><b>10,101</b><span>licensed tourist apartments in Barcelona, all set to expire by November 2028.</span></div>
+<div class="vk-stat"><b>€5</b><span>municipal tourist tax surcharge per night in 2026, rising to €8 by 2029.</span></div>
+<div class="vk-stat"><b>32+</b><span>nights: the minimum stay that takes a rental out of the tourist category.</span></div>
+</div>
+<p>Look at what those numbers tell you. <strong>Tourist demand is enormous, but the supply of legal tourist flats is fixed and shrinking.</strong> Taxes on short stays are going up every year. Meanwhile, the people who come for a month, a semester or a year still need somewhere to live, and the long-term market is very hard to access for newcomers.</p>
+::part Who rents for 32 days or more?
+<p>In our experience, mid-term guests in Barcelona fall into a few clear groups:</p>
+<div class="vk-grid3">
+<div class="vk-card"><span class="vk-n">1</span><h4>Newcomers</h4><p>Looking for a long-term home. They just arrived, have no Spanish payslip or credit history yet, and need a base for one to three months while they search.</p></div>
+<div class="vk-card"><span class="vk-n">2</span><h4>Students</h4><p>Erasmus, master’s programmes, business schools, language courses. Many stay a full semester.</p></div>
+<div class="vk-card"><span class="vk-n">3</span><h4>Interns &amp; professionals</h4><p>Companies, startups and hospitals bring people for a few months.</p></div>
+<div class="vk-card"><span class="vk-n">4</span><h4>Digital nomads</h4><p>Remote workers who want to live in the city for a season.</p></div>
+<div class="vk-card"><span class="vk-n">5</span><h4>People in transition</h4><p>Renovating their home, waiting for a new flat, or in the city for medical treatment.</p></div>
+</div>
+<div class="vk-tip"><b>What they all have in common:</b> they need a furnished place, ready to move in, with flexible terms, and they are willing to pay for it.</div>
+::part What they pay
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Type</th><th>Typical monthly price in good areas (our experience)</th></tr></thead><tbody>
+<tr><th>Private room</th><td><strong>€800–1,200 per room</strong> in a shared apartment, depending on area, size and services</td></tr>
+<tr><th>Entire apartment</th><td><strong>From €3,000 per month</strong> and up</td></tr>
+</tbody></table></div>
+<p class="warn">These are the prices we see in our own apartments and in the areas we work in. They must now be checked against the rent cap that applies to your flat (lesson 6).</p>
+::task Decide which guest you want to host (newcomers, students, professionals, nomads or people in transition)
+::done You know who rents mid-term in Barcelona and what they pay.
+::endlesson
+
+::lesson ch2 | 02 | The three ways to rent | Part 1 · Lesson 2 | The three ways to rent | (and the 32-day rule) | Tourist, seasonal or long-term?
+::part Tourist, seasonal or long-term?
+<p>In Barcelona, the same apartment can be rented in three legally different ways. <strong>The type of rental depends on how long the guest stays and why.</strong></p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th></th><th>Tourist</th><th>Seasonal (mid-term)</th><th>Long-term</th></tr></thead><tbody>
+<tr><th>Stay</th><td>31 nights or less</td><td>32 days or more, for a temporary need</td><td>Habitual home</td></tr>
+<tr><th>Licence</th><td>Tourist licence (HUT) required</td><td>No tourist licence</td><td>No tourist licence</td></tr>
+<tr><th>Typical guest</th><td>Tourists</td><td>Workers, students, newcomers, patients</td><td>Residents</td></tr>
+<tr><th>Rent cap</th><td>No</td><td>Yes, since 2026 (stressed areas)</td><td>Yes</td></tr>
+<tr><th>Key rules</th><td>Ends in Barcelona in Nov 2028</td><td>Justify the temporary reason; deposit at the official register</td><td>Minimum terms and tenant protections</td></tr>
+<tr><th>Our view</th><td>High income, high risk, ending</td><td><strong>The sweet spot</strong></td><td>Stable, lower income, less flexible</td></tr>
+</tbody></table></div>
+::part The 32-day rule
+<div class="flow"><div class="flow-step"><b>1–31 nights</b>Tourist stay. Needs a tourist licence (HUT).</div><div class="flow-step"><b>32+ days</b>Seasonal (temporada) rental. No tourist licence needed.</div></div>
+<p>The line between a tourist rental and a seasonal rental is the famous 32-day rule: stays of 31 nights or less are considered tourist stays in Barcelona and need a tourist licence. From 32 days, you are in the world of seasonal rentals.</p>
+<div class="gold"><span class="gold-k">Be careful</span><p><strong>The number of days alone is not enough.</strong> Since 2026, a seasonal rental must also have a real temporary reason, written in the contract and backed by documents. We explain exactly how in lesson 5.</p></div>
+::task Set a minimum stay of 32 nights as your non-negotiable rule
+::done You know the three ways to rent and why the 32-day rule matters.
+::endlesson
+
+::lesson ch3 | 03 | Tourist licences &amp; 2028 | Part 1 · Lesson 3 | Tourist licences (HUT) and the | 2028 deadline | Is buying a flat with a licence still worth it?
+::part What happens with tourist licences
+<p>A tourist licence in Barcelona is called <strong>HUT</strong> (habitatge d’ús turístic). Without one, you cannot legally rent a flat to tourists for 31 nights or less. Here is the situation:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>No new licences</h4><p>Barcelona stopped granting new tourist-flat licences years ago. The number is frozen at around 10,101.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Licences belong to the property</h4><p>The only way to get one is to buy an apartment that already has it. These flats sell at a premium, often quoted at €60,000–120,000 above similar flats.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>They end in November 2028</h4><p>In June 2024, Mayor Jaume Collboni announced that the city will not renew any of them, based on Catalan decree-law 3/2023, which lets municipalities in stressed areas limit or end tourist-flat permits.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>The courts backed it</h4><p>In March 2025, Spain’s Constitutional Court upheld the Catalan framework.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Fines are huge</h4><p>Fines for illegal tourist flats can reach <strong>€600,000.</strong></p></div>
+</div>
+::part Is a licence still worth it?
+<p>Short-term rentals are very profitable in Barcelona, that has not changed. But you would be paying a premium for a licence that, unless the rules change, has around two years left. <strong>Run the numbers as if the licence ends in 2028:</strong> how much extra profit will you make until then, and does it pay back the premium you pay today?</p>
+<div class="tool noshadow" data-calc="hut">
+<h5>Licence payback check</h5>
+<div class="fields">
+<div class="field"><label for="bcn_hut_premium">Licence premium you pay (€)</label><input id="bcn_hut_premium" data-field="bcn_hut_premium" inputmode="decimal" placeholder="e.g. 90000"><small>Price above a similar flat without a licence</small></div>
+<div class="field"><label for="bcn_hut_extra">Extra profit per year (€)</label><input id="bcn_hut_extra" data-field="bcn_hut_extra" inputmode="decimal" placeholder="e.g. 25000"><small>Tourist profit minus mid-term profit</small></div>
+<div class="field"><label for="bcn_hut_years">Years left on the licence</label><input id="bcn_hut_years" data-field="bcn_hut_years" inputmode="decimal" placeholder="2"><small>Until November 2028</small></div>
+</div>
+<div class="out"><div><small>Extra profit until 2028</small><b data-out="tot">—</b></div><div><small>Minus the premium</small><b data-out="gap">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+<div class="vk-tip"><b>Pro tip:</b> when you buy a flat with a HUT, check that the licence is valid, registered to that exact address and has no pending sanctions. And plan from day one what the apartment becomes after 2028.</div>
+::task If you are considering a licensed flat, run the payback check with real numbers
+::done You know what happens with tourist licences and how to judge a licensed flat.
+::endlesson
+
+::lesson ch4 | 04 | Choose your neighbourhood | Part 1 · Lesson 4 | Choose your | neighbourhood | Each area attracts a different guest.
+::part The tourist hotspots
+<p>Barcelona is a city of neighbourhoods, and each one attracts a different guest. These are the areas everyone knows. <strong>Demand is huge, but so is competition and pressure from the city.</strong></p>
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Ciutat Vella</div><h4>Gòtic, El Born, El Raval, Barceloneta</h4><p>The historic centre and the beach. Unbeatable location for tourists, but also where the city is most aggressive against tourist rentals. Old buildings, often without lifts, noise at night. For mid-term, El Born and Gòtic attract students and young professionals who want to live the city; Raval is cheaper and more mixed.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Eixample</div><h4>Dreta and Esquerra</h4><p>Wide streets, modernist buildings, big flats with high ceilings. Central, safe and well connected. A favourite for professionals, families and longer stays. <strong>Large apartments here work very well for room rentals.</strong></p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Gràcia</div><h4>A village inside the city</h4><p>Small squares, independent shops, a strong local identity. Very popular with students, creatives and international young professionals. Flats are smaller, demand is constant.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Sant Antoni &amp; Poble-sec</div><h4>Trendy and foodie</h4><p>Close to the centre and Montjuïc. Great for young professionals and digital nomads. Prices have risen fast in recent years.</p></div>
+</div>
+::part The quieter, less competitive areas
+<p>Outside the postcard areas you often find <strong>better prices, bigger flats, less competition and guests who stay longer.</strong></p>
+<div class="vk-grid3">
+<div class="vk-card"><h4>Poblenou</h4><p>The old industrial district turned tech hub (22@). Startups, offices, the beach and lofts. Perfect for professionals on assignment and remote workers.</p></div>
+<div class="vk-card"><h4>Sants</h4><p>Next to the main train station, very well connected, more local and affordable. Great value for students and newcomers.</p></div>
+<div class="vk-card"><h4>Les Corts</h4><p>Residential and calm, close to the university area of Diagonal and big business schools. Strong demand from students.</p></div>
+<div class="vk-card"><h4>Sarrià-Sant Gervasi</h4><p>Upmarket, green and family-oriented, with international schools. Ideal for entire apartments rented to families or executives.</p></div>
+<div class="vk-card"><h4>Horta, Sant Andreu, Clot</h4><p>And the Sagrada Família area: more local, more affordable, good metro links. Less competition and solid demand from students and workers.</p></div>
+<div class="vk-card"><h4>Nearby cities</h4><p>L’Hospitalet de Llobregat or Badalona: lower prices and quick metro access. Check their local rules.</p></div>
+</div>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Area</th><th>Best guest</th><th>Competition</th></tr></thead><tbody>
+<tr><th>Ciutat Vella</th><td>Students, young professionals</td><td>Very high</td></tr>
+<tr><th>Eixample</th><td>Professionals, families, rooms</td><td>High</td></tr>
+<tr><th>Gràcia / Sant Antoni</th><td>Students, creatives, nomads</td><td>High</td></tr>
+<tr><th>Poblenou</th><td>Tech workers, remote workers</td><td>Medium</td></tr>
+<tr><th>Sants / Les Corts</th><td>Students, newcomers</td><td>Medium</td></tr>
+<tr><th>Sarrià-Sant Gervasi</th><td>Families, executives</td><td>Medium-low</td></tr>
+<tr><th>Horta, Sant Andreu, Clot</th><td>Students, workers</td><td>Low</td></tr>
+</tbody></table></div>
+::part Bonus: neighbourhood scorecard
+<p>Score each area you are considering from 1 to 5. <strong>The best area is not the most famous one, it is the one with the highest total for your guest.</strong></p>
+%%SCORECARD%%
+::edit bcn-areas | AI prompt to compare neighbourhoods
+I want to rent rooms in Barcelona to [students / young professionals / remote workers] for stays of 1 to 6 months. Compare [Area 1], [Area 2] and [Area 3] on distance to [university / offices], metro, safety, flat sizes and demand for furnished rooms. Use a table and cite sources.
+::end
+::task Shortlist two or three neighbourhoods for your guest
+::task Score them with the neighbourhood scorecard
+::done You have a shortlist of neighbourhoods that fit your guest.
+::endlesson
+
+::group Part 2: The legal mid-term model
+::lesson ch5 | 05 | Seasonal rentals done right | Part 2 · Lesson 5 | Seasonal rentals | done right | Stays of 32 days or more, under the 2026 Catalan law.
+::part What the 2026 Catalan law requires
+<p>For years, seasonal rentals were the “free zone” of the Spanish rental market. That changed in Catalonia with <strong>Law 11/2025</strong> of 29 December on housing and urban planning, in force since the start of January 2026. Here is what it means for you:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>A real temporary reason</h4><p>A seasonal rental is one made for professional, work, study or medical reasons, for provisional situations (waiting for a new home, returning to your usual residence) or similar temporary housing needs.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Write it in the contract</h4><p>The contract must state the temporary reason and the tenant’s permanent address.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Keep the proof</h4><p>Documents that prove the reason (work contract, enrolment letter, medical appointment…) are deposited with the tenant’s deposit (fianza) at the official Catalan deposit register (INCASÒL). <strong>If no temporary use is recorded there, the law presumes the rental is a permanent home.</strong></p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Rent caps apply</h4><p>In stressed residential market areas, which today cover almost all of Catalonia, seasonal rentals are subject to the same rent limits as permanent housing.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Extensions are possible</h4><p>As long as the temporary reason continues and is documented in writing. A new contract with the same tenant for the same flat is treated as a permanent rental unless you can prove the temporary need still exists.</p></div>
+</div>
+<p class="warn">Holiday or leisure rentals are outside this law, but they must state it in the contract, and in Barcelona short stays for leisure need a tourist licence. <strong>Do not try to disguise a tourist stay as a seasonal one.</strong> It is exactly what inspectors look for.</p>
+::part Your guests and their documents
+<p>The good news: the typical mid-term guest in Barcelona already has a valid temporary reason. <strong>You just need to ask for it and keep it organised.</strong></p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Guest</th><th>Temporary reason</th><th>Document to keep</th></tr></thead><tbody>
+<tr><th>Student / Erasmus</th><td>Study</td><td>Enrolment or acceptance letter with dates</td></tr>
+<tr><th>Intern</th><td>Professional training</td><td>Internship agreement</td></tr>
+<tr><th>Worker on assignment</th><td>Work</td><td>Work contract, letter from employer or assignment letter</td></tr>
+<tr><th>Newcomer</th><td>Temporary need while finding a permanent home</td><td>New job contract in Barcelona and proof of home search, or similar</td></tr>
+<tr><th>Patient / companion</th><td>Medical treatment</td><td>Appointment or treatment letter</td></tr>
+<tr><th>Renovating their home</th><td>Provisional situation</td><td>Renovation permit or works contract</td></tr>
+</tbody></table></div>
+<div class="gold"><span class="gold-k">Our process</span><p>We ask for the document <strong>before confirming the booking</strong>, we write the reason and the guest’s permanent address in the contract, and we deposit both with the fianza. <strong>It takes ten minutes per guest, and it is what keeps the whole business legal.</strong></p></div>
+<div class="vk-tip"><b>Pro tip:</b> when you rent through Airbnb for 32+ nights, still sign your own seasonal contract with the guest. The platform booking alone does not include the clauses and documents the law asks for.</div>
+::part Bonus: seasonal contract essentials
+<p>Review these points with your lawyer. Every seasonal contract we sign includes them. Tick them off as you build your template.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-1"><span>Full identity of landlord and tenant</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-2"><span>Tenant’s permanent address</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-3"><span>The temporary reason, clearly described</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-4"><span>Start and end date (32+ days)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-5"><span>Rent within the applicable cap</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-6"><span>What the rent includes (utilities, internet)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-7"><span>Separate services, with their price</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-8"><span>Deposit (fianza) amount</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-9"><span>Deposit filed at INCASÒL with supporting documents</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-10"><span>Inventory of furniture and condition</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-11"><span>House rules for shared areas</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-12"><span>Rules for guests and visitors</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-13"><span>Check-out and cleaning conditions</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-14"><span>Extension conditions and documents</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-15"><span>Energy certificate reference</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-ce-16"><span>Signed copy for both parties</span></label>
+</div>
+::edit bcn-lawyer | AI prompt to prepare your lawyer meeting
+I rent furnished rooms in Barcelona for 1 to 6 months to students and professionals. Under Catalan Law 11/2025 and the LAU, list every question I should ask my lawyer about seasonal contracts, documentation of the temporary reason, the deposit register, rent caps in stressed areas and what services I can charge separately.
+::end
+::task Create a template contract and a document checklist with your lawyer before your first guest
+::done You know what the 2026 law requires and how to document every guest.
+::endlesson
+
+::lesson ch6 | 06 | Renting by rooms &amp; the cap | Part 2 · Lesson 6 | Renting by rooms and the new | rent cap | The sum-of-rooms rule, and adding real services the right way.
+::part The sum-of-rooms rule
+<p>Renting by rooms is one of the most profitable ways to use a large apartment in Barcelona. A four-bedroom flat rented room by room has usually earned much more than the same flat rented as a whole. <strong>The regulators noticed.</strong></p>
+<p>The same Law 11/2025 added a specific rule for room rentals (article 66 ter of the Catalan Housing Law). In a stressed residential area, when a dwelling is rented by rooms for housing purposes, <strong>the sum of all the room rents cannot exceed the maximum rent that would apply to the whole dwelling.</strong></p>
+<div class="gold"><span class="gold-k">An example</span><p>Imagine the maximum legal rent for your whole flat is <strong>€1,800 per month.</strong> You have four rooms. Under the new rule, the four room rents together cannot go above €1,800, so an average of €450 per room. If you charged €900 per room (€3,600), you would be €1,800 over the cap.</p></div>
+<p>Charging above the cap is a <strong>serious infringement</strong> when the excess is up to 30%, and a <strong>very serious infringement</strong> when it is more than 30%, under Catalan decree-law 1/2025.</p>
+<div class="tool noshadow" data-calc="cap">
+<h5>Rent cap checker</h5>
+<div class="fields">
+<div class="field"><label for="bcn_cap">Legal rent cap for the whole flat (€/month)</label><input id="bcn_cap" data-field="bcn_cap" inputmode="decimal" placeholder="e.g. 1800"></div>
+<div class="field"><label for="bcn_rooms">Number of rooms</label><input id="bcn_rooms" data-field="bcn_rooms" inputmode="numeric" placeholder="e.g. 4"></div>
+<div class="field"><label for="bcn_room_rent">Planned rent per room (€/month)</label><input id="bcn_room_rent" data-field="bcn_room_rent" inputmode="decimal" placeholder="e.g. 450"></div>
+</div>
+<div class="out"><div><small>Max average per room</small><b data-out="avg">—</b></div><div><small>Your total room rent</small><b data-out="sum">—</b></div><div><small>Over the cap</small><b data-out="over">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+::part What this means in practice
+<div class="vk-grid3">
+<div class="vk-card"><span class="vk-n">1</span><h4>Know your cap first</h4><p>Before you buy or rent a flat. It depends on the official reference index for that flat (size, location, features). Your lawyer or the Catalan rent index tool can calculate it.</p></div>
+<div class="vk-card"><span class="vk-n">2</span><h4>Capped, not banned</h4><p>Room rentals still work. <strong>The margins come from services, efficiency and the right flat,</strong> not from inflating rent.</p></div>
+<div class="vk-card"><span class="vk-n">3</span><h4>Follow the news</h4><p>Some measures are being challenged in court and the details may change. Follow the news and your lawyer’s advice.</p></div>
+</div>
+::part Adding real services the right way
+<p>Here is how we think about it. A mid-term room in our apartments is not just four walls. Our guests get a furnished room, internet, utilities, weekly cleaning of the shared areas, maintenance, a responsive manager and help settling into the city. <strong>Those are real services with real costs.</strong></p>
+<p>Under the new rules, the rent is capped. Services that are genuinely provided, clearly described and priced transparently can be invoiced separately, for example:</p>
+<div class="tiles">
+<div><b>[[ic:broom]]Cleaning fee</b>Weekly cleaning of common areas, deep clean at check-out.</div>
+<div><b>[[ic:phone]]Management fee</b>Guest support, coordination, maintenance requests, administration.</div>
+<div class="vk-wide"><b>[[ic:sparkle]]Optional extras</b>Linen and towel service, extra room cleaning, airport pick-up.</div>
+</div>
+<div class="vk-two">
+<div class="vk-card vk-no"><div class="vk-tag">The fine print (read this twice)</div><ul>
+<li>The services must be real and actually delivered. A “fee” with nothing behind it is just disguised rent.</li>
+<li>Catalan law warns that mandatory add-ons that, in practice, push the price above the cap can be treated as a breach. In stressed areas, the LAU also limits passing new expenses to the tenant that were not in the previous contract.</li>
+<li>Services can have VAT consequences (lesson 8).</li></ul></div>
+<div class="vk-card vk-yes"><div class="vk-tag">Our approach</div><ul>
+<li>We keep the rent within the cap.</li>
+<li>We price services at what they really cost us plus a fair margin.</li>
+<li>Each service and its price is written in the contract, separate from the rent. Where possible, extras are optional.</li>
+<li>Have your lawyer review your services menu before you use it.</li></ul></div>
+</div>
+<blockquote class="pullquote">“Charge for value you deliver, never for a loophole.”</blockquote>
+<p>Before you sign a flat, run its full monthly numbers in <a href="#ch10">lesson 10</a>. If the numbers only work above the cap, it is not a deal.</p>
+::task Ask your lawyer to calculate the legal rent cap of each flat on your shortlist
+::task Write your services menu with real costs, and have your lawyer review it
+::done You know the sum-of-rooms rule and how to price services legally.
+::endlesson
+
+::lesson ch7 | 07 | Platforms &amp; enforcement | Part 2 · Lesson 7 | Platforms, registration and | enforcement | What changed in 2025 and 2026.
+::part Platforms and registration in 2026
+<p>Most of our mid-term guests find us on platforms: Airbnb (with monthly stays), and specialist sites for mid-term rentals and students. Here is what changed recently:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>The national registry was annulled</h4><p>From July 2025, Spain required a single registration number (NRUA) for tourist and seasonal listings. In May 2026, the Supreme Court annulled it, ruling that the State overstepped regional powers. The digital data-sharing system for platforms remains.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Regional rules still apply</h4><p>In Catalonia, tourist flats need their HUT registration, and seasonal rentals must follow Law 11/2025 (contract, documents, deposit).</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>EU rules arrived</h4><p>The EU Short-Term Rental Regulation (2024/1028) applies from 20 May 2026. Platforms must share activity data with authorities, display registration numbers where required, and remove listings when authorities order it.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Enforcement is real</h4><p>Spanish authorities fined Airbnb €64 million and Barcelona has a long record of closing illegal flats.</p></div>
+</div>
+<div class="gold"><span class="gold-k">What this means for you</span><p><strong>Your listings and your contracts must tell the same story.</strong> If your listing says “monthly stays for professionals and students”, your contracts, documents and deposits must prove it.</p></div>
+<div class="vk-tip"><b>Pro tip:</b> set your minimum stay on every platform to 32 nights. One accidental 10-night booking is enough to turn a legal seasonal rental into an illegal tourist one.</div>
+::task Set the minimum stay to 32 nights on every platform you use
+::task Check that your listing text matches your contracts and target guests
+::done Your listings, contracts and documents tell the same story.
+::endlesson
+
+::lesson ch8 | 08 | Individual or company? | Part 2 · Lesson 8 | Individual or company? | (taxes explained) | IRPF, corporate tax, VAT and dividends.
+::part Starting as an individual
+<p>If you start with one apartment or a few rooms, renting as an individual (persona física) is usually simplest. You declare the income in your annual personal income tax return (IRPF).</p>
+<div class="vk-grid3">
+<div class="vk-card"><h4>Progressive tax</h4><p>Net rental income (rent minus deductible costs) is added to your other income. For 2026, the state brackets go from 9.5% to 24.5%, plus the regional part. <strong>In Catalonia the top combined marginal rate reaches 50%.</strong></p></div>
+<div class="vk-card"><h4>Deductible costs</h4><p>Mortgage interest, community fees, IBI (property tax), insurance, repairs, utilities you pay, management and cleaning services, and depreciation of the building and furniture.</p></div>
+<div class="vk-card"><h4>No rental reduction</h4><p>The 50% reduction is for renting a habitual home. <strong>Seasonal rentals do not qualify.</strong> Rooms rented as the tenant’s habitual residence can qualify, which is a different model.</p></div>
+</div>
+<p class="warn">If you are not a Spanish tax resident, different rules (non-resident income tax) apply. Talk to an advisor.</p>
+<p>This works well while the numbers are small. But because IRPF is progressive, <strong>every extra apartment you add is taxed at a higher marginal rate.</strong> With two or three properties, the tax bill can grow faster than the business.</p>
+::part When a company makes sense
+<p>Once you have two or three properties, or you plan to keep growing, it often makes sense to operate through a limited company (Sociedad Limitada, SL). <strong>That is what we recommend to anyone who wants to build this as a real business,</strong> fully legal and organised.</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Company type</th><th>Corporate tax rate 2026</th></tr></thead><tbody>
+<tr><th>General rate</th><td>25%</td></tr>
+<tr><th>Micro-companies</th><td>19% on the first €50,000 of profit, 21% on the rest (turnover under €1M)</td></tr>
+<tr><th>Newly created</th><td>15% (first years with profit)</td></tr>
+<tr><th>Asset-holding (patrimonial)</th><td>25%, reduced rates do not apply</td></tr>
+</tbody></table></div>
+<p class="warn"><strong>Important:</strong> a company that only owns and rents property, without a real economic activity, can be considered an asset-holding company and lose the reduced rates. For rental activity, tax rules generally look for at least one employee working full time in the business. Ask your advisor how to structure it.</p>
+<div class="chips"><span>✓ Flat corporate rate instead of up to 50%</span><span>✓ Reinvested profit stays in the company</span><span>✓ Professional structure: contracts, insurance, financing, partners</span><span>✓ Personal tax only when you take money out</span></div>
+::part VAT: when it applies
+<p>VAT (IVA) is the part most hosts get wrong, so let’s make it simple.</p>
+<div class="vk-grid3">
+<div class="vk-card"><span class="vk-n">1</span><h4>Plain rental is exempt</h4><p>If you only rent the space (even furnished, with cleaning at check-in and check-out), you do not charge VAT. The downside: you also cannot recover the VAT you pay on furniture, renovations or services.</p></div>
+<div class="vk-card"><span class="vk-n">2</span><h4>Hotel-type services add VAT</h4><p>Services typical of the hotel industry during the stay, such as periodic cleaning of the guest’s space or regular changes of bedding and towels, make it accommodation subject to VAT (reduced 10% rate). Optional extras sold separately are taxed as independent services.</p></div>
+<div class="vk-card"><span class="vk-n">3</span><h4>Charge VAT, deduct VAT</h4><p>A company that charges VAT on its services can deduct the VAT it pays on furniture, renovations, cleaning, supplies and professional fees, and in some cases get it refunded. <strong>On a full renovation and furnishing, that can be thousands of euros.</strong></p></div>
+</div>
+<div class="gold"><span class="gold-k">Decide before you renovate</span><p>Which option is better depends on your guests (individuals cannot deduct VAT, companies can), your investment plan and your service model. <strong>The VAT you can recover depends on how you set up the activity from the start.</strong> VAT is declared quarterly (form 303) and annually (form 390). Keep every invoice in the company’s name.</p></div>
+::part Dividends and a worked example
+<p>When you take profits out of your company as dividends, they are taxed in your personal savings income. In 2026 the rates are 19% up to €6,000, 21% up to €50,000, 23% up to €200,000, 27% up to €300,000 and 30% above. The company withholds 19% when it pays the dividend.</p>
+<div class="tool noshadow" data-calc="sl">
+<h5>Micro-company tax estimate</h5>
+<div class="fields"><div class="field"><label for="bcn_sl_profit">Net rental profit for the year (€)</label><input id="bcn_sl_profit" data-field="bcn_sl_profit" inputmode="decimal" placeholder="e.g. 100000"><small>Assumes micro-company rates (not asset-holding)</small></div></div>
+<div class="out"><div><small>Corporate tax</small><b data-out="ct">—</b></div><div><small>Profit left in company</small><b data-out="keep">—</b></div><div><small>Tax if all paid as dividends</small><b data-out="div">—</b></div><div><small>Total if all paid out</small><b data-out="tot">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+<p>With €100,000 of profit, the company pays €20,000 in corporate tax and keeps €80,000. If you take it all as dividends, that adds €17,280, a total of €37,280. As an individual, the same profit would be taxed at up to 50% marginal in IRPF, well over €35,000 depending on your other income.</p>
+<p class="legal-note">This is a simplified example to understand the logic. It ignores salaries, social security, regional details and deductions. Your advisor will run the real numbers.</p>
+<blockquote class="pullquote">“A company is most powerful when you reinvest. Every euro the apartments made went into the next one.”</blockquote>
+::part Bonus: legal and tax checklist
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-1"><span>Flat is in a stressed area? Rent cap calculated</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-2"><span>Community statutes allow rentals by room</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-3"><span>Seasonal contract template reviewed by lawyer</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-4"><span>Document checklist per guest type</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-5"><span>Deposits filed at INCASÒL with documents</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-6"><span>Minimum stay set to 32 nights on platforms</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-7"><span>Services menu reviewed by lawyer</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-8"><span>Home and liability insurance for rentals</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-9"><span>Individual or company decision made with advisor</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-10"><span>Company not treated as asset-holding (if relevant)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-11"><span>VAT model decided before renovating</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-12"><span>All invoices in the right name</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-13"><span>Quarterly VAT and tax filings scheduled</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-14"><span>Dividend and salary plan defined</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-15"><span>Bookkeeping per property</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-lt-16"><span>Annual review of new rules</span></label>
+</div>
+::task Book a meeting with a gestor or tax advisor before you buy or sign your next flat
+::done You know when to rent as an individual, when to use a company, and how VAT works.
+::endlesson
+
+::group Part 3: Running &amp; scaling
+::lesson ch9 | 09 | Run it day to day | Part 3 · Lesson 9 | How we run a mid-term apartment | day to day | Rooms, contracts, cleaning and house rules.
+::part Setting up a mid-term apartment
+<p>A mid-term guest is not a tourist. They will work, study, cook, receive packages and live their life in your apartment for weeks or months. <strong>Design for living, not for a weekend.</strong></p>
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">In every room</div><ul>
+<li>A lock on every bedroom door</li>
+<li>A real desk and chair</li>
+<li>A double bed with a quality mattress and blackout curtains</li>
+<li>Storage: wardrobe, drawers, and a labelled shelf in the kitchen and fridge for each guest</li>
+<li>Fast Wi-Fi that reaches every room</li></ul></div>
+<div class="vk-card"><div class="vk-tag tag-t">In the flat</div><ul>
+<li>A fully equipped kitchen: guests cook every day</li>
+<li>Washing machine and drying rack</li>
+<li>Heating and air conditioning: Barcelona summers are hot, winters are damp</li>
+<li>Water filter in the kitchen and shower</li>
+<li>Smart lock or key box for flexible arrivals</li></ul></div>
+</div>
+<div class="tl-slides" style="max-width:none;margin:18px 0"><figure class="tl-slide"><img src="img/room.webp" width="736" height="736" alt="A light bedroom with a double bed" loading="lazy"></figure><figure class="tl-slide"><img src="img/kitchen.webp" width="736" height="1104" alt="A fully equipped kitchen" loading="lazy"></figure><figure class="tl-slide"><img src="img/bed2.webp" width="800" height="1200" alt="A bedroom with a bench and a mirror" loading="lazy"></figure></div>
+<p>The course has the full furnishing list, the label system and the decluttering process for shared spaces. Use them here: <strong>shared apartments live or die by how clear and organised the common areas are.</strong></p>
+<div class="vk-tip"><b>Think “home for a few months”, not “hotel for a few nights”.</b> That is what gets you long stays and great reviews.</div>
+::part Contracts, cleaning and house rules
+<p>This is the routine that keeps our apartments full, legal and calm:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Screen before you confirm</h4><p>We ask why they are coming, for how long, and for the document that proves it. If it does not fit a seasonal reason, we do not accept the booking.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Sign the seasonal contract</h4><p>With the reason, dates, the guest’s permanent address, rent within the cap and the services listed separately.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>File the deposit</h4><p>Collect and file the deposit at the official register with the documents.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Clean the shared areas weekly</h4><p>Kitchen, bathrooms, living room, hallway. It is the service our guests value most, and it keeps the flat in perfect condition for the next guest.</p></div>
+<div class="vk-step"><span class="vk-n">5</span><h4>Clear house rules</h4><p>Quiet hours, guests and visitors, cleaning duties, shared fridge, recycling. Printed in the flat and attached to the contract.</p></div>
+<div class="vk-step"><span class="vk-n">6</span><h4>One contact person</h4><p>Who answers fast and handles maintenance.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">7</span><h4>Check-out inspection</h4><p>With photos, a deep clean and a room reset within 24 hours.</p></div>
+</div>
+<div class="vk-tip"><b>Pro tip:</b> the best marketing for mid-term rentals is your current guests. Students and interns recommend you to their classmates and colleagues. Offer a small referral thank-you.</div>
+<p class="warn">Mid-term guests often need to register at the town hall (empadronamiento) for paperwork. Decide your policy with your lawyer and explain it before they book.</p>
+::part Bonus: guest documents checklist
+<p>For every guest, before they move in. Keep everything in one folder per guest (Notion or Google Drive): if an inspector or tax office ever asks, you can show the full file in minutes.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-1"><span>Passport or ID</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-2"><span>Document proving the temporary reason (study, work, internship, medical, relocation)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-3"><span>Permanent home address</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-4"><span>Signed seasonal contract with dates and reason</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-5"><span>Signed house rules</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-6"><span>Services accepted (and price)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-7"><span>Deposit paid and filed at the official register</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-8"><span>Inventory and condition photos signed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-9"><span>Emergency contact</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-gd-10"><span>Platform booking reference (if booked online)</span></label>
+</div>
+<button type="button" class="btn-s ghost" data-reset="bcn-gd-">Clear for the next guest</button>
+::task Write your house rules and print them for the flat
+::task Create one folder per guest for their documents
+::done Your apartment is set up for living, and every guest has a complete file.
+::endlesson
+
+::lesson ch10 | 10 | The numbers of a flat | Part 3 · Lesson 10 | The numbers of a Barcelona | apartment | How we evaluate a flat before we sign.
+::part How to read the numbers
+<p>Every apartment is different, so we will not promise you a number. Instead, here is how we evaluate a flat, with an <strong>illustrative example</strong> of a four-bedroom apartment rented by rooms.</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Monthly (example)</th><th>Amount</th></tr></thead><tbody>
+<tr><th>Legal rent cap</th><td>€2,600 for the whole flat</td></tr>
+<tr><th>Rent from 4 rooms</th><td>€2,600 (sum within the cap)</td></tr>
+<tr><th>Cleaning service</th><td>€320 (weekly shared areas + check-out)</td></tr>
+<tr><th>Management service</th><td>€240</td></tr>
+<tr><th>Total income</th><td><strong>€3,160</strong></td></tr>
+<tr><th>Mortgage or rent</th><td>−€1,500</td></tr>
+<tr><th>Utilities &amp; internet</th><td>−€280</td></tr>
+<tr><th>Cleaning staff &amp; supplies</th><td>−€240</td></tr>
+<tr><th>Fees, IBI, insurance, maintenance</th><td>−€200</td></tr>
+<tr><th>Vacancy reserve (7%)</th><td>−€220</td></tr>
+<tr><th>Profit before tax</th><td><strong>€720 per month</strong></td></tr>
+</tbody></table></div>
+<p>Now compare it with an entire apartment rented to a family or executive from €3,000 per month (within its own cap), with lower operating costs. <strong>In some flats, the entire-apartment model now wins.</strong></p>
+::part Run your own numbers
+<p>Fill this in for every flat before you sign. Replace every figure with your own. <strong>If the numbers only work above the cap, it is not a deal.</strong></p>
+<div class="tool noshadow" data-calc="flat">
+<h5>Your flat, per month</h5>
+<div class="fields">
+<div class="field"><label for="bcn_n_rent">Rent from rooms, within the cap (€)</label><input id="bcn_n_rent" data-field="bcn_n_rent" inputmode="decimal" placeholder="e.g. 2600"></div>
+<div class="field"><label for="bcn_n_clean">Cleaning service (€)</label><input id="bcn_n_clean" data-field="bcn_n_clean" inputmode="decimal" placeholder="e.g. 320"></div>
+<div class="field"><label for="bcn_n_mgmt">Management service (€)</label><input id="bcn_n_mgmt" data-field="bcn_n_mgmt" inputmode="decimal" placeholder="e.g. 240"></div>
+<div class="field"><label for="bcn_n_extra">Optional extras (€)</label><input id="bcn_n_extra" data-field="bcn_n_extra" inputmode="decimal" placeholder="e.g. 0"></div>
+<div class="field"><label for="bcn_n_mort">Mortgage or rent you pay (€)</label><input id="bcn_n_mort" data-field="bcn_n_mort" inputmode="decimal" placeholder="e.g. 1500"></div>
+<div class="field"><label for="bcn_n_util">Utilities and internet (€)</label><input id="bcn_n_util" data-field="bcn_n_util" inputmode="decimal" placeholder="e.g. 280"></div>
+<div class="field"><label for="bcn_n_staff">Cleaning staff and supplies (€)</label><input id="bcn_n_staff" data-field="bcn_n_staff" inputmode="decimal" placeholder="e.g. 240"></div>
+<div class="field"><label for="bcn_n_fees">Community fees, IBI, insurance, maintenance (€)</label><input id="bcn_n_fees" data-field="bcn_n_fees" inputmode="decimal" placeholder="e.g. 200"></div>
+<div class="field"><label for="bcn_n_vac">Vacancy reserve (%)</label><input id="bcn_n_vac" data-field="bcn_n_vac" inputmode="decimal" placeholder="7"><small>We use 5–10%</small></div>
+</div>
+<div class="out"><div><small>Total income</small><b data-out="inc">—</b></div><div><small>Vacancy reserve</small><b data-out="vac">—</b></div><div><small>Profit per month</small><b data-out="profit">—</b></div><div><small>Profit per year</small><b data-out="year">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+<div class="gold"><span class="gold-k">Questions we always ask</span><p>What is the legal cap? Would the numbers work even with 10% vacancy? What is the profit per hour of management? What happens if the rules tighten again?</p></div>
+<div class="vk-tip"><b>Pro tip:</b> with the sum-of-rooms rule, the flats that work best are those with a high cap relative to their price: well located, good size, good condition and good energy rating.</div>
+::task Run the numbers for every flat on your shortlist
+::done You can judge any Barcelona flat on its real numbers.
+::endlesson
+
+::lesson ch11 | 11 | Take it to other cities | Part 3 · Lesson 11 | Take the model to other | European cities | Barcelona is your training ground.
+::part Barcelona is your training ground
+<p>Here is the best part: <strong>once you understand this model in Barcelona, you understand it in most of Europe.</strong> Big European cities are all fighting the same battle: housing shortages, overtourism and pressure from residents. The tools change name, but they look very similar:</p>
+<div class="vk-two">
+<div class="vk-card"><h4>[[ic:calendar]]Night caps</h4><p>Amsterdam, for example, allows only 30 nights per year for primary residences.</p></div>
+<div class="vk-card"><h4>[[ic:key]]Licences and registration</h4><p>And principal-residence rules in cities like Paris, Berlin and Lisbon.</p></div>
+<div class="vk-card"><h4>[[ic:refresh]]Platform data sharing</h4><p>Since 20 May 2026, the EU Short-Term Rental Regulation makes platforms share data with authorities and remove listings when ordered.</p></div>
+<div class="vk-card"><h4>[[ic:alert]]Rent controls</h4><p>Spreading from long-term to seasonal rentals, as in Catalonia.</p></div>
+</div>
+<p>And almost everywhere, the same opportunity: <strong>people who move to a city for work, study or a new life need a furnished place for a few months.</strong> That demand does not depend on tourism, and in most countries these rentals are treated as housing, not as tourist accommodation.</p>
+<p>Rules are generally softer in smaller cities and regions with lower population pressure. Coastal towns, university cities and secondary cities often have fewer restrictions, lower purchase prices and less competition, while still having universities, hospitals and companies that bring mid-term guests.</p>
+<blockquote class="pullquote">“Learn the model in the hardest city. Then take it wherever the rules are kinder.”</blockquote>
+::part Bonus: new city checklist
+<p>Before you invest in a new European city, answer these questions:</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-1"><span>What counts as a tourist stay (nights)?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-2"><span>Licence or registration needed?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-3"><span>Night caps or principal-residence rules?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-4"><span>Rules for seasonal / mid-term rentals?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-5"><span>Rent caps or stressed zones?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-6"><span>Rules for renting by rooms?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-7"><span>Building or community restrictions?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-8"><span>Local tourist tax?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-9"><span>Universities and student numbers</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-10"><span>Big employers, hospitals, tech hubs</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-11"><span>Average furnished room and flat prices</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-12"><span>Competition on mid-term platforms</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-13"><span>Purchase and renovation costs</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-14"><span>Taxes for individuals and companies</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-15"><span>Can you manage it remotely?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-nc-16"><span>Trusted local lawyer and accountant found?</span></label>
+</div>
+<button type="button" class="btn-s ghost" data-reset="bcn-nc-">Clear for a new city</button>
+::edit bcn-city | AI prompt to analyse a new city
+I run furnished mid-term rentals (1 to 6 months) for students and professionals. Analyse [city, country] for this model: current short-term and seasonal rental rules, rent controls, rules for renting by rooms, main sources of mid-term demand, typical furnished room prices and competition. Cite official sources and flag anything that changed in the last 12 months.
+::end
+::task Pick one other city you would consider and run the new city checklist
+::done You know how to take the mid-term model to other European cities.
+::endlesson
+
+::lesson ch12 | 12 | Mistakes to avoid | Part 3 · Lesson 12 | Mistakes to avoid in | Barcelona | We learned some of these the hard way. Learn them the easy way.
+::part The rules
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:calendar]]Stays under 32 nights</h4><p>Accepting them without a tourist licence. Set your minimum stay everywhere.</p><a href="#ch7">Platforms, Lesson 7 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:alert]]“Seasonal” as a label only</h4><p>Without a real reason and documents, the law now presumes it is a permanent home.</p><a href="#ch5">Seasonal rentals, Lesson 5 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:key]]Ignoring the rent cap on rooms</h4><p>Calculate the cap of the whole flat first.</p><a href="#ch6">Rent cap, Lesson 6 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:sparkle]]Inventing fees</h4><p>To get around the cap. Only charge for real services, transparently.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:box]]Paying for a licence with no plan</h4><p>A big premium for a tourist licence without a plan for after November 2028.</p><a href="#ch3">Licences, Lesson 3 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:refresh]]Not filing the deposit</h4><p>At the official register, with the documents.</p></div>
+</div>
+::part Money and operations
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:bulb]]Growing as an individual for too long</h4><p>Above two or three properties, review the company option.</p><a href="#ch8">Taxes, Lesson 8 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:wrench]]Deciding VAT after renovating</h4><p>You may lose VAT you could have recovered.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:alert]]Forgetting the community rules</h4><p>Some buildings restrict rentals; check the statutes.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:broom]]Shared areas without rules or cleaning</h4><p>They are the first thing guests review.</p><a href="#ch9">Day to day, Lesson 9 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:phone]]Not following the news</h4><p>Catalan rules are changing fast and some are in court.</p></div>
+</div>
+<p>Avoiding these mistakes will protect your income, your reputation and your peace of mind.</p>
+::part Bonus: your Barcelona roadmap
+<p>From idea to your first mid-term guest. Tick each step before moving to the next.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-1"><span><b>1.</b> Define your guest: students, professionals, newcomers, families</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-2"><span><b>2.</b> Choose two or three neighbourhoods with the scorecard</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-3"><span><b>3.</b> Meet a lawyer and a tax advisor: rent cap, contracts, individual or company, VAT</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-4"><span><b>4.</b> Shortlist flats and calculate the legal cap and the numbers for each</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-5"><span><b>5.</b> Check the building: community statutes, condition, energy rating</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-6"><span><b>6.</b> Buy or lease the flat (with the owner’s written permission to sublet, if you lease)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-7"><span><b>7.</b> Set up the structure: individual or SL, bank account, bookkeeping</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-8"><span><b>8.</b> Renovate and furnish for mid-term living</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-9"><span><b>9.</b> Prepare contracts, house rules, services menu and document checklists</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-10"><span><b>10.</b> List on platforms with a 32-night minimum and clear target guests</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-11"><span><b>11.</b> Welcome your first guest, file the deposit and documents, start weekly cleaning</span></label>
+<label class="task soft"><input type="checkbox" data-check="bcn-rm-12"><span><b>12.</b> Review every quarter: numbers, taxes and new rules. Then repeat.</span></label>
+</div>
+::task Copy this roadmap into your project HQ from the course and add dates
+::done You know the mistakes to avoid and have your roadmap to your first guest.
+::endlesson
+
+::group Closing
+::lesson finish | ★ | Congrats &amp; next steps | Closing | Build a life you don’t need a | vacation from |
+<div class="finale">
+<div class="fin-stars" aria-hidden="true">★★★★★</div>
+<span class="gold-k">You made it to the end</span>
+<h3>You now understand one of the most complex rental markets in Europe, and a model that works in almost any city.</h3>
+<p><strong>Start with one flat, do it properly, document everything and reinvest.</strong> That is exactly how we built ours.</p>
+<p class="fin-sign">Farah &amp; Daniel</p>
+</div>
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Want help with your Barcelona project?</div><h4>Book a 1-on-1 strategy call</h4><p>If you want a second opinion on a flat, help with your numbers or our contacts in Barcelona, you can book a call with one of us.</p><a class="btn" href="https://ig.me/m/6figurehost" target="_blank" rel="noopener" style="margin-top:6px">Ask us about a call</a></div>
+<div class="vk-card"><div class="vk-tag tag-t">Stay connected</div><h4>Share your journey with us</h4><p>We’d love to follow your journey and cheer you on. Send us your first guest, your wins and your questions.</p><a class="btn" href="https://ig.me/m/6figurehost" target="_blank" rel="noopener" style="margin-top:6px">Message us on Instagram</a></div>
+</div>
+::part Sources
+<p>Facts and figures in this guide come from the following public sources, checked in October 2026. Rules in Spain and Catalonia change often: always confirm with a licensed professional.</p>
+<ol class="srcs">
+<li>INE via Ara, record of 20 million foreign tourists in Catalonia in 2025 (Feb 2026): es.ara.cat</li>
+<li>Catalan News, Barcelona tourist tax surcharge rising to €8 by 2029: catalannews.com</li>
+<li>Stamped Nomad, Barcelona tourist apartment phase-out by Nov 2028: stampednomad.com</li>
+<li>Hostaway, Airbnb rules in Barcelona (licences, premiums, fines): hostaway.com</li>
+<li>idealista, the new regulation of seasonal rentals in Catalonia after Law 11/2025 (Jan 2026): idealista.com</li>
+<li>AAGD Abogados, room rentals in Catalonia and the sum-of-rents limit: aagdabogados.com</li>
+<li>idealista, Supreme Court annuls the single short-term rental registry (May 2026): idealista.com</li>
+<li>Spanish Property Insight, short-term rental registry and digital single window: spanishpropertyinsight.com</li>
+<li>Minut, EU short-term rental regulation 2024/1028 and city rules: minut.com</li>
+<li>Agencia Tributaria, corporate tax rates 2025–2028: sede.agenciatributaria.gob.es</li>
+<li>Guía Fiscal, IRPF 2026 brackets and savings rates: guiafiscal.es</li>
+<li>Primera Lectura (DGT), IRPF reduction for room rentals and exclusion of seasonal rentals: primeralecturaediciones.com</li>
+<li>idealista, when tourist rental is VAT-exempt and when it is taxed (DGT V0385-26, Jul 2026): idealista.com</li>
+<li>Spotahome, VAT on seasonal rentals for landlords: spotahome.com</li>
+</ol>
+::done You finished the Barcelona Host Guide.
+::endlesson

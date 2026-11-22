@@ -1,0 +1,674 @@
+::group Intro
+::lesson start | 00 | Start here | Introduction | Start | here |
+<div class="hero">
+  <div class="tx">
+    <h1><span class="s">Bali</span>Host Guide</h1>
+    <span class="eyebrow">+ Bali investor toolkit</span>
+    <p>How to legally invest, build and run a profitable villa rental in Bali, <em>even as a foreigner.</em></p>
+    <p style="font-size:14px;opacity:.8">by Farah &amp; Daniel</p>
+  </div>
+  <img src="img/cover.webp" width="673" height="1200" alt="A modern villa with a pool deck at sunset">
+</div>
+<section class="part" style="border-top:0;margin-top:26px;padding-top:0">
+<h2>Welcome to Bali</h2>
+<p>Imagine waking up to the sound of the jungle, walking barefoot to your own pool and knowing that the villa around you pays for itself, and then some. Bali can give you that. <strong>But Bali also eats unprepared investors for breakfast.</strong></p>
+<p>This guide is the add-on to our 6-Figure Host Course. The course teaches you how to launch, run and scale a hosting business anywhere. This one goes deep on a single island: <strong>the rules, the land, the paperwork, the builders, the rain, the water and the trash.</strong> Everything we wish someone had told us before we signed our first lease in Bali.</p>
+</section>
+::part What you will learn
+<div class="pboxes">
+<div class="pbox"><p><strong class="blue">In Part 1, we help you understand the island:</strong> the numbers, the areas, how land ownership works for foreigners and why the colour of a piece of land changes everything.</p></div>
+<div class="pbox"><p><strong class="blue">In Part 2, we set you up legally:</strong> your PT PMA company, your investor visa and the licences you need to rent short-term without risking a closure notice.</p></div>
+<div class="pbox"><p><strong class="blue">In Part 3, we buy, build and run:</strong> how to spot a badly built villa, how to build one that lasts, the aesthetics Bali guests book, and the day-to-day reality nobody posts on Instagram.</p></div>
+</div>
+<blockquote class="pullquote">“In Bali, the right partner saves you more money than any negotiation.”</blockquote>
+::part The honest truth before you start
+<p>Bali is one of the most rewarding places in the world to run a holiday rental. It is also one of the easiest places to lose money if you treat it like a holiday. Here is what nobody tells you in the villa tours:</p>
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:key]]You cannot own land</h4><p>As a foreigner, you can lease it, use it, or hold it through a company, and each option has rules.</p></div>
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:alert]]The colour of the land matters most</h4><p>More than the view. Build on the wrong zone and your villa can be sealed, fined or, in the worst cases, demolished.</p></div>
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:wrench]]Many villas are built to be sold</h4><p>Not to last. Cheap materials and badly filled rice fields show up one or two rainy seasons later.</p></div>
+<div class="mk"><span class="mk-x">!</span><h4>[[ic:calendar]]Bali is getting stricter</h4><p>Unlicensed rentals are being delisted from booking platforms and foreigners working on the wrong visa are deported.</p></div>
+<div class="mk"><span class="mk-x">✓</span><h4>[[ic:sparkle]]The island runs on relationships</h4><p>Your banjar (village council), your staff and your neighbours matter as much as your paperwork.</p></div>
+</div>
+<p>Does that mean you should not invest? No. It means the bar is higher, and that is exactly your opportunity. <strong>When the rules get tighter, the hosts who did it right get less competition, better rankings and higher prices.</strong> Our goal with this guide is simple: help you be one of them.</p>
+<blockquote class="pullquote">“In Bali, the cheapest deal is usually the most expensive one.”</blockquote>
+::part How to use this guide
+<p>This guide is built to be read in order. First you understand the island, then you set up the legal structure, then you buy or build and run.</p>
+<div class="tiles">
+<div><b>[[ic:refresh]]Your tasks</b>Concrete actions at the end of every lesson. Tick them off and your progress bar moves.</div>
+<div><b>[[ic:sparkle]]AI prompts</b>Ready to edit and copy, to research your area, prepare questions and check documents faster.</div>
+<div><b>[[ic:box]]Checklists</b>Tick them here, or take them to viewings, notaries and meetings.</div>
+<div><b>[[ic:bulb]]Calculators</b>Compare leases per remaining year and check your revenue against the Bali average.</div>
+<div class="vk-wide"><b>[[ic:phone]]Our trusted partners</b>The people we recommend for company set-up, legal checks, building inspections and management.</div>
+</div>
+<div class="vk-tip"><b>Prices are shown in Indonesian rupiah (IDR).</b> As a rough guide, IDR 1 billion is around USD 60,000, but check the exchange rate on the day you transfer.</div>
+<p class="legal-note"><strong>A note on rules and numbers.</strong> Everything in this guide reflects what we know and what was public as of October 2026. Bali changes fast. This guide shares our experience and public information. It is not legal, tax or immigration advice: Indonesian rules change often and are applied differently by each regency, so always confirm your case with a licensed notary (PPAT), lawyer or consultant before you sign or pay anything.</p>
+<p class="added" style="margin-top:18px;max-width:none"><strong>Copyright notice.</strong> © <span class="yr">2026</span> Farah &amp; Daniel. All rights reserved. This guide and all accompanying materials are protected by copyright law. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the publisher, except for brief quotations in reviews. This content is intended for individual use only. Sharing, reselling, or reproducing this material for commercial purposes is strictly prohibited. For permissions or inquiries, contact: contact@6figurehost.com</p>
+::task Read the intro and the honest truth
+::done You know how Bali works and how to use this guide.
+::endlesson
+
+::lesson story | 00 | Our Bali story | Introduction · Farah &amp; Daniel | From a suitcase to | a villa in Bali | From five apartments in Barcelona to our dream villa in Bali, without owning a single square metre of land.
+<section class="part" style="border-top:0;margin-top:0;padding-top:0">
+<div class="tl">
+<div class="tl-item"><div class="tl-title"><b>01</b> Bali humbled us</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/us.webp" width="675" height="1200" alt="Farah and Daniel together" loading="lazy"></figure><figure class="tl-slide"><img src="img/canopy.webp" width="675" height="1200" alt="A bedroom with white curtains around the bed" loading="lazy"></figure></div><div class="tl-text"><p>If you took our course, you know how it started: a couch, a beach blanket hanging from the window and a lot of hustle in Barcelona. What you might not know is <strong>how hard Bali humbled us.</strong></p><p>We fell in love with the island like everyone does. The light, the rice fields, the slow mornings. And like everyone, we were tempted by the villas on Instagram “for sale” at prices that looked too good to be true. Some of them were.</p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>02</b> We walked away from more deals than we signed</div><div class="tl-body"><div class="tl-text"><p>We met sellers who could not explain the zoning, builders who promised a villa in four months, and “agents” who told us a nominee would make everything easy. <strong>That is the first lesson of Bali: the deals you do not do protect you as much as the ones you do.</strong></p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>03</b> When we finally did it, we did it properly</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/pool.webp" width="1200" height="675" alt="A private pool surrounded by tropical plants" loading="lazy"></figure><figure class="tl-slide"><img src="img/farah.webp" width="675" height="1200" alt="Farah on a terrace at night" loading="lazy"></figure></div><div class="tl-text"><p>A company, the right visa, a leasehold contract checked line by line, a structural check before signing and a local team we trust. <strong>Today our villa runs like the rest of our business: automated, legal and profitable.</strong></p><p>This guide is everything we learned on the ground. Not the brochure version. The version you get after rainy seasons, delayed permits, a few leaks and many, many coffees with notaries.</p><p class="tl-close"><strong>Will it be easy? No. Is it possible? 100%.</strong></p></div></div></div>
+</div>
+</section>
+::task Get inspired by our Bali story
+::done You know how we built our villa in Bali, and why we did it the legal way.
+::endlesson
+
+::group Part 1: Understanding the island
+::lesson ch1 | 01 | Bali by the numbers | Part 1 · Lesson 1 | Bali by the | numbers | And is it still worth it?
+::part The demand: tourists keep coming
+<p>Before you look at a single villa, look at the market. Numbers do not lie, and in Bali they tell a clear story: <strong>demand is still growing.</strong></p>
+<div class="vk-two">
+<div class="vk-stat"><b>6.95M</b><span>direct foreign tourist arrivals in Bali in 2025 (BPS Bali).</span></div>
+<div class="vk-stat"><b>+9.7%</b><span>growth in foreign arrivals vs 2024.</span></div>
+<div class="vk-stat"><b>23%</b><span>of foreign visitors came from Australia, the largest source market.</span></div>
+<div class="vk-stat"><b>IDR 150K</b><span>tourist levy per foreign visitor, in place since February 2024.</span></div>
+</div>
+<p>On top of foreign visitors, Bali receives millions of domestic Indonesian tourists every year, especially during Indonesian holidays.</p>
+<div class="vk-tip"><b>Demand is seasonal.</b> The busiest months are usually the European and Australian summer holidays (July and August) and Christmas to New Year. The rainy season, roughly November to March, is quieter outside the holidays, so your pricing strategy has to move with it.</div>
+::part The supply: how many places to stay?
+<p>Bali has close to 60,000 classified hotel rooms (Colliers, 2023), and that is before you count villas, guesthouses and homestays. AirROI tracked around 34,500 active Airbnb listings in Bali in the 12 months to September 2026. Here is what the average listing achieved:</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Metric (12 months to Sep 2026)</th><th>Bali average</th></tr></thead><tbody>
+<tr><th>Active listings</th><td>~34,500</td></tr>
+<tr><th>Occupancy</th><td>38%</td></tr>
+<tr><th>Average daily rate</th><td>~USD 165</td></tr>
+<tr><th>Revenue per listing</th><td>~USD 17,700 per year</td></tr>
+</tbody></table></div>
+<p><strong>Read that again: 38% occupancy on average.</strong> Bali is not an island where anything you list gets booked. There is a lot of supply, and a lot of it is average.</p>
+<p>The top areas tell a different story. Average revenue per listing in Seminyak was around <strong>USD 31,100</strong>, in Pecatu (Uluwatu) USD 28,800 and in Pererenan USD 24,300. South Kuta and North Kuta (which includes Canggu) led on occupancy at 44–45%.</p>
+<div class="tool noshadow" data-calc="rev">
+<h5>Will your villa beat the average?</h5>
+<div class="fields">
+<div class="field"><label for="bali_r_adr">Your nightly rate (USD)</label><input id="bali_r_adr" data-field="bali_r_adr" inputmode="decimal" placeholder="e.g. 220"></div>
+<div class="field"><label for="bali_r_occ">Expected occupancy (%)</label><input id="bali_r_occ" data-field="bali_r_occ" inputmode="decimal" placeholder="e.g. 55"></div>
+</div>
+<div class="out"><div><small>Revenue per year</small><b data-out="year">—</b></div><div><small>10% local tax</small><b data-out="tax">—</b></div><div><small>After the 10% tax</small><b data-out="net">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+::part Why the average is not your target
+<p>Averages include the dusty room with no photos, the villa with a broken pool pump and the listing that has not answered a message since 2023. <strong>You are not competing with the average. You are competing with the top 20%.</strong> In our experience, the villas that consistently outperform in Bali have five things in common:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>A clear location strategy</h4><p>They are where their guest wants to be: surfers near the breaks, couples near sunset spots, digital nomads near cafés and coworkings.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>A design with a point of view</h4><p>Guests scroll past hundreds of white villas. The ones that get booked have a recognisable look (lesson 10).</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Private outdoor space</h4><p>In Bali a private pool is almost the minimum for a villa. A garden, a sunset deck or a rice-field view is what makes it special.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Reliable basics</h4><p>Strong air conditioning, fast Wi-Fi with a backup, hot water, filtered water and no mosquitoes in the bedroom.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Legal and visible</h4><p>Licensed listings will be the only ones left on the major platforms as enforcement tightens. That alone will move rankings.</p></div>
+</div>
+<div class="gold"><span class="gold-k">So, is Bali still worth it?</span><p><strong>Yes. But only if you build something better than average.</strong></p></div>
+::task Write down your target guest (who, how long, budget) before you look at any property
+::done You know the Bali market and what it takes to beat the average.
+::endlesson
+
+::lesson ch2 | 02 | Choose your area | Part 1 · Lesson 2 | Choose your | area | Each one is a different business.
+::part Canggu, Pererenan &amp; Seseh
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Canggu, Berawa &amp; Batu Bolong</div><h4>Surf, cafés and laptops</h4><p>The Bali most people picture today: surf, smoothie bowls, beach clubs, laptops and scooters. It went from rice fields to one of the busiest areas on the island in about a decade, and it is still growing.</p><p><strong>Who books:</strong> digital nomads, young couples, surf travellers and groups of friends. Many stay for weeks, not nights.</p><p><strong>What works:</strong> 1–3 bedroom villas with a pool, a strong workspace, walking or short scooter distance to cafés and the beach. Monthly stays are a real business here.</p><p><strong>Watch out:</strong> intense traffic, some of the highest prices on the island, huge competition, and some streets flood in heavy rain.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Pererenan, Seseh &amp; Cemagi</div><h4>The calmer neighbours</h4><p>Pererenan has become one of the most wanted addresses for upscale villas: still close to the action, but quieter and greener. Further west, Seseh and Cemagi offer black-sand beaches, sunsets and lower land prices.</p><p>This is where many investors are going next.</p><div class="vk-tip" style="margin-top:12px"><b>Our tip:</b> buy where the new roads, cafés and schools are going, not where they already are.</div></div>
+</div>
+::part Uluwatu, Seminyak, Ubud &amp; beyond
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Uluwatu &amp; the Bukit</div><h4>Cliffs, turquoise water, world-class surf</h4><p>Uluwatu, Bingin, Pecatu, Balangan, Ungasan. More luxurious and more spread out than Canggu. <strong>Who books:</strong> couples, honeymooners, surfers and families looking for views and space. Guests pay for the view and the privacy.</p><p><strong>Watch out:</strong> dry and hot, water supply can be harder (wells or water trucks), long distances. Avoid land too close to cliffs and beaches: in July 2025, authorities demolished 48 illegal structures at Bingin Beach.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Seminyak</div><h4>The original upscale area</h4><p>Restaurants, boutiques, beach clubs. Mature, central and still the highest revenue per listing in Bali in the AirROI data. Land is scarce and expensive, so <strong>most opportunities are existing villas to renovate.</strong></p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Ubud</div><h4>Jungle, culture, wellness</h4><p>Rice terraces, yoga, temples and cooking classes. Couples, wellness travellers, families and long-stay creatives. What works: jungle or rice-field views, bathtubs with a view, natural materials and silence. Watch out: more rain, high humidity (mould is real) and limited nightlife.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Sanur &amp; the new frontiers</div><h4>Steady and emerging</h4><p><strong>Sanur:</strong> calm, flat and family-friendly, easy access to the airport. Less “Instagram”, more steady demand. <strong>Tabanan coast</strong> (Kedungu, Nyanyi): quieter, wilder, cheaper, great surf. Higher risk, higher potential. <strong>East and North Bali</strong> (Sidemen, Amed, Lovina): beautiful and authentic, but a smaller, slower market. Better as a lifestyle investment than as your first business.</p></div>
+</div>
+::part Area comparison at a glance
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Area</th><th>Best guest</th><th>Must-have</th><th>Watch out</th></tr></thead><tbody>
+<tr><th>Canggu / Berawa</th><td>Nomads, young couples, groups</td><td>Workspace, pool, walkability</td><td>Traffic, flooding streets, competition</td></tr>
+<tr><th>Pererenan / Seseh</th><td>Couples, families, long stays</td><td>Design, privacy, rice-field views</td><td>Fast price increases</td></tr>
+<tr><th>Uluwatu / Bukit</th><td>Couples, surfers, honeymooners</td><td>Ocean view, big pool deck</td><td>Water supply, distances, coastal rules</td></tr>
+<tr><th>Seminyak</th><td>Couples, friends, first-timers</td><td>Location, renovation quality</td><td>Land scarcity, older villas</td></tr>
+<tr><th>Ubud</th><td>Couples, wellness, creatives</td><td>Views, bathtub, natural materials</td><td>Rain, humidity, mould</td></tr>
+<tr><th>Sanur</th><td>Families, retirees, long stays</td><td>Space, kitchen, safety</td><td>Lower nightly rates</td></tr>
+<tr><th>Tabanan coast</th><td>Surfers, slow travellers</td><td>Character, surf access</td><td>Smaller market, infrastructure</td></tr>
+</tbody></table></div>
+::part Leasehold land prices per area
+<p>Quoted prices for leasehold land, per are (100 m²) per year, September 2026:</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Area</th><th>IDR million per are per year</th></tr></thead><tbody>
+<tr><th>Berawa, Batu Bolong, Pererenan (prime)</th><td>40–50</td></tr>
+<tr><th>Inland Berawa, Canggu, Umalas</th><td>30–40</td></tr>
+<tr><th>Seminyak</th><td>30–40 beachside, 10–20 in residential streets</td></tr>
+<tr><th>Bingin &amp; Uluwatu beach spots</th><td>30+</td></tr>
+<tr><th>Seseh &amp; Cemagi beachside</th><td>20–30</td></tr>
+<tr><th>Pecatu &amp; Balangan</th><td>15–25</td></tr>
+<tr><th>Inland Ungasan &amp; Pandawa</th><td>10–15</td></tr>
+</tbody></table></div>
+::edit bali-areas | AI prompt to compare Bali areas for your villa
+I want to invest in a [number]-bedroom villa in Bali for [target guest]. My budget is [amount]. Compare [Area 1] and [Area 2] for: average nightly rates and occupancy, seasonality, distance to beaches and cafés, flood risk, water supply, and new developments planned nearby. Present it as a table and list the sources you used.
+::end
+::task Shortlist two areas that fit your guest
+::task Spend time in both before you look at properties
+::done You know which areas fit your guest, and what land costs there.
+::endlesson
+
+::lesson ch3 | 03 | Who can own what | Part 1 · Lesson 3 | Who can own what | (freehold vs leasehold) | Hak Milik, Hak Sewa, Hak Pakai and HGB explained.
+::part Freehold is for Indonesians only
+<p>This is the first rule of Bali real estate, and the one most people get wrong: <strong>a foreigner cannot own freehold land in Indonesia.</strong> Freehold, called Hak Milik, is reserved for Indonesian citizens. Not for foreigners, and not for foreign-owned companies (PT PMA). If someone offers you “freehold”, ask immediately: in whose name?</p>
+<div class="gold"><span class="gold-k">Never use a nominee</span><p>The answer is often a nominee: an Indonesian person who holds the title on paper for you, with a side agreement saying the property is really yours. <strong>Nominee arrangements give you no legal protection.</strong> If the nominee passes away, divorces, gets into debt or simply changes their mind, the land is legally theirs.</p></div>
+<p>So what can you do as a foreigner? You have four legal routes:</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th>Title</th><th>What it is</th><th>Duration</th><th>Best for</th></tr></thead><tbody>
+<tr><th>Hak Sewa (leasehold)</th><td>You rent the land (and villa) from the owner for a fixed term</td><td>Usually 25–30 years, extension agreed in the contract</td><td><strong>Most villa investors</strong></td></tr>
+<tr><th>Hak Pakai (right to use)</th><td>Title for foreigners with a KITAS/KITAP to use a residential property</td><td>30 + 20 + 30 years (max 80)</td><td>Your own home, not rentals</td></tr>
+<tr><th>HGB (right to build)</th><td>Right to build and own buildings, held by a company like a PT PMA</td><td>30 + 20 + 30 years (max 80)</td><td>Larger and commercial projects</td></tr>
+<tr><th>Hak Milik (freehold)</th><td>Full ownership</td><td>Forever</td><td>Indonesian citizens only</td></tr>
+</tbody></table></div>
+::part Leasehold: how it really works
+<p>Leasehold (Hak Sewa) is how most foreigners invest in Bali, us included. You lease the land, and usually the villa on it, from the Indonesian owner for a fixed number of years. A few things that surprise people:</p>
+<div class="vk-two">
+<div class="vk-card"><h4>[[ic:box]]You pay upfront</h4><p>A 25-year lease is usually paid in full on signing, not monthly.</p></div>
+<div class="vk-card"><h4>[[ic:refresh]]It goes back to the owner</h4><p>At the end of the lease, the land and everything built on it go back to the owner, unless you extend. <strong>That is why the extension clause is the most important part of your contract.</strong></p></div>
+<div class="vk-card"><h4>[[ic:key]]A passport is enough to sign</h4><p>You do not need a KITAS to sign a lease. But to rent it out commercially, you will need a company and licences (Part 2).</p></div>
+<div class="vk-card"><h4>[[ic:alert]]Always a notarial deed</h4><p>The lease is signed before a notary as a notarial deed (Akta Sewa Menyewa). Never sign a private agreement only.</p></div>
+</div>
+<p>Think of leasehold like this: <strong>you are buying years of income.</strong> A 25-year lease on a villa that earns well can be an excellent investment, but its value goes down every year that passes. So when you compare villas, always compare <strong>price per remaining year</strong>, not just the price.</p>
+<div class="tool noshadow" data-calc="lease">
+<h5>Compare two leases</h5>
+<div class="fields">
+<div class="field"><label for="bali_l_a_price">Villa A: lease price (IDR)</label><input id="bali_l_a_price" data-field="bali_l_a_price" inputmode="decimal" placeholder="e.g. 4500000000"></div>
+<div class="field"><label for="bali_l_a_years">Villa A: years left</label><input id="bali_l_a_years" data-field="bali_l_a_years" inputmode="decimal" placeholder="e.g. 18"></div>
+<div class="field"><label for="bali_l_b_price">Villa B: lease price (IDR)</label><input id="bali_l_b_price" data-field="bali_l_b_price" inputmode="decimal" placeholder="e.g. 6000000000"></div>
+<div class="field"><label for="bali_l_b_years">Villa B: years left</label><input id="bali_l_b_years" data-field="bali_l_b_years" inputmode="decimal" placeholder="e.g. 28"></div>
+</div>
+<div class="out"><div><small>Villa A per year</small><b data-out="a">—</b></div><div><small>Villa B per year</small><b data-out="b">—</b></div></div>
+<p class="verdict" hidden></p>
+</div>
+<div class="vk-tip"><b>Pro tip:</b> when you resell a leasehold villa, buyers look at the years left. A villa with 18 years left sells for much less than one with 28. Negotiate the extension now, not later.</div>
+::part What to put in your lease
+<p>A good lease protects you for decades. A bad one can make you lose everything in one family argument. <strong>These are the clauses we never sign without:</strong></p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>A fixed extension option</h4><p>With the price agreed today (or a clear formula), plus a right of first refusal if the owner ever sells.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Permission to build</h4><p>To build, renovate and demolish, and clarity on who owns the buildings during the lease.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>The right to sublease</h4><p>And to rent commercially (short-term rentals included), and to transfer the lease to a buyer or to your company.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Every signature</h4><p>Of everyone with a claim to the land. In Bali, land is often family land. Spouses and heirs should sign or give written consent.</p></div>
+<div class="vk-step"><span class="vk-n">5</span><h4>Land tax and disputes</h4><p>Who pays land tax (PBB) and who handles disputes with neighbours, access roads and the banjar.</p></div>
+<div class="vk-step"><span class="vk-n">6</span><h4>Access rights</h4><p>A plot without legal road access is a plot you cannot build or sell properly.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">7</span><h4>The what-ifs</h4><p>What happens if the land is rezoned, expropriated or the owner passes away.</p></div>
+</div>
+<div class="gold"><span class="gold-k">Pay into escrow</span><p>Pay your deposit (often 10–30%) <strong>into the notary’s escrow account, never directly to the seller,</strong> and only release the rest after the checks are done and the deed is signed.</p></div>
+::edit bali-lease | AI prompt to review a lease draft
+Act as a property lawyer experienced in Bali leasehold (Hak Sewa). Review the lease draft below and list: missing clauses, risks for the tenant, unclear terms around extension, subleasing, commercial use, building ownership and termination. Then write the questions I should ask the notary.
+
+[paste English translation]
+::end
+::part Bonus: leasehold contract checklist
+<p>Take this list to your notary (PPAT) and lawyer. <strong>Every box should be ticked before you pay the balance.</strong></p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-lc-1"><span>Land certificate (SHM) checked at the land office (BPN)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-2"><span>Owner identity matches the certificate</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-3"><span>All heirs and spouses have signed or consented</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-4"><span>No mortgage, dispute or block on the land</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-5"><span>Zoning confirmed for your intended use</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-6"><span>Legal road access confirmed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-7"><span>Lease term and start date clear</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-8"><span>Extension price or formula fixed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-9"><span>Right of first refusal on sale</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-10"><span>Right to build, renovate and demolish</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-11"><span>Right to sublease and rent short-term</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-12"><span>Right to transfer lease to a company or buyer</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-13"><span>Building ownership during the lease defined</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-14"><span>Land tax (PBB) responsibility defined</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-15"><span>Deposit paid into notary escrow</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-16"><span>Notarial deed (Akta Sewa Menyewa) signed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-17"><span>Lease registered and copies received</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lc-18"><span>Translation of every document you sign</span></label>
+</div>
+<button type="button" class="btn-s ghost" data-reset="bali-lc-">Clear for the next villa</button>
+<p class="warn">If a seller rushes you, pressures you to pay outside escrow or does not want you to bring your own notary, <strong>walk away.</strong></p>
+::task Compare every villa you consider by price per remaining year
+::task Take the leasehold checklist to your notary before you pay the balance
+::done You know what you can legally hold as a foreigner and what your lease must include.
+::endlesson
+
+::lesson ch4 | 04 | Zoning | Part 1 · Lesson 4 | Zoning: the colour that | decides everything | What you can build and rent, and when to walk away.
+::part What the colours mean
+<p>Every piece of land in Bali sits in a zone on the official spatial plan (the <strong>RDTR</strong>, Rencana Detail Tata Ruang). Each zone has a colour on the map, and <strong>that colour decides what you can build and whether you can rent it to tourists.</strong></p>
+<div class="tool noshadow zone-pick">
+<h5>What can I do on this land?</h5>
+<div class="field"><label for="bali_zone">Pick the zone colour of the plot</label><select id="bali_zone" data-field="bali_zone"><option value="">Choose a colour</option><option value="yellow">Yellow (residential)</option><option value="pink">Pink (tourism)</option><option value="orange">Orange (mixed)</option><option value="red">Red (commercial)</option><option value="green">Green (agricultural)</option><option value="protected">Protected / conservation</option></select></div>
+<div class="zone-res" data-zone="" hidden><b>Pick a colour</b>The result shows here.</div>
+<div class="zone-res" data-zone="yellow" hidden><b><span class="zdot" style="background:#E8C547"></span>Check your exact plot</b>Meant for houses and residential villas, with some small businesses. Commercial short-term rental needs the right licences, and this is where most disputes happen.</div>
+<div class="zone-res" data-zone="pink" hidden><b><span class="zdot" style="background:#E3A1B4"></span>Yes, this zone is made for it</b>Meant for hotels, resorts, guesthouses and villas. This is the zone made for tourist accommodation.</div>
+<div class="zone-res" data-zone="orange" hidden><b><span class="zdot" style="background:#E39A55"></span>Usually yes, with the right licences</b>Housing combined with commerce and services.</div>
+<div class="zone-res" data-zone="red" hidden><b><span class="zdot" style="background:#C2544A"></span>Not intended for villas</b>Meant for shops, offices and restaurants. Check case by case.</div>
+<div class="zone-res" data-zone="green" hidden><b><span class="zdot" style="background:#6E9A5B"></span>No</b>Rice fields and farming. New construction is heavily restricted.</div>
+<div class="zone-res" data-zone="protected" hidden><b><span class="zdot" style="background:#2F5D4E"></span>No</b>Forests, rivers, coastlines and sacred areas.</div>
+</div>
+<p>Colours and names can differ slightly between regencies (Badung, Gianyar, Tabanan…), so always read the legend of the map for your area.</p>
+<div class="gold"><span class="gold-k">Golden rule</span><p><strong>Never trust the colour a seller tells you.</strong> Check it yourself on the official map and with your notary.</p></div>
+::part How to check the zone of a plot
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Get the details</h4><p>The land certificate number and coordinates from the seller (or the exact location pin).</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Check the official map</h4><p>The national spatial planning map (Gistaru, from the Ministry of Agrarian Affairs and Spatial Planning) shows the RDTR zones. For Badung, the BATARA app shows zoning too.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Ask for a KKPR check</h4><p>The spatial-use conformity confirmation used in the licensing system. It tells you if your planned activity fits the zone.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Visit the offices</h4><p>The land office (BPN) and the village office, to confirm there are no disputes or special restrictions.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Check the surroundings</h4><p>Distance to temples (sacred areas have extra restrictions), rivers, the coastline and cliffs.</p></div>
+</div>
+<p>Two more Bali-wide rules: buildings are limited to <strong>15 metres in height</strong> (traditionally “no higher than a coconut tree”), and land close to temples falls under sacred-area restrictions defined with the Hindu community.</p>
+<p class="warn"><strong>After the floods of 2025.</strong> On 10 September 2025, Bali suffered its worst floods in years, with more than a dozen deaths. Days later, Governor Wayan Koster announced a regulation to bar commercial construction such as villas, hotels and restaurants on productive agricultural land. Before you buy anything on or near rice fields, ask your notary how this applies in your regency today.</p>
+::part How zones change in practice
+<p>Here is something you will not read in most guides: <strong>zone colours in Bali are not set in stone.</strong> Spatial plans are revised periodically. When a regency updates its RDTR, land that was green can become yellow or pink, usually where the area around it has already developed. A green plot next to existing villas, roads and yellow or pink zones is more likely to change colour than a green plot in the middle of the rice terraces.</p>
+<p>You will also hear sellers say that “this green land can be changed”, sometimes casually, as if it were a formality. Be very careful here.</p>
+<div class="vk-two">
+<div class="vk-card vk-yes"><div class="vk-tag">✓ What protects you</div><ul><li>Only an official change: a revised RDTR or a confirmed KKPR, in writing.</li></ul></div>
+<div class="vk-card vk-no"><div class="vk-tag">✕ What does not</div><ul><li>Promises, “arrangements” and verbal assurances are not a title. What was tolerated yesterday can be enforced tomorrow.</li><li>Productive rice fields are now the most protected land on the island, especially after the 2025 floods.</li><li>Never pay extra for a future conversion that has not happened yet.</li></ul></div>
+</div>
+<div class="gold"><span class="gold-k">Our approach</span><p><strong>Price the land for the colour it is today.</strong> If it changes later in an official revision, that is upside. If you need it to change for your plan to work, it is not a deal, it is a bet.</p></div>
+<blockquote class="pullquote">“Buy the zone you need. Do not buy the zone you hope for.”</blockquote>
+::part Bonus: land due diligence checklist
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-dd-1"><span>Zone colour confirmed on the official RDTR map</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-2"><span>KKPR / spatial conformity checked for short-term rental</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-3"><span>Not on productive agricultural land (LP2B / rice field)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-4"><span>Distance to temples, rivers, coast and cliffs checked</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-5"><span>Legal road access of the right width</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-6"><span>No disputes at the land office (BPN)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-7"><span>Banjar and village informed and supportive</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-8"><span>Electricity capacity (PLN) available or upgradable</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-9"><span>Water source: mains (PDAM), well or truck</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-10"><span>Flood history asked to neighbours (rainy season)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-11"><span>Soil type: was it a rice field? When was it filled?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-12"><span>Drainage and slope of the plot</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-13"><span>Planned roads or projects nearby</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-14"><span>Neighbours’ plans (a 3-storey build next door?)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-15"><span>Waste collection available in the area</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-16"><span>Internet providers and fibre available</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-17"><span>Distance to beach, cafés and your target guest’s spots</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-dd-18"><span>Comparable villas: rates and occupancy</span></label>
+</div>
+<button type="button" class="btn-s ghost" data-reset="bali-dd-">Clear for the next plot</button>
+::edit bali-zoning | AI prompt to prepare your zoning questions
+I am a foreigner looking at a plot in [village, regency], Bali, to build a [number]-bedroom villa for short-term rental through a PT PMA. List every question I should ask my notary and consultant about zoning (RDTR), KKPR, agricultural land restrictions, temple distance, height limits and building permits (PBG/SLF), and explain why each one matters.
+::end
+::task Check the zone of every plot on the official map before your first visit
+::done You can read a zoning map and know which land to walk away from.
+::endlesson
+
+::group Part 2: Setting up legally
+::lesson ch5 | 05 | Your PT PMA | Part 2 · Lesson 5 | Your PT PMA: the company that | lets you do business | The real minimum investment in 2026.
+::part What is a PT PMA?
+<p>A PT PMA (Perseroan Terbatas Penanaman Modal Asing) is an Indonesian limited company with foreign shareholders. <strong>For a foreigner who wants to run a villa rental business legally in Bali, it is the standard route.</strong></p>
+<div class="vk-two">
+<div class="vk-card"><h4>[[ic:sparkle]]Earn rental income legally</h4><p>Run a business and earn income in Indonesia as a foreigner.</p></div>
+<div class="vk-card"><h4>[[ic:key]]Hold the licences</h4><p>The NIB and the right KBLI code that booking platforms now ask for.</p></div>
+<div class="vk-card"><h4>[[ic:box]]Hold land rights</h4><p>Like HGB, or sign leases in the company’s name.</p></div>
+<div class="vk-card"><h4>[[ic:calendar]]Sponsor your visa</h4><p>Your investor KITAS, so you can live in Bali and manage your business.</p></div>
+</div>
+<p>Your PT PMA has at least two shareholders (people or companies), a director and a commissioner, a registered address in Indonesia, a tax number and a bank account. It reports its investment activity every quarter (the LKPM report) and files taxes every month and every year.</p>
+<p>It sounds like a lot. <strong>In practice, a good set-up agent and a local accountant do 90% of it for you.</strong> Your job is to choose them well and understand what they are doing.</p>
+<p class="warn"><strong>Important:</strong> the company’s business code (KBLI) must match what you actually do. A company set up for “real estate” or “consulting” cannot legally rent villas to tourists (lesson 7).</p>
+::part The real minimum investment in 2026
+<p>For years, the number you saw everywhere online was IDR 10 billion (around USD 600,000), and many people gave up on Bali because of it. <strong>The rules changed.</strong> Under BKPM Regulation No. 5 of 2025, in force since 2 October 2025, there are two different numbers:</p>
+<div class="vk-two">
+<div class="vk-stat"><b>IDR 2.5B</b><span><strong>Paid-up capital:</strong> money actually deposited in the company’s bank account (was IDR 10 billion).</span></div>
+<div class="vk-stat"><b>IDR 10B+</b><span><strong>Total investment plan:</strong> what the company commits to invest in its business, per business line.</span></div>
+</div>
+<div class="vk-two">
+<div class="vk-card vk-yes"><div class="vk-tag">✓ Good to know</div><ul><li>For property and accommodation businesses, <strong>the value of land and buildings can count towards the investment total.</strong> Your leasehold, construction and furniture are part of your investment.</li><li>The paid-up capital cannot be transferred out for 12 months, but it is not frozen: it can be used for operations, buying assets and funding construction.</li><li>Companies set up under the old rule can apply to reduce their capital to the new minimum.</li></ul></div>
+<div class="vk-card"><div class="vk-tag tag-t">What the internet says vs what happens</div><p><strong>Online:</strong> “You need to invest IDR 10 billion to open a company in Bali.” Many people think they must transfer it on day one.</p><p><strong>In practice:</strong> the IDR 10 billion is an investment plan, not a single wire transfer. You declare it at set-up and report progress every quarter through the LKPM. Your lease, construction, furniture and operations build towards it over the years. What needs to be in the account is the paid-up capital, and even that is there to be used for the business.</p></div>
+</div>
+::part Questions for your set-up agent
+<p>Every agent structures this slightly differently, and the details depend on your business code, your share structure and your visa plans. <strong>Before you sign with anyone, ask these five questions:</strong></p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Capital</h4><p>How much do I need to deposit, when, and what can I spend it on?</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Investment plan</h4><p>How will the investment plan be realised and reported (LKPM)?</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Business codes</h4><p>Which KBLI codes will my company have, and do they allow short-term villa rental?</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Visa</h4><p>How does this structure work with the investor KITAS I want?</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Yearly costs</h4><p>What does it cost every year to keep the company compliant (accounting, tax, LKPM, licences)?</p></div>
+</div>
+::task Book a call with at least two set-up agents and compare their answers to these five questions
+::done You know what a PT PMA is and what it really costs to set one up.
+::endlesson
+
+::lesson ch6 | 06 | The investor visa | Part 2 · Lesson 6 | The investor visa (and how | people get deported) | Investor KITAS step by step.
+::part Bali is strict about your visa
+<p>Let’s be very clear: <strong>a tourist visa does not allow you to do business in Bali.</strong> Not to work in your villa, not to manage staff, not even to promote your villa on social media.</p>
+<div class="gold"><span class="gold-k">It happens</span><p>In September 2024, an Australian on a Visa on Arrival was <strong>deported and banned from re-entering Indonesia for six months</strong> for promoting a villa on social media. Officials had been monitoring his posts before they arrested him. In 2026, authorities also stepped up checks on content creators and photographers working on tourist visas.</p></div>
+<p>Overstaying, working without the right permit or running a business on the wrong visa can lead to fines, detention, deportation and entry bans. And if your business is in your name and you get deported, you will be managing it from abroad.</p>
+<div class="vk-two">
+<div class="vk-card vk-yes"><div class="vk-tag">✓ On a tourist visa you can</div><ul><li>Look at properties</li><li>Meet notaries</li><li>Sign a lease</li></ul></div>
+<div class="vk-card vk-no"><div class="vk-tag">✕ But not</div><ul><li>Work in your villa or manage staff</li><li>Promote your villa on social media</li><li>Operate the business in any way</li></ul></div>
+</div>
+<blockquote class="pullquote">“If you would not post it with your immigration officer watching, you are probably on the wrong visa.”</blockquote>
+::part The investor KITAS step by step
+<p>The right status for most villa investors is the <strong>investor KITAS</strong> (visa index E28A): a temporary stay permit for foreigners who own shares in a PT PMA and sit on its board as a director or commissioner.</p>
+<div class="cmp-wrap"><table class="cmp"><thead><tr><th></th><th>What you need to know</th></tr></thead><tbody>
+<tr><th>Who</th><td>Shareholders of a PT PMA who are director or commissioner</td></tr>
+<tr><th>Minimum shares</th><td>IDR 10 billion of shares in your own name (not through a nominee or holding company)</td></tr>
+<tr><th>Validity</th><td>1 or 2 years, renewable</td></tr>
+<tr><th>Can you work?</th><td>A director can sign contracts and manage the company. Operational jobs need a separate work permit.</td></tr>
+<tr><th>Timing</th><td>About 4–8 weeks after the investment ministry’s recommendation; longer if company documents need changes</td></tr>
+</tbody></table></div>
+<p class="warn"><strong>Two different tests.</strong> The company can be set up with IDR 2.5 billion paid-up capital, but the investor KITAS asks for IDR 10 billion of shares in your name. Ask your agent to plan your share structure with the visa in mind from day one, not afterwards.</p>
+::part Documents you will need
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-kt-1"><span>Passport valid 6+ months</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-2"><span>Photos and CV</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-3"><span>Indonesian health insurance</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-4"><span>Company deed showing your role and shares</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-5"><span>NIB, licences and tax number of the company</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-6"><span>Latest LKPM report</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-7"><span>Investment ministry recommendation</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-kt-8"><span>Sponsor letter from your PT PMA</span></label>
+</div>
+::task Plan your share structure with your agent so it works for the investor KITAS
+::done You know which visa you need and what you cannot do on a tourist visa.
+::endlesson
+
+::lesson ch7 | 07 | Licences to rent short-term | Part 2 · Lesson 7 | Licences to rent short-term | (the 2026 crackdown) | NIB, KBLI, permits and the 10% tax.
+::part What happened in 2025 and 2026
+<p>For years, many Bali villas were rented on Airbnb without any licence. <strong>That era is ending.</strong> Here is the timeline:</p>
+<div class="tl">
+<div class="tl-item"><div class="tl-title"><b>Jul 2025</b> 48 illegal structures demolished at Bingin Beach</div></div>
+<div class="tl-item"><div class="tl-title"><b>3 Dec 2025</b> Bali’s governor proposed stopping Airbnb operations</div><div class="tl-body"><div class="tl-text"><p>Citing illegal rentals run by foreigners and lost tax revenue.</p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>Dec 2025</b> Platforms are not banned, but every listing must be licensed</div><div class="tl-body"><div class="tl-text"><p>The Ministry of Tourism made it clear: correctly zoned and paying tax.</p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>Feb 2026</b> Airbnb started asking hosts for their NIB and KBLI</div></div>
+<div class="tl-item"><div class="tl-title"><b>31 Mar 2026</b> Deadline announced for listings to be licensed</div></div>
+<div class="tl-item"><div class="tl-title"><b>May 2026</b> About 1,600 unlicensed businesses identified nationwide</div><div class="tl-body"><div class="tl-text"><p>Villa registrations were up 76.4% in a year.</p></div></div></div>
+<div class="tl-item"><div class="tl-title"><b>1 Aug 2026</b> Planned start of delisting for operators who did not regularise</div></div>
+<div class="tl-item"><div class="tl-title"><b>Jun 2027</b> Target for automatic checks of every listing against the national licensing system (OSS)</div></div>
+</div>
+<p>Nine booking platforms are working with the Ministry of Tourism on this, including Airbnb, Booking.com, Agoda, Expedia and Traveloka. Listings can be restored once the operator is licensed.</p>
+::part The licences you need
+<p>Requirements depend on your structure, zone and regency, but a legal short-term villa rental in Bali generally needs:</p>
+<div class="vk-grid3">
+<div class="vk-card"><span class="vk-n">1</span><h4>A legal entity</h4><p>A PT PMA (or another legal entity) that operates the villa.</p></div>
+<div class="vk-card"><span class="vk-n">2</span><h4>NIB</h4><p>The business identification number, issued through the OSS online licensing system.</p></div>
+<div class="vk-card"><span class="vk-n">3</span><h4>The right KBLI</h4><p>Villas (55193), homestays or pondok wisata (55130), other short-term accommodation (55199). Pondok wisata is aimed at local, Indonesian-run homestays and is typically not available to foreign-owned companies.</p></div>
+<div class="vk-card"><span class="vk-n">4</span><h4>NKU &amp; Sertifikat Standar</h4><p>The activity number and standards certificate linked to your business, depending on its risk level.</p></div>
+<div class="vk-card"><span class="vk-n">5</span><h4>PBG &amp; SLF</h4><p>The building approval and the certificate that the building is fit for use (commercial use where required).</p></div>
+<div class="vk-card"><span class="vk-n">6</span><h4>Correct zoning</h4><p>For tourist accommodation (lesson 4).</p></div>
+<div class="vk-card"><span class="vk-n">7</span><h4>Local tax</h4><p>Registration (NPWPD) and the <strong>10% hotel and restaurant tax</strong> on your rental revenue, reported and paid every month. Airbnb does not pay it for you.</p></div>
+<div class="vk-card"><span class="vk-n">8</span><h4>Village / banjar</h4><p>Registration, which in many areas is expected and makes daily life much easier.</p></div>
+</div>
+<div class="vk-tip"><b>Pro tip:</b> when you buy an existing villa, ask for every one of these documents before you sign. A villa that “has been on Airbnb for years” without them is not a proven business. It is a risk.</div>
+::part Why stricter rules are good news
+<p>It is easy to read all of this and feel discouraged. We see it the other way around. Remember the 34,500 listings from lesson 1? A part of them are not licensed. <strong>As enforcement tightens, a share of your competition will simply disappear.</strong> The hosts who stay will have:</p>
+<div class="chips"><span>✓ Less competition for the same tourists</span><span>✓ Better visibility and rankings</span><span>✓ Access to all booking channels, corporate travellers and agencies</span><span>✓ A business they can actually sell one day</span><span>✓ Peace of mind: no closure notice, no visit from immigration</span></div>
+<p>If Bali gets even stricter in the coming years, and everything suggests it will, a fully legal villa becomes something rare. And rare things are valuable.</p>
+<blockquote class="pullquote">“A legal villa in a strict market is not a cost. It is your moat.”</blockquote>
+::part Bonus: short-term rental licensing roadmap
+<p>Use this roadmap with your set-up agent. Most steps happen in this order.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-lr-1"><span><b>1.</b> Choose your structure: PT PMA, shareholders, directors and KBLI codes for villa accommodation</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-2"><span><b>2.</b> Set up the PT PMA: deed, Ministry of Law approval, NIB, tax number (NPWP), bank account and paid-up capital</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-3"><span><b>3.</b> Secure the land: lease or title in the right name, after zoning and due diligence checks</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-4"><span><b>4.</b> Confirm spatial conformity (KKPR) for accommodation on your plot</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-5"><span><b>5.</b> Building permits: PBG before construction or renovation; SLF when the building is finished</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-6"><span><b>6.</b> Business licences in OSS: KBLI activity, NKU and Sertifikat Standar if required</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-7"><span><b>7.</b> Local tax: register for NPWPD and set up monthly reporting of the 10% tax</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-8"><span><b>8.</b> Village / banjar registration and introduction to the community</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-9"><span><b>9.</b> Investor KITAS for the director who manages the business</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-10"><span><b>10.</b> Update your listings with NIB and KBLI details as the platforms request them</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-lr-11"><span><b>11.</b> Stay compliant: quarterly LKPM, monthly and yearly tax, licence renewals</span></label>
+</div>
+::part Bonus: our trusted partners in Bali
+<p>These are the people we work with and recommend. They know the process, speak English and have helped us. Mention this guide when you contact them. You pay them directly for their services. We only recommend people we have worked with ourselves.</p>
+<div class="tiles">
+<div><b>[[ic:key]]Company set-up &amp; licences</b>PT PMA, KBLI, NIB, OSS licences, LKPM reporting<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+<div><b>[[ic:box]]Notary / PPAT &amp; lawyer</b>Land checks, lease deeds, escrow, contract review<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+<div><b>[[ic:calendar]]Visa agent</b>Investor KITAS and renewals<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+<div><b>[[ic:wrench]]Building inspector / architect</b>Structural checks, PBG and SLF, design<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+<div><b>[[ic:broom]]Villa management</b>Listings, guests, staff, maintenance, local tax<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+<div><b>[[ic:bulb]]Accountant</b>Monthly tax, annual returns, bookkeeping<br><em>[Partner name] · [WhatsApp / email] · [website]</em></div>
+</div>
+::task Ask your agent for a written timeline and fixed quote for steps 1 to 9
+::done You know every licence a legal villa needs, and why it is your advantage.
+::endlesson
+
+::group Part 3: Buying, building &amp; running
+::lesson ch8 | 08 | Buying a finished villa | Part 3 · Lesson 8 | Buying a finished villa | without buying a problem | Built-to-sell villas, rice-field fill and sinking floors.
+::part Built to sell, not to last
+<p>Walk around Canggu, Pererenan or Uluwatu and you will see villas going up everywhere. Many of them are built by developers whose business model is simple: <strong>build fast, build cheap, sell fast.</strong></p>
+<p>There is nothing wrong with a developer making a profit. The problem is the incentive: the builder needs the villa to look perfect on the day of the sale and to survive the warranty period, if there is one. After that, it is your problem. In our experience, a cheaply built Bali villa often <strong>looks amazing in year one, starts showing problems in year two, and needs serious money by year three.</strong> We have seen:</p>
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:alert]]Cracks</h4><p>In walls and floors a few months after handover.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:refresh]]Leaking roofs</h4><p>In the first real rainy season.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:box]]Pools that lose water</h4><p>Every day, because of poor waterproofing.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:wrench]]Rusting steel</h4><p>Reinforcement pushing concrete apart, especially near the sea.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:key]]Swollen doors and windows</h4><p>That stop closing, made from untreated wood.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:sparkle]]Mould behind fresh paint</h4><p>Because walls were never properly waterproofed.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:bulb]]Weak electrics</h4><p>Too weak for air conditioning in every room.</p></div>
+</div>
+<p>These are not just repair costs. They are bad reviews, cancelled bookings and lost months while you fix things. <strong>A villa with a leak in the bedroom does not get five stars, whatever the design looks like.</strong></p>
+::part The rice field under your villa
+<p>A huge part of the land being built on in Bali was, until recently, rice fields. Rice fields are wet, soft and designed to hold water. To build on them, the land is filled and raised. When that fill is done properly (the right material, compacted in layers, with time to settle and proper drainage) it can work. When it is done fast and cheap, you get:</p>
+<div class="vk-two">
+<div class="vk-card"><h4>Ground settlement</h4><p>Parts of the villa sink unevenly. Floors tilt, tiles crack, walls split, doors stop closing.</p></div>
+<div class="vk-card"><h4>Drainage problems</h4><p>The plot sits lower than the neighbours or the road, and water flows into your villa in heavy rain.</p></div>
+<div class="vk-card"><h4>Pool and terrace movement</h4><p>Heavy structures on poorly compacted ground move first.</p></div>
+<div class="vk-card"><h4>Humidity and mould</h4><p>From a high water table.</p></div>
+</div>
+<p class="warn">Even if the plot was converted legally years ago, the soil underneath is still the same. Ask questions.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-rf-1"><span>Was this land a rice field? When was it filled, with what, and how was it compacted?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rf-2"><span>Were soil tests done? Ask for the report and the foundation design.</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rf-3"><span>Is the villa higher than the road and neighbouring fields?</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rf-4"><span>Where does rainwater go? Look for drainage channels and their size.</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rf-5"><span>Visit during or right after heavy rain if you possibly can.</span></label>
+</div>
+::part How to inspect a villa before you sign
+<p>Never buy a villa in Bali based on photos and a tour with the seller. Here is the process we follow:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Documents first</h4><p>Land certificate, lease, zoning, PBG and SLF, as-built drawings, list of materials, warranties and the contractor’s name.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Your own inspector</h4><p>An independent building inspector or structural engineer, never the seller’s. It costs very little compared to what it can save you.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Structure</h4><p>Cracks (especially diagonal ones), uneven floors, signs of settlement, exposed or rusty steel.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Water</h4><p>Roof, gutters, waterproofing of bathrooms and terraces, damp patches, smell of mould, fresh paint in strange places.</p></div>
+<div class="vk-step"><span class="vk-n">5</span><h4>The pool</h4><p>Ask for a water-loss test over several days.</p></div>
+<div class="vk-step"><span class="vk-n">6</span><h4>Materials</h4><p>Real hardwood or treated timber? Quality of windows, roof tiles, plumbing and electrical cables.</p></div>
+<div class="vk-step"><span class="vk-n">7</span><h4>Systems</h4><p>Electricity capacity (kVA), septic tank, water source and pressure, hot water, Wi-Fi.</p></div>
+<div class="vk-step"><span class="vk-n">8</span><h4>Neighbours &amp; banjar</h4><p>Floods, disputes, construction planned next door.</p></div>
+</div>
+<div class="vk-two">
+<div class="vk-card vk-no"><div class="vk-tag">Red flag</div><p>A seller who does not want you to bring your own inspector, or who gives you a deadline of a few days to decide.</p></div>
+<div class="vk-card vk-no"><div class="vk-tag">Red flag</div><p>Fresh paint and new plaster in only a few spots of an otherwise “old” villa. Ask what was repaired.</p></div>
+</div>
+::part Bonus: villa inspection checklist
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-vi-1"><span>PBG and SLF in place and matching the building</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-2"><span>As-built drawings and materials list</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-3"><span>Contractor name and past projects</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-4"><span>No diagonal cracks in walls or floors</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-5"><span>Floors level, doors and windows close well</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-6"><span>No rust stains or exposed reinforcement</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-7"><span>Roof checked after rain, gutters sized</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-8"><span>Bathrooms and terraces waterproofed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-9"><span>No damp, mould or musty smell</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-10"><span>Fresh repairs explained</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-11"><span>Pool water-loss test done</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-12"><span>Pool equipment age and condition</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-13"><span>Electricity capacity enough for AC in every room</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-14"><span>Septic tank size and last emptying</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-15"><span>Water source tested (quality and pressure)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-16"><span>Water filter system installed</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-17"><span>Hot water in every bathroom</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-18"><span>Wi-Fi speed tested, backup available</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-19"><span>Plot higher than road; drainage works</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-vi-20"><span>Neighbours and banjar spoken to</span></label>
+</div>
+<button type="button" class="btn-s ghost" data-reset="bali-vi-">Clear for the next villa</button>
+::task Never pay the balance before the inspector’s written report
+::done You know how to spot a badly built villa before you sign.
+::endlesson
+
+::lesson ch9 | 09 | Building your own villa | Part 3 · Lesson 9 | Build your own villa so it lasts | 20 years, not 2 | The rules we would give our best friend.
+::part Build it right from the ground up
+<p>Building gives you full control over quality, design and layout. It also gives you full responsibility. These are the rules we would give our best friend:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Permits before the first brick</h4><p>Your PBG must match the zone and your plans. Building first and “legalising later” is exactly what Bali is cracking down on.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Start with the soil</h4><p>A soil test and a foundation designed by an engineer are not optional, especially on former rice fields.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Design the drainage first</h4><p>Raise the plot above the road, plan where every drop of rain goes, and size gutters for tropical downpours.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>Materials for the climate, not the photo</h4><p>Treated or durable hardwood, stainless or galvanised fittings near the sea, quality waterproofing in every wet area, good ventilation to fight humidity.</p></div>
+<div class="vk-step"><span class="vk-n">5</span><h4>Plan electricity early</h4><p>Agree the capacity with your utility (PLN) early. Upgrades can take time.</p></div>
+<div class="vk-step"><span class="vk-n">6</span><h4>Pay by milestones</h4><p>Never upfront. Link every payment to finished, inspected work and keep a retention (often 5–10%) until after the first rainy season.</p></div>
+<div class="vk-step"><span class="vk-n">7</span><h4>Your own eyes on site</h4><p>An architect, project manager or inspector who works for you, not for the contractor, and checks every stage.</p></div>
+<div class="vk-step"><span class="vk-n">8</span><h4>Height and setbacks</h4><p>Respect the 15 m height limit and setbacks from roads, rivers and neighbours.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">9</span><h4>Schedule around the rain</h4><p>Foundations and roofs in the dry season if you can.</p></div>
+</div>
+<div class="gold"><span class="gold-k">Plan for delays</span><p><strong>Building in Bali almost always takes longer than promised.</strong> Plan your cash flow for delays and do not book guests before the villa is finished and inspected.</p></div>
+::task Agree a milestone payment plan with a retention before you sign with a builder
+::done You know how to build a villa that lasts.
+::endlesson
+
+::lesson ch10 | 10 | The Bali aesthetic | Part 3 · Lesson 10 | The Bali aesthetic that gets | booked | Design that stops the scroll.
+::part Design that stops the scroll
+<p>Bali guests scroll through hundreds of villas. <strong>They decide in seconds, based on the first three photos. Your design is your marketing.</strong> These are the styles that perform in Bali right now, and where they fit best:</p>
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Pererenan, Canggu, Seminyak</div><h4>Organic minimal</h4><p>Lime-washed walls, curves and arches, linen, natural wood, terracotta and stone. Calm and warm.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Uluwatu, Bukit, cliff sites</div><h4>Tropical modern</h4><p>Clean lines, big glass sliding doors, concrete and teak, infinity pools facing the view.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Ubud, Tabanan, Sidemen</div><h4>Jungle retreat</h4><p>Open living, natural stone, outdoor bathtubs and showers, greenery everywhere.</p></div>
+<div class="vk-card"><div class="vk-tag tag-t">Canggu, Seminyak</div><h4>Mediterranean Bali</h4><p>White arches, microcement, blue water, olive and palm, a little bit Ibiza.</p></div>
+</div>
+<div class="tl-slides" style="max-width:none;margin:18px 0"><figure class="tl-slide"><img src="img/arch.webp" width="736" height="907" alt="White arches and flowing curtains" loading="lazy"></figure><figure class="tl-slide"><img src="img/stairs.webp" width="800" height="1200" alt="Lime-washed stairs with terracotta pots" loading="lazy"></figure><figure class="tl-slide"><img src="img/bath.webp" width="945" height="1196" alt="A guest reading in a sculptural bathtub" loading="lazy"></figure></div>
+<div class="gold"><span class="gold-k">Commit to it</span><p>Whatever style you choose, commit to it. <strong>A villa with a clear identity gets remembered, saved and shared.</strong> A villa that tries to be everything looks like everything else.</p></div>
+<h3>Moments that get photographed</h3>
+<div class="chips"><span>✓ A sunset or rice-field view from the pool</span><span>✓ An outdoor bathtub or rain shower surrounded by plants</span><span>✓ A floating breakfast tray, a daybed, a reading nook</span><span>✓ A dramatic arch, a sculptural bathtub or a statement lamp</span></div>
+::part The Bali must-haves
+<p><strong>Beautiful gets the click. Comfortable gets the five stars.</strong> In Bali, these are the details guests notice and review:</p>
+<div class="tiles">
+<div><b>[[ic:sparkle]]Private pool</b>With daily cleaning.</div>
+<div><b>[[ic:bulb]]Strong, quiet AC</b>In every bedroom.</div>
+<div><b>[[ic:phone]]Fast Wi-Fi with a backup</b>Nomads check this first.</div>
+<div><b>[[ic:coffee]]A real workspace</b>Desk, chair, good light.</div>
+<div><b>[[ic:refresh]]Filtered drinking water</b>More in lesson 11.</div>
+<div><b>[[ic:alert]]Mosquito control</b>Screens, nets, plug-ins, no standing water.</div>
+<div><b>[[ic:bed]]Blackout curtains</b>Roosters and the sunrise start early.</div>
+<div><b>[[ic:washer]]Hot water that stays hot</b>And laundry and towels for beach, pool and bath.</div>
+<div><b>[[ic:calendar]]Shade and outdoor living</b>Covered terraces for the rain, plus scooter or driver arrangements and a local guide.</div>
+<div><b>[[ic:sparkle]]A welcome touch</b>Fresh fruit, frangipani, a handwritten note.</div>
+</div>
+<p>The course has the full furnishing list, the listing photo guide and the welcome booklet template. Use them together with this lesson.</p>
+::task Choose one clear style for your villa and write down its three signature photo moments
+::done You know the design styles and must-haves that get Bali villas booked.
+::endlesson
+
+::lesson ch11 | 11 | Run it day to day | Part 3 · Lesson 11 | Running a villa in Bali | day to day | Water, waste, rainy season, staff and ceremonies.
+::part Water: filter everything
+<p><strong>Bali tap water is not drinkable.</strong> Most villas get their water from the local utility (PDAM), from a deep well, or from water trucks in drier areas like the Bukit. Quality varies by area, by season and even by property. After heavy rain it becomes less predictable, and Bali groundwater is also hard (full of calcium and magnesium).</p>
+<p>This affects your guests’ health, your reviews, your pool and your appliances. Our advice: install a proper water filtration system in every villa. A typical set-up, chosen after testing your water:</p>
+<div class="vk-steps">
+<div class="vk-step"><span class="vk-n">1</span><h4>Sediment filter</h4><p>Removes sand, dirt and rust.</p></div>
+<div class="vk-step"><span class="vk-n">2</span><h4>Activated carbon</h4><p>Removes smells and many impurities.</p></div>
+<div class="vk-step"><span class="vk-n">3</span><h4>Water softener</h4><p>Protects showers, taps, washing machines and water heaters from limescale.</p></div>
+<div class="vk-step"><span class="vk-n">4</span><h4>UV purification</h4><p>Neutralises bacteria and viruses.</p></div>
+<div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Reverse osmosis in the kitchen</h4><p>For drinking water, or 19-litre water gallons with a dispenser.</p></div>
+</div>
+<div class="bubble"><span class="bub-from">In your welcome notes</span>We’ve installed a high-quality water filter, so you can shower with clean, skin-friendly water and brush your teeth safely.</div>
+<div class="vk-tip"><b>Pro tip:</b> schedule filter changes and a water test with your maintenance team. A filter system that is not maintained is just decoration.</div>
+::part Waste: the problem nobody shows you
+<p>Bali has a serious waste problem, and as a villa owner it is your problem too. The island’s biggest landfill, Suwung in Denpasar, served Denpasar, Badung, Gianyar and Tabanan. From 31 March 2026 it only accepted inorganic and residual waste, and it was scheduled to close completely on 1 August 2026, with a waste-to-energy plant under construction to replace it. <strong>During the transition, uncollected trash piled up on roadsides in parts of the island for weeks.</strong></p>
+<p>The rainy season makes collection harder: flooded roads, delayed pick-ups, bins that overflow and attract animals and smells. Nothing ruins a five-star stay faster than a pile of trash at the gate.</p>
+<div class="tiles">
+<div><b>[[ic:calendar]]A reliable private collector</b>With a fixed schedule, and a backup.</div>
+<div><b>[[ic:recycle]]Separate organic and inorganic</b>Compost organic waste on site if you have the space.</div>
+<div><b>[[ic:box]]Closed, animal-proof bins</b>Stored out of sight, away from the entrance.</div>
+<div><b>[[ic:sparkle]]Cut plastic</b>Refillable water, bulk amenities, no single-use bottles.</div>
+<div class="vk-wide"><b>[[ic:phone]]Explain the system to guests</b>In your welcome notes. Many come to Bali for its nature, and a villa that handles waste responsibly is part of the experience.</div>
+</div>
+::part Rainy season, power &amp; maintenance
+<p>The rainy season runs roughly from November to March. It is green, dramatic and beautiful, and <strong>it tests every weakness in your villa.</strong></p>
+<div class="vk-grid3">
+<div class="vk-card"><h4>Before the rains</h4><p>Clean gutters and drains, check the roof, reseal terraces and bathrooms, trim trees near the roof and power lines.</p></div>
+<div class="vk-card"><h4>During the rains</h4><p>Watch for leaks, flooding in the garden, pool overflow and algae. Have your maintenance person on call.</p></div>
+<div class="vk-card"><h4>Humidity &amp; mould</h4><p>Run dehumidifiers or AC regularly in closed rooms, air out wardrobes, use breathable materials, treat wood.</p></div>
+<div class="vk-card"><h4>Power cuts</h4><p>Keep rechargeable lights, consider a backup for Wi-Fi and the fridge, and make sure guests know what to do.</p></div>
+<div class="vk-card"><h4>Pests</h4><p>Regular termite and pest control, especially for wooden structures and roofs.</p></div>
+</div>
+<p>Build a monthly maintenance routine with your team (the course has the inspection and maintenance checklists) and add these Bali-specific items to it.</p>
+<div class="vk-tip"><b>Pro tip:</b> adjust your pricing for the low season instead of fighting it. Monthly stays for nomads and long-stay guests can keep occupancy up from January to March.</div>
+::part Your team, your banjar &amp; Nyepi
+<p>In Bali, your local relationships are part of your business plan.</p>
+<div class="vk-two">
+<div class="vk-card"><h4>Your team</h4><p>Most villas have a small local team (housekeeping, pool and garden, maintenance) and a manager or management company. Treat them well, pay on time, follow labour rules and give them clear SOPs. <strong>Good staff in Bali are worth gold and stay with good owners.</strong></p></div>
+<div class="vk-card"><h4>Ceremonies</h4><p>Balinese Hinduism is part of daily life. Your staff will need days off for ceremonies, and some will place offerings at the villa. Respect it and plan your schedule around it.</p></div>
+<div class="vk-card"><h4>Your banjar</h4><p>The village council manages local matters, from security to community contributions. Introduce yourself, contribute when asked and keep a good relationship. When you need help, they are the first to know.</p></div>
+<div class="vk-card"><h4>Nyepi, the Day of Silence</h4><p>Once a year, the whole island stops for 24 hours. No lights, no noise, no going out, and the airport closes. Tell guests booked on those dates well in advance and prepare food and a cosy kit. <strong>For many, it becomes the highlight of their trip.</strong></p></div>
+</div>
+<p class="warn"><strong>Taxes every month:</strong> remember the 10% local tax on your rental income. Your manager or accountant should report and pay it monthly.</p>
+<blockquote class="pullquote">“Bali rewards the owners who become part of the community, not just part of the skyline.”</blockquote>
+::task Test your water and choose your filtration set-up
+::task Contract a waste collector with a fixed schedule and a backup
+::task Add the Bali items to your monthly maintenance routine
+::done You know how to run a villa through the water, waste, rain and ceremonies.
+::endlesson
+
+::lesson ch12 | 12 | Mistakes to avoid | Part 3 · Lesson 12 | Mistakes to avoid in | Bali | We made some of these. We have seen friends make the rest.
+::part Land and building
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:key]]Using a nominee</h4><p>It feels easy until the day it is not. Use leasehold or a company.</p><a href="#ch3">Ownership, Lesson 3 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:alert]]Buying the view without checking the zone</h4><p>A villa on green or protected land can be sealed or demolished.</p><a href="#ch4">Zoning, Lesson 4 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:sparkle]]Trusting “it can be converted”</h4><p>Price the land for its colour today.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:wrench]]Skipping the inspection</h4><p>On a beautiful new villa. New does not mean well built.</p><a href="#ch8">Inspection, Lesson 8 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:box]]Paying the builder upfront</h4><p>Pay by inspected milestones and keep a retention.</p><a href="#ch9">Building, Lesson 9 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:calendar]]Comparing leases without the years</h4><p>Always calculate price per remaining year.</p></div>
+</div>
+::part Legal and running
+<div class="mk-grid">
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:phone]]Running the villa on a tourist visa</h4><p>Deportation is real, and so are entry bans.</p><a href="#ch6">Visa, Lesson 6 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:key]]The wrong business code (KBLI)</h4><p>A real-estate or consulting company cannot legally rent villas to tourists.</p><a href="#ch7">Licences, Lesson 7 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:bulb]]Ignoring the 10% local tax</h4><p>Platforms do not pay it for you, and audits are increasing.</p></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:recycle]]Underestimating water, waste and rain</h4><p>They are not details in Bali. They are your reviews.</p><a href="#ch11">Day to day, Lesson 11 →</a></div>
+<div class="mk"><span class="mk-x">✕</span><h4>[[ic:refresh]]Doing it alone</h4><p>The right notary, set-up agent and inspector are the best investment you will make.</p></div>
+</div>
+<p>Avoiding these mistakes will save you money, stress and, in some cases, your entire investment.</p>
+::part Bonus: your Bali investor roadmap
+<p>From idea to first guest, in order. Tick each step before moving to the next.</p>
+<div class="checklist">
+<label class="task soft"><input type="checkbox" data-check="bali-rm-1"><span><b>1.</b> Define your guest and budget (lesson 1)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-2"><span><b>2.</b> Spend time in two shortlisted areas (lesson 2)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-3"><span><b>3.</b> Talk to a set-up agent about your PT PMA, KBLI and visa (lessons 5–6)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-4"><span><b>4.</b> Shortlist properties and check zoning on the official map (lesson 4)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-5"><span><b>5.</b> Run land due diligence with your notary (bonus checklist)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-6"><span><b>6.</b> Inspect the villa or design and permit your build (lessons 8–9)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-7"><span><b>7.</b> Negotiate and sign the lease with the clauses that protect you (lesson 3)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-8"><span><b>8.</b> Set up the company, licences and tax (lesson 7 roadmap)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-9"><span><b>9.</b> Get your investor KITAS before you manage the business on the ground</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-10"><span><b>10.</b> Design, furnish and install water filtration (lessons 10–11)</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-11"><span><b>11.</b> Hire your team or management and set up SOPs, waste and maintenance</span></label>
+<label class="task soft"><input type="checkbox" data-check="bali-rm-12"><span><b>12.</b> Shoot your photos, launch your listing with NIB and KBLI, and use the course to optimise it</span></label>
+</div>
+::task Put this roadmap in your project HQ from the course and add dates to every step
+::done You know the mistakes to avoid and have your roadmap to your first guest.
+::endlesson
+
+::group Closing
+::lesson finish | ★ | Congrats &amp; next steps | Closing | Build a life you don’t need a | vacation from |
+<div class="finale">
+<div class="fin-stars" aria-hidden="true">★★★★★</div>
+<span class="gold-k">You made it to the end</span>
+<h3>You now know more about investing in Bali than most people who already own a villa there.</h3>
+<p><strong>Take it one step at a time, surround yourself with the right people and do it properly.</strong> The island rewards those who do.</p>
+<p class="fin-sign">Farah &amp; Daniel</p>
+</div>
+<div class="vk-two">
+<div class="vk-card"><div class="vk-tag tag-t">Want help with your Bali project?</div><h4>Book a 1-on-1 Bali strategy call</h4><p>If you want a second opinion on a property, help choosing your area or an introduction to our partners, you can book a call with one of us.</p><a class="btn" href="https://ig.me/m/6figurehost" target="_blank" rel="noopener" style="margin-top:6px">Ask us about a call</a></div>
+<div class="vk-card"><div class="vk-tag tag-t">Stay connected</div><h4>Share your Bali journey</h4><p>We’d love to follow your journey and cheer you on. Send us your wins and your questions.</p><a class="btn" href="https://ig.me/m/6figurehost" target="_blank" rel="noopener" style="margin-top:6px">Message us on Instagram</a></div>
+</div>
+::part Sources
+<p>Facts and figures in this guide come from the following public sources, checked in October 2026. Rules in Indonesia change often: always confirm with a licensed professional.</p>
+<ol class="srcs">
+<li>BPS Bali, foreign arrivals Jan–Dec 2025 (Feb 2026): bali.bps.go.id</li>
+<li>AirROI, Bali Airbnb market data, 12 months to Sep 2026: airroi.com</li>
+<li>Colliers via Real Estate Asia, Bali hotel room supply (Oct 2023): realestateasia.com</li>
+<li>Bali Home Immo, Bali land prices 2026 (Sep 2026): bali-home-immo.com</li>
+<li>Emerhub, BKPM Regulation No. 5 of 2025, minimum paid-up capital (Oct 2025): emerhub.com</li>
+<li>XPND, Investor KITAS 2026 requirements: xpnd.co.id</li>
+<li>Bali Villa Realty, ownership titles and due diligence; tap water guide: balivillarealty.com</li>
+<li>Bali Exception, land zones in Bali explained: baliexception.com</li>
+<li>The Jakarta Post, ban on villa and hotel construction on agricultural land (Sep 2025): thejakartapost.com</li>
+<li>Bali Villa Realty, governor’s Airbnb proposal and enforcement (Dec 2025): balivillarealty.com</li>
+<li>Legal Indonesia, Airbnb Bali licensing and taxes 2026: legalindonesia.id</li>
+<li>House of Reservations, KBLI codes and OTA requirements (Feb 2026): houseofreservations.com</li>
+<li>Bali Property Scout, delisting enforcement 2026: balipropertyscout.com</li>
+<li>Livuma, Bali villa listings after the August 2026 OTA deadline (Oct 2026): livuma.com</li>
+<li>ANTARA, Suwung landfill and waste-to-energy plan (Mar 2026): en.antaranews.com</li>
+<li>Asia News Network, Bali trash issues after landfill closure (Apr 2026): asianews.network</li>
+<li>INP Polri, Australian deported for promoting a villa on a VoA (Sep 2024): inp.polri.go.id</li>
+</ol>
+::done You finished the Bali Host Guide.
+::endlesson
