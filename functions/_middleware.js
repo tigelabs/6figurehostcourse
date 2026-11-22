@@ -4,7 +4,7 @@ import { readSession, getCode, productsOf } from '../src/lib.js';
 
 const COURSE = '/hostcourse';
 const COURSE_PUBLIC = new Set([
-  '/hostcourse/login', '/hostcourse/login.html', '/hostcourse/img/cover.webp',
+  '/hostcourse/login', '/hostcourse/login.html', '/hostcourse/img/cover.webp', '/hostcourse/img/login-cover.webp',
 ]);
 
 export async function onRequest(context) {

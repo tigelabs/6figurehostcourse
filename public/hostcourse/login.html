@@ -13,7 +13,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{font-family:Arimo,Arial,sans-serif;color:var(--ink);background:var(--stone);display:grid;grid-template-columns:1.05fr 1fr;min-height:100vh}
-.art{position:relative;background:var(--green) url("img/cover.webp") center/cover no-repeat;display:flex;align-items:flex-end;padding:48px}
+.art{position:relative;background:var(--green) url("img/login-cover.webp") center/cover no-repeat;display:flex;align-items:flex-end;padding:48px}
 .art:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(49,58,51,.25) 0%,rgba(49,58,51,.92) 78%)}
 .art>div{position:relative;color:#fff;max-width:440px}
 .brand{display:flex;align-items:baseline;gap:10px;margin-bottom:18px}
@@ -51,7 +51,7 @@ button[disabled]{opacity:.6;cursor:wait}
 </div></section>
 <main><form class="card" id="f" autocomplete="off" novalidate>
 <span class="eyebrow">Welcome</span>
-<h1>Enter your <em>access code</em></h1>
+<h1>Enter your<em style="display:block">access code</em></h1>
 <p class="lead">You’ll find your personal code in the welcome email we sent after your purchase. You only need to enter it once on each device.</p>
 <label for="code">Access code</label>
 <input id="code" name="code" placeholder="HOST-XXXX-XXXX" maxlength="20" spellcheck="false" autocapitalize="characters" required>
