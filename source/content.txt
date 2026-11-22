@@ -312,7 +312,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p class="ba-cap">After: the kitchen and dining area are still there, and next to them the new bedroom, with its own balcony.</p>
 <p><strong>Why we did it</strong></p>
 <p>We noticed that most people who rent an individual bedroom spend very little time in the shared areas. They mostly stay in their own room. So even though a very big living room looks great, it doesn’t earn anything. One more bedroom means one more guest, and one more rent every month.</p>
-<p>Once again, it was Daniel’s idea, and once again Farah thought he was crazy. Today, <strong>this room earns us around €900 extra a month.</strong></p>
+<p>It was Daniel’s idea, and Farah thought he was crazy. Today, <strong>this room earns us around €900 extra a month.</strong></p>
 <p class="hd-big">Empty space doesn’t pay. A bedroom does.</p>
 <p><small>As with any change to the layout, agree it with the owner in writing first. Here we did it as part of extending the contract.</small></p>
 </details>
@@ -465,8 +465,7 @@ Name the source for every number, and say clearly when you are estimating. If yo
 ::lesson ch6 | 06 | Pitch landlords | Part 1 · Lesson 6 | Pitch | landlords | If you want to legally sublet (rental arbitrage).
 ::part Why landlords say yes
 ::h Why landlords say yes | (&amp; how to position your offer)
-@p42-43
-<p class="hd-open">Most people think landlords would never allow this. Why would they let you rent a place just to sublet it on platforms like Airbnb? <strong>But smart landlords would actually love to work with professional renters. Why? Because you solve their biggest headaches.</strong></p>
+<p class="hd-open">Most people assume landlords will say no to subletting. Why would they let you rent their place just so you can rent it out again? <strong>But smart landlords would actually love to work with professional renters, because you solve their biggest headaches.</strong></p>
 <h4 class="tc">Focus on their biggest fear: bad tenants</h4>
 <div class="hd-grid">
 <figure><img src="img/obj-dirty.webp" width="387" height="478" decoding="async" loading="lazy" alt="A home left dirty and neglected: regular tenants don’t always treat it well, and the owner only finds out when they move out."></figure>
@@ -476,12 +475,12 @@ Name the source for every number, and say clearly when you are estimating. If yo
 </div>
 <p><strong>Now compare that to renting to you, a professional renter.</strong> The landlord can count on:</p>
 <ul class="hd-ticks"><li>Guaranteed rent, no late payments</li><li>A property kept in top condition</li><li>Professional cleaning after every stay</li><li>Instant expert repairs in case of damage</li><li>Exterior security cameras</li><li>Guest screening protocols</li><li>Regular property inspections</li></ul>
+<div class="pboxes"><div class="pbox"><p><strong>Show them your systems.</strong> Walk them through your cleaning checklist, guest rules and communication templates (you’ll find them all in this course), and make clear you respect the neighbours: screened guests, house rules and quiet hours. That shows you run a real business, and it gives them peace of mind.</p></div></div>
 <div class="hd-box"><p class="hd-label">Your biggest argument to convince a landlord</p><p><strong>The better you look after the property, the more 5&#8209;star reviews you get, the more profit. You need the home to stay in excellent condition for this to work.</strong></p><p>That’s why your interests and the landlord’s are the same: a guest who finds a dirty or damaged home leaves a bad review, and bad reviews cost you money. So you take better care of their property than almost any tenant would. Reviews like this one are what you work for:</p><figure class="hd-rev"><img src="img/rev-iveta.webp" width="944" height="514" decoding="async" loading="lazy" alt="Guest review from Iveta, Australia, five stars: Absolutely amazing! The way the place is so clean and customer oriented and detailed is unbelievable. You can see that hosts put their heart in it and it’s great for people who value quality. Absolutely recommend!"></figure></div>
 <div class="pboxes"><div class="pbox"><p><strong>It’s a win-win:</strong> they get zero headaches, and you get a home you can legally sublet for profit. But it won’t work if you just message them: <em>“Hi, can I do Airbnb?”</em> You have to sell the idea, show them the benefits and make it an easy yes. You might message 10 landlords and get only 1 yes, but 1 yes is all you need.</p></div></div>
-<h4 class="tc">Pitch coliving, not “Airbnb”</h4>
-<p><strong>Leave the word “Airbnb” out of your pitch.</strong> For many owners it’s a trigger word: parties, noise and wear and tear. Airbnb is just one of the platforms you might use anyway. Talk about what you actually do: renting out a furnished home to verified guests, with the rent guaranteed and the property professionally looked after.</p>
-<p><strong>Even better: pitch it as coliving.</strong> Coliving is getting more and more popular, and many landlords are open to it, especially for big apartments they find hard to rent. Come as a professional renter and say <em>“I want to set it up as a coliving space”</em>, and you will find owners who say yes.</p>
-<p>It’s also where we make the most profit. <strong>We rent out every bedroom individually instead of the apartment as a whole</strong>, and the rooms together bring in much more than the rent we pay for the entire apartment.</p>
+<h4 class="tc">Pitch it as coliving</h4>
+<p>Leave the word “Airbnb” out of your pitch: for many owners it means parties, noise and wear and tear. <strong>Pitch it as coliving instead.</strong> Coliving is getting more and more popular, and many landlords are open to it, especially for big apartments they struggle to rent. Tell them you want to set it up as a coliving space for verified guests, with the rent guaranteed and the home professionally looked after.</p>
+<p>It’s also where we make the most profit: <strong>we rent out every bedroom individually</strong>, and together the rooms bring in much more than the rent for the whole apartment.</p>
 <h4 class="tc">Who you’re actually pitching to</h4>
 <p>Think about who rents out a second home. Often it’s a business owner or someone who has done well financially. People like that are often more open-minded about a business idea, and they understand the value of someone who runs things professionally.</p>
 <h4 class="tc">Before you pitch: two case studies</h4>
@@ -493,14 +492,15 @@ Name the source for every number, and say clearly when you are estimating. If yo
 <p>That’s your opening. You do the same thing those tenants would do, but legally, professionally and with everything organised and under control. You rent the whole apartment, furnish it, give it a fresh coat of paint, and rent out the rooms one by one: as coliving or mid-term stays, or short-term where the law allows it. <strong>The owner gets the entire apartment rented on one contract</strong>, rent on time, and a home that is painted and maintained far more often than with a normal tenant.</p>
 <p><strong>Our example: from 4 to 6 bedrooms</strong></p>
 <p>One of our latest apartments, very central, had 4 bedrooms and a huge living room. We added 2 bedrooms with one simple wall and an extra shower room, and it became our most profitable apartment. See the full story, with before and after photos, in <a href="#ch3">Lesson 3</a>.</p>
-<p><strong>What to look for in Europe</strong></p>
-<ul><li><strong>4 to 6 bedrooms</strong>, at least 3.</li><li><strong>The numbers room by room.</strong> You’ll rent out each bedroom individually, like coliving, so divide the monthly rent by the number of bedrooms and compare that with what one room rents for in the area.</li><li><strong>Furnished or unfurnished</strong>: an empty apartment means a furniture budget, but often a cheaper rent and a more motivated owner.</li><li><strong>Enough bathrooms</strong> for the number of rooms, or space to add one.</li><li><strong>Wasted space</strong>, like an oversized living room, that can become an extra bedroom.</li></ul>
+<p><strong>What to look for in Europe if you want to do coliving</strong></p>
+<ul><li><strong>4 to 6 bedrooms</strong>, at least 3, so you have enough rooms to rent out individually.</li><li><strong>The numbers room by room.</strong> You’ll rent out each bedroom individually, like coliving, so divide the monthly rent by the number of bedrooms and compare that with what one room rents for in the area.</li><li><strong>Furnished or unfurnished</strong>: an empty apartment means a furniture budget, but often a cheaper rent and a more motivated owner.</li><li><strong>Enough bathrooms</strong> for the number of rooms, or space to add one.</li><li><strong>Wasted space</strong>, like an oversized living room, that can become an extra bedroom.</li></ul>
 </details>
 <details class="obj tpl case"><summary><span><small>Case study · Asia</small>Bali: much easier to get a yes</span></summary>
 <p><strong>A completely different market</strong></p>
-<p>In Bali, it’s much easier to convince an owner to rent a house, or a floor of a house, to you so you can rent it out on platforms like Airbnb, as long as your company and paperwork are in order. The number of bedrooms matters much less: one, two, three or four bedrooms can all work, <strong>as long as the rent makes sense for the return you can get.</strong></p>
+<p>In Bali, renting a property and subletting it legally is very common, so you don’t need much convincing, as long as your company and paperwork are in order. The number of bedrooms matters much less too: one to four bedrooms can all work, <strong>as long as the rent makes sense for the return you can get.</strong></p>
+<p>The catch: <strong>you pay much more up front.</strong> In Bali you don’t rent a place month to month.</p>
 <p><strong>How it works: leasehold</strong></p>
-<p>Most properties in Bali work with a different system: <strong>leasehold</strong>. You don’t buy the property forever, you buy the right to use it for a fixed number of years, often 25. You pay up front, and when the lease ends, the property goes back to the original owner, together with everything you built or improved on it.</p>
+<p>Most properties are rented on a <strong>leasehold</strong>: you pay for a fixed number of years in one go, often 25. When the lease ends, the property goes back to the owner, together with everything you built or improved on it.</p>
 <p>You can also find leases for fewer years. We first took Casa Mewali (our small boutique villa, where we also rent out the rooms individually) for <strong>3 years</strong>, with the right to extend written into the contract. Because you’re not paying the price of buying a property, it was still very affordable.</p>
 <p><strong>Why we chose Casa Mewali: built for coliving</strong></p>
 <p>We chose Casa Mewali because its setup is perfect for our coliving model: a shared pool with individual bedrooms around it. Instead of trying to rent out the entire villa, we divide it up and rent out the bedrooms one by one.</p>
