@@ -429,8 +429,19 @@ Name the source for every number, and say clearly when you are estimating. If yo
 ::h Why landlords say yes | (&amp; how to position your offer)
 @p42-43
 <h4 class="tc">Focus on their biggest fear: bad tenants</h4>
-<p>This is the part to build your pitch around. Many homeowners, especially experienced ones, have had real problems with tenants: rent paid late or not at all, a property left in a mess, damage they only discover when the contract ends, and tenants who simply don’t respect their home. For a lot of owners, that’s a constant worry.</p>
-<p><strong>That’s exactly what you solve.</strong> You offer them a better alternative and more peace of mind: professional renters, without the usual risks of normal tenants. The rent comes in on time, the place is cleaned and maintained by professionals, and there is always one person they can call.</p>
+<p>Most people think landlords would never allow this. Why would they let you rent a place just to sublet it on platforms like Airbnb? <strong>But smart landlords would actually love to work with professional renters. Why? Because you solve their biggest headaches.</strong></p>
+<div class="hd-grid">
+<figure><img src="img/obj-dirty.webp" width="387" height="478" decoding="async" loading="lazy" alt="A home left dirty and neglected: regular tenants don’t always treat it well, and the owner only finds out when they move out."></figure>
+<figure><img src="img/obj-rent.webp" width="387" height="478" decoding="async" loading="lazy" alt="Late or missed rent: the risk of chasing a tenant for the rent every month. No landlord wants that."></figure>
+<figure><img src="img/obj-damage.webp" width="387" height="478" decoding="async" loading="lazy" alt="Damage and deposit fights: who pays for what? Move-out often ends in an argument over the deposit."></figure>
+<figure><img src="img/obj-neighbors.webp" width="387" height="478" decoding="async" loading="lazy" alt="Neighbor complaints: noise, parties, people coming and going. And the landlord is the one who gets the angry call."></figure>
+</div>
+<p><strong>Now compare that to renting to you, a professional renter.</strong> The landlord can count on:</p>
+<ul class="hd-ticks"><li>Guaranteed rent, no late payments</li><li>A property kept in top condition</li><li>Professional cleaning after every stay</li><li>Instant expert repairs in case of damage</li><li>Exterior security cameras</li><li>Guest screening protocols</li><li>Regular property inspections</li></ul>
+<p class="hd-label">Your biggest argument to convince a landlord</p>
+<p class="hd-big">The better you look after the property, the more 5&#8209;star reviews you get, the more profit. You need the home to stay in excellent condition for this to work.</p>
+<figure class="hd-rev"><blockquote><p><span class="hd-stars" aria-label="5 stars">★★★★★</span>Absolutely amazing! The way the place is so, so clean and customer oriented and detailed is unbelievable. You can see that the hosts put their heart in it, and it’s great for people who value quality. Absolutely recommend!</p></blockquote><figcaption>Iveta, Australia · guest review</figcaption></figure>
+<div class="pboxes"><div class="pbox"><p><strong>It’s a win-win:</strong> they get zero headaches, and you get a home you can legally sublet for profit. <strong>But it won’t work if you just message them: “Hi, can I do Airbnb?”</strong> You have to sell the idea, show them the benefits and make it an easy yes. You might message 10 landlords and get only 1 yes, but 1 yes is all you need.</p></div></div>
 <h4 class="tc">Who you’re actually pitching to</h4>
 <p>Think about who rents out a second home. Often it’s a business owner or someone who has done well financially. People like that are often more open-minded about a business idea, and they understand the value of someone who runs things professionally.</p>
 <p>Your first thought might be: <em>“Which owner would ever allow this?”</em> But honestly, with a good pitch and a clear explanation, it’s very possible. Owners say yes more often than you think.</p>
