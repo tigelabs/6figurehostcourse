@@ -47,6 +47,7 @@
       set('bar', 'The new interactive 6-Figure Host Course: one payment of ' + m(297) + ', or ' + n + ' × ' + m(P.split) + '.');
       set('headline', '');
     }
+    set('mc-note', '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course' + (phase === 'after' ? ': <b>' + m(297) + '</b>.' : (bf ? '. Black Friday price: <b><s>' + m(297) + '</s> ' + m(197) + '</b>, until 30 November.' : '. On Black Friday (27 to 30 November): <b><s>' + m(297) + '</s> ' + m(197) + '</b>.')));
     show('countdown', phase !== 'after');
     show('headline', phase !== 'after');
     $$('[data-o="cur"] button').forEach(function (b) { b.setAttribute('aria-checked', b.getAttribute('data-cur') === O.cur ? 'true' : 'false'); });

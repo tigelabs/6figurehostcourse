@@ -311,6 +311,10 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .mcv-cta .cta{width:auto;align-self:stretch;margin:0 18px}
 .mcv-proof{gap:10px 22px;margin-top:28px}
 }
+.mcv-note{max-width:760px;margin:14px auto 0;font-size:14px;line-height:1.5;color:#cfc8bf}
+.mcv-note b{color:var(--cream)}
+.mcv-note s{color:#cfc8bf;text-decoration-color:#D9773A;margin-right:4px;font-weight:400}
+@media (max-width:700px){.mcv-note{padding:0 18px}}
 
 /* ---------- home page ---------- */
 .pg{--green:#313A33;--yellow:#E6CB8F;--stone:#E2DDD8;--paperx:#F4F2EF}
