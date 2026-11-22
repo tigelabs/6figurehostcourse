@@ -297,9 +297,6 @@ At the end, add a short summary I can copy into my notes, in this format:
 <div class="ba"><figure><img src="img/pa-laundry-before.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Before: the old, dark laundry area with a washing machine and clutter"><figcaption class="ba-b">Before</figcaption></figure><figure><img src="img/pa-shower-after.webp" width="1000" height="750" decoding="async" loading="lazy" alt="After: the new shower room with a glass shower and patterned floor tiles"><figcaption class="ba-a">After</figcaption></figure></div>
 <p><strong>Pretty sells</strong></p>
 <p>Just by making it aesthetic and pretty, you can ask <strong>20% to 30% more</strong>, without doing a crazy renovation. White walls, warm lights, simple wooden furniture and nice bedding do most of the work.</p>
-<p>We did the same in Bali with Casa Mewali, our small boutique villa. We got it for a good price and only made small upgrades: a special paint effect on the walls and nice decoration. We didn’t spend a lot, but because pretty sells, we can earn more with it. Watch the before and after:</p>
-<div class="reel"><iframe src="https://www.instagram.com/reel/DKHxcYhKZSa/embed" title="Casa Mewali before and after, on Instagram" loading="lazy" allowtransparency="true" allowfullscreen scrolling="no"></iframe></div>
-<p class="ba-cap"><a href="https://www.instagram.com/reel/DKHxcYhKZSa/" target="_blank" rel="noopener">Open the video on Instagram</a></p>
 <p><strong>Our smallest room is our most popular one</strong></p>
 <p>We even have one bedroom that is super small. It has no window, not even an inner window. And it’s our most popular bedroom, just because the price is lower, and a lot of people are looking in that budget.</p>
 <div class="ba"><figure><img src="img/pa-tiny-a.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Our smallest bedroom: a single bed, a bamboo ladder and a portable air conditioner, no window"></figure><figure><img src="img/pa-tiny-b.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The smallest bedroom from the other side, with a desk, lamp and laundry basket"></figure></div>
@@ -671,6 +668,16 @@ Looking forward to hearing your thoughts,
 <li>Overbuying before you know what guests care about</li></ul></div>
 </div>
 <div class="vk-tip"><b>Start simple, but start smart.</b> The essentials are your non-negotiable foundation. They make the place feel like home. Prioritize comfort, flow and design, and build from there.</div>
+<details class="obj tpl case"><summary><span><small>Example · long-term stays</small>A bedroom that has everything a guest needs</span></summary>
+<p>One of the bedrooms in our long-term apartments in Barcelona.</p>
+<figure class="ba-big"><img src="img/br-room.webp" width="1000" height="750" decoding="async" loading="lazy" alt="A bright bedroom with a double bed, a desk, a portable air conditioner, an open clothes rack and a felt cloud board on the wall"></figure>
+<div class="ba"><figure><img src="img/br-bed.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The bed lifted open, showing a large storage space underneath"></figure><figure><img src="img/br-rack.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The desk with a lamp and welcome page next to a simple open clothes rack with wooden hangers and a basket"></figure></div>
+<p>A simple setup, but it has everything a guest needs to feel at home. That matters more than expensive furniture.</p>
+<ul><li><strong>A board for photos.</strong> A cheap felt “cloud” from Temu. Long-term guests love to put up photos, and this way they don’t stain your walls.</li><li><strong>A storage bed</strong> that lifts up, for suitcases and extra storage.</li><li><strong>A simple open clothes rack</strong>, no fancy wardrobe.</li><li><strong>A desk and chair</strong>, a bedside lamp and curtains: good lighting and curtains make a big difference.</li><li><strong>A good lock</strong> on the inside and outside of the door.</li><li><strong>A framed welcome page and a laundry basket.</strong></li></ul>
+<p>Don’t overcomplicate it with expensive or crazy furniture. It’s the small details, like a laundry basket and a place for photos, that get you 5-star reviews, because guests can see an experienced host set this up.</p>
+<figure class="ba-big"><img src="img/br-door.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The inside of the bedroom door with a chain lock, next to a hook for the room key and a wall holder for the air conditioning remote with a small label"></figure>
+<p class="ba-cap">A chain lock on the inside, a hook for the room key, and a holder for the AC remote with a short label.</p>
+</details>
 ::part Design a space that fully books
 ::h Design a space that fully books | (even on a budget)
 <p>In competitive markets, guests scroll fast. If your place doesn’t pop, it gets skipped. You don’t need expensive furniture or a stylist. You need a consistent look and good lighting.</p>
@@ -683,16 +690,9 @@ Looking forward to hearing your thoughts,
 <div class="vk-step vk-wide"><span class="vk-n">5</span><h4>Lighting is everything</h4><p>Warm bulbs, several light sources (not just the ceiling light) and a few lamps create a cozy glow. <strong>Good lighting makes your photos look 10x better.</strong></p></div>
 </div>
 <p>Even with a minimal budget, you can create a space that feels elevated. And that’s what gets clicks, bookings and five-star reviews.</p>
-<details class="obj tpl case"><summary><span><small>Example · long-term stays</small>A bedroom that has everything a guest needs</span></summary>
-<p>One of the bedrooms in our long-term apartments in Barcelona.</p>
-<figure class="ba-big"><img src="img/br-room.webp" width="1000" height="750" decoding="async" loading="lazy" alt="A bright bedroom with a double bed, a desk, a portable air conditioner, an open clothes rack and a felt cloud board on the wall"></figure>
-<div class="ba"><figure><img src="img/br-bed.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The bed lifted open, showing a large storage space underneath"></figure><figure><img src="img/br-rack.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The desk with a lamp and welcome page next to a simple open clothes rack with wooden hangers and a basket"></figure></div>
-<p>A simple setup, but it has everything a guest needs to feel at home. That matters more than expensive furniture.</p>
-<ul><li><strong>A board for photos.</strong> A cheap felt “cloud” from Temu. Long-term guests love to put up photos, and this way they don’t stain your walls.</li><li><strong>A storage bed</strong> that lifts up, for suitcases and extra storage.</li><li><strong>A simple open clothes rack</strong>, no fancy wardrobe.</li><li><strong>A desk and chair</strong>, a bedside lamp and curtains: good lighting and curtains make a big difference.</li><li><strong>A good lock</strong> on the inside and outside of the door.</li><li><strong>A framed welcome page and a laundry basket.</strong></li></ul>
-<p>Don’t overcomplicate it with expensive or crazy furniture. It’s the small details, like a laundry basket and a place for photos, that get you 5-star reviews, because guests can see an experienced host set this up.</p>
-<figure class="ba-big"><img src="img/br-door.webp" width="1000" height="750" decoding="async" loading="lazy" alt="The inside of the bedroom door with a chain lock, next to a hook for the room key and a wall holder for the air conditioning remote with a small label"></figure>
-<p class="ba-cap">A chain lock on the inside, a hook for the room key, and a holder for the AC remote with a short label.</p>
-</details>
+<p><strong>Example: Casa Mewali, our boutique villa in Bali.</strong> We got it for a good price and only made small upgrades: a special paint effect on the walls and nice decoration. We didn’t spend a lot, but because pretty sells, we can earn more with it. Watch the before and after:</p>
+<div class="reel"><iframe src="https://www.instagram.com/reel/DKHxcYhKZSa/embed" title="Casa Mewali before and after, on Instagram" loading="lazy" allowtransparency="true" allowfullscreen scrolling="no"></iframe></div>
+<p class="ba-cap"><a href="https://www.instagram.com/reel/DKHxcYhKZSa/" target="_blank" rel="noopener">Open the video on Instagram</a></p>
 ::part Guest-proof your space
 ::h How to guest-proof and make your space easy for your team to manage
 <p>Here’s the truth: things will break, guests will test your systems, and the more you grow, the more moving parts you’ll have. You want a place that <strong>runs like a well-oiled machine, even when you’re on the other side of the world.</strong></p>
