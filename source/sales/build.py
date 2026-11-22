@@ -95,7 +95,7 @@ def course_base():
     s = s.replace('inside the guide', 'inside the course').replace('Inside the guide', 'Inside the course')
     s = sub(s, '<h3 class="dp3">The interactive 6Figure Host Guide</h3>', '<h3 class="dp3">The interactive 6-Figure Host Course</h3>')
     s = sub(s, '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>',
-            '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>\n<div><h3 class="dp3">Add at checkout, if you want</h3>\n<ul class="ticks">\n<li><span>Barcelona or Bali Host Guide, $49 instead of $79</span></li>\n</ul></div>')
+            '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>\n<div><h3 class="dp3">Add at checkout, if you want</h3>\n<ul class="ticks">\n<li><span>Barcelona Host Guide, $59 instead of $79</span></li>\n<li><span>Bali Host Guide, $49 instead of $79</span></li>\n</ul></div>')
     s = sub(s, '<small>VAT included. No hidden costs. One payment, lifetime access.</small>', '<small>One payment, lifetime access. No subscription.</small>')
     s = sub(s, '<small>Digital product. No refunds after purchase.</small>', '<small>Secure payment by Stripe. Digital product, no refunds after purchase.</small>')
     s = re.sub(r'<details><summary>Can I get an invoice\?</summary>.*?</details>\n', '', s, count=1, flags=re.S)
@@ -203,7 +203,7 @@ def crosssell():
 <div class="copy">
 <h2 class="lock"><span class="sc">New to hosting?</span><span class="dp">Start with the course</span></h2>
 <p class="lead">The city guide shows you the local rules and numbers. The 6-Figure Host Course shows you how to launch, run and scale the business itself, with the host starter kit and the profit calculator included.</p>
-<div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Add any city guide at checkout for $49.</small></div>
+<div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Add a city guide at checkout from $49.</small></div>
 </div>
 <img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>
@@ -214,7 +214,7 @@ GUIDES = {
     'barcelona': dict(
         title='Barcelona Host Guide · Legal mid-term rentals in Barcelona', active='barcelona',
         desc='How to run a legal, profitable rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',
-        script='Barcelona', img='/assets/sales/bcn-cover.webp', imgw=675, imgh=1200, imgalt='Rooftops of Barcelona at sunset with the Sagrada Família in the distance',
+        script='Barcelona', price=59, img='/assets/sales/bcn-cover.webp', imgw=675, imgh=1200, imgalt='Rooftops of Barcelona at sunset with the Sagrada Família in the distance',
         pill='Interactive guide + mid-term rental toolkit',
         lead='How to run a <b>legal, profitable rental business</b> in Barcelona with mid-term stays, and copy the model to any city in Europe.',
         ticks=['<b>Understand the rules</b>: the 32-day rule, tourist licences and the 2028 deadline, and the 2026 Catalan law.',
@@ -242,7 +242,7 @@ GUIDES = {
     'bali': dict(
         title='Bali Host Guide · Invest in a villa rental in Bali, legally', active='bali',
         desc='How to legally invest, build and run a profitable villa rental in Bali, even as a foreigner.',
-        script='Bali', img='/assets/sales/bali-cover.webp', imgw=673, imgh=1200, imgalt='A modern villa with a pool deck at sunset',
+        script='Bali', price=49, img='/assets/sales/bali-cover.webp', imgw=673, imgh=1200, imgalt='A modern villa with a pool deck at sunset',
         pill='Interactive guide + Bali investor toolkit',
         lead='How to <b>legally invest, build and run</b> a profitable villa rental in Bali, even as a foreigner.',
         ticks=['<b>Know what you can own</b>: freehold, leasehold, Hak Pakai and HGB, and why the colour of the land decides everything.',
@@ -273,7 +273,7 @@ GUIDES = {
 def guide_page(key):
     g = GUIDES[key]
     href = '/checkout?item=%s' % key
-    hero = '''<div class="bar"><div class="in"><p><b>Launch offer.</b> The new interactive %s guide is live. Get it for $49 instead of $79.</p><a href="%s">Start today</a></div></div>
+    hero = '''<div class="bar"><div class="in"><p><b>Launch offer.</b> The new interactive %s guide is live. Get it for $%d instead of $79.</p><a href="%s">Start today</a></div></div>
 <header class="hero">
 <div class="in">
 <div class="txt">
@@ -281,11 +281,11 @@ def guide_page(key):
 <h1><span class="sc">%s</span><span class="dp">Host Guide</span></h1>
 <p class="lead">%s</p>
 <ul class="ticks">%s</ul>
-<div class="ctawrap"><a class="cta" href="%s">Get instant access for $49</a><small>Secure checkout. Lifetime access. Works on phone and laptop.</small></div>
+<div class="ctawrap"><a class="cta" href="%s">Get instant access for $%d</a><small>Secure checkout. Lifetime access. Works on phone and laptop.</small></div>
 </div>
 <div class="stage"><img class="photo" src="%s" width="%d" height="%d" alt="%s"></div>
 </div>
-</header>''' % (g['script'], href, g['pill'], g['script'], g['lead'], ''.join('<li><span>%s</span></li>' % t for t in g['ticks']), href, g['img'], g['imgw'], g['imgh'], g['imgalt'])
+</header>''' % (g['script'], g['price'], href, g['pill'], g['script'], g['lead'], ''.join('<li><span>%s</span></li>' % t for t in g['ticks']), href, g['price'], g['img'], g['imgw'], g['imgh'], g['imgalt'])
     truth = '''<section class="sec sand"><div class="in two">
 <div><div class="head"><h2 class="lock"><span class="sc b">%s</span><span class="dp">%s</span></h2></div><div class="copy">%s</div><p class="lead" style="margin-top:24px">%s</p></div>
 <img src="%s" alt="%s" style="width:100%%;aspect-ratio:4/5;object-fit:cover" loading="lazy">
@@ -293,15 +293,15 @@ def guide_page(key):
     parts = '''<section class="sec night"><div class="in">
 <div class="head"><h2 class="lock"><span class="sc">The guide</span><span class="dp">Three parts, %d lessons</span></h2><p class="lead narrow">Read it in order: first you understand the rules, then you set up the legal model, then you run and scale it. Every lesson ends with a task.</p></div>
 <div>%s</div>
-<div class="ctawrap" style="margin-top:48px"><a class="cta" href="%s">Get instant access for $49</a><small>Secure checkout. Lifetime access.</small></div>
+<div class="ctawrap" style="margin-top:48px"><a class="cta" href="%s">Get instant access for $%d</a><small>Secure checkout. Lifetime access.</small></div>
 </div></section>''' % (sum(len(p[3]) for p in g['parts']), ''.join(
         '<div class="part"><div><div class="sc">%s</div><h3 class="dp3">%s</h3></div><div><p>%s</p><ul class="chs">%s</ul></div></div>' % (a, b, c, ''.join('<li><span class="n">%02d</span><span>%s</span></li>' % (n, t) for n, t in d))
-        for a, b, c, d in [(p[0], p[1], p[2], list(zip(range(1 + sum(len(q[3]) for q in g['parts'][:i]), 100), p[3]))) for i, p in enumerate(g['parts'])]), href)
+        for a, b, c, d in [(p[0], p[1], p[2], list(zip(range(1 + sum(len(q[3]) for q in g['parts'][:i]), 100), p[3]))) for i, p in enumerate(g['parts'])]), href, g['price'])
     feats = '''<section class="sec"><div class="in">
 <div class="head"><h2 class="lock"><span class="sc b">Not a PDF</span><span class="dp">A guide you work inside</span></h2><p class="lead narrow">It opens in your browser, remembers where you stopped and does the maths for you. The PDF is included too.</p></div>
 <ul class="feat">%s</ul>
 </div></section>''' % ''.join('<li><h3 class="dp3">%s</h3><p>%s</p></li>' % f for f in g['feats'])
-    body = '\n'.join([hero, truth, parts, feats, offer('The interactive %s Host Guide' % g['script'], g['items'], 79, 49, href, 'Secure payment by Stripe. Add the Profit &amp; ROI Calculator at checkout for $27.'), crosssell(), faq(g['faq'])])
+    body = '\n'.join([hero, truth, parts, feats, offer('The interactive %s Host Guide' % g['script'], g['items'], 79, g['price'], href, 'Secure payment by Stripe. Add the Profit &amp; ROI Calculator at checkout for $27.'), crosssell(), faq(g['faq'])])
     return page(key + '/', g['title'], g['desc'], body, g['active'])
 
 
