@@ -3,11 +3,13 @@
 // Buyers see USD plus their local currency (Stripe Adaptive Pricing).
 // "extras" are the city guides ticked as add-ons on the checkout page.
 import { stripe, priceFor, json, SKUS } from '../../../src/lib.js';
-import { coursePrice, SPLIT_MONTHS } from '../../../src/offer.js';
+import { coursePrice, SPLIT_MONTHS, phase } from '../../../src/offer.js';
 
 export async function onRequestPost({ request, env }) {
   let b = {}; try { b = await request.json(); } catch {}
   const main = SKUS.includes(b.item) ? b.item : 'course';
+  // The new course launches on Black Friday (27 November): no course sales before that.
+  if (main === 'course' && phase() === 'pre') return json({ error: 'The new 6-Figure Host Course launches on Black Friday, 27 November.' }, 403);
   const split = main === 'course' && b.plan === 'split';
   const skus = [main];
   // Add-ons: the calculator only with a guide (it is already in the course). City guides are "coming soon".

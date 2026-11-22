@@ -69,6 +69,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 .cd-u b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:20px;line-height:1}
 .cd-u i{font-style:normal;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#d9d2c9;margin-top:2px}
 .curt{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin:-6px 0 12px;font-size:13px;color:var(--muted)}.cur{display:inline-flex;background:#EFEDEA;border-radius:999px;padding:3px}.cur button{all:unset;cursor:pointer;font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px}.cur button[aria-checked="true"]{background:var(--ink);color:#fff}
+.soonbox{border:1.5px dashed var(--terra);background:#FBF6F3;border-radius:14px;padding:22px;text-align:center}.soonbox p{margin:6px 0 0}
 .secure{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:14px}
 .fine{max-width:1080px;margin:16px auto 0;color:#bdb5ad;font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .fine a{color:#bdb5ad}
@@ -185,7 +186,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   var stripe=null,current=null,timer=null,seq=0;
   function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
   function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
-  function load(){var my=++seq;fail('');$('checkout').classList.add('loading');
+  function load(){if(main==='course'&&OF.start&&Date.now()<OF.start){$('checkout').innerHTML='<div class="soonbox"><b>Coming soon: 27 November</b><p>The new 6-Figure Host Course launches on Black Friday, 27 November, at '+money(197)+' instead of '+money(297)+'. Come back then!</p></div>';return}var my=++seq;fail('');$('checkout').classList.add('loading');
     fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:plan==='split'?[]:extras,plan:plan,currency:OF.cur||'usd'})})
     .then(function(r){return r.json()}).then(function(d){
       if(my!==seq)return;

@@ -105,7 +105,7 @@ PRICING = """<div class="pricing" id="pricing">
 <p class="pr-sub">The lowest total price.</p>
 <p class="pr-save" data-o="save">Lifetime access, no subscription</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta" href="/checkout">One-time payment</a>
+<a class="cta" href="/checkout" data-buy="One-time payment">One-time payment</a>
 </div>
 <div class="pr-card">
 <h3>Split pay</h3>
@@ -114,7 +114,7 @@ PRICING = """<div class="pricing" id="pricing">
 <p class="pr-sub" data-o="tot2">$316 total, paid monthly</p>
 <p class="pr-save pr-save2" data-o="split-note">Start today, pay in 4 months</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta ghost" href="/checkout?plan=split">Split pay</a>
+<a class="cta ghost" href="/checkout?plan=split" data-buy="Split pay">Split pay</a>
 </div>
 </div>
 <p class="pr-note">Secure payment by Stripe. Digital product, no refunds after purchase.</p>
@@ -427,7 +427,16 @@ def masterclass_page():
 <h1 class="mcv-h">Build a profitable rental business<span>with or without owning property</span></h1>
 <p class="mcv-lead">Ten years of hosting in Barcelona and Bali, in one free class. Watch it, then take the full step-by-step system with you.</p>
 <div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
-<ul class="mcv-proof" aria-label="About us"><li><b>10</b>years hosting</li><li><b>8</b>homes in 2 countries</li><li><b>5.0</b>guest rating</li></ul>
+</div>
+</section>
+<section class="sec">
+<div class="in two flip mc-us">
+<img src="/assets/sales/us-sunset.webp" width="450" height="600" alt="Farah and Daniel at sunset in Bali" loading="lazy">
+<div class="copy">
+<h2 class="lock"><span class="sc b">Our story</span><span class="dp">From a couch to homes around the world</span></h2>
+<p>We met in 2017 as housemates in a shared flat in Barcelona. Farah sublet her bedroom and slept on the couch. One apartment turned into five, then came Bali, and we still don’t own a single one of them.</p>
+<ul class="mcv-proof dark" aria-label="Where we are today"><li><b>10</b>years hosting</li><li><b>8</b>homes in 2 countries</li><li><b>5.0</b>guest rating</li></ul>
+</div>
 </div>
 </section>
 <section class="sec sand">

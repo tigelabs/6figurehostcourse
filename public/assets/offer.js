@@ -28,7 +28,7 @@
     var bf = phase === 'bf', n = O.months;
     set('price', bf ? '<s>' + m(297) + '</s> ' + m(197) : m(297));
     set('price-plain', m(P.one));
-    set('cta', 'Get instant access for ' + m(P.one));
+    set('cta', phase === 'pre' ? 'Coming soon: 27 November' : 'Get instant access for ' + m(P.one));
     set('was1', bf ? '<s>' + m(297) + '</s>' : '');
     set('now1', m(P.one));
     set('save', bf ? 'Black Friday: you save ' + m(100) : 'Lifetime access, no subscription');
@@ -47,7 +47,13 @@
       set('bar', 'The new interactive 6-Figure Host Course: one payment of ' + m(297) + ', or ' + n + ' × ' + m(P.split) + '.');
       set('headline', '');
     }
-    set('mc-note', '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course' + (phase === 'after' ? ': <b>' + m(297) + '</b>.' : (bf ? '. Black Friday price: <b><s>' + m(297) + '</s> ' + m(197) + '</b>, until 30 November.' : '. On Black Friday (27 to 30 November): <b><s>' + m(297) + '</s> ' + m(197) + '</b>.')));
+    set('mc-note', phase === 'pre'
+      ? '*In the video we talk about our old guide and its price. We’re upgrading that guide into a full course, so the old guide and its price are no longer available. The new 6-Figure Host Course launches on <b>Black Friday, 27 November</b>, at <b><s>' + m(297) + '</s> ' + m(197) + '</b> until 30 November.'
+      : bf ? '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b><s>' + m(297) + '</s> ' + m(197) + '</b> until 30 November.'
+      : '*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>' + m(297) + '</b>.');
+    // Before Black Friday the course is not on sale yet: buy buttons say "Coming soon".
+    $$('a[data-buy]').forEach(function (a) { var pre = phase === 'pre'; a.textContent = pre ? 'Coming soon: 27 November' : a.getAttribute('data-buy'); a.classList.toggle('is-soon', pre); if (pre) a.setAttribute('aria-disabled', 'true'); else a.removeAttribute('aria-disabled'); });
+    $$('a[href*="/checkout"]').forEach(function (a) { var h = a.getAttribute('href'); var course = !/item=(calculator|barcelona|bali)/.test(h); if (course && phase === 'pre') { a.classList.add('is-soon'); a.setAttribute('aria-disabled', 'true'); } });
     show('countdown', phase !== 'after');
     show('headline', phase !== 'after');
     $$('[data-o="cur"] button').forEach(function (b) { b.setAttribute('aria-checked', b.getAttribute('data-cur') === O.cur ? 'true' : 'false'); });
@@ -59,7 +65,7 @@
     document.documentElement.setAttribute('data-phase', phase);
   }
   O.setCur = function (c) { O.cur = c; try { localStorage.setItem('fh_cur', c); } catch (e) {} fill(); if (O.onchange) O.onchange(); };
-  document.addEventListener('click', function (e) { var b = e.target.closest && e.target.closest('[data-o="cur"] button'); if (b) O.setCur(b.getAttribute('data-cur')); });
+  document.addEventListener('click', function (e) { var soon = e.target.closest && e.target.closest('a.is-soon'); if (soon) { e.preventDefault(); return; } var b = e.target.closest && e.target.closest('[data-o="cur"] button'); if (b) O.setCur(b.getAttribute('data-cur')); });
 
   function tick() {
     var target = phase === 'pre' ? START : END;
