@@ -424,7 +424,7 @@ def masterclass_page():
 <p class="mcv-k"><span class="sc">Free masterclass</span></p>
 <div class="mcv-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass with Farah and Daniel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
 <p class="mcv-note" data-o="mc-note">*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>$297</b>.</p>
-<h1 class="mcv-h">From broke to homes around the world</h1>
+<h1 class="mcv-h">From sleeping on the couch to homes around the world</h1>
 <p class="mcv-lead">Everything we learned in ten years of hosting, in one free class.</p>
 <div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
 </div>
@@ -434,7 +434,7 @@ def masterclass_page():
 <img src="/assets/sales/us-mc.webp" width="675" height="844" alt="Farah and Daniel together" loading="lazy">
 <div class="copy">
 <h2 class="lock"><span class="sc b">Our story</span><span class="dp">From a couch to homes around the world</span></h2>
-<p>We met in 2017 as housemates in a shared flat in Barcelona. Farah sublet her bedroom and slept on the couch. One apartment turned into five, then came Bali, and we still don’t own a single one of them.</p>
+<p>We met in 2017 as housemates in a shared flat in Barcelona. Farah sublet her bedroom and slept on the couch. One apartment turned into five, then came multiple properties in Bali, and we still don’t own a single one of them.</p>
 </div>
 </div>
 </section>
