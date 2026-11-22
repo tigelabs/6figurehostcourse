@@ -3,62 +3,161 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Checkout · 6-Figure Host</title>
+<title>Checkout · 6-Figure Host Course</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
 <script src="https://js.stripe.com/v3/"></script>
 <style>
-.grid{display:grid;grid-template-columns:1fr 1.15fr;gap:34px;align-items:start}
-.sum .price{font-family:Anton,Impact,sans-serif;font-size:40px;margin:6px 0 2px}
-.sum img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:12px;display:block;margin-bottom:18px}
-#checkout{min-height:520px}
-.err{display:none;background:#fff;border-left:4px solid var(--terra);padding:14px 16px;border-radius:8px}
-.secure{font-size:13px;color:var(--muted);margin-top:14px;display:flex;gap:8px;align-items:center}
-@media(max-width:860px){.grid{grid-template-columns:1fr}}
+:root{--green:#313A33;--terra:#A05F50;--ink:#383330;--stone:#E2DDD8;--paper:#F4F2EF;--muted:#6B625D;--orange:#D9773A;--line:rgba(56,51,48,.14)}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arimo,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;font-size:16px}
+a{color:var(--terra)}
+.band{background:var(--ink);padding:56px 20px 34px}
+.box{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1fr 1.08fr;background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.28)}
+.prod{background:var(--paper);padding:40px 38px;border-right:1px solid var(--line)}
+.prod h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(34px,4.2vw,46px);line-height:1.02;margin:0;text-align:center;letter-spacing:.005em}
+.prod h1 small{display:block;font-family:"Instrument Serif",Georgia,serif;text-transform:none;font-size:.55em;color:var(--terra);letter-spacing:0;margin-top:4px}
+.mock{display:block;width:calc(100% + 30px);margin:18px -15px 10px;height:auto}
+.promise{font-size:18px;line-height:1.5;margin:6px 0 18px}
+.ticks{list-style:none;padding:0;margin:0 0 26px}
+.ticks li{position:relative;padding-left:32px;margin:0 0 11px;font-size:16.5px}
+.ticks li:before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:var(--green) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4L18 8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/13px no-repeat}
+.dm{background:#fff;border-radius:16px;padding:14px 16px 16px;border:1px solid var(--line)}
+.dm .when{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);margin-bottom:10px}
+.dm .when:before,.dm .when:after{content:"";flex:1;height:1px;background:var(--line)}
+.dm p{margin:0;background:#EFEDEA;border-radius:18px 18px 18px 6px;padding:12px 15px;font-size:15px;line-height:1.5}
+.pay{padding:40px 38px}
+.pay h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:26px;margin:0 0 14px;letter-spacing:.01em}
+.line{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px dashed #cfc9c2;font-size:17px}
+.line .pr{white-space:nowrap;font-weight:700}
+s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thickness:2px}
+.bumps{margin:22px 0 6px}
+.bumps h3{font-size:15px;margin:0 0 4px}
+.bumps>p{margin:0 0 12px;font-size:14px;color:var(--muted)}
+.bump{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;border:1.5px dashed var(--terra);background:#FBF6F3;border-radius:14px;padding:14px 16px;margin-bottom:10px;cursor:pointer;transition:background .15s,border-color .15s}
+.bump:hover{background:#F7EDE8}
+.bump input{position:absolute;opacity:0;pointer-events:none}
+.bump .bx{width:24px;height:24px;border-radius:7px;border:2px solid var(--terra);background:#fff;display:flex;align-items:center;justify-content:center}
+.bump.on{border-style:solid;background:#F6E9E3}
+.bump.on .bx{background:var(--terra)}
+.bump.on .bx:after{content:"";width:12px;height:7px;border:solid #fff;border-width:0 0 3px 3px;transform:rotate(-45deg) translate(1px,-1px)}
+.bump input:focus-visible+.bx{outline:3px solid var(--ink);outline-offset:2px}
+.bump b{display:block;font-size:16px}
+.bump span.d{font-size:14px;color:var(--muted);line-height:1.45}
+.bump .pr{text-align:right;white-space:nowrap;font-weight:700}
+.bump .pr s{display:block;font-size:13px}
+.total{display:flex;justify-content:space-between;align-items:baseline;margin:16px 0 4px;font-family:Anton,Impact,sans-serif;font-size:28px;text-transform:uppercase}
+.total small{font-family:Arimo,Arial,sans-serif;font-size:13px;color:var(--muted);text-transform:none}
+.save{font-size:14px;color:var(--green);font-weight:700;margin:0 0 22px}
+#checkout{min-height:460px;position:relative;transition:opacity .2s}
+#checkout.loading{opacity:.35;pointer-events:none}
+.err{display:none;border-left:4px solid var(--terra);background:#FBF6F3;padding:12px 14px;border-radius:8px;margin-bottom:12px}
+.secure{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:14px}
+.fine{max-width:1080px;margin:16px auto 0;color:#bdb5ad;font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.fine a{color:#bdb5ad}
+.more{max-width:1080px;margin:0 auto;padding:60px 20px 30px}
+.more h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;text-align:center;font-size:clamp(30px,4vw,42px);margin:0 0 30px}
+.more h2 em{font-family:"Instrument Serif",Georgia,serif;text-transform:none;color:var(--terra);font-weight:400}
+.dms{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start}
+.faq{max-width:760px;margin:56px auto 0}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+.faq summary{cursor:pointer;padding:16px 18px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--terra);font-size:22px;line-height:1}
+.faq details[open] summary:after{content:"–"}
+.faq details p{margin:0;padding:0 18px 16px;color:var(--muted)}
+.ask{text-align:center;margin:44px 0 10px}
+.ask b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:22px}
+@media(max-width:900px){.box{grid-template-columns:1fr}.prod{border-right:0;border-bottom:1px solid var(--line)}.dms{grid-template-columns:1fr}.band{padding:24px 12px}.prod,.pay{padding:28px 22px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
-<div class="top"><a href="/"><span class="s">6-Figure</span><span class="d">Host</span></a></div>
-<div class="wrap grid">
-  <div class="sum" id="sum">
-    <img src="/hostcourse/img/cover.webp" alt="A bright short-term rental living room">
-    <div class="eyebrow" id="kind">The course</div>
-    <h1 id="title">6-Figure Host <em>Course</em></h1>
-    <div class="price" id="price">$249</div>
-    <div class="muted">One payment. Lifetime access.</div>
-    <ul class="ticks" id="ticks">
-      <li>Ten years of hosting in Barcelona and Bali, step by step</li>
-      <li>Templates, checklists and the finance tracker</li>
-      <li>Your personal access code by email, on up to 5 devices</li>
+<div class="band">
+<div class="box">
+  <section class="prod" id="prod">
+    <h1 id="ptitle">6-Figure Host Course</h1>
+    <img class="mock" id="pimg" src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone, with the profit calculator and the host starter kit">
+    <p class="promise" id="ppromise">Your <strong>step-by-step roadmap</strong> to build a profitable Airbnb business for passive income, even without owning property.</p>
+    <ul class="ticks" id="pticks">
+      <li>13 step-by-step lessons, from first idea to 6 figures</li>
+      <li>Bonus host starter kit: templates, checklists and contracts</li>
+      <li>Profit &amp; ROI calculator and finance tracker</li>
+      <li>Instant access with your personal code</li>
+      <li>Lifetime updates</li>
+      <li>Access to our community of hosts</li>
     </ul>
-  </div>
-  <div>
-    <div class="err" id="err"></div>
-    <div id="checkout"></div>
-    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Questions? <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a></div>
-  </div>
+    <div class="dm"><div class="when">New messages</div><p>Always dreamed of having my own Airbnb but I had no idea it was even possible without owning property. You seriously opened my mind and thanks to you, I just made my first 10k on Airbnb!!! Forever grateful</p></div>
+  </section>
+  <section class="pay">
+    <h2>Your order</h2>
+    <div id="lines"></div>
+    <div class="bumps" id="bumps">
+      <h3>Add a city guide to your order</h3>
+      <p>Hosting in Barcelona or Bali? Our local guide shows you the rules, areas and numbers there. Only with this order.</p>
+      <label class="bump" data-sku="barcelona"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Barcelona Host Guide</b><span class="d">The legal mid-term model, rent caps and taxes, step by step.</span></span><span class="pr"><s class="was">$79</s>$49</span></label>
+      <label class="bump" data-sku="bali"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Bali Host Guide</b><span class="d">Leasehold, zoning, your PT PMA and licences, explained.</span></span><span class="pr"><s class="was">$79</s>$49</span></label>
+    </div>
+    <div class="total"><span>Total</span><span id="total">$249</span></div>
+    <p class="save" id="save"></p>
+    <div class="err" id="err" role="alert"></div>
+    <div id="checkout" aria-live="polite"></div>
+    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. All prices in USD. One payment, no subscription.</div>
+  </section>
 </div>
-<div class="foot">© 2026 6-Figure Host · <a href="/privacy">Privacy policy</a></div>
+<div class="fine"><span>© 2026 6-Figure Host · Passion to profit LLC</span><span><a href="/privacy">Privacy policy</a></span></div>
+</div>
+
+<div class="more">
+  <h2>More results from <em>happy hosts</em></h2>
+  <div class="dms">
+    <div class="dm"><div class="when">New messages</div><p>I honestly didn’t think this would be possible without owning property, but your guide proved me wrong. I followed your steps, pitched my landlord, and got a YES. Just hosted my first guests last week and I’m already getting 5-star reviews. So grateful I found this!</p></div>
+    <div class="dm"><div class="when">New messages</div><p>Never thought I could actually do this without owning a property. Your step-by-step system made everything so easy. I just launched my second unit and it’s already getting bookings.</p></div>
+    <div class="dm"><div class="when">New messages</div><p>Hey! Just wanted to say your Airbnb guide is GOLD. I had no idea what I was doing and now I’ve got my first listing up and running. The landlord script alone was worth it. Thank you!!</p></div>
+  </div>
+  <div class="faq">
+    <details><summary>How do I get access after paying?</summary><p>Right after payment you see your personal access code on the screen and you are logged in. We also email you the code, so you can open the course on up to 5 devices.</p></details>
+    <details><summary>Do I need to own property to start?</summary><p>No. The course shows you how to start with rental arbitrage or co-hosting, as well as with your own property.</p></details>
+    <details><summary>Is this a one-time payment?</summary><p>Yes. You pay once and keep lifetime access, including future updates.</p></details>
+    <details><summary>Does it work in my country?</summary><p>The course is built to work anywhere. Lesson 2 shows you how to check the local rules where you want to host. The city guides go deep on Barcelona and Bali.</p></details>
+    <details><summary>Can I use a promo code?</summary><p>Yes. Enter it in the payment form before you pay.</p></details>
+  </div>
+  <div class="ask"><b>Have questions?</b>We’re here to help. Email us at <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a></div>
+</div>
+
 <script>
 (function(){
-  var ITEMS={
-    course:{kind:'The course',title:'6-Figure Host <em>Course</em>',price:'$249',ticks:['Ten years of hosting in Barcelona and Bali, step by step','Templates, checklists and the finance tracker','Your personal access code by email, on up to 5 devices']},
-    barcelona:{kind:'City guide',title:'Barcelona <em>Host Guide</em>',price:'$49',ticks:['Our local guide to hosting in Barcelona','Instant access with your personal code','Read it online or download it']},
-    bali:{kind:'City guide',title:'Bali <em>Host Guide</em>',price:'$49',ticks:['Our local guide to hosting in Bali','Instant access with your personal code','Read it online or download it']}
+  var P={course:{name:'6-Figure Host Course',was:399,now:249},barcelona:{name:'Barcelona Host Guide',was:79,now:49},bali:{name:'Bali Host Guide',was:79,now:49}};
+  var GUIDE={
+    barcelona:{title:'Barcelona Host Guide',img:'/assets/barcelona-cover.webp',promise:'How to run a <strong>legal, profitable</strong> rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',ticks:['12 interactive lessons','Rent cap checker, flat profit and tax calculators','Checklists for contracts, guest documents and taxes','Instant access with your personal code','PDF version included']},
+    bali:{title:'Bali Host Guide',img:'/assets/bali-cover.webp',promise:'How to <strong>legally invest, build and run</strong> a profitable villa rental in Bali, even as a foreigner.',ticks:['12 interactive lessons','Lease comparison, revenue check and zoning tools','Checklists for leases, land, inspections and licences','Instant access with your personal code','PDF version included']}
   };
-  var item=new URLSearchParams(location.search).get('item');if(!ITEMS[item])item='course';
-  var it=ITEMS[item];
-  document.getElementById('kind').textContent=it.kind;document.getElementById('title').innerHTML=it.title;document.getElementById('price').textContent=it.price;
-  document.getElementById('ticks').innerHTML=it.ticks.map(function(t){return '<li>'+t+'</li>'}).join('');
-  document.title=it.title.replace(/<[^>]+>/g,'')+' · Checkout';
-  function fail(m){var e=document.getElementById('err');e.style.display='block';e.textContent=m}
-  fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:item})})
-   .then(function(r){return r.json()}).then(function(d){
-     if(!d.clientSecret||!d.publishableKey)return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.');
-     return Stripe(d.publishableKey).initEmbeddedCheckout({fetchClientSecret:function(){return Promise.resolve(d.clientSecret)}}).then(function(c){c.mount('#checkout')});
-   }).catch(function(){fail('Something went wrong loading the checkout. Please refresh the page.')});
+  var main=new URLSearchParams(location.search).get('item');if(!P[main])main='course';
+  var extras=[];
+  function $(i){return document.getElementById(i)}
+  if(main!=='course'){var g=GUIDE[main];$('ptitle').textContent=g.title;$('pimg').src=g.img;$('pimg').alt=g.title+' cover';$('pimg').className='mock';$('pimg').style.cssText='width:100%;margin:18px 0 10px;border-radius:14px;aspect-ratio:4/3;object-fit:cover';$('ppromise').innerHTML=g.promise;$('pticks').innerHTML=g.ticks.map(function(t){return '<li>'+t+'</li>'}).join('');document.title=g.title+' · Checkout';}
+  [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main){b.remove();return}
+    var cb=b.querySelector('input');cb.addEventListener('change',function(){b.classList.toggle('on',cb.checked);extras=extras.filter(function(x){return x!==sku});if(cb.checked)extras.push(sku);render();schedule();});});
+  if(!document.querySelector('.bump'))$('bumps').remove();
+  function money(n){return '$'+n}
+  function render(){var items=[main].concat(extras),tot=0,was=0;
+    $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=p.was;return '<div class="line"><span>'+p.name+'</span><span class="pr"><s class="was">'+money(p.was)+'</s>'+money(p.now)+'</span></div>'}).join('');
+    $('total').textContent=money(tot);$('save').textContent='You save '+money(was-tot)+' today';}
+  render();
+  var stripe=null,current=null,timer=null,seq=0;
+  function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
+  function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
+  function load(){var my=++seq;fail('');$('checkout').classList.add('loading');
+    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:extras})})
+    .then(function(r){return r.json()}).then(function(d){
+      if(my!==seq)return;
+      if(!d.clientSecret||!d.publishableKey){$('checkout').classList.remove('loading');return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.')}
+      if(!stripe)stripe=Stripe(d.publishableKey);
+      var old=current;current=null;if(old){try{old.destroy()}catch(e){}}
+      return stripe.initEmbeddedCheckout({fetchClientSecret:function(){return Promise.resolve(d.clientSecret)}}).then(function(c){if(my!==seq){c.destroy();return}current=c;$('checkout').innerHTML='';c.mount('#checkout');$('checkout').classList.remove('loading');});
+    }).catch(function(){$('checkout').classList.remove('loading');fail('The payment form did not load. Refresh the page to try again.')});}
+  load();
 })();
 </script>
 </body>
