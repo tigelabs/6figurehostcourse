@@ -401,7 +401,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pg .h-by{margin:0 0 18px}
 .pg .h-panel h3{margin:0 0 16px}
 /* ---- round 2 ---- */
-.nav .logo .dp{color:#834B3F}
+.nav .logo .dp{color:var(--ink)}
 .nav .login{white-space:nowrap}
 .pg .h-hero .cta,.pg .h-start .cta,.pg .h-shop .cta{color:var(--paperx)}
 .pg .h-stats{margin-top:56px}
