@@ -440,3 +440,4 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .h-end .h-small a{color:inherit}
 @media (max-width:900px){.h-cals{grid-template-columns:1fr}.h-comp{grid-template-columns:1fr}.nav .login{font-size:14px;padding:7px 14px}}
 @media (max-width:600px){.h-revs{columns:auto;display:flex;align-items:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:8px}.h-revs figure{flex:0 0 82%;margin:0;scroll-snap-align:start}}
+.h-go{color:var(--paperx)}
