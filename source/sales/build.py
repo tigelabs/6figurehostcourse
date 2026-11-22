@@ -14,21 +14,21 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 
 NAV = '''<nav class="nav" aria-label="Main">
 <div class="in">
-<a class="logo" href="/"><span class="sc">6figure</span><span class="dp">Host</span></a>
+<a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
 <li><a href="/course/"{c}>Course</a></li>
 <li><a href="/barcelona/"{b}>Barcelona guide</a></li>
 <li><a href="/bali/"{i}>Bali guide</a></li>
-<li><a href="/calculator/"{k}>Calculator</a></li>
+<li><a href="/calculator/"{k}>Profit Calculator</a></li>
 </ul>
-<a class="login" href="/hostcourse/login">Log in</a>
+<a class="login" href="/hostcourse/login">Access your course</a>
 </div>
 </nav>'''
 
 FOOT = '''<footer class="foot">
 <div class="in">
 <span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>
-<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Calculator</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
+<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
 </div>
 </footer>'''
 
@@ -36,6 +36,8 @@ FOOT = '''<footer class="foot">
 def page(path, title, desc, body, active=''):
     nav = NAV.format(c=' aria-current="page"' if active == 'course' else '', b=' aria-current="page"' if active == 'barcelona' else '',
                      i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '')
+    if path.strip('/'):
+        nav = ''  # landing pages: no menu, so nothing pulls visitors away from the offer
     doc = '''<!DOCTYPE html>
 <html lang="en">
 <head>
