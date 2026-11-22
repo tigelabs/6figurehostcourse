@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 <script src="https://js.stripe.com/v3/"></script>
+<script src="/assets/offer.js"></script>
 <style>
 :root{--green:#313A33;--terra:#A05F50;--ink:#383330;--stone:#E2DDD8;--paper:#F4F2EF;--muted:#6B625D;--orange:#D9773A;--line:rgba(56,51,48,.14)}
 *{box-sizing:border-box}
@@ -54,6 +55,19 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 #checkout.loading{opacity:.35;pointer-events:none}
 .err{display:none;border-left:4px solid var(--terra);background:#FBF6F3;padding:12px 14px;border-radius:8px;margin-bottom:12px}
 #checkout{padding-bottom:18px}
+.bfbox{background:#383330;color:#F4F2EF;border-radius:14px;padding:12px 14px;margin:0 0 14px;text-align:center}
+.bfbox p{margin:0 0 8px;font-weight:700;font-size:14px}
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 14px}
+.plans button{all:unset;box-sizing:border-box;cursor:pointer;border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;background:#fff}
+.plans button b{font-size:14px}
+.plans button span{font-size:15px}
+.plans button s{color:var(--orange);font-weight:700}
+.plans button[aria-checked="true"]{border-color:var(--terra);background:#FBF6F3;box-shadow:inset 0 0 0 1px var(--terra)}
+.plans button:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.cd{display:flex;gap:6px;justify-content:center}.cd[hidden]{display:none}
+.cd-u{display:flex;flex-direction:column;align-items:center;min-width:48px;padding:5px 4px;border-radius:9px;background:#4a4440}
+.cd-u b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:20px;line-height:1}
+.cd-u i{font-style:normal;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#d9d2c9;margin-top:2px}
 .secure{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:14px}
 .fine{max-width:1080px;margin:16px auto 0;color:#bdb5ad;font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .fine a{color:#bdb5ad}
@@ -93,17 +107,22 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   </section>
   <section class="pay">
     <h2>Your order</h2>
+    <div class="bfbox" id="bfbox" hidden><p data-o="headline"></p><div class="cd sm" data-o="countdown"></div></div>
+    <div class="plans" id="plans" hidden role="radiogroup" aria-label="How do you want to pay?">
+      <button type="button" role="radio" data-plan="one"><b>One-time payment</b><span id="pl-one"></span></button>
+      <button type="button" role="radio" data-plan="split"><b>Split pay</b><span id="pl-split"></span></button>
+    </div>
     <div id="lines"></div>
     <div class="bumps" id="bumps">
       <h3 id="bumph">Add a city guide to your order</h3>
       <p>Hosting in Barcelona or Bali? Our local guide shows you the rules, areas and numbers there. Only with this order.</p>
       <label class="bump" data-sku="calculator" data-only="guides"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Profit &amp; ROI Calculator</b><span class="d">Know if a property is profitable before you sign. Profit, ROI and break-even in seconds.</span></span><span class="pr"><s class="was">$97</s>$37</span></label>
     </div>
-    <div class="total"><span>Total</span><span id="total">$249</span></div>
+    <div class="total"><span>Total</span><span id="total">$297</span></div>
     <p class="save" id="save"></p>
     <div class="err" id="err" role="alert"></div>
     <div id="checkout" aria-live="polite"></div>
-    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Prices in USD, or pay in your local currency. One payment, no subscription.</div>
+    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Prices in USD, or pay in your local currency.</div>
   </section>
 </div>
 <div class="fine"><span>© 2026 6-Figure Host · Passion to profit LLC</span><span><a href="/privacy">Privacy policy</a></span></div>
@@ -128,7 +147,8 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 
 <script>
 (function(){
-  var P={course:{name:'6-Figure Host Course',was:399,now:249},barcelona:{name:'Barcelona Host Guide',was:79,now:59},bali:{name:'Bali Host Guide',was:79,now:49},calculator:{name:'Profit & ROI Calculator',was:97,now:37}};
+  var OF=window.FH_OFFER||{one:297,was:0,split:109,splitWas:0,phase:'after'};
+  var P={course:{name:'6-Figure Host Course',was:OF.was||0,now:OF.one},barcelona:{name:'Barcelona Host Guide',was:79,now:59},bali:{name:'Bali Host Guide',was:79,now:49},calculator:{name:'Profit & ROI Calculator',was:97,now:37}};
   var GUIDE={
     barcelona:{title:'Barcelona Host Guide',img:'/assets/barcelona-cover.webp',promise:'How to run a <strong>legal, profitable</strong> rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',ticks:['12 interactive lessons','Rent cap checker, flat profit and tax calculators','Checklists for contracts, guest documents and taxes','Instant access with your personal code','PDF version included']},
     bali:{title:'Bali Host Guide',img:'/assets/bali-cover.webp',promise:'How to <strong>legally invest, build and run</strong> a profitable villa rental in Bali, even as a foreigner.',ticks:['12 interactive lessons','Lease comparison, revenue check and zoning tools','Checklists for leases, land, inspections and licences','Instant access with your personal code','PDF version included']},
@@ -136,21 +156,32 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   };
   var main=new URLSearchParams(location.search).get('item');if(!P[main])main='course';
   var extras=[];
+  var plan=new URLSearchParams(location.search).get('plan')==='split'&&main==='course'?'split':'one';
   function $(i){return document.getElementById(i)}
   if(main!=='course'){var g=GUIDE[main];$('ptitle').textContent=g.title;$('pimg').src=g.img;$('pimg').alt=g.title+' cover';$('pimg').className='mock';$('pimg').style.cssText='width:100%;margin:18px 0 10px;border-radius:14px;aspect-ratio:4/3;object-fit:cover';$('ppromise').innerHTML=g.promise;$('pticks').innerHTML=g.ticks.map(function(t){return '<li>'+t+'</li>'}).join('');document.title=g.title+' · Checkout';}
   [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main||(b.getAttribute('data-only')==='guides'&&main!=='barcelona'&&main!=='bali')){b.remove();return}
     var cb=b.querySelector('input');cb.addEventListener('change',function(){b.classList.toggle('on',cb.checked);extras=extras.filter(function(x){return x!==sku});if(cb.checked)extras.push(sku);render();schedule();});});
   if(!document.querySelector('.bump'))$('bumps').remove();else if(main!=='course'){$('bumph').textContent='Add to your order';$('bumps').querySelector('p').textContent='Only with this order.';}
   function money(n){return '$'+n}
-  function render(){var items=[main].concat(extras),tot=0,was=0;
-    $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=p.was;return '<div class="line"><span>'+p.name+'</span><span class="pr"><s class="was">'+money(p.was)+'</s>'+money(p.now)+'</span></div>'}).join('');
-    $('total').textContent=money(tot);$('save').textContent='You save '+money(was-tot)+' today';}
+  if(main==='course'){$('plans').hidden=false;$('pl-one').innerHTML=(OF.was?'<s>$'+OF.was+'</s> ':'')+'$'+OF.one;$('pl-split').innerHTML=(OF.splitWas?'<s>3 × $'+OF.splitWas+'</s> ':'')+'3 × $'+OF.split;
+    [].forEach.call(document.querySelectorAll('.plans button'),function(b){b.addEventListener('click',function(){if(plan===b.getAttribute('data-plan'))return;plan=b.getAttribute('data-plan');render();schedule();})});}
+  if(main==='course'&&OF.phase!=='after')$('bfbox').hidden=false;
+  function render(){
+    [].forEach.call(document.querySelectorAll('.plans button'),function(b){b.setAttribute('aria-checked',b.getAttribute('data-plan')===plan?'true':'false')});
+    if(main==='course'&&plan==='split'){
+      $('lines').innerHTML='<div class="line"><span>6-Figure Host Course<br><small>3 monthly payments</small></span><span class="pr">'+(OF.splitWas?'<s class="was">3 × '+money(OF.splitWas)+'</s>':'')+'3 × '+money(OF.split)+'</span></div>';
+      $('total').textContent=money(OF.split)+' today';$('save').textContent='Then '+money(OF.split)+' in 1 month and '+money(OF.split)+' in 2 months. '+money(OF.split*3)+' in total.';
+      if($('bumps'))$('bumps').style.display='none';return;}
+    if($('bumps'))$('bumps').style.display='';
+    var items=[main].concat(extras),tot=0,was=0;
+    $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=(p.was||p.now);return '<div class="line"><span>'+p.name+'</span><span class="pr">'+(p.was?'<s class="was">'+money(p.was)+'</s>':'')+money(p.now)+'</span></div>'}).join('');
+    $('total').textContent=money(tot);$('save').textContent=was>tot?'You save '+money(was-tot)+' today':'One payment, lifetime access';}
   render();
   var stripe=null,current=null,timer=null,seq=0;
   function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
   function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
   function load(){var my=++seq;fail('');$('checkout').classList.add('loading');
-    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:extras})})
+    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:plan==='split'?[]:extras,plan:plan})})
     .then(function(r){return r.json()}).then(function(d){
       if(my!==seq)return;
       if(!d.clientSecret||!d.publishableKey){$('checkout').classList.remove('loading');return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.')}

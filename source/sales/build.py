@@ -50,6 +50,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
 <link rel="stylesheet" href="/assets/sales.css">
+<script src="/assets/offer.js" defer></script>
 </head>
 <body>
 <div class="pg">
@@ -72,20 +73,62 @@ def sub(s, old, new, count=1):
 
 
 # ---------------------------------------------------------------- course pages
+OFFERBAR_HTML = """<div class="bar obar">
+<div class="in">
+<p data-o="bar"><b>Black Friday</b> opens 27 November: the course for $197 instead of $297.</p>
+<span class="cd sm" data-o="countdown"></span>
+<a href="#pricing">See the offer</a>
+</div>
+</div>
+"""
+VALUE_STACK = """<div class="buy vstack">
+<p class="vs-h">What it’s worth</p>
+<ul class="vs">
+<li><span>6-Figure Host Course, 13 lessons</span><b>$297</b></li>
+<li><span>Profit &amp; ROI Calculator</span><b>$97</b></li>
+<li><span>Host starter kit: contracts, checklists, templates</span><b>$150</b></li>
+<li><span>Landlord scripts, pitch brochure and AI prompts</span><b>included</b></li>
+</ul>
+<p class="vs-tot"><span>Total value</span><b>$544</b></p>
+<p class="vs-you">Your price: <b data-o="price">$297</b></p>
+<a class="cta" href="#pricing">Choose how you pay</a>
+</div>"""
+PRICING = """<div class="pricing" id="pricing">
+<p class="pr-head" data-o="headline">Black Friday opens 27 November</p>
+<div class="cd" data-o="countdown"></div>
+<div class="pr-cards">
+<div class="pr-card best"><span class="pr-badge">Best value</span>
+<h3>One-time payment</h3>
+<p class="pr-was" data-o="was1"></p>
+<p class="pr-now" data-o="now1">$297</p>
+<p class="pr-sub">The lowest total price.</p>
+<p class="pr-save" data-o="save">Lifetime access, no subscription</p>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<a class="cta" href="/checkout">One-time payment</a>
+</div>
+<div class="pr-card">
+<h3>Split pay</h3>
+<p class="pr-was" data-o="was2"></p>
+<p class="pr-now" data-o="now2">3 × $109</p>
+<p class="pr-sub" data-o="tot2">$327 total, paid monthly</p>
+<p class="pr-save pr-save2">Start today, pay in 3 months</p>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<a class="cta ghost" href="/checkout?plan=split">Split pay</a>
+</div>
+</div>
+<p class="pr-note">Secure payment by Stripe. Digital product, no refunds after purchase.</p>
+<p class="pr-old"><b>Bought our guide before?</b> You get the new course for free. <a href="/hostcourse/login">Log in with your access code</a>, or write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> if you can’t find it.</p>
+</div>"""
+OLD_BUYERS_FAQ = '<details><summary>I bought your guide before. Do I have to pay again?</summary><p>No. Everyone who bought our guide gets the new course for free. Log in with the access code you already have, or write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> and we’ll send it to you.</p></details>\n'
 def course_base():
     s = BASE
-    s = re.sub(r'<div class="bar">.*?</div>\n</div>\n', '''<div class="bar">
-<div class="in">
-<p><b>Launch offer.</b> The new interactive course is live. Get it for $249 instead of $399.</p>
-<a href="/checkout">Start today</a>
-</div>
-</div>
-''', s, count=1, flags=re.S)
+    s = re.sub(r'<div class="bar">.*?</div>\n</div>\n', lambda m: OFFERBAR_HTML, s, count=1, flags=re.S)
     s = sub(s, '<span class="pill">Now an interactive guide + host starter kit</span>', '<span class="pill">Interactive course + host starter kit</span>')
     s = sub(s, '<span class="dp">Host Guide</span>', '<span class="dp">Host Course</span>')
     s = s.replace('href="#offer"', 'href="/checkout"')
-    s = s.replace('Get instant access for $149', 'Get instant access for $249')
-    s = sub(s, '<p class="was">Normally <s>$399</s></p>\n<p class="price">$149</p>', '<p class="was">Normally <s>$399</s></p>\n<p class="price">$249</p>')
+    s = s.replace('Get instant access for $149', '<span data-o="cta">Get instant access for $297</span>')
+    s = re.sub(r'<div class="buy">.*?</div>\n</div>\n</div>', lambda m: VALUE_STACK + '\n</div>\n' + PRICING + '\n</div>', s, count=1, flags=re.S)
+    s = s.replace('<details open><summary>When do I get access?</summary>', OLD_BUYERS_FAQ + '<details open><summary>When do I get access?</summary>', 1)
     s = sub(s, '<video src="/assets/sales/0c82ae4341b1f2fc221c4fe50e96a4f3.mp4" poster="/assets/sales/52df027710a89acb2f932c71a4329f54.webp"', '<video src="/assets/sales/course-tour.mp4" poster="/assets/sales/course-tour.webp"')
     s = sub(s, 'aria-label="A scroll through the guide: the start page, a chapter, the launch roadmap, the setup checklist and the profit calculator"', 'aria-label="A scroll through the course: the start page, a lesson, the launch roadmap, the profit calculator and the host starter kit"')
     # the welcome video is not recorded yet: show Farah and Daniel instead of a placeholder
@@ -96,8 +139,6 @@ def course_base():
     s = sub(s, '<h3 class="dp3">The interactive 6Figure Host Guide</h3>', '<h3 class="dp3">The interactive 6-Figure Host Course</h3>')
     s = sub(s, '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>',
             '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>\n<div><h3 class="dp3">Coming soon</h3>\n<ul class="ticks">\n<li><span>Barcelona and Bali Host Guides, to add to your course</span></li>\n</ul></div>')
-    s = sub(s, '<small>VAT included. No hidden costs. One payment, lifetime access.</small>', '<small>One payment, lifetime access. No subscription.</small>')
-    s = sub(s, '<small>Digital product. No refunds after purchase.</small>', '<small>Secure payment by Stripe. Digital product, no refunds after purchase.</small>')
     s = re.sub(r'<details><summary>Can I get an invoice\?</summary>.*?</details>\n', '', s, count=1, flags=re.S)
     s = re.sub(r'<details><summary>Do you offer refunds\?</summary>.*?</details>', '<details><summary>Do you offer refunds?</summary><p>As this is a digital product, no refunds can be given after purchase. By making a purchase you accept this.</p><p>An exception can be made when you accidentally purchase it twice with the same email address. Write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> and tell us which email you used.</p></details>', s, count=1, flags=re.S)
     s = sub(s, '<details open><summary>When do I get access?</summary><p>Right after checkout. You can start the first lesson the same minute.</p></details>',

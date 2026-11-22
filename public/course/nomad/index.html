@@ -10,16 +10,18 @@
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Arimo:ital,wght@0,400;0,700;1,400&amp;family=Libre+Baskerville:ital,wght@0,400;1,400&amp;family=Pinyon+Script&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/sales.css">
+<script src="/assets/offer.js" defer></script>
 </head>
 <body>
 <div class="pg">
 
 
 
-<div class="bar">
+<div class="bar obar">
 <div class="in">
-<p><b>Launch offer.</b> The new interactive course is live. Get it for $249 instead of $399.</p>
-<a href="/checkout">Start today</a>
+<p data-o="bar"><b>Black Friday</b> opens 27 November: the course for $197 instead of $297.</p>
+<span class="cd sm" data-o="countdown"></span>
+<a href="#pricing">See the offer</a>
 </div>
 </div>
 
@@ -35,7 +37,7 @@
 <li><span><b>Scale to more homes in more countries</b>, the way we did in Barcelona and Bali.</span></li>
 </ul>
 <div class="ctawrap">
-<a class="cta" href="/checkout">Get instant access for $249</a>
+<a class="cta" href="/checkout"><span data-o="cta">Get instant access for $297</span></a>
 <small>Secure checkout. Lifetime access. Works on phone and laptop.</small>
 </div>
 </div>
@@ -139,7 +141,7 @@
 </div>
 </div>
 <div class="ctawrap" style="margin-top:48px">
-<a class="cta light" href="/checkout">Get instant access for $249</a>
+<a class="cta light" href="/checkout"><span data-o="cta">Get instant access for $297</span></a>
 <small>Secure checkout. Lifetime access.</small>
 </div>
 </div>
@@ -290,7 +292,7 @@
 </div>
 <div class="ctawrap">
 <p class="lead">Every system behind these results is inside the course.</p>
-<a class="cta" href="/checkout">Get instant access for $249</a>
+<a class="cta" href="/checkout"><span data-o="cta">Get instant access for $297</span></a>
 </div>
 </div>
 </div>
@@ -366,13 +368,44 @@
 <li><span>Property manual, inventory and multi-property profit tracker</span></li>
 </ul></div>
 </div>
-<div class="buy">
-<p class="was">Normally <s>$399</s></p>
-<p class="price">$249</p>
-<small>One payment, lifetime access. No subscription.</small>
-<a class="cta" href="/checkout">Get instant access</a>
-<small>Secure payment by Stripe. Digital product, no refunds after purchase.</small>
+<div class="buy vstack">
+<p class="vs-h">What it’s worth</p>
+<ul class="vs">
+<li><span>6-Figure Host Course, 13 lessons</span><b>$297</b></li>
+<li><span>Profit &amp; ROI Calculator</span><b>$97</b></li>
+<li><span>Host starter kit: contracts, checklists, templates</span><b>$150</b></li>
+<li><span>Landlord scripts, pitch brochure and AI prompts</span><b>included</b></li>
+</ul>
+<p class="vs-tot"><span>Total value</span><b>$544</b></p>
+<p class="vs-you">Your price: <b data-o="price">$297</b></p>
+<a class="cta" href="#pricing">Choose how you pay</a>
 </div>
+</div>
+<div class="pricing" id="pricing">
+<p class="pr-head" data-o="headline">Black Friday opens 27 November</p>
+<div class="cd" data-o="countdown"></div>
+<div class="pr-cards">
+<div class="pr-card best"><span class="pr-badge">Best value</span>
+<h3>One-time payment</h3>
+<p class="pr-was" data-o="was1"></p>
+<p class="pr-now" data-o="now1">$297</p>
+<p class="pr-sub">The lowest total price.</p>
+<p class="pr-save" data-o="save">Lifetime access, no subscription</p>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<a class="cta" href="/checkout">One-time payment</a>
+</div>
+<div class="pr-card">
+<h3>Split pay</h3>
+<p class="pr-was" data-o="was2"></p>
+<p class="pr-now" data-o="now2">3 × $109</p>
+<p class="pr-sub" data-o="tot2">$327 total, paid monthly</p>
+<p class="pr-save pr-save2">Start today, pay in 3 months</p>
+<ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value $247)</span></li><li><span>All future updates</span></li></ul>
+<a class="cta ghost" href="/checkout?plan=split">Split pay</a>
+</div>
+</div>
+<p class="pr-note">Secure payment by Stripe. Digital product, no refunds after purchase.</p>
+<p class="pr-old"><b>Bought our guide before?</b> You get the new course for free. <a href="/hostcourse/login">Log in with your access code</a>, or write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> if you can’t find it.</p>
 </div>
 </div>
 </section>
@@ -381,6 +414,7 @@
 <div class="in two flip top">
 <h2 class="lock"><span class="sc">Questions</span><span class="dp">Before you buy</span></h2>
 <div class="faq">
+<details><summary>I bought your guide before. Do I have to pay again?</summary><p>No. Everyone who bought our guide gets the new course for free. Log in with the access code you already have, or write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a> and we’ll send it to you.</p></details>
 <details open><summary>When do I get access?</summary><p>Right after checkout. You see your personal access code on the screen, you are logged in, and we email you the code too. You can start the first lesson the same minute, on up to 5 devices.</p></details>
 <details><summary>How long do I have access?</summary><p>For life. You pay once.</p></details>
 <details><summary>Does this work outside Barcelona and Bali?</summary><p>Yes. The method is the same everywhere; the local rules change. Lesson 2 teaches you how to check them, and lesson 4 shows you how to test demand in any city.</p></details>
@@ -397,7 +431,7 @@
 <h2 class="lock"><span class="sc">Now it's</span><span class="dp">Your turn</span></h2>
 <p class="lead narrow">This is the roadmap we wish we had when we were renting out rooms and sleeping in the smallest one. It isn't theory. It is what worked for us, and it is ready for you to follow.</p>
 <div class="ctawrap">
-<a class="cta light" href="/checkout">Get instant access for $249</a>
+<a class="cta light" href="/checkout"><span data-o="cta">Get instant access for $297</span></a>
 <small>Secure checkout. Lifetime access. Start today.</small>
 </div>
 <p class="narrow">P.S. Imagine checking your phone and seeing your first booking come in. The first lesson takes about ten minutes. Let's launch your first listing together.</p>

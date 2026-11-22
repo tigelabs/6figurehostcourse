@@ -3,35 +3,38 @@
 // Buyers see USD plus their local currency (Stripe Adaptive Pricing).
 // "extras" are the city guides ticked as add-ons on the checkout page.
 import { stripe, priceFor, json, SKUS } from '../../../src/lib.js';
+import { coursePrice, SPLIT_MONTHS } from '../../../src/offer.js';
 
 export async function onRequestPost({ request, env }) {
   let b = {}; try { b = await request.json(); } catch {}
   const main = SKUS.includes(b.item) ? b.item : 'course';
+  const split = main === 'course' && b.plan === 'split';
   const skus = [main];
-  // Add-ons: the city guides with any order; the calculator only with a guide (it is already in the course).
-  const allowed = main === 'course' ? ['barcelona', 'bali'] : ['barcelona', 'bali', 'calculator'];
-  for (const x of Array.isArray(b.extras) ? b.extras : []) if (allowed.includes(x) && !skus.includes(x)) skus.push(x);
-  const prices = skus.map(s => priceFor(env, s));
+  // Add-ons: the calculator only with a guide (it is already in the course). City guides are "coming soon".
+  const allowed = main === 'course' ? [] : ['barcelona', 'bali', 'calculator'].filter(x => x !== main);
+  if (!split) for (const x of Array.isArray(b.extras) ? b.extras : []) if (allowed.includes(x) && !skus.includes(x)) skus.push(x);
+  const prices = skus.map(s => s === 'course' ? coursePrice(env, split ? 'split' : 'one') : priceFor(env, s));
   if (!env.STRIPE_SECRET_KEY || prices.some(p => !p)) return json({ error: 'Checkout is not set up yet.' }, 503);
   const origin = new URL(request.url).origin;
   const line_items = {};
   prices.forEach((price, i) => { line_items[i] = { price, quantity: 1 }; });
-  // Adaptive Pricing on: buyers see USD and their local currency (EUR buyers get the fixed EUR prices set on each price).
-  const base = {
-      adaptive_pricing: { enabled: 'true' },
-      mode: 'payment',
+  const meta = { skus: skus.join(','), ...(split ? { split: String(SPLIT_MONTHS) } : {}) };
+  const common = {
       line_items,
-      customer_creation: 'always',
-      payment_intent_data: { metadata: { skus: skus.join(',') } },
-      metadata: { skus: skus.join(',') },
+      metadata: meta,
       allow_promotion_codes: 'true',
       return_url: `${origin}/checkout/thanks?session_id={CHECKOUT_SESSION_ID}`,
   };
+  const base = split
+    ? { mode: 'subscription', subscription_data: { metadata: meta, description: '6-Figure Host Course, payment plan (3 monthly payments)' }, ...common }
+    : { mode: 'payment', customer_creation: 'always', payment_intent_data: { metadata: meta }, ...common };
+  const local = { adaptive_pricing: { enabled: 'true' } };
   // Brand colours inside the Stripe form (needs API version 2025-09-30.clover or later).
   const branding = { background_color: '#FFFFFF', button_color: '#A05F50', border_style: 'rounded', display_name: '6-Figure Host' };
   // Link is hidden so the pay button uses our colour (Link always shows its own green button).
   const noLink = { link: { display: 'never' } };
   const attempts = [
+    ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, wallet_options: noLink, ...local, ...base }],
     ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, wallet_options: noLink, ...base }],
     ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, ...base }],
     ['2025-09-30.clover', { ui_mode: 'embedded_page', branding_settings: branding, ...base }],
