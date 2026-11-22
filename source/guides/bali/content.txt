@@ -48,18 +48,6 @@
 ::done You know how Bali works and how to use this guide.
 ::endlesson
 
-::lesson story | 00 | Our Bali story | Introduction · Farah &amp; Daniel | From a suitcase to | a villa in Bali | From five apartments in Barcelona to our dream villa in Bali, without owning a single square metre of land.
-<section class="part" style="border-top:0;margin-top:0;padding-top:0">
-<div class="tl">
-<div class="tl-item"><div class="tl-title"><b>01</b> Bali humbled us</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/us.webp" width="675" height="1200" alt="Farah and Daniel together" loading="lazy"></figure><figure class="tl-slide"><img src="img/canopy.webp" width="675" height="1200" alt="A bedroom with white curtains around the bed" loading="lazy"></figure></div><div class="tl-text"><p>If you took our course, you know how it started: a couch, a beach blanket hanging from the window and a lot of hustle in Barcelona. What you might not know is <strong>how hard Bali humbled us.</strong></p><p>We fell in love with the island like everyone does. The light, the rice fields, the slow mornings. And like everyone, we were tempted by the villas on Instagram “for sale” at prices that looked too good to be true. Some of them were.</p></div></div></div>
-<div class="tl-item"><div class="tl-title"><b>02</b> We walked away from more deals than we signed</div><div class="tl-body"><div class="tl-text"><p>We met sellers who could not explain the zoning, builders who promised a villa in four months, and “agents” who told us a nominee would make everything easy. <strong>That is the first lesson of Bali: the deals you do not do protect you as much as the ones you do.</strong></p></div></div></div>
-<div class="tl-item"><div class="tl-title"><b>03</b> When we finally did it, we did it properly</div><div class="tl-body"><div class="tl-slides"><figure class="tl-slide"><img src="img/pool.webp" width="1200" height="675" alt="A private pool surrounded by tropical plants" loading="lazy"></figure><figure class="tl-slide"><img src="img/farah.webp" width="675" height="1200" alt="Farah on a terrace at night" loading="lazy"></figure></div><div class="tl-text"><p>A company, the right visa, a leasehold contract checked line by line, a structural check before signing and a local team we trust. <strong>Today our villa runs like the rest of our business: automated, legal and profitable.</strong></p><p>This guide is everything we learned on the ground. Not the brochure version. The version you get after rainy seasons, delayed permits, a few leaks and many, many coffees with notaries.</p><p class="tl-close"><strong>Will it be easy? No. Is it possible? 100%.</strong></p></div></div></div>
-</div>
-</section>
-::task Get inspired by our Bali story
-::done You know how we built our villa in Bali, and why we did it the legal way.
-::endlesson
-
 ::group Part 1: Understanding the island
 ::lesson ch1 | 01 | Bali by the numbers | Part 1 · Lesson 1 | Bali by the | numbers | And is it still worth it?
 ::part The demand: tourists keep coming
