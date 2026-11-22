@@ -441,3 +441,14 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 @media (max-width:900px){.h-cals{grid-template-columns:1fr}.h-comp{grid-template-columns:1fr}.nav .login{font-size:14px;padding:7px 14px}}
 @media (max-width:600px){.h-revs{columns:auto;display:flex;align-items:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:8px}.h-revs figure{flex:0 0 82%;margin:0;scroll-snap-align:start}}
 .h-go{color:var(--paperx)}
+.h-tags{display:flex;flex-wrap:wrap;gap:8px;align-self:flex-start}
+.h-soon{font-size:12px;font-weight:700;background:var(--ink);color:var(--cream);border-radius:999px;padding:4px 12px;letter-spacing:.02em}
+.h-tick.soon{cursor:default;background:#ECEAE7;border-color:#9b9792;color:#6f6a65}
+.h-tick.soon:hover{transform:none}
+.h-tick.soon::before,.h-tick.soon::after{border-color:#9b9792}
+.h-tick.soon .h-route b,.h-tick.soon h3{color:#8a857f}
+.h-tick.soon .h-ctag{background:#dcd8d3;color:#6f6a65}
+.h-tick.soon img{filter:grayscale(1) contrast(.9);opacity:.75}
+.h-tick.soon .h-price s{color:#9b9792}
+.h-tick.soon .h-go{background:#cfcbc6;color:#5f5a55}
+.h-tick.soon .h-tmain{border-right-color:#c2beb9}

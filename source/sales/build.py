@@ -95,7 +95,7 @@ def course_base():
     s = s.replace('inside the guide', 'inside the course').replace('Inside the guide', 'Inside the course')
     s = sub(s, '<h3 class="dp3">The interactive 6Figure Host Guide</h3>', '<h3 class="dp3">The interactive 6-Figure Host Course</h3>')
     s = sub(s, '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>',
-            '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>\n<div><h3 class="dp3">Add at checkout, if you want</h3>\n<ul class="ticks">\n<li><span>Barcelona Host Guide, $59 instead of $79</span></li>\n<li><span>Bali Host Guide, $49 instead of $79</span></li>\n</ul></div>')
+            '<li><span>Profit and ROI calculators for arbitrage, ownership and leasehold</span></li>\n</ul></div>\n<div><h3 class="dp3">Coming soon</h3>\n<ul class="ticks">\n<li><span>Barcelona and Bali Host Guides, to add to your course</span></li>\n</ul></div>')
     s = sub(s, '<small>VAT included. No hidden costs. One payment, lifetime access.</small>', '<small>One payment, lifetime access. No subscription.</small>')
     s = sub(s, '<small>Digital product. No refunds after purchase.</small>', '<small>Secure payment by Stripe. Digital product, no refunds after purchase.</small>')
     s = re.sub(r'<details><summary>Can I get an invoice\?</summary>.*?</details>\n', '', s, count=1, flags=re.S)
@@ -203,7 +203,7 @@ def crosssell():
 <div class="copy">
 <h2 class="lock"><span class="sc">New to hosting?</span><span class="dp">Start with the course</span></h2>
 <p class="lead">The city guide shows you the local rules and numbers. The 6-Figure Host Course shows you how to launch, run and scale the business itself, with the host starter kit and the profit calculator included.</p>
-<div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Add a city guide at checkout from $49.</small></div>
+<div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Already includes the Profit Calculator.</small></div>
 </div>
 <img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>
