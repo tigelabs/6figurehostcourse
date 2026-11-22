@@ -279,7 +279,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 ::part Overcoming fear of getting started
 @p25
 ::part Think big: our most profitable apartment
-<p>Thinking like a business owner also means looking at a property for what it <em>could</em> be, not for what it is today. Here is the apartment in Barcelona that taught us this the most.</p>
+<p>Thinking like a business owner also means looking at a property for what it <em>could</em> be, not for what it is today. Here are two of our apartments in Barcelona that taught us this the most.</p>
 <details class="obj tpl case"><summary><span><small>Case study · Barcelona</small>How an ugly apartment became our most profitable one</span></summary>
 <p><strong>This is our most profitable apartment.</strong> When we took it, it was very ugly. The first thing we did was paint everything white. Then we added two bedrooms, super easily, by putting in one simple plasterboard (drywall) wall.</p>
 <div class="ba"><figure><img src="img/pa-bed-before.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Before: a bedroom with yellow walls, a red rug and mismatched furniture"><figcaption class="ba-b">Before</figcaption></figure><figure><img src="img/pa-bed-after.webp" width="1000" height="750" decoding="async" loading="lazy" alt="After: the same bedroom painted white, with wooden beds, linen bedding and a wardrobe"><figcaption class="ba-a">After</figcaption></figure></div>
@@ -303,6 +303,18 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p class="hd-big">Think big. Maybe you would not want to stay there, but other people do.</p>
 <p>For a lot of people, it’s a dream to live in a beautiful, big apartment like this, with balconies, in the centre of Barcelona, even if their own bedroom is small and has no window. Don’t judge a room by your own standards. Look at what your guests are looking for, and at the budget they have.</p>
 <p><small>Before you build a wall or add a bedroom, agree it with the owner in writing and check your local rules on what counts as a bedroom. How we pitched this type of apartment to the landlord is in <a href="#ch6">Lesson 6</a>.</small></p>
+</details>
+<details class="obj tpl case"><summary><span><small>Case study · Barcelona</small>One extra bedroom in the living room: +€900 a month</span></summary>
+<p>This is another of our apartments in Barcelona. When it was time to extend the contract, we didn’t just want to renew it. We also wanted to <strong>add an extra bedroom in the living room</strong>, so we could rent out one more room and make more profit.</p>
+<figure class="ba-big"><img src="img/lr-before.webp" width="1000" height="750" decoding="async" loading="lazy" alt="Before: the big open living room with the kitchen, a dining table and a lot of empty floor space"><figcaption class="ba-b">Before</figcaption></figure>
+<p class="ba-cap">The big living room before. Beautiful, but most of it was empty space.</p>
+<div class="ba"><figure><img src="img/lr-kitchen.webp" width="1000" height="750" decoding="async" loading="lazy" alt="After: the kitchen and dining area, now a bit smaller, next to the new bedroom"><figcaption class="ba-a">After · kitchen</figcaption></figure><figure><img src="img/lr-room.webp" width="1000" height="750" decoding="async" loading="lazy" alt="After: the new bedroom with a double bed, a desk and its own balcony, seen from the kitchen"><figcaption class="ba-a">After · new bedroom</figcaption></figure></div>
+<p class="ba-cap">After: the kitchen and dining area are still there, and next to them the new bedroom, with its own balcony.</p>
+<p><strong>Why we did it</strong></p>
+<p>We noticed that most people who rent an individual bedroom spend very little time in the shared areas. They mostly stay in their own room. So even though a very big living room looks great, it doesn’t earn anything. One more bedroom means one more guest, and one more rent every month.</p>
+<p>Once again, it was Daniel’s idea, and once again Farah thought he was crazy. Today, <strong>this room earns us around €900 extra a month.</strong></p>
+<p class="hd-big">Empty space doesn’t pay. A bedroom does.</p>
+<p><small>As with any change to the layout, agree it with the owner in writing first. Here we did it as part of extending the contract.</small></p>
 </details>
 ::part Creative ways to make extra money (optional)
 <p>Being an Airbnb host isn’t just about charging for a night’s stay. You can boost your income by offering extra services and experiences; many of which can be set up passively. Here are some creative ideas:</p>
