@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout · 6-Figure Host</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="https://js.stripe.com/v3/"></script>
+<style>
+.grid{display:grid;grid-template-columns:1fr 1.15fr;gap:34px;align-items:start}
+.sum .price{font-family:Anton,Impact,sans-serif;font-size:40px;margin:6px 0 2px}
+.sum img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:12px;display:block;margin-bottom:18px}
+#checkout{min-height:520px}
+.err{display:none;background:#fff;border-left:4px solid var(--terra);padding:14px 16px;border-radius:8px}
+.secure{font-size:13px;color:var(--muted);margin-top:14px;display:flex;gap:8px;align-items:center}
+@media(max-width:860px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top"><a href="/"><span class="s">6-Figure</span><span class="d">Host</span></a></div>
+<div class="wrap grid">
+  <div class="sum" id="sum">
+    <img src="/hostcourse/img/cover.webp" alt="A bright short-term rental living room">
+    <div class="eyebrow" id="kind">The course</div>
+    <h1 id="title">6-Figure Host <em>Course</em></h1>
+    <div class="price" id="price">$249</div>
+    <div class="muted">One payment. Lifetime access.</div>
+    <ul class="ticks" id="ticks">
+      <li>Ten years of hosting in Barcelona and Bali, step by step</li>
+      <li>Templates, checklists and the finance tracker</li>
+      <li>Your personal access code by email, on up to 5 devices</li>
+    </ul>
+  </div>
+  <div>
+    <div class="err" id="err"></div>
+    <div id="checkout"></div>
+    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Questions? <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a></div>
+  </div>
+</div>
+<div class="foot">© 2026 6-Figure Host · <a href="/privacy">Privacy policy</a></div>
+<script>
+(function(){
+  var ITEMS={
+    course:{kind:'The course',title:'6-Figure Host <em>Course</em>',price:'$249',ticks:['Ten years of hosting in Barcelona and Bali, step by step','Templates, checklists and the finance tracker','Your personal access code by email, on up to 5 devices']},
+    barcelona:{kind:'City guide',title:'Barcelona <em>Host Guide</em>',price:'$49',ticks:['Our local guide to hosting in Barcelona','Instant access with your personal code','Read it online or download it']},
+    bali:{kind:'City guide',title:'Bali <em>Host Guide</em>',price:'$49',ticks:['Our local guide to hosting in Bali','Instant access with your personal code','Read it online or download it']}
+  };
+  var item=new URLSearchParams(location.search).get('item');if(!ITEMS[item])item='course';
+  var it=ITEMS[item];
+  document.getElementById('kind').textContent=it.kind;document.getElementById('title').innerHTML=it.title;document.getElementById('price').textContent=it.price;
+  document.getElementById('ticks').innerHTML=it.ticks.map(function(t){return '<li>'+t+'</li>'}).join('');
+  document.title=it.title.replace(/<[^>]+>/g,'')+' · Checkout';
+  function fail(m){var e=document.getElementById('err');e.style.display='block';e.textContent=m}
+  fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:item})})
+   .then(function(r){return r.json()}).then(function(d){
+     if(!d.clientSecret||!d.publishableKey)return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.');
+     return Stripe(d.publishableKey).initEmbeddedCheckout({fetchClientSecret:function(){return Promise.resolve(d.clientSecret)}}).then(function(c){c.mount('#checkout')});
+   }).catch(function(){fail('Something went wrong loading the checkout. Please refresh the page.')});
+})();
+</script>
+</body>
+</html>

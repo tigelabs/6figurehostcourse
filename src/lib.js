@@ -98,6 +98,7 @@ export async function brevo(env, path, body) {
 }
 
 export async function sendWelcome(env, rec) {
+  // Called after every purchase: new buyers get their code, returning buyers get a reminder of it.
   const out = {};
   if (!env.BREVO_API_KEY) return { skipped: 'no BREVO_API_KEY' };
   if (rec.email) {
@@ -113,4 +114,58 @@ export async function sendWelcome(env, rec) {
     }
   }
   return out;
+}
+
+// ---- products ----------------------------------------------------------------
+// What each code unlocks. Older codes (review codes, ThriveCart buyers) have no list and get the course.
+export const SKUS = ['course', 'barcelona', 'bali'];
+export function productsOf(rec) { return Array.isArray(rec?.products) ? rec.products : ['course']; }
+
+// ---- Stripe ------------------------------------------------------------------
+const STRIPE_VERSION = '2025-03-31.basil';
+function formEncode(obj, pre = '', out = []) {
+  for (const [k, v] of Object.entries(obj)) {
+    if (v === undefined || v === null) continue;
+    const key = pre ? `${pre}[${k}]` : k;
+    if (typeof v === 'object') formEncode(v, key, out);
+    else out.push(`${encodeURIComponent(key)}=${encodeURIComponent(v)}`);
+  }
+  return out;
+}
+export async function stripe(env, method, path, params, idempotencyKey) {
+  const headers = { Authorization: `Bearer ${env.STRIPE_SECRET_KEY}`, 'Stripe-Version': STRIPE_VERSION };
+  let url = `https://api.stripe.com/v1${path}`, body;
+  const qs = params ? formEncode(params).join('&') : '';
+  if (method === 'GET') { if (qs) url += `?${qs}`; }
+  else { body = qs; headers['Content-Type'] = 'application/x-www-form-urlencoded'; }
+  if (idempotencyKey) headers['Idempotency-Key'] = idempotencyKey;
+  const r = await fetch(url, { method, headers, body });
+  const data = await r.json();
+  if (!r.ok) { const e = new Error(data?.error?.message || `Stripe ${r.status}`); e.stripe = data?.error; e.status = r.status; throw e; }
+  return data;
+}
+
+// Price for each product, set in Cloudflare (PRICE_COURSE, PRICE_BARCELONA, PRICE_BALI).
+export function priceFor(env, sku) { return env[`PRICE_${sku.toUpperCase()}`]; }
+
+// Give a buyer what they paid for. Safe to call many times for the same payment.
+// Finds the buyer's existing code by email, or makes a new one, and adds the products.
+export async function grant(env, { email, name, skus, paymentId, customerId, paymentMethodId, source = 'stripe' }) {
+  const done = await env.CODES.get(`pay:${paymentId}`);
+  if (done) return { rec: await getCode(env, done), fresh: false, first: false };
+  email = (email || '').trim().toLowerCase();
+  let rec = null;
+  const existing = email ? await env.CODES.get(`email:${email}`) : null;
+  if (existing) rec = await getCode(env, existing);
+  let fresh = false;
+  if (!rec) { rec = await createCode(env, { email, name, orderId: paymentId, source }); rec.products = []; fresh = true; }
+  if (!Array.isArray(rec.products)) rec.products = productsOf(rec);
+  for (const s of skus) if (!rec.products.includes(s)) rec.products.push(s);
+  if (customerId) rec.stripeCustomer = customerId;
+  if (paymentMethodId) rec.stripePaymentMethod = paymentMethodId;
+  rec.payments = [...(rec.payments || []), { id: paymentId, skus, at: new Date().toISOString() }];
+  rec.active = true;
+  await putCode(env, rec);
+  await env.CODES.put(`pay:${paymentId}`, rec.code);
+  return { rec, fresh, first: true };
 }

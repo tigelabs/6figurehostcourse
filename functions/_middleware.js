@@ -1,6 +1,6 @@
 // Every request passes through here. The public site (home page, privacy, future sales pages)
 // is open to everyone. Only /hostcourse/ (the course) needs a valid session cookie for an active code.
-import { readSession, getCode } from '../src/lib.js';
+import { readSession, getCode, productsOf } from '../src/lib.js';
 
 const COURSE = '/hostcourse';
 const COURSE_PUBLIC = new Set([
@@ -23,11 +23,21 @@ export async function onRequest(context) {
 
   const session = await readSession(env, request);
   let ok = !!session;
-  // Check the code is still active on page loads (so a refund locks the course right away).
+  // Pages and guide files check the code itself, so a refund locks them right away.
   const isPage = path.endsWith('/') || path.endsWith('.html');
-  if (ok && isPage) {
+  const guide = path.match(/^\/hostcourse\/guides\/(barcelona|bali)\b/);
+  if (ok && (isPage || guide)) {
     const rec = await getCode(env, session.c);
     ok = !!(rec && rec.active && rec.devices.includes(session.d));
+    if (ok) {
+      const owned = productsOf(rec);
+      const inGuides = path.startsWith('/hostcourse/guides/');
+      if (guide && !owned.includes(guide[1])) {
+        return isPage || path.endsWith('.pdf') ? Response.redirect(new URL('/hostcourse/guides/', url).toString(), 302) : new Response('Not found', { status: 404 });
+      }
+      // Bought only a guide: the course pages send them to their guides.
+      if (isPage && !inGuides && !owned.includes('course')) return Response.redirect(new URL('/hostcourse/guides/', url).toString(), 302);
+    }
   }
   if (ok) {
     const res = await next();
