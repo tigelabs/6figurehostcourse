@@ -53,12 +53,6 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 #checkout{min-height:460px;position:relative;transition:opacity .2s}
 #checkout.loading{opacity:.35;pointer-events:none}
 .err{display:none;border-left:4px solid var(--terra);background:#FBF6F3;padding:12px 14px;border-radius:8px;margin-bottom:12px}
-.ohead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 14px}
-.ohead h2{margin:0!important}
-.cur{display:inline-flex;border:1.5px solid var(--ink);border-radius:999px;padding:3px;background:#fff}
-.cur button{font:700 13px Arimo,Arial,sans-serif;color:var(--ink);background:none;border:0;border-radius:999px;padding:6px 12px;cursor:pointer}
-.cur button[aria-checked="true"]{background:var(--ink);color:#fff}
-.cur button:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
 #checkout{padding-bottom:18px}
 .secure{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);margin-top:14px}
 .fine{max-width:1080px;margin:16px auto 0;color:#bdb5ad;font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
@@ -98,7 +92,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
     <div class="dm"><div class="when">New messages</div><p>Always dreamed of having my own Airbnb but I had no idea it was even possible without owning property. You seriously opened my mind and thanks to you, I just made my first 10k on Airbnb!!! Forever grateful</p></div>
   </section>
   <section class="pay">
-    <div class="ohead"><h2>Your order</h2><div class="cur" role="radiogroup" aria-label="Currency"><button type="button" role="radio" data-cur="usd">USD $</button><button type="button" role="radio" data-cur="eur">EUR €</button></div></div>
+    <h2>Your order</h2>
     <div id="lines"></div>
     <div class="bumps" id="bumps">
       <h3 id="bumph">Add a city guide to your order</h3>
@@ -111,7 +105,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
     <p class="save" id="save"></p>
     <div class="err" id="err" role="alert"></div>
     <div id="checkout" aria-live="polite"></div>
-    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span id="secure">Secure payment by Stripe. All prices in USD. One payment, no subscription.</span></div>
+    <div class="secure"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure payment by Stripe. Prices in USD, or pay in your local currency. One payment, no subscription.</div>
   </section>
 </div>
 <div class="fine"><span>© 2026 6-Figure Host · Passion to profit LLC</span><span><a href="/privacy">Privacy policy</a></span></div>
@@ -149,15 +143,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   [].forEach.call(document.querySelectorAll('.bump'),function(b){var sku=b.getAttribute('data-sku');if(sku===main||(b.getAttribute('data-only')==='guides'&&main!=='barcelona'&&main!=='bali')){b.remove();return}
     var cb=b.querySelector('input');cb.addEventListener('change',function(){b.classList.toggle('on',cb.checked);extras=extras.filter(function(x){return x!==sku});if(cb.checked)extras.push(sku);render();schedule();});});
   if(!document.querySelector('.bump'))$('bumps').remove();else if(main!=='course'){$('bumph').textContent='Add to your order';$('bumps').querySelector('p').textContent='Only with this order.';}
-  var CUR='usd';
-  try{var sv=localStorage.getItem('fh_cur');if(sv==='usd'||sv==='eur')CUR=sv;else if(/^Europe\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone||''))CUR='eur';}catch(e){}
-  function money(n){return CUR==='eur'?'€'+n:'$'+n}
-  function setCur(c){CUR=c;try{localStorage.setItem('fh_cur',c)}catch(e){}
-    [].forEach.call(document.querySelectorAll('.cur button'),function(x){x.setAttribute('aria-checked',x.getAttribute('data-cur')===c?'true':'false')});
-    [].forEach.call(document.querySelectorAll('.bump'),function(b){var p=P[b.getAttribute('data-sku')];b.querySelector('.pr').innerHTML='<s class="was">'+money(p.was)+'</s>'+money(p.now)});
-    $('secure').textContent='Secure payment by Stripe. Prices in '+(c==='eur'?'EUR':'USD')+'. One payment, no subscription.';}
-  [].forEach.call(document.querySelectorAll('.cur button'),function(x){x.addEventListener('click',function(){var c=x.getAttribute('data-cur');if(c===CUR)return;setCur(c);render();schedule();})});
-  setCur(CUR);
+  function money(n){return '$'+n}
   function render(){var items=[main].concat(extras),tot=0,was=0;
     $('lines').innerHTML=items.map(function(s){var p=P[s];tot+=p.now;was+=p.was;return '<div class="line"><span>'+p.name+'</span><span class="pr"><s class="was">'+money(p.was)+'</s>'+money(p.now)+'</span></div>'}).join('');
     $('total').textContent=money(tot);$('save').textContent='You save '+money(was-tot)+' today';}
@@ -166,7 +152,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
   function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
   function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
   function load(){var my=++seq;fail('');$('checkout').classList.add('loading');
-    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:extras,currency:CUR})})
+    fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:extras})})
     .then(function(r){return r.json()}).then(function(d){
       if(my!==seq)return;
       if(!d.clientSecret||!d.publishableKey){$('checkout').classList.remove('loading');return fail(d.error||'Checkout is not available right now. Please write to contact@6figurehost.com.')}

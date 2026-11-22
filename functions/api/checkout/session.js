@@ -1,6 +1,6 @@
 // Starts a Stripe Checkout (embedded on our own /checkout page).
-// POST {item: "course" | "barcelona" | "bali" | "calculator", extras: [...], currency: "usd" | "eur"} -> {clientSecret, publishableKey}
-// Only USD and EUR: Adaptive Pricing (automatic local currency) is turned off, and the EUR amounts come from each price's currency_options.
+// POST {item: "course" | "barcelona" | "bali" | "calculator", extras: [...]} -> {clientSecret, publishableKey}
+// Buyers see USD plus their local currency (Stripe Adaptive Pricing).
 // "extras" are the city guides ticked as add-ons on the checkout page.
 import { stripe, priceFor, json, SKUS } from '../../../src/lib.js';
 
@@ -16,10 +16,9 @@ export async function onRequestPost({ request, env }) {
   const origin = new URL(request.url).origin;
   const line_items = {};
   prices.forEach((price, i) => { line_items[i] = { price, quantity: 1 }; });
-  const currency = b.currency === 'eur' ? 'eur' : 'usd';
+  // Adaptive Pricing on: buyers see USD and their local currency (EUR buyers get the fixed EUR prices set on each price).
   const base = {
-      currency,
-      adaptive_pricing: { enabled: 'false' },
+      adaptive_pricing: { enabled: 'true' },
       mode: 'payment',
       line_items,
       customer_creation: 'always',
@@ -30,7 +29,10 @@ export async function onRequestPost({ request, env }) {
   };
   // Brand colours inside the Stripe form (needs API version 2025-09-30.clover or later).
   const branding = { background_color: '#FFFFFF', button_color: '#A05F50', border_style: 'rounded', display_name: '6-Figure Host' };
+  // Link is hidden so the pay button uses our colour (Link always shows its own green button).
+  const noLink = { link: { display: 'never' } };
   const attempts = [
+    ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, wallet_options: noLink, ...base }],
     ['2025-09-30.clover', { ui_mode: 'embedded', branding_settings: branding, ...base }],
     ['2025-09-30.clover', { ui_mode: 'embedded_page', branding_settings: branding, ...base }],
     [undefined, { ui_mode: 'embedded', ...base }],
