@@ -105,6 +105,13 @@ export async function sendWelcome(env, rec) {
     const contact = { email: rec.email, attributes: { FIRSTNAME: rec.name || '', ACCESS_CODE: rec.code }, updateEnabled: true };
     if (env.BREVO_LIST_ID) contact.listIds = [Number(env.BREVO_LIST_ID)];
     out.contact = await brevo(env, '/contacts', contact);
+    // First sale ever: the ACCESS_CODE field may not exist in Brevo yet. Create it and try again.
+    if (!out.contact.ok && /attribute/i.test(out.contact.text)) {
+      await fetch('https://api.brevo.com/v3/contacts/attributes/normal/ACCESS_CODE', {
+        method: 'POST', headers: { 'api-key': env.BREVO_API_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify({ type: 'text' }),
+      });
+      out.contact = await brevo(env, '/contacts', contact);
+    }
     if (env.BREVO_TEMPLATE_ID) {
       out.email = await brevo(env, '/smtp/email', {
         templateId: Number(env.BREVO_TEMPLATE_ID),
