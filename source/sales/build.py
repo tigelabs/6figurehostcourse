@@ -25,6 +25,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 <li><a href="/bali/"{i}>Bali guide</a></li>
 <li><a href="/calculator/"{k}>Profit Calculator</a></li>
 </ul></details></li>
+<li><a href="/contact/"{t}>Contact</a></li>
 </ul>
 <script>document.addEventListener('click',function(e){{var d=document.querySelector('.nav .dd details');if(d&&d.open&&!d.contains(e.target))d.open=false}});document.addEventListener('keydown',function(e){{var d=document.querySelector('.nav .dd details');if(e.key==='Escape'&&d&&d.open){{d.open=false;d.querySelector('summary').focus()}}}});</script>
 <a class="login" href="/hostcourse/login">Access your course</a>
@@ -34,15 +35,15 @@ NAV = '''<nav class="nav" aria-label="Main">
 FOOT = '''<footer class="foot">
 <div class="in">
 <span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>
-<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
+<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/contact/">Contact</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
 </div>
 </footer>'''
 
 
 def page(path, title, desc, body, active=''):
     nav = NAV.format(c=' aria-current="page"' if active == 'course' else '', b=' aria-current="page"' if active == 'barcelona' else '',
-                     i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '')
-    if path.strip('/'):
+                     i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '', t=' aria-current="page"' if active == 'contact' else '')
+    if path.strip('/') and path.strip('/') != 'contact':
         nav = ''  # landing pages: no menu, so nothing pulls visitors away from the offer
     doc = '''<!DOCTYPE html>
 <html lang="en">
@@ -55,7 +56,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:description" content="%s">
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
-<link rel="stylesheet" href="/assets/sales.css?v=20261123d">
+<link rel="stylesheet" href="/assets/sales.css?v=20261123e">
 <script src="/assets/offer.js?v=5" defer></script>
 </head>
 <body>
@@ -458,6 +459,47 @@ def masterclass_page():
     return page('masterclassvideo/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Farah & Daniel: how to build a profitable rental business in Barcelona, Bali or anywhere, with or without owning property.', body)
 
 
+def contact_page():
+    body = '''<main class="ct">
+<div class="in">
+<div class="ct-copy">
+<h1 class="h-h2"><span class="sc">Contact</span>Ask us anything</h1>
+<p class="ct-lead">Questions about the course, the add-ons or your own place? Send us a message and we’ll reply by email.</p>
+<form class="ct-form" id="ct-form" novalidate>
+<label>Your name<input name="name" autocomplete="name" required maxlength="100"></label>
+<label>Your email<input name="email" type="email" autocomplete="email" required maxlength="200"></label>
+<label>What is it about?<select name="topic"><option>The online course</option><option>Add-ons (guides or calculator)</option><option>My access or a payment</option><option>Partnership or press</option><option>Something else</option></select></label>
+<label>Your message<textarea name="message" rows="6" required maxlength="5000"></textarea></label>
+<label class="ct-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<button class="cta" type="submit">Send message</button>
+<p class="ct-status" role="status" aria-live="polite"></p>
+</form>
+<p class="ct-alt">Prefer email? Write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a>. You can also find us on <a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a>.</p>
+</div>
+<aside class="ct-side">
+<figure><img src="/assets/sales/rev-iveta-home.webp" width="1206" height="657" alt="Five-star review from Iveta, Australia: Absolutely amazing! The place is so clean, customer oriented and detailed. You can see that the hosts put their heart in it. Absolutely recommend!"></figure>
+<figure><img src="/assets/sales/guest-fav-497.webp" width="1204" height="200" alt="Guest favourite: one of the most loved homes on Airbnb, rated 4.97 from 65 reviews." loading="lazy"></figure>
+<p class="sign">Daniel &amp; Farah</p>
+</aside>
+</div>
+</main>
+<script>
+(function(){var f=document.getElementById('ct-form'),st=f.querySelector('.ct-status'),btn=f.querySelector('button'),t0=Date.now();
+f.addEventListener('submit',function(e){e.preventDefault();
+var d={name:f.name.value.trim(),email:f.email.value.trim(),topic:f.topic.value,message:f.message.value.trim(),website:f.website.value,t:t0};
+if(!d.name){st.textContent='Please add your name.';f.name.focus();return}
+if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(d.email)){st.textContent='Please check your email address. We need it to reply.';f.email.focus();return}
+if(d.message.length<5){st.textContent='Please write your message.';f.message.focus();return}
+btn.disabled=true;btn.textContent='Sending…';st.textContent='';st.className='ct-status';
+fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j}})}).then(function(x){
+if(x.ok&&x.j.ok){f.reset();st.className='ct-status ok';st.textContent='Message sent. Thank you! We’ll reply to '+d.email+'.';btn.textContent='Message sent'}
+else{st.className='ct-status err';st.textContent=(x.j&&x.j.error)||'Your message didn’t go through. Please try again.';btn.disabled=false;btn.textContent='Send message'}
+}).catch(function(){st.className='ct-status err';st.textContent='Your message didn’t go through. Check your connection and try again.';btn.disabled=false;btn.textContent='Send message'});
+});})();
+</script>'''
+    return page('contact/', 'Contact · 6-Figure Host', 'Questions about the 6-Figure Host Course, the guides or the calculator? Send Daniel & Farah a message.', body, 'contact')
+
+
 if __name__ == '__main__':
     open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'home.css')).read())
     for k in VARIANTS: print(k, course_page(k))
@@ -465,3 +507,4 @@ if __name__ == '__main__':
     print('calculator', calculator_page())
     print('home', home_page())
     print('masterclass', masterclass_page())
+    print('contact', contact_page())
