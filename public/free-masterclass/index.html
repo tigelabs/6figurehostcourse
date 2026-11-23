@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free masterclass · 6-Figure Host</title>
+<meta name="description" content="Free masterclass: how to launch a profitable Airbnb business and earn your first $10k profit, even if you don’t own property.">
+<meta property="og:title" content="Free masterclass · 6-Figure Host">
+<meta property="og:description" content="Free masterclass: how to launch a profitable Airbnb business and earn your first $10k profit, even if you don’t own property.">
+<meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Arimo:ital,wght@0,400;0,700;1,400&amp;family=Libre+Baskerville:ital,wght@0,400;1,400&amp;family=Pinyon+Script&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/sales.css?v=20261123j">
+<script src="/assets/offer.js?v=6" defer></script>
+</head>
+<body>
+<div class="pg">
+
+<main class="fm">
+<div class="fm-img"><img src="/assets/sales/mc-signup.webp" width="1344" height="1386" alt="A sunny poolside bench with cushions under a straw roof at one of our villas in Bali"></div>
+<div class="fm-side">
+<div class="fm-box">
+<h1 class="fm-h">Free masterclass</h1>
+<p class="fm-sub">How to launch a profitable Airbnb business and earn your first $10k profit.</p>
+<p class="fm-txt">Even if you don’t own property, have no real estate license or don't know where to start 💸🏡</p>
+<form class="fm-form" id="fm-form" novalidate>
+<label class="fm-l"><span class="fm-sr">Email address</span><input name="email" type="email" autocomplete="email" placeholder="Email address" required maxlength="200"></label>
+<label class="fm-l"><span class="fm-sr">First name</span><input name="first" autocomplete="given-name" placeholder="First name" required maxlength="80"></label>
+<label class="fm-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<button class="fm-btn" type="submit">Unlock free access</button>
+<p class="fm-status" role="status" aria-live="polite"></p>
+</form>
+<div class="fm-done" id="fm-done" hidden>
+<p class="fm-sub">You’re in! 🎉</p>
+<p class="fm-txt">Check your inbox: we just sent you the link to the masterclass. Can’t find it? Look in your spam or promotions folder.</p>
+</div>
+</div>
+</div>
+</main>
+<script>
+(function(){var f=document.getElementById('fm-form'),st=f.querySelector('.fm-status'),b=f.querySelector('button'),t0=Date.now();
+f.addEventListener('submit',function(e){e.preventDefault();
+var d={email:f.email.value.trim(),first:f.first.value.trim(),website:f.website.value,t:t0};
+if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email)){st.textContent='Please check your email address.';f.email.focus();return}
+if(!d.first){st.textContent='Please add your first name.';f.first.focus();return}
+b.disabled=true;b.textContent='One moment…';st.textContent='';
+fetch('/api/masterclass',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j}})}).then(function(x){
+if(x.ok&&x.j.ok){f.hidden=true;document.getElementById('fm-done').hidden=false}
+else{st.textContent=(x.j&&x.j.error)||'Something went wrong. Please try again.';b.disabled=false;b.textContent='Unlock free access'}
+}).catch(function(){st.textContent='Something went wrong. Check your connection and try again.';b.disabled=false;b.textContent='Unlock free access'})});})();
+</script>
+
+</div>
+</body>
+</html>

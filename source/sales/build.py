@@ -16,7 +16,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 <div class="in">
 <a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
-<li><a href="https://passiontoprofit.myflodesk.com/masterclass">Free Masterclass</a></li>
+<li><a href="/free-masterclass/">Free Masterclass</a></li>
 <li><a href="/our-story/"{s}>Our story</a></li>
 <li><a href="/course/"{c}>Online course</a></li>
 <li class="dd"><details><summary>Add-ons</summary>
@@ -40,7 +40,7 @@ FOOT = '''<footer class="foot">
 </footer>'''
 
 
-def page(path, title, desc, body, active=''):
+def page(path, title, desc, body, active='', foot=True):
     nav = NAV.format(c=' aria-current="page"' if active == 'course' else '', b=' aria-current="page"' if active == 'barcelona' else '',
                      i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '', t=' aria-current="page"' if active == 'contact' else '', s=' aria-current="page"' if active == 'story' else '')
     if path.strip('/') and path.strip('/') not in ('contact', 'our-story'):
@@ -67,7 +67,7 @@ def page(path, title, desc, body, active=''):
 </div>
 </body>
 </html>
-''' % (html.escape(title), html.escape(desc), html.escape(title), html.escape(desc), FONTS, nav, body, FOOT)
+''' % (html.escape(title), html.escape(desc), html.escape(title), html.escape(desc), FONTS, nav, body, FOOT if foot else '')
     d = os.path.join(OUT, path.strip('/'))
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(doc)
@@ -518,6 +518,43 @@ def story_page():
     return page('our-story/', 'Our story · 6-Figure Host', 'How Daniel & Farah went from sleeping on the couch in Barcelona to a six-figure hosting business with homes around the world, without owning property.', body, 'story')
 
 
+def free_masterclass_page():
+    body = '''<main class="fm">
+<div class="fm-img"><img src="/assets/sales/mc-signup.webp" width="1344" height="1386" alt="A sunny poolside bench with cushions under a straw roof at one of our villas in Bali"></div>
+<div class="fm-side">
+<div class="fm-box">
+<h1 class="fm-h">Free masterclass</h1>
+<p class="fm-sub">How to launch a profitable Airbnb business and earn your first $10k profit.</p>
+<p class="fm-txt">Even if you don’t own property, have no real estate license or don't know where to start 💸🏡</p>
+<form class="fm-form" id="fm-form" novalidate>
+<label class="fm-l"><span class="fm-sr">Email address</span><input name="email" type="email" autocomplete="email" placeholder="Email address" required maxlength="200"></label>
+<label class="fm-l"><span class="fm-sr">First name</span><input name="first" autocomplete="given-name" placeholder="First name" required maxlength="80"></label>
+<label class="fm-hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<button class="fm-btn" type="submit">Unlock free access</button>
+<p class="fm-status" role="status" aria-live="polite"></p>
+</form>
+<div class="fm-done" id="fm-done" hidden>
+<p class="fm-sub">You’re in! 🎉</p>
+<p class="fm-txt">Check your inbox: we just sent you the link to the masterclass. Can’t find it? Look in your spam or promotions folder.</p>
+</div>
+</div>
+</div>
+</main>
+<script>
+(function(){var f=document.getElementById('fm-form'),st=f.querySelector('.fm-status'),b=f.querySelector('button'),t0=Date.now();
+f.addEventListener('submit',function(e){e.preventDefault();
+var d={email:f.email.value.trim(),first:f.first.value.trim(),website:f.website.value,t:t0};
+if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(d.email)){st.textContent='Please check your email address.';f.email.focus();return}
+if(!d.first){st.textContent='Please add your first name.';f.first.focus();return}
+b.disabled=true;b.textContent='One moment…';st.textContent='';
+fetch('/api/masterclass',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j}})}).then(function(x){
+if(x.ok&&x.j.ok){f.hidden=true;document.getElementById('fm-done').hidden=false}
+else{st.textContent=(x.j&&x.j.error)||'Something went wrong. Please try again.';b.disabled=false;b.textContent='Unlock free access'}
+}).catch(function(){st.textContent='Something went wrong. Check your connection and try again.';b.disabled=false;b.textContent='Unlock free access'})});})();
+</script>'''
+    return page('free-masterclass/', 'Free masterclass · 6-Figure Host', 'Free masterclass: how to launch a profitable Airbnb business and earn your first $10k profit, even if you don’t own property.', body, foot=False)
+
+
 if __name__ == '__main__':
     open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'home.css')).read())
     for k in VARIANTS: print(k, course_page(k))
@@ -533,3 +570,4 @@ if __name__ == '__main__':
     print('masterclass', masterclass_page())
     print('contact', contact_page())
     print('story', story_page())
+    print('free-masterclass', free_masterclass_page())
