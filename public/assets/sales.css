@@ -579,11 +579,22 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* Who we are: bigger photo */
 .pg .h-us .in{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 @media (max-width:900px){.pg .h-us .in{grid-template-columns:1fr}}
-/* Last block: white beige and bigger */
-.pg .h-end{background:#F4F2EF;padding:clamp(80px,11vw,150px) 24px}
-.pg .h-end .h-h2{color:var(--ink);font-size:clamp(44px,6.4vw,92px)}
-.pg .h-end .h-h2 .sc{color:var(--terra)}
-.pg .h-end .cta{background:var(--terra);border-color:var(--terra);color:var(--cream)}
-.pg .h-end .h-small{color:var(--muted);font-size:16px}
-.pg .h-end .h-ig{color:var(--ink);border-color:var(--ink)}
 .pg .h-hero .h-link{color:var(--ink)}
+
+/* Hero with photo */
+.pg .h-hero .in{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(32px,5vw,72px);align-items:center}
+.pg .h-hero .h-statrow{display:block}
+.pg .h-hero .h-title{font-size:clamp(46px,6.2vw,96px)}
+.pg .h-hero .h-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+.h-photo{margin:0;justify-self:end;width:100%;max-width:440px}
+.h-photo img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 24px 50px -24px rgba(56,51,48,.45)}
+.h-photo figcaption{margin-top:14px;font-family:var(--serif);font-style:italic;font-size:17px;color:var(--ink);text-align:center}
+@media (max-width:900px){.pg .h-hero .in{grid-template-columns:1fr}.h-photo{justify-self:center}.pg .h-hero .h-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.pg .h-hero .h-stats li:nth-child(3){padding-left:14px;border-left:1px solid var(--rule)}.pg .h-hero .h-stats li:nth-child(n+3){margin-top:0;border-top:0}}
+/* Last block: terracotta with a beige button */
+.pg .h-end{background:var(--terra);padding:clamp(80px,11vw,150px) 24px}
+.pg .h-end .h-h2{color:var(--cream);font-size:clamp(44px,6.4vw,92px)}
+.pg .h-end .h-h2 .sc{color:#E6CB8F}
+.pg .h-end .cta{background:#E2DDD8;border-color:#E2DDD8;color:var(--ink)}
+.pg .h-end .cta:hover{background:#F4F2EF;border-color:#F4F2EF;color:var(--ink)}
+.pg .h-end .h-small{color:#f3e4de;font-size:16px}
+.pg .h-end .h-ig{color:var(--cream);border-color:var(--cream)}
