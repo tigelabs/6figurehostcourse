@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /hostcourse/
+Disallow: /launchroom/
 Disallow: /api/

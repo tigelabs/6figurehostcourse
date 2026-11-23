@@ -1,6 +1,10 @@
 // Every request passes through here. The public site (home page, privacy, future sales pages)
 // is open to everyone. Only /hostcourse/ (the course) needs a valid session cookie for an active code.
 import { readSession, getCode, productsOf } from '../src/lib.js';
+import { isTeam } from '../src/team.js';
+
+const TEAM = '/launchroom';
+const TEAM_PUBLIC = new Set(['/launchroom/login', '/launchroom/login.html']);
 
 const COURSE = '/hostcourse';
 const COURSE_PUBLIC = new Set([
@@ -15,6 +19,24 @@ export async function onRequest(context) {
   // Old course address: send people to the new one.
   if (path === '/login' || path === '/login.html') {
     return Response.redirect(new URL('/hostcourse/login' + url.search, url).toString(), 301);
+  }
+
+  // Private Launch Room (Farah & Daniel only).
+  if (path === TEAM || path.startsWith(TEAM + '/')) {
+    if (path === TEAM) return Response.redirect(new URL(TEAM + '/', url).toString(), 301);
+    if (TEAM_PUBLIC.has(path)) {
+      const r = await next(), out = new Response(r.body, r);
+      out.headers.set('X-Robots-Tag', 'noindex, nofollow');
+      return out;
+    }
+    if (!(await isTeam(env, request))) {
+      if (path.endsWith('/') || path.endsWith('.html')) return Response.redirect(new URL(TEAM + '/login', url).toString(), 302);
+      return new Response('Not found', { status: 404 });
+    }
+    const r = await next(), out = new Response(r.body, r);
+    out.headers.set('Cache-Control', 'private, no-store');
+    out.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return out;
   }
 
   if (path !== COURSE && !path.startsWith(COURSE + '/')) return next();

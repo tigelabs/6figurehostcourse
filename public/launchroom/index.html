@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6 Figure Host Launch Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+/* VOICE: the founders' private war room for a 4-day Black Friday cart — warm, direct, built to be used every hour.
+   IDEA: the course's own planner pages turned into a launch logbook: countdown, calendar, emails, posts, checklist, numbers.
+   PICTURE: the dark-green hero card with the live countdown to the next door (open / close) and the phase rail.
+   COLOUR and TYPE: 6 Figure Host brand exactly — terracotta bar, ink, dark green, stone and paper; Anton, Instrument Serif italic, Arimo.
+   LAYOUT: top bar + tab row; each tab one working surface; stacks to one column under 720px. */
+:root{color-scheme:light dark;
+--bg:light-dark(#E1DED9,#1D221F);--paper:light-dark(#F4F3F2,#262D28);--beige:light-dark(#EBE9E5,#2E3630);
+--ink:light-dark(#383330,#F1EEEA);--soft:light-dark(#4A4541,#CBC5BD);--mute:light-dark(#8C867F,#9A948C);
+--line:light-dark(#BDB8B0,#465049);--line2:light-dark(#DAD6D0,#384039);--edge:light-dark(#383330,#5B655D);
+--terra:#A05F50;--terra2:#834B3F;--terraT:light-dark(#A05F50,#E6C9C1);--tint:light-dark(#F1DDD7,#4A3631);
+--green:#313A33;--green2:#252C27;--sgreen:light-dark(#5B7360,#9DB5A2);--sand:#D9B59A;--burnt:#A8552F;
+--disp:Anton,Impact,'Arial Narrow Bold',sans-serif;--ser:'Instrument Serif','Libre Baskerville',Georgia,serif;--body:Arimo,Arial,Helvetica,sans-serif}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);overflow-x:clip}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.top{background:var(--terra);color:#F4F3F2;display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px max(4vw,16px)}
+.logo{display:flex;align-items:baseline;gap:8px;margin-right:auto}
+.logo i{font:italic 30px/1 var(--ser)}.logo b{font:19px/1 var(--disp);text-transform:uppercase;letter-spacing:.03em}
+.clocks{display:flex;gap:18px;font-size:13px;opacity:.95}.clocks b{font:17px var(--disp);letter-spacing:.03em;margin-left:6px}
+.sync{font-size:12px;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:99px}
+nav{display:flex;gap:4px;overflow-x:auto;padding:10px max(4vw,16px) 0;border-bottom:2px solid var(--edge);background:var(--bg);position:sticky;top:0;z-index:5}
+nav a{flex:none;padding:10px 14px 9px;border-radius:10px 10px 0 0;text-decoration:none;color:var(--soft);font-weight:700;font-size:14px}
+nav a[aria-current]{background:var(--ink);color:var(--bg)}
+main{padding:clamp(18px,3vw,36px) max(4vw,16px) 60px;max-width:1500px;margin:0 auto}
+section[data-v]{display:none}section[data-v].on{display:block}
+h1,h2,h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;letter-spacing:.02em;line-height:1.05;margin:0;text-wrap:balance}
+h2{font-size:clamp(28px,3.4vw,42px)}h3{font-size:20px}
+h2 em,h1 em,h3 em{font:italic 400 1.05em var(--ser);text-transform:none;letter-spacing:0;color:var(--terraT)}
+.eyb{color:var(--terraT);font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;margin:0 0 6px}
+.head{display:flex;align-items:end;gap:14px;flex-wrap:wrap;border-top:2px solid var(--edge);padding-top:16px;margin:34px 0 16px}
+.head:first-child{margin-top:0}.head p{margin:0;color:var(--soft);flex:1 1 300px}
+.card{background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;padding:18px 20px}
+.pbox{background:var(--beige);border-radius:16px;padding:18px 24px}.pbox b{color:var(--terraT)}
+.grid{display:grid;gap:16px}.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.btn{background:var(--terra);color:#F4F3F2;border:0;border-radius:8px;padding:11px 16px;min-height:44px;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.btn:hover{background:var(--terra2)}.btn.g{background:var(--green)}.btn.o{background:transparent;color:var(--ink);border:1.5px solid var(--edge)}
+.small{font-size:13px;color:var(--soft)}
+/* hero */
+.hero{background:var(--green);color:#F4F3F2;border-radius:18px;padding:clamp(22px,3vw,40px);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center}
+.hero .eyb{color:#E6C9C1}.hero h1{font-size:clamp(34px,4.6vw,56px)}.hero h1 em{color:#E6C9C1}
+.cd{display:flex;gap:10px;margin:18px 0 10px;flex-wrap:wrap}
+.cd div{background:var(--green2);border-radius:12px;padding:10px 14px;min-width:84px;text-align:center}
+.cd b{display:block;font:clamp(38px,5vw,64px)/1 var(--disp)}.cd span{font-size:12px;opacity:.8}
+.offer{font-size:15px;opacity:.92;margin:0}.offer b{color:#E6C9C1}
+.rail{display:grid;gap:10px}
+.ph{display:grid;grid-template-columns:14px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border-radius:12px;background:rgba(255,255,255,.06)}
+.ph i{width:14px;height:14px;border-radius:50%;border:2px solid #E6C9C1}
+.ph.now{background:var(--terra)}.ph.now i{background:#F4F3F2;border-color:#F4F3F2}.ph.past{opacity:.55}.ph.past i{background:#E6C9C1}
+.ph b{font:18px var(--disp);text-transform:uppercase;letter-spacing:.03em}.ph span{font-size:13px;opacity:.85}
+/* lists */
+.it{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:10px;align-items:start;padding:10px 0;border-top:1px solid var(--line2);cursor:pointer;background:none;border-left:0;border-right:0;border-bottom:0;width:100%;text-align:left}
+.it:first-child{border-top:0}.it time{font:16px var(--disp);color:var(--terraT);letter-spacing:.02em}
+.it .t{font-weight:600;line-height:1.35}.it .m{font-size:12px;color:var(--mute)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.k-email{background:var(--terra)}.k-post{background:var(--sgreen)}.k-story{background:var(--sand)}.k-live{background:var(--burnt)}.k-task{background:var(--mute)}
+.st{font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;white-space:nowrap;background:var(--beige);color:var(--soft)}
+.st-drafting{background:#F1DDD7;color:#834B3F}.st-ready{background:#D9E0D9;color:#33463A}.st-scheduled{background:#313A33;color:#F4F3F2}.st-done{background:var(--ink);color:var(--bg)}
+.meter{height:14px;background:var(--beige);border-radius:99px;overflow:hidden;margin:10px 0 6px}.meter i{display:block;height:100%;background:var(--terra);border-radius:99px}
+.big{font:clamp(40px,5vw,60px)/1 var(--disp)}
+.stages{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px}
+.stg{border:1.5px solid var(--edge);border-radius:14px;padding:12px 14px;background:var(--paper)}
+.stg b{font:16px var(--disp);text-transform:uppercase;display:block;letter-spacing:.02em}.stg span{font-size:12px;color:var(--soft)}
+.stg.live{background:var(--terra);border-color:var(--terra);color:#F4F3F2}.stg.live span{color:#F4F3F2}
+.stg.donee{background:var(--beige);border-color:var(--line)}
+/* calendar */
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.bar .mo{font:24px var(--disp);text-transform:uppercase;min-width:190px;text-align:center}
+.seg{display:inline-flex;border:1.5px solid var(--edge);border-radius:10px;overflow:hidden}
+.seg button{background:none;border:0;padding:9px 14px;min-height:42px;cursor:pointer;font-weight:700;font-size:13px}.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.chipf{border:1.5px solid var(--line);background:var(--paper);border-radius:99px;padding:7px 12px;min-height:38px;cursor:pointer;font-size:13px;font-weight:600}
+.chipf[aria-pressed=false]{opacity:.45}
+.month{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1.5px solid var(--edge);border-radius:14px;overflow:hidden;background:var(--paper)}
+.wd{padding:8px 10px;font-size:12px;font-weight:700;color:var(--bg);background:var(--ink);text-align:left}
+.day{min-height:128px;border-top:1px solid var(--line2);border-left:1px solid var(--line2);padding:6px;display:flex;flex-direction:column;gap:3px;cursor:pointer;position:relative}
+.day:nth-child(7n+1){border-left:0}.day.out{background:var(--bg);opacity:.6}
+.day.cart{background:var(--tint)}.day.today{box-shadow:inset 0 0 0 2.5px var(--terra)}
+.day .n{font:18px var(--disp);display:flex;justify-content:space-between;align-items:center}.day .n small{font:700 10px var(--body);color:var(--terraT);letter-spacing:.06em;text-transform:uppercase}
+.ch{display:block;font-size:11.5px;line-height:1.3;padding:3px 6px;border-radius:6px;background:var(--beige);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:0;text-align:left;cursor:pointer;width:100%}
+.ch.done .chb{text-decoration:line-through;opacity:.6}.ch{display:flex;gap:5px;align-items:flex-start}.chb{flex:1;min-width:0;background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:inherit}
+.rdy{flex:none;width:15px;height:15px;margin:1px 0 0;accent-color:#5B7360;cursor:pointer}.ch.ok{background:light-dark(#DCE5DC,#2F4034)}.col .rdy{width:17px;height:17px}
+.agrow{display:grid;grid-template-columns:24px minmax(0,1fr);gap:6px;align-items:start}.agrow .rdy{margin-top:14px;width:18px;height:18px}.ch time{font-weight:700;margin-right:4px}
+.week{display:grid;grid-template-columns:repeat(9,minmax(150px,1fr));gap:10px;overflow-x:auto;padding-bottom:8px}
+.col{background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;padding:10px;min-height:300px}
+.col.cart{background:var(--tint)}.col h3{font-size:18px;margin-bottom:4px}.col .small{margin-bottom:8px;display:block}
+.col .ch{white-space:normal;font-size:13px;padding:7px 8px;margin-bottom:6px}
+.agenda{display:none}
+/* tables */
+table{width:100%;border-collapse:collapse;background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;overflow:hidden}
+th{background:var(--green);color:#F4F3F2;text-align:left;font-size:12px;letter-spacing:.06em;padding:10px 12px}
+td{padding:10px 12px;border-top:1px solid var(--line2);vertical-align:top}
+td.when{white-space:nowrap}td.when b{font:17px var(--disp);color:var(--terraT)}td .m{font-size:12px;color:var(--mute)}
+.lnk{background:none;border:0;padding:0;text-align:left;font-weight:700;cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+select.sm,input.sm{border:1.5px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 8px;min-height:38px;font-size:14px}
+.num{text-align:right}td input.sm{width:100%}
+/* checklist */
+.chk{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid var(--line2)}
+.chk:first-of-type{border-top:0}.chk input{width:20px;height:20px;accent-color:var(--terra);margin-top:2px;flex:none}
+.chk label{flex:1;cursor:pointer}.chk.on label{text-decoration:line-through;color:var(--mute)}
+.chk .x{background:none;border:0;color:var(--mute);cursor:pointer;font-size:18px;min-width:32px;min-height:32px}
+.add{display:flex;gap:8px;margin-top:10px}.add input{flex:1;border:1.5px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--bg);min-height:42px}
+/* results */
+.bars .r{display:grid;grid-template-columns:90px minmax(0,1fr) 90px;gap:10px;align-items:center;margin:8px 0}
+.bars .tr{height:26px;background:var(--beige);border-radius:8px;overflow:hidden}.bars .tr i{display:block;height:100%;background:var(--terra)}
+.bars .r:last-child .tr i{background:var(--green)}
+/* playbook */
+.fw{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px}
+.fw .card q{display:block;font:italic 22px/1.25 var(--ser);color:var(--terraT);margin:8px 0}
+.rules li{margin:0 0 10px}.rules b{color:var(--terraT)}
+.pull{font:italic clamp(24px,3vw,31px)/1.25 var(--ser);color:var(--terraT);margin:26px 0}
+/* editor */
+.ov{position:fixed;inset:0;background:rgba(20,22,20,.5);display:none;z-index:20;justify-content:flex-end}
+.ov.on{display:flex}
+.ed{background:var(--paper);width:min(560px,100%);height:100%;overflow:auto;padding:24px;border-left:2px solid var(--edge)}
+.ed label{display:block;font-size:12px;font-weight:700;color:var(--soft);margin:12px 0 4px}
+.ed input,.ed select,.ed textarea{width:100%;border:1.5px solid var(--line);border-radius:8px;padding:10px;background:var(--bg);min-height:44px;font-size:16px}
+.ed textarea{min-height:260px;line-height:1.55;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.edf{display:flex;gap:8px;margin-top:18px;flex-wrap:wrap}.edf .sp{flex:1}
+.empty{padding:20px;text-align:center;color:var(--soft)}
+.note{background:var(--tint);border-radius:10px;padding:10px 14px;font-size:14px;margin-bottom:16px;display:none}
+.scroll{overflow-x:auto}
+/* labels, ideas, drag and drop */
+.fmt{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;padding:1px 6px;border-radius:5px;margin-right:5px;vertical-align:1px;border:1.2px solid currentColor}
+.f-post{color:var(--sgreen)}.f-story{color:#9A6B4C;background:light-dark(#F3E6DB,#3A2F27)}.f-email{color:var(--terraT)}.f-live{color:var(--burnt)}.f-task{color:var(--mute)}
+.cat{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:99px;white-space:nowrap;line-height:1.4}
+.ch{border-left:4px solid transparent}.ch .cat{margin-left:4px;font-size:9.5px;padding:0 5px}
+.col .ch .cat{display:inline-block;margin:4px 0 0}.col .ch .ln2{display:block}
+[draggable=true]{cursor:grab}.dragging{opacity:.4}
+.drop{outline:2.5px dashed var(--terra);outline-offset:-3px}
+.tray{background:var(--beige);border-radius:16px;padding:12px 14px;margin-bottom:14px;min-height:62px}
+.tray .chs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.tray .ch{width:auto;max-width:280px;background:var(--paper)}
+.ideaf{display:grid;gap:10px}.ideaf textarea{width:100%;min-height:90px;border:1.5px solid var(--line);border-radius:10px;padding:12px;background:var(--bg);font-size:16px;resize:vertical}
+.ideaf .opts{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ideaf select,.ideaf input[type=date]{border:1.5px solid var(--line);background:var(--bg);border-radius:8px;padding:8px 10px;min-height:44px;font-size:15px}
+.board{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,1fr);gap:12px;overflow-x:auto;padding-bottom:10px}
+.bcol{background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;padding:10px;min-height:220px}
+.bcol h3{font-size:17px;display:flex;justify-content:space-between;gap:6px;align-items:center;margin-bottom:4px}.bcol>p{font-size:12px;color:var(--soft);margin:0 0 8px}
+.icard{background:var(--bg);border-radius:10px;padding:9px 10px;margin-bottom:8px;border-left:4px solid var(--line);cursor:pointer}
+.icard .t{font-weight:600;line-height:1.35;font-size:14px}.icard .m{font-size:12px;color:var(--mute);margin-top:4px}
+.hooks{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}.hooks button{text-align:left;background:var(--beige);border:1.5px solid transparent;border-radius:8px;padding:8px 10px;cursor:pointer;font-size:14px;line-height:1.35;min-height:40px}.hooks button:hover{border-color:var(--terra)}
+.hk{font-size:11px;color:var(--terraT);font-weight:700}
+.lab{font-size:13px;color:var(--soft)}.lab b{color:var(--terraT)}
+@media(max-width:860px){.hero{grid-template-columns:1fr}}
+@media(max-width:700px){.month,.monthhead{display:none}.agenda{display:block}.week{grid-template-columns:repeat(9,minmax(220px,1fr))}.clocks{width:100%}}
+@media(max-width:600px){table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px}.stack td{display:flow-root;border:0;padding:3px 12px;padding-inline-start:7em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:6.5em;margin-inline-start:-6.5em;white-space:normal;font-size:12px;color:var(--mute)}.stack td:empty{display:none}.stack tr+tr{border-top:1px solid var(--line2)}.row2{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:no-preference){.ov.on .ed{animation:sl .22s ease-out}@keyframes sl{from{transform:translateX(40px);opacity:.4}}}
+</style>
+<script>
+/* Site version: the planner is saved on 6figurehost.com (Cloudflare KV) instead of Claude's artifact storage. */
+(()=>{const API='/api/team/';let D={items:{},checks:{},days:{},meta:{}};const subs=[];let ready;
+const fire=()=>subs.forEach(f=>{try{f()}catch(e){console.error(e)}});
+const toLogin=()=>{location.href='/launchroom/login'};
+async function pull(){const r=await fetch(API+'data',{cache:'no-store',credentials:'same-origin'});if(r.status===401){toLogin();return}if(!r.ok)throw{code:'unavailable'};D=await r.json();fire()}
+ready=pull().catch(()=>{});
+setInterval(()=>{if(!document.hidden)pull().catch(()=>{})},15000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)pull().catch(()=>{})});
+let q=Promise.resolve();
+function write(col,id,data){if(!D[col])D[col]={};if(data)D[col][id]=data;else delete D[col][id];fire();
+  q=q.then(async()=>{const r=await fetch(API+'write',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify({col,id,data:data||null})});
+    if(r.status===401){toLogin();throw{code:'revoked'}}if(!r.ok)throw{code:'unavailable'};const j=await r.json();if(j.data){D=j.data;fire()}});return q}
+const snap=name=>({docs:Object.entries(D[name]||{}).map(([id,v])=>({id,exists:true,data:()=>v,metadata:{fromCache:false}})),metadata:{fromCache:false}});
+const db={collection:name=>({doc:id=>({set:d=>write(name,id,d),delete:()=>write(name,id,null)}),onSnapshot(cb){const f=()=>cb(snap(name));subs.push(f);ready.then(f);return()=>{}}}),
+  doc:path=>{const[c,id]=path.split('/');return{set:d=>write(c,id,d),delete:()=>write(c,id,null),onSnapshot(cb){const f=()=>{const v=(D[c]||{})[id];cb({id,exists:!!v,data:()=>v,metadata:{fromCache:false}})};subs.push(f);ready.then(f);return()=>{}}}}};
+window.claude={use:async n=>n==='db'?db:n==='user'?{can:async()=>true}:null};
+})();
+</script>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+<header class="top">
+  <div class="logo"><i>6 figure</i><b>Launch room</b></div>
+  <div class="clocks"><span>Barcelona<b id="cBcn">--:--</b></span><span>Bali<b id="cBali">--:--</b></span></div>
+  <span class="sync" id="sync">Connecting…</span>
+  <a href="/api/team/logout" class="sync" style="color:#F4F3F2;text-decoration:none">Log out</a>
+</header>
+<nav id="nav">
+  <a href="#overview">Overview</a><a href="#calendar">Calendar</a><a href="#ideas">Ideas</a><a href="#emails">Emails</a><a href="#posts">Posts</a><a href="#checklist">Checklist</a><a href="#results">Results</a><a href="#playbook">Playbook</a>
+</nav>
+<main>
+<p class="note" id="note"></p>
+
+<section data-v="overview">
+  <div class="hero">
+    <div>
+      <p class="eyb">Black Friday relaunch · 6 Figure Host</p>
+      <h1 id="cdTitle">Doors open <em>in</em></h1>
+      <div class="cd" id="cd"></div>
+      <p class="offer"><b>€147 / $170</b> instead of €297 · or 3 × €49 · 27 Nov 00:00 until 30 Nov 23:59, Barcelona time</p>
+    </div>
+    <div class="rail" id="rail"></div>
+  </div>
+  <div class="head"><div><p class="eyb">Today</p><h2>What's <em>on</em> today</h2></div><p id="todayDate"></p><button class="btn" data-new="task">Add item</button></div>
+  <div class="grid g3">
+    <div class="card"><h3>Scheduled today</h3><div id="today"></div></div>
+    <div class="card"><h3>Coming <em>up</em></h3><div id="next"></div></div>
+    <div class="card"><h3>Sales vs <em>goal</em></h3><div id="goalBox"></div></div>
+  </div>
+  <div class="head"><div><p class="eyb">Launch psychology</p><h2>Where we are in the <em>framework</em></h2></div><p>Each stage counts the emails and posts planned for it. The highlighted stage is today's focus.</p></div>
+  <div class="stages" id="stages"></div>
+  <div class="head"><div><p class="eyb">Readiness</p><h2>Launch <em>checklist</em></h2></div><p id="chkSum"></p><a class="btn o" href="#checklist">Open checklist</a></div>
+  <div class="meter"><i id="chkBar" style="width:0"></i></div>
+</section>
+
+<section data-v="calendar">
+  <div class="head"><div><p class="eyb">Calendar</p><h2>Launch <em>calendar</em></h2></div><p>All times are Barcelona time. Click a day to add something, click an item to edit it. The shaded days are the open cart.</p><button class="btn" data-new="post">Add item</button></div>
+  <div class="bar">
+    <div class="seg" id="calMode"><button aria-pressed="true" data-m="week">Launch week</button><button aria-pressed="false" data-m="month">Month</button></div>
+    <span id="moNav" style="display:flex;gap:6px;align-items:center"><button class="btn o" id="prev" aria-label="Previous month">‹</button><span class="mo" id="moName"></span><button class="btn o" id="nextM" aria-label="Next month">›</button></span>
+    <span id="filters" style="display:flex;gap:6px;flex-wrap:wrap"></span>
+  </div>
+  <div class="tray" id="tray" data-unsched="1"></div>
+  <div id="cal"></div>
+</section>
+
+<section data-v="ideas">
+  <div class="head"><div><p class="eyb">Content ideas</p><h2>Idea <em>bank</em></h2></div><p>Write an idea and it gets a content category automatically. Drag a card to another column to change its category, or onto a day in the calendar to schedule it.</p></div>
+  <form class="card ideaf" id="ideaForm">
+    <label class="small" for="iText" style="font-weight:700">New idea</label>
+    <textarea id="iText" placeholder="e.g. Carousel: why landlords prefer one tenant for a 5-bedroom apartment" required></textarea>
+    <div class="opts">
+      <div class="seg" id="iFmt"><button type="button" aria-pressed="true" data-fmt="post">Feed post</button><button type="button" aria-pressed="false" data-fmt="story">Story</button></div>
+      <label class="small" for="iMode">Categories</label>
+      <select id="iMode"><option value="auto">Automatic (launch or normal by date)</option><option value="launch">Launch categories</option><option value="normal">Normal categories (no launch)</option></select>
+      <label class="small" for="iDate">Date (optional)</label><input type="date" id="iDate">
+      <button class="btn">Add idea</button>
+    </div>
+    <p class="lab" id="iLab" aria-live="polite"></p>
+  </form>
+  <div class="bar" style="margin-top:18px">
+    <div class="seg" id="bMode"><button type="button" aria-pressed="true" data-b="launch">Launch categories</button><button type="button" aria-pressed="false" data-b="normal">Normal categories</button></div>
+    <label class="small" style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="bAll" style="width:18px;height:18px;accent-color:var(--terra)"> Also show scheduled posts</label>
+  </div>
+  <div class="board" id="board"></div>
+</section>
+
+<section data-v="emails">
+  <div class="head"><div><p class="eyb">Email marketing · Brevo</p><h2>Email <em>schedule</em></h2></div><p>Every launch email, when it goes out and where it stands. Click a subject to write or paste the draft.</p><button class="btn" data-new="email">New email</button></div>
+  <div id="emailTable"></div>
+</section>
+
+<section data-v="posts">
+  <div class="head"><div><p class="eyb">Instagram · Facebook group · Stories</p><h2>Social <em>posts</em></h2></div><p>Feed posts, reels, stories and lives. Keep the hook and caption in the notes.</p><button class="btn" data-new="post">New post</button></div>
+  <div id="postTable"></div>
+</section>
+
+<section data-v="checklist">
+  <div class="head"><div><p class="eyb">Nothing breaks on launch day</p><h2>Launch <em>checklist</em></h2></div><p>Tick things off together, it saves for both of you.</p></div>
+  <div class="grid g3" id="checks"></div>
+</section>
+
+<section data-v="results">
+  <div class="head"><div><p class="eyb">Numbers from Stripe</p><h2>Launch <em>results</em></h2></div><p>Log sales each evening from Stripe. Expect a dip in the middle and the biggest day at the end.</p></div>
+  <div class="grid g3">
+    <div class="card"><h3>Our <em>goal</em></h3>
+      <div class="row2"><div><label class="small" for="gS">Sales goal</label><input class="sm" id="gS" type="number" min="0" inputmode="numeric" style="width:100%"></div>
+      <div><label class="small" for="gR">Revenue goal (€)</label><input class="sm" id="gR" type="number" min="0" inputmode="numeric" style="width:100%"></div></div>
+      <div id="resTot" style="margin-top:14px"></div></div>
+    <div class="card"><h3>Revenue by <em>day</em></h3><div class="bars" id="bars"></div></div>
+  </div>
+  <div class="scroll" style="margin-top:16px"><table class="stack" id="dayTable"></table></div>
+</section>
+
+<section data-v="playbook">
+  <div class="head"><div><p class="eyb">Our launch framework</p><h2>The psychology of a <em>launch</em></h2></div><p>What the audience is thinking at each stage, and what we post and send to move them to the next one.</p></div>
+  <div class="fw" id="fw"></div>
+  <div class="head"><div><p class="eyb">From launches that worked</p><h2>Rules we <em>follow</em></h2></div></div>
+  <div class="grid g3">
+    <div class="pbox"><ul class="rules" style="padding-left:18px;margin:0">
+      <li><b>Story first, offer second.</b> Jeff Walker's Product Launch Formula runs pre-prelaunch, prelaunch content (usually three pieces: teach, story, proof), open cart, then post-launch. Our story, case study and "start from zero" are those three pieces.</li>
+      <li><b>Open cart is its own sequence.</b> Walker suggests 5–7 days of open cart. Ours is 4 days, so every day needs one clear email and one clear post.</li>
+      <li><b>One call to action per email.</b> Each email sends people to the course page. Nothing else.</li>
+    </ul></div>
+    <div class="pbox"><ul class="rules" style="padding-left:18px;margin:0">
+      <li><b>The last day is the biggest day.</b> Launch affiliate Matt McWilliams sees 40–60% of sales on the final day, and Kajabi and Copyhackers case studies show the same spike. Don't panic on Saturday.</li>
+      <li><b>Email 2–3 times on the last day.</b> Recommended by Jack Born on Amy Porterfield's podcast, because people get busy and miss one email.</li>
+      <li><b>The deadline is real.</b> The price goes back to €297 at midnight, and it really does. Never extend it.</li>
+    </ul></div>
+    <div class="pbox"><ul class="rules" style="padding-left:18px;margin:0">
+      <li><b>Expect the mid-cart dip.</b> Sales usually slow on days 2–3. That's when we post the objections content and answer questions by email and in the Facebook group.</li>
+      <li><b>Remove buyers from sales emails.</b> Exclude purchasers in Brevo before every send, so buyers only get the welcome.</li>
+      <li><b>Close the loop.</b> After the cart closes, welcome buyers fast and thank everyone else. Then write down what worked while it's fresh.</li>
+    </ul></div>
+  </div>
+  <p class="pull">Will it always be easy? No. Is it possible? 100%.</p>
+  <p class="small">Sources: <a href="https://systeme.io/blog/jeff-walker-millions">Jeff Walker's open cart (systeme.io)</a> · <a href="https://www.mattmcwilliams.com/how-close-sales-final-day-launch/">Matt McWilliams, closing the final day</a> · <a href="https://www.amyporterfield.com/?p=22333">Amy Porterfield with Jack Born</a> · <a href="https://www.kajabi.com/blog/how-to-2x-your-next-product-launch">Kajabi, 2x your next launch</a> · <a href="https://copyhackers.com/how-to-how-to-evergreen-your-course-sales/">Copyhackers on last-day sales</a></p>
+</section>
+</main>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="edT">
+  <form class="ed" id="ed">
+    <p class="eyb" id="edK">Item</p><h2 id="edT">Edit <em>item</em></h2>
+    <label for="fTitle">Hook / subject line</label><input id="fTitle" required>
+    <label>More hook ideas <span style="font-weight:400">· click one to make it the main hook</span></label>
+    <div id="fHookList" class="hooks"></div>
+    <textarea id="fHooks" style="min-height:96px" placeholder="One hook per line"></textarea>
+    <button class="btn o" type="button" id="fSuggest" style="margin-top:8px">Suggest 5 more hooks</button> <span class="small" id="fSugMsg"></span>
+    <div class="row2">
+      <div><label for="fType">Type</label><select id="fType"><option value="email">Email</option><option value="post">Feed post / reel</option><option value="story">Story</option><option value="live">Live</option><option value="task">Task</option></select></div>
+      <div><label for="fChan">Channel / format</label><input id="fChan" placeholder="e.g. Instagram reel"></div>
+    </div>
+    <div class="row2">
+      <div><label for="fDate">Date (empty = idea, not scheduled)</label><input id="fDate" type="date"></div>
+      <div><label for="fTime">Time (Barcelona) <span id="fBali" style="font-weight:400"></span></label><input id="fTime" type="time"></div>
+    </div>
+    <div class="row2">
+      <div><label for="fCat">Content category</label><select id="fCat"></select></div>
+      <div><label for="fStatus">Status</label><select id="fStatus"></select></div>
+    </div>
+    <label for="fOwner">Who</label><select id="fOwner"><option>Both</option><option>Daniel</option><option>Farah</option></select>
+    <label for="fNotes">Draft, hook, caption or notes</label><textarea id="fNotes"></textarea>
+    <div class="edf"><button class="btn" type="submit">Save</button><button class="btn g" type="button" id="edLater" title="Remove the date and keep it in Ideas">Save for later</button><button class="btn o" type="button" id="edX">Cancel</button><span class="sp"></span><button class="btn o" type="button" id="edDel">Delete</button></div>
+  </form>
+</div>
+
+<script>
+{
+const OPEN=Date.UTC(2026,10,26,23,0),CLOSE=Date.UTC(2026,10,30,23,0),CART=['2026-11-27','2026-11-28','2026-11-29','2026-11-30'];
+const STAGES=[['Ops','Behind the scenes'],['Anticipation','"Something exciting is coming"'],['Old beliefs','"Maybe there\'s a better way"'],["What's possible",'"Maybe I could do this too"'],['Authority','"They know what they\'re talking about"'],['Desire','"I want that result"'],['Invite to buy','"This is what I\'ve been looking for"'],['Objections','"Maybe I can actually do this"'],['Urgency','"I don\'t want to miss this"'],['Post-launch','Welcome buyers, thank everyone']];
+const FW=[[1,'Build anticipation','Something exciting is coming. I want to know more.','Create curiosity. Sneak peeks, countdowns, "only 4 days until…". Keep it going in stories the whole launch.'],[2,'Break old beliefs','Maybe there\'s a better way than what I\'ve been doing.','Challenge what keeps them stuck: you need to own property, you need lots of money, Barcelona is impossible.'],[3,'Show what\'s possible','Maybe I could do this too.','Examples and real results: the Barcelona co-living case study, before & after, "if we can, you can".'],[4,'Build authority','They know what they\'re talking about.','"If we had to start from zero", "5 things we wish we knew", our framework. Teaching, not bragging.'],[5,'Create desire','I want that result for myself.','"Imagine waking up to a booking…", "this time next year". Connect them with the life, not just the numbers.'],[6,'Invite to buy','This is exactly what I\'ve been looking for.','What it is, who it\'s for and NOT for, what\'s inside, price and split pay. Don\'t assume they know.'],[7,'Overcome objections','Maybe I can actually do this.','No experience, full-time job, no property, budget, landlords, strict rules. Answer before they ask.'],[8,'Spark urgency','I don\'t want to miss this opportunity.','"Last day", "a few hours left", price back to €297 at midnight. Real deadline, several reminders.']];
+const STATUS=['idea','drafting','ready','scheduled','done'];
+const TYPES={email:'Email',post:'Feed post',story:'Story',live:'Live',task:'Task'};
+const FMT={email:'Email',post:'Feed',story:'Story',live:'Live',task:'Task'};
+const LCATS=[['anticipation','Anticipation',1,'#D9B59A','#383330'],['beliefs','Old beliefs',2,'#C98A7A','#2B2421'],['possible',"What's possible",3,'#5B7360','#F4F3F2'],['authority','Authority',4,'#313A33','#F4F3F2'],['desire','Desire',5,'#A05F50','#F4F3F2'],['invite','Invite to buy',6,'#834B3F','#F4F3F2'],['objections','Objections',7,'#8C867F','#FFFFFF'],['urgency','Urgency',8,'#A8552F','#FFFFFF']];
+const NCATS=[['attraction','Attraction',0,'#D9B59A','#383330'],['n-desire','Desire',0,'#A05F50','#F4F3F2'],['t-authority','Trust: authority',0,'#313A33','#F4F3F2'],['t-edu','Trust: educational',0,'#5B7360','#F4F3F2'],['t-invite','Trust: invite to buy',0,'#834B3F','#F4F3F2']];
+const OCATS=[['postlaunch','Post-launch',9,'#E3DFD9','#383330']];
+const CAT={};[...LCATS,...NCATS,...OCATS].forEach(c=>CAT[c[0]]=c);
+const CDESC={anticipation:'build curiosity before launch: sneak peeks, countdowns, behind the scenes, "something is coming"',beliefs:'challenge a belief that keeps people stuck: "you don\'t need to own property", myths, "the real reason you are stuck"',possible:'show what is possible: case studies, results, before and after, real apartments and numbers',authority:'show expertise: frameworks, "how we did it", "mistakes we made", "if we started over"',desire:'make them want the result and lifestyle: "imagine waking up…", freedom, day in the life',invite:'present the offer: it\'s live, what\'s inside, who it\'s for, price, link',objections:'answer doubts: no experience, full-time job, budget, landlords, strict rules',urgency:'deadline: last day, hours left, doors closing, price goes back up',attraction:'reach new people: relatable, shareable, broad hooks, trends, travel and hosting lifestyle moments for a wide audience','n-desire':'make followers want the result: lifestyle, freedom, the villa, the life hosting gives','t-authority':'build trust through proof and experience: results, case studies, 10 years of hosting, behind the scenes of our business','t-edu':'build trust by teaching: how-to, tips, steps, mistakes to avoid, explanations','t-invite':'build trust and invite to buy: mention the course, free masterclass, calculator, link in bio'};
+const LSTART='2026-11-20',LEND='2026-12-01',inLaunch=d=>(d||'')>=LSTART&&(d||'')<=LEND;
+const catOf=i=>{if(i.cat&&CAT[i.cat])return i.cat;const s=+i.stage;if(s>=1&&s<=8)return LCATS[s-1][0];if(s===9)return'postlaunch';return''};
+const stageOf=i=>{const c=CAT[catOf(i)];return c&&c[2]?c[2]:0};
+const pill=c=>{const k=CAT[c];return k?`<span class="cat" style="background:${k[3]};color:${k[4]}">${esc(k[1])}</span>`:''};
+const fmtB=t=>`<span class="fmt f-${esc(t)}">${esc(FMT[t]||t)}</span>`;
+const bord=i=>{const k=CAT[catOf(i)];return k?`border-left-color:${k[3]}`:''};
+const PHASES=['Before launch','Launch day · 27 Nov','Open cart','Cart close · 30 Nov','After launch'];
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let S={items:[],checks:[],days:{},goal:{}},db=null,canWrite=true,view='overview',calMode='week',bMode=inLaunch(new Date(Date.now()).toISOString().slice(0,10))?'launch':'normal',iFmt='post',sampleFn=null,dragId=null,mon=[2026,10],filt=new Set(Object.keys(TYPES)),editing=null;
+
+const fmt=(tz,o)=>new Intl.DateTimeFormat('en-GB',{timeZone:tz,...o});
+const bcnDate=d=>new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid'}).format(d);
+const today=()=>bcnDate(new Date());
+const dLabel=(iso,o={weekday:'short',day:'numeric',month:'short'})=>new Date(iso+'T12:00:00Z').toLocaleDateString('en-GB',{timeZone:'UTC',...o});
+const bali=(date,time)=>{if(!time)return'';const[h,m]=time.split(':').map(Number);let H=h+7,d=date;if(H>=24){H-=24;d=bcnDate(new Date(Date.parse(date+'T12:00:00Z')+864e5))}return String(H).padStart(2,'0')+':'+String(m).padStart(2,'0')+(d!==date?' next day':'')};
+const sorted=a=>[...a].sort((x,y)=>((x.date||'9999')+(x.time||'99')).localeCompare((y.date||'9999')+(y.time||'99')));
+const stCls=s=>'st st-'+esc(s);
+
+function note(t){const n=$('#note');n.textContent=t||'';n.style.display=t?'block':'none'}
+function setSync(t){$('#sync').textContent=t}
+
+/* ---------- clocks & countdown ---------- */
+function tick(){
+  const now=Date.now();
+  $('#cBcn').textContent=fmt('Europe/Madrid',{hour:'2-digit',minute:'2-digit'}).format(now);
+  $('#cBali').textContent=fmt('Asia/Makassar',{hour:'2-digit',minute:'2-digit'}).format(now);
+  let tgt=OPEN,ttl='Doors open <em>in</em>';
+  if(now>=OPEN&&now<CLOSE){tgt=CLOSE;ttl='Black Friday price ends <em>in</em>'}
+  if(now>=CLOSE){$('#cdTitle').innerHTML='Doors are <em>closed</em>';$('#cd').innerHTML='<div><b>✓</b><span>Launch done</span></div>';return}
+  $('#cdTitle').innerHTML=ttl;
+  let s=Math.max(0,Math.floor((tgt-now)/1000));const u=[[Math.floor(s/86400),'days'],[Math.floor(s%86400/3600),'hours'],[Math.floor(s%3600/60),'minutes'],[s%60,'seconds']];
+  $('#cd').innerHTML=u.map(([v,l])=>`<div><b>${String(v).padStart(2,'0')}</b><span>${l}</span></div>`).join('');
+}
+
+/* ---------- overview ---------- */
+function rOverview(){
+  const t=today(),now=Date.now();
+  const ph=[['Pre-launch','Story · case study · authority',now<OPEN],['Cart open','27–30 Nov · €147',now>=OPEN&&now<CLOSE],['After launch','Welcome · thank you · debrief',now>=CLOSE]];
+  const idx=ph.findIndex(p=>p[2]);
+  $('#rail').innerHTML=ph.map((p,i)=>`<div class="ph ${i===idx?'now':i<idx?'past':''}"><i></i><div><b>${p[0]}</b><br><span>${p[1]}</span></div><span>${i===idx?'Now':''}</span></div>`).join('');
+  $('#todayDate').textContent=dLabel(t,{weekday:'long',day:'numeric',month:'long'})+' in Barcelona';
+  const tod=sorted(S.items.filter(i=>i.date&&i.date===t));
+  $('#today').innerHTML=tod.length?tod.map(itemRow).join(''):'<p class="empty">Nothing scheduled today. Add a story or a task.</p>';
+  const nx=sorted(S.items.filter(i=>i.date>t&&i.status!=='done')).slice(0,6);
+  $('#next').innerHTML=nx.length?nx.map(i=>itemRow(i,true)).join(''):'<p class="empty">Nothing coming up yet.</p>';
+  const sales=Object.values(S.days).reduce((a,d)=>a+(+d.sales||0),0),rev=Object.values(S.days).reduce((a,d)=>a+(+d.revenue||0),0),g=+S.goal.sales||0;
+  $('#goalBox').innerHTML=`<div class="big">${sales}${g?`<span style="font-size:.5em;color:var(--mute)"> / ${g}</span>`:''}</div><div class="meter"><i style="width:${g?Math.min(100,sales/g*100):0}%"></i></div><p class="small">${g?`${Math.round(sales/g*100)}% of our sales goal · `:'No goal set yet · '}€${rev.toLocaleString('en-GB')} revenue. <a href="#results">Log sales</a></p>`;
+  const cur=stageNow();
+  $('#stages').innerHTML=STAGES.slice(1,9).map((s,i)=>{const n=i+1,its=S.items.filter(x=>stageOf(x)===n),dn=its.filter(x=>x.status==='done').length;return`<div class="stg ${cur.includes(n)?'live':its.length&&dn===its.length?'donee':''}"><b>${n}. ${s[0]}</b><span>${its.length?`${dn}/${its.length} done`:'Nothing planned'}</span></div>`}).join('');
+  const c=S.checks,d=c.filter(x=>x.done).length;
+  $('#chkSum').textContent=c.length?`${d} of ${c.length} tasks done.`:'No checklist items yet.';$('#chkBar').style.width=c.length?d/c.length*100+'%':'0';
+}
+function stageNow(){const t=today(),its=S.items.filter(i=>i.date===t&&stageOf(i)>0&&stageOf(i)<9);if(its.length)return[...new Set(its.map(stageOf))];return Date.now()<OPEN?[1]:Date.now()<CLOSE?[8]:[]}
+function itemRow(i,withDate){return`<button class="it" data-id="${esc(i.id)}"><time>${withDate?esc(dLabel(i.date,{day:'numeric',month:'short'})):(i.time?esc(i.time):'<span style="font-size:12px">All day</span>')}</time><span><span class="t">${fmtB(i.type)}${esc(i.title)}</span><br><span class="m">${pill(catOf(i))} ${i.channel?esc(i.channel):''}${withDate&&i.time?' · '+esc(i.time):''} · ${esc(i.owner||'Both')}</span></span><span class="${stCls(i.status)}">${esc(i.status||'idea')}</span></button>`}
+
+/* ---------- calendar ---------- */
+function rFilters(){$('#filters').innerHTML=Object.entries(TYPES).map(([k,v])=>`<button class="chipf" data-f="${k}" aria-pressed="${filt.has(k)}"><span class="dot k-${k}"></span>${v}</button>`).join('')}
+const isReady=i=>['ready','scheduled','done'].includes(i.status);
+const rdyBox=i=>`<input type="checkbox" class="rdy" data-rdy="${esc(i.id)}" ${isReady(i)?'checked':''} title="Content ready" aria-label="Ready: ${esc(i.title)}">`;
+function chip(i){const c=CAT[catOf(i)];return`<div class="ch ${i.status==='done'?'done':''} ${isReady(i)?'ok':''}" draggable="true" data-drag="${esc(i.id)}" style="${bord(i)}">${rdyBox(i)}<button class="chb" data-id="${esc(i.id)}" title="${esc(FMT[i.type]+' · '+(c?c[1]+' · ':'')+i.title)}">${fmtB(i.type)}${i.time?`<time>${esc(i.time)}</time>`:''}${esc(i.title)}<span class="ln2">${pill(catOf(i))}</span></button></div>`}
+function rTray(){const u=sorted(S.items.filter(i=>!i.date&&['post','story','live'].includes(i.type)&&filt.has(i.type)));
+  $('#tray').innerHTML=`<span class="lab"><b>Ideas not scheduled yet</b> · drag one onto a day. Drag a calendar item back here to unschedule it.</span><div class="chs">${u.map(chip).join('')||'<span class="small">No open ideas. Add some in the <a href="#ideas">Ideas</a> tab.</span>'}</div>`}
+function rCal(){
+  rTray();
+  const its=S.items.filter(i=>filt.has(i.type)),by={};its.filter(i=>i.date).forEach(i=>(by[i.date]=by[i.date]||[]).push(i));
+  for(const k in by)by[k]=sorted(by[k]);
+  $('#moNav').style.display=calMode==='month'?'flex':'none';
+  document.querySelectorAll('#calMode button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===calMode));
+  const t=today(),mark=d=>d===CART[0]?'Doors open':d===CART[3]?'Last day':d==='2026-12-01'?'Closed':'';
+  if(calMode==='week'){
+    const days=[];for(let k=0;k<9;k++)days.push(bcnDate(new Date(Date.UTC(2026,10,23+k,12))));
+    $('#cal').innerHTML=`<div class="week">${days.map(d=>`<div class="col ${CART.includes(d)?'cart':''}" data-day="${d}"><h3>${esc(dLabel(d,{weekday:'short'}))} <em>${esc(dLabel(d,{day:'numeric',month:'short'}))}</em></h3><span class="small">${mark(d)||'&nbsp;'}</span>${(by[d]||[]).map(chip).join('')||'<span class="small">Click to add</span>'}</div>`).join('')}</div>`;return}
+  const[y,m]=mon,first=new Date(Date.UTC(y,m,1)),start=(first.getUTCDay()+6)%7,len=new Date(Date.UTC(y,m+1,0)).getUTCDate();
+  $('#moName').textContent=first.toLocaleDateString('en-GB',{month:'long',year:'numeric',timeZone:'UTC'});
+  let cells='';const tot=Math.ceil((start+len)/7)*7;
+  for(let k=0;k<tot;k++){const dt=new Date(Date.UTC(y,m,1-start+k,12)),d=dt.toISOString().slice(0,10),out=dt.getUTCMonth()!==m;
+    cells+=`<div class="day ${out?'out':''} ${CART.includes(d)?'cart':''} ${d===t?'today':''}" data-day="${d}"><span class="n">${dt.getUTCDate()}<small>${mark(d)}</small></span>${(by[d]||[]).map(chip).join('')}</div>`}
+  const ag=Object.keys(by).filter(d=>d.startsWith(`${y}-${String(m+1).padStart(2,'0')}`)).sort();
+  $('#cal').innerHTML=`<div class="month">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(w=>`<div class="wd">${w}</div>`).join('')}${cells}</div>
+  <div class="agenda">${ag.length?ag.map(d=>`<div class="card" style="margin-bottom:10px;${CART.includes(d)?'background:var(--tint)':''}"><h3>${esc(dLabel(d))} <em>${mark(d)}</em></h3>${by[d].map(i=>`<div class="agrow">${rdyBox(i)}${itemRow(i)}</div>`).join('')}</div>`).join(''):'<p class="empty">Nothing planned this month.</p>'}</div>`;
+}
+
+/* ---------- tables ---------- */
+function rTable(sel,types,isEmail){
+  const its=sorted(S.items.filter(i=>types.includes(i.type)));
+  if(!its.length){$(sel).innerHTML=`<p class="empty card">No ${isEmail?'emails':'posts'} yet. Add the first one.</p>`;return}
+  $(sel).innerHTML=`<div class="scroll"><table class="stack"><thead><tr><th>When</th><th>${isEmail?'Subject':'Post'}</th><th>${isEmail?'Category':'Format · category'}</th><th>Status</th><th>Who</th></tr></thead><tbody>${its.map(i=>`<tr><td class="when">${i.date?`<b>${esc(dLabel(i.date))}</b>`:'<b>Idea</b><br><span class="m">Not scheduled</span>'}<br><span class="m">${!i.date?'':i.time?esc(i.time)+' Barcelona · '+esc(bali(i.date,i.time))+' Bali':'Any time'}</span></td><td><button class="lnk" data-id="${esc(i.id)}">${fmtB(i.type)}${esc(i.title)}</button>${i.hooks?.length?` <span class="hk">+${i.hooks.length} hooks</span>`:''}${i.notes?`<div class="m">${esc(i.notes.slice(0,110))}${i.notes.length>110?'…':''}</div>`:''}</td><td>${isEmail?pill(catOf(i)):`<span class="m">${esc(i.channel||TYPES[i.type])}</span><br>${pill(catOf(i))}`}</td><td><select class="sm" data-st="${esc(i.id)}" aria-label="Status">${STATUS.map(s=>`<option ${s===(i.status||'idea')?'selected':''}>${s}</option>`).join('')}</select></td><td>${esc(i.owner||'Both')}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
+/* ---------- checklist ---------- */
+function rChecks(){
+  $('#checks').innerHTML=PHASES.map((p,pi)=>{const c=S.checks.filter(x=>(+x.phase||0)===pi).sort((a,b)=>(+a.order||0)-(+b.order||0)),d=c.filter(x=>x.done).length;
+    return`<div class="card"><h3>${esc(p)}</h3><p class="small">${d}/${c.length} done</p><div class="meter"><i style="width:${c.length?d/c.length*100:0}%"></i></div>${c.map(x=>`<div class="chk ${x.done?'on':''}"><input type="checkbox" id="c-${esc(x.id)}" data-ck="${esc(x.id)}" ${x.done?'checked':''}><label for="c-${esc(x.id)}">${esc(x.text)}${x.owner&&x.owner!=='Both'?` <span class="small">· ${esc(x.owner)}</span>`:''}</label><button class="x" data-cx="${esc(x.id)}" aria-label="Remove">×</button></div>`).join('')}<form class="add" data-ph="${pi}"><input placeholder="Add a task" aria-label="Add a task to ${esc(p)}"><button class="btn g">Add</button></form></div>`}).join('');
+}
+
+/* ---------- results ---------- */
+const RDAYS=['2026-11-27','2026-11-28','2026-11-29','2026-11-30','2026-12-01'];
+function rResults(){
+  const gS=$('#gS'),gR=$('#gR');if(document.activeElement!==gS)gS.value=S.goal.sales??'';if(document.activeElement!==gR)gR.value=S.goal.revenue??'';
+  const rows=RDAYS.map(d=>({d,...(S.days[d]||{})})),ts=rows.reduce((a,r)=>a+(+r.sales||0),0),tr=rows.reduce((a,r)=>a+(+r.revenue||0),0),mx=Math.max(1,...rows.map(r=>+r.revenue||0));
+  const act=document.activeElement?.dataset?.dd;
+  if(!act)$('#dayTable').innerHTML=`<thead><tr><th>Day</th><th class="num">Sales</th><th class="num">Revenue €</th><th class="num">Split pay</th><th>Notes</th></tr></thead><tbody>${rows.map(r=>`<tr><td><b>${esc(dLabel(r.d))}</b>${r.d==='2026-12-01'?'<div class="m">Late orders, if any</div>':''}</td><td class="num"><input class="sm num" type="number" min="0" data-dd="${r.d}" data-f="sales" value="${esc(r.sales??'')}" aria-label="Sales"></td><td class="num"><input class="sm num" type="number" min="0" data-dd="${r.d}" data-f="revenue" value="${esc(r.revenue??'')}" aria-label="Revenue"></td><td class="num"><input class="sm num" type="number" min="0" data-dd="${r.d}" data-f="split" value="${esc(r.split??'')}" aria-label="Split pay orders"></td><td><input class="sm" data-dd="${r.d}" data-f="notes" value="${esc(r.notes??'')}" aria-label="Notes" placeholder="What did we send or post?"></td></tr>`).join('')}<tr><td><b>Total</b></td><td class="num"><b>${ts}</b></td><td class="num"><b>€${tr.toLocaleString('en-GB')}</b></td><td></td><td></td></tr></tbody>`;
+  $('#bars').innerHTML=rows.slice(0,4).map(r=>`<div class="r"><span class="small">${esc(dLabel(r.d,{weekday:'short',day:'numeric'}))}</span><div class="tr"><i style="width:${(+r.revenue||0)/mx*100}%"></i></div><span class="num">€${(+r.revenue||0).toLocaleString('en-GB')}</span></div>`).join('');
+  const g=+S.goal.sales||0,gr=+S.goal.revenue||0;
+  $('#resTot').innerHTML=`<p style="margin:0"><b class="big" style="font-size:40px">${ts}</b> sales${g?` of ${g}`:''} · <b>€${tr.toLocaleString('en-GB')}</b>${gr?` of €${gr.toLocaleString('en-GB')}`:''}</p><div class="meter"><i style="width:${gr?Math.min(100,tr/gr*100):g?Math.min(100,ts/g*100):0}%"></i></div><p class="small">At €147 per sale, ${g?`${g} sales ≈ €${(g*147).toLocaleString('en-GB')}`:'set a goal to see what you need per day'}. Split-pay orders bring €49 now and €98 later.</p>`;
+}
+
+function rPlay(){$('#fw').innerHTML=FW.map(([n,t,q,d])=>`<div class="card"><h3>${n}. ${esc(t)}</h3><q>${esc(q)}</q><p class="small" style="margin:0 0 8px">${esc(d)}</p><p class="small" style="margin:0"><b>${S.items.filter(i=>stageOf(i)===n).length}</b> planned items</p></div>`).join('')}
+
+/* ---------- ideas ---------- */
+function rBoard(){
+  document.querySelectorAll('#bMode button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.b===bMode));
+  document.querySelectorAll('#iFmt button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.fmt===iFmt));
+  const list=bMode==='launch'?LCATS:NCATS,all=$('#bAll').checked,keys=list.map(c=>c[0]);
+  const pool=S.items.filter(i=>['post','story','live'].includes(i.type)&&(all||!i.date));
+  const card=i=>`<div class="icard" draggable="true" data-drag="${esc(i.id)}" data-id="${esc(i.id)}" style="${bord(i)}"><div class="t">${fmtB(i.type)}${esc(i.title)}</div><div class="m">${i.date?esc(dLabel(i.date))+(i.time?' · '+esc(i.time):''):'Not scheduled'} · ${esc(i.status||'idea')}</div></div>`;
+  const cols=list.map(c=>{const its=sorted(pool.filter(i=>catOf(i)===c[0]));return`<div class="bcol" data-dropcat="${c[0]}"><h3>${c[2]?c[2]+'. ':''}${esc(c[1])} ${pill(c[0]).replace(esc(c[1]),its.length)}</h3><p>${esc(CDESC[c[0]]||'')}</p>${its.map(card).join('')}</div>`});
+  const other=sorted(pool.filter(i=>!keys.includes(catOf(i))));
+  if(other.length)cols.push(`<div class="bcol" data-dropcat=""><h3>${bMode==='launch'?'Other / normal':'Other / launch'} <span class="cat" style="background:var(--beige)">${other.length}</span></h3><p>Labelled with the other set of categories, or none. Drag a card to a column to relabel it.</p>${other.map(i=>card(i).replace('</div></div>',' · '+(CAT[catOf(i)]?.[1]||'No category')+'</div></div>')).join('')}</div>`);
+  $('#board').innerHTML=cols.join('');
+}
+function heur(t,mode){t=t.toLowerCase();const R=[];
+  if(mode==='launch')R.push(['urgency',/last (day|chance|call)|hours? left|closing|closes|deadline|final|tonight|ends|24h/],['objections',/what if|objection|excuse|no experience|budget|full[- ]time|can i |don't have|reasons not/],['invite',/it's live|is live|doors open|what's inside|inside you|join|price|€|offer|this is for you|link/],['desire',/imagine|dream|freedom|morning|day in|life|this time next year/],['authority',/how we|framework|mistake|wish we knew|start over|from zero|lesson|steps|tips/],['possible',/case study|result|before|after|apartment|revenue|profit|co-?living|bedroom|numbers/],['beliefs',/myth|believe|you don't need|truth|wrong|stuck|used to think/],['anticipation',/./]);
+  else R.push(['t-invite',/course|join|link in bio|offer|price|buy|masterclass|calculator/],['t-edu',/how to|tips?|steps|guide|mistake|learn|explain|checklist|what is/],['t-authority',/result|case study|years|proof|revenue|we did|our (apartments|villa|business)|behind the scenes/],['n-desire',/imagine|freedom|villa|morning|travel|day in|life/],['attraction',/./]);
+  return R.find(([,re])=>re.test(t))[0]}
+async function classify(text,fmt,mode){
+  const list=mode==='launch'?LCATS:NCATS;
+  if(sampleFn){try{const v=await sampleFn.json(`You label social media content ideas for 6 Figure Host, an Airbnb rental arbitrage course by Farah & Daniel (10 years hosting in Barcelona and Bali). Pick the ONE best content category.\n\nCategories:\n${list.map(c=>`- ${c[0]}: ${c[1]} — ${CDESC[c[0]]}`).join('\n')}\n\nFormat: ${FMT[fmt]}\nIdea: ${text}\n\nReply with JSON only: {"category":"<one key from the list>"}`,{modelTier:'quick'});
+    const k=v&&(v.category||v.cat);if(list.some(c=>c[0]===k))return[k,'Claude']}catch(e){if(['not_granted','capability_disabled','capability_removed'].includes(e?.code))sampleFn=null}}
+  return[heur(text,mode),'keywords']}
+$('#ideaForm').addEventListener('submit',async e=>{e.preventDefault();
+  const txt=$('#iText').value.trim();if(!txt)return;const date=$('#iDate').value,m=$('#iMode').value,mode=m==='auto'?(inLaunch(date||today())?'launch':'normal'):m;
+  const lines=txt.split('\n'),title=lines[0].slice(0,140),notes=(lines[0].length>140?txt:lines.slice(1).join('\n')).trim();
+  $('#iLab').innerHTML='Labelling…';const btn=e.target.querySelector('.btn');btn.disabled=true;
+  const[cat,how]=await classify(txt,iFmt,mode);btn.disabled=false;
+  const o={title,notes,type:iFmt,channel:iFmt==='story'?'Instagram stories':'Instagram',date,time:'',cat,stage:CAT[cat][2],status:'idea',owner:'Both'};
+  await save('items','i'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),o);
+  $('#iLab').innerHTML=`Added as ${fmtB(iFmt)} ${pill(cat)} <span class="small">(${mode} categories, by ${how}). Not right? Drag it to another column.</span>`;
+  if(bMode!==mode){bMode=mode}$('#iText').value='';$('#iDate').value='';rBoard()});
+document.addEventListener('click',e=>{const f=e.target.closest('#iFmt button');if(f){iFmt=f.dataset.fmt;rBoard()}const b=e.target.closest('#bMode button');if(b){bMode=b.dataset.b;rBoard()}});
+$('#bAll').addEventListener('change',rBoard);
+
+/* ---------- drag and drop ---------- */
+document.addEventListener('dragstart',e=>{const d=e.target.closest?.('[data-drag]');if(!d)return;dragId=d.dataset.drag;try{e.dataTransfer.setData('text/plain',dragId);e.dataTransfer.effectAllowed='move'}catch(_){}d.classList.add('dragging')});
+document.addEventListener('dragend',()=>{dragId=null;document.querySelectorAll('.dragging,.drop').forEach(x=>x.classList.remove('dragging','drop'))});
+const zone=t=>t.closest?.('[data-day],[data-dropcat],[data-unsched]');
+document.addEventListener('dragover',e=>{if(!dragId)return;const z=zone(e.target);if(!z)return;e.preventDefault();document.querySelectorAll('.drop').forEach(x=>x!==z&&x.classList.remove('drop'));z.classList.add('drop')});
+document.addEventListener('drop',e=>{const z=zone(e.target);if(!z||!dragId)return;e.preventDefault();z.classList.remove('drop');
+  const it=S.items.find(x=>x.id===dragId);if(!it)return;const{id,...o}=it;let n=null;
+  if(z.dataset.day!==undefined){if(o.date!==z.dataset.day)n={...o,date:z.dataset.day}}
+  else if(z.dataset.unsched){if(o.date)n={...o,date:''}}
+  else if(z.dataset.dropcat!==undefined){const c=z.dataset.dropcat;if(c&&catOf(it)!==c)n={...o,cat:c,stage:CAT[c][2]}}
+  if(n){local('items',id,n);save('items',id,n)}dragId=null});
+
+function render(){
+  document.querySelectorAll('section[data-v]').forEach(s=>s.classList.toggle('on',s.dataset.v===view));
+  document.querySelectorAll('nav a').forEach(a=>a.toggleAttribute('aria-current',a.getAttribute('href')==='#'+view));
+  rOverview();rFilters();rCal();rBoard();rTable('#emailTable',['email'],true);rTable('#postTable',['post','story','live']);rChecks();rResults();rPlay();
+}
+
+/* ---------- editor ---------- */
+$('#fCat').innerHTML='<option value="">No category</option>'+[['During a launch',LCATS],['Normal (no launch)',NCATS],['Other',OCATS]].map(([g,l])=>`<optgroup label="${g}">${l.map(c=>`<option value="${c[0]}">${c[2]&&c[2]<9?c[2]+'. ':''}${c[1]}</option>`).join('')}</optgroup>`).join('');
+$('#fStatus').innerHTML=STATUS.map(s=>`<option>${s}</option>`).join('');
+function openEd(it){
+  editing=it;$('#edT').innerHTML=it.id?'Edit <em>item</em>':'New <em>item</em>';$('#edK').textContent=TYPES[it.type]||'Item';
+  $('#fTitle').value=it.title||'';$('#fType').value=it.type||'task';$('#fChan').value=it.channel||'';$('#fDate').value=it.date??today();$('#fTime').value=it.time||'';
+  $('#fCat').value=catOf(it);$('#fHooks').value=(it.hooks||[]).join('\n');$('#fSugMsg').textContent='';rHooks();$('#fSuggest').style.display=sampleFn?'':'none';$('#fStatus').value=it.status||'idea';$('#fOwner').value=it.owner||'Both';$('#fNotes').value=it.notes||'';
+  $('#edDel').style.display=it.id?'':'none';$('#edLater').style.display=it.date?'':'none';upBali();$('#ov').classList.add('on');setTimeout(()=>$('#fTitle').focus(),30);
+}
+function rHooks(){const hs=$('#fHooks').value.split('\n').map(s=>s.trim()).filter(Boolean);$('#fHookList').innerHTML=hs.map((x,k)=>`<button type="button" data-hk="${k}">${esc(x)}</button>`).join('')}
+$('#fHooks').addEventListener('input',rHooks);
+$('#fHookList').addEventListener('click',e=>{const b=e.target.closest('[data-hk]');if(!b)return;const hs=$('#fHooks').value.split('\n').map(s=>s.trim()).filter(Boolean),k=+b.dataset.hk,cur=$('#fTitle').value.trim();const pick=hs[k];hs.splice(k,1,...(cur?[cur]:[]));$('#fTitle').value=pick;$('#fHooks').value=hs.join('\n');rHooks()});
+$('#fSuggest').addEventListener('click',async()=>{if(!sampleFn)return;const b=$('#fSuggest');b.disabled=true;$('#fSugMsg').textContent='Writing hooks…';
+  try{const c=CAT[$('#fCat').value];const v=await sampleFn.json(`Write 5 scroll-stopping hooks for a ${FMT[$('#fType').value]} (${$('#fChan').value||'Instagram'}) by Farah & Daniel of 6 Figure Host: 10 years of Airbnb rental arbitrage, apartments in Barcelona (mid-term stays of 31+ nights, no tourist licence, 4-6 bedroom co-living) and a villa in Bali, they own no property. Black Friday: course €147 instead of €297 until 30 Nov, no more discounts this year.\nContent category: ${c?c[1]+' ('+(CDESC[c[0]]||'')+')':'none'}\nCurrent hook: ${$('#fTitle').value}\nNotes: ${$('#fNotes').value.slice(0,800)}\nRules: warm, honest, natural, short (max 12 words), no invented numbers or results, no clickbait lies, no "comment" or "DM" calls to action (comments and DMs are off). Mix: a bold claim, a question, a "POV/you" line, a number, a contrarian take.\nReply with JSON only: {"hooks":["...","...","...","...","..."]}`,{modelTier:'quick'});
+    const hs=(v&&v.hooks||[]).filter(x=>typeof x==='string').slice(0,5);if(hs.length){$('#fHooks').value=($('#fHooks').value.trim()?$('#fHooks').value.trim()+'\n':'')+hs.join('\n');rHooks();$('#fSugMsg').textContent='Added 5 hooks. Save to keep them.'}else $('#fSugMsg').textContent='No hooks came back. Try again.'}
+  catch(e){$('#fSugMsg').textContent=e?.code==='rate_limited'?'Too many requests, try again in a minute.':'Could not write hooks right now.'}b.disabled=false});
+function closeEd(){$('#ov').classList.remove('on');editing=null}
+function upBali(){const t=$('#fTime').value;$('#fBali').textContent=t?'· Bali '+bali($('#fDate').value||today(),t):''}
+$('#fTime').addEventListener('input',upBali);$('#fDate').addEventListener('input',upBali);
+$('#edX').onclick=closeEd;$('#ov').addEventListener('click',e=>{if(e.target.id==='ov')closeEd()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&editing)closeEd()});
+$('#ed').addEventListener('submit',async e=>{e.preventDefault();
+  const o=formData();if(!o.title)return;const id=editing.id||'i'+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+  await save('items',id,o);closeEd()});
+function formData(){return{title:$('#fTitle').value.trim(),type:$('#fType').value,channel:$('#fChan').value.trim(),date:$('#fDate').value,time:$('#fTime').value,cat:$('#fCat').value,stage:(CAT[$('#fCat').value]||[0,0,0])[2],status:$('#fStatus').value,owner:$('#fOwner').value,notes:$('#fNotes').value,hooks:$('#fHooks').value.split('\n').map(s=>s.trim()).filter(Boolean)}}
+$('#edLater').onclick=async()=>{const o=formData();if(!o.title){$('#fTitle').focus();return}
+  const id=editing.id||'i'+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+  o.date='';o.status=o.status==='done'?'done':'idea';await save('items',id,o);closeEd();note('Saved for later: "'+o.title+'" is in Ideas, with its hooks and notes.');setTimeout(()=>note(''),5000)};
+$('#edDel').onclick=async()=>{if(!editing?.id)return;if($('#edDel').dataset.sure!=='1'){$('#edDel').dataset.sure='1';$('#edDel').textContent='Tap again to delete';setTimeout(()=>{$('#edDel').dataset.sure='';$('#edDel').textContent='Delete'},3000);return}
+  $('#edDel').dataset.sure='';$('#edDel').textContent='Delete';await del('items',editing.id);closeEd()};
+
+/* ---------- data ---------- */
+function local(col,id,o){if(col==='items'){const i=S.items.findIndex(x=>x.id===id);o?(i<0?S.items.push({id,...o}):S.items[i]={id,...o}):i>=0&&S.items.splice(i,1)}
+  if(col==='checks'){const i=S.checks.findIndex(x=>x.id===id);o?(i<0?S.checks.push({id,...o}):S.checks[i]={id,...o}):i>=0&&S.checks.splice(i,1)}
+  if(col==='days'){o?S.days[id]=o:delete S.days[id]}if(col==='meta')S.goal=o||{};render()}
+async function save(col,id,o){if(!db||!canWrite){local(col,id,o);return}
+  try{await db.collection(col).doc(id).set(o)}catch(e){if(e?.code==='invalid_argument'){canWrite=false;note('You can view this planner but not change it. Ask the owner for edit access.')}else note('That change could not be saved ('+(e?.code||'error')+'). Try again.')}}
+async function del(col,id){if(!db||!canWrite){local(col,id,null);return}try{await db.collection(col).doc(id).delete()}catch(e){note('Could not delete ('+(e?.code||'error')+').')}}
+
+document.addEventListener('click',e=>{
+  if(e.target.closest('.rdy'))return;
+  const id=e.target.closest('[data-id]')?.dataset.id;if(id){e.stopPropagation();const it=S.items.find(x=>x.id===id);if(it)openEd(it);return}
+  const nw=e.target.closest('[data-new]');if(nw){openEd({type:nw.dataset.new,date:today(),status:'idea'});return}
+  const day=e.target.closest('[data-day]');if(day){openEd({type:'post',date:day.dataset.day,status:'idea'});return}
+  const f=e.target.closest('[data-f]');if(f&&f.classList.contains('chipf')){filt.has(f.dataset.f)?filt.delete(f.dataset.f):filt.add(f.dataset.f);rFilters();rCal();return}
+  const m=e.target.closest('#calMode button');if(m){calMode=m.dataset.m;rCal();return}
+  const cx=e.target.closest('[data-cx]');if(cx){del('checks',cx.dataset.cx);return}
+});
+$('#prev').onclick=()=>{mon=mon[1]?[mon[0],mon[1]-1]:[mon[0]-1,11];rCal()};
+$('#nextM').onclick=()=>{mon=mon[1]<11?[mon[0],mon[1]+1]:[mon[0]+1,0];rCal()};
+document.addEventListener('change',e=>{
+  const rd=e.target.dataset.rdy;if(rd){const it=S.items.find(x=>x.id===rd);if(it){const{id,...o}=it;const n={...o,status:e.target.checked?(isReady(it)?it.status:'ready'):'drafting'};local('items',id,n);save('items',id,n)}return}
+  const st=e.target.dataset.st;if(st){const it=S.items.find(x=>x.id===st);if(it){const{id,...o}=it;save('items',id,{...o,status:e.target.value})}return}
+  const ck=e.target.dataset.ck;if(ck){const it=S.checks.find(x=>x.id===ck);if(it){const{id,...o}=it;save('checks',id,{...o,done:e.target.checked})}return}
+  const dd=e.target.dataset.dd;if(dd){const o={...(S.days[dd]||{})};const f=e.target.dataset.f;o[f]=f==='notes'?e.target.value:(e.target.value===''?'':+e.target.value);S.days[dd]=o;save('days',dd,o);return}
+  if(e.target.id==='gS'||e.target.id==='gR'){const o={sales:$('#gS').value===''?'':+$('#gS').value,revenue:$('#gR').value===''?'':+$('#gR').value};S.goal=o;save('meta','goal',o)}
+});
+document.addEventListener('submit',e=>{const f=e.target.closest('form.add');if(!f)return;e.preventDefault();const inp=f.querySelector('input'),t=inp.value.trim();if(!t)return;
+  const pi=+f.dataset.ph,mx=Math.max(0,...S.checks.filter(x=>+x.phase===pi).map(x=>+x.order||0));save('checks','c'+Date.now().toString(36),{text:t,phase:pi,done:false,owner:'Both',order:mx+1});inp.value=''});
+
+function route(){const h=location.hash.slice(1);view=['overview','calendar','emails','posts','checklist','results','playbook','ideas'].includes(h)?h:'overview';render();window.scrollTo(0,0)}
+window.addEventListener('hashchange',route);
+
+route();tick();setInterval(tick,1000);setInterval(()=>{if(view==='overview'&&!editing)rOverview()},60000);
+
+(async()=>{
+  try{sampleFn=window.claude?.use?await window.claude.use('sample'):null}catch(e){sampleFn=null}
+  let d=null;try{d=window.claude?.use?await window.claude.use('db'):null}catch(e){d=null}
+  if(!d){setSync('Not saved');note('This view can\'t reach the shared planner, so nothing here is saved. Reload the page, or log in again.');return}
+  db=d;
+  try{const u=await window.claude.use('user');const w=u&&u.can?await u.can('data.write'):null;if(w===false){canWrite=false;note('You can view this planner but not change it.')}}catch(e){}
+  let pending=4;const timer=setTimeout(()=>{setSync('Offline');note('Can\'t reach the saved plan yet. What you see may be out of date.')},10000);
+  const ok=snap=>{if(!snap.metadata.fromCache){if(--pending<=0){clearTimeout(timer);note('')}setSync('Saved · shared')}};
+  const err=e=>{clearTimeout(timer);setSync('Not syncing');note('Live sync stopped ('+(e?.code||'error')+'). Reload the page to reconnect.')};
+  db.collection('items').onSnapshot(s=>{S.items=s.docs.map(x=>({id:x.id,...x.data()}));ok(s);render()},err);
+  db.collection('checks').onSnapshot(s=>{S.checks=s.docs.map(x=>({id:x.id,...x.data()}));ok(s);render()},err);
+  db.collection('days').onSnapshot(s=>{const o={};s.docs.forEach(x=>o[x.id]=x.data());S.days=o;ok(s);render()},err);
+  db.doc('meta/goal').onSnapshot(s=>{S.goal=s.exists?s.data():{};ok(s);render()},err);
+})();
+}
+</script>
+</body>
+</html>
