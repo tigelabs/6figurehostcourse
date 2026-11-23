@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
 <script src="https://js.stripe.com/v3/"></script>
-<script src="/assets/offer.js?v=5"></script>
+<script src="/assets/offer.js?v=6"></script>
 <style>
 :root{--green:#313A33;--terra:#A05F50;--ink:#383330;--stone:#E2DDD8;--paper:#F4F2EF;--muted:#6B625D;--orange:#D9773A;--line:rgba(56,51,48,.14)}
 *{box-sizing:border-box}
@@ -121,7 +121,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
       <p>Hosting in Barcelona or Bali? Our local guide shows you the rules, areas and numbers there. Only with this order.</p>
       <label class="bump" data-sku="calculator" data-only="guides"><input type="checkbox"><span class="bx" aria-hidden="true"></span><span><b>Profit &amp; ROI Calculator</b><span class="d">Know if a property is profitable before you sign. Profit, ROI and break-even in seconds.</span></span><span class="pr"><s class="was">$97</s>$37</span></label>
     </div>
-    <div class="total"><span>Total</span><span id="total">$297</span></div>
+    <div class="total"><span>Total</span><span id="total">$343</span></div>
     <p class="save" id="save"></p>
     <div class="err" id="err" role="alert"></div>
     <div id="checkout" aria-live="polite"></div>
@@ -150,7 +150,7 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
 
 <script>
 (function(){
-  var OF=window.FH_OFFER||{one:297,was:0,split:79,splitWas:0,phase:'after',months:4,cur:'usd',money:function(n){return '$'+n}};var N=OF.months||4;
+  var OF=window.FH_OFFER||{one:343,was:0,split:114,splitWas:0,reg:343,bfOne:170,phase:'after',months:3,cur:'usd',money:function(n){return '$'+n}};var N=OF.months||3;
   var P={course:{name:'6-Figure Host Course',was:OF.was||0,now:OF.one},barcelona:{name:'Barcelona Host Guide',was:79,now:59},bali:{name:'Bali Host Guide',was:79,now:49},calculator:{name:'Profit & ROI Calculator',was:97,now:37}};
   var GUIDE={
     barcelona:{title:'Barcelona Host Guide',img:'/assets/barcelona-cover.webp',promise:'How to run a <strong>legal, profitable</strong> rental business in Barcelona with mid-term stays, and copy the model to any city in Europe.',ticks:['12 interactive lessons','Rent cap checker, flat profit and tax calculators','Checklists for contracts, guest documents and taxes','Instant access with your personal code','PDF version included']},
@@ -181,12 +181,12 @@ s.was{color:var(--orange);font-weight:700;margin-right:8px;text-decoration-thick
     $('total').textContent=money(tot);$('save').textContent=was>tot?'You save '+money(was-tot)+' today':'One payment, lifetime access';}
   function relabel(){[].forEach.call(document.querySelectorAll('.bump'),function(b){var p=P[b.getAttribute('data-sku')];if(p)b.querySelector('.pr').innerHTML=(p.was?'<s class="was">'+money(p.was)+'</s>':'')+money(p.now)})}
   relabel();
-  OF.onchange=function(){if(main==='course')plans();relabel();render();schedule();};
+  OF.onchange=function(){P.course.now=OF.one;P.course.was=OF.was||0;if(main==='course')plans();relabel();render();schedule();};
   render();
   var stripe=null,current=null,timer=null,seq=0;
   function fail(m){var e=$('err');e.style.display=m?'block':'none';e.textContent=m||''}
   function schedule(){clearTimeout(timer);timer=setTimeout(load,350)}
-  function load(){if(main==='course'&&OF.start&&Date.now()<OF.start){$('checkout').innerHTML='<div class="soonbox"><b>Coming soon: 27 November</b><p>The new 6-Figure Host Course launches on Black Friday, 27 November, at '+money(197)+' instead of '+money(297)+'. Come back then!</p></div>';return}var my=++seq;fail('');$('checkout').classList.add('loading');
+  function load(){if(main==='course'&&OF.start&&Date.now()<OF.start){$('checkout').innerHTML='<div class="soonbox"><b>Coming soon: 27 November</b><p>The new 6-Figure Host Course launches on Black Friday, 27 November, at '+money(OF.bfOne)+' instead of '+money(OF.reg)+'. Come back then!</p></div>';return}var my=++seq;fail('');$('checkout').classList.add('loading');
     fetch('/api/checkout/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({item:main,extras:plan==='split'?[]:extras,plan:plan,currency:OF.cur||'usd'})})
     .then(function(r){return r.json()}).then(function(d){
       if(my!==seq)return;

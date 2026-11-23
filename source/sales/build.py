@@ -57,7 +57,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
 <link rel="stylesheet" href="/assets/sales.css?v=20261123j">
-<script src="/assets/offer.js?v=5" defer></script>
+<script src="/assets/offer.js?v=6" defer></script>
 </head>
 <body>
 <div class="pg">
@@ -82,7 +82,7 @@ def sub(s, old, new, count=1):
 # ---------------------------------------------------------------- course pages
 OFFERBAR_HTML = """<div class="bar obar">
 <div class="in">
-<p data-o="bar"><b>Black Friday</b> opens 27 November: the course for $197 instead of $297.</p>
+<p data-o="bar"><b>Black Friday</b> opens 27 November: the course for $170 instead of $343.</p>
 <span class="cd sm" data-o="countdown"></span>
 <a href="#pricing">See the offer</a>
 </div>
@@ -91,13 +91,13 @@ OFFERBAR_HTML = """<div class="bar obar">
 VALUE_STACK = """<div class="buy vstack">
 <p class="vs-h">What it’s worth</p>
 <ul class="vs">
-<li><span>6-Figure Host Course, 13 lessons</span><b data-o="vs" data-v="297">$297</b></li>
+<li><span>6-Figure Host Course, 13 lessons</span><b data-o="vs" data-v="297">$343</b></li>
 <li><span>Profit &amp; ROI Calculator</span><b data-o="vs" data-v="97">$97</b></li>
 <li><span>Host starter kit: contracts, checklists, templates</span><b data-o="vs" data-v="150">$150</b></li>
 <li><span>Landlord scripts, pitch brochure and AI prompts</span><b>included</b></li>
 </ul>
 <p class="vs-tot"><span>Total value</span><b data-o="vs" data-v="544">$544</b></p>
-<p class="vs-you">Your price: <b data-o="price">$297</b></p>
+<p class="vs-you">Your price: <b data-o="price">$343</b></p>
 <a class="cta" href="#pricing">Choose how you pay</a>
 </div>"""
 PRICING = """<div class="pricing" id="pricing">
@@ -108,7 +108,7 @@ PRICING = """<div class="pricing" id="pricing">
 <div class="pr-card best"><span class="pr-badge">Best value</span>
 <h3>One-time payment</h3>
 <p class="pr-was" data-o="was1"></p>
-<p class="pr-now" data-o="now1">$297</p>
+<p class="pr-now" data-o="now1">$343</p>
 <p class="pr-sub">The lowest total price.</p>
 <p class="pr-save" data-o="save">Lifetime access, no subscription</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
@@ -117,8 +117,8 @@ PRICING = """<div class="pricing" id="pricing">
 <div class="pr-card">
 <h3>Split pay</h3>
 <p class="pr-was" data-o="was2"></p>
-<p class="pr-now" data-o="now2">4 × $79</p>
-<p class="pr-sub" data-o="tot2">$316 total, paid monthly</p>
+<p class="pr-now" data-o="now2">3 × $114</p>
+<p class="pr-sub" data-o="tot2">$342 total, paid monthly</p>
 <p class="pr-save pr-save2" data-o="split-note">Start today, pay in 4 months</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator + host starter kit included (value <span data-o="vs" data-v="247">$247</span>)</span></li><li><span>All future updates</span></li></ul>
 <a class="cta ghost" href="/checkout?plan=split" data-buy="Split pay">Split pay</a>
@@ -135,7 +135,7 @@ def course_base():
     s = sub(s, '<span class="dp">Host Guide</span>', '<span class="dp">Host Course</span>')
     s = sub(s, '<p class="lead">The step-by-step system to build a profitable, legal rental business, even without owning property.</p>', '<p class="lead">The step-by-step system to build a profitable, legal rental business (with or without owning property).</p>')
     s = s.replace('href="#offer"', 'href="/checkout"')
-    s = s.replace('Get instant access for $149', '<span data-o="cta">Get instant access for $297</span>')
+    s = s.replace('Get instant access for $149', '<span data-o="cta">Get instant access for $343</span>')
     s = re.sub(r'<div class="buy">.*?</div>\n</div>\n</div>', lambda m: VALUE_STACK + '\n</div>\n' + PRICING + '\n</div>', s, count=1, flags=re.S)
     s = s.replace('<details open><summary>When do I get access?</summary>', OLD_BUYERS_FAQ + '<details open><summary>When do I get access?</summary>', 1)
     s = re.sub(r'<img class="photo" src="/assets/sales/c9292e2a0b9965c2ce6ed45ed6d0dd7b.webp"[^>]*>\n', '', s, count=1)
@@ -430,10 +430,10 @@ def masterclass_page():
 <div class="mcv-in">
 <p class="mcv-k"><span class="sc">Free masterclass</span></p>
 <div class="mcv-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass with Farah and Daniel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-<p class="mcv-note" data-o="mc-note">*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>$297</b>.</p>
+<p class="mcv-note" data-o="mc-note">*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>$343</b>.</p>
 <h1 class="mcv-h">From sleeping on the couch to homes around the world</h1>
 <p class="mcv-lead">Everything we learned in ten years of hosting, in one free class.</p>
-<div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
+<div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $343</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
 </div>
 </section>
 <section class="sec">
@@ -450,7 +450,7 @@ def masterclass_page():
 <div class="copy">
 <h2 class="lock"><span class="sc b">After watching</span><span class="dp">Take the next step</span></h2>
 <p>The masterclass shows you how the model works. The 6-Figure Host Course gives you everything to do it yourself: the launch roadmap, landlord scripts, the profit calculator, contracts and checklists, and our real case studies from Barcelona and Bali.</p>
-<div class="ctawrap"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $297</span></a><small>One payment or split pay. Lifetime access.</small></div>
+<div class="ctawrap"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $343</span></a><small>One payment or split pay. Lifetime access.</small></div>
 </div>
 <img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>

@@ -17,7 +17,7 @@ export async function fulfillSession(env, sessionId) {
       const subId = typeof s.subscription === 'string' ? s.subscription : s.subscription.id;
       const sub = await stripe(env, 'GET', `/subscriptions/${subId}`);
       if (!sub.cancel_at) {
-        const months = Number(s.metadata?.split || 4);
+        const months = Number(s.metadata?.split || 3);
         const d = new Date(sub.start_date * 1000); d.setUTCMonth(d.getUTCMonth() + months - 1); d.setUTCDate(d.getUTCDate() + 5);
         await stripe(env, 'POST', `/subscriptions/${subId}`, { cancel_at: String(Math.floor(d / 1000)), proration_behavior: 'none' });
       }

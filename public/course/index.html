@@ -664,8 +664,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <div class="bar obar">
 <div class="in">
 <span data-if="isPre" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>. Starts in</p></span>
-<span data-if="isBf" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>, or 4 × <span data-h="p54"></span>. Ends 30 November at midnight.</p></span>
-<span data-if="isAfter" style="display:contents"><p>The interactive 6 Figure Host Course: one payment of <span data-h="p297"></span>, or 4 × <span data-h="p79"></span>.</p></span>
+<span data-if="isBf" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>, or 3 × <span data-h="p54"></span>. Ends 30 November at midnight.</p></span>
+<span data-if="isAfter" style="display:contents"><p>The interactive 6 Figure Host Course: one payment of <span data-h="p297"></span>, or 3 × <span data-h="p79"></span>.</p></span>
 <span data-if="showCd" style="display:contents"><span class="cd sm"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></span></span>
 <a href="#pricing"><span data-h="barBtn"></span></a>
 </div>
@@ -1065,10 +1065,10 @@ At the end, add a short summary I can copy into my notes, in this format:
 </div>
 <div class="pr-card">
 <h3>Split pay</h3>
-<span data-if="isBf" style="display:contents"><p class="pr-was"><s>4 × <span data-h="p79"></span></s></p></span>
-<p class="pr-now">4 × <span data-h="split"></span></p>
+<span data-if="isBf" style="display:contents"><p class="pr-was"><s>3 × <span data-h="p79"></span></s></p></span>
+<p class="pr-now">3 × <span data-h="split"></span></p>
 <p class="pr-sub"><span data-h="splitTot"></span> total, paid monthly</p>
-<p class="pr-save pr-save2">Start today, pay in 4 months</p>
+<p class="pr-save pr-save2">Start today, pay in 3 months</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator, host starter kit and scripts included (value <span><span data-h="vBonus"></span></span>)</span></li><li><span>All future updates</span></li></ul>
 <a class="cta ghost" data-a-href="coSplit" target="_blank"><span data-h="btnSplit"></span></a>
 </div>
@@ -1148,10 +1148,13 @@ class Component extends DCLogic {
     var phase = qp || (now < START ? 'pre' : now < END ? 'bf' : 'after');
     var bf = phase === 'bf';
     var self = this;
-    function amt(n) { return n; }
+    var RATE = 1.156;   // EUR -> USD, the same rate as the Stripe prices (23 Nov 2026)
+    function amt(n) { return cur === 'eur' ? n : Math.round(n * RATE); }
     function m(n) { return (cur === 'eur' ? '€' : '$') + n.toLocaleString('en-US'); }
     function saveCur(c) { try { localStorage.setItem('fh_cur', c); } catch (e) {} self.setState({ cur: c }); }
-    var REG = 297, REG_SPLIT = 79, BF = 197, BF_SPLIT = 54;
+    // Course prices in EUR; the USD amounts are fixed in Stripe (343 / 170 / 114 / 57).
+    var T = cur === 'eur' ? { reg: 297, split: 99, bf: 147, bfSplit: 49 } : { reg: 343, split: 114, bf: 170, bfSplit: 57 };
+    var REG = T.reg, REG_SPLIT = T.split, BF = T.bf, BF_SPLIT = T.bfSplit, MONTHS = 3;
     var one = bf ? BF : REG, split = bf ? BF_SPLIT : REG_SPLIT;
     var left = Math.max(0, (phase === 'pre' ? START : END) - now);
     function two(n) { return (n < 10 ? '0' : '') + n; }
@@ -1165,16 +1168,16 @@ class Component extends DCLogic {
       try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t); return; } } catch (e) {}
       try { var ta = document.createElement('textarea'); ta.value = t; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); } catch (e) {}
     }
-    var vCourse = amt(REG), vCalc = amt(97), vKit = amt(150), vScripts = amt(50);
+    var vCourse = REG, vCalc = amt(97), vKit = amt(150), vScripts = amt(50);
     return {
       isPre: phase === 'pre', isBf: bf, isAfter: phase === 'after', showCd: phase !== 'after', cd: cd,
       barBtn: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : bf ? 'Get the Black Friday price' : 'See the offer',
-      ctaTxt: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : 'Get instant access for ' + m(amt(one)),
+      ctaTxt: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : 'Get instant access for ' + m(one),
       btnOne: phase === 'pre' ? 'Coming soon: 27 November' : 'One-time payment',
       btnSplit: phase === 'pre' ? 'Coming soon: 27 November' : 'Split pay',
-      p197: m(amt(BF)), p297: m(amt(REG)), p79: m(amt(REG_SPLIT)), p54: m(amt(BF_SPLIT)),
-      one: m(amt(one)), split: m(amt(split)), splitTot: m(amt(split) * 4),
-      saveTxt: bf ? 'Black Friday: you save ' + m(amt(REG) - amt(BF)) : 'Lifetime access, no subscription',
+      p197: m(BF), p297: m(REG), p79: m(REG_SPLIT), p54: m(BF_SPLIT),
+      one: m(one), split: m(split), splitTot: m(split * MONTHS),
+      saveTxt: bf ? 'Black Friday: you save ' + m(REG - BF) : 'Lifetime access, no subscription',
       v297: m(vCourse), v97: m(vCalc), v150: m(vKit), v544: m(vCourse + vCalc + vKit + vScripts), v50: m(vScripts), vBonus: m(vCalc + vKit + vScripts),
       city: st.city || '', cityShown: cityShown, copyTxt: st.copied ? 'Copied!' : 'Copy',
       setCity: function (e) { self.setState({ city: e && e.target ? e.target.value : '' }); },

@@ -28,7 +28,7 @@ export async function onRequestPost({ request, env }) {
       return_url: `${origin}/checkout/thanks?session_id={CHECKOUT_SESSION_ID}`,
   };
   const base = split
-    ? { mode: 'subscription', subscription_data: { metadata: meta, description: '6-Figure Host Course, payment plan (4 monthly payments)' }, ...common }
+    ? { mode: 'subscription', subscription_data: { metadata: meta, description: `6-Figure Host Course, payment plan (${SPLIT_MONTHS} monthly payments)` }, ...common }
     : { mode: 'payment', customer_creation: 'always', payment_intent_data: { metadata: meta }, ...common };
   // EUR chosen on the page: charge in euros (fixed EUR prices). Otherwise USD, with the buyer's local currency shown by Stripe.
   if (b.currency === 'eur') base.currency = 'eur';
