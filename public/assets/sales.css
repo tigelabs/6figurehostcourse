@@ -563,3 +563,38 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .h-tick.soon .h-price s{color:#9b9792}
 .h-tick.soon .h-go{background:#cfcbc6;color:#5f5a55}
 .h-tick.soon .h-tmain{border-right-color:#c2beb9}
+/* Hero banner (no photos) */
+.pg .h-hero{background:var(--green,#313A33);color:var(--cream);padding:clamp(48px,7vw,96px) 24px clamp(36px,4vw,56px);position:relative}
+.pg .h-hero .in{grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);align-items:end}
+.pg .h-hero .h-title{color:var(--cream)}
+.pg .h-hero .h-title .t{color:#E6CB8F}
+.pg .h-hero .h-by .sc{color:#E6CB8F}
+.pg .h-hero .h-by span:last-child{color:#c9cfc8}
+.pg .h-hero .h-lead{color:#e7e9e4;max-width:32em}
+.pg .h-hero .cta{color:var(--cream)}
+.pg .h-hero .h-link{color:var(--cream)}
+.h-scene{width:100%;max-width:460px;justify-self:end;color:rgba(244,242,239,.35)}
+.h-scene .h-arch{fill:var(--terra)}
+.h-scene .h-sun{fill:#E6CB8F}
+.h-scene .h-sea{fill:var(--terra)}
+.h-scene .h-waves{stroke:#E6CB8F}
+.pg .h-hero .h-statrow{display:block;margin-top:clamp(36px,5vw,64px)}
+.pg .h-hero .h-stats{margin:0;border-top:1px solid rgba(244,242,239,.4)}
+.pg .h-hero .h-stats li+li{border-left-color:rgba(244,242,239,.25)}
+.pg .h-hero .h-stats b{color:var(--cream)}
+.pg .h-hero .h-stats span{color:#c9cfc8}
+@media (prefers-reduced-motion:no-preference){.h-scene .h-sun{animation:h-rise 1.4s cubic-bezier(.2,.8,.2,1) both .2s}}
+@keyframes h-rise{from{transform:translateY(60px);opacity:0}to{transform:none;opacity:1}}
+@media (max-width:900px){.pg .h-hero .in{grid-template-columns:1fr}.h-scene{max-width:300px;justify-self:start;order:-1;margin-bottom:-8px}.pg .h-hero .h-stats li:nth-child(n+3){border-top-color:rgba(244,242,239,.25)}}
+/* Picker on a light background so it separates from the green banner */
+.pg .h-start{background:#E2DDD8;color:var(--ink)}
+.pg .h-start .h-h2{color:var(--ink)}
+.pg .h-start .h-h2 .sc{color:var(--terra)}
+.pg .h-pick button{border-color:rgba(56,51,48,.35);background:rgba(255,255,255,.35)}
+.pg .h-pick button span{color:var(--muted)}
+.pg .h-pick button:hover{border-color:var(--ink)}
+.pg .h-pick button[aria-selected=true]{background:#313A33;color:#F4F2EF;border-color:#313A33}
+.pg .h-pick button[aria-selected=true] span{color:#c9cfc8}
+.pg .h-pick button:focus-visible{outline-color:var(--terra)}
+.pg .h-panel{background:#fff;border:1.5px solid rgba(56,51,48,.15)}
+@media (max-width:900px){.h-scene{max-width:170px;margin:0 0 4px}}
