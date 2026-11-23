@@ -338,7 +338,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pg .mcv-k .sc{font-size:38px;margin:0}
 
 /* ---------- home page ---------- */
-.pg{--green:#313A33;--yellow:#E6CB8F;--stone:#E2DDD8;--paperx:#F4F2EF}
+.pg{--green:#313A33;--yellow:#E2DDD8;--stone:#E2DDD8;--paperx:#F4F2EF}
 .h-hero{background:var(--paperx);padding:clamp(40px,6vw,80px) 24px clamp(56px,7vw,96px);overflow:hidden}
 .h-hero .in{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,5vw,72px);align-items:center}
 .h-by{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin:0 0 18px}
@@ -575,7 +575,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* Picker back on dark green */
 .pg .h-start{background:#313A33;color:var(--cream)}
 .pg .h-start .h-h2{color:var(--cream)}
-.pg .h-start .h-h2 .sc{color:#E6CB8F}
+.pg .h-start .h-h2 .sc{color:#E2DDD8}
 /* Who we are: bigger photo */
 .pg .h-us .in{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 @media (max-width:900px){.pg .h-us .in{grid-template-columns:1fr}}
@@ -593,7 +593,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* Last block: terracotta with a beige button */
 .pg .h-end{background:var(--terra);padding:clamp(80px,11vw,150px) 24px}
 .pg .h-end .h-h2{color:var(--cream);font-size:clamp(44px,6.4vw,92px)}
-.pg .h-end .h-h2 .sc{color:#E6CB8F}
+.pg .h-end .h-h2 .sc{color:#E2DDD8}
 .pg .h-end .cta{background:#E2DDD8;border-color:#E2DDD8;color:var(--ink)}
 .pg .h-end .cta:hover{background:#F4F2EF;border-color:#F4F2EF;color:var(--ink)}
 .pg .h-end .h-small{color:#f3e4de;font-size:16px}
@@ -660,3 +660,10 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .h-usfig{margin:0}
 .pg .h-us .h-usfig img{border:0;border-radius:14px;aspect-ratio:3/4}
 .h-usfig figcaption{margin-top:14px;font-family:var(--serif);font-style:italic;font-size:17px;text-align:center}
+.pg .h-hero .h-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.pg .h-hero .h-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.pg .h-hero .h-stats li:nth-child(3){padding-left:0;border-left:0}.pg .h-hero .h-stats li:nth-child(n+3){margin-top:14px;padding-top:14px;border-top:1px solid var(--rule)}}
+.h-photo .h-pay{transform:none;right:-24px}
+.nav .in > ul{align-items:center}
+.nav .in > ul > li{display:flex;align-items:center}
+.nav .dd details{display:block}
+.nav .dd summary{line-height:inherit;padding:6px 0}

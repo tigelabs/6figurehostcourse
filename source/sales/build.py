@@ -16,7 +16,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 <div class="in">
 <a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
-<li><a href="/#start">Start here</a></li>
+<li><a href="https://passiontoprofit.myflodesk.com/masterclass">Start here</a></li>
 <li><a href="/our-story/"{s}>Our story</a></li>
 <li><a href="/course/"{c}>Online course</a></li>
 <li class="dd"><details><summary>Add-ons</summary>
@@ -56,7 +56,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:description" content="%s">
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
-<link rel="stylesheet" href="/assets/sales.css?v=20261123h">
+<link rel="stylesheet" href="/assets/sales.css?v=20261123i">
 <script src="/assets/offer.js?v=5" defer></script>
 </head>
 <body>
@@ -512,7 +512,7 @@ def story_page():
 <section class="h-end">
 <div class="in">
 <h2 class="h-h2"><span class="sc">Your turn</span>Start your own story</h2>
-<div class="h-ctas"><a class="cta" href="/course/">See the online course</a><a class="h-ig" href="/#start">Choose your starting point</a></div>
+<div class="h-ctas"><a class="cta" href="/course/">Start here</a></div>
 </div>
 </section>'''
     return page('our-story/', 'Our story · 6-Figure Host', 'How Daniel & Farah went from sleeping on the couch in Barcelona to a six-figure hosting business with homes around the world, without owning property.', body, 'story')
