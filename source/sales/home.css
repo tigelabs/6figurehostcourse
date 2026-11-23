@@ -328,3 +328,9 @@
 .nav .in > ul > li{display:flex;align-items:center}
 .nav .dd details{display:block}
 .nav .dd summary{line-height:inherit;padding:6px 0}
+
+/* full width (2026-11-23): content uses the whole screen instead of a narrow centred column */
+.pg .in{max-width:1600px}
+.pg>section,.pg>header,.pg>footer,.pg>nav,.pg>div.bar,.pg>.obar{padding-left:clamp(24px,4.5vw,72px) !important;padding-right:clamp(24px,4.5vw,72px) !important}
+.pg .mcv-in{max-width:1600px}
+.pg .h-hero .h-ctas+.h-by{margin:26px 0 0}
