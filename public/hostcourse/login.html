@@ -58,7 +58,14 @@ button[disabled]{opacity:.6;cursor:wait}
 <input id="code" name="code" placeholder="HOST-XXXX-XXXX" maxlength="20" spellcheck="false" autocapitalize="characters" required>
 <button type="submit" id="go">Open the course</button>
 <div class="msg" id="msg" role="alert"></div>
-<div class="help">Can’t find your code? Check your spam folder for an email from 6-Figure Host, or write to us at <a href="mailto:contact@6figurehost.com?subject=Access%20code">contact@6figurehost.com</a>.<br><a href="/privacy" style="font-weight:400;color:#6B625D">Privacy policy</a></div>
+<div class="help">Can’t find your code? Check your spam folder for an email from 6-Figure Host, or <a href="#" id="rs-open">send it to me again</a>.
+<div id="rs" hidden style="margin:12px 0 4px">
+<label for="rs-email">Email you used to buy</label>
+<input id="rs-email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="200" style="margin-bottom:10px;text-transform:none;letter-spacing:normal;font-size:16px;text-align:left;font-weight:400">
+<button type="button" id="rs-go">Send my code again</button>
+<p id="rs-msg" role="status" aria-live="polite" style="margin:10px 0 0;font-size:13.5px;color:#383330;font-weight:700"></p>
+</div>
+Still stuck? Write to us at <a href="mailto:contact@6figurehost.com?subject=Access%20code">contact@6figurehost.com</a>.<br><a href="/privacy" style="font-weight:400;color:#6B625D">Privacy policy</a></div>
 </form></main>
 <script>
 (function(){
@@ -93,6 +100,17 @@ button[disabled]{opacity:.6;cursor:wait}
       .catch(function(){show('We couldn’t reach the server. Check your connection and try again.');btn.disabled=false;btn.textContent='Open the course';});
   });
 })();
+</script>
+<script>
+(function(){var o=document.getElementById('rs-open'),box=document.getElementById('rs'),em=document.getElementById('rs-email'),go=document.getElementById('rs-go'),msg=document.getElementById('rs-msg');
+o.addEventListener('click',function(e){e.preventDefault();box.hidden=false;em.focus();});
+em.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();go.click();}});
+go.addEventListener('click',function(){var v=em.value.trim();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){msg.textContent='Please check your email address.';em.focus();return}
+go.disabled=true;go.textContent='Sending…';msg.textContent='';
+fetch('/api/resend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:v})}).then(function(r){return r.json()}).then(function(j){
+if(j.ok){msg.textContent='If this email has a purchase, we just sent your code again. Check your inbox and spam folder.';go.textContent='Sent';}
+else{msg.textContent=j.error||'Something went wrong. Please try again.';go.disabled=false;go.textContent='Send my code again';}
+}).catch(function(){msg.textContent='Something went wrong. Check your connection and try again.';go.disabled=false;go.textContent='Send my code again';});});})();
 </script>
 </body>
 </html>
