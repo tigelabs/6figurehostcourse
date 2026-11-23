@@ -16,7 +16,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 <div class="in">
 <a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
-<li><a href="https://passiontoprofit.myflodesk.com/masterclass">Start here</a></li>
+<li><a href="https://passiontoprofit.myflodesk.com/masterclass">Free Masterclass</a></li>
 <li><a href="/our-story/"{s}>Our story</a></li>
 <li><a href="/course/"{c}>Online course</a></li>
 <li class="dd"><details><summary>Add-ons</summary>
@@ -521,6 +521,12 @@ def story_page():
 if __name__ == '__main__':
     open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'home.css')).read())
     for k in VARIANTS: print(k, course_page(k))
+    # The main course page (/course/) is the page designed on the Claude Design canvas:
+    # a finished, self-contained file. It replaces the template version built above.
+    designed = os.path.join(HERE, 'course_designed.html')
+    if os.path.exists(designed):
+        open(os.path.join(OUT, 'course', 'index.html'), 'w', encoding='utf-8').write(open(designed, encoding='utf-8').read())
+        print('course (designed)')
     for k in GUIDES: print(k, guide_page(k))
     print('calculator', calculator_page())
     print('home', home_page())
