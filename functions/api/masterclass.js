@@ -31,5 +31,12 @@ export async function onRequestPost({ request, env }) {
     body: JSON.stringify({ email, attributes: { FIRSTNAME: first }, listIds: [list], updateEnabled: true }),
   });
   if (!r.ok && r.status !== 204) return json({ error: 'That didn’t work. Please try again in a minute.' }, 502);
+  // Email 1 (the access link) goes out right away as a transactional email, so it arrives even
+  // while the automation is paused. The Brevo automation sends the two reminders after it.
+  const tpl = Number(env.MC_TEMPLATE_ID || 7);
+  await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST', headers: H,
+    body: JSON.stringify({ templateId: tpl, to: [{ email, name: first }] }),
+  }).catch(() => {});
   return json({ ok: true });
 }
