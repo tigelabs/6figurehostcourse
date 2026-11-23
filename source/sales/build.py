@@ -17,7 +17,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 <a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
 <li><a href="/#start">Start here</a></li>
-<li><a href="/#story">Our story</a></li>
+<li><a href="/our-story/"{s}>Our story</a></li>
 <li><a href="/course/"{c}>Online course</a></li>
 <li class="dd"><details><summary>Add-ons</summary>
 <ul class="dd-menu">
@@ -35,15 +35,15 @@ NAV = '''<nav class="nav" aria-label="Main">
 FOOT = '''<footer class="foot">
 <div class="in">
 <span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>
-<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/contact/">Contact</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
+<span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/our-story/">Our story</a><a href="/contact/">Contact</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
 </div>
 </footer>'''
 
 
 def page(path, title, desc, body, active=''):
     nav = NAV.format(c=' aria-current="page"' if active == 'course' else '', b=' aria-current="page"' if active == 'barcelona' else '',
-                     i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '', t=' aria-current="page"' if active == 'contact' else '')
-    if path.strip('/') and path.strip('/') != 'contact':
+                     i=' aria-current="page"' if active == 'bali' else '', k=' aria-current="page"' if active == 'calculator' else '', t=' aria-current="page"' if active == 'contact' else '', s=' aria-current="page"' if active == 'story' else '')
+    if path.strip('/') and path.strip('/') not in ('contact', 'our-story'):
         nav = ''  # landing pages: no menu, so nothing pulls visitors away from the offer
     doc = '''<!DOCTYPE html>
 <html lang="en">
@@ -56,7 +56,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:description" content="%s">
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
-<link rel="stylesheet" href="/assets/sales.css?v=20261123e">
+<link rel="stylesheet" href="/assets/sales.css?v=20261123g">
 <script src="/assets/offer.js?v=5" defer></script>
 </head>
 <body>
@@ -476,11 +476,6 @@ def contact_page():
 </form>
 <p class="ct-alt">Prefer email? Write to <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a>. You can also find us on <a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a>.</p>
 </div>
-<aside class="ct-side">
-<figure><img src="/assets/sales/rev-iveta-home.webp" width="1206" height="657" alt="Five-star review from Iveta, Australia: Absolutely amazing! The place is so clean, customer oriented and detailed. You can see that the hosts put their heart in it. Absolutely recommend!"></figure>
-<figure><img src="/assets/sales/guest-fav-497.webp" width="1204" height="200" alt="Guest favourite: one of the most loved homes on Airbnb, rated 4.97 from 65 reviews." loading="lazy"></figure>
-<p class="sign">Daniel &amp; Farah</p>
-</aside>
 </div>
 </main>
 <script>
@@ -500,6 +495,29 @@ else{st.className='ct-status err';st.textContent=(x.j&&x.j.error)||'Your message
     return page('contact/', 'Contact · 6-Figure Host', 'Questions about the 6-Figure Host Course, the guides or the calculator? Send Daniel & Farah a message.', body, 'contact')
 
 
+def story_page():
+    tl = open(os.path.join(HERE, 'story_tl.html'), encoding='utf-8').read()
+    body = '''<header class="st-hero">
+<div class="in">
+<h1 class="h-h2"><span class="sc">Our story</span>From sleeping on the couch to having multiple homes around the world</h1>
+<p class="st-lead">How two broke housemates in Barcelona built a six-figure hosting business with properties in Spain and Bali, without owning a single one of them.</p>
+<p class="st-by">Daniel &amp; Farah</p>
+</div>
+</header>
+<main class="st">
+<div class="in">
+''' + tl + '''
+</div>
+</main>
+<section class="h-end">
+<div class="in">
+<h2 class="h-h2"><span class="sc">Your turn</span>Start your own story</h2>
+<div class="h-ctas"><a class="cta" href="/course/">See the online course</a><a class="h-ig" href="/#start">Choose your starting point</a></div>
+</div>
+</section>'''
+    return page('our-story/', 'Our story · 6-Figure Host', 'How Daniel & Farah went from sleeping on the couch in Barcelona to a six-figure hosting business with homes around the world, without owning property.', body, 'story')
+
+
 if __name__ == '__main__':
     open(os.path.join(OUT, 'assets/sales.css'), 'w').write(open(os.path.join(HERE, 'base.css')).read() + '\n' + open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'home.css')).read())
     for k in VARIANTS: print(k, course_page(k))
@@ -508,3 +526,4 @@ if __name__ == '__main__':
     print('home', home_page())
     print('masterclass', masterclass_page())
     print('contact', contact_page())
+    print('story', story_page())
