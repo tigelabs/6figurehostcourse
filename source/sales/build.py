@@ -16,11 +16,17 @@ NAV = '''<nav class="nav" aria-label="Main">
 <div class="in">
 <a class="logo" href="/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <ul>
-<li><a href="/course/"{c}>Course</a></li>
+<li><a href="/#start">Start here</a></li>
+<li><a href="/#story">Our story</a></li>
+<li><a href="/course/"{c}>Online course</a></li>
+<li class="dd"><details><summary>Add-ons</summary>
+<ul class="dd-menu">
 <li><a href="/barcelona/"{b}>Barcelona guide</a></li>
 <li><a href="/bali/"{i}>Bali guide</a></li>
 <li><a href="/calculator/"{k}>Profit Calculator</a></li>
+</ul></details></li>
 </ul>
+<script>document.addEventListener('click',function(e){{var d=document.querySelector('.nav .dd details');if(d&&d.open&&!d.contains(e.target))d.open=false}});document.addEventListener('keydown',function(e){{var d=document.querySelector('.nav .dd details');if(e.key==='Escape'&&d&&d.open){{d.open=false;d.querySelector('summary').focus()}}}});</script>
 <a class="login" href="/hostcourse/login">Access your course</a>
 </div>
 </nav>'''
@@ -49,7 +55,7 @@ def page(path, title, desc, body, active=''):
 <meta property="og:description" content="%s">
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
 %s
-<link rel="stylesheet" href="/assets/sales.css?v=20261123c">
+<link rel="stylesheet" href="/assets/sales.css?v=20261123d">
 <script src="/assets/offer.js?v=5" defer></script>
 </head>
 <body>

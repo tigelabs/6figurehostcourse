@@ -259,3 +259,17 @@
 .pg .h-end .cta:hover{background:#F4F2EF;border-color:#F4F2EF;color:var(--ink)}
 .pg .h-end .h-small{color:#f3e4de;font-size:16px}
 .pg .h-end .h-ig{color:var(--cream);border-color:var(--cream)}
+.h-gf{margin:24px 0 0}
+.h-gf img{display:block;width:100%;max-width:900px;height:auto;border-radius:16px}
+.pg .h-end .h-h2 .sc{color:#E2DDD8}
+/* Add-ons dropdown */
+.nav .dd{position:relative}
+.nav .dd summary{list-style:none;cursor:pointer;font-size:15px;padding:6px 0;border-bottom:2px solid transparent;display:flex;align-items:center;gap:6px}
+.nav .dd summary::-webkit-details-marker{display:none}
+.nav .dd summary::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .15s}
+.nav .dd details[open] summary::after{transform:translateY(1px) rotate(-135deg)}
+.nav .dd summary:hover{border-bottom-color:var(--terra)}
+.nav .dd-menu{position:absolute;top:calc(100% + 10px);left:-14px;display:block;margin:0;padding:8px;list-style:none;background:var(--cream);border:1.5px solid var(--ink);border-radius:12px;min-width:200px;box-shadow:0 14px 30px -14px rgba(56,51,48,.35)}
+.nav .dd-menu li a{display:block;padding:9px 12px;border-radius:8px;border-bottom:0}
+.nav .dd-menu li a:hover{background:#E2DDD8}
+.pg .h-gf{margin:36px 0 8px}
