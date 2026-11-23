@@ -511,7 +511,7 @@ def story_page():
 </main>
 <section class="h-end">
 <div class="in">
-<h2 class="h-h2"><span class="sc">Your turn</span>Start your own story</h2>
+<h2 class="h-h2"><span class="sc">Your turn</span>Start your own hosting journey</h2>
 <div class="h-ctas"><a class="cta" href="/course/">Start here</a></div>
 </div>
 </section>'''
