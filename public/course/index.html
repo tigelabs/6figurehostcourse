@@ -148,6 +148,9 @@ a{color:#383330}a:hover{color:#a05f50}
 .facts li:first-child{border-left:0;padding-left:0}
 .facts b{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:28px;line-height:1.1}
 .facts span{font-size:15px;color:var(--muted)}
+.facts.f4 ul{grid-template-columns:repeat(4,minmax(0,1fr))}
+.facts.f4 b{font-size:clamp(34px,4vw,52px)}
+@media (max-width:860px){.facts.f4 ul{grid-template-columns:repeat(2,minmax(0,1fr))}.facts.f4 li{flex-direction:column;align-items:flex-start;border-top:0;padding:14px 0}}
 .lock .dp.sysline{font-size:clamp(34px,4.4vw,60px);white-space:nowrap}
 @media (max-width:860px){.lock .dp.sysline{white-space:normal}}
 .facts-note{margin:0;padding:12px 0;border-top:1.5px solid var(--ink);font-family:var(--display);text-transform:uppercase;font-size:15px;letter-spacing:.04em;text-align:center}
@@ -728,13 +731,13 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <p class="sign" style="margin-top:28px">Daniel &amp; Farah</p>
 </div>
 </div>
-<div class="facts" aria-label="Where we are today">
+<div class="facts f4" aria-label="Where we are today">
 <ul>
-<li><b>10 years</b><span>of experience</span></li>
-<li><b>Passive income</b><span>systems and a team that let the business run itself</span></li>
-<li><b>Multiple properties</b><span>around the world today</span></li>
+<li><b>10+</b><span>years of experience</span></li>
+<li><b>1,000+</b><span>5-star reviews</span></li>
+<li><b>6-figure</b><span>income</span></li>
+<li><b>0</b><span>properties owned</span></li>
 </ul>
-<p class="facts-note">All without owning a single property.</p>
 </div>
 </div>
 </section>
