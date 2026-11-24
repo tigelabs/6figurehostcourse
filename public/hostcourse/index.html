@@ -480,6 +480,7 @@ svg.ic{display:inline-block;vertical-align:-3px;color:#A05F50;margin-right:7px;f
 .vk-list{margin:0;padding-left:0;list-style:none}.vk-list li{position:relative;padding-left:20px;margin:7px 0;font-size:14.5px;line-height:1.5}.vk-list li:before{content:"";position:absolute;left:4px;top:.55em;width:7px;height:7px;border-radius:50%;background:#A05F50}
 @media(max-width:720px){.trio3{grid-template-columns:1fr}}
 .rfgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0 24px}.rf{background:#f4f2ef;border:1.5px solid #383330;border-radius:16px;padding:18px 18px 16px;display:flex;flex-direction:column}.rf:last-child:nth-child(odd){grid-column:1/-1}.rf-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}.rf-n{flex:none;width:30px;height:30px;border-radius:50%;background:#313A33;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}.rf h4{margin:0!important;font-size:16px;line-height:1.3}.rf p{font-size:14.5px;line-height:1.6;margin:0 0 12px;max-width:none}.rf-flag{margin-top:auto;display:flex;gap:8px;align-items:flex-start;background:rgba(160,95,80,.1);color:#383330;border-radius:10px;padding:10px 12px;font-size:13.5px;line-height:1.5}.rf-flag svg{flex:none;color:#A05F50;margin-top:2px}.rf-flag b{color:#A05F50}.rf-bottom{border-left:3px solid #A05F50;padding-left:14px}@media(max-width:720px){.rfgrid{grid-template-columns:1fr}}
+.savebox{background:var(--ink);color:#f4f2ef;border-radius:18px;padding:26px 30px;margin:30px 0 6px;display:flex;gap:28px;align-items:center}.savebox .sb-tx{flex:1;min-width:0}.savebox h3{font-family:var(--display);font-weight:400;letter-spacing:.02em;color:#fff;font-size:24px;margin:0 0 8px;line-height:1.1}.savebox p{color:#e2ddd8;margin:0 0 8px;font-size:15px;line-height:1.55}.savebox p strong{color:#fff}.savebox p:last-child{margin-bottom:0}.savebox .sb-btns{display:flex;flex-direction:column;gap:10px;flex:0 0 auto}.savebox button{font:700 14px/1 var(--body);border-radius:999px;padding:14px 22px;cursor:pointer;white-space:nowrap;border:1.5px solid #f4f2ef;transition:background .15s,color .15s}.savebox .sb-save{background:#f4f2ef;color:var(--ink)}.savebox .sb-save:hover{background:#e2ddd8;border-color:#e2ddd8}.savebox .sb-restore{background:transparent;color:#f4f2ef}.savebox .sb-restore:hover{background:rgba(244,242,239,.12)}.savebox button:focus-visible{outline:2px solid #d9b3a8;outline-offset:3px}@media (max-width:640px){.savebox{flex-direction:column;align-items:stretch;padding:22px 20px;gap:18px}.savebox .sb-btns{flex-direction:row}.savebox button{flex:1;padding:13px 10px}}
 .commcta{background:var(--green);color:#f4f2ef;border-radius:18px;padding:30px 32px;margin:34px 0 10px}.commcta .cc-eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#d9b3a8;margin-bottom:8px}.commcta h3{color:#fff;margin:0 0 10px;font-size:26px}.commcta p{color:#e7e3de;max-width:560px;margin:0 0 12px}.commcta ul{margin:0 0 20px;padding-left:20px;color:#e7e3de}.commcta li{margin:4px 0}.commcta .cc-btn{display:inline-block;background:#A05F50;color:#fff;font-weight:700;padding:13px 24px;border-radius:99px;text-decoration:none;box-shadow:0 3px 0 rgba(0,0,0,.25)}.commcta .cc-btn:hover{filter:brightness(1.07)}.commcta small{display:block;margin-top:12px;color:#c9c3bc;font-size:13px}
 .cel-fb{margin-top:20px;padding-top:16px;border-top:1px solid rgba(56,51,48,.15);display:flex;flex-direction:column;align-items:center;gap:6px;font-size:14px;color:#6b625d}.cel-fb a{display:inline;max-width:340px;line-height:1.45;text-align:center;color:#A05F50;font-weight:700;text-decoration:none}.cel-fb a:hover{text-decoration:underline}
 .cel canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
@@ -854,6 +855,7 @@ mark.srch-hit.now{background:#E6C9C1;box-shadow:0 0 0 2px var(--blue-deep)}
 <div aria-label="Lesson format" class="vmode" data-langs="pt" role="group"><span class="vlab" data-t="52">This lesson</span><button data-mode="video" data-t="53" type="button">Video + text</button><button data-mode="text" data-t="54" type="button">Text only</button></div>
 <div class="video" data-yt-pt="XQ6Tm3OiO3c"><a class="vplay" rel="noopener" target="_blank"><i></i><span><b data-t="55">Watch the video</b><small data-t="56">Welcome to the course</small></span></a></div>
 </section>
+<div class="savebox" role="region" aria-label="Save and restore your data"><div class="sb-tx"><h3>IMPORTANT</h3><p>Everything saves automatically on this device and browser. Want to continue your work on a different device? Save your data here, then restore it on the new device.</p><p><strong>Don’t clear your browser history or site data, or everything you filled in will be deleted.</strong></p></div><div class="sb-btns"><button class="sb-save" id="sb-save" type="button">Save your data</button><button class="sb-restore" id="sb-restore" type="button">Restore your data</button><input accept="application/json,.json" hidden id="sb-file" type="file"/></div></div>
 <section class="part" id="start-p1"><div class="eyebrow"><span data-t="57">Section 1</span></div><h2 data-t="58">Overview of the course</h2>
 <div class="pboxes">
 <div class="pbox"><p data-t="59"><strong class="blue">In Part 1, we lay the foundation.</strong> You’ll learn about the different business models (including how to start without buying property), how to get legally set up, build the right mindset and find your first profitable property even if pitching landlords makes you nervous.</p></div>
@@ -3532,6 +3534,42 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
 function $(s,r){return (r||document).querySelector(s);}
 function $$(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
 function toast(t){var el=$('#toast');el.textContent=_(t);el.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove('on');},1600);}
+(function(){
+  var sv=document.getElementById('sb-save'),rs=document.getElementById('sb-restore'),fi=document.getElementById('sb-file');
+  if(!sv||!rs||!fi)return;
+  sv.addEventListener('click',function(){
+    try{save();}catch(e){}
+    var raw=null;try{raw=localStorage.getItem(KEY);}catch(e){}
+    var data;try{data=raw?JSON.parse(raw):S;}catch(e){data=S;}
+    var out={app:'6figurehost-course',version:1,saved:new Date().toISOString(),key:KEY,data:data};
+    var blob=new Blob([JSON.stringify(out,null,1)],{type:'application/json'});
+    var a=document.createElement('a');a.href=URL.createObjectURL(blob);
+    a.download='6figurehost-course-backup-'+new Date().toISOString().slice(0,10)+'.json';
+    document.body.appendChild(a);a.click();
+    setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);
+    toast('Your data file was downloaded');
+  });
+  rs.addEventListener('click',function(){fi.value='';fi.click();});
+  fi.addEventListener('change',function(){
+    var f=fi.files&&fi.files[0];if(!f)return;
+    var r=new FileReader();
+    r.onload=function(){
+      var obj;try{obj=JSON.parse(r.result);}catch(e){toast('This file can\u2019t be read. Choose the .json file you saved.');return;}
+      var d=obj&&obj.app==='6figurehost-course'?obj.data:obj;
+      if(!d||typeof d!=='object'||Array.isArray(d)||!('tasks' in d||'fields' in d||'done' in d)){toast('This isn\u2019t a course data file. Choose the .json file you saved.');return;}
+      if(!confirmRestore())return;
+      try{localStorage.setItem(KEY,JSON.stringify(d));}catch(e){toast('Your browser blocked saving. Check that site data is allowed.');return;}
+      toast('Your data was restored');
+      setTimeout(function(){location.reload();},900);
+    };
+    r.readAsText(f);
+  });
+  function confirmRestore(){
+    var hasData=false;try{var cur=JSON.parse(localStorage.getItem(KEY)||'{}');hasData=Object.keys(cur.fields||{}).length||Object.keys(cur.tasks||{}).length;}catch(e){}
+    return !hasData||window.confirm('Restoring replaces what you filled in on this device with the saved file. Continue?');
+  }
+})();
+
 var DEF={lang:'en',ccy:'EUR',agency:'20',occ1:'70',occ2:'85',occ3:'95',calc_tab:'rent',
   ex_elec:'50',ex_gas:'0',ex_net:'50',ex_water:'0',ex_ins:'0',ex_cl1:'300',ex_cl2:'200',ex_handy:'0',ex_mgr:'0',ex_pool:'0',ex_gard:'0',ex_acc:'0',ex_sup:'0',ex_maint:'0',
   su_kitchen:'0',su_living:'0',su_bed:'0',su_bath:'0',su_out:'0',su_laundry:'0',
