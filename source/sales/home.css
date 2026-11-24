@@ -356,7 +356,7 @@
 
 /* hero: notifications pop in one after another, like on a phone (2026-11-24) */
 .h-photo .h-notes{background:none;box-shadow:none;border-radius:0;transform:none;aspect-ratio:720/392}
-.h-notes .h-note{position:absolute;top:0;left:0;width:100%;height:auto;border-radius:12px;box-shadow:0 18px 36px -14px rgba(56,51,48,.45);opacity:0;transform:translateY(-14px) scale(.97);transition:opacity .45s ease,transform .45s cubic-bezier(.2,.9,.3,1.2);pointer-events:none}
+.h-notes .h-note{position:absolute;top:0;left:0;width:100%;height:auto;border-radius:12px;box-shadow:0 18px 36px -14px rgba(56,51,48,.45);opacity:0;transform:translateY(18px) scale(.97);transition:opacity .45s ease,transform .45s cubic-bezier(.2,.9,.3,1.2);pointer-events:none}
 .h-notes .h-note.on{opacity:1;transform:none}
-.h-notes .h-note.out{opacity:0;transform:translateY(10px) scale(.98)}
+.h-notes .h-note.out{opacity:0;transform:translateY(-14px) scale(.98)}
 @media (prefers-reduced-motion:reduce){.h-notes .h-note{transition:none}}
