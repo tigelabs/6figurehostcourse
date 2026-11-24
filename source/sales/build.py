@@ -192,6 +192,7 @@ def demo_videos(s):
     s = s.replace('<li><h3 class="dp3">Profit and ROI calculators</h3>', '<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3>', 1)
     s = re.sub(r'<img src="/assets/sales/eead1ca9095a1ffcb644315184a39f62.webp"[^>]*>', lambda m: STORY_MOSAIC, s, count=1)
     s = s.replace('<div class="curt">', '<div class="prmock"><img src="/assets/course-mockup.webp?v=2" width="1400" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div>\n' + '<div class="curt">', 1)
+    s = s.replace('<span class="sc b">Before you sign</span><span class="dp">Run the numbers on a place</span>', '<span class="sc b">Our favorite tool</span><span class="dp">Run the numbers on a place</span>', 1)
     return s + '\n' + SCRUB_JS
 
 VARIANTS = {

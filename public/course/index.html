@@ -709,6 +709,11 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* 2026-11-24h: big course mockup in the pricing box, above the currency switch */
 .pricing .prmock{display:flex;justify-content:center;margin:clamp(18px,3vw,34px) auto clamp(16px,2.5vw,28px)}
 .pricing .prmock img{display:block;width:min(760px,100%);height:auto;filter:drop-shadow(0 26px 40px rgba(0,0,0,.35))}
+
+/* 2026-11-24i: calculator section: terracotta eyebrow, iPad frame darker than the section */
+.lock .sc.fav{color:var(--terra)}
+.calc .vtab .ipad{background:#161412;border:1px solid #57504a;box-shadow:0 30px 60px -24px rgba(0,0,0,.75),inset 0 0 0 2px #24201d}
+.calc .vtab .ipad::before{background:#4a4440}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -934,7 +939,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <div class="in two">
 <div>
 <div class="head">
-<h2 class="lock"><span class="sc">Before you sign</span><span class="dp">Calculate your profit and ROI</span></h2>
+<h2 class="lock"><span class="sc fav">Our favorite tool</span><span class="dp">Calculate your profit and ROI</span></h2>
 </div>
 <div class="copy">
 <p>Most beginners fall for a nice apartment and do the math later. Inside the course it goes the other way round: <b>type in the rent, the deposit, the number of rooms and the nightly price, and the calculator shows your initial investment, monthly profit, return and break-even</b> before you commit to anything.</p>
