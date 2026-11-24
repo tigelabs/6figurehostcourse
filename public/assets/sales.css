@@ -746,3 +746,6 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .vtab figcaption{font-size:13px;color:var(--muted);text-align:center}
 .night .vtab figcaption,.calc .vtab figcaption{color:#cfc8bf}
 .feat li.hl .dp3{color:var(--terra)}
+/* offer mockup and room under the Black Friday line (course variants, 2026-11-24) */
+.offer .omock{display:block;width:100%;max-width:560px;height:auto;margin:-6px 0 -10px -10px}
+.pricing .pr-head{margin-bottom:26px!important}

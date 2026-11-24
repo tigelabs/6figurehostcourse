@@ -187,6 +187,7 @@ def demo_videos(s):
                lambda m: vtab('/assets/sales/setup-checklist.mp4', '/assets/sales/setup-checklist.webp', 'The full setup checklist inside the course: filters for must-have, recommended and nice to have, the estimated budget, and each room with items, quantities and prices'), s, count=1)
     s = re.sub(r'<figure class="tab"><div class="ipad"><img src="/assets/sales/91704d75617ebd52941e0ad615df6340.webp"[^>]*></div>.*?</figure>',
                lambda m: vtab('/assets/sales/calculator-demo-v2.mp4', '/assets/sales/calculator-demo-v2.webp', 'A walk through the profit and ROI calculator: business expenses, the rental arbitrage numbers, the occupancy table, the 5-year profit and the break-even chart'), s, count=1, flags=re.S)
+    s = s.replace('<div class="offer">\n<div class="list">\n', '<div class="offer">\n<div class="list">\n<img class="omock" src="/assets/course-mockup.webp?v=2" width="1400" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">\n', 1)
     s = s.replace('<li><h3 class="dp3">Profit and ROI calculators</h3>', '<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3>', 1)
     return s + '\n' + SCRUB_JS
 
