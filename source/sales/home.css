@@ -445,3 +445,8 @@
 .pics.mosaic .m-bali figcaption{position:relative;z-index:2;margin:-24px 0 0;padding:11px 18px 12px;background:var(--cream);border-radius:12px;box-shadow:0 16px 34px -16px rgba(56,51,48,.45);font-family:var(--serif);font-style:italic;font-size:14px;line-height:1.45;color:var(--ink);text-align:center;max-width:86%}
 @media (max-width:860px){.pics.mosaic .m-col .m-note{margin:14px 0 0 -30px}.pics.mosaic .m-col .m-farah{margin:auto 0}.pics.mosaic .m-bali figcaption{font-size:12.5px;padding:9px 13px 10px;margin-top:-20px}}
 @media (min-width:861px){.two .pics.mosaic .m-col .m-note{margin-top:24px}}
+
+/* 2026-11-24f: course mockup centred on the split of the offer box, across both halves */
+.offer .omockrow{grid-column:1/-1;background:linear-gradient(90deg,var(--sand) 60%,var(--ink) 60%);padding:clamp(24px,3vw,40px) 0 0;display:block}
+.offer .omockrow .omock{--mw:min(660px,62%);display:block;width:var(--mw);max-width:none;height:auto;margin:0 0 -8px calc(60% - var(--mw) / 2)}
+@media (max-width:860px){.offer .omockrow{background:var(--sand);padding:20px 12px 0}.offer .omockrow .omock{--mw:100%;margin:0 auto -8px}}
