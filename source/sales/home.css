@@ -393,3 +393,10 @@
 .tl li p,.tl-item p{font-size:16px;line-height:1.6}
 .head .lead{font-size:clamp(17px,1.5vw,20px);line-height:1.5}
 .h-gf img{margin-left:auto;margin-right:auto}
+/* our story: photo with the Airbnb results floating on top, one after another (2026-11-24) */
+.h-resbox{position:relative;border-radius:14px;box-shadow:0 24px 50px -24px rgba(56,51,48,.45)}
+.h-us .h-resfig .h-resbox > img:first-child{display:block;border-radius:14px;aspect-ratio:3/4}
+.pg .h-us .h-resfig .h-card{position:absolute;left:var(--l);top:var(--t);width:var(--w);height:auto;aspect-ratio:auto;object-fit:fill;border:0;border-radius:10px;box-shadow:0 14px 30px -12px rgba(30,26,24,.55);opacity:0;transform:translateY(22px) scale(.94);transition:opacity .5s ease,transform .6s cubic-bezier(.2,.9,.3,1.25),box-shadow .25s ease}
+.pg .h-us .h-resfig .h-card.in{opacity:1;transform:none}
+.pg .h-us .h-resfig .h-card.in:hover{transform:translateY(-6px) scale(1.04);box-shadow:0 22px 40px -14px rgba(30,26,24,.6);z-index:2}
+@media (prefers-reduced-motion:reduce){.pg .h-us .h-resfig .h-card{transition:none}}
