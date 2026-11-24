@@ -115,8 +115,8 @@
 <p class="h-small">Included in the course, or get it on its own.</p>
 </div>
 <figure class="h-ipad" data-hoverplay>
-<div class="h-ipadf"><img src="/assets/sales/calculator-demo.webp" alt="The Profit Calculator: fields for rent, deposit, rooms and nightly price, with the results for profit, ROI and break-even"><video muted loop playsinline preload="metadata" poster="/assets/sales/calculator-demo.webp" src="/assets/sales/calculator-demo.mp4" aria-hidden="true"></video></div>
-<figcaption>Hover or tap to see it in action.</figcaption>
+<div class="h-ipadf"><img src="/assets/sales/calculator-demo-v2.webp" width="1024" height="768" alt="The Profit Calculator: fields for rent, deposit, rooms and nightly price, with the results for profit, ROI and break-even"><video muted loop playsinline preload="metadata" poster="/assets/sales/calculator-demo-v2.webp" src="/assets/sales/calculator-demo-v2.mp4" aria-hidden="true"></video></div>
+<figcaption>Hover to see it in action, scroll to move through it.</figcaption>
 </figure>
 </article>
 
@@ -203,11 +203,17 @@ var tabs=[].slice.call(document.querySelectorAll('.h-pick [role=tab]'));
 function sel(t,focus){tabs.forEach(function(x){var on=x===t;x.setAttribute('aria-selected',on);x.tabIndex=on?0:-1;document.getElementById(x.getAttribute('aria-controls')).hidden=!on;});if(focus)t.focus();}
 tabs.forEach(function(t,i){t.addEventListener('click',function(){sel(t)});t.addEventListener('keydown',function(e){var d=e.key==='ArrowRight'||e.key==='ArrowDown'?1:e.key==='ArrowLeft'||e.key==='ArrowUp'?-1:0;if(d){e.preventDefault();sel(tabs[(i+d+tabs.length)%tabs.length],true)}})});
 // Calculator demo: still image until hover (or tap), then the video plays inside the iPad.
-[].forEach.call(document.querySelectorAll('[data-hoverplay]'),function(fig){var v=fig.querySelector('video');if(!v)return;var ok=true;
+// While the pointer is over it, scrolling moves the video forward or back, like scrolling the calculator itself.
+[].forEach.call(document.querySelectorAll('[data-hoverplay]'),function(fig){var v=fig.querySelector('video');if(!v)return;var ok=true,idle=null,over=false;
 v.addEventListener('error',function(){ok=false;fig.classList.remove('playing')},true);
 function play(){if(!ok)return;var p=v.play();if(p&&p.then)p.then(function(){fig.classList.add('playing')}).catch(function(){})}
-function stop(){v.pause();fig.classList.remove('playing')}
-fig.addEventListener('mouseenter',play);fig.addEventListener('mouseleave',stop);fig.addEventListener('click',function(){v.paused?play():stop()});});
+function stop(){clearTimeout(idle);v.pause();fig.classList.remove('playing')}
+fig.addEventListener('mouseenter',function(){over=true;play()});fig.addEventListener('mouseleave',function(){over=false;stop()});
+fig.addEventListener('click',function(){v.paused?play():stop()});
+fig.addEventListener('wheel',function(e){if(!ok||!v.duration)return;var d=e.deltaY*(e.deltaMode===1?16:1),t=v.currentTime+d*0.02;
+if((t<=0&&d<0&&v.currentTime<=0.05)||(t>=v.duration&&d>0&&v.currentTime>=v.duration-0.05))return; // at either end: let the page scroll
+e.preventDefault();v.pause();fig.classList.add('playing');v.currentTime=Math.max(0,Math.min(v.duration-0.01,t));
+clearTimeout(idle);idle=setTimeout(function(){if(over)play()},900)},{passive:false});});
 })();
 </script>
 
