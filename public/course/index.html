@@ -644,7 +644,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .vtab .ipad video{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:#fff}
 .vtab figcaption{font-size:13px;color:var(--muted);text-align:center}
 .calc .vtab figcaption{color:#cfc8bf}
-.feat li.hl .dp3{color:var(--terra)}
+.feat li{transition:transform .2s ease,box-shadow .2s ease}
+@media (hover:hover) and (prefers-reduced-motion:no-preference){.feat li:hover{transform:scale(1.03);box-shadow:0 14px 30px -18px rgba(56,51,48,.45);position:relative;z-index:1}}
 
 /* 2026-11-24: mockup in the offer, room under the Black Friday line, results cards on the "This is us" photo */
 .offer .omock{display:block;width:100%;max-width:560px;height:auto;margin:-6px 0 -10px -10px}
@@ -920,7 +921,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <div class="block">
 <h3 class="dp2">And everything else inside</h3>
 <ul class="feat">
-<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3><p>Three calculators for rental arbitrage, ownership and leasehold. Know your break-even before you sign anything.</p></li>
+<li><h3 class="dp3">Profit and ROI calculators</h3><p>Three calculators for rental arbitrage, ownership and leasehold. Know your break-even before you sign anything.</p></li>
 <li><h3 class="dp3">Landlord scripts</h3><p>Cold email, face-to-face pitch, follow-up and an objection cheat sheet. Type in your details once and copy the finished message.</p></li>
 <li><h3 class="dp3">Property scorecard</h3><p>Rate any property on the page and get a clear verdict, so you stop second-guessing and start comparing.</p></li>
 <li><h3 class="dp3">Contracts and checklists</h3><p>Agreements for your manager, cleaner and handyman, plus turnover, deep-clean and inspection checklists to download.</p></li>
