@@ -54,7 +54,7 @@ def page(path, title, desc, body, active='', foot=True):
 <meta name="description" content="%s">
 <meta property="og:title" content="%s">
 <meta property="og:description" content="%s">
-<meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp">
+<meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp?v=2">
 %s
 <link rel="stylesheet" href="/assets/sales.css?v=20261123j">
 <script src="/assets/offer.js?v=6" defer></script>
@@ -268,7 +268,7 @@ def crosssell():
 <p class="lead">The city guide shows you the local rules and numbers. The 6-Figure Host Course shows you how to launch, run and scale the business itself, with the host starter kit and the profit calculator included.</p>
 <div class="ctawrap"><a class="cta" href="/course/">See the course</a><small>Already includes the Profit Calculator.</small></div>
 </div>
-<img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
+<img src="/assets/course-mockup.webp?v=2" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>
 </section>'''
 
@@ -418,7 +418,7 @@ def calculator_page():
 %(offer)s
 %(cross)s
 %(faq)s''' % dict(h=href, offer=offer('The Profit &amp; ROI Calculator', ['Calculators for rental arbitrage, ownership and leasehold', 'Business cost overview with an AI prompt for your city', 'Three occupancy scenarios, break-even chart and 5-year view', 'Multi-currency, saved on your device'], 97, 37, href, 'Secure payment by Stripe. Included in the 6-Figure Host Course.'),
-                      cross='''<section class="sec night"><div class="in two"><div class="copy"><h2 class="lock"><span class="sc">Want the full system?</span><span class="dp">The calculator is in the course</span></h2><p class="lead">The 6-Figure Host Course includes this calculator, the host starter kit and 13 lessons to launch, run and scale your rental business.</p><div class="ctawrap"><a class="cta" href="/course/">See the course</a></div></div><img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div></section>''',
+                      cross='''<section class="sec night"><div class="in two"><div class="copy"><h2 class="lock"><span class="sc">Want the full system?</span><span class="dp">The calculator is in the course</span></h2><p class="lead">The 6-Figure Host Course includes this calculator, the host starter kit and 13 lessons to launch, run and scale your rental business.</p><div class="ctawrap"><a class="cta" href="/course/">See the course</a></div></div><img src="/assets/course-mockup.webp?v=2" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div></section>''',
                       faq=faq([('Do I need Excel?', 'No. The calculator works in your browser, on your phone or laptop. Nothing to download.'),
                                ('I am bad at maths. Will I understand it?', 'Yes. You only type in the basics, like rent, rooms and nightly price. Every field has a short “What is this?” explanation.'),
                                ('What currencies does it support?', 'EUR, USD, CAD, BRL, IDR, THB, AUD, MXN, JPY, CHF and AED.'),
@@ -462,7 +462,7 @@ def masterclass_page():
 <p>The masterclass shows you how the model works. The 6-Figure Host Course gives you everything to do it yourself: the launch roadmap, landlord scripts, the profit calculator, contracts and checklists, and our real case studies from Barcelona and Bali.</p>
 <div class="ctawrap"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $343</span></a><small>One payment or split pay. Lifetime access.</small></div>
 </div>
-<img src="/assets/course-mockup.webp" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
+<img src="/assets/course-mockup.webp?v=2" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
 </div>
 </section>"""
     body = body.replace('OFFERBAR', OFFERBAR_HTML.replace('href="#pricing"', 'href="/course/#pricing"'))
