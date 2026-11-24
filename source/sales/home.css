@@ -461,4 +461,4 @@
 /* "And everything else inside": all cards dark, small zoom on hover */
 .feat li.hl .dp3{color:inherit}
 .feat li{transition:transform .2s ease,box-shadow .2s ease}
-@media (hover:hover) and (prefers-reduced-motion:no-preference){.feat li:hover{transform:scale(1.03);box-shadow:0 14px 30px -18px rgba(56,51,48,.45);position:relative;z-index:1}}
+@media (hover:hover) and (prefers-reduced-motion:no-preference){.feat li:hover{transform:scale(1.03);box-shadow:-1.5px -1.5px 0 0 var(--ink),0 14px 30px -18px rgba(56,51,48,.45);position:relative;z-index:1}}
