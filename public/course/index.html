@@ -671,11 +671,13 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pics.mosaic .m-bali img{aspect-ratio:2/1}
 @media (max-width:860px){.pics.mosaic{flex-direction:initial}.pics.mosaic figure,.pics.mosaic figure:nth-child(2){width:auto;margin-top:0}.pics.mosaic .m-farah{margin-top:36px}}
 
-/* 2026-11-24b: couch caption at the top of the right column, Farah photo ending halfway down the terrace photo */
-.pics.mosaic .m-farah{grid-row:1/span 2;align-self:stretch;margin-top:0;display:flex;flex-direction:column;gap:12px;contain:size}
-.pics.mosaic .m-farah figcaption{margin:0;font-size:14px;line-height:1.45;color:var(--muted)}
-.pics.mosaic .m-farah img{flex:1 1 auto;min-height:0;aspect-ratio:auto;margin-bottom:50%}
-@media (max-width:860px){.pics.mosaic .m-farah{margin-top:0}}
+
+/* 2026-11-24c: Farah photo centred on the line between the two left photos; the couch caption as a small card */
+.pics.mosaic .m-farah{grid-column:2;grid-row:1/span 2;align-self:start;margin-top:calc(60% + 7px);display:block;contain:none}
+.pics.mosaic .m-farah img{aspect-ratio:10/13;flex:none;margin:0}
+.pics.mosaic .m-note{grid-column:2;grid-row:1;align-self:start;position:relative;z-index:2;margin:44px 0 0 -34px;padding:12px 14px 13px;background:var(--cream);border-radius:12px;box-shadow:0 16px 34px -16px rgba(56,51,48,.45);font-family:var(--serif);font-style:italic;font-size:14px;line-height:1.45;color:var(--ink)}
+.pics.mosaic .m-note span{display:block;font-family:var(--script);font-style:normal;font-size:24px;line-height:1;color:var(--terra);margin-bottom:4px}
+@media (max-width:860px){.pics.mosaic .m-farah{margin-top:calc(60% + 7px)}.pics.mosaic .m-note{margin:14px 0 0 -22px;padding:9px 11px 10px;font-size:12.5px;line-height:1.35}.pics.mosaic .m-note span{font-size:19px}}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -779,7 +781,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <div class="two flip">
 <div class="pics mosaic">
 <figure class="m-couch"><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" width="1080" height="1440" alt="The couch Farah slept on, hidden behind a beach blanket" loading="lazy"></figure>
-<figure class="m-farah"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>
+<p class="m-note"><span>Where it started</span>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</p>
+<figure class="m-farah"><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>
 <figure class="m-roof"><img src="/assets/sales/story-rooftop.webp" width="672" height="600" alt="Two deck chairs and a barbecue on our rooftop terrace in Barcelona, under string lights" loading="lazy"></figure>
 <figure class="m-bali"><img src="/assets/sales/story-bali.webp" width="1080" height="628" alt="The courtyard of our villa in Bali: a thatched awning, a built-in bench with cushions and a plunge pool" loading="lazy"><figcaption>…to today: multiple properties around the world.</figcaption></figure>
 </div>

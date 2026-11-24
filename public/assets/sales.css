@@ -766,8 +766,11 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pics.mosaic figcaption{font-size:14px;color:var(--muted);margin-top:8px}
 .two .pics.mosaic{max-width:460px}
 
-/* 2026-11-24b: couch caption at the top of the right column, Farah photo ending halfway down the terrace photo */
-.pics.mosaic .m-farah{grid-row:1/span 2;align-self:stretch;margin-top:0;display:flex;flex-direction:column;gap:12px;contain:size}
-.pics.mosaic .m-farah figcaption{margin:0;font-size:14px;line-height:1.45;color:var(--muted)}
-.pics.mosaic .m-farah img{flex:1 1 auto;min-height:0;aspect-ratio:auto;margin-bottom:50%}
-@media (max-width:860px){.pics.mosaic .m-farah{margin-top:0}}
+
+/* 2026-11-24c: Farah photo centred on the line between the two left photos; the couch caption as a small card */
+.pics.mosaic .m-farah{grid-column:2;grid-row:1/span 2;align-self:start;margin-top:calc(60% + 7px);display:block;contain:none}
+.pics.mosaic .m-farah img{aspect-ratio:10/13;flex:none;margin:0}
+.pics.mosaic .m-note{grid-column:2;grid-row:1;align-self:start;position:relative;z-index:2;margin:44px 0 0 -34px;padding:12px 14px 13px;background:var(--cream);border-radius:12px;box-shadow:0 16px 34px -16px rgba(56,51,48,.45);font-family:var(--serif);font-style:italic;font-size:14px;line-height:1.45;color:var(--ink)}
+.pics.mosaic .m-note span{display:block;font-family:var(--script);font-style:normal;font-size:24px;line-height:1;color:var(--terra);margin-bottom:4px}
+@media (max-width:860px){.pics.mosaic .m-farah{margin-top:calc(60% + 7px)}.pics.mosaic .m-note{margin:14px 0 0 -22px;padding:9px 11px 10px;font-size:12.5px;line-height:1.35}.pics.mosaic .m-note span{font-size:19px}}
+@media (min-width:861px){.two .pics.mosaic .m-note{margin-top:24px}}
