@@ -793,3 +793,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* 2026-11-24g: course mockup above the offer box, centred on the page */
 .omocktop{display:flex;justify-content:center;margin:0 0 clamp(18px,2.5vw,32px)}
 .omocktop .omock{display:block;width:min(720px,100%);height:auto;margin:0}
+
+/* 2026-11-24h: big course mockup in the pricing box, above the currency switch */
+.pricing .prmock{display:flex;justify-content:center;margin:clamp(18px,3vw,34px) auto clamp(16px,2.5vw,28px)}
+.pricing .prmock img{display:block;width:min(760px,100%);height:auto;filter:drop-shadow(0 26px 40px rgba(0,0,0,.35))}

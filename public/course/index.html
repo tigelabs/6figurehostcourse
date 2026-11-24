@@ -705,6 +705,10 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* 2026-11-24g: course mockup above the offer box, centred on the page */
 .omocktop{display:flex;justify-content:center;margin:0 0 clamp(18px,2.5vw,32px)}
 .omocktop .omock{display:block;width:min(720px,100%);height:auto;margin:0}
+
+/* 2026-11-24h: big course mockup in the pricing box, above the currency switch */
+.pricing .prmock{display:flex;justify-content:center;margin:clamp(18px,3vw,34px) auto clamp(16px,2.5vw,28px)}
+.pricing .prmock img{display:block;width:min(760px,100%);height:auto;filter:drop-shadow(0 26px 40px rgba(0,0,0,.35))}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -1136,6 +1140,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 <div class="pricing" id="pricing">
 <span data-if="isPre" style="display:contents"><p class="pr-head">Black Friday opens 27 November: <span data-h="p197"></span> for 4 days only</p></span><span data-if="isBf" style="display:contents"><p class="pr-head">Black Friday price ends 30 November at midnight</p></span>
 <span data-if="showCd" style="display:contents"><div class="cd"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></div></span>
+<div class="prmock"><img src="/assets/course-mockup.webp?v=2" width="1400" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div>
 <div class="curt"><span>Choose your currency</span><div class="cur" role="radiogroup" aria-label="Currency"><button type="button" role="radio" data-a-aria-checked="eurOn" data-on-click="setEur">€ EUR</button><button type="button" role="radio" data-a-aria-checked="usdOn" data-on-click="setUsd">$ USD</button></div></div>
 <div class="pr-cards">
 <div class="pr-card best"><span class="pr-badge">Best value</span>
