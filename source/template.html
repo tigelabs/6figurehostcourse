@@ -1337,5 +1337,32 @@ var b=document.querySelector('[data-labels]');if(b)b.addEventListener('click',fu
 document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().getFullYear();});
 
 </script>
+<style>
+/* 2026-11-24: AI prompts (and every block on the prompt overview page) fold away; click the bar to open */
+.copy.tog header{cursor:pointer;user-select:none}
+.copy.tog header .tg{display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--paper);border:1.5px solid var(--paper);border-radius:99px;padding:4px 12px;font:inherit;font-size:12px;letter-spacing:.04em;text-transform:none;cursor:pointer}
+.copy.tog header .tg::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);transition:transform .2s}
+.copy.tog.open header .tg::after{transform:rotate(-135deg) translate(-2px,-2px)}
+.copy.tog:not(.open) .src,.copy.tog:not(.open) textarea,.copy.tog:not(.open) .ai-links{display:none}
+.copy.tog:not(.open){background:var(--ink)}
+</style>
+<script>
+(function(){
+  var AI=['476','676','1101','1113','2255'];
+  var lib=document.getElementById('library');
+  [].forEach.call(document.querySelectorAll('.copy'),function(c){
+    var h=c.querySelector('header'),t=h&&h.querySelector('span[data-t]');if(!h||!t)return;
+    var inLib=lib&&lib.contains(c);
+    if(!inLib&&AI.indexOf(t.getAttribute('data-t'))<0)return;
+    c.classList.add('tog');
+    var b=document.createElement('button');b.type='button';b.className='tg';b.setAttribute('aria-expanded','false');
+    var lab=document.createElement('span');b.appendChild(lab);
+    function set(o){c.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');lab.textContent=o?'Hide':'Show';}
+    set(false);
+    var slot=h.lastElementChild;slot.insertBefore(b,slot.firstChild);
+    h.addEventListener('click',function(e){if(e.target.closest('button')&&e.target.closest('button')!==b)return;set(!c.classList.contains('open'));});
+  });
+})();
+</script>
 </body>
 </html>
