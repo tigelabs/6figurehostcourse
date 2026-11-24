@@ -190,7 +190,7 @@ def demo_videos(s):
     s = re.sub(r'<figure class="tab"><div class="ipad"><img src="/assets/sales/91704d75617ebd52941e0ad615df6340.webp"[^>]*></div>.*?</figure>',
                lambda m: vtab('/assets/sales/calculator-demo-v2.mp4', '/assets/sales/calculator-demo-v2.webp', 'A walk through the profit and ROI calculator: business expenses, the rental arbitrage numbers, the occupancy table, the 5-year profit and the break-even chart'), s, count=1, flags=re.S)
     s = re.sub(r'<img src="/assets/sales/eead1ca9095a1ffcb644315184a39f62.webp"[^>]*>', lambda m: STORY_MOSAIC, s, count=1)
-    s = s.replace('<div class="curt">', '<div class="prmock"><img src="/assets/course-mockup.webp?v=2" width="1400" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div>\n' + '<div class="curt">', 1)
+    s = s.replace('<div class="curt">', '<div class="prmock"><img src="/assets/course-mockup-wide.webp?v=1" width="1540" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div>\n' + '<div class="curt">', 1)
     s = s.replace('<span class="sc b">Before you sign</span><span class="dp">Run the numbers on a place</span>', '<span class="sc b">Our favorite tool</span><span class="dp">Run the numbers on a place</span>', 1)
     return s + '\n' + SCRUB_JS
 

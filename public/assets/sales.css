@@ -796,7 +796,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 
 /* 2026-11-24h: big course mockup in the pricing box, above the currency switch */
 .pricing .prmock{display:flex;justify-content:center;margin:clamp(18px,3vw,34px) auto clamp(16px,2.5vw,28px)}
-.pricing .prmock img{display:block;width:min(760px,100%);height:auto;filter:drop-shadow(0 26px 40px rgba(0,0,0,.35))}
+.pricing .prmock img{display:block;width:min(836px,100%);height:auto;filter:drop-shadow(0 26px 40px rgba(0,0,0,.35))}
 /* "And everything else inside": all cards dark, small zoom on hover */
 .feat li.hl .dp3{color:inherit}
 .feat li{transition:transform .2s ease,box-shadow .2s ease}
