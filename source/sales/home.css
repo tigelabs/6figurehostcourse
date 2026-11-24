@@ -435,3 +435,13 @@
 .pics.mosaic .m-note span{display:block;font-family:var(--script);font-style:normal;font-size:24px;line-height:1;color:var(--terra);margin-bottom:4px}
 @media (max-width:860px){.pics.mosaic .m-farah{margin-top:calc(60% + 7px)}.pics.mosaic .m-note{margin:14px 0 0 -22px;padding:9px 11px 10px;font-size:12.5px;line-height:1.35}.pics.mosaic .m-note span{font-size:19px}}
 @media (min-width:861px){.two .pics.mosaic .m-note{margin-top:24px}}
+
+/* 2026-11-24d: right column = caption card + Farah photo, with the same space above and below the photo; bottom caption as a card over the Bali photo */
+.pics.mosaic .m-col{grid-column:2;grid-row:1/span 2;align-self:stretch;contain:size;display:flex;flex-direction:column;margin-bottom:-14px}
+.pics.mosaic .m-col .m-note{margin:44px 0 0 -34px;flex:none}
+.pics.mosaic .m-col .m-farah{margin:auto 0;align-self:auto;flex:none}
+.pics.mosaic .m-bali{position:relative;display:flex;flex-direction:column;align-items:center}
+.pics.mosaic .m-bali img{align-self:stretch}
+.pics.mosaic .m-bali figcaption{position:relative;z-index:2;margin:-24px 0 0;padding:11px 18px 12px;background:var(--cream);border-radius:12px;box-shadow:0 16px 34px -16px rgba(56,51,48,.45);font-family:var(--serif);font-style:italic;font-size:14px;line-height:1.45;color:var(--ink);text-align:center;max-width:86%}
+@media (max-width:860px){.pics.mosaic .m-col .m-note{margin:14px 0 0 -30px}.pics.mosaic .m-col .m-farah{margin:auto 0}.pics.mosaic .m-bali figcaption{font-size:12.5px;padding:9px 13px 10px;margin-top:-20px}}
+@media (min-width:861px){.two .pics.mosaic .m-col .m-note{margin-top:24px}}
