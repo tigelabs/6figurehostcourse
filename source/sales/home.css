@@ -410,3 +410,19 @@
 /* offer mockup and room under the Black Friday line (course variants, 2026-11-24) */
 .offer .omock{display:block;width:100%;max-width:560px;height:auto;margin:-6px 0 -10px -10px}
 .pricing .pr-head{margin-bottom:26px!important}
+
+/* course variants: story photos as a staggered mosaic, like the course page (2026-11-24) */
+.pics.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.pics.mosaic figure{width:auto;margin:0;align-self:start}
+.pics.mosaic img{display:block;width:100%;height:auto;object-fit:cover;border-radius:14px;box-shadow:0 22px 44px -26px rgba(56,51,48,.5)}
+.pics.mosaic .m-couch{grid-column:1;grid-row:1}
+.pics.mosaic .m-couch img{aspect-ratio:4/5}
+.pics.mosaic .m-farah{grid-column:2;grid-row:1/span 2;margin-top:56px}
+.pics.mosaic .m-farah img{aspect-ratio:3/5}
+.pics.mosaic .m-roof{grid-column:1;grid-row:2}
+.pics.mosaic .m-roof img{aspect-ratio:1/1}
+.pics.mosaic .m-bali{grid-column:1/-1;grid-row:3}
+.pics.mosaic .m-bali img{aspect-ratio:2/1}
+@media (max-width:860px){.pics.mosaic{}.pics.mosaic figure,.pics.mosaic figure:nth-child(2){width:auto;margin-top:0}.pics.mosaic .m-farah{margin-top:36px}}
+.pics.mosaic figcaption{font-size:14px;color:var(--muted);margin-top:8px}
+.two .pics.mosaic{max-width:460px}

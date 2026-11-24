@@ -656,6 +656,20 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .resbox .rcard.in{opacity:1;transform:none}
 .resbox .rcard.in:hover{transform:translateY(-6px) scale(1.04);box-shadow:0 22px 40px -14px rgba(30,26,24,.6);z-index:2}
 @media (prefers-reduced-motion:reduce){.resbox .rcard{transition:none}}
+
+/* 2026-11-24: story photos as a staggered mosaic of separate rounded photos */
+.pics.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.pics.mosaic figure{width:auto;margin:0;align-self:start}
+.pics.mosaic img{display:block;width:100%;height:auto;object-fit:cover;border-radius:14px;box-shadow:0 22px 44px -26px rgba(56,51,48,.5)}
+.pics.mosaic .m-couch{grid-column:1;grid-row:1}
+.pics.mosaic .m-couch img{aspect-ratio:4/5}
+.pics.mosaic .m-farah{grid-column:2;grid-row:1/span 2;margin-top:56px}
+.pics.mosaic .m-farah img{aspect-ratio:3/5}
+.pics.mosaic .m-roof{grid-column:1;grid-row:2}
+.pics.mosaic .m-roof img{aspect-ratio:1/1}
+.pics.mosaic .m-bali{grid-column:1/-1;grid-row:3}
+.pics.mosaic .m-bali img{aspect-ratio:2/1}
+@media (max-width:860px){.pics.mosaic{flex-direction:initial}.pics.mosaic figure,.pics.mosaic figure:nth-child(2){width:auto;margin-top:0}.pics.mosaic .m-farah{margin-top:36px}}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -757,9 +771,11 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <h2 class="lock"><span class="sc b">Our story</span><span class="dp" style="max-width:26ch">From sleeping on the couch to homes around the world</span></h2>
 </div>
 <div class="two flip">
-<div class="pics">
-<figure><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" alt="The couch Farah slept on, hidden behind a beach blanket"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption></figure>
-<figure><img src="/assets/canvas/701d71cb80b54ec1dfa0478876a980e6.jpg" alt="Collage of our homes today: the Barcelona rooftop and our villa in Bali"><figcaption>…to today: multiple properties around the world.</figcaption></figure>
+<div class="pics mosaic">
+<figure class="m-couch"><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" width="1080" height="1440" alt="The couch Farah slept on, hidden behind a beach blanket" loading="lazy"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption></figure>
+<figure class="m-farah"><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>
+<figure class="m-roof"><img src="/assets/sales/story-rooftop.webp" width="672" height="600" alt="Two deck chairs and a barbecue on our rooftop terrace in Barcelona, under string lights" loading="lazy"></figure>
+<figure class="m-bali"><img src="/assets/sales/story-bali.webp" width="1080" height="628" alt="The courtyard of our villa in Bali: a thatched awning, a built-in bench with cushions and a plunge pool" loading="lazy"><figcaption>…to today: multiple properties around the world.</figcaption></figure>
 </div>
 <div>
 <ol class="tl">
@@ -1164,7 +1180,7 @@ var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInters
 
 <footer class="foot">
 <div class="in">
-<span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>
+<span>© 2026 Daniel &amp; Farah · Passion to profit LLC. All rights reserved.</span>
 <span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/our-story/">Our story</a><a href="/contact/">Contact</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
 </div>
 </footer>

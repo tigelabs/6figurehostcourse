@@ -34,7 +34,7 @@ NAV = '''<nav class="nav" aria-label="Main">
 
 FOOT = '''<footer class="foot">
 <div class="in">
-<span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>
+<span>© 2026 Daniel &amp; Farah · Passion to profit LLC. All rights reserved.</span>
 <span class="flinks"><a href="/course/">Course</a><a href="/barcelona/">Barcelona guide</a><a href="/bali/">Bali guide</a><a href="/calculator/">Profit Calculator</a><a href="/our-story/">Our story</a><a href="/contact/">Contact</a><a href="/privacy">Privacy policy</a><a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a><a href="https://www.instagram.com/6figurehost/" target="_blank" rel="noopener">Instagram @6figurehost</a></span>
 </div>
 </footer>'''
@@ -162,6 +162,8 @@ def course_base():
 HOME_NOTES_SRC = open(os.path.join(HERE, 'home_body.html'), encoding='utf-8').read()
 
 
+STORY_MOSAIC = '<div class="pics mosaic">\n<figure class="m-couch"><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" width="1080" height="1440" alt="The couch Farah slept on, hidden behind a beach blanket" loading="lazy"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption></figure>\n<figure class="m-farah"><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>\n<figure class="m-roof"><img src="/assets/sales/story-rooftop.webp" width="672" height="600" alt="Two deck chairs and a barbecue on our rooftop terrace in Barcelona, under string lights" loading="lazy"></figure>\n<figure class="m-bali"><img src="/assets/sales/story-bali.webp" width="1080" height="628" alt="The courtyard of our villa in Bali: a thatched awning, a built-in bench with cushions and a plunge pool" loading="lazy"><figcaption>…to today: multiple properties around the world.</figcaption></figure>\n</div>'
+
 SCRUB_JS = """<script>
 // Demo videos: play only while the pointer is over them; scrolling over them moves the video forward or back.
 [].forEach.call(document.querySelectorAll('[data-scrubzone]'),function(z){var v=z.querySelector('video[data-scrub]');if(!v)return;var over=false,idle=null;
@@ -189,11 +191,12 @@ def demo_videos(s):
                lambda m: vtab('/assets/sales/calculator-demo-v2.mp4', '/assets/sales/calculator-demo-v2.webp', 'A walk through the profit and ROI calculator: business expenses, the rental arbitrage numbers, the occupancy table, the 5-year profit and the break-even chart'), s, count=1, flags=re.S)
     s = s.replace('<div class="offer">\n<div class="list">\n', '<div class="offer">\n<div class="list">\n<img class="omock" src="/assets/course-mockup.webp?v=2" width="1400" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">\n', 1)
     s = s.replace('<li><h3 class="dp3">Profit and ROI calculators</h3>', '<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3>', 1)
+    s = re.sub(r'<img src="/assets/sales/eead1ca9095a1ffcb644315184a39f62.webp"[^>]*>', lambda m: STORY_MOSAIC, s, count=1)
     return s + '\n' + SCRUB_JS
 
 VARIANTS = {
     'course': dict(
-        title='6-Figure Host Course · Build a profitable rental business', desc='The step-by-step course by Farah & Daniel to build a profitable, legal rental business, even without owning property.'),
+        title='6-Figure Host Course · Build a profitable rental business', desc='The step-by-step course by Daniel & Farah to build a profitable, legal rental business, even without owning property.'),
     'course/start': dict(
         title='Start a rental business without owning property · 6-Figure Host Course',
         desc='Rental arbitrage and co-hosting, step by step: start a profitable rental business without buying property, even on a small budget.',
@@ -461,7 +464,7 @@ def calculator_page():
 # ---------------------------------------------------------------- home page
 def home_page():
     body = open(os.path.join(HERE, 'home_body.html'), encoding='utf-8').read()
-    return page('', '6-Figure Host · Farah & Daniel', 'Ten years of hosting in Barcelona and Bali, turned into a course, city guides and a calculator to build a profitable, legal rental business.', body)
+    return page('', '6-Figure Host · Daniel & Farah', 'Ten years of hosting in Barcelona and Bali, turned into a course, city guides and a calculator to build a profitable, legal rental business.', body)
 
 
 # ---------------------------------------------------------------- masterclass video
@@ -497,7 +500,7 @@ def masterclass_page():
 </div>
 </section>"""
     body = body.replace('OFFERBAR', OFFERBAR_HTML.replace('href="#pricing"', 'href="/course/#pricing"'))
-    return page('masterclassvideo/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Farah & Daniel: how to build a profitable rental business in Barcelona, Bali or anywhere, with or without owning property.', body)
+    return page('masterclassvideo/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Daniel & Farah: how to build a profitable rental business in Barcelona, Bali or anywhere, with or without owning property.', body)
 
 
 def contact_page():
