@@ -2,3 +2,5 @@ User-agent: *
 Disallow: /hostcourse/
 Disallow: /launchroom/
 Disallow: /api/
+
+Sitemap: https://6figurehost.com/sitemap.xml
