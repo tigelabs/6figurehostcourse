@@ -381,3 +381,14 @@
 .offer{border:1px solid var(--rule);box-shadow:0 30px 60px -30px rgba(56,51,48,.5)}
 .faq details{border:1px solid var(--rule)}
 @media (max-width:860px){.stage .photo{max-width:none;aspect-ratio:4/3}.sec .two > img{max-width:none}}
+/* course variants: hero photo with rotating notifications, like the home page (2026-11-24) */
+.hero .vphoto{justify-self:end;max-width:440px}
+.hero .vphoto > img{aspect-ratio:3/4;object-fit:cover}
+@media (max-width:860px){.hero .vphoto{justify-self:center;max-width:420px;margin-top:8px}}
+/* landing pages, second pass: framed screenshots, case cards and story like the home page (2026-11-24) */
+.shot img{border-width:8px;border-radius:16px;box-shadow:0 24px 50px -28px rgba(56,51,48,.4)}
+.case{border:1px solid var(--rule);border-radius:16px;background:var(--cream)}
+.case dl{border-top:1px solid var(--rule)}
+.sec .two > img[style]{border-radius:14px;box-shadow:0 24px 50px -24px rgba(56,51,48,.45);max-width:460px}
+.tl li p,.tl-item p{font-size:16px;line-height:1.6}
+.head .lead{font-size:clamp(17px,1.5vw,20px);line-height:1.5}

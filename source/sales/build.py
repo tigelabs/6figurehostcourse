@@ -159,6 +159,8 @@ def course_base():
     return s
 
 
+HOME_NOTES_SRC = open(os.path.join(HERE, 'home_body.html'), encoding='utf-8').read()
+
 VARIANTS = {
     'course': dict(
         title='6-Figure Host Course · Build a profitable rental business', desc='The step-by-step course by Farah & Daniel to build a profitable, legal rental business, even without owning property.'),
@@ -174,7 +176,8 @@ VARIANTS = {
                'You keep hearing about rental arbitrage and co-hosting, but <b>you don’t know where to start</b> or if it is legal.',
                'You are afraid of <b>signing a lease that doesn’t pay off.</b>',
                'You want a <b>clear, step-by-step plan</b>, not a hundred tips from social media.'],
-        first_qa='“I don&#x27;t own any property.”'),
+        first_qa='“I don&#x27;t own any property.”',
+        photo=('/assets/sales/hero-bedroom.webp', 'A bright bedroom in one of our rentals: a teak bed with white linen and a woven pendant lamp')),
     'course/owner': dict(
         title='Turn your property into a 5-star rental · 6-Figure Host Course',
         desc='Already own an apartment, a house or a spare room? Turn it into a profitable short- or mid-term rental that runs with systems, not with your evenings.',
@@ -188,6 +191,7 @@ VARIANTS = {
                'You don’t want a second job: you want the property to <b>run without you being there.</b>',
                'You want to do it <b>properly and legally</b>, with contracts, checklists and a team you trust.'],
         first_qa='“What if guests damage the place?”',
+        photo=('/assets/sales/bcn-room.webp', 'A calm white bedroom with an arched ceiling in one of our Barcelona apartments'),
         good="<p>Here is the good part: <b>you already have the hardest piece, the property.</b> What you need is the right rental model for it, a listing that sells, and systems that keep working while you get on with your life.</p>"),
     'course/nomad': dict(
         title='Rental income you can run from anywhere · 6-Figure Host Course',
@@ -202,7 +206,8 @@ VARIANTS = {
                'You need a business that <b>runs from your phone</b>, with self check-in and automated messages.',
                'You are ready to <b>put in the work now</b> to enjoy the freedom later.'],
         first_qa=None,
-        good="<p>Here is the good part: <b>you don't need to live next to your rentals.</b> You need a model that fits your budget, a local team you trust, and systems that keep working while you are on the other side of the world.</p>"),
+        good="<p>Here is the good part: <b>you don't need to live next to your rentals.</b> You need a model that fits your budget, a local team you trust, and systems that keep working while you are on the other side of the world.</p>",
+        photo=('/assets/sales/pool-palm.webp', 'A palm leaning over the pool at one of our villas in Bali')),
 }
 
 
@@ -223,6 +228,11 @@ def course_page(key):
             rest = [i for i in items if i is not first[0]]
             block = '\n'.join([first[0]] + rest)
             s = re.sub(r'(<ul class="qa">\n).*?(\n</ul>)', lambda m: m.group(1) + block + m.group(2), s, count=1, flags=re.S)
+    if v.get('photo'):
+        src, alt = v['photo']
+        notes = re.search(r'<div class="h-pay h-notes">.*?</script>', HOME_NOTES_SRC, flags=re.S).group(0)
+        fig = '<figure class="h-photo vphoto">\n<img src="%s" width="900" height="1200" alt="%s">\n%s\n</figure>' % (src, alt, notes)
+        s = re.sub(r'<div class="stage mk">.*?</figure>\n</div>', lambda m: fig, s, count=1, flags=re.S)
     return page(key + '/', v['title'], v['desc'], s, 'course')
 
 
