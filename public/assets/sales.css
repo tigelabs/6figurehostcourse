@@ -739,3 +739,4 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pg .h-us .h-resfig .h-card.in{opacity:1;transform:none}
 .pg .h-us .h-resfig .h-card.in:hover{transform:translateY(-6px) scale(1.04);box-shadow:0 22px 40px -14px rgba(30,26,24,.6);z-index:2}
 @media (prefers-reduced-motion:reduce){.pg .h-us .h-resfig .h-card{transition:none}}
+.part{align-items:center}

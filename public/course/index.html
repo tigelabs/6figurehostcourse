@@ -624,6 +624,20 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .bar a{white-space:nowrap}
 @media (max-width:860px){.stage.mk{margin-top:18px}}
 @media (min-width:861px){.hero .in{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.stage.mk{margin-right:-40px}.stage.mk .dev{width:88%}}
+
+/* 2026-11-24: bedroom photo notifications, story photos sized to the timeline, parts centred */
+.bedpay .h-notes{aspect-ratio:720/392;background:none;box-shadow:none}
+.h-notes .h-note{position:absolute;top:0;left:0;width:100%;height:auto;border-radius:12px;box-shadow:0 18px 36px -14px rgba(56,51,48,.45);opacity:0;transform:translateY(18px) scale(.97);transition:opacity .45s ease,transform .45s cubic-bezier(.2,.9,.3,1.2);pointer-events:none}
+.h-notes .h-note.on{opacity:1;transform:none}
+.h-notes .h-note.out{opacity:0;transform:translateY(-14px) scale(.98)}
+.pics{gap:14px}
+.pics figure{width:62%}
+.pics figure:nth-child(2){align-self:flex-end}
+.pics img{border-radius:14px;box-shadow:0 24px 50px -26px rgba(56,51,48,.45)}
+.part{align-items:center}
+.stage.mk[data-scrubzone]{cursor:pointer}
+@media (max-width:860px){.pics{flex-direction:row;align-items:flex-start}.pics figure{width:50%}.pics figure:nth-child(2){align-self:auto;margin-top:40px}}
+@media (prefers-reduced-motion:reduce){.h-notes .h-note{transition:none}}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -689,9 +703,9 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <small>Secure checkout. Lifetime access. Works on phone and laptop.</small>
 </div>
 </div>
-<div class="stage mk">
+<div class="stage mk" data-scrubzone>
 <div class="dev">
-<div class="scr"><video src="/assets/canvas/ea9e69500a81eb7289b60fbd7f9392db.mp4" poster="/assets/canvas/089cc3f27846bb26bd6e16e384cc4cc7.webp" autoplay muted loop playsinline preload="metadata" aria-label="A scroll through the course: the start page, a lesson, the launch roadmap, the profit calculator and the host starter kit"></video></div>
+<div class="scr"><video src="/assets/canvas/ea9e69500a81eb7289b60fbd7f9392db.mp4" poster="/assets/canvas/089cc3f27846bb26bd6e16e384cc4cc7.webp" muted loop playsinline preload="metadata" data-scrub aria-label="A scroll through the course: the start page, a lesson, the launch roadmap, the profit calculator and the host starter kit"></video></div>
 <div class="base"></div>
 </div>
 <figure class="tabk"><div class="ipad"><img src="/assets/canvas/56ffb7ffce27c89371677e8db923c5d7.webp" width="1024" height="768" alt="The host starter kit inside the course on an iPad: launch roadmap, must-have tools, decision-making matrix and the profit calculator"></div></figure>
@@ -714,7 +728,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <p>The good part: <b>you don't need experience, a real estate license or a property of your own.</b> You need a model that fits your budget, a landlord who says yes and systems that work while you sleep.</p>
 </div>
 </div>
-<figure class="bedpay"><img src="/assets/canvas/f733ed4547579a8f0b955c50813ba736.webp" width="900" height="1200" alt="A bright bedroom in one of our rentals in Bali: a teak bed with white linen and a woven pendant lamp"><img class="pay" src="/assets/canvas/e991a0fc1002f4dd64f3c8397fda9991.webp" width="720" height="240" alt="Airbnb payout notification: payment received, 1,081.73 euros"></figure>
+<figure class="bedpay"><img src="/assets/canvas/f733ed4547579a8f0b955c50813ba736.webp" width="900" height="1200" alt="A bright bedroom in one of our rentals in Bali: a teak bed with white linen and a woven pendant lamp"><div class="pay h-notes"><img class="h-note on" src="/assets/sales/note-1081.webp" width="720" height="241" alt="Airbnb payout notification: payment received, 1,081.73 euros"><img class="h-note" src="/assets/sales/note-superhost.webp" width="720" height="156" alt="Airbnb email: Here’s your Superhost bonus" aria-hidden="true"><img class="h-note" src="/assets/sales/note-1113.webp" width="720" height="241" alt="Airbnb payout notification: payment received, 1,113.40 euros" aria-hidden="true"><img class="h-note" src="/assets/sales/note-iveta.webp" width="720" height="392" alt="Five-star review from Iveta, Australia: Absolutely amazing! You can see that the hosts put their heart in it." aria-hidden="true"><img class="h-note" src="/assets/sales/note-952.webp" width="720" height="229" alt="Airbnb payout notification: payment received, 952.14 euros" aria-hidden="true"></div>
+<script>(function(){var n=document.querySelectorAll('.h-notes .h-note');if(n.length<2||matchMedia('(prefers-reduced-motion: reduce)').matches)return;var i=0;setInterval(function(){n[i].classList.remove('on');n[i].classList.add('out');n[i].setAttribute('aria-hidden','true');var o=n[i];setTimeout(function(){o.classList.remove('out')},600);i=(i+1)%n.length;n[i].classList.add('on');n[i].removeAttribute('aria-hidden')},5000)})();</script></figure>
 </div>
 </section>
 
@@ -1221,6 +1236,16 @@ function render(){
 document.addEventListener('click', function(e){ var t = e.target.closest('[data-on-click]'); if (t && typeof V[t.dataset.onClick] === 'function') V[t.dataset.onClick](e); });
 document.addEventListener('input', function(e){ var t = e.target.closest('[data-on-input]'); if (t && typeof V[t.dataset.onInput] === 'function') V[t.dataset.onInput](e); });
 render(); if (inst.componentDidMount) inst.componentDidMount();
+</script>
+<script>
+// Course demo videos: play only while the pointer is over them; scrolling over them moves the video forward or back.
+[].forEach.call(document.querySelectorAll('[data-scrubzone]'),function(z){var v=z.querySelector('video[data-scrub]');if(!v)return;var over=false,idle=null;
+function play(){var p=v.play();if(p&&p.catch)p.catch(function(){})}
+z.addEventListener('mouseenter',function(){over=true;play()});z.addEventListener('mouseleave',function(){over=false;clearTimeout(idle);v.pause()});
+z.addEventListener('click',function(){v.paused?play():v.pause()});
+z.addEventListener('wheel',function(e){if(!v.duration)return;var d=e.deltaY*(e.deltaMode===1?16:1),t=v.currentTime+d*0.02;
+if((d<0&&v.currentTime<=0.05)||(d>0&&v.currentTime>=v.duration-0.05))return;
+e.preventDefault();v.pause();v.currentTime=Math.max(0,Math.min(v.duration-0.01,t));clearTimeout(idle);idle=setTimeout(function(){if(over)play()},900)},{passive:false});});
 </script>
 </body>
 </html>
