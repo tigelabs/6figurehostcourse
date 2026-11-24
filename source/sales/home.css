@@ -450,3 +450,7 @@
 .offer .omockrow{grid-column:1/-1;background:linear-gradient(90deg,var(--sand) 60%,var(--ink) 60%);padding:clamp(24px,3vw,40px) 0 0;display:block}
 .offer .omockrow .omock{--mw:min(660px,62%);display:block;width:var(--mw);max-width:none;height:auto;margin:0 0 -8px calc(60% - var(--mw) / 2)}
 @media (max-width:860px){.offer .omockrow{background:var(--sand);padding:20px 12px 0}.offer .omockrow .omock{--mw:100%;margin:0 auto -8px}}
+
+/* 2026-11-24g: course mockup above the offer box, centred on the page */
+.omocktop{display:flex;justify-content:center;margin:0 0 clamp(18px,2.5vw,32px)}
+.omocktop .omock{display:block;width:min(720px,100%);height:auto;margin:0}
