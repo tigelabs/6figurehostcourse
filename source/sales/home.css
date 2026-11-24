@@ -392,3 +392,4 @@
 .sec .two > img[style]{border-radius:14px;box-shadow:0 24px 50px -24px rgba(56,51,48,.45);max-width:460px}
 .tl li p,.tl-item p{font-size:16px;line-height:1.6}
 .head .lead{font-size:clamp(17px,1.5vw,20px);line-height:1.5}
+.h-gf img{margin-left:auto;margin-right:auto}
