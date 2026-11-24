@@ -153,7 +153,7 @@
 </div>
 <div class="stack">
 <div class="two flip">
-<figure class="shot"><img src="/assets/sales/32cd20fd9b83435046416700bcd794db.webp" alt="The launch roadmap inside the course: a progress bar showing 7 of 30 tasks done, and dated weekly tasks with checkboxes, each linked to its chapter"></figure>
+<figure class="tab vtab" data-scrubzone><div class="ipad"><video src="/assets/sales/launch-roadmap.mp4" poster="/assets/sales/launch-roadmap.webp" muted loop playsinline preload="metadata" data-scrub aria-label="The launch roadmap inside the course: your hosting plan, the questions that adapt it to your situation, and the weekly tasks"></video></div><figcaption>Hover to see it in action, scroll to move through it.</figcaption></figure>
 <div class="copy">
 <h3 class="dp2">The launch roadmap</h3>
 <p class="lead">One plan, built around your case.</p>
@@ -168,12 +168,12 @@
 <p>Every item, room by room, sorted into <b>must-have, recommended and nice to have</b>, each with a rough price. You see your estimated budget before you buy a single thing.</p>
 <p>Tick what you already own and the amount still to spend goes down.</p>
 </div>
-<figure class="shot"><img src="/assets/sales/269a1d817ac08fda791d377cf99c7bc6.webp" alt="The setup checklist inside the course: filters for must-have, recommended and nice to have, an estimated budget of 288 euros, and bedroom items with checkboxes and prices"></figure>
+<figure class="tab vtab" data-scrubzone><div class="ipad"><video src="/assets/sales/setup-checklist.mp4" poster="/assets/sales/setup-checklist.webp" muted loop playsinline preload="metadata" data-scrub aria-label="The full setup checklist inside the course: filters for must-have, recommended and nice to have, the estimated budget, and each room with items, quantities and prices"></video></div><figcaption>Hover to see it in action, scroll to move through it.</figcaption></figure>
 </div>
 <div class="block">
 <h3 class="dp2">And everything else inside</h3>
 <ul class="feat">
-<li><h3 class="dp3">Profit and ROI calculators</h3><p>Three calculators for rental arbitrage, ownership and leasehold. Know your break-even before you sign anything.</p></li>
+<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3><p>Three calculators for rental arbitrage, ownership and leasehold. Know your break-even before you sign anything.</p></li>
 <li><h3 class="dp3">Landlord scripts</h3><p>Cold email, face-to-face pitch, follow-up and an objection cheat sheet. Type in your details once and copy the finished message.</p></li>
 <li><h3 class="dp3">Property scorecard</h3><p>Rate any property on the page and get a clear verdict, so you stop second-guessing and start comparing.</p></li>
 <li><h3 class="dp3">Contracts and checklists</h3><p>Agreements for your manager, cleaner and handyman, plus turnover, deep-clean and inspection checklists to download.</p></li>
@@ -199,7 +199,7 @@
 <p>There are three versions, for rental arbitrage, ownership and leasehold, so the numbers match the model you choose.</p>
 </div>
 </div>
-<figure class="tab"><div class="ipad"><img src="/assets/sales/91704d75617ebd52941e0ad615df6340.webp" alt="The rental arbitrage profit calculator inside the course: tabs for renting, buying and leasing, fields for rent, deposit, admin costs, rooms and nightly price, and results showing a total initial investment of 9,350 dollars and, at 70 percent occupancy, a monthly profit of 5,000 dollars, 642 percent ROI and a break-even of 1.9 months"></div><figcaption>The rental arbitrage calculator inside the course.</figcaption></figure>
+<figure class="tab vtab" data-scrubzone><div class="ipad"><video src="/assets/sales/calculator-demo-v2.mp4" poster="/assets/sales/calculator-demo-v2.webp" muted loop playsinline preload="metadata" data-scrub aria-label="A walk through the profit and ROI calculator: business expenses, the rental arbitrage numbers, the occupancy table, the 5-year profit and the break-even chart"></video></div><figcaption>Hover to see it in action, scroll to move through it.</figcaption></figure>
 </div>
 </section>
 
@@ -440,6 +440,16 @@
 
 
 
+<script>
+// Demo videos: play only while the pointer is over them; scrolling over them moves the video forward or back.
+[].forEach.call(document.querySelectorAll('[data-scrubzone]'),function(z){var v=z.querySelector('video[data-scrub]');if(!v)return;var over=false,idle=null;
+function play(){var p=v.play();if(p&&p.catch)p.catch(function(){})}
+z.addEventListener('mouseenter',function(){over=true;play()});z.addEventListener('mouseleave',function(){over=false;clearTimeout(idle);v.pause()});
+z.addEventListener('click',function(){v.paused?play():v.pause()});
+z.addEventListener('wheel',function(e){if(!v.duration)return;var d=e.deltaY*(e.deltaMode===1?16:1),t=v.currentTime+d*0.02;
+if((d<0&&v.currentTime<=0.05)||(d>0&&v.currentTime>=v.duration-0.05))return;
+e.preventDefault();v.pause();v.currentTime=Math.max(0,Math.min(v.duration-0.01,t));clearTimeout(idle);idle=setTimeout(function(){if(over)play()},900)},{passive:false});});
+</script>
 <footer class="foot">
 <div class="in">
 <span>© 2026 Farah &amp; Daniel · Passion to profit LLC. All rights reserved.</span>

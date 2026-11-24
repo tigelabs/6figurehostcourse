@@ -161,6 +161,35 @@ def course_base():
 
 HOME_NOTES_SRC = open(os.path.join(HERE, 'home_body.html'), encoding='utf-8').read()
 
+
+SCRUB_JS = """<script>
+// Demo videos: play only while the pointer is over them; scrolling over them moves the video forward or back.
+[].forEach.call(document.querySelectorAll('[data-scrubzone]'),function(z){var v=z.querySelector('video[data-scrub]');if(!v)return;var over=false,idle=null;
+function play(){var p=v.play();if(p&&p.catch)p.catch(function(){})}
+z.addEventListener('mouseenter',function(){over=true;play()});z.addEventListener('mouseleave',function(){over=false;clearTimeout(idle);v.pause()});
+z.addEventListener('click',function(){v.paused?play():v.pause()});
+z.addEventListener('wheel',function(e){if(!v.duration)return;var d=e.deltaY*(e.deltaMode===1?16:1),t=v.currentTime+d*0.02;
+if((d<0&&v.currentTime<=0.05)||(d>0&&v.currentTime>=v.duration-0.05))return;
+e.preventDefault();v.pause();v.currentTime=Math.max(0,Math.min(v.duration-0.01,t));clearTimeout(idle);idle=setTimeout(function(){if(over)play()},900)},{passive:false});});
+</script>"""
+
+
+def vtab(src, poster, label):
+    return ('<figure class="tab vtab" data-scrubzone><div class="ipad"><video src="%s" poster="%s" muted loop playsinline preload="metadata" data-scrub aria-label="%s"></video></div>'
+            '<figcaption>Hover to see it in action, scroll to move through it.</figcaption></figure>') % (src, poster, label)
+
+
+def demo_videos(s):
+    """Course variants: same iPad demo videos as the designed course page (2026-11-24)."""
+    s = re.sub(r'<figure class="shot"><img src="/assets/sales/32cd20fd9b83435046416700bcd794db.webp"[^>]*></figure>',
+               lambda m: vtab('/assets/sales/launch-roadmap.mp4', '/assets/sales/launch-roadmap.webp', 'The launch roadmap inside the course: your hosting plan, the questions that adapt it to your situation, and the weekly tasks'), s, count=1)
+    s = re.sub(r'<figure class="shot"><img src="/assets/sales/269a1d817ac08fda791d377cf99c7bc6.webp"[^>]*></figure>',
+               lambda m: vtab('/assets/sales/setup-checklist.mp4', '/assets/sales/setup-checklist.webp', 'The full setup checklist inside the course: filters for must-have, recommended and nice to have, the estimated budget, and each room with items, quantities and prices'), s, count=1)
+    s = re.sub(r'<figure class="tab"><div class="ipad"><img src="/assets/sales/91704d75617ebd52941e0ad615df6340.webp"[^>]*></div>.*?</figure>',
+               lambda m: vtab('/assets/sales/calculator-demo-v2.mp4', '/assets/sales/calculator-demo-v2.webp', 'A walk through the profit and ROI calculator: business expenses, the rental arbitrage numbers, the occupancy table, the 5-year profit and the break-even chart'), s, count=1, flags=re.S)
+    s = s.replace('<li><h3 class="dp3">Profit and ROI calculators</h3>', '<li class="hl"><h3 class="dp3">Profit and ROI calculators</h3>', 1)
+    return s + '\n' + SCRUB_JS
+
 VARIANTS = {
     'course': dict(
         title='6-Figure Host Course · Build a profitable rental business', desc='The step-by-step course by Farah & Daniel to build a profitable, legal rental business, even without owning property.'),
@@ -233,6 +262,7 @@ def course_page(key):
         notes = re.search(r'<div class="h-pay h-notes">.*?</script>', HOME_NOTES_SRC, flags=re.S).group(0)
         fig = '<figure class="h-photo vphoto">\n<img src="%s" width="900" height="1200" alt="%s">\n%s\n</figure>' % (src, alt, notes)
         s = re.sub(r'<div class="stage mk">.*?</figure>\n</div>', lambda m: fig, s, count=1, flags=re.S)
+    s = demo_videos(s)
     return page(key + '/', v['title'], v['desc'], s, 'course')
 
 

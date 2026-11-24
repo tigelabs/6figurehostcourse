@@ -740,3 +740,9 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pg .h-us .h-resfig .h-card.in:hover{transform:translateY(-6px) scale(1.04);box-shadow:0 22px 40px -14px rgba(30,26,24,.6);z-index:2}
 @media (prefers-reduced-motion:reduce){.pg .h-us .h-resfig .h-card{transition:none}}
 .part{align-items:center}
+/* demo videos in iPads (course variants), highlighted calculators card (2026-11-24) */
+.vtab{margin:0;cursor:pointer}
+.vtab .ipad video{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:#fff}
+.vtab figcaption{font-size:13px;color:var(--muted);text-align:center}
+.night .vtab figcaption,.calc .vtab figcaption{color:#cfc8bf}
+.feat li.hl .dp3{color:var(--terra)}
