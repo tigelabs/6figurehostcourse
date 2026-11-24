@@ -360,3 +360,24 @@
 .h-notes .h-note.on{opacity:1;transform:none}
 .h-notes .h-note.out{opacity:0;transform:translateY(-14px) scale(.98)}
 @media (prefers-reduced-motion:reduce){.h-notes .h-note{transition:none}}
+
+/* landing pages (course variants, guides, calculator, masterclass): same proportions as the home page (2026-11-24) */
+.lock .sc{font-size:clamp(30px,3.2vw,46px);margin:0 0 -.02em .02em}
+.lock .dp{font-size:clamp(36px,4.6vw,64px);line-height:.95;letter-spacing:0;max-width:22ch}
+.head{gap:18px}
+.hero h1 .sc{font-size:clamp(40px,4.4vw,64px);margin:0 0 -.02em .02em}
+.hero h1 .dp{font-size:clamp(52px,7vw,104px);line-height:.9;letter-spacing:-.005em}
+.hero.home h1 .sc,.hero.calc h1 .sc{font-size:clamp(40px,4.4vw,64px)}
+.hero .lead{font-family:var(--body);font-style:normal;font-size:clamp(17px,1.5vw,20px);line-height:1.55;max-width:34em}
+.hero .ticks li{font-size:17px}
+.copy p,.part p,.feat p,.faq details p,.ticks li{font-size:17px;line-height:1.6}
+.stage .photo,.two img.photo{border-radius:14px;box-shadow:0 24px 50px -24px rgba(56,51,48,.45)}
+.stage .photo{width:100%;max-width:460px;aspect-ratio:3/4;margin-left:auto}
+.sec .two > img,.sec .two figure img{border-radius:14px}
+.sec .two > img{box-shadow:0 24px 50px -24px rgba(56,51,48,.45);max-width:520px;justify-self:end;width:100%}
+.part .sc{font-size:clamp(40px,3.6vw,52px)}
+.feat{border:0;gap:16px}
+.feat li{border:1px solid var(--rule);border-radius:16px;background:var(--cream)}
+.offer{border:1px solid var(--rule);box-shadow:0 30px 60px -30px rgba(56,51,48,.5)}
+.faq details{border:1px solid var(--rule)}
+@media (max-width:860px){.stage .photo{max-width:none;aspect-ratio:4/3}.sec .two > img{max-width:none}}
