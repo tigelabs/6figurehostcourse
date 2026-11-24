@@ -670,6 +670,12 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pics.mosaic .m-bali{grid-column:1/-1;grid-row:3}
 .pics.mosaic .m-bali img{aspect-ratio:2/1}
 @media (max-width:860px){.pics.mosaic{flex-direction:initial}.pics.mosaic figure,.pics.mosaic figure:nth-child(2){width:auto;margin-top:0}.pics.mosaic .m-farah{margin-top:36px}}
+
+/* 2026-11-24b: couch caption at the top of the right column, Farah photo ending halfway down the terrace photo */
+.pics.mosaic .m-farah{grid-row:1/span 2;align-self:stretch;margin-top:0;display:flex;flex-direction:column;gap:12px;contain:size}
+.pics.mosaic .m-farah figcaption{margin:0;font-size:14px;line-height:1.45;color:var(--muted)}
+.pics.mosaic .m-farah img{flex:1 1 auto;min-height:0;aspect-ratio:auto;margin-bottom:50%}
+@media (max-width:860px){.pics.mosaic .m-farah{margin-top:0}}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -772,8 +778,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 </div>
 <div class="two flip">
 <div class="pics mosaic">
-<figure class="m-couch"><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" width="1080" height="1440" alt="The couch Farah slept on, hidden behind a beach blanket" loading="lazy"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption></figure>
-<figure class="m-farah"><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>
+<figure class="m-couch"><img src="/assets/canvas/448c86283a913d760f37c98877c4eaa2.jpg" width="1080" height="1440" alt="The couch Farah slept on, hidden behind a beach blanket" loading="lazy"></figure>
+<figure class="m-farah"><figcaption>From sleeping on the couch behind a beach blanket and subletting my own bedroom…</figcaption><img src="/assets/sales/story-farah.webp" width="384" height="684" alt="Farah leaning on the terrace of our rooftop apartment in Barcelona at sunset" loading="lazy"></figure>
 <figure class="m-roof"><img src="/assets/sales/story-rooftop.webp" width="672" height="600" alt="Two deck chairs and a barbecue on our rooftop terrace in Barcelona, under string lights" loading="lazy"></figure>
 <figure class="m-bali"><img src="/assets/sales/story-bali.webp" width="1080" height="628" alt="The courtyard of our villa in Bali: a thatched awning, a built-in bench with cushions and a plunge pool" loading="lazy"><figcaption>…to today: multiple properties around the world.</figcaption></figure>
 </div>
