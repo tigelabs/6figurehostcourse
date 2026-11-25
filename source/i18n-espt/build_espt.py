@@ -170,3 +170,12 @@ assert a>0
 s=s[:a]+"$$('.lang button[data-lang]').forEach(function(b){b.addEventListener('click',function(){S.fields.lang=b.dataset.lang;save();applyLang();});});"+s[b:]
 assert 'langCur' not in s and 'lang-menu' not in s
 open(P,'w').write(s); print('plain switch ok')
+# --- top switch: "Host starter kit" instead of "Bonus & extras" ---
+s=open(P).read()
+n=s.count('data-t=\\"2523\\">Bonus &amp; extras</button>')+s.count('data-t="2523">Bonus &amp; extras</button>')
+s=s.replace('data-t=\\"2523\\">Bonus &amp; extras</button>','data-t=\\"2523\\">Host starter kit</button>').replace('data-t="2523">Bonus &amp; extras</button>','data-t="2523">Host starter kit</button>')
+o="EN_HTML['2523']='Bonus &amp; extras'"; assert s.count(o)==1; s=s.replace(o,"EN_HTML['2523']='Host starter kit'")
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for L,v in {'nl':'Host-starterskit','es':'Kit de inicio para anfitriones','pt':'Kit inicial de anfitrião'}.items(): d[L]['u']['2523']=v
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+open(P,'w').write(s); print('starter kit ok',n)
