@@ -343,3 +343,23 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 """
 s=s[:s.rfind('</style>')]+fx3+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('finish v3 ok')
+
+# --- perf v4: scrolling cement on body (opaque baked tile), lighter shadows, lazy images ---
+s=open(P).read()
+fx4="""
+/* perf v4 */
+body::before{content:none!important;display:none!important}
+body{background:var(--stone) url(img/micro-cement.webp) 0 0/1800px auto repeat}
+"""
+s=s[:s.rfind('</style>')]+fx4+s[s.rfind('</style>'):]
+import re as _re
+def _lz(m):
+    t=m.group(0)
+    if 'loading=' in t or 'id="lbimg"' in t or 'img/cover.' in t: return t
+    return t.replace('<img ','<img loading="lazy" ',1)
+s=_re.sub(r'<img [^>]*>',_lz,s)
+open(P,'w').write(s); print('perf v4 ok')
+# photo tone is now baked into the image files (see orig-photos/), so no runtime CSS filter
+s=open(P).read()
+s=s[:s.rfind('</style>')]+"\n.lesson img,.hero img,.lb img{filter:none!important}\n"+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('nofilter ok')
