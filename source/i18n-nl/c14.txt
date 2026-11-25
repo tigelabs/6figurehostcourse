@@ -1,0 +1,288 @@
+@@1531
+Remember: The most important tasks are mapped out for you, in order, inside your bonus “Roadmap: task checklist to launch your first listing.” {1}Use it as your step-by-step guide{2} to stay on track and avoid missing anything important.
+@@1532
+Managing supplies and restocking
+@@1533
+Behind the scenes, how you manage supplies and laundry can make or break the guest experience (and your sanity). {1}The goal: no last-minute runs for toilet paper and no stress over missing sheets.{2}
+@@1534
+Set up a clear inventory system
+@@1535
+List every essential, from toilet paper and soap to sponges, trash bags and coffee. Track how much is used per week or per guest, and set a {1}minimum stock level{2}. When you hit it, restock.
+@@1536
+Pro tip
+@@1537
+Log usage and quantities in a Notion or Google Sheets tracker. You’ll find a template in the bonus resources.
+@@1538
+Decide who restocks, and give them a working capital
+@@1539
+Decide who buys the supplies (cleaner, manager or you), how often, and how you’ll reimburse them.
+@@1540
+Working capital:
+@@1541
+ a set monthly amount in cash or a digital wallet, so your team never pays out of pocket. Top it up monthly or whenever it runs low.
+@@1542
+Stay on budget
+@@1543
+Keep all receipts in a shared folder or Notion tracker. Even easier: a WhatsApp group where your team posts a photo of each receipt and the remaining balance.
+@@1544
+SOPs, task templates and property manual
+@@1545
+to keep everything running smoothly
+@@1546
+If you want your property to run like a well-oiled machine, especially when you’re not there, {1}SOPs (Standard Operating Procedures) are your secret weapon.{2} They’re simply clear, written instructions for how things are done, so you never have to explain the same thing twice.
+@@1547
+The SOPs you’ll want to set up
+@@1548
+Cleaning checklist
+@@1549
+Room-by-room tasks in order of priority
+@@1550
+Turnover workflow
+@@1551
+What happens between checkout and the next guest
+@@1552
+Guest check-in
+@@1553
+From automatic messages to key handovers or smart locks
+@@1554
+Restocking &amp; supplies
+@@1555
+What needs to be in stock at all times
+@@1556
+Reporting issues
+@@1557
+What to do if something breaks or a guest complains
+@@1558
+Emergencies
+@@1559
+Contacts, troubleshooting, water leaks, lost keys and so on
+@@1560
+Maintenance schedule
+@@1561
+Monthly or quarterly checks to avoid costly repairs
+@@1562
+Put it all in one place
+@@1563
+{1}Your property manual.{2} A shared Google Doc, a Notion page or a printed folder in the property, as long as your team can always find it. It’s one of the best time-saving systems you can create.
+@@1564
+Open the property manual
+@@1565
+Labels and little details
+@@1566
+Labels for clarity and consistency
+@@1567
+Clear labels keep your team organized, confuse guests less and save time on every turnover.
+@@1568
+✓ Everything goes back in the right place
+@@1569
+✓ New team members learn faster
+@@1570
+✓ More intuitive for guests
+@@1571
+✓ Less loss or misuse of supplies
+@@1572
+✓ Fewer daily questions
+@@1573
+For guests
+@@1574
+What to label
+@@1575
+Fridge shelves (with room or suite names)
+@@1576
+Kitchen cabinets and drawers (shared vs. private)
+@@1577
+Water dispensers (“Drinking water only”)
+@@1578
+Trash and recycling bins
+@@1579
+The washing machine program you recommend
+@@1580
+Bathroom storage (“Shared” / “Private”)
+@@1581
+For your team
+@@1582
+Cleaning product shelves or boxes
+@@1583
+Restock bins (“Spare towels”, “Toilet paper stock”)
+@@1584
+The lost &amp; found box
+@@1585
+Garden tools or pool supplies
+@@1586
+Wash cycle instructions on the machine
+@@1587
+Laundry baskets (“Dirty towels”, “Stained sheets”, “Ready to wash”)
+@@1588
+Label tips:
+@@1589
+ use laminated or waterproof labels in kitchens, bathrooms and outdoors. Add icons or color codes if your team speaks different languages (free icons at 
+@@1590
+flaticon.com
+@@1591
+). Keep font, size and wording consistent, and a simple laminating machine or label maker for renewals. 
+@@1592
+Keep it simple:
+@@1593
+ “Suite 1 shelf”, “Refills only”, “Not for guests”. One language plus icons, never a wall of text.
+@@1594
+Little details that save big headaches
+@@1595
+Once your operations are running, it’s the tiny things no one thinks to document that cause the biggest slowdowns. {1}These extra details save you hours of messages and fire-fighting:{2}
+@@1596
+Label the washing machine
+@@1597
+We put a ‘WASH’ label on the right program, so guests don’t pick a 3-hour cycle. It saves energy, and many people don’t know how to use one.
+@@1598
+Label how things work
+@@1599
+The coffee machine, the heater… especially in shared apartments.
+@@1600
+Photograph everything
+@@1601
+Electricity box, boiler, heating controls, Wi-Fi router. Store the photos in your manual for when you need to explain something.
+@@1602
+One extra set of protectors
+@@1603
+Spare pillow protectors and mattress covers per property, so a bed is never left unprotected.
+@@1604
+Stainless steel pans
+@@1605
+They last longer and look clean for longer.
+@@1606
+Stock up on small spoons
+@@1607
+They always go missing. Always.
+@@1608
+Visual trash instructions
+@@1609
+Labeled photos or icons that show guests exactly where and how to separate their waste.
+@@1610
+{1}“Something isn’t working”? Ask for a quick video first.{2} Or jump on a video call before sending maintenance. Often it isn’t broken, it’s just being used the wrong way. This one step saves time, unnecessary callouts and helps you diagnose faster.
+@@1611
+The shared spaces special
+@@1612
+Essential things you need to know
+@@1613
+Shared apartments, where guests have private rooms but share the kitchen, bathroom or living room, can be very profitable. {1}But they come with their own rules, systems and friction points.{2} Here’s how to manage them smoothly:
+@@1614
+Clear boundaries from day one
+@@1615
+Add clear house rules to your listing.
+@@1616
+Private vs. shared, in writing
+@@1617
+Be specific in your listing and messages. Add photos, floor plans and the rules for shared areas (quiet hours, no personal items in common spaces).
+@@1618
+A lock on every bedroom door
+@@1619
+Lockable from inside and outside. Non-negotiable for safety, privacy and trust.
+@@1620
+Dedicated, labeled spaces
+@@1621
+Label shelves, drawers and even fridge sections in shared kitchens and bathrooms.
+@@1622
+Clean more often
+@@1623
+Even daily in high-turnover properties. Cleanliness is one of the top review killers in shared setups.
+@@1624
+Keep extras
+@@1625
+Towels, toilet paper, small utensils and mugs, so there’s enough for everyone.
+@@1626
+Resolve conflicts fast
+@@1627
+If one guest complains about another, respond fast, stay neutral and offer a solution, like changing rooms or reinforcing the rules. The quick replies in {1}Lesson 9{2} have templates for this.
+@@1628
+Pro tip:
+@@1629
+ put a friendly house rules sign (or a mini welcome booklet) in the living room or kitchen. It’s a subtle way to guide behavior and avoid awkward situations.
+@@1630
+The 3-step decluttering process for shared spaces
+@@1631
+Over time, shared kitchens and bathrooms fill up with things previous guests left behind. That means mess, confusion and even hygiene issues. {1}Reset and declutter at least every 3 months{2}, without removing items that are still in use. First, pick your method:
+@@1632
+Method A
+@@1633
+The “lost &amp; found” system
+@@1634
+Choose one spot for leftover items, like a basket in the bathroom or a freezer drawer. Anything placed there is removed after a set deadline. Great for shampoo bottles, freezer food and forgotten belongings.
+@@1635
+Method B
+@@1636
+The label system
+@@1637
+Leave tape and a marker near shared storage (fridge door, pantry). Guests label their items with their name. Anything unlabeled gets cleared out.
+@@1638
+Key areas:
+@@1639
+Shower bottles
+@@1640
+Freezer &amp; fridge door
+@@1641
+Unlabeled drawers &amp; shelves
+@@1642
+Random items in common areas
+@@1643
+Start with a deep clean
+@@1644
+Clean the kitchen, bathroom and hallway. It’s the best moment to spot forgotten items, expired food and things taking up space. Then move them to your removal spot, or start labeling.
+@@1645
+Communicate clearly and kindly
+@@1646
+Even if you spoke to someone in person, send a message with the method and a short deadline. Send a reminder the day before you remove anything.
+@@1647
+Set a clear removal date
+@@1648
+Give people 48–72 hours to claim their things, then remove what’s left. Optional: let remaining items be “adopted” before they’re thrown away.
+@@1649
+You can send these as a WhatsApp, Airbnb or group message after the deep clean:
+@@1650
+Message template: declutter announcement
+@@1651
+Edit the parts in [brackets], then copy. Your changes are saved on this device.
+@@1652
+Message template: final reminder
+@@1653
+Routine property inspections
+@@1654
+(every 6 months)
+@@1655
+No matter how clean or well-managed your property is, wear and tear is inevitable. That’s why doing a full fix-up{1} every 6 months{2} is key to maintaining high standards, avoiding complaints, and keeping your property looking fresh and professional. This can be done by you or a manager.
+@@1656
+This doesn’t have to be a massive renovation; think of it as a deep maintenance check-up.
+@@1657
+Maintenance inspection
+@@1658
+Fill any holes or scratches in the wall using wall putty or filler
+@@1659
+Repaint scuffed or stained areas for a clean finish
+@@1660
+Check for any signs of mold, leaks, or humidity
+@@1661
+Tighten loose screws (shelves, handles, fixtures)
+@@1662
+Replace missing or broken items (remotes, kitchenware, lightbulbs)
+@@1663
+Deep clean or replace air filters and check AC units
+@@1664
+Cleaning inspection
+@@1665
+Even with a great cleaner, some things can get overlooked over time. Do a surprise visit or ask your manager for a video call walk-through. Check these often-missed details:
+@@1666
+Inside the trash bin (clean or smelly?)
+@@1667
+Inside the microwave (clean?)
+@@1668
+Inside the freezer (accumulated items or ice?)
+@@1669
+Light switches (dirty or not working?)
+@@1670
+Power plugs (clean?)
+@@1671
+Behind doors, under beds, and top shelves
+@@1672
+Start a new inspection
+@@1673
+Download as PDF to print
+@@1674
+This 6-month fix-up routine helps you:

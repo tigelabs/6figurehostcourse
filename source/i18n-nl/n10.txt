@@ -1,0 +1,166 @@
+@@1091
+{1}Waarom het werkt:{2} begint met het uitzicht dat gasten willen en is eerlijk dat het een gedeelde villa is. Gasten zien zichzelf al in bed liggen met uitzicht op het zwembad.
+@@1092
+Bekijk advertentie ↗
+@@1093
+{1}Waarom het werkt:{2} een piepkleine kamer zonder ramen, en toch een van onze meest gevraagde kamers. Mensen verblijven graag in een groot gedeeld appartement met balkons, ook met een kleiner budget.
+@@1094
+{1}Waarom het werkt:{2} het zet het beste kenmerk van het appartement in de schijnwerpers: het enorme privédakterras. Eén woord in hoofdletters geeft extra nadruk, en de locatie doet de rest.
+@@1095
+De gegevens van je advertentie (één keer invullen, gebruikt in beide prompts)
+@@1096
+Type woning
+@@1097
+Locatie
+@@1098
+Opvallende kenmerken
+@@1099
+Voor wie het ideaal is
+@@1100
+Unieke sfeer of stijl
+@@1101
+AI-prompt: bedenk een titel waarbij mensen stoppen met scrollen
+@@1102
+Gedraag je als expert in marketing voor verhuurwoningen. Help me een pakkende titel van maximaal 50 tekens te schrijven voor mijn verhuuradvertentie.
+Dit zijn de gegevens:
+- Type woning: {1}{2}
+- Locatie: {3}{4}
+- 1–2 opvallende kenmerken: {5}{6}
+- Doelgroep: {7}{8}
+
+Geef me 5 titelopties die de aandacht trekken en geoptimaliseerd zijn voor boekingen.
+@@1103
+Jouw titel
+@@1104
+2. Je beschrijving = je verhaal
+@@1105
+Zodra ze klikken, moet je beschrijving de gast meenemen in de ervaring van een verblijf bij jou. Zie het als een gesprek, niet als een brochure.
+@@1106
+Deel het op in korte stukjes, zodat het makkelijk te scannen is:
+@@1107
+{1}a. De ruimte:{2} beschrijf de sfeer, de indeling en de hoogtepunten. Help ze zich voor te stellen dat ze er zijn.
+@@1108
+{1}b. De ervaring:{2} wat maakt jouw plek bijzonder? Wat kunnen ze verwachten? Is het rustig? Levendig? Ingericht om productief te werken? Stem dit af op je doelgroep.
+@@1109
+{1}c. De locatie:{2} vertel wat er in de buurt is (cafés, bezienswaardigheden, alles op loopafstand), zodat het voelt alsof ze er al zijn.
+@@1110
+{1}d. Basis:{2} noem alles wat opvalt: snelle wifi, gratis parkeren, gefilterd water, dagelijkse schoonmaak, volledig uitgeruste keuken, enz.
+@@1111
+{1}e. Extra tip:{2} gebruik de opmaak in je voordeel. Korte zinnen, opsommingstekens en witregels laten je advertentie opvallen.
+@@1112
+Een goede titel zorgt voor de klik. Een goede beschrijving sluit de deal.
+@@1113
+AI-prompt: schrijf een advertentiebeschrijving die converteert
+@@1114
+Gedraag je als professionele copywriter voor verhuurwoningen. Help me een duidelijke, boeiende en overtuigende advertentiebeschrijving te schrijven die boekingen oplevert.
+Dit zijn de gegevens:
+- Type woning: {1}{2}
+- Locatie: {3}{4}
+- Belangrijkste hoogtepunten: {5}{6}
+- Voor wie het ideaal is: {7}{8}
+- Unieke sfeer of stijl: {9}{10}
+Ik wil dat de tekst duidelijk en makkelijk te lezen is, en laat zien wat het verblijf bijzonder maakt. Gebruik waar nodig korte alinea’s of opsommingstekens. Schrijf alsof je iemand wilt overtuigen om nu meteen te boeken.
+@@1115
+Invultemplate voor je advertentiebeschrijving
+@@1116
+Template voor je advertentiebeschrijving
+@@1117
+Herstellen
+@@1118
+*Is je advertentie privé, haal dan alle informatie over gedeelde ruimtes weg. Vervang de delen tussen [haakjes] en kopieer daarna elk stuk naar Airbnb. Wordt op dit apparaat opgeslagen.
+@@1119
+Maak goede foto’s zonder een pro in te huren
+@@1120
+Je hoeft geen honderden euro’s uit te geven aan een professionele fotograaf om een advertentie te maken die converteert. Met de juiste aanpak kun je zelf prachtige foto’s maken, zelfs met een smartphone. Het komt erop aan dat je begrijpt wat gasten willen zien en hoe je je ruimte zo goed mogelijk laat zien.
+@@1121
+1. Maak je ruimte schoon en richt hem in voor de foto
+@@1122
+Zorg voordat je foto’s maakt dat alles brandschoon en mooi opgemaakt is. Doe de gordijnen open, schud de kussens op en verstop snoeren, zichtbare prullenbakken en afstandsbedieningen. De foto’s moeten de plek laten zien zoals hij echt is, maar je mag spullen weghalen die het rommelig maken. Zie het als het klaarzetten van een decor: je wilt dat het gastvrij, rustig en uitnodigend oogt.
+@@1123
+2. Licht is alles
+@@1124
+Daglicht is je beste vriend. Fotografeer overdag als je ruimte het lichtst is, het liefst ’s ochtends of laat in de middag. Doe de plafondlampen uit om gele tinten te voorkomen. Open de ramen en laat het daglicht binnen.
+@@1125
+3. Gebruik een goede telefoon of camera
+@@1126
+De meeste moderne smartphones zijn ruim voldoende. Zorg wel dat je lens schoon is en dat de resolutie op hoge kwaliteit staat. Gebruik geen filters of zware bewerking. Gasten willen de echte ruimte zien.
+@@1127
+4. Fotografeer horizontaal
+@@1128
+Maak foto’s altijd liggend (horizontaal), niet staand. Airbnb toont de foto’s van je advertentie liggend, dus in dit formaat zie je elke ruimte beter.
+@@1129
+5. Leg brede hoeken vast
+@@1130
+Ga in hoeken of deuropeningen staan om zoveel mogelijk van de kamer in beeld te krijgen. Gebruik een groothoekstand als die er is, maar vervorm de kamer niet. Gasten willen een echt beeld van de ruimte, geen fisheye-effect. Op een iPhone Pro werkt de 0,5-lens het best.
+@@1131
+6. Laat elke belangrijke ruimte zien
+@@1132
+Laat alles zien: entree, kasten, apparaten, voorzieningen, parkeerplek, balkon, uitzicht. Als het waarde toevoegt, fotografeer het dan. Een gebrek aan transparantie leidt tot slechte beoordelingen.
+@@1133
+7. De volgorde van je foto’s is belangrijk (cruciaal voor boekingen).
+@@1134
+{1}Je eerste foto is je goudmijn.{2} Die verkoopt je advertentie, en die is belangrijker dan al het andere: hij zorgt voor de kliks, de boekingen en het inkomen. Gebruik je meest opvallende foto als omslagfoto. Slaapkamers werken meestal het best. Laat daarna 4 belangrijke foto’s van verschillende ruimtes volgen die de beste kenmerken van je woning laten zien. Airbnb toont maar de eerste 5 foto’s voordat gasten op “Alle foto’s weergeven” moeten klikken, dus hier maak je een sterke eerste indruk en trek je hun aandacht.
+@@1135
+Bekijk onze advertentie als voorbeeld
+@@1136
+De eerste vijf foto’s zijn alles wat een gast ziet voordat hij klikt
+@@1137
+Voorbeeld uit de praktijk
+@@1138
+Soms maken de kleinste details het grootste verschil. In een van onze appartementen in Barcelona hadden we twee identieke kamers: even groot, dezelfde indeling, alleen gespiegeld. Toch was de ene altijd volgeboekt, terwijl de andere moeilijk boekingen kreeg tenzij we de prijs verlaagden.
+@@1139
+Het enige verschil? Het bureau.
+@@1140
+Het bureau in de populaire kamer liet de ruimte groter en uitnodigender lijken. Dat kleine verschil in design zorgde voor veel betere resultaten en meer winst. We vervingen het minder mooie bureau, en ineens waren beide kamers volgeboekt tegen de volle prijs.
+@@1141
+De les: als je boekingen tegenvallen, kijk dan kritisch naar je advertentie. Kleine designkeuzes kunnen je geld kosten.
+@@1142
+Altijd volgeboekt
+@@1143
+Kreeg moeilijk boekingen
+@@1144
+8. Laat de ervaring zien
+@@1145
+Laat niet alleen kamers zien, maar leg ook kleine momenten vast, zoals een kopje op de salontafel, knusse dekens of boeken op een nachtkastje. Zo zien gasten zichzelf er al verblijven.
+@@1146
+Foto’s zijn het belangrijkste deel van je advertentie. Hier verkoop je je ruimte nog voordat gasten de beschrijving lezen. Een goede advertentie met slechte foto’s krijgt geen boekingen. Maar zelfs een eenvoudige ruimte met mooie, duidelijke en goed belichte foto’s kan ongelooflijk goed presteren.
+@@1147
+Is fotografie niet je sterkste kant? Vraag dan een vriend met een goed oog of huur iemand in de buurt in. Het is een kleine investering die veel kan opleveren.
+@@1148
+Sectie 5
+@@1149
+Belangrijke advertentiedetails die je beschermen
+@@1150
+Deze sectie kan je hoofdpijn, slechte beoordelingen en verzoeken om terugbetaling besparen.
+@@1151
+Je advertentiebeschrijving is niet alleen een verkooppraatje. Het is ook je juridische schild. Alles wat je duidelijk op papier zet, kan je beschermen tegen klachten van gasten, verzoeken om terugbetaling en slechte beoordelingen.
+@@1152
+Houd dus niets achter. Wees eerlijk, wees gedetailleerd en vermeld alles wat mogelijk een probleem kan worden.
+@@1153
+Dit moet erin staan: {1}Huisregels: {2} wees duidelijk en specifiek. Niet roken? Rusttijden? Bezoek toegestaan? Extra kosten voor een late check-in? Schrijf het allemaal uit. Ga er niet van uit dat mensen het “gewoon weten”.
+@@1154
+Bijzonderheden:
+@@1155
+Kan er geluid komen van bars in de buurt? Zijn er trappen, gedeelde ruimtes of huisdieren op het terrein? Vermeld het allemaal.
+@@1156
+Gedeelde ruimtes:
+@@1157
+Als je advertentie niet volledig privé is, moet je dat duidelijk en meer dan één keer vermelden. Ook als het al in de advertentie staat, herhaal het dan in de beschrijving. Zet het in HOOFDLETTERS. Maak het overduidelijk. Sommige gasten “missen het” toch en zeggen dat ze het niet wisten. Als het duidelijk op papier staat, krijg je van Airbnb gelijk.
+@@1158
+Veiligheid &amp; grenzen
+@@1159
+Voeg een zin toe zoals: "Bij respectloos, agressief of beschonken gedrag behoudt de host zich het recht voor de reservering zonder terugbetaling te annuleren, om de woning te beschermen en een veilige omgeving te behouden.”
+@@1160
+Misschien voelt het alsof je overdreven voorzichtig bent, maar geloof ons: dat ben je niet. Je beschermt je rust en je bedrijf.
+@@1161
+Hoe transparanter je bent, hoe minder problemen je krijgt. Neem de tijd om alles op te schrijven wat belangrijk is.
+@@1162
+Kopieer en plak onze huisregels
+@@1163
+Gasten gaan akkoord met je huisregels voordat ze boeken, dus ze beschermen je als host. Maar Airbnb heeft hier nieuwe regels voor. Voor boekingen vanaf 20 november 2026 moeten je huisregels in het onderdeel huisregels van je advertentie staan voordat gasten boeken. Je kunt later geen nieuwe regels toevoegen via een bericht, met bordjes in de woning of persoonlijk.
+@@1164
+Je regels moeten ook redelijk zijn. Dat betekent {1}geen boetes of straffen, geen extra kosten{2} voor dingen die bij je advertentie horen, en {3}geen klusjes die een schoonmaker normaal doet{4}, zoals afwassen, het bed afhalen of het afval het gebouw uit brengen. Kleine verzoeken, zoals gebruikte vaat in de gootsteen zetten, mogen nog wel. Houd je regels kort en duidelijk: dan lezen gasten ze ook echt.
+@@1165
+Huisregels: privéwoning
+@@1166
+Pas de delen tussen [haakjes] aan en kopieer de tekst naar het onderdeel huisregels van je advertentie. Wordt op dit apparaat opgeslagen.

@@ -1,0 +1,441 @@
+@@a0
+Add your own task
+@@a1
+Example: Antwerp, Belgium
+@@a2
+Example: Short-term rentals allowed? License needed? Minimum stay? Tourist tax? Links to official sources…
+@@a3
+Example: Maria
+@@a4
+Example: on Idealista
+@@a5
+Example: professionals and digital nomads
+@@a6
+Example: mid-term
+@@a7
+Example: €1,500
+@@a8
+Example: Daniel
+@@a9
+Example: +34 600 000 000
+@@a10
+e.g. villa, apartment, loft
+@@a11
+city, neighborhood, what it’s near
+@@a12
+e.g. pool, rooftop, fast Wi-Fi, view
+@@a13
+e.g. couples, digital nomads, families
+@@a14
+e.g. minimal, tropical, peaceful
+@@a15
+e.g. Boho Loft with Rooftop Views in Central Barcelona
+@@a16
+Example: Coffee grinder
+@@a17
+Example: 30
+@@a18
+e.g. Casa Mewali
+@@a19
+Insert full address
+@@a20
+Insert details
+@@a21
+Step-by-step access instructions
+@@a22
+e.g. After 3:00 PM
+@@a23
+e.g. Before 11:00 AM
+@@a24
+Insert name + number
+@@a25
+Link to gallery
+@@a26
+Optional link to image or sketch
+@@a27
+Color palette, style guide, decor rules
+@@a28
+Link to your cleaning checklist
+@@a29
+e.g. 3 days
+@@a30
+e.g. replaced if left in laundry basket
+@@a31
+e.g. Toilet paper, soap, trash bags, etc.
+@@a32
+e.g. Under kitchen sink or storage room
+@@a33
+Where to find them
+@@a34
+Name of responsible person or role
+@@a35
+e.g. €50/month
+@@a36
+Name + number
+@@a37
+Process or group chat instructions
+@@a38
+Links to PDFs or photos of important manuals
+@@a39
+e.g. spare light bulbs, batteries – location
+@@a40
+Copy from your Airbnb listing or a simplified version
+@@a41
+Fire, water leak, guest locked out, etc.
+@@a42
+€ amount
+@@a43
+Invite link
+@@a44
+name and phone number
+@@a45
+Drinking water only
+Recycling
+General waste
+Room 1
+Room 2
+Room 3
+Spare towels
+Toilet paper stock
+Cleaning products
+Lost & found
+Guest towels: not for the beach
+WASH: 30° quick program
+@@a46
+Example: In Lesson 5, I didn’t understand…
+@@a47
+Guide progress
+@@a48
+Guide
+@@a49
+Save and restore your data
+@@a50
+Instagram @6figurehost
+@@a51
+Facebook community
+@@a52
+Do you already have a property?
+@@a53
+Is the property furnished?
+@@a54
+What will you list?
+@@a55
+Listing description template
+@@a56
+House rules: private property
+@@a57
+House rules: shared property
+@@a58
+Is the property private or shared with other guests?
+@@a59
+Amount of people in the property
+@@a60
+Asks if it is possible to check in at night
+@@a61
+Check-in at night, if it is past 00h
+@@a62
+Can I get a discount if I stay for a month? (if you don’t offer one)
+@@a63
+Can I get a discount if I stay for a month? (if you do)
+@@a64
+Can I visit the property?
+@@a65
+Is there car park?
+@@a66
+Someone books for another person
+@@a67
+Can I cancel and get a full refund? (strict cancellation policy, recommended)
+@@a68
+Luggage storage before check-in
+@@a69
+Exception to the cancellation policy (full refund within 12h after booking)
+@@a70
+Wants to change dates within 14 days of check-in
+@@a71
+Transfer from the airport
+@@a72
+How to get to the villa
+@@a73
+Cancellation, wants money back
+@@a74
+Luggage storage after checkout: yes (shared property)
+@@a75
+Luggage storage after checkout: yes (private property)
+@@a76
+Luggage storage after checkout: not possible
+@@a77
+Room is locked past checkout
+@@a78
+Not checked out after 11am
+@@a79
+I thought it was private but it’s shared
+@@a80
+Lost my room key
+@@a81
+Noise complaint (in general), shared property
+@@a82
+Complaint: loud noise (specific guest), shared property
+@@a83
+Guests leaving clutter, shared property
+@@a84
+Reply to complaint, shared property
+@@a85
+Help, there is a spider in my room
+@@a86
+Message template: declutter announcement
+@@a87
+Message template: final reminder
+@@a88
+1. Welcome message
+@@a89
+2. Check-in instructions
+@@a90
+3. Ask if everything is okay
+@@a91
+4. Check-out instructions
+@@a92
+5. Leave a review
+@@a93
+I have this
+@@a94
+Quantity
+@@a95
+Actual price per item
+@@a96
+I don’t need this
+@@a97
+Business model
+@@a98
+Worst-case occupancy rate in percent
+@@a99
+Average occupancy rate in percent
+@@a100
+Best-case occupancy rate in percent
+@@a101
+Line chart: cumulative profit rising and remaining initial capital falling until break even, at the average occupancy rate
+@@a102
+Your labels, one per line
+@@a103
+Image viewer
+@@a104
+Close
+@@a105
+Minimal concrete villa with a sunbed beside a pool
+@@a106
+Farah at the airport with a backpack and a suitcase
+@@a107
+The beach in Barcelona at sunset
+@@a108
+Daniel with a travel bag, taking a mirror selfie
+@@a109
+The tiny room Daniel lived in while renting out the bigger rooms
+@@a110
+Farah and Daniel when they met
+@@a111
+The room Farah rented from Daniel
+@@a112
+A bed made of wooden pallets in Farah’s first apartment
+@@a113
+Farah hanging a beach blanket in front of the couch
+@@a114
+Farah on her laptop in the empty apartment
+@@a115
+Farah scrubbing a mattress in the kitchen
+@@a116
+Daniel wearing headphones, looking at the camera
+@@a117
+Farah holding a mop and wearing rubber gloves
+@@a118
+A vacuum cleaner in the middle of an apartment during a turnover
+@@a119
+Farah and Daniel on a rooftop terrace in Barcelona
+@@a120
+Farah working on her phone and laptop
+@@a121
+Farah signing a contract
+@@a122
+A rooftop terrace overlooking Barcelona at sunset
+@@a123
+The pool of our Bali villa during construction
+@@a124
+Farah and Daniel holding a cat at the villa in Bali
+@@a125
+The pool and outdoor shower of the villa in Bali
+@@a126
+Farah and Daniel in front of the Sagrada Familia
+@@a127
+Farah and Daniel taking a mirror selfie
+@@a128
+Farah and Daniel toasting by the sea at sunset
+@@a129
+An open laptop on a bed showing the 6-Figure Host Course
+@@a130
+Farah and Daniel on a balcony in Barcelona
+@@a131
+Farah and Daniel at the beach at dusk
+@@a132
+Booking calendar with five listings, each booked by one guest for the whole month
+@@a133
+Booking calendar with four listings, each filled with many short bookings from different guests
+@@a134
+Before: a bedroom with yellow walls, a red rug and mismatched furniture
+@@a135
+After: the same bedroom painted white, with wooden beds, linen bedding and a wardrobe
+@@a136
+Before: the huge open living room with yellow walls; the right side, where we later added two bedrooms, is circled
+@@a137
+After: the left side of the living room, painted white, with the dining table and sofa
+@@a138
+After: the right side of the living room with the new white wall and the two doors of the new bedrooms circled
+@@a139
+One of the new bedrooms with the door open; an arrow points to the small inner window to the living room
+@@a140
+The first new bedroom: a double bed, a desk and an inner window
+@@a141
+The second new bedroom: a double bed and a small table
+@@a142
+Before: the old, dark laundry area with a washing machine and clutter
+@@a143
+After: the new shower room with a glass shower and patterned floor tiles
+@@a144
+Our smallest bedroom: a single bed, a bamboo ladder and a portable air conditioner, no window
+@@a145
+The smallest bedroom from the other side, with a desk, lamp and laundry basket
+@@a146
+Before: the big open living room with the kitchen, a dining table and a lot of empty floor space
+@@a147
+After: the kitchen and dining area, now a bit smaller, next to the new bedroom
+@@a148
+After: the new bedroom with a double bed, a desk and its own balcony, seen from the kitchen
+@@a149
+The AirROI Airbnb Calculator page, with a field for the address and a bedroom selector
+@@a150
+A home left dirty and neglected: regular tenants don’t always treat it well, and the owner only finds out when they move out.
+@@a151
+Late or missed rent: the risk of chasing a tenant for the rent every month. No landlord wants that.
+@@a152
+Damage and deposit fights: who pays for what? Move-out often ends in an argument over the deposit.
+@@a153
+Neighbor complaints: noise, parties, people coming and going. And the landlord is the one who gets the angry call.
+@@a154
+Guest review from Iveta, Australia, five stars: Absolutely amazing! The way the place is so clean and customer oriented and detailed is unbelievable. You can see that hosts put their heart in it and it’s great for people who value quality. Absolutely recommend!
+@@a155
+Casa Mewali: the shared pool with the suites around it, behind arched black windows
+@@a156
+A Casa Mewali suite with a wooden bed and doors that open straight onto the pool
+@@a157
+Removing the old laminate floor in a bedroom with a balcony
+@@a158
+Before: the bathroom with an old bathtub
+@@a159
+After: the same bathroom with a walk-in shower and wooden-look tiles
+@@a160
+Cover of the landlord information brochure, titled Rental arbitrage: a reliable way to rent your property without the usual tenant headaches, above a photo of a bedroom
+@@a161
+A bright bedroom with a double bed, a desk, a portable air conditioner, an open clothes rack and a felt cloud board on the wall
+@@a162
+The bed lifted open, showing a large storage space underneath
+@@a163
+The desk with a lamp and welcome page next to a simple open clothes rack with wooden hangers and a basket
+@@a164
+The inside of the bedroom door with a chain lock, next to a hook for the room key and a wall holder for the air conditioning remote with a small label
+@@a165
+Casa Mewali before and after: the same pool and walls, first plain white with grass, then with warm paint, gravel, curtains and clay pots
+@@a166
+Our listing titled Pool view suite in beautiful shared villa | 2
+@@a167
+Our listing titled Cosy bedroom in the best location in center
+@@a168
+Our listing titled BIG private sunny rooftop in top location
+@@a169
+Our Airbnb listing “Pool view suite in beautiful shared villa”: one large bedroom cover photo and four smaller photos of the bedroom, living room and pool, Guest favorite with 4.97 from 65 reviews
+@@a170
+Airbnb listing of the room with the desk that made it look bigger
+@@a171
+Airbnb listing of the mirrored room with the less appealing desk
+@@a172
+Listing section The space mentioning the shared pool and kitchen
+@@a173
+Welcome message reminding the guest that the villa is shared
+@@a174
+Listing section About this place stating the rest of the villa is shared
+@@a175
+Message to guests noting construction nearby and that the price includes a discount
+@@a176
+Listing section Other things to note mentioning construction noise and the discount
+@@a177
+Property manager agreement
+@@a178
+Cleaning services agreement
+@@a179
+Handyman agreement
+@@a180
+Pool and garden maintenance agreement
+@@a181
+Smart lock with keypad on a door
+@@a182
+Traditional key lockbox with combination dials on a railing
+@@a183
+Smart doorbell next to a front door
+@@a184
+Keys being handed over in person
+@@a185
+Example of a step-by-step check-in guide with numbered photos: the address, the door code, the stairs, the door and the bedroom
+@@a186
+Airbnb scheduled message setting with the toggle Send for last minute bookings and short stays switched on
+@@a187
+Airbnb screen Set your seasonal rates and availability with a button to create a rule-set
+@@a188
+prep
+@@a189
+find
+@@a190
+prop
+@@a191
+list
+@@a192
+team
+@@a193
+sys
+@@a194
+launch
+@@a195
+scale
+@@a196
+City, Country
+@@a197
+e.g. 2-bedroom apartment, private room, villa
+@@a198
+neighborhood or area
+@@a199
+short-term, mid-term or both
+@@a200
+Landlord's name
+@@a201
+where you found it
+@@a202
+Your name
+@@a203
+Your phone number
+@@a204
+type of guests
+@@a205
+type of stays
+@@a206
+amount
+@@a207
+city/neighborhood
+@@a208
+e.g. pool, rooftop, walkable, design, view
+@@a209
+e.g. modern loft, cozy villa
+@@a210
+e.g. natural light, fast Wi-Fi, pool, kitchen, balcony
+@@a211
+e.g. couples, remote workers, families
+@@a212
+e.g. minimal, tropical, stylish, peaceful
+@@a213
+DESTINATION
+@@a214
+CURRENCY

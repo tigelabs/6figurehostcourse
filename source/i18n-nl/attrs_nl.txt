@@ -1,0 +1,423 @@
+@@a0
+Voeg je eigen taak toe
+@@a1
+Bijvoorbeeld: Antwerpen, België
+@@a2
+Bijvoorbeeld: Kortetermijnverhuur toegestaan? Vergunning nodig? Minimale verblijfsduur? Toeristenbelasting? Links naar officiële bronnen…
+@@a3
+Bijvoorbeeld: Maria
+@@a4
+Bijvoorbeeld: op Idealista
+@@a5
+Bijvoorbeeld: professionals en digital nomads
+@@a6
+Bijvoorbeeld: middellange termijn
+@@a7
+Bijvoorbeeld: €1.500
+@@a8
+Bijvoorbeeld: Daniel
+@@a9
+Bijvoorbeeld: +34 600 000 000
+@@a10
+bijv. villa, appartement, loft
+@@a11
+stad, buurt, waar het vlakbij ligt
+@@a12
+bijv. zwembad, dakterras, snelle wifi, uitzicht
+@@a13
+bijv. stellen, digital nomads, gezinnen
+@@a14
+bijv. minimalistisch, tropisch, rustig
+@@a15
+bijv. Boho-loft met dakterras en uitzicht, centrum Barcelona
+@@a16
+Bijvoorbeeld: koffiemolen
+@@a17
+Bijvoorbeeld: 30
+@@a18
+bijv. Casa Mewali
+@@a19
+Vul het volledige adres in
+@@a20
+Vul de gegevens in
+@@a21
+Stapsgewijze toegangsinstructies
+@@a22
+bijv. na 15:00 uur
+@@a23
+bijv. voor 11:00 uur
+@@a24
+Vul naam + nummer in
+@@a25
+Link naar de fotogalerij
+@@a26
+Optionele link naar een afbeelding of schets
+@@a27
+Kleurenpalet, stijlgids, regels voor decoratie
+@@a28
+Link naar je schoonmaakchecklist
+@@a29
+bijv. 3 dagen
+@@a30
+bijv. vervangen als ze in de wasmand liggen
+@@a31
+bijv. wc-papier, zeep, vuilniszakken, enz.
+@@a32
+bijv. onder het aanrecht of in de berging
+@@a33
+Waar je ze vindt
+@@a34
+Naam van de verantwoordelijke of rol
+@@a35
+bijv. €50/maand
+@@a36
+Naam + nummer
+@@a37
+Werkwijze of instructies voor de groepschat
+@@a38
+Links naar pdf’s of foto’s van belangrijke handleidingen
+@@a39
+bijv. reservelampen, batterijen – plek
+@@a40
+Kopieer uit je Airbnb-advertentie of een vereenvoudigde versie
+@@a41
+Brand, waterlekkage, gast buitengesloten, enz.
+@@a42
+Bedrag in €
+@@a43
+Uitnodigingslink
+@@a44
+naam en telefoonnummer
+@@a45
+Alleen drinkwater
+Recycling
+Restafval
+Kamer 1
+Kamer 2
+Kamer 3
+Reservehanddoeken
+Voorraad wc-papier
+Schoonmaakmiddelen
+Gevonden voorwerpen
+Handdoeken voor gasten: niet voor het strand
+WASSEN: snelprogramma 30°
+@@a46
+Bijvoorbeeld: in Les 5 begreep ik niet…
+@@a47
+Voortgang van de cursus
+@@a48
+Cursus
+@@a49
+Je gegevens opslaan en herstellen
+@@a51
+Facebook-community
+@@a52
+Heb je al een woning?
+@@a53
+Is de woning gemeubileerd?
+@@a54
+Wat ga je aanbieden?
+@@a55
+Template voor je advertentiebeschrijving
+@@a56
+Huisregels: privéwoning
+@@a57
+Huisregels: gedeelde woning
+@@a58
+Is de woning privé of gedeeld met andere gasten?
+@@a59
+Aantal mensen in de woning
+@@a60
+Vraagt of inchecken ’s nachts mogelijk is
+@@a61
+’s Nachts inchecken, na 00:00 uur
+@@a62
+Kan ik korting krijgen als ik een maand blijf? (als je die niet aanbiedt)
+@@a63
+Kan ik korting krijgen als ik een maand blijf? (als je die wel aanbiedt)
+@@a64
+Kan ik de woning komen bekijken?
+@@a65
+Is er een parkeerplaats?
+@@a66
+Iemand boekt voor een ander
+@@a67
+Kan ik annuleren en mijn geld volledig terugkrijgen? (streng annuleringsbeleid, aanbevolen)
+@@a68
+Bagage opslaan voor de check-in
+@@a69
+Uitzondering op het annuleringsbeleid (volledige terugbetaling binnen 12 uur na de boeking)
+@@a70
+Wil de data wijzigen binnen 14 dagen voor de check-in
+@@a71
+Vervoer vanaf het vliegveld
+@@a72
+Hoe kom je bij de villa
+@@a73
+Annulering, wil geld terug
+@@a74
+Bagage opslaan na de check-out: ja (gedeelde woning)
+@@a75
+Bagage opslaan na de check-out: ja (privéwoning)
+@@a76
+Bagage opslaan na de check-out: niet mogelijk
+@@a77
+Kamer na de check-outtijd nog op slot
+@@a78
+Na 11:00 uur nog niet uitgecheckt
+@@a79
+Ik dacht dat het privé was, maar het is gedeeld
+@@a80
+Kamersleutel kwijt
+@@a81
+Klacht over geluid (algemeen), gedeelde woning
+@@a82
+Klacht: veel lawaai (specifieke gast), gedeelde woning
+@@a83
+Gasten laten rommel achter, gedeelde woning
+@@a84
+Reactie op een klacht, gedeelde woning
+@@a85
+Help, er zit een spin in mijn kamer
+@@a86
+Berichttemplate: aankondiging opruimronde
+@@a87
+Berichttemplate: laatste herinnering
+@@a88
+1. Welkomstbericht
+@@a89
+2. Instructies voor de check-in
+@@a90
+3. Vraag of alles goed is
+@@a91
+4. Instructies voor de check-out
+@@a92
+5. Laat een beoordeling achter
+@@a93
+Dit heb ik
+@@a94
+Aantal
+@@a95
+Werkelijke prijs per stuk
+@@a96
+Dit heb ik niet nodig
+@@a97
+Bedrijfsmodel
+@@a98
+Bezettingsgraad in het slechtste geval, in procenten
+@@a99
+Gemiddelde bezettingsgraad in procenten
+@@a100
+Bezettingsgraad in het beste geval, in procenten
+@@a101
+Lijngrafiek: de opgebouwde winst stijgt en het resterende startkapitaal daalt tot het break-evenpunt, bij de gemiddelde bezettingsgraad
+@@a102
+Je labels, één per regel
+@@a103
+Afbeeldingsviewer
+@@a104
+Sluiten
+@@a105
+Minimalistische betonnen villa met een ligbed naast een zwembad
+@@a106
+Farah op het vliegveld met een rugzak en een koffer
+@@a107
+Het strand van Barcelona bij zonsondergang
+@@a108
+Daniel met een reistas, die een spiegelselfie maakt
+@@a109
+Het piepkleine kamertje waar Daniel woonde terwijl hij de grotere kamers verhuurde
+@@a110
+Farah en Daniel toen ze elkaar leerden kennen
+@@a111
+De kamer die Farah van Daniel huurde
+@@a112
+Een bed van houten pallets in Farahs eerste appartement
+@@a113
+Farah die een strandlaken voor de bank ophangt
+@@a114
+Farah achter haar laptop in het lege appartement
+@@a115
+Farah die een matras schrobt in de keuken
+@@a116
+Daniel met een koptelefoon, kijkend in de camera
+@@a117
+Farah met een dweil en rubberen handschoenen
+@@a118
+Een stofzuiger midden in een appartement tijdens een wissel
+@@a119
+Farah en Daniel op een dakterras in Barcelona
+@@a120
+Farah aan het werk op haar telefoon en laptop
+@@a121
+Farah die een contract ondertekent
+@@a122
+Een dakterras met uitzicht over Barcelona bij zonsondergang
+@@a123
+Het zwembad van onze villa op Bali tijdens de bouw
+@@a124
+Farah en Daniel met een kat bij de villa op Bali
+@@a125
+Het zwembad en de buitendouche van de villa op Bali
+@@a126
+Farah en Daniel voor de Sagrada Familia
+@@a127
+Farah en Daniel die een spiegelselfie maken
+@@a128
+Farah en Daniel die bij zonsondergang aan zee proosten
+@@a129
+Een opengeklapte laptop op een bed met de 6-Figure Host Course
+@@a130
+Farah en Daniel op een balkon in Barcelona
+@@a131
+Farah en Daniel bij schemering op het strand
+@@a132
+Boekingskalender met vijf advertenties, elk de hele maand door één gast geboekt
+@@a133
+Boekingskalender met vier advertenties, elk gevuld met veel korte boekingen van verschillende gasten
+@@a134
+Voor: een slaapkamer met gele muren, een rood vloerkleed en meubels die niet bij elkaar passen
+@@a135
+Na: dezelfde slaapkamer wit geschilderd, met houten bedden, linnen beddengoed en een kledingkast
+@@a136
+Voor: de enorme open woonkamer met gele muren; de rechterkant, waar we later twee slaapkamers toevoegden, is omcirkeld
+@@a137
+Na: de linkerkant van de woonkamer, wit geschilderd, met de eettafel en de bank
+@@a138
+Na: de rechterkant van de woonkamer met de nieuwe witte wand en de twee deuren van de nieuwe slaapkamers omcirkeld
+@@a139
+Een van de nieuwe slaapkamers met de deur open; een pijl wijst naar het kleine binnenraam naar de woonkamer
+@@a140
+De eerste nieuwe slaapkamer: een tweepersoonsbed, een bureau en een binnenraam
+@@a141
+De tweede nieuwe slaapkamer: een tweepersoonsbed en een klein tafeltje
+@@a142
+Voor: de oude, donkere wasruimte met een wasmachine en rommel
+@@a143
+Na: de nieuwe doucheruimte met een glazen douche en vloertegels met patroon
+@@a144
+Onze kleinste slaapkamer: een eenpersoonsbed, een bamboe ladder en een mobiele airco, zonder raam
+@@a145
+De kleinste slaapkamer van de andere kant, met een bureau, lamp en wasmand
+@@a146
+Voor: de grote open woonkamer met de keuken, een eettafel en veel lege vloer
+@@a147
+Na: de keuken en eethoek, nu iets kleiner, naast de nieuwe slaapkamer
+@@a148
+Na: de nieuwe slaapkamer met een tweepersoonsbed, een bureau en een eigen balkon, gezien vanuit de keuken
+@@a149
+De pagina van de AirROI Airbnb Calculator, met een veld voor het adres en een keuze voor het aantal slaapkamers
+@@a150
+Een vies en verwaarloosd achtergelaten woning: gewone huurders gaan er niet altijd goed mee om, en de eigenaar ontdekt het pas als ze vertrekken.
+@@a151
+Te late of gemiste huur: het risico dat je elke maand achter een huurder aan moet voor de huur. Geen verhuurder wil dat.
+@@a152
+Schade en ruzie over de borg: wie betaalt wat? Een vertrek eindigt vaak in discussie over de borg.
+@@a153
+Klachten van buren: geluid, feestjes, mensen die komen en gaan. En de verhuurder krijgt het boze telefoontje.
+@@a154
+Beoordeling van gast Iveta, Australië, vijf sterren: Absolutely amazing! The way the place is so clean and customer oriented and detailed is unbelievable. You can see that hosts put their heart in it and it’s great for people who value quality. Absolutely recommend!
+@@a155
+Casa Mewali: het gedeelde zwembad met de suites eromheen, achter zwarte boogramen
+@@a156
+Een suite in Casa Mewali met een houten bed en deuren die direct uitkomen op het zwembad
+@@a157
+De oude laminaatvloer verwijderen in een slaapkamer met balkon
+@@a158
+Voor: de badkamer met een oud bad
+@@a159
+Na: dezelfde badkamer met een inloopdouche en tegels met houtlook
+@@a160
+Omslag van de informatiebrochure voor verhuurders, met de titel Rental arbitrage: a reliable way to rent your property without the usual tenant headaches, boven een foto van een slaapkamer
+@@a161
+Een lichte slaapkamer met een tweepersoonsbed, een bureau, een mobiele airco, een open kledingrek en een vilten wolkenbord aan de muur
+@@a162
+Het bed opengeklapt, met een grote opbergruimte eronder
+@@a163
+Het bureau met een lamp en welkomstpagina naast een eenvoudig open kledingrek met houten hangers en een mand
+@@a164
+De binnenkant van de slaapkamerdeur met een kettingslot, naast een haakje voor de kamersleutel en een wandhouder voor de afstandsbediening van de airco met een klein label
+@@a165
+Casa Mewali voor en na: hetzelfde zwembad en dezelfde muren, eerst wit met gras, daarna met warme verf, grind, gordijnen en kleipotten
+@@a166
+Onze advertentie met de titel Pool view suite in beautiful shared villa | 2
+@@a167
+Onze advertentie met de titel Cosy bedroom in the best location in center
+@@a168
+Onze advertentie met de titel BIG private sunny rooftop in top location
+@@a169
+Onze Airbnb-advertentie “Pool view suite in beautiful shared villa”: één grote omslagfoto van de slaapkamer en vier kleinere foto’s van de slaapkamer, woonkamer en het zwembad, Favoriet bij gasten met 4,97 uit 65 beoordelingen
+@@a170
+Airbnb-advertentie van de kamer met het bureau dat de kamer groter liet lijken
+@@a171
+Airbnb-advertentie van de gespiegelde kamer met het minder mooie bureau
+@@a172
+Het onderdeel De ruimte in de advertentie, waarin het gedeelde zwembad en de keuken worden genoemd
+@@a173
+Welkomstbericht dat de gast eraan herinnert dat de villa gedeeld is
+@@a174
+Het onderdeel Over deze accommodatie, waarin staat dat de rest van de villa gedeeld is
+@@a175
+Bericht aan gasten over bouwwerkzaamheden in de buurt en dat de prijs een korting bevat
+@@a176
+Het onderdeel Overige bijzonderheden, waarin bouwlawaai en de korting worden genoemd
+@@a177
+Overeenkomst met de woningmanager
+@@a178
+Overeenkomst voor schoonmaakdiensten
+@@a179
+Overeenkomst met de klusjesman
+@@a180
+Overeenkomst voor onderhoud van zwembad en tuin
+@@a181
+Slim slot met cijferpaneel op een deur
+@@a182
+Traditioneel sleutelkluisje met cijferwieltjes aan een reling
+@@a183
+Slimme deurbel naast een voordeur
+@@a184
+Sleutels die persoonlijk worden overhandigd
+@@a185
+Voorbeeld van een stapsgewijze check-in-gids met genummerde foto’s: het adres, de deurcode, de trap, de deur en de slaapkamer
+@@a186
+Instelling voor ingeplande berichten in Airbnb, met de schakelaar Versturen bij last-minute boekingen en korte verblijven aangezet
+@@a187
+Airbnb-scherm voor het instellen van seizoensprijzen en beschikbaarheid, met een knop om een regelset te maken
+@@a196
+Stad, land
+@@a197
+bijv. appartement met 2 slaapkamers, privékamer, villa
+@@a198
+buurt of gebied
+@@a199
+korte termijn, middellange termijn of beide
+@@a200
+Naam van de verhuurder
+@@a201
+waar je hem hebt gevonden
+@@a202
+Jouw naam
+@@a203
+Jouw telefoonnummer
+@@a204
+soort gasten
+@@a205
+soort verblijven
+@@a206
+bedrag
+@@a207
+stad/buurt
+@@a208
+bijv. zwembad, dakterras, alles op loopafstand, design, uitzicht
+@@a209
+bijv. moderne loft, knusse villa
+@@a210
+bijv. veel daglicht, snelle wifi, zwembad, keuken, balkon
+@@a211
+bijv. stellen, remote workers, gezinnen
+@@a212
+bijv. minimalistisch, tropisch, stijlvol, rustig
+@@a213
+BESTEMMING
+@@a214
+VALUTA

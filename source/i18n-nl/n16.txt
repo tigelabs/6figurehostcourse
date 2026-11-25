@@ -1,0 +1,284 @@
+@@1797
+Onderhoud
+@@1798
+Iemand die oproepbaar is voor kleine reparaties, kapotte apparaten en noodgevallen.
+@@1799
+Ondersteuning van gasten
+@@1800
+Wil je helemaal een stap terug doen? Een co-host of manager beantwoordt berichten, regelt de schoonmaak en lost problemen op.
+@@1801
+Aanvullen
+@@1802
+Wekelijks of maandelijks, met werkkapitaal en een overzicht van de bonnetjes.
+@@1803
+Houd zelf in handen, in elk geval in het begin
+@@1804
+Het fundament dat je zelf legt
+@@1805
+Als je deze dingen in het begin zelf doet, leer je het vak door en door, zodat je ze later duidelijk kunt delegeren:
+@@1806
+Gastervaring &amp; tone of voice
+@@1807
+Branding &amp; optimalisatie van je advertentie
+@@1808
+Beoordelingen &amp; reputatie
+@@1809
+Systemen: werkinstructies, templates, trackers
+@@1810
+Het recept om op te schalen met vrijheid
+@@1811
+{1}Automatiseer wat zich herhaalt. Delegeer het fysieke werk.{2} Besteed je tijd aan wat het bedrijf echt laat groeien: branding, strategie en ervaring.
+@@1812
+Communicatiesystemen voor je team
+@@1813
+Duidelijke communicatie is de ruggengraat van een soepele operatie, vooral als er meerdere mensen bij betrokken zijn: schoonmakers, een klusjesman, een manager. {1}Zonder systemen glippen dingen erdoorheen.{2}
+@@1814
+Eén groep per woning
+@@1815
+Een WhatsApp-groep (of je favoriete app) met iedereen die betrokken is, met een naam als {1}[Naam woning] – Operationeel team{2}. Gebruik hem voor:
+@@1816
+Afstemmen van de planning
+@@1817
+Updates over gasten (late check-outs, vroege check-ins)
+@@1818
+Schade of ontbrekende spullen, met foto’s
+@@1819
+Bonnetjes en het resterende werkkapitaal
+@@1820
+Toegang tot de woningwiki
+@@1821
+Je team moet altijd toegang hebben tot de wiki (zie het bonustemplate), met:
+@@1822
+Voorraadlijst
+@@1823
+Links naar producten
+@@1824
+Contactgegevens voor noodgevallen
+@@1825
+Uitleg van apparaten
+@@1826
+Video’s met een rondleiding
+@@1827
+Nooit meer alles herhalen, en sneller inwerken.
+@@1828
+Reactietijden
+@@1829
+Spreek af wanneer en hoe snel mensen reageren. Bijvoorbeeld:
+@@1830
+Schoonmakers bevestigen check-outs binnen 2 uur
+@@1831
+Het contactpersoon voor noodgevallen is telefonisch bereikbaar zolang er gasten zijn
+@@1832
+De manager stuurt zo nodig een dagelijkse update
+@@1833
+Vastgezette berichten &amp; mappen
+@@1834
+Zet de belangrijkste info (deurcodes, checklists, betaalgegevens) bovenaan de groep vast. Gebruik voor grotere systemen een gedeelde map in Google Drive of Dropbox.
+@@1835
+Spraakberichten als dat handig is
+@@1836
+Niet alles hoeft getypt te worden. Voor langere updates of uitleg bespaart een kort spraakbericht tijd en voelt het menselijker.
+@@1837
+Duidelijkheid = minder fouten.
+@@1838
+ Miscommunicatie leidt tot gemiste schoonmaakbeurten en slechte gastervaringen. Hoe duidelijker je systemen, hoe soepeler je operatie en hoe minder je dagelijks nodig bent.
+@@1839
+Bonus: ingeplande berichten die persoonlijk aanvoelen
+@@1840
+Ingeplande berichten besparen je tijd, maar dat betekent niet dat ze robotachtig moeten aanvoelen. Het geheim is om ze in een warme, vriendelijke toon te schrijven en persoonlijke details toe te voegen, zoals de naam van de gast.
+@@1841
+Als je het goed doet, voelen ingeplande berichten als echte communicatie, terwijl elke gast de informatie die hij nodig heeft altijd op tijd krijgt.
+@@1842
+Zo stel je ze in
+@@1843
+{1}Waar ze komen:{2} in Airbnb, onder “Ingeplande berichten”. Elk bericht heeft een trigger en een tijdstip, die hier boven de titel staan.
+@@1844
+{1}Automatisch:{2} zodra je ze hebt opgeslagen, verstuurt Airbnb ze zelf naar elke gast. Gebruik de shortcodes van Airbnb voor de voornaam van de gast, zodat elk bericht persoonlijk aanvoelt.
+@@1845
+{1}Voeg je check-infoto’s toe{2} aan bericht 2, zodat de gast de foto’s krijgt zonder dat jij iets hoeft te sturen.
+@@1846
+{1}Automatisch · direct na de boeking{2}1. Welkomstbericht
+@@1847
+1. Welkomstbericht
+@@1848
+Ingepland bericht. Pas de [haakjes] aan en plak het daarna in Airbnb › Ingeplande berichten.
+@@1849
+{1}Automatisch · dag van aankomst, 11:00 uur{2}2. Instructies voor de check-in
+@@1850
+2. Instructies voor de check-in
+@@1851
+{1}Automatisch · dag na aankomst, 10:00 uur{2}3. Vraag of alles goed is
+@@1852
+3. Vraag of alles goed is
+@@1853
+{1}Automatisch · dag voor de check-out, 14:00 uur{2}4. Instructies voor de check-out
+@@1854
+4. Instructies voor de check-out
+@@1855
+{1}Automatisch · dag van de check-out, 12:00 uur{2}5. Laat een beoordeling achter
+@@1856
+5. Laat een beoordeling achter
+@@1857
+{1}← Terug{2}Stroomlijn je operatie
+@@1858
+{1}Volgende →{2}Schaal op naar 6 cijfers
+@@1859
+Deel 3 · Les 13
+@@1860
+Schaal op naar {1}6 cijfers{2}
+@@1861
+Wanneer je uitbreidt, meerdere landen, legaal blijven.
+@@1862
+5 secties · ongeveer 15 min
+@@1863
+{1}1{2}Wanneer je uitbreidt (en wanneer je wacht)
+@@1864
+{1}2{2}Meerdere advertenties in verschillende landen beheren
+@@1865
+{1}3{2}Legaal blijven terwijl je opschaalt
+@@1866
+{1}4{2}Bonus: financiële tracker voor je woning
+@@1867
+{1}5{2}Gefeliciteerd!
+@@1868
+Wanneer je uitbreidt (en wanneer je wacht)
+@@1869
+De beslissing om uit te breiden is een van de spannendste mijlpalen in je reis als host. {1}Maar te snel of te vroeg groeien kan averechts werken.{2} Wees eerlijk tegen jezelf en vink aan wat vandaag klopt:
+@@1870
+Ben je klaar om uit te breiden?
+@@1871
+✓ Je bent klaar om uit te breiden als:
+@@1872
+{1}Je huidige advertentie loopt als een geoliede machine:{2} de systemen staan, gasten zijn tevreden, de beoordelingen zijn geweldig en de operatie hangt niet 24/7 van jou af.
+@@1873
+{1}Je een betrouwbaar team hebt opgebouwd:{2} schoonmakers, een klusjesman en een manager of co-host zijn al ingewerkt en kunnen wisselingen en problemen van gasten oplossen zonder dat jij er direct bij betrokken bent.
+@@1874
+{1}Je repetitieve taken hebt geautomatiseerd:{2} berichten, prijzen en check-ins lopen met minimale inbreng dankzij tools zoals automatische berichten, tools voor dynamische prijzen en slimme sloten.
+@@1875
+{1}Je consequent winst maakt:{2} je huidige woning levert een betrouwbaar inkomen op, ook in het laagseizoen.
+@@1876
+{1}Je kapitaal (of cashflow) hebt om te investeren:{2} uitbreiden kost vooraf geld. Heb je geen buffer, dan kan de stress zwaarder wegen dan de opbrengst.
+@@1877
+✕ Je kunt beter wachten als:
+@@1878
+{1}Je je systemen nog aan het uitzoeken bent:{2} als je huidige woning constant aandacht vraagt of er vaak dingen misgaan, focus dan eerst op het verfijnen van je werkwijze.
+@@1879
+{1}Je beoordelingen wisselend of inconsistent zijn:{2} uitbreiden terwijl je nog bezig bent een goede gastervaring te leveren, kan problemen vergroten en je reputatie schaden.
+@@1880
+{1}Je geen sterk team hebt:{2} twee woningen proberen te beheren zonder hulp leidt tot burn-out en fouten.
+@@1881
+{1}Je cashflow krap is:{2} je budget oprekken legt druk op de gastervaring, het onderhoud en de kwaliteit, en dat schaadt het succes op lange termijn.
+@@1882
+Optimaliseer voordat je uitbreidt.
+@@1883
+ Te vroeg uitbreiden is een van de meest gemaakte fouten van nieuwe hosts. Een tweede advertentie moet voelen als een logische volgende stap, niet als een sprong in het diepe.
+@@1884
+Meerdere advertenties in verschillende landen beheren
+@@1885
+Hosten in meerdere landen laat je je inkomen spreiden, inspelen op verschillende markten en het hele jaar door verdienen. Wij doen het met Barcelona en Bali. {1}Het werkt, zolang je rekening houdt met tijdzones, lokale regels en teams op afstand.{2}
+@@1886
+Bouw sterke lokale teams
+@@1887
+Je kunt niet overal tegelijk zijn, dus je team ter plaatse is alles:
+@@1888
+Schoonmaker + vervanger
+@@1889
+Lokale klusjesman
+@@1890
+Manager of co-host
+@@1891
+Contactpersoon voor noodgevallen in de buurt
+@@1892
+Zoek, test en train ze goed. Zodra ze goed draaien, lopen je woningen met minimale inbreng.
+@@1893
+Standaardiseer alles
+@@1894
+Dezelfde systemen in elke woning, zodat de volgende een kopie is en geen nieuw project:
+@@1895
+Schoonmaakchecklists
+@@1896
+Templates voor berichten aan gasten
+@@1897
+Trackers voor aanvulling
+@@1898
+Werkinstructies voor wisselingen en noodgevallen
+@@1899
+De bonustemplates zijn hiervoor gemaakt.
+@@1900
+Automatiseer over tijdzones heen
+@@1901
+Ingeplande berichten houden de communicatie consistent
+@@1902
+Dynamische prijzen (PriceLabs, Beyond) passen zich aan elke lokale markt aan
+@@1903
+Slimme sloten maken je aanwezigheid overbodig
+@@1904
+Controleer of berichten in de tijdzone van de gast worden verstuurd, niet om 3:00 uur ’s nachts
+@@1905
+Ken de lokale wetten en belastingen
+@@1906
+Elk land heeft zijn eigen vergunningen, registraties en belastingen (btw, toeristenbelasting). Schakel waar nodig een lokale boekhouder of juridisch adviseur in. Meer hierover in de volgende sectie.
+@@1907
+Houd je financiën gescheiden
+@@1908
+Een aparte bankrekening, betaalmethode en apart werkkapitaal per woning. Zo zie je hoe elke woning presteert, en worden de belastingen in elk land eenvoudiger.
+@@1909
+Bescherm je tijd en je gemoedsrust
+@@1910
+Bundel taken per tijdzone, houd één WhatsApp-groep per woning aan ({1}Les 12{2}) en overweeg een virtuele assistent die berichten in de gaten houdt terwijl jij slaapt.
+@@1911
+Ons advies
+@@1912
+{1}Begin met één land en bouw stevige systemen.{2} Zodra je eerste internationale advertentie draait zonder dat jij er steeds bij betrokken bent, heb je een blauwdruk die je overal kunt kopiëren. Behandel het als een bedrijf, niet als een hobby.
+@@1913
+Legaal blijven terwijl je opschaalt
+@@1914
+Eén advertentie is eenvoudig. Meerdere steden of landen? {1}Dan wordt het naleven van de regels ingewikkelder, en belangrijker.{2} De basis ken je al uit {3}Les 2{4}. Dit is je checklist voor elke nieuwe locatie:
+@@1915
+Zoek de lokale verhuurwetten uit
+@@1916
+Zijn korte verblijven hier legaal?
+@@1917
+Maximum aantal nachten per jaar?
+@@1918
+Bestemmingsbeperkingen?
+@@1919
+Moet je er zelf wonen?
+@@1920
+Vraag het de lokale bevolking
+@@1921
+Lokale Facebookgroepen voor hosts en het Airbnb Community Center zijn ideaal om te horen over recente veranderingen.
+@@1922
+Regel de juiste vergunningen en registraties
+@@1923
+Veel steden vereisen een bedrijfsvergunning, een vergunning voor kortetermijnverhuur, een registratienummer in je advertentie en contactgegevens voor noodgevallen ter plaatse. Zonder die dingen riskeer je flinke boetes of verwijdering van het platform. Kijk op de website van de gemeente of vraag een lokale advocaat.
+@@1924
+Begrijp je belastingen
+@@1925
+Mogelijk betaal je
+@@1926
+Toeristenbelasting, inkomstenbelasting (lokaal en in het buitenland als je vanuit het buitenland beheert) en in sommige landen btw of omzetbelasting.
+@@1927
+Mogelijk moet je
+@@1928
+Je als bedrijf inschrijven, maandelijks of per kwartaal aangifte doen en elk bonnetje en elke onkostendeclaratie bewaren.
+@@1929
+Werk met een boekhouder die verstand heeft van kortetermijnverhuur in elk land waar je actief bent.
+@@1930
+Volg de veiligheidsregels voor gasten
+@@1931
+Rook- &amp; koolmonoxidemelders
+@@1932
+Brandblusser
+@@1933
+EHBO-kit
+@@1934
+Gemarkeerde uitgangen
+@@1935
+Verzekering
+@@1936
+Ook waar het niet verplicht is, beschermt het jou en je gasten, en mogelijk is het nodig voor de hostbescherming van Airbnb.
+@@1937
+Houd wetswijzigingen bij
+@@1938
+De wetten rond kortetermijnverhuur veranderen voortdurend. Wat vandaag legaal is, is dat morgen misschien niet meer. Stel Google Alerts in, volg het lokale nieuws en blijf in contact met andere hosts.

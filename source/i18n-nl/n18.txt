@@ -1,0 +1,327 @@
+@@2201
+Stuur hem in de gedeelde WhatsApp-groep.
+@@2202
+Vermeld in het bericht altijd het resterende saldo, in dit format: RESTEREND SALDO: €[nieuw saldo na de uitgave]
+@@2203
+Voorbeeld: foto van het bonnetje voor wc-papier €4,30. RESTEREND SALDO: €145,70
+@@2204
+Contactgegevens
+@@2205
+Eigenaar van de woning
+@@2206
+Manager
+@@2207
+Schoonmaker
+@@2208
+Schoonmaker (vervanger)
+@@2209
+Wasservice
+@@2210
+Zwembad- &amp; tuinman
+@@2211
+Afvalophaaldienst
+@@2212
+Belangrijke codes
+@@2213
+Code voordeur
+@@2214
+Code sleutelkluisje
+@@2215
+Codes worden alleen in deze browser op dit apparaat bewaard. Pas ze hier aan zodra je ze in de woning verandert.
+@@2216
+{1}← Terug{2}Inrichtingschecklist
+@@2217
+{1}Volgende →{2}Winstcalculator
+@@2218
+Tool · winst &amp; ROI
+@@2219
+Winst- &amp; ROI-{1}calculator{2}
+@@2220
+Slimme hosts rekenen eerst, en laten pas daarna hun gevoel meespreken.
+@@2221
+Voordat je een huurcontract tekent of in meubels investeert, is het cruciaal dat je je cijfers begrijpt. Met deze winst- &amp; ROI-calculator schat je hoeveel inkomen een woning kan opleveren en hoelang het duurt voordat je je eerste investering hebt terugverdiend.
+@@2222
+Hij geeft je een snel, realistisch beeld van: maandelijkse en jaarlijkse winst, rendement op je investering (ROI), de terugverdientijd en hoe je cijfers veranderen bij verschillende bezettingsgraden.
+@@2223
+{1}Stap 1:{2} kies je valuta en vul je bedrijfskosten in.
+@@2224
+{1}Stap 2:{2} kies je bedrijfsmodel en vul je cijfers in onder “Vul hier je gegevens in”. De tabellen worden automatisch bijgewerkt.
+@@2225
+Bekijk de resultaten bij verschillende bezettingsgraden (70%, 85%, 95%) om te zien hoe de scenario’s uitpakken.
+@@2226
+Wil je meer uitleg over een veld, tik dan op “Wat is dit?” eronder. Je cijfers worden op dit apparaat opgeslagen.
+@@2227
+Stap 1 {1}overzicht van je bedrijfskosten{2}
+@@2228
+Bereken eerst je bedrijfskosten. Heb je hulp nodig bij het schatten van kosten, gebruik dan de AI-prompt hieronder. Zodra je klaar bent, worden je kosten automatisch overgenomen in de drie calculators in stap 2.
+@@2229
+Kies je valuta
+@@2230
+Verandert de valuta overal in de cursus.
+@@2231
+Maandelijkse kosten
+@@2232
+Vaste lasten
+@@2233
+Elektriciteit
+@@2234
+Gas (optioneel)
+@@2235
+Internet
+@@2236
+Water
+@@2237
+Verzekering (optioneel)
+@@2238
+Totaal
+@@2239
+Team
+@@2240
+Schoonmaker 1
+@@2241
+Schoonmaker 2 (optioneel)
+@@2242
+Manager (optioneel)
+@@2243
+Zwembadschoonmaker (optioneel)
+@@2244
+Tuinman (optioneel)
+@@2245
+Boekhouder (optioneel)
+@@2246
+Overige kosten
+@@2247
+Verbruiksartikelen
+@@2248
+Maandelijks onderhoud
+@@2249
+Eenmalige kosten
+@@2250
+Inrichting
+@@2251
+Buitenruimte (optioneel)
+@@2252
+Weet je niet wat de inrichting gaat kosten? De {1}inrichtingschecklist{2} geeft je een geschat budget, kamer voor kamer.
+@@2253
+Totale maandelijkse kosten
+@@2254
+Totale eenmalige kosten
+@@2255
+AI-prompt: schat mijn kosten
+@@2256
+Je bent expert in bedrijven voor kortetermijnverhuur.
+
+Ik ben van plan een woning voor kortetermijnverhuur te starten in {1}{2}, met [# SLAAPKAMERS] slaapkamers, die [AANTAL SCHOONMAAKBEURTEN PER MAAND] keer per maand wordt schoongemaakt.
+
+Geef me realistische schattingen van de gemiddelde maandelijkse en eenmalige kosten voor deze bestemming, gebaseerd op een gebruikelijke kortetermijnverhuur.
+
+Gebruik {3}{4} voor alle bedragen.
+
+Verdeel de kosten volgens deze opbouw:
+Maandelijkse kosten: vaste lasten (elektriciteit, gas indien van toepassing, internet, water, verzekering), team (schoonmaker op basis van het aantal schoonmaakbeurten hierboven, klusjesman, woningmanager als dat op deze bestemming gebruikelijk is, zwembadschoonmaker indien van toepassing, tuinman indien van toepassing, boekhouder / administratie), overige maandelijkse kosten (verbruiksartikelen zoals verzorgingsproducten en consumpties op basis van het aantal wisselingen, reserve voor onderhoud).
+
+Eenmalige inrichtingskosten: inrichting van keuken, woonkamer, slaapkamer, badkamer, washok, en buitenruimte / zwembad indien van toepassing.
+
+Geef voor elke kostenpost:
+- Een realistische gemiddelde bandbreedte (laag–hoog)
+- Een aanbevolen schatting voor de financiële planning
+
+Vermeld ook:
+- Welke kosten op deze bestemming vaak worden onderschat
+- Of de kosten hoger of lager zijn dan gemiddeld vergeleken met vergelijkbare markten
+
+Houd het antwoord praktisch en realistisch, zodat ik het direct in een winst- &amp; ROI-calculator kan invullen.
+@@2257
+Hulp nodig? Vul je gegevens tussen de haakjes in en kopieer en plak de prompt in je AI-assistent.
+@@2258
+Stap 2 {1}reken je bedrijfsmodel door{2}
+@@2259
+Een woning huren
+@@2260
+Een woning kopen
+@@2261
+Een woning leasen
+@@2262
+Rental arbitrage-{1}winstcalculator{2}
+@@2263
+Vul hier je gegevens in
+@@2264
+Maandhuur
+@@2265
+Wat is dit?
+@@2266
+Hoeveel is de maandhuur?
+@@2267
+Borg
+@@2268
+0 maanden huur
+@@2269
+1 maand huur
+@@2270
+2 maanden huur
+@@2271
+3 maanden huur
+@@2272
+4 maanden huur
+@@2273
+5 maanden huur
+@@2274
+Kies hoeveel maanden borg het makelaarskantoor of de eigenaar vraagt.
+@@2275
+Extra administratiekosten
+@@2276
+Extra administratiekosten kunnen huurbelastingen, makelaarskosten enz. zijn.
+@@2277
+Kamers
+@@2278
+Hoeveel kamers ga je verhuren?
+@@2279
+Prijs per nacht per kamer
+@@2280
+Dit is de prijs die gasten per nacht voor je kamer betalen. Om de prijs per nacht te schatten, raden we twee soorten onderzoek aan:
+@@2281
+Bekijk vergelijkbare advertenties op Airbnb.
+@@2282
+Gebruik een tool voor marktdata zoals AirROI om lokale cijfers te bekijken.
+@@2283
+Airbnb rekent, afhankelijk van het land, ongeveer 17% aan platformkosten en belastingen. Deze kosten worden meestal door de gast betaald. De prijzen die je als reiziger op Airbnb ziet, zijn daarom meestal al inclusief deze extra 17%.
+@@2284
+Totale initiële investering
+@@2285
+Maandelijkse kosten
+@@2286
+Uit stap 1.
+@@2287
+Wijzig ze
+@@2288
+Bezettingsgraad
+@@2289
+Maandinkomen
+@@2290
+Maandwinst
+@@2291
+Jaarwinst
+@@2292
+ROI
+@@2293
+Terugverdientijd
+@@2294
+Slechtste geval
+@@2295
+Gemiddeld
+@@2296
+Beste geval
+@@2297
+Wat betekenen de kolommen?
+@@2298
+{1}Bezettingsgraad.{2} De bezettingsgraad is het percentage nachten dat je woning geboekt is. Bijvoorbeeld: als je woning 15 dagen per maand geboekt is en de andere 15 dagen niet verhuurd zijn, is je bezettingsgraad 50%. Slechtste geval, gemiddeld en beste geval zijn de slechtste, gemiddelde en beste bezetting in het gebied waar je gaat starten. Je kunt elk percentage aanpassen.
+@@2299
+{1}Maandinkomen.{2} Hoeveel je per maand zou verdienen voordat je kosten aftrekt, ook wel bruto-inkomen genoemd.
+@@2300
+{1}Maandelijkse kosten.{2} De kosten om een woning te beheren: schoonmakers, schoonmaakmiddelen, klusjesman, vaste lasten (water, elektriciteit, gas, internet) ... Je kunt ze aanpassen in stap 1.
+@@2301
+{1}Maandwinst.{2} Je geschatte inkomen na aftrek van alle terugkerende maandelijkse kosten, zoals huur, team, vaste lasten en schoonmaakkosten.
+@@2302
+{1}ROI.{2} Je jaarlijkse rendement op je investering, als percentage.
+@@2303
+{1}Terugverdientijd.{2} Hoelang het (in maanden) duurt om je initiële investering terug te verdienen.
+@@2304
+Winst over 5 jaar
+@@2305
+Scenario
+@@2306
+×1 woning
+@@2307
+×2 woningen
+@@2308
+×4 woningen
+@@2309
+Je geschatte winst na 5 jaar met 1, 2 of 4 vergelijkbare woningen.
+@@2310
+Winst en maanden tot het break-evenpunt
+@@2311
+{1}{2}Winst
+@@2312
+{1}{2}Startkapitaal
+@@2313
+Bij je gemiddelde bezettingsgraad. De lijnen kruisen elkaar halverwege de terugverdientijd; de kapitaallijn bereikt nul op het break-evenpunt.
+@@2314
+Maanden
+@@2315
+Winst
+@@2316
+Startkapitaal
+@@2317
+De tabel bevat geen belastingen, omdat die per land verschillen. Houd wel rekening met:
+@@2318
+Vennootschapsbelasting
+@@2319
+Het is prima om klein te beginnen zonder bedrijf, maar houd rekening met vennootschapsbelasting als je in de toekomst een bedrijf wilt oprichten om je woningen te beheren.
+@@2320
+Toeristenbelasting
+@@2321
+Sommige steden heffen toeristenbelasting direct via het Airbnb-platform. Controleer wat er bij jou van toepassing is.
+@@2322
+Dividendbelasting
+@@2323
+Heb je al een bedrijf om je woning te beheren en wil je winst van het bedrijf naar je privérekening overmaken, houd dan rekening met de dividendbelasting in het land waar je fiscaal inwoner bent.
+@@2324
+Winstcalculator voor {1}eigenaren{2}
+@@2325
+Prijs van de woning
+@@2326
+Hoeveel kost de woning?
+@@2327
+Extra administratiekosten kunnen overdrachtsbelasting, makelaarskosten enz. zijn.
+@@2328
+Leasehold-{1}winstcalculator{2}
+@@2329
+Leaseprijs
+@@2330
+Hoeveel betaal je voor de lease?
+@@2331
+*Bij leasehold huur je een woning voor lange tijd, vaak meerdere jaren, met het recht om hem als je eigen woning te gebruiken. Op plekken als Bali mogen buitenlanders geen grond bezitten, dus is leasehold de meest gebruikelijke manier om legaal over een woning te beschikken en er winst mee te maken zonder hem echt te kopen. Je betaalt vooraf of per jaar, en in ruil daarvoor heb je de woning voor de looptijd van de lease volledig tot je beschikking.
+@@2332
+{1}Let op:{2} belastingen zijn niet in deze calculator opgenomen, omdat ze per land verschillen. Houd rekening met lokale inkomsten- of vennootschapsbelasting, toeristenbelasting en, indien van toepassing, dividend- of vermogenswinstbelasting.
+@@2333
+Gebruik deze tool voordat je je aan een woning verbindt. Kloppen de cijfers op papier niet, dan is het het risico niet waard.
+@@2334
+© Alle rechten voorbehouden. Deel, kopieer, verveelvoudig of verkoop geen enkel deel van dit document zonder schriftelijke toestemming van Farah en Daniel. Elke inbreuk wordt vervolgd.
+@@2335
+{1}← Terug{2}Woninghandleiding
+@@2336
+{1}Volgende →{2}Financiële tracker voor je woning
+@@2337
+Tool · inkomsten &amp; uitgaven
+@@2338
+Financiële {1}tracker{2} voor je woning
+@@2339
+Houd inkomsten, uitgaven en winst per woning bij.
+@@2340
+Houd je inkomsten en uitgaven bij vanaf je allereerste boeking. Dat maakt je belastingaangifte makkelijker en laat je precies zien welke woning het meest oplevert. Werk hem één keer per maand bij.
+@@2341
+{1}← Terug{2}Winstcalculator
+@@2342
+{1}Volgende →{2}Templates voor overeenkomsten met personeel
+@@2343
+Bonus · voor je team
+@@2344
+Templates voor {1}overeenkomsten met personeel{2}
+@@2345
+Vier kant-en-klare overeenkomsten voor je manager, schoonmaker, klusjesman en het team voor zwembad &amp; tuin.
+@@2346
+Leg elke afspraak schriftelijk vast. Dat voorkomt verwarring over taken, betaling en verantwoordelijkheden, en het beschermt jou en je team. Dit zijn de vier templates die we zelf gebruiken. Meer over het opbouwen van je team lees je in {1}Les 10{2}.
+@@2347
+{1}← Terug{2}Financiële tracker voor je woning
+@@2348
+{1}Volgende →{2}Labelsysteem
+@@2349
+Bonus · voor gasten &amp; team
+@@2350
+Label{1}systeem{2}
+@@2351
+Wat je labelt, hoe je dat doet, en een vel met labels om te printen.
+@@2352
+Labels zijn een van de goedkoopste manieren om tijd te besparen. Ze houden je team georganiseerd en beantwoorden vragen van gasten voordat ze ze stellen. Meer hierover in {1}Les 11{2}.
+@@2353
+Duidelijke labels helpen je team georganiseerd te blijven, zorgen voor minder verwarring bij gasten en besparen tijd bij wisselingen.

@@ -1,0 +1,286 @@
+@@1531
+Onthoud: de belangrijkste taken staan in de juiste volgorde voor je klaar in je bonus “Stappenplan: takenchecklist om je eerste advertentie te lanceren”. {1}Gebruik het als je stapsgewijze gids{2} om op koers te blijven en niets belangrijks te missen.
+@@1532
+Voorraad beheren en aanvullen
+@@1533
+Achter de schermen kan de manier waarop je voorraad en was regelt de gastervaring (en je gemoedsrust) maken of breken. {1}Het doel: nooit meer op het laatste moment wc-papier halen en geen stress over ontbrekende lakens.{2}
+@@1534
+Zet een duidelijk voorraadsysteem op
+@@1535
+Maak een lijst van alle basisspullen, van wc-papier en zeep tot sponzen, vuilniszakken en koffie. Houd bij hoeveel er per week of per gast wordt gebruikt en stel een {1}minimumvoorraad{2} in. Bereik je die, vul dan aan.
+@@1536
+Pro-tip
+@@1537
+Houd verbruik en hoeveelheden bij in een tracker in Notion of Google Sheets. Je vindt een template in de bonusmaterialen.
+@@1538
+Bepaal wie aanvult, en geef die persoon werkkapitaal
+@@1539
+Bepaal wie de spullen koopt (schoonmaker, manager of jij), hoe vaak, en hoe je diegene terugbetaalt.
+@@1540
+Werkkapitaal:
+@@1541
+ een vast maandbedrag, contant of in een digitale wallet, zodat je team nooit uit eigen zak hoeft te betalen. Vul het elke maand aan, of zodra het bijna op is.
+@@1542
+Blijf binnen je budget
+@@1543
+Bewaar alle bonnetjes in een gedeelde map of een tracker in Notion. Nog makkelijker: een WhatsApp-groep waarin je team een foto van elk bonnetje en het resterende saldo plaatst.
+@@1544
+Werkinstructies, taaktemplates en woninghandleiding
+@@1545
+om alles soepel te laten verlopen
+@@1546
+Wil je dat je woning loopt als een geoliede machine, vooral als je er niet bent? Dan zijn {1}werkinstructies (SOP’s, Standard Operating Procedures) je geheime wapen.{2} Het zijn gewoon duidelijke, geschreven instructies over hoe dingen gedaan worden, zodat je nooit twee keer hetzelfde hoeft uit te leggen.
+@@1547
+De werkinstructies die je wilt opzetten
+@@1548
+Schoonmaakchecklist
+@@1549
+Taken per kamer, op volgorde van prioriteit
+@@1550
+Werkwijze bij wisselingen
+@@1551
+Wat er gebeurt tussen de check-out en de volgende gast
+@@1552
+Check-in van gasten
+@@1553
+Van automatische berichten tot sleuteloverdracht of slimme sloten
+@@1554
+Aanvullen &amp; voorraad
+@@1555
+Wat er altijd op voorraad moet zijn
+@@1556
+Problemen melden
+@@1557
+Wat je doet als er iets kapotgaat of een gast klaagt
+@@1558
+Noodgevallen
+@@1559
+Contactgegevens, problemen oplossen, waterlekkages, kwijtgeraakte sleutels enzovoort
+@@1560
+Onderhoudsschema
+@@1561
+Maandelijkse of driemaandelijkse controles om dure reparaties te voorkomen
+@@1562
+Zet alles op één plek
+@@1563
+{1}Je woninghandleiding.{2} Een gedeeld Google-document, een Notion-pagina of een geprinte map in de woning, zolang je team hem altijd kan vinden. Het is een van de beste tijdbesparende systemen die je kunt maken.
+@@1564
+Open de woninghandleiding
+@@1565
+Labels en kleine details
+@@1566
+Labels voor duidelijkheid en consistentie
+@@1567
+Duidelijke labels houden je team georganiseerd, zorgen voor minder verwarring bij gasten en besparen tijd bij elke wissel.
+@@1568
+✓ Alles komt terug op de juiste plek
+@@1569
+✓ Nieuwe teamleden leren sneller
+@@1570
+✓ Intuïtiever voor gasten
+@@1571
+✓ Minder verlies of verkeerd gebruik van voorraad
+@@1572
+✓ Minder dagelijkse vragen
+@@1573
+Voor gasten
+@@1574
+Wat je labelt
+@@1575
+Koelkastplanken (met namen van kamers of suites)
+@@1576
+Keukenkastjes en lades (gedeeld vs. privé)
+@@1577
+Waterdispensers (“Alleen drinkwater”)
+@@1578
+Afval- en recyclingbakken
+@@1579
+Het wasprogramma dat je aanraadt
+@@1580
+Opbergruimte in de badkamer (“Gedeeld” / “Privé”)
+@@1581
+Voor je team
+@@1582
+Planken of dozen met schoonmaakmiddelen
+@@1583
+Bakken voor aanvulling (“Reservehanddoeken”, “Voorraad wc-papier”)
+@@1584
+De doos voor gevonden voorwerpen
+@@1585
+Tuingereedschap of zwembadspullen
+@@1586
+Instructies voor het wasprogramma op de machine
+@@1587
+Wasmanden (“Vuile handdoeken”, “Lakens met vlekken”, “Klaar om te wassen”)
+@@1588
+Tips voor labels:
+@@1589
+ gebruik gelamineerde of waterdichte labels in keukens, badkamers en buiten. Voeg pictogrammen of kleurcodes toe als je team verschillende talen spreekt (gratis pictogrammen op
+@@1591
+). Houd lettertype, grootte en formulering consistent, en zorg voor een eenvoudig lamineerapparaat of labelprinter om ze te vernieuwen.
+@@1592
+Houd het simpel:
+@@1593
+ “Plank suite 1”, “Alleen navullingen”, “Niet voor gasten”. Eén taal plus pictogrammen, nooit een muur van tekst.
+@@1594
+Kleine details die veel kopzorgen besparen
+@@1595
+Zodra je operatie draait, zijn het juist de kleine dingen waar niemand aan denkt om vast te leggen die het meeste vertragen. {1}Deze extra details besparen je uren aan berichten en brandjes blussen:{2}
+@@1596
+Label de wasmachine
+@@1597
+We plakken een label ‘WASSEN’ bij het juiste programma, zodat gasten geen programma van 3 uur kiezen. Dat bespaart energie, en veel mensen weten niet hoe je er een gebruikt.
+@@1598
+Label hoe dingen werken
+@@1599
+Het koffiezetapparaat, de verwarming… vooral in gedeelde appartementen.
+@@1600
+Fotografeer alles
+@@1601
+Meterkast, boiler, bediening van de verwarming, wifi-router. Bewaar de foto’s in je handleiding voor als je iets moet uitleggen.
+@@1602
+Eén extra set beschermhoezen
+@@1603
+Reserve-kussenbeschermers en matrasbeschermers per woning, zodat een bed nooit onbeschermd blijft.
+@@1604
+Roestvrijstalen pannen
+@@1605
+Ze gaan langer mee en zien er langer schoon uit.
+@@1606
+Koop extra theelepeltjes
+@@1607
+Die raken altijd zoek. Altijd.
+@@1608
+Visuele instructies voor het afval
+@@1609
+Foto’s met labels of pictogrammen die gasten precies laten zien waar en hoe ze hun afval moeten scheiden.
+@@1610
+{1}“Er werkt iets niet”? Vraag eerst om een kort filmpje.{2} Of start een videogesprek voordat je iemand voor onderhoud stuurt. Vaak is het niet kapot, maar wordt het gewoon verkeerd gebruikt. Deze ene stap bespaart tijd en onnodige bezoekjes, en helpt je sneller te zien wat er aan de hand is.
+@@1611
+Speciaal voor gedeelde ruimtes
+@@1612
+Essentiële dingen die je moet weten
+@@1613
+Gedeelde appartementen, waar gasten een eigen kamer hebben maar de keuken, badkamer of woonkamer delen, kunnen erg winstgevend zijn. {1}Maar ze hebben hun eigen regels, systemen en wrijvingspunten.{2} Zo beheer je ze soepel:
+@@1614
+Vanaf dag één duidelijke grenzen
+@@1615
+Zet duidelijke huisregels in je advertentie.
+@@1616
+Privé vs. gedeeld, op papier
+@@1617
+Wees specifiek in je advertentie en berichten. Voeg foto’s, plattegronden en de regels voor gedeelde ruimtes toe (rusttijden, geen persoonlijke spullen in gemeenschappelijke ruimtes).
+@@1618
+Een slot op elke slaapkamerdeur
+@@1619
+Af te sluiten van binnen en van buiten. Niet onderhandelbaar voor veiligheid, privacy en vertrouwen.
+@@1620
+Eigen ruimtes met labels
+@@1621
+Label planken, lades en zelfs vakken in de koelkast in gedeelde keukens en badkamers.
+@@1622
+Maak vaker schoon
+@@1623
+Zelfs dagelijks in woningen met veel wisselingen. Netheid is een van de grootste oorzaken van slechte beoordelingen bij gedeelde woningen.
+@@1624
+Houd extra’s op voorraad
+@@1625
+Handdoeken, wc-papier, klein keukengerei en mokken, zodat er genoeg is voor iedereen.
+@@1626
+Los conflicten snel op
+@@1627
+Als een gast klaagt over een andere gast, reageer dan snel, blijf neutraal en bied een oplossing, zoals een andere kamer of de regels nog eens benadrukken. De snelle antwoorden in {1}Les 9{2} bevatten templates hiervoor.
+@@1628
+Pro-tip:
+@@1629
+ hang een vriendelijk bordje met de huisregels op (of leg een mini-welkomstboekje neer) in de woonkamer of keuken. Het is een subtiele manier om gedrag te sturen en ongemakkelijke situaties te voorkomen.
+@@1630
+Opruimen in gedeelde ruimtes in 3 stappen
+@@1631
+Na verloop van tijd lopen gedeelde keukens en badkamers vol met spullen die vorige gasten hebben achtergelaten. Dat betekent rommel, verwarring en zelfs hygiëneproblemen. {1}Ruim minstens elke 3 maanden op en zet alles terug op nul{2}, zonder spullen weg te halen die nog in gebruik zijn. Kies eerst je methode:
+@@1632
+Methode A
+@@1633
+Het systeem met “gevonden voorwerpen”
+@@1634
+Kies één plek voor achtergebleven spullen, zoals een mand in de badkamer of een la in de vriezer. Alles wat daar ligt, wordt na een vaste termijn weggehaald. Ideaal voor shampooflessen, eten in de vriezer en vergeten spullen.
+@@1635
+Methode B
+@@1636
+Het labelsysteem
+@@1637
+Leg tape en een stift neer bij de gedeelde opbergruimte (koelkastdeur, voorraadkast). Gasten zetten hun naam op hun spullen. Alles zonder label wordt opgeruimd.
+@@1638
+Belangrijke plekken:
+@@1639
+Flessen in de douche
+@@1640
+Vriezer &amp; koelkastdeur
+@@1641
+Lades &amp; planken zonder label
+@@1642
+Losse spullen in gemeenschappelijke ruimtes
+@@1643
+Begin met een grondige schoonmaak
+@@1644
+Maak de keuken, badkamer en gang schoon. Dat is het beste moment om vergeten spullen, verlopen eten en dingen die ruimte innemen te ontdekken. Verplaats ze daarna naar je plek voor weg te halen spullen, of begin met labelen.
+@@1645
+Communiceer duidelijk en vriendelijk
+@@1646
+Ook als je iemand persoonlijk hebt gesproken: stuur een bericht met de methode en een korte termijn. Stuur een herinnering de dag voordat je iets weghaalt.
+@@1647
+Kies een duidelijke datum om op te ruimen
+@@1648
+Geef mensen 48–72 uur om hun spullen op te halen en haal daarna weg wat er nog ligt. Optioneel: laat achtergebleven spullen “adopteren” voordat ze worden weggegooid.
+@@1649
+Je kunt deze na de grondige schoonmaak versturen via WhatsApp, Airbnb of een groepsbericht:
+@@1650
+Berichttemplate: aankondiging opruimronde
+@@1651
+Pas de delen tussen [haakjes] aan en kopieer de tekst. Je wijzigingen worden op dit apparaat opgeslagen.
+@@1652
+Berichttemplate: laatste herinnering
+@@1653
+Vaste woninginspecties
+@@1654
+(elke 6 maanden)
+@@1655
+Hoe schoon en goed beheerd je woning ook is, slijtage is onvermijdelijk. Daarom is een volledige opknapbeurt{1} elke 6 maanden{2} essentieel om de standaard hoog te houden, klachten te voorkomen en je woning fris en professioneel te laten ogen. Dit kun je zelf doen of door een manager laten doen.
+@@1656
+Het hoeft geen enorme renovatie te zijn; zie het als een grondige onderhoudsbeurt.
+@@1657
+Inspectie van onderhoud
+@@1658
+Vul gaatjes of krassen in de muur met plamuur of vulmiddel
+@@1659
+Schilder beschadigde of vlekkerige plekken bij voor een strakke afwerking
+@@1660
+Controleer op tekenen van schimmel, lekkages of vocht
+@@1661
+Draai losse schroeven vast (planken, handgrepen, armaturen)
+@@1662
+Vervang ontbrekende of kapotte spullen (afstandsbedieningen, keukengerei, lampen)
+@@1663
+Maak luchtfilters grondig schoon of vervang ze, en controleer de airco’s
+@@1664
+Inspectie van de schoonmaak
+@@1665
+Zelfs met een geweldige schoonmaker kunnen sommige dingen na verloop van tijd over het hoofd worden gezien. Kom onverwacht langs of vraag je manager om een rondleiding via videobellen. Controleer deze vaak vergeten details:
+@@1666
+De binnenkant van de prullenbak (schoon of stinkt hij?)
+@@1667
+De binnenkant van de magnetron (schoon?)
+@@1668
+De binnenkant van de vriezer (opgehoopte spullen of ijs?)
+@@1669
+Lichtschakelaars (vies of werken ze niet?)
+@@1670
+Stopcontacten (schoon?)
+@@1671
+Achter deuren, onder bedden en op de bovenste planken
+@@1672
+Start een nieuwe inspectie
+@@1673
+Download als pdf om te printen
+@@1674
+Met deze opknapbeurt om de 6 maanden:

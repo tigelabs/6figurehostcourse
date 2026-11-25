@@ -1,0 +1,242 @@
+@@1675
+✓ Voorkom je negatieve beoordelingen
+@@1676
+✓ Houd je je onderhoudsbudget laag
+@@1677
+✓ Behoud je woning op lange termijn zijn waarde
+@@1678
+Consistentie is alles.
+@@1679
+ Zet een terugkerende herinnering in je agenda en maak het onderdeel van je hostingsysteem. Een goed onderhouden woning zorgt ervoor dat gasten terugkomen.
+@@1680
+Bonus: checklists, woninghandleiding en inventaris
+@@1681
+Checklists voor woninginspecties
+@@1682
+Om de standaard in al je woningen hoog te houden, zijn duidelijke inspectiesystemen essentieel. Met de onderhoudschecklist ziet je manager kleine problemen en lost hij ze op voordat het dure reparaties worden, zodat alles werkt, veilig is en klaar is voor gasten.
+@@1683
+De checklist voor de schoonmaakinspectie zorgt ervoor dat je woning schoon, opgeruimd en hygiënisch blijft, verder dan de gewone wissel, met de nadruk op grondigere taken die vaak over het hoofd worden gezien. Gebruik beide lijsten regelmatig (minstens één keer per maand voor onderhoud en wekelijks voor schoonmaak) om je woning te beschermen, indruk te maken op gasten en negatieve beoordelingen te beperken.
+@@1684
+Checklist onderhoudsinspectie
+@@1685
+Gebruik hem minstens één keer per maand.
+@@1686
+Checklist schoonmaakinspectie
+@@1687
+Gebruik hem wekelijks.
+@@1688
+Maak je eigen kopie
+@@1689
+Dit is je centrale plek voor alles rond de woning. Van hoe je incheckt en waar de extra handdoeken liggen tot contactgegevens voor noodgevallen, instructies voor apparaten en handleidingen voor het aanvullen: het staat er allemaal in.
+@@1690
+Of je nu een nieuw teamlid inwerkt, op afstand beheert of gewoon wilt dat alles soepel loopt: met dit centrale systeem zit iedereen op één lijn en draait je hostingbedrijf als een geoliede machine.
+@@1691
+Vul hem één keer in, hier in de cursus, en kopieer of download hem daarna voor je team.
+@@1692
+Open je woninghandleiding
+@@1693
+Schoonmaakchecklists voor wisselingen &amp; grote schoonmaak
+@@1694
+Consistentie is essentieel voor een gastervaring van hoge kwaliteit, en dat begint met een duidelijk systeem. Met deze checklists volgen jij of je team elke keer hetzelfde proces, zodat je woning brandschoon, functioneel en gastvrij blijft.
+@@1695
+Print je checklists en hang ze op een zichtbare plek, het liefst gelamineerd zodat je ze opnieuw kunt gebruiken. Gebruik uitwisbare stiften om taken af te vinken zonder opnieuw te printen.
+@@1696
+Voeg referentiefoto’s toe van hoe het bed opgemaakt wordt en van de belangrijkste plekken in de woning. Zo blijft je team consequent en ziet de ruimte er altijd precies zo uit als op de foto’s van de advertentie.
+@@1697
+Checklist voor wisselingen
+@@1698
+37 stappen in de volgorde die je schoonmaker de meeste tijd bespaart.
+@@1699
+Checklist voor de grote schoonmaak
+@@1700
+Taken per zone, elk met een frequentie en een datumraster om af te vinken.
+@@1701
+Checklist zwembad &amp; tuin
+@@1702
+Planten, tuin en zwembad, met frequenties.
+@@1703
+Overzicht van de inventaris
+@@1704
+Je voorraad en beddengoed bijhouden is essentieel voor een soepele operatie, vooral als je opschaalt of met een team werkt. Met dit inventarisoverzicht blijf je georganiseerd, voorkom je tekorten op het laatste moment en vul je efficiënter in grote hoeveelheden aan.
+@@1705
+Tracker voor voorraad en beddengoed.
+@@1706
+{1}← Terug{2}Bouw je droomteam
+@@1707
+{1}Volgende →{2}Automatiseer voor passief inkomen
+@@1708
+Deel 3 · Les 12
+@@1709
+Automatiseer voor passief {1}inkomen{2}
+@@1710
+Self check-in, wat je automatiseert, wat je delegeert.
+@@1711
+{1}1{2}Zo zet je self check-in op
+@@1712
+{1}2{2}Wat je automatiseert en wat je delegeert
+@@1713
+{1}3{2}Communicatiesystemen voor je team
+@@1714
+{1}4{2}Bonus: ingeplande berichten die persoonlijk aanvoelen
+@@1715
+Zo zet je self check-in op
+@@1716
+(sleutels, sloten en codes)
+@@1717
+Self check-in is een van de beste systemen die je als host kunt opzetten. Het bespaart tijd, vermindert stress en laat gasten aankomen wanneer het hun uitkomt, zelfs midden in de nacht. {1}Zo maak je het soepel en veilig, in 5 stappen.{2}
+@@1718
+Kies je manier van self check-in
+@@1719
+Tik op de methode die je gaat gebruiken:
+@@1720
+Slim slot
+@@1721
+Een unieke digitale code voor elke gast, op afstand beheerd. Ideaal voor volledige automatisering (TTLock, Nuki, Igloohome). {1}Koop er een die ook met een sleutel opengaat{2}, voor noodgevallen.
+@@1722
+Mijn check-inmethode
+@@1723
+Sleutelkluisje
+@@1724
+Een fysiek kluisje met een code waarin een sleutel zit. Makkelijk op te zetten, vooral als je voordeur een gewone sleutel heeft.
+@@1725
+Slimme deurbel
+@@1726
+In een gebouw met een intercom opent een apparaat zoals Nuki Opener, Bticino Home+Control of Ring Intercom de buitendeur als de gast aanbelt. {1}Combineer het met een slim slot{2} voor check-ins die volledig op afstand gaan.
+@@1727
+Sleuteloverdracht
+@@1728
+Op een locatie in de buurt, of persoonlijk door je team. Minder ideaal, maar handig als digitale toegang niet mogelijk is. Let wel op de openingstijden.
+@@1729
+Bedien alles op afstand met een hub
+@@1730
+Koppel je slimme slot of slimme deurbel aan een wifi-gateway of smart home-hub (zoals de Nuki Bridge, de TTLock Gateway of Amazon Alexa). Dan kun je overal vandaan codes wijzigen en de deur openen, zonder dat je er hoeft te zijn.
+@@1731
+Tip voor sleuteloverdracht
+@@1732
+We gebruiken
+@@1734
+ voor twee van onze appartementen: gasten halen de sleutels op bij partnerwinkels, kluisjes of cafés in de buurt.
+@@1735
+Waar je het plaatst
+@@1736
+Stevig bevestigd aan een muur, hek of reling bij de ingang, ’s avonds goed verlicht, en met foto’s uitgelegd in je check-in-gids.
+@@1737
+Zorg dat wifi of bluetooth goed werkt bij de deur, en test of de code werkt voordat de gast aankomt.
+@@1738
+Stel je codes in
+@@1739
+Een unieke code per boeking, actief van de check-in tot de check-out, plus een mastercode voor noodgevallen.
+@@1740
+Wijzig de code af en toe als dat nodig is (bijvoorbeeld als je denkt dat hij is doorgegeven). Gebruik nooit voor de hand liggende codes zoals 0000 of 1234.
+@@1741
+Maak een waterdichte check-in-gids
+@@1742
+Stel je je gast voor: moe, misschien met een jetlag, voor een gebouw dat hij nog nooit heeft gezien. {1}Je instructies moeten zo duidelijk zijn dat zelfs een kind ze kan volgen.{2}
+@@1743
+Stapsgewijze instructies, van het toegangshek tot de precieze plek van het sleutelkluisje
+@@1744
+Foto’s van de ingang, het slot en de route naar de deur, met pijlen en markeringen
+@@1745
+Wifi, parkeren en alles wat ze nodig hebben voordat ze naar binnen gaan
+@@1746
+Dezelfde stappen ook uitgeschreven in je bericht, ook als je afbeeldingen of een pdf stuurt
+@@1747
+Verstuurd de dag ervoor of op de ochtend van de check-in
+@@1748
+AI-snelkoppeling:
+@@1749
+ vraag ChatGPT of Claude om van je foto’s een duidelijke check-in-gids met genummerde stappen te maken, zoals deze.
+@@1750
+Batterijen raken leeg en codes werken soms niet meer. Zorg altijd voor een plan B:
+@@1751
+Een verstopte reservesleutel in de buurt
+@@1752
+Een buur, co-host of manager vlakbij
+@@1753
+Een mastercode of handmatige ontgrendeling
+@@1754
+Digitale sloten
+@@1755
+Superhandig, maar iemand moet regelmatig de batterijen controleren en vervangen. Prima, zolang je team het goed bijhoudt.
+@@1756
+Fysieke sleutels
+@@1757
+Die raken vaak kwijt. In Barcelona verliezen gasten ze soms als hun tas wordt gestolen, en velen vergeten ze terug te leggen op de juiste plek.
+@@1758
+{1}Self check-in is alleen stressvrij als het betrouwbaar werkt.{2} Test je systeem, werk je instructies regelmatig bij en houd altijd een reservesleutel of contactpersoon paraat.
+@@1759
+Wat je automatiseert en wat je delegeert
+@@1760
+De sleutel tot een bedrijf met minder stress is weten wat je {1}automatiseert{2}, wat je {3}delegeert{4} en wat echt {5}jou{6} nodig heeft.
+@@1761
+Automatiseer
+@@1762
+wat zich herhaalt
+@@1763
+Delegeer
+@@1764
+het fysieke werk
+@@1765
+Houd zelf
+@@1766
+wat het bedrijf laat groeien
+@@1767
+Automatiseer: alles wat steeds op dezelfde manier gebeurt
+@@1768
+Ingeplande berichten
+@@1769
+Gebruik ingeplande berichten in de Airbnb-inbox voor welkomstberichten, check-ininformatie, instructies voor de check-out, verzoeken om een beoordeling en antwoorden op veelgestelde vragen. Je vindt de templates in de bonus hieronder.
+@@1770
+Houd het simpel.
+@@1771
+ Zou een kind van 5 het begrijpen? Reizigers hebben een korte spanningsboog. Deel in het check-inbericht alleen wat ze nodig hebben om binnen te komen. Lokale tips zet je in een aparte link of in een vervolgbericht op de dag na aankomst.
+@@1772
+Zet “versturen bij last-minute boekingen en korte verblijven” aan
+@@1773
+Voor belangrijke berichten, zodat ook last-minute gasten ze ontvangen, ongeacht wanneer of hoelang ze boeken.
+@@1774
+Zet deze schakelaar aan
+@@1775
+Voeg je check-infoto’s toe aan het bericht
+@@1776
+Airbnb staat nu foto’s toe in ingeplande berichten. Voeg je stapsgewijze check-infoto’s één keer toe, en elke gast krijgt ze automatisch. Voor jou praktisch geen werk.
+@@1777
+Prijzen
+@@1778
+Een tool voor dynamische prijzen zoals PriceLabs, Wheelhouse of Beyond Pricing past je prijzen per nacht aan op vraag, evenementen en concurrentie. Met de {1}regelsets{2} van Airbnb zelf kun je prijzen ook automatisch verhogen of verlagen, bijvoorbeeld voor last-minutekortingen of het hoogseizoen.
+@@1779
+Regelsets van Airbnb
+@@1780
+Kalenders, sloten en schoonmaak
+@@1781
+Kalendersynchronisatie
+@@1782
+Ook op andere platforms (Booking.com, Vrbo)? Synchroniseer je kalenders om dubbele boekingen te voorkomen.
+@@1783
+Slimme sloten
+@@1784
+Codes die op afstand worden aangemaakt en per gast automatisch worden geactiveerd of gedeactiveerd.
+@@1785
+Kalendertoegang voor je schoonmaker
+@@1786
+Geef je schoonmaker toegang tot de kalenderweergave, zodat die altijd de komende boekingen ziet (zonder toegang tot berichten, zodat je verdiensten niet zichtbaar zijn).
+@@1787
+Houd het gesprek op Airbnb, niet op WhatsApp
+@@1788
+Stuur gasten niet door naar WhatsApp. Dan moet je op twee plekken antwoorden, en alleen berichten in de Airbnb-chat tellen mee voor het supportteam van Airbnb. Is er een incident, een conflict of beweert een gast dat je iets hebt gezegd, dan worden berichten buiten Airbnb niet meegenomen.
+@@1789
+We geven alleen een telefoonnummer voor noodgevallen. Als gasten daar toch om de check-ininstructies vragen, antwoorden we met één zin en reageren we daarna netjes in de Airbnb-chat:
+@@1790
+Jij, op WhatsApp
+@@1791
+Dit is een nummer voor noodgevallen. Ik reageer in de Airbnb-chat.
+@@1792
+{1}Zo trek je de grens.{2} Vanaf dan praat de gast met je via Airbnb.
+@@1793
+Delegeer: alles waarvoor fysieke aanwezigheid of persoonlijk contact nodig is
+@@1794
+Je moet je eigen woning niet schoonmaken of laat op de avond check-ins doen. Bouw een team dat je vertrouwt voor alles ter plaatse:
+@@1795
+Schoonmaak &amp; was
+@@1796
+Een betrouwbare schoonmaker en een standaardchecklist, zodat het elke keer op dezelfde manier gebeurt.

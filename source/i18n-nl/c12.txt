@@ -1,0 +1,224 @@
+@@1270
+Be firm when needed
+@@1271
+If a guest breaks a house rule or causes damage, be polite but direct. Point to the listing and house rules they agreed to when booking.
+@@1272
+As stated in the house rules, parties are not allowed. Due to the disturbance and cleanup required, we’ll need to charge an additional fee to cover the extra cleaning and guest compensation.
+@@1273
+Don’t take it personally
+@@1274
+Not every review will be 5 stars, and not every guest will behave perfectly. Learn from each case, improve your systems and keep going. Over time you’ll face fewer problems.
+@@1275
+You never know what someone is going through. Traveling makes people tired, anxious or irritable. Arguing, even when you’re completely right, rarely ends well.
+@@1276
+Our golden rule
+@@1277
+{1}Kill them with kindness.{2} Acknowledge their experience, show understanding and tell them you’ll do your best to help. This simple shift in tone can calm a tense situation and turn a potential conflict into a positive review.
+@@1278
+Handling complaints or damages is part of the business. The faster and more professionally you respond, the better your reviews and your peace of mind.
+@@1279
+At the end of this lesson, you’ll get access to a ready-to-use 'Quick Replies Library' with message templates to handle common issues. You can copy and paste them directly to save time and respond professionally in any situation.
+@@1280
+How to be a 5-star host
+@@1281
+Being a 5-star host doesn’t mean being available 24/7 or bending over backward for every request. It means creating a seamless, thoughtful experience {1}before, during and after{2} the stay. Great service is often what separates a 4-star review from a 5-star one.
+@@1282
+Before check-in
+@@1283
+Proactive communication
+@@1284
+Send a warm, clear pre-arrival message: address, check-in time, how to get there and how to get in (see the bonus templates)
+@@1285
+Ask for their arrival time and any special needs
+@@1286
+Answer questions before they ask: Wi-Fi, local tips, what to expect
+@@1287
+Be friendly but professional. You’re setting the tone.
+@@1288
+During the stay
+@@1289
+Available, not intrusive
+@@1290
+Check in after the first night. A simple “Hope everything’s going well! Let me know if you need anything” goes a long way.
+@@1291
+Make sure your welcome booklet or digital guide answers the FAQs
+@@1292
+If a problem comes up, respond fast and keep the guest informed, even if you can’t fix it right away
+@@1293
+After check-out
+@@1294
+Leave a lasting impression
+@@1295
+Thank them for staying and invite them to leave a review
+@@1296
+If you solved a problem, mention it: “Thanks again for your patience with the plumbing issue, we’re glad we could sort it quickly!”
+@@1297
+The cherry on top
+@@1298
+Tell them you’re leaving them 5 stars
+@@1299
+Most guests simply check out and never leave a review. A short message after check-out changes that. When you tell guests they were great and that you’re leaving them a 5-star review, they’re much more likely to review you back, and to give you 5 stars too.
+@@1300
+Thank you so much for staying with us! You were amazing guests, and we’ve just left you a 5-star review. If you enjoyed your stay, we’d be so grateful if you left us one too. Safe travels!
+@@1301
+Be human
+@@1302
+A warm tone beats robotic professionalism.
+@@1303
+Be clear
+@@1304
+Clear instructions and expectations reduce stress.
+@@1305
+Be honest
+@@1306
+If something goes wrong, own it and offer a solution.
+@@1307
+Be kind
+@@1308
+Especially with complaints, empathy always wins.
+@@1309
+Customer service isn’t just about fixing problems. It’s about showing guests you care. When they feel cared for, they leave happier, review better and recommend your place.
+@@1310
+Bonus: 'quick replies' library
+@@1311
+Here’s your ready-to-use library of quick replies for guest communication. These messages are designed to save you time, deliver consistent service, and handle common questions with ease. You can personalize them by filling in the blanks and manually adding each one into the Airbnb app.
+@@1312
+Great communication = great reviews.
+@@1313
+How to use the library
+@@1314
+{1}Where they go:{2} if you use Airbnb, you can add them manually in the app, under “Quick replies”. You add each one by hand once. It takes a bit of effort upfront, but it saves you hours in the long run.
+@@1315
+{1}Automatic or not:{2} quick replies are {3}not automatic{4}. You pick one and send it when a guest asks. The messages that go out on their own are the five {5}scheduled messages in Lesson 12{6}.
+@@1316
+{1}Before you save one:{2} replace everything in [brackets] with your own details. Your edits stay saved here on this device.
+@@1317
+{1}01 · 7 replies{2}Before reserving
+@@1318
+A guest asks before they book. Answer by hand; a fast, clear reply wins the booking.
+@@1319
+Is the property private or shared with other guests?
+@@1320
+Quick reply. Edit the [brackets], then copy it into Airbnb › Quick replies.
+@@1321
+Amount of people in the property
+@@1322
+Asks if it is possible to check in at night
+@@1323
+{1}Careful with check-ins after midnight: some guests try to get a free night.{2} A night belongs to the date it starts. If a guest arrives at 1:00 AM on the 7th, they need to book from the 6th. Some guests book from the 7th instead and still expect to check in at 1:00 AM, which means they’d stay the night of the 6th for free. Always confirm the dates with this reply before you accept.
+@@1324
+Check-in at night, if it is past 00h
+@@1325
+Can I get a discount if I stay for a month? (if you don’t offer one)
+@@1326
+Can I get a discount if I stay for a month? (if you do)
+@@1327
+Can I visit the property?
+@@1328
+{1}02 · 6 replies{2}Before check-in
+@@1329
+The booking is confirmed and the guest has a question or wants to change something.
+@@1330
+Is there car park?
+@@1331
+Someone books for another person
+@@1332
+Can I cancel and get a full refund? (strict cancellation policy, recommended)
+@@1333
+Luggage storage before check-in
+@@1334
+Exception to the cancellation policy (full refund within 12h after booking)
+@@1335
+Only when someone wants to cancel within 12 hours after booking do we allow a full refund (when someone simply made a mistake).
+@@1336
+Wants to change dates within 14 days of check-in
+@@1337
+Unless the guest wants to add more dates to an already existing booking: that is possible. Some guests want to be sneaky and trick us by changing the dates to later and then, once we accept, they cancel the booking to get a full refund (because they moved the date further ahead, so the cancellation policy allows it).
+@@1338
+{1}03 · 2 replies{2}During check-in
+@@1339
+Questions about arriving and finding the place.
+@@1340
+Transfer from the airport
+@@1341
+How to get to the villa
+@@1342
+{1}04 · 1 reply{2}During the stay
+@@1343
+The guest is in the property.
+@@1344
+Cancellation, wants money back
+@@1345
+{1}05 · 5 replies{2}Checkout
+@@1346
+Checkout day: luggage and late checkouts.
+@@1347
+Luggage storage after checkout: yes (shared property)
+@@1348
+Luggage storage after checkout: yes (private property)
+@@1349
+Luggage storage after checkout: not possible
+@@1350
+Room is locked past checkout
+@@1351
+Before writing this, try calling the guest first (their phone number is in their profile).
+@@1352
+Not checked out after 11am
+@@1353
+{1}06 · 2 replies{2}Troubleshoot
+@@1354
+Something went wrong for the guest.
+@@1355
+I thought it was private but it’s shared
+@@1356
+Lost my room key
+@@1357
+{1}07 · 5 replies{2}Complaints
+@@1358
+Mostly for shared properties. Stay neutral and kind.
+@@1359
+Noise complaint (in general), shared property
+@@1360
+Complaint: loud noise (specific guest), shared property
+@@1361
+Guests leaving clutter, shared property
+@@1362
+Reply to complaint, shared property
+@@1363
+Help, there is a spider in my room
+@@1364
+{1}← Back{2}Create a listing that sells
+@@1365
+{1}Next →{2}Build your dream team
+@@1366
+Part 3 · Lesson 10
+@@1367
+You’re not doing this alone. Build your dream {1}team{2}
+@@1368
+Agency or own team, and how to find reliable people.
+@@1369
+4 sections · about 20 min
+@@1370
+{1}1{2}Hiring an agency or creating your own team
+@@1371
+{1}2{2}Building your own team
+@@1372
+{1}3{2}How to find reliable people
+@@1373
+{1}4{2}Bonus: contract and agreement templates
+@@1374
+Hiring an agency or creating your own team
+@@1375
+We personally started by doing everything ourselves, not because we wanted to, but because we didn’t have the budget for a team in the beginning. And honestly, it was one of the best ways to learn the business inside out. But let’s be real: cleaning toilets and fixing light bulbs isn’t what grows your business.
+@@1376
+While it’s helpful to understand how every part works, the manager role is by far the most important. That’s the person who keeps operations running, guests happy, and problems solved.
+@@1377
+Our recommendation: start small but strategic. Begin by hiring one cleaner (and make sure you also have a backup option), and find a reliable freelance handyman who can handle basic maintenance. {1}You don’t have to hire them officially.{2} If you rent out as a private individual or as self-employed, you can work with them as freelancers. Just put your agreement in writing: that’s always better for both sides.
+@@1378
+Then, for the first few weeks, manage the listing yourself. Respond to guests, handle check-ins, deal with minor issues, and file damage requests with Airbnb.
+@@1379
+This will teach you the platform, the guest journey, and the kinds of things that actually come up.
+@@1380
+Once that’s running smoothly and you know what the job involves, you’ll be in a much better position to hire a manager. You’ll understand how long tasks take, what tools they need, and what quality looks like.
+@@1381
+Ideally, your manager should live near the property so they can also serve as the emergency contact, someone who can be on-site quickly if there’s ever an issue while you’re away.

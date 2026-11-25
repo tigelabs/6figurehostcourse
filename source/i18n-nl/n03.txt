@@ -1,0 +1,217 @@
+@@454
+Soort regel
+@@455
+Wat het betekent
+@@456
+Voorbeeld
+@@457
+Minimale verblijfsduur
+@@458
+Sommige steden staan kortetermijnverhuur alleen toe als het verblijf langer is dan een bepaald aantal dagen.
+@@459
+{1}Barcelona:{2} alleen toegestaan bij verblijven van 31+ dagen, tenzij je een toeristenvergunning hebt
+@@460
+Toeristenvergunning of vergunning
+@@461
+Veel steden vereisen een speciale vergunning om legaal te verhuren.
+@@462
+{1}Parijs:{2} registratienummer en vergunning verplicht voor kortetermijnverhuur
+@@463
+Bestemmingsbeperkingen
+@@464
+Niet alle gebieden in een stad staan kortetermijnverhuur toe.
+@@465
+{1}New York:{2} in sommige gebouwen en zones is kortetermijnverhuur volledig verboden
+@@466
+Hoofdverblijfplaats verplicht
+@@467
+In sommige steden mag je alleen je hoofdverblijf verhuren en geen beleggingspand.
+@@468
+{1}San Francisco:{2} moet je hoofdverblijf zijn en bij de stad geregistreerd zijn
+@@469
+Maximum aantal verhuurnachten
+@@470
+Sommige plekken beperken hoeveel nachten per jaar je een woning mag verhuren.
+@@471
+{1}Londen:{2} max. 90 nachten per jaar zonder vergunning
+@@472
+Regels van VvE en woningcorporaties
+@@473
+Appartementsgebouwen en verenigingen van eigenaars kunnen hun eigen beperkingen hebben.
+@@474
+{1}Verschilt:{2} controleer de regels van het gebouw altijd los van de gemeentelijke wetgeving
+@@475
+Stad en land waar je wilt hosten
+@@476
+AI-prompt: ontdek de lokale verhuurregels in jouw gebied
+@@477
+Kopiëren
+@@478
+Kun je me helpen de actuele regels te vinden voor het verhuren van een woning in {1}{2}? Ik wil de regels begrijpen voor kortetermijnverhuur (korter dan 1 maand), verhuur op middellange termijn (1 tot 6 maanden) en langetermijnverhuur, en voor het onderverhuren van een woning die ik huur (rental arbitrage).
+
+Voor elk type verhuur wil ik weten:
+- Of het legaal is, en onder welke voorwaarden
+- Of ik een vergunning, toestemming of registratie nodig heb
+- Eventuele regels over minimale of maximale verblijfsduur, of een maximum aantal nachten per jaar
+- Belastingverplichtingen (inkomstenbelasting, toeristenbelasting)
+- Bestemmingsbeperkingen, regels over hoofdverblijf of regels van het gebouw/de VvE
+- Waar een verhuurder mee moet instemmen als ik wil onderverhuren
+- Of ik dit als particulier kan doen, of me moet inschrijven als zelfstandige of als bedrijf
+
+Voeg waar mogelijk nuttige links of bronnen naar officiële overheidswebsites toe.
+
+Sluit af met een korte samenvatting die ik in mijn notities kan kopiëren, in dit format:
+- Kortetermijnverhuur (korter dan 1 maand): toegestaan / niet toegestaan / onder voorwaarden
+- Verhuur op middellange termijn (1–6 maanden): toegestaan / niet toegestaan / onder voorwaarden
+- Langetermijnverhuur: toegestaan / niet toegestaan / onder voorwaarden
+- Onderverhuur (rental arbitrage): toegestaan / niet toegestaan / onder voorwaarden
+- Vergunning nodig: ja / nee (en welke)
+- Minimale verblijfsduur: ...
+- Belastingen: ...
+- Andere belangrijke regels: ...
+@@479
+Kopieer en open in:
+@@483
+Jouw notities: wat je hebt gevonden over de lokale regels
+@@484
+Juridische opzet: particulier, zelfstandige of bedrijf?
+@@485
+Laten we eerlijk zijn: niemand wordt blij van juridisch papierwerk. Gelukkig heb je geen ingewikkelde juridische opzet nodig om te beginnen. Maar het is wel belangrijk dat je je opties kent en je inkomsten vanaf dag één aangeeft.
+@@486
+Je hebt drie belangrijke opties: {1}verhuren als particulier, starten als zelfstandige of een bedrijf oprichten.{2} Wat het best past, hangt af van je land, wat je je gasten aanbiedt en hoe groot je wilt groeien.
+@@487
+Optie 1: verhuren als particulier
+@@488
+Veel mensen weten dit niet: {1}in veel landen kun je als particulier een woning verhuren, zonder je in te schrijven als zelfstandige of een bedrijf op te richten.{2} Je geeft de huurinkomsten gewoon één keer per jaar op in je persoonlijke belastingaangifte, en meestal kun je kosten als huur, energie, meubels en schoonmaak aftrekken.
+@@489
+Dit werkt meestal als:
+@@490
+{1}Je alleen de ruimte verhuurt.{2} Schoonmaken tussen gasten, sleutels en basisonderhoud zijn normaal voor elke verhuurder.
+@@491
+{1}Je tijdens het verblijf geen hotelachtige diensten aanbiedt,{2} zoals een receptie, dagelijkse schoonmaak, maaltijden, was of luchthavenvervoer.
+@@492
+{1}Je het klein houdt:{2} één of een paar advertenties, en geen personeel op de loonlijst.
+@@493
+Zodra je hotelachtige diensten gaat aanbieden of uitgroeit tot een echte onderneming met personeel, zien de belastingdiensten het meestal als een bedrijf. Dan moet je je inschrijven als zelfstandige of een bedrijf oprichten, en in sommige landen reken je ook btw.
+@@494
+Voorbeeld: zo werkt het
+@@495
+Spanje
+@@496
+Als je een appartement dat je bezit verhuurt zonder hotelachtige diensten, geef je dat op als huurinkomsten in je jaarlijkse aangifte inkomstenbelasting (IRPF). Je hoeft geen autónomo te worden. Als je een woning onderverhuurt die je huurt (rental arbitrage), wordt het inkomen ook belast via je jaarlijkse aangifte, tenzij het als bedrijf wordt gerund. Bied je hotelachtige diensten aan, dan wordt het een bedrijf: je schrijft je in als autónomo en rekent meestal 10% btw.
+@@497
+België
+@@498
+Als je één of een paar woningen verhuurt zonder extra diensten, kan dat als particulier. Je geeft het op in je jaarlijkse belastingaangifte: voor de woning wordt de belasting berekend op basis van het {1}kadastraal inkomen{2}, en als de woning gemeubileerd is, telt 40% van de huur als inkomsten uit het meubilair. Bied je diensten aan zoals ontbijt of schoonmaak tijdens het verblijf, en doe je dat regelmatig? Dan wordt het een beroepsactiviteit: je schrijft je in als zelfstandige (dat kan ook als nevenactiviteit, {3}zelfstandige in bijberoep{4}) en rekent meestal 6% btw.
+@@499
+Verenigde Staten
+@@500
+De meeste hosts geven hun huurinkomsten op als huurinkomsten op Schedule E, zonder self-employment tax. Als je substantiële diensten levert, zoals dagelijkse schoonmaak, maaltijden of conciërgediensten, telt het als bedrijf (Schedule C).
+@@501
+{1}Geef je inkomsten altijd op.{2} Sinds 2023 delen platforms als Airbnb en Booking.com de inkomsten van hosts met de belastingdienst, voor elke advertentie in de EU. Verhuren als particulier betekent niet belastingvrij: het betekent alleen minder administratie.
+@@502
+Optie 2 en 3: zelfstandige of bedrijf
+@@503
+Als je groeit, hotelachtige diensten aanbiedt of een team aanneemt, is het tijd voor een officiële opzet.
+@@504
+Categorie
+@@505
+Zelfstandige
+@@506
+Richt een officieel bedrijf op
+@@507
+Snel starten met weinig risico en minimale kosten
+@@508
+Je bedrijf opschalen, mensen aannemen en jezelf juridisch beschermen
+@@509
+• Makkelijk en goedkoop om in te schrijven{1}• Minder papierwerk en administratie{2}• Ideaal om het eerst uit te proberen
+@@510
+• Scheidt privé- en bedrijfsvermogen{1}• Meer geloofwaardigheid bij verhuurders en banken{2}• Mogelijke belastingvoordelen{3}• Makkelijker om partners te vinden of kapitaal op te halen
+@@511
+• Geen juridische scheiding{1}• Je bent persoonlijk aansprakelijk{2}• Kan minder professioneel overkomen
+@@512
+• Ingewikkeldere opzet{1}• Doorlopende administratie en kosten{2}• Waarschijnlijk heb je een boekhouder nodig
+@@513
+Ideaal voor
+@@514
+Als je net begint of 1–2 advertenties met diensten beheert
+@@515
+Als je snel groeit, meerdere woningen beheert of een team aanneemt
+@@516
+Particulier
+@@517
+Geef de huurinkomsten op in je persoonlijke belastingaangifte.
+@@518
+Je alleen de ruimte verhuurt (schoonmaken tussen gasten mag).
+@@519
+Je tijdens het verblijf geen extra diensten aanbiedt.
+@@520
+Je schoonmaker of klusjesman als freelancer werkt.
+@@521
+Je land het toestaat.
+@@522
+Ik begin als particulier
+@@523
+Schrijf je in als freelancer of eenmanszaak.
+@@524
+Je tijdens het verblijf extra diensten aanbiedt, zoals ontbijt, was of vervoer.
+@@525
+Of je land staat niet toe dat je als particulier verhuurt.
+@@526
+Je zelf een paar advertenties runt, met hulp van freelancers.
+@@527
+Ik begin als zelfstandige
+@@528
+Bedrijf
+@@529
+Richt een officieel bedrijf op, zoals een bv.
+@@530
+Je meerdere woningen runt en blijft groeien.
+@@531
+Je medewerkers in loondienst wilt aannemen.
+@@532
+Je je privégeld gescheiden en beschermd wilt houden.
+@@533
+Je partners, investeerders of een zakelijke lening wilt.
+@@534
+Ik richt een bedrijf op
+@@535
+Zo controleer je het nog eens voordat je beslist
+@@536
+De regels zijn in elk land anders, dus vertrouw niet op één bron. Volg deze stappen om het zeker te weten:
+@@537
+{1}Begin met AI.{2} Gebruik de AI-prompt in Sectie 1 voor een snel overzicht. Het is een prima startpunt, maar AI kan zich vergissen of verouderde informatie geven.
+@@538
+{1}Kijk op de website van je belastingdienst.{2} Zoek op “woning verhuren” of “huurinkomsten” op de officiële site, bijvoorbeeld de Agencia Tributaria in Spanje, de FOD Financiën in België of de IRS in de VS. Veel belastingdiensten hebben ook een gratis telefoonlijn of chat.
+@@539
+{1}Kijk bij je gemeente of regio{2} naar vergunningen en registratie. Dat is een aparte vraag, los van belastingen.
+@@540
+{1}Praat met een lokale boekhouder of belastingadviseur{2} (in Spanje: een {3}gestor{4} of {5}asesor fiscal{6}). Vertel precies wat je van plan bent: eigen of gehuurde woning, hoelang gasten blijven en of je extra diensten aanbiedt.
+@@541
+{1}Vraag het antwoord op papier.{2} Vraag het per e-mail en bewaar het bij je documenten.
+@@542
+Beslis: particulier, zelfstandige of bedrijf (je hoeft je nog niet in te schrijven){1}Kies voorlopig alleen je opzet. Je kunt je inschrijven vlak voordat je advertentie online gaat of zodra je geld begint te verdienen.{2}
+@@543
+{1}← Terug{2}Kies je bedrijfsmodel
+@@544
+{1}Volgende →{2}Denk als een ondernemer
+@@545
+Deel 1 · Les 3
+@@546
+Denk als een ondernemer, {1}niet alleen als een host{2}
+@@547
+Mindset, extra inkomen en de tools die je nodig hebt.
+@@548
+4 secties · ongeveer 5 min
+@@549
+{1}1{2}Je angst om te beginnen overwinnen
+@@550
+{1}2{2}Denk groot: ons meest winstgevende appartement
+@@551
+{1}3{2}Creatieve manieren om extra geld te verdienen (optioneel)
+@@552
+{1}4{2}Onmisbare zakelijke tools voor hosts
+@@553
+Je angst om te beginnen overwinnen
+@@554
+Beginnen is vaak het moeilijkste deel. Het is heel normaal om je onzeker, zenuwachtig of zelfs overweldigd te voelen als je aan iets nieuws begint. Misschien denk je: “Wat als er iets misgaat?” of “Ben ik hier echt klaar voor?” Die twijfels zijn heel gewoon, maar ze zijn ook precies wat de meeste mensen aan de zijlijn houdt.

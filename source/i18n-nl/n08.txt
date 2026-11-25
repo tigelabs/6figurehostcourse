@@ -1,0 +1,192 @@
+@@884
+Omdat dit een bedrijf is, geen bijverdienste. Leg uit hoe je model de verhuurder een stabiele huur geeft, terwijl jij alle rompslomp van gastwisselingen, schoonmaak en communicatie regelt.
+@@885
+Je kunt ze ook laten zien wat ze winnen ten opzichte van een klassiek langetermijncontract, waarbij ze jarenlang aan dezelfde huurder vastzitten. Met dit model houden ze flexibiliteit: ze hoeven niet te wachten tot een lang contract afloopt om hun woning terug te krijgen. Als ze een noodgeval hebben of de woning gewoon nodig hebben, kunnen ze die met een veel kortere opzegtermijn terugvragen. En bovendien sluit jij een verhuurverzekering af.
+@@886
+{1}Extra troef{2}Bied aan om het appartement zelf te verbeteren
+@@887
+Als je een appartement met echt potentieel vindt, heb je nog een troef: {1}bied aan om op eigen kosten een paar verbeteringen te doen.{2} Voor dezelfde huur krijgt de verhuurder een beter appartement. Dat kan precies zijn wat van een “misschien” een “ja” maakt.
+@@888
+Ons voorbeeld
+@@889
+In een van onze appartementen vervingen we de oude vloer en maakten we van het bad een douche, wat ook veel makkelijker is bij de vaste schoonmaak. De vloer zag er erg oud uit, en alleen al door die te vervangen kreeg het hele appartement een make-over. Omdat het appartement er zoveel beter uitzag, konden we de kamers voor onze prijzen verhuren en meer verdienen.
+@@890
+De vloer vervangen
+@@891
+Waarom het zinvol kan zijn
+@@892
+Je neemt dit appartement als investering, dus je hebt al een budget voor de inrichting. Neem de kosten van de verbeteringen mee in dat budget en in je {1}winstcalculator{2}, en controleer of de hogere prijzen die je kunt vragen het terugverdienen.
+@@893
+Hoe je het inzet
+@@894
+{1}Vraag het eerst.{2} Misschien wil de verhuurder het werk zelf doen of betalen. Het is een onderhandeling, dus begin daar.
+@@895
+{1}Houd het als troef achter de hand{2} voor als de verhuurder twijfelt, niet als je openingsbod.
+@@896
+{1}Alleen als de cijfers kloppen.{2} De verbetering moet zich binnen je contractperiode terugverdienen.
+@@897
+{1}Leg alles schriftelijk vast{2}: wat je verandert, wie betaalt en wat er in het appartement blijft als je vertrekt.
+@@898
+Bonus: scripts, e-mailtemplates &amp; persoonlijke pitch
+@@899
+Om je te helpen verhuurders vol vertrouwen te benaderen, hebben we een set kant-en-klare scripts, e-mailtemplates en opzetjes voor een persoonlijke pitch toegevoegd. Ze zijn gebaseerd op echte gesprekken die voor ons werkten en zijn bedoeld om je aanbod professioneel en betrouwbaar te brengen, ook als je net begint.
+@@900
+Of je nu je eerste koude e-mail schrijft of aan tafel zit voor een afspraak: met deze templates spreek je helder, bouw je vertrouwen op en laat je verhuurders zien dat je serieus, goed voorbereid en prettig om mee samen te werken bent. Pas de details aan op jouw situatie en begin vol vertrouwen te pitchen.
+@@901
+Vul hieronder één keer je gegevens in. Ze worden automatisch aan elk template toegevoegd, zodat je ze meteen kunt kopiëren en plakken.
+@@902
+Naam van de verhuurder
+@@903
+Waar je de woning hebt gevonden
+@@904
+Soort gasten
+@@905
+Soort verblijven
+@@906
+Maandhuur die je biedt
+@@907
+Jouw naam
+@@908
+Jouw telefoonnummer
+@@909
+{1}01 · E-mail{2}Koude e-mail aan een verhuurder (eerste contact)
+@@910
+Koude e-mail aan een verhuurder
+@@911
+Onderwerp: Uw huurwoning
+
+Beste {1}{2},
+
+Ik zag uw woning {3}{4} en ik ben geïnteresseerd om die te huren. Ik heb een klein bedrijf in woningbeheer en vertel u graag meer over hoe wij werken.
+
+Staat u open voor een kort telefoongesprek of een afspraak deze week?
+
+Met vriendelijke groet,
+{5}{6}
+{7}{8}
+@@912
+{1}02 · Persoonlijk{2}Opzet voor een persoonlijke pitch (afspraak met de verhuurder)
+@@913
+Opzet voor een persoonlijke pitch
+@@914
+Begin met een klik maken:
+"Bedankt dat u de tijd neemt om af te spreken. Ik wil graag een huurconstructie uitleggen die voor ons allebei goed kan werken."
+
+Breng het aanbod:
+"Ik heb een klein verhuurbedrijf. Ik huur woningen en ontvang {1}{2} voor verblijven op {3}{4}. Al onze gasten hebben een geverifieerd identiteitsbewijs."
+
+Waarom het makkelijker is dan een gewone huurder:
+"U krijgt gegarandeerde betaling: de huur is elke maand op tijd. We werken met een professionele schoonmaker en klusjesman, dus de woning blijft altijd in uitstekende staat. Geen late betalingen, geen huurders achter wie u aan moet en geen verborgen schade aan het einde van een contract."
+
+Goede communicatie:
+"U heeft één aanspreekpunt: mij. Ik houd u op de hoogte en ben altijd makkelijk bereikbaar."
+
+Sluit vol vertrouwen af:
+"Zou u het een kans willen geven? We kunnen alles vastleggen in een duidelijke schriftelijke overeenkomst."
+@@915
+{1}03 · E-mail{2}Opvolgmail na een gesprek
+@@916
+Opvolgmail na een gesprek
+@@917
+Onderwerp: Opvolging van ons gesprek
+
+Beste {1}{2},
+
+Nogmaals bedankt dat u de tijd nam voor ons gesprek. Ik weet dat deze aanpak anders is dan een gewone verhuur voor lange termijn, dus ik zet de belangrijkste voordelen voor u graag op een rij, vooral vergeleken met de gebruikelijke risico’s voor verhuurders.
+
+Bij een gewone verhuur komt het vaak voor dat:
+- Huurders de huur niet op tijd betalen of helemaal stoppen met betalen
+- Woningen na vertrek in slechte staat worden achtergelaten
+- Het lastig is om de woning in te komen voor inspecties of onderhoud
+- Er discussies ontstaan over schade, de borg of wie verantwoordelijk is voor onderhoud
+
+Wat wij bieden is een zorgeloze, professionele constructie die uw woning beschermt en u gemoedsrust geeft:
+
+Maandhuur: {3}{4}, gegarandeerd en op tijd, elke maand
+Gasten: {5}{6} met een geverifieerd identiteitsbewijs
+Schoonmaak: professioneel schoongemaakt, veel vaker dan bij een gewone huurder
+Onderhoud: regelmatig geïnspecteerd en onderhouden door onze professionele klusjesman, zonder kosten voor u
+
+Ik voeg onze informatiebrochure over rental arbitrage bij, zodat u precies kunt zien hoe het werkt.
+
+Laat het me gerust weten als u vragen heeft. Ik leg alles graag uitgebreider uit.
+
+Ik hoor graag wat u ervan vindt,
+{7}{8}
+{9}{10}
+@@918
+Open de pdf in Google Drive
+@@919
+Download zoals hij is (pdf)
+@@920
+Aanpasbaar
+@@921
+Informatiebrochure voor verhuurders
+@@922
+{1}Gebruik deze pdf om jezelf voor te stellen aan verhuurders{2} en ze precies te laten begrijpen wat je doet en {3}hoe je verhuurmodel werkt.{4} Als je deze pdf bij je e-mail voegt, vergroot je je kansen, omdat hij {5}professioneel oogt en je idee duidelijk presenteert.{6}
+@@923
+Open je template
+@@924
+Opent het bewerkbare ontwerp in Canva, waar je je eigen naam, foto’s en cijfers toevoegt.
+@@925
+De deal sluiten
+@@926
+Pro-tips om de deal te sluiten
+@@927
+{1}Spreek hun taal.{2} Verkoop niet de droom van hosten. Verkoop gemoedsrust. Focus op hoe je voor hun woning zorgt, de huur op tijd betaalt en de beste huurder bent die ze ooit hebben gehad.
+@@928
+{1}Gebruik sociaal bewijs.{2} Laat voorbeelden zien van je advertenties, beoordelingen of ervaring. Ben je nieuw, deel dan wat je hebt geleerd en wat je plan is. Zelfvertrouwen wekt vertrouwen.
+@@929
+{1}Laat zien dat je de regels kent.{2} Leg precies uit wat er in hun gebied mag (bijvoorbeeld verblijven van 31+ nachten op middellange termijn) en hoe je je eraan houdt. Eigenaren worden rustiger als ze zien dat je je huiswerk hebt gedaan.
+@@930
+{1}Laat je systemen zien.{2} Neem de tools uit deze cursus mee: je woninghandleiding, schoonmaak- en inspectiechecklists, contracten voor je team en je huisregels. Zo laat je zien dat je dit professioneel aanpakt.
+@@931
+{1}Bied iets waar iedereen beter van wordt.{2} Denk na over wat de verhuurder het liefst wil: geen stress, een stabiel inkomen, een goed onderhouden woning. Je aanbod moet duidelijk aan die wensen voldoen.
+@@932
+{1}Weet waar je het over hebt.{2} Hoe zekerder je bent, en hoe beter je de officiële regels kent en weet hoe alles werkt, hoe meer eigenaren je zullen vertrouwen.
+@@933
+{1}Zet het altijd op papier.{2} Zodra ze ja zeggen, heb je een eenvoudige overeenkomst klaar om te tekenen. Dat beschermt beide partijen en laat zien dat je het serieus meent.
+@@934
+Zet het op papier
+@@935
+Een ja telt pas als het op papier staat. Wat je schriftelijk moet vastleggen, hangt af van je bedrijfsmodel:
+@@936
+{1}Rental arbitrage: voeg een onderverhuurclausule toe aan je huurcontract.{2} Je contract moet duidelijk vermelden dat je de woning mag onderverhuren. Zonder die clausule is onderverhuur niet toegestaan, ook al heeft de eigenaar mondeling ingestemd. Je kunt dit als startpunt gebruiken:
+@@937
+“De verhuurder geeft de huurder toestemming om de woning geheel of gedeeltelijk onder te verhuren aan derden voor verblijven op korte en middellange termijn, en om de woning aan te bieden op online verhuurplatforms. De huurder blijft volledig verantwoordelijk voor het betalen van de huur en voor de staat van de woning.”
+@@938
+Vraag een lokale advocaat of je verhuurbureau om de formulering te controleren, want de regels voor contracten verschillen per land.
+@@939
+{1}Co-hosting:{2} je tekent geen huurcontract. In plaats daarvan teken je een co-hostingovereenkomst met de eigenaar, waarin je taken staan, je commissie, wie wat betaalt en hoe jullie de samenwerking kunnen beëindigen.
+@@940
+{1}Een woning kopen:{2} je hebt niemands toestemming nodig om hem te verhuren, maar controleer de regels van het gebouw of de VvE en de lokale vergunningsregels {3}voordat{4} je de aankoop afrondt.
+@@941
+Tot slot
+@@942
+Je smeekt niet om toestemming. Je biedt een professionele dienst aan. Wees respectvol, maar duidelijk. Wees helder, maar flexibel. Je gaat heel wat nee’s horen, maar met de juiste pitch en de juiste houding krijg je dat ja.
+@@943
+Ga nu die deal sluiten!
+@@944
+{1}← Terug{2}Vind de juiste woning
+@@945
+{1}Volgende →{2}Richt je ruimte in
+@@946
+Deel 2 · Les 7
+@@947
+Richt een ruimte in die {1}zichzelf verhuurt{2}
+@@948
+Wat je koopt, hoe je het inricht, hoe je het gastproof maakt.
+@@949
+{1}1{2}Wat je echt nodig hebt
+@@950
+{1}2{2}Een ruimte inrichten die volgeboekt raakt
+@@951
+{1}3{2}Maak je ruimte gastproof
+@@952
+{1}4{2}Bonus: volledige inrichtingschecklist
+@@953
+Wat je echt nodig hebt
+@@954
+(en wat zonde van je geld is)
+@@955
+Als je je eerste woning inricht, is het verleidelijk om te denken dat je alles moet kopen. Maar het meeste daarvan is ruis. Waar het echt om gaat, is een ruimte creëren die {1}comfortabel en functioneel is en opvalt{2}, zonder je budget op te blazen.

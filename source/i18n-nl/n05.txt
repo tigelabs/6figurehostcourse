@@ -1,0 +1,175 @@
+@@639
+2. Vraag naar de woning zelf
+@@640
+Dit is het deel dat de meeste nieuwe hosts missen. {1}Veel gasten reizen helemaal niet voor de stad. Ze reizen voor het verblijf.{2} Ze zoeken geen bed vlak bij de supermarkt of de metro. Ze zoeken een ervaring, en rijden daar graag een uur extra voor.
+@@641
+Als de woning de reden voor de reis is, is een locatie die op papier “slecht” lijkt geen probleem meer. Het kan zelfs het verkoopargument worden: rustig, privé, midden in de natuur, ver weg van alles.
+@@642
+Een blokhut of boomhut in het bos, een uur van de dichtstbijzijnde stad, die stellen boeken voor een weekend zonder bereik.
+@@643
+Een villa midden in de rijstvelden, op 20 minuten van het strand en de restaurants, die gasten kiezen vanwege het uitzicht, het privézwembad en de stilte.
+@@644
+Een designhuis in een klein dorp met niets eromheen, geboekt voor verjaardagen en jubilea vanwege hoe het eruitziet op de foto’s.
+@@645
+Een boerderijverblijf of landhuis met een hottub, een open haard en dieren, waar gezinnen een paar dagen komen om helemaal tot rust te komen.
+@@646
+In al deze gevallen zocht niemand naar het dorp. Ze vonden een plek waar ze wilden verblijven, en plandden de reis daaromheen. Dat betekent ook minder concurrentie: je bent niet een van de 300 vergelijkbare appartementen in dezelfde buurt, je bent de enige plek zoals de jouwe.
+@@647
+Welke heb jij?
+@@648
+{1}Jaag niet alleen de bekende toeristische hotspots na. {2}Vraag je bij elke woning die je bekijkt af:
+@@649
+Wie komt hier, en waarom?
+@@650
+Komen ze voor het gebied, of zouden ze voor deze woning komen?
+@@651
+Wanneer is de vraag het hoogst?
+@@652
+Welk soort verblijven komt het meest voor: korte tripjes, weekendjes weg, verhuizingen per maand?
+@@653
+Als de locatie gemiddeld is, wat zou het verblijf bijzonder kunnen maken: een uitzicht, een zwembad, een hottub, het design, totale privacy?
+@@654
+Gebruik AirROI en de zoekfilters van Airbnb om de vraag in specifieke gebieden te onderzoeken. Kijk naar bezettingsgraden, gemiddelde prijzen per nacht en concurrentie. Zoek op Airbnb ook naar bijzondere verblijven in je regio en kijk hoe vol hun kalenders zijn.
+@@655
+Het doel is niet alleen om in een “goed gebied” te zitten. Het doel is de juiste woning voor de juiste gast: op een plek waar mensen al willen zijn, of zo bijzonder dat mensen er speciaal voor komen.
+@@656
+Zo gebruik je AirROI
+@@657
+om het winstpotentieel te analyseren
+@@658
+Voordat je je aan een woning verbindt, moet je één ding weten: {1}gaat het echt geld opleveren?{2}
+@@659
+{1}AirROI{2} is de tool die we voor dit onderzoek aanraden. Hij laat zien wat een kortetermijnverhuur op een specifieke plek kan opleveren, op basis van echte boekingsdata. De calculator en marktdata zijn gratis te gebruiken.
+@@660
+De AirROI-calculator: vul een adres en het aantal slaapkamers in.
+@@661
+Stap voor stap:
+@@662
+Ga naar AirROI.com en open de {1}Calculator{2}
+@@663
+Typ het adres (of het gebied) dat je onderzoekt en het aantal slaapkamers in
+@@664
+AirROI vergelijkt het met zo’n 50 vergelijkbare woningen in de buurt en laat je zien:
+@@665
+Wat kortetermijnverhuur daar zou kunnen opleveren
+@@666
+Inkomensprognoses per maand
+@@667
+De vergelijkbare advertenties die gebruikt zijn
+@@668
+Voeg je bedrijfskosten toe om van omzet naar netto-inkomen te gaan
+@@669
+Open de marktkaart om het gebied te verkennen en buurten te vergelijken
+@@670
+Neem de prijs per nacht en bezetting die je gevonden hebt over in je {1}winstcalculator{2}
+@@671
+Ook met goede data moet je niet op één bron vertrouwen. Controleer het met Airbnb zelf, Booking.com of lokale Facebookgroepen voor verhuur. Als twee bronnen heel verschillende cijfers geven voor dezelfde woning, wees dan voorzichtig en neem het laagste cijfer.
+@@672
+De cijfers vooraf begrijpen is essentieel voor een winstgevend hostingbedrijf. Laat je keuzes leiden door data, niet door giswerk.
+@@673
+Marktonderzoek met AI
+@@674
+{1}Tegenwoordig kun je dit onderzoek ook met AI doen.{2} Een AI-assistent die op het web kan zoeken, zet in een paar minuten prijzen per nacht, bezetting en het type reiziger in jouw gebied op een rij.
+@@675
+Gebruik het als tweede bron naast AirROI, niet in plaats daarvan. Vul de haakjes in, kopieer de prompt en plak hem in je AI-assistent.
+@@676
+AI-prompt: marktonderzoek voor jouw gebied
+@@677
+Gedraag je als marktanalist voor kortetermijnverhuur en zoek op het web naar actuele data.
+
+Ik kijk naar een {1}{2} in {3}{4}, {5}{6}, om te verhuren als {7}{8}.
+
+Geef me, elk in één korte tabel:
+1. Prijzen per nacht voor vergelijkbare advertenties (laag, gemiddeld, hoog) in het hoog- en laagseizoen
+2. Bezetting per maand, en welke maanden hoog- en laagseizoen zijn
+3. Wie hier reist, waarom, en wat ze van een verblijf verwachten
+
+Vertel me daarna in drie regels of dit een goede kans lijkt en waarmee deze woning zich zou kunnen onderscheiden.
+
+Noem bij elk cijfer de bron, en zeg duidelijk wanneer je een schatting maakt. Als je meer informatie van me nodig hebt, stel dan maximaal drie vragen voordat je antwoordt.
+@@678
+AI kan cijfers verkeerd hebben of oude data gebruiken. Controleer de prijzen per nacht met echte advertenties op Airbnb, en vergelijk de bezetting met AirROI voordat je iets in je {1}winstcalculator{2} zet.
+@@679
+Onderzoek direct op Airbnb
+@@680
+De beste gratis onderzoekstool is Airbnb zelf. Voordat je je aan een woning verbindt, {1}zoek je in je gebied zoals een gast dat zou doen{2}. In twintig minuten zie je met wie je echt concurreert, wat gasten betalen en wat ze belangrijk vinden.
+@@681
+Open {1}Airbnb{2} en zoek als gast in jouw gebied. Zoom op de kaart in tot je alleen de buurt ziet die je bekijkt.
+@@682
+Stel de filters in op jouw woning: hele woning of kamer, aantal slaapkamers, aantal gasten.
+@@683
+Bekijk de prijzen voor verschillende data: een doordeweekse dag en een weekend, een maand vooruit en drie maanden vooruit, hoogseizoen en laagseizoen. Noteer telkens de lage, gemiddelde en hoge prijs.
+@@684
+Open 5 tot 10 advertenties die op de jouwe lijken en bekijk hun kalenders. Veel geblokkeerde data in de komende weken betekent meestal veel vraag. Houd er rekening mee dat een geblokkeerde datum ook door de host zelf geblokkeerd kan zijn, dus kijk naar meerdere advertenties, niet maar één.
+@@685
+Kijk naar het aantal beoordelingen en wanneer de laatste zijn geschreven. Een advertentie met veel recente beoordelingen wordt regelmatig geboekt.
+@@686
+Bestudeer de beste advertenties in het gebied, vooral die met het label Favoriet bij gasten: hun omslagfoto, titel, voorzieningen en prijs. Dat is de standaard die je moet evenaren of overtreffen.
+@@687
+Lees de beoordelingen, goed en slecht. Gasten vertellen je precies wat ze geweldig vonden en wat ze misten. Beide zijn ideeën voor je eigen advertentie.
+@@688
+Waar je op let
+@@689
+{1}Een gat in de markt:{2} veel vergelijkbare appartementen, maar niets voor groepen, niets met een werkplek, niets met een zwembad? Dat gat kan jouw advertentie worden.
+@@690
+{1}Te veel concurrentie:{2} honderden vergelijkbare advertenties met open kalenders en lage prijzen is een waarschuwingssignaal.
+@@691
+{1}De prijs die gasten echt betalen:{2} het totaal dat een gast ziet, kan schoonmaak- en servicekosten bevatten. Vergelijk totalen, niet alleen de prijs per nacht.
+@@692
+Doe deze zoektocht elke paar maanden opnieuw, ook na je lancering. Prijzen, concurrentie en wat gasten verwachten veranderen voortdurend.
+@@693
+{1}← Terug{2}Denk als een ondernemer
+@@694
+{1}Volgende →{2}Vind de juiste woning
+@@695
+Deel 1 · Les 5
+@@696
+Vind de juiste {1}woning{2}
+@@697
+Waar je woningen vindt, waarschuwingssignalen en de cijfers.
+@@698
+{1}1{2}Zo vind je de juiste woning
+@@699
+{1}2{2}Waarschuwingssignalen bij het kiezen van een woning
+@@700
+{1}3{2}Bereken kosten en winstpotentieel
+@@701
+{1}4{2}Bonus: beslismatrix voor nieuwe woningen
+@@702
+Zo vind je de juiste woning
+@@703
+Goed nieuws: je hebt geen speciale “Airbnb-vriendelijke” advertenties nodig om te beginnen. {1}Voor rental arbitrage kun je gewoon kijken naar normale huuradvertenties op normale woningsites{2} en je idee aan de eigenaar pitchen. Je huurt de woning op de normale manier, maar je komt met een beter aanbod. Hoe je dat pitcht, leer je in de volgende les.
+@@704
+Houd er rekening mee dat {1}veel huiseigenaren voor het eerst over zoiets horen.{2} Dat is heel normaal. Het is jouw taak om het duidelijk uit te leggen en ze een veilig gevoel te geven.
+@@705
+1. Begin met de wettelijke regels
+@@706
+Zorg voordat je gaat zoeken dat je de regels in je gebied kent (zie {1}Les 2{2}). Kijk wat er is toegestaan voor korte en middellange verblijven, en of je een vergunning nodig hebt. Sommige steden staan korte verblijven alleen toe met een vergunning, terwijl verblijven van 31+ nachten op middellange termijn wel mogen (zoals in Barcelona). Onderverhuur vereist altijd schriftelijke toestemming van de eigenaar in het contract.
+@@707
+2. Zoek op de juiste platforms
+@@708
+Je vindt geschikte woningen op:
+@@709
+Normale huurwebsites, zoals Idealista, Fotocasa of het lokale equivalent bij jou
+@@710
+Facebook Marketplace &amp; lokale groepen (zoek naar flexibele verhuurders)
+@@711
+Platforms voor gemeubileerde verhuur en middellange termijn, zoals Spotahome of Flatio
+@@712
+Makelaars (vraag naar eigenaren die een betrouwbare huurder voor de lange termijn willen)
+@@713
+Airbnb zelf (benader eigenaren die er niet zelf wonen; sommigen staan open voor co-hosting)
+@@714
+Mond-tot-mondreclame of lokale contacten (vooral handig op plekken als Bali of Portugal)
+@@715
+Zoek naar woningen &amp; neem contact op met makelaars of verhuurders{1}In de volgende les leer je hoe je pitcht aan verhuurders: {2}Pitch aan verhuurders →{3}{4}
+@@716
+Waarschuwingssignalen bij het kiezen van een woning
+@@717
+Niet elke woning is geschikt om aan gasten te verhuren, of je nu korte of middellange verblijven aanbiedt, ook al ziet hij er prachtig, goedkoop of perfect gelegen uit. Sommige plekken hebben verborgen problemen die je tijd, geld en een hoop stress kunnen kosten. Het komt erop aan dat je deze waarschuwingssignalen leert herkennen voordat je tekent.
+@@718
+Hier moet je op letten:
+@@719
+Strenge regels van het gebouw of de VvE
+@@720
+Kijk je naar een appartement in een gebouw met een vereniging van eigenaars (VvE), vraag dan naar hun regels voor kortetermijnverhuur en onderverhuur. Sommige gebouwen verbieden korte verblijven of beperken ze sterk, terwijl verblijven van een maand of langer vaak wel mogen. Bij korte verblijven merken een conciërge of nieuwsgierige buren het verloop van gasten al snel op.

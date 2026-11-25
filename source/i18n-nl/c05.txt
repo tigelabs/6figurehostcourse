@@ -1,0 +1,175 @@
+@@639
+2. Demand for the property itself
+@@640
+This is the part most new hosts miss. {1}Many guests don’t travel for the city at all. They travel for the stay.{2} They are not looking for a bed close to the supermarket or the metro. They are looking for an experience, and they are happy to drive an extra hour to get it.
+@@641
+When the property is the reason for the trip, a location that looks “bad” on paper stops being a problem. It can even become the selling point: quiet, private, surrounded by nature, far from everything.
+@@642
+A cabin or treehouse in the woods, an hour from the nearest city, that couples book for a weekend with no phone signal.
+@@643
+A villa in the middle of rice fields, 20 minutes from the beach and the restaurants, that guests choose for the view, the private pool and the silence.
+@@644
+A design house in a small village with nothing around it, booked for birthdays and anniversaries because of how it looks in the photos.
+@@645
+A farm stay or countryside house with a hot tub, a fireplace and animals, where families come to switch off for a few days.
+@@646
+In all of these, nobody searched for the village. They found a place they wanted to stay in, and then planned the trip around it. This also means less competition: you are not one of 300 similar apartments in the same neighborhood, you are the only place like yours.
+@@647
+So which one do you have?
+@@648
+{1}Don’t just chase the obvious tourist hotspots. {2}For every property you look at, ask:
+@@649
+Who is coming here, and why?
+@@650
+Are they coming for the area, or would they come for this property?
+@@651
+When is demand highest?
+@@652
+What kind of stays are most common: short trips, weekend getaways, monthly relocations?
+@@653
+If the location is average, what could make the stay special: a view, a pool, a hot tub, the design, total privacy?
+@@654
+Use AirROI and Airbnb’s own search filters to explore demand in specific areas. Look at occupancy rates, average nightly rates, and competition. Also search Airbnb for unusual stays in your region and check how booked their calendars are.
+@@655
+The goal isn’t just to be in a “good area.” The goal is to have the right property for the right guest: either in a place people already want to be, or special enough that people come for it.
+@@656
+How to use AirROI
+@@657
+to analyze profit potential
+@@658
+Before committing to a property, you need to know one thing: {1}Will it actually make money?{2}
+@@659
+{1}AirROI{2} is the tool we recommend for this research. It shows you what a short-term rental can earn in a specific place, based on real booking data. Its calculator and market data are free to use.
+@@660
+The AirROI calculator: enter an address and the number of bedrooms.
+@@661
+Step-by-step:
+@@662
+Go to AirROI.com and open the {1}Calculator{2}
+@@663
+Type in the address (or the area) you're researching and the number of bedrooms
+@@664
+AirROI compares it with around 50 comparable properties nearby and shows you:
+@@665
+What a short-term rental there could earn
+@@666
+Month-by-month income projections
+@@667
+The comparable listings it used
+@@668
+Add your operating costs to go from income to net income
+@@669
+Open the market map to explore the area and compare neighborhoods
+@@670
+Take the nightly price and occupancy you found into your {1}Profit Calculator{2}
+@@671
+Even with great data, don’t rely on just one source. Cross-check with Airbnb itself, Booking.com, or local Facebook rental groups. If two sources give you very different numbers for the same property, be careful and use the lower one.
+@@672
+Understanding the numbers upfront is key to building a profitable hosting business. Use the data, not guesswork, to guide your choices.
+@@673
+Market research with AI
+@@674
+{1}Today you can also do this research with AI.{2} An AI assistant that can search the web can pull together nightly prices, occupancy and the type of traveler who visits your area in just a few minutes.
+@@675
+Use it as a second source next to AirROI, not instead of it. Fill in the brackets, copy the prompt and paste it into your AI assistant.
+@@676
+AI prompt: market research for your area
+@@677
+Act as a short-term rental market analyst and search the web for current data.
+
+I'm looking at a {1}{2} in {3}{4}, {5}{6}, to rent out as {7}{8}.
+
+Give me, in one short table each:
+1. Nightly prices for similar listings (low, typical, high) in high and low season
+2. Occupancy by month, and which months are high and low season
+3. Who travels here, why, and what they expect from a place
+
+Then tell me in three lines whether this looks like a good opportunity and what would make this property stand out.
+
+Name the source for every number, and say clearly when you are estimating. If you need more details from me, ask up to three questions before you answer.
+@@678
+AI can get numbers wrong or use old data. Check the nightly prices against real listings on Airbnb, and compare the occupancy with AirROI before you put anything into your {1}Profit Calculator{2}.
+@@679
+Research directly on Airbnb
+@@680
+The best free research tool is Airbnb itself. Before you commit to a property, {1}search your area the way a guest would{2}. In twenty minutes you see what you are really competing with, what guests pay and what they care about.
+@@681
+Open {1}Airbnb{2} and search your area as a guest. Zoom the map in until it only shows the neighborhood you are looking at.
+@@682
+Set the filters to match your property: entire place or room, number of bedrooms, number of guests.
+@@683
+Check prices for different dates: a weekday and a weekend, one month ahead and three months ahead, high season and low season. Write down the low, typical and high price each time.
+@@684
+Open 5 to 10 listings that look like yours and check their calendars. Many blocked dates in the coming weeks usually mean good demand. Keep in mind that a blocked date can also be the host blocking it, so look at several listings, not just one.
+@@685
+Look at the number of reviews and when the last ones were written. A listing with many recent reviews is getting booked regularly.
+@@686
+Study the best listings in the area, especially the ones marked Guest favorite: their cover photo, title, amenities and price. That is the standard you have to match or beat.
+@@687
+Read the reviews, good and bad. Guests tell you exactly what they loved and what was missing. Both are ideas for your own listing.
+@@688
+What to look for
+@@689
+{1}A gap in the market:{2} lots of similar apartments, but nothing for groups, nothing with a workspace, nothing with a pool? That gap can be your listing.
+@@690
+{1}Too much competition:{2} hundreds of similar listings with open calendars and low prices is a warning sign.
+@@691
+{1}The price guests really pay:{2} the total a guest sees can include cleaning and service fees. Compare totals, not only the nightly price.
+@@692
+Do this search again every few months, also after you launch. Prices, competition and what guests expect change all the time.
+@@693
+{1}← Back{2}Think like a business owner
+@@694
+{1}Next →{2}Find the right property
+@@695
+Part 1 · Lesson 5
+@@696
+Find the right {1}property{2}
+@@697
+Where to find units, red flags and the numbers.
+@@698
+{1}1{2}How to find the right property
+@@699
+{1}2{2}Red flags to avoid when choosing a property
+@@700
+{1}3{2}Calculate costs and profit potential
+@@701
+{1}4{2}Bonus: decision-making matrix for new properties
+@@702
+How to find the right property
+@@703
+Good news: you don’t need special “Airbnb-friendly” listings to get started. {1}For rental arbitrage, you can simply look at normal rental listings on normal property websites{2} and pitch your idea to the owner. You rent the place the normal way, but you come with a better offer. How to pitch it, you’ll learn in the next lesson.
+@@704
+Keep in mind that {1}for many homeowners, this will be the first time they hear about something like this.{2} That’s completely normal. Your job is to explain it clearly and make them feel safe.
+@@705
+1. Start with the legal rules
+@@706
+Before you start looking, make sure you know the rules in your area (see {1}Lesson 2{2}). Check what’s allowed for short-term and mid-term stays, and whether you need a license. Some cities only allow short stays with a license, while mid-term stays of 31+ nights are fine (like in Barcelona). Subletting always needs the owner’s written permission in the contract.
+@@707
+2. Look on the right platforms
+@@708
+You can find suitable properties on:
+@@709
+Normal property rental websites, like Idealista, Fotocasa or your local equivalent
+@@710
+Facebook Marketplace &amp; local groups (look for flexible landlords)
+@@711
+Furnished and mid-term rental platforms like Spotahome or Flatio
+@@712
+Real estate agencies (ask for owners who want a reliable long-term tenant)
+@@713
+Airbnb itself (reach out to owners who don’t live there; some are open to co-hosting deals)
+@@714
+Word of mouth or local connections (especially helpful in places like Bali or Portugal)
+@@715
+Look for properties &amp; contact agencies or landlords{1}In the next lesson, you’ll learn how to pitch landlords: {2}Pitch landlords →{3}{4}
+@@716
+Red flags to avoid when choosing a property
+@@717
+Not all properties are good for renting out to guests, whether you host short-term or mid-term stays, even if they look beautiful, cheap, or perfectly located. Some places come with hidden issues that can cost you time, money, and a ton of stress. The key is learning to spot these red flags before you commit.
+@@718
+Here’s what to watch out for:
+@@719
+Strict building rules or HOAs
+@@720
+If you’re looking at an apartment in a building with a homeowner’s association (HOA), make sure to ask about their rules for short-term rentals and subletting. Some buildings ban or heavily restrict short stays, while mid-term stays of a month or more are often fine. With short stays, a concierge or nosy neighbors will notice guest traffic quickly.

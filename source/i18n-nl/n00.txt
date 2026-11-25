@@ -1,0 +1,224 @@
+@@1
+Menu
+@@4
+Intro
+@@5
+Begin hier
+@@6
+Ons verhaal
+@@7
+Jouw stappenplan
+@@8
+Deel 1: Leg je fundament
+@@9
+Kies je bedrijfsmodel
+@@10
+Wetgeving &amp; lokale regels
+@@11
+Denk als een ondernemer
+@@12
+Doe marktonderzoek
+@@13
+Vind de juiste woning
+@@14
+Pitch aan verhuurders
+@@15
+Deel 2: Lanceer je eerste advertentie
+@@16
+Richt je ruimte in
+@@17
+Maak een advertentie die verkoopt
+@@18
+Bied een 5-sterrenervaring
+@@19
+Deel 3: Systemen voor passief inkomen &amp; opschalen
+@@20
+Bouw je droomteam
+@@21
+Stroomlijn je operatie
+@@22
+Automatiseer voor passief inkomen
+@@23
+Schaal op naar 6 cijfers
+@@24
+Bonus
+@@25
+Jouw host-starterskit
+@@26
+Winstcalculator
+@@27
+Inrichtingschecklist
+@@28
+Woninghandleiding
+@@29
+Kit met operationele templates{1}7 hulpmiddelen{2}
+@@30
+Templates voor overeenkomsten met personeel
+@@31
+Labelsysteem
+@@32
+Woninginspecties
+@@33
+Checklists voor personeel
+@@34
+Welkomstboekje
+@@35
+Welkomstblad
+@@36
+Gedeelde ruimtes opruimen
+@@37
+Financiële tracker voor je woning
+@@38
+Veelgemaakte fouten
+@@39
+Extra's
+@@40
+Overzicht van AI-prompts
+@@41
+Add-ons
+@@42
+Binnenkort
+@@43
+Word host
+@@45
++ host-starterskit
+@@46
+Jouw stapsgewijze cursus om een verhuurbedrijf op te bouwen voor passief inkomen, {1}zelfs zonder eigen woning.{2}
+@@47
+door Farah &amp; Daniel
+@@48
+Welkom
+@@49
+We zijn zo blij dat je er bent. In deze cursus zit alles wat we in bijna 10 jaar hosten hebben geleerd, vertaald naar duidelijke stappen die je in je eigen tempo kunt volgen.
+@@50
+Stel je voor dat je prachtige woningen over de hele wereld hebt. Plekken waar je kunt verblijven, die je kunt verhuren en waar je altijd naar terug kunt. Als je ooit hebt gedroomd van een bedrijf dat je vrijheid, flexibiliteit en inkomen geeft, zonder vast te zitten aan een bureau en zonder zelf vastgoed te bezitten, dan is deze cursus voor JOU.
+@@51
+We hebben deze cursus gemaakt om je te helpen{1} een winstgevend hostingbedrijf te starten, te runnen en op te schalen dat voor jou werkt, en niet andersom.{2} Je vindt hier een stapsgewijs plan, gebaseerd op echte ervaring. Het laat zien hoe wij het hebben gedaan en hoe jij dat ook kunt.
+@@57
+Sectie 1
+@@58
+Overzicht van de cursus
+@@59
+{1}In Deel 1 leggen we het fundament.{2} Je leert de verschillende bedrijfsmodellen kennen (ook hoe je begint zonder een woning te kopen), hoe je alles juridisch goed regelt, hoe je de juiste mindset ontwikkelt en hoe je je eerste winstgevende woning vindt, ook als pitchen aan verhuurders je zenuwachtig maakt.
+@@60
+{1}In Deel 2 richten we ons op het lanceren van je advertentie en het verwelkomen van je eerste gasten.{2} Je leert hoe je je ruimte inricht en meubileert, een advertentie schrijft die verkoopt en je ruimte efficiënt beheert met slimme systemen.
+@@61
+{1}In Deel 3 schalen we op naar 6 cijfers.{2} Je leert taken te automatiseren, je droomteam op te bouwen en uit te breiden zonder op te branden. Hier wordt je advertentie een echt bedrijf dat passief inkomen oplevert.
+@@62
+We hebben alles toegevoegd wat je nodig hebt: kant-en-klare templates, calculators, scripts, echte praktijkvoorbeelden en tools die het giswerk wegnemen en je uren besparen.
+@@63
+Laten we iets bouwen dat winstgevend en duurzaam is, en dat past bij de levensstijl die je echt wilt.
+@@64
+Sectie 2
+@@65
+Zo gebruik je deze cursus
+@@66
+Deze cursus neemt je stap voor stap mee in het opstarten en laten groeien van je hostingbedrijf. Je vindt hier{1} duidelijke instructies, praktische taken en beproefde strategieën{2} die we in de loop der jaren hebben getest en verfijnd.
+@@67
+Op bepaalde momenten krijg je {1}concrete actietaken om uit te voeren.{2} Je vindt ze allemaal overzichtelijk in {3}jouw stappenplan{4}, hier in de cursus. Gebruik het om op koers te blijven, je voortgang bij te houden en overzicht te houden.
+@@68
+Je ziet in de hele cursus ook {1}kant-en-klare AI-prompts{2}. Daarmee schrijf je sneller en krijg je betere resultaten met minder moeite.
+@@69
+Gebruik deze cursus als je draaiboek. Zet één stap tegelijk, blijf consequent en laat je niet afremmen door kleine tegenslagen.
+@@70
+Kom onderweg in actie
+@@71
+Elke les eindigt met {1}jouw taken{2}. Vink ze af en de voortgangsbalk bovenaan beweegt mee.
+@@72
+Elke prompt en elk template heeft een knop {1}Kopiëren{2}, zodat je het eenvoudig kunt kopiëren en plakken in je favoriete AI-tool (zoals ChatGPT, Gemini of Claude). Vul je gegevens één keer in (zoals je stad) en de cursus voegt ze voor je toe aan elke prompt.
+@@73
+Kies je valuta
+@@74
+Valuta
+@@86
+Hiermee verander je de valuta overal in de cursus, zoals in de inrichtingschecklist, de winstcalculator en de AI-prompts. Je kunt dit altijd aanpassen.
+@@87
+Sectie 3
+@@88
+Heb jij wat ervoor nodig is?
+@@89
+Een hostingbedrijf runnen kan leuk, voldoening gevend en zeer winstgevend zijn, maar het vraagt ook de juiste mindset.
+@@90
+De waarheid is dat {1}er af en toe iets kapotgaat.{2} Soms krijg je te maken met vervelende gasten, maar dat hoort erbij. Daarom heb je een team dat je helpt, en daarom biedt Airbnb bescherming voor hosts.
+@@91
+99% van de gasten is geweldig, respectvol, vriendelijk en dankbaar, maar er is altijd die 1% die problemen veroorzaakt, onterecht klaagt of korting probeert te krijgen door kleine gebreken aan te wijzen. Maar eerlijk: het is het allemaal waard.
+@@92
+“99% van je gasten is geweldig, maar o, die 1%…”
+@@93
+Onthoud ook dat{1} mensen uit hun normale routine zijn.{2} Ze kunnen last hebben van een jetlag, honger hebben, moe of gestrest zijn, en soms reageren ze totaal onredelijk. Het is jouw taak (of die van je manager) om het niet persoonlijk op te vatten en kalm en professioneel te blijven.
+@@94
+Je leert onderweg zo veel: niet alleen over hosten, maar ook over mensen. Het is fascinerend om te zien hoe verschillend gasten zijn, hoe culturen met elkaar omgaan en hoe je groeit doordat je leert kalm te blijven in onverwachte situaties.
+@@95
+Deze reis zal je uitdagen, vormen en je laten groeien, zowel als ondernemer als als mens.
+@@96
+Naast de winst is de ervaring alleen al de moeite waard. {1}Een bedrijf opbouwen is een van de beste vormen van persoonlijke groei die je jezelf kunt geven.{2}
+@@97
+In het begin kunnen dingen als een slechte beoordeling of een lastige gast je flink raken. Maar met elke situatie die je oplost, word je sterker en veerkrachtiger, en na een tijdje ga je er veel makkelijker mee om.
+@@98
+Word lid van de community
+@@99
+Je hoeft dit niet alleen uit te zoeken
+@@100
+Sluit je aan bij hosts die naast jou hun bedrijf opbouwen. Stel je vragen, deel je successen en je voortgang, en leer van mensen die een paar stappen verder zijn.
+@@101
+Krijg antwoorden als je vastloopt
+@@102
+Vier elke boeking met mensen die het begrijpen
+@@103
+Leer wat nu werkt bij andere hosts
+@@104
+Word lid van de community {1}→{2}
+@@105
+Zeg hallo en vertel ons waar je begint. We leren je graag kennen.
+@@106
+Jouw taken voor deze pagina
+@@107
+Lees de introductie
+@@108
+Rond deze pagina af →
+@@109
+{1}Auteursrecht.{2} © {3}2026{4} Farah &amp; Daniel. Alle rechten voorbehouden. Deze cursus en al het bijbehorende materiaal zijn auteursrechtelijk beschermd. Niets uit deze uitgave mag worden verveelvoudigd, verspreid of doorgegeven in welke vorm of op welke wijze dan ook, waaronder fotokopieën, opnamen of andere elektronische of mechanische methoden, zonder voorafgaande schriftelijke toestemming van de uitgever, behalve voor korte citaten in recensies en bepaalde andere niet-commerciële toepassingen die de auteurswet toestaat. Deze inhoud is uitsluitend bedoeld voor individueel gebruik. Het delen, doorverkopen of verveelvoudigen van dit materiaal voor commerciële doeleinden is strikt verboden. Voor toestemming of vragen: contact@6figurehost.com
+@@110
+{1}Volgende →{2}Ons verhaal
+@@111
+© {1}2026{2} 6 Figure Host. Alle rechten voorbehouden. Uitsluitend voor individueel gebruik.
+@@112
+Feedback &amp; beoordeling
+@@113
+Privacybeleid
+@@114
+Introductie · Farah &amp; Daniel
+@@115
+Ons {1}verhaal{2}
+@@116
+Van blut zijn en op de bank slapen naar een 6-cijferig bedrijf dat vanzelf draait en meerdere woningen over de hele wereld.
+@@117
+ongeveer 5 min
+@@118
+Les
+@@119
+Terug
+@@120
+ We verlieten allebei onze geboorteplaats met ons hele leven in een koffer
+@@121
+Begin twintig lieten we allebei ons thuisland achter (België en Brazilië) en verhuisden we naar Barcelona met niets meer dan een koffer, een beetje spaargeld en heel veel onzekerheid. Geen vangnet. Geen familie in de buurt. Alleen het geloof dat{1} er meer in het leven moest zijn dan alles op de “normale” manier doen.{2}
+@@122
+ In 2017 huurde Farah een kamer van Daniel
+@@123
+Daniel woonde in een piepklein kamertje terwijl hij de grotere kamers van zijn gehuurde appartement onderverhuurde. Het was eigenlijk een {1}inloopkast zonder ramen naar buiten{2}, omgebouwd tot slaapkamer. Farah huurde een van die grotere kamers, en zo {3}leerden we elkaar kennen: als huisgenoten in een gedeeld appartement{4},{5} allebei op zoek naar een manier om rond te komen in een van de duurste steden van Europa.{6}
+@@124
+ Farah kreeg haar eigen huurappartement (en was uiteindelijk blut)
+@@125
+Na een paar maanden verhuisde Farah naar een eigen plek. Na een enorme borg en de aankoop van de basisspullen {1}had ze nog maar €67,50 op haar rekening.{2} Een deel van haar meubels vond ze zelfs op straat, en ze maakte een bed van pallets. De huur was hoog, het spaargeld was op en het werd krap. Terug naar het koude België omdat het geld op was? Dat liet ze niet gebeuren. Dus werd ze creatief.
+@@126
+Farah verhuurde haar slaapkamer en sliep soms op de bank, achter een enorm strandlaken dat ze van een haak boven de koelkast naar de gordijnrail bij het raam had gespannen. {1}Glamoureus was het niet, maar het werkte.{2}
+@@127
+ Het “wacht eens even…”-moment: we gaan all-in
+@@128
+Eerst was het gewoon een manier om de huur te kunnen betalen. Maar al snel beseften we… {1}WACHT. Kunnen we hier echt serieus geld mee verdienen?!{2}
+@@129
+Dus gingen we ALL-IN.
+@@130
+We konden nog geen team betalen, dus deden we allebei alles zelf: schoonmaken, check-ins, berichten aan gasten en onderhoud. We keken zelfs YouTube-tutorials over hoe je een wc repareert.
+@@131
+ We bouwden systemen en gingen slimmer werken, niet harder

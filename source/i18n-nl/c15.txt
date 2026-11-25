@@ -1,0 +1,244 @@
+@@1675
+✓ Prevent negative reviews
+@@1676
+✓ Keep your maintenance budget low
+@@1677
+✓ Maintain property value over time
+@@1678
+Consistency is everything.
+@@1679
+ Add a recurring reminder to your calendar and make it part of your hosting system. A well-maintained property keeps guests coming back.
+@@1680
+Bonus: checklists, property manual and inventory
+@@1681
+Property inspection checklists
+@@1682
+To maintain high standards across your properties, it's essential to have clear inspection systems in place. The Maintenance Checklist helps your manager spot and fix small issues before they turn into costly repairs, ensuring everything is functional, safe, and guest-ready.
+@@1683
+Meanwhile, the Cleaning Inspection Checklist is designed to uphold your property's cleanliness, organization, and hygiene beyond the basic turnover by focusing on deeper tasks that are often overlooked. Both lists should be used regularly (at least once a month for maintenance and weekly for cleaning) to protect your property, impress guests, and reduce negative reviews.
+@@1684
+Maintenance inspection checklist
+@@1685
+Use it at least once a month.
+@@1686
+Cleaning inspection checklist
+@@1687
+Use it weekly.
+@@1688
+Make your own copy
+@@1689
+This is your go-to hub for everything related to the property. From how to check in and where extra towels are stored, to emergency contacts, appliance instructions, and restocking guides, it’s all here.
+@@1690
+Whether you’re training a new team member, managing remotely, or just want things to run smoothly, this centralized system keeps everyone aligned and your hosting business running like a well-oiled machine.
+@@1691
+Fill it in once, here in the course, then copy or download it for your team.
+@@1692
+Open your property manual
+@@1693
+Cleaning checklists for turnovers &amp; deep-clean
+@@1694
+Consistency is key to delivering a high-quality guest experience and that starts with a clear system. These checklists are designed to help you or your team follow the same process every time, ensuring your property stays spotless, functional, and welcoming.
+@@1695
+Print your checklists and display them in a visible spot, preferably laminated so they’re reusable. Use dry-erase markers to tick off tasks without needing to reprint.
+@@1696
+Add reference photos of the bed setup and key areas of the property. This ensures your team maintains consistency and the space always looks just like it does in the listing photos.
+@@1697
+Turnover checklist
+@@1698
+37 steps in the order that saves your cleaner the most time.
+@@1699
+Deep-clean checklist
+@@1700
+Tasks by zone, each with its frequency and a date grid to tick.
+@@1701
+Pool &amp; garden checklist
+@@1702
+Plants, garden and pool, with frequencies.
+@@1703
+Inventory overview
+@@1704
+Keeping track of your supplies and linens is essential for smooth operations, especially as you scale or work with a team. This inventory overview helps you stay organized, avoid last-minute shortages, and make bulk restocking more efficient.
+@@1705
+Supplies and linens tracker.
+@@1706
+{1}← Back{2}Build your dream team
+@@1707
+{1}Next →{2}Automate for passive income
+@@1708
+Part 3 · Lesson 12
+@@1709
+Automate for passive {1}income{2}
+@@1710
+Self-check-in, what to automate, what to delegate.
+@@1711
+{1}1{2}How to set up self-check-in
+@@1712
+{1}2{2}What to automate and what to delegate
+@@1713
+{1}3{2}Communication systems for your team
+@@1714
+{1}4{2}Bonus: scheduled messages that feel personal
+@@1715
+How to set up self-check-in
+@@1716
+(keys, locks, and codes)
+@@1717
+Self-check-in is one of the best systems you can set up as a host. It saves time, reduces stress and lets guests arrive whenever it suits them, even in the middle of the night. {1}Here’s how to make it smooth and secure, in 5 steps.{2}
+@@1718
+Choose your self-check-in method
+@@1719
+Tap the method you will use:
+@@1720
+Smart lock
+@@1721
+A unique digital code for each guest, managed remotely. Ideal for full automation (TTLock, Nuki, Igloohome). {1}Buy one that also opens with a key{2}, for emergencies.
+@@1722
+My check-in method
+@@1723
+Lockbox
+@@1724
+A physical box with a code that holds a key. Easy to set up, especially if your front door uses a traditional key.
+@@1725
+Smart doorbell
+@@1726
+In a building with an intercom, a device like Nuki Opener, Bticino Home+Control or Ring Intercom opens the building door when the guest rings. {1}Combine it with a smart lock{2} for fully remote check-ins.
+@@1727
+Key handoff
+@@1728
+At a nearby location, or in person by your team. Less ideal, but useful if digital access isn’t possible. Just mind the opening hours.
+@@1729
+Control everything remotely with a hub
+@@1730
+Connect your smart lock or smart doorbell to a Wi-Fi gateway or smart home hub (like the Nuki Bridge, the TTLock Gateway or Amazon Alexa). Then you can change codes and open the door from anywhere, without being there.
+@@1731
+Key handoff tip
+@@1732
+We use 
+@@1733
+KeyNest
+@@1734
+ for two of our apartments: guests collect the keys at partner shops, lockers or cafés nearby.
+@@1735
+Where to place it
+@@1736
+Mounted securely to a wall, gate or railing near the entrance, well-lit at night, and shown in your check-in guide with photos.
+@@1737
+Make sure Wi-Fi or Bluetooth works well at the door, and test that the code works before the guest arrives.
+@@1738
+Set up your codes
+@@1739
+A unique code per booking, active from check-in until checkout, plus a master code for emergencies.
+@@1740
+Change the code from time to time, whenever needed (for example if you think it has been shared). Never use obvious codes like 0000 or 1234.
+@@1741
+Create a foolproof check-in guide
+@@1742
+Picture your guest: tired, maybe jet-lagged, standing outside a building they’ve never seen. {1}Your instructions should be so clear that even a child could follow them.{2}
+@@1743
+Step-by-step instructions, from the front gate to the exact spot of the key box
+@@1744
+Photos of the entrance, the lock and the path to the door, with arrows and markers
+@@1745
+Wi-Fi, parking and anything they need before entering
+@@1746
+The same steps written in your message too, even if you send images or a PDF
+@@1747
+Sent the day before or the morning of check-in
+@@1748
+AI shortcut:
+@@1749
+ ask ChatGPT or Claude to turn your photos into a clear check-in guide with numbered steps, like this one.
+@@1750
+Batteries die and codes stop working. Always have a plan B:
+@@1751
+A hidden backup key nearby
+@@1752
+A neighbor, co-host or manager close by
+@@1753
+A master code or manual override
+@@1754
+Digital locks
+@@1755
+Super convenient, but someone has to check and replace the batteries regularly. Great, as long as your team stays on top of it.
+@@1756
+Physical keys
+@@1757
+They get lost often. In Barcelona, guests sometimes lose them when their bags are stolen, and many forget to return them to the right spot.
+@@1758
+{1}Self-check-in is only stress-free when it works reliably.{2} Test your system, update your instructions regularly, and always keep a backup key or contact ready.
+@@1759
+What to automate and what to delegate
+@@1760
+The key to running your business with less stress is knowing what to {1}automate{2}, what to {3}delegate{4} and what truly needs {5}you{6}.
+@@1761
+Automate
+@@1762
+the repetitive
+@@1763
+Delegate
+@@1764
+the physical
+@@1765
+Keep
+@@1766
+what grows the business
+@@1767
+Automate: anything that happens the same way, again and again
+@@1768
+Scheduled messages
+@@1769
+Use scheduled messages in the Airbnb inbox for welcome messages, check-in info, checkout instructions, review requests and FAQ answers. Templates are in the bonus below.
+@@1770
+Keep it simple.
+@@1771
+ Could a 5-year-old understand it? Travelers have a short attention span. In the check-in message, share only what they need to get in. Local tips go in a separate link, or in a follow-up message the day after arrival.
+@@1772
+Turn on “send for last-minute bookings and short stays”
+@@1773
+For essential messages, so last-minute guests still receive them, no matter when or how long they book.
+@@1774
+Turn this toggle on
+@@1775
+Add your check-in photos to the message
+@@1776
+Airbnb now allows photos in scheduled messages. Add your step-by-step check-in photos once, and every guest gets them automatically. Practically zero work for you.
+@@1777
+Pricing
+@@1778
+A dynamic pricing tool like PriceLabs, Wheelhouse or Beyond Pricing adjusts your nightly rates to demand, events and competition. Airbnb’s own {1}rule sets{2} can also raise or lower prices automatically, for example for last-minute discounts or high season.
+@@1779
+Airbnb rule sets
+@@1780
+Calendars, locks and cleaning
+@@1781
+Calendar sync
+@@1782
+On other platforms too (Booking.com, Vrbo)? Sync your calendars to avoid double bookings.
+@@1783
+Smart locks
+@@1784
+Codes created remotely and activated or deactivated automatically per guest.
+@@1785
+Cleaner calendar access
+@@1786
+Give your cleaner the calendar view, so they always see upcoming bookings (without message access, so they can’t see your earnings).
+@@1787
+Keep the conversation on Airbnb, not on WhatsApp
+@@1788
+Don’t send guests to WhatsApp. You end up answering in two places, and only messages inside the Airbnb chat count for Airbnb’s support team. If there’s an incident, a conflict, or a guest claims you said something, messages outside Airbnb are not taken into account.
+@@1789
+We only give a phone number for emergencies. When guests still write there for the check-in instructions, we answer with one line and then reply properly in the Airbnb chat:
+@@1790
+You, on WhatsApp
+@@1791
+This is an emergency number. I’ll reply to you in the Airbnb chat.
+@@1792
+{1}That sets the boundary.{2} From then on, the guest talks to you on Airbnb.
+@@1793
+Delegate: anything that requires physical presence or personal interaction
+@@1794
+You shouldn’t be cleaning your own property or doing late-night check-ins. Build a team you trust for everything on-site:
+@@1795
+Cleaning &amp; laundry
+@@1796
+A reliable cleaner and a standard checklist, so it’s done the same way every time.

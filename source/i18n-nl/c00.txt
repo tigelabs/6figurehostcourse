@@ -1,0 +1,252 @@
+@@1
+Menu
+@@2
+6 figure
+@@3
+Host Course
+@@4
+Intro
+@@5
+Start here
+@@6
+Our story
+@@7
+Your launch roadmap
+@@8
+Part 1: Setting up your foundations
+@@9
+Choose your business model
+@@10
+Legal &amp; local rules
+@@11
+Think like a business owner
+@@12
+Do market research
+@@13
+Find the right property
+@@14
+Pitch landlords
+@@15
+Part 2: Launching your first listing
+@@16
+Set up your space
+@@17
+Create a listing that sells
+@@18
+Deliver a 5-star experience
+@@19
+Part 3: Systems for passive income &amp; scaling
+@@20
+Build your dream team
+@@21
+Streamline your operations
+@@22
+Automate for passive income
+@@23
+Scale up to 6 figures
+@@24
+Bonus
+@@25
+Your host starter kit
+@@26
+Profit calculator
+@@27
+Setup checklist
+@@28
+Property manual
+@@29
+Operations template kit{1}7 resources{2}
+@@30
+Staff agreement templates
+@@31
+Label system
+@@32
+Property inspections
+@@33
+Staff checklists
+@@34
+Welcome booklet
+@@35
+Welcome sheet
+@@36
+Declutter shared spaces
+@@37
+Property finance tracker
+@@38
+Common mistakes
+@@39
+Extras
+@@40
+AI prompt overview
+@@41
+Add-ons
+@@42
+Coming soon
+@@43
+Become a host
+@@44
+{1}6 figure{2}Host Course
+@@45
++ host starter kit
+@@46
+Your step-by-step course for building a property rental business for passive income, {1}even without owning property.{2}
+@@47
+by Farah &amp; Daniel
+@@48
+Welcome
+@@49
+We’re so happy you’re here. This course is everything we’ve learned in almost 10 years of hosting, turned into clear steps you can follow at your own pace.
+@@50
+Imagine having beautiful homes around the world. Places you can stay, rent out, and return to anytime. If you’ve ever dreamed of creating a business that gives you freedom, flexibility and income without being tied to a desk or needing to own real estate, this course is for YOU.
+@@51
+We created this course to help you{1} launch, run and scale a profitable hosting business that works for you, not the other way around.{2} Inside, you’ll find a step-by-step roadmap built from real experience. It teaches you how we did it and how you can too.
+@@57
+Section 1
+@@58
+Overview of the course
+@@59
+{1}In Part 1, we lay the foundation.{2} You’ll learn about the different business models (including how to start without buying property), how to get legally set up, build the right mindset and find your first profitable property even if pitching landlords makes you nervous.
+@@60
+{1}In Part 2, we focus on launching your listing and welcoming your first guests.{2} You’ll learn how to set up and furnish your listing, write a profile that sells, and manage your space efficiently with streamlined systems.
+@@61
+{1}In Part 3, we scale it up to 6 figures.{2} Learn how to automate tasks, build your dream team and expand without burning out. This is where your listing becomes a true business that generates passive income.
+@@62
+We’ve included everything you need: ready-to-use templates, calculators, scripts, real case studies and tools that remove the guesswork and save you hours.
+@@63
+Let’s build something profitable, sustainable, and designed for the lifestyle you actually want.
+@@64
+Section 2
+@@65
+How to use this course
+@@66
+This course is designed to walk you step by step through launching and growing your hosting business. You’ll find{1} clear instructions, practical tasks, and real-world strategies{2} that have been tested and refined over years of experience.
+@@67
+At certain points, you’ll be given {1}specific action tasks to complete.{2} You can find all of them organized inside {3}your launch roadmap{4}, here in the course. Use it to stay on track, mark your progress, and avoid feeling overwhelmed.
+@@68
+You’ll also see {1}ready-to-use AI prompts {2}throughout the course. They help you write faster and get better results with less effort.
+@@69
+Use this course as your playbook. Take it one step at a time, stay consistent, and don’t let small setbacks slow you down.
+@@70
+Take action along the way
+@@71
+Every lesson ends with {1}your tasks{2}. Tick them off and the progress bar at the top moves.
+@@72
+Every prompt and template has a {1}Copy{2} button, so you can simply copy and paste it into your favorite AI tool (like ChatGPT, Gemini or Claude). Type your details once (like your city) and the course adds them to every prompt for you.
+@@73
+Choose your currency
+@@74
+Currency
+@@75
+EUR
+@@76
+USD
+@@77
+CAD
+@@78
+BRL
+@@79
+IDR
+@@80
+THB
+@@81
+AUD
+@@82
+MXN
+@@83
+JPY
+@@84
+CHF
+@@85
+AED
+@@86
+This changes the currency everywhere in the course, like the setup checklist, the profit calculator and the AI prompts. You can change it anytime.
+@@87
+Section 3
+@@88
+Do you have what it takes?
+@@89
+Running a hosting business can be fun, rewarding and highly profitable, but it also takes the right mindset.
+@@90
+The truth is, {1}things will occasionally get damaged.{2} Sometimes you have to deal with bad guests, but it’s part of the game. That’s why you have a team that helps you, and why Airbnb offers host protection.
+@@91
+99% of the guests are amazing, respectful, kind, and grateful, but there is always that 1% who cause problems, complain unfairly, or try to get a discount by pointing out minor flaws. But honestly, it’s all worth it.
+@@92
+“99% of the guests you’ll receive are awesome, but oh, that 1%…”
+@@93
+Also remember,{1} people are out of their usual routine.{2} They might be jet-lagged, hungry, tired, or stressed and sometimes they will react in a totally unreasonable way. Your job (or your manager’s) is not to take things personally, and to stay calm and professional.
+@@94
+You’ll learn so much along the way: not just about hosting, but about people. It’s fascinating to see how different guests are, how cultures interact, and how you grow by learning to stay calm in unexpected situations.
+@@95
+This journey will challenge you, shape you, and help you grow both as a business owner and as a person.
+@@96
+Besides the profit, the experience alone is worth it. {1}Building a business is one of the best forms of self-development you can ever give yourself.{2}
+@@97
+In the beginning, things like a bad review or a difficult guest might affect you a lot. But with every situation you handle, you become stronger and more resilient, and after a while you’ll deal with them much more easily.
+@@98
+Join the community
+@@99
+You don’t have to figure this out alone
+@@100
+Join hosts who are building their business right alongside you. Ask your questions, post your wins, share your progress and learn from people who are a few steps ahead.
+@@101
+Get answers when you’re stuck
+@@102
+Celebrate every booking with people who get it
+@@103
+Learn what’s working for other hosts right now
+@@104
+Join the community {1}→{2}
+@@105
+Say hi and tell us where you’re starting from. We’d love to meet you.
+@@106
+Your tasks for this page
+@@107
+Read the intro
+@@108
+Complete this page →
+@@109
+{1}Copyright notice.{2} © {3}2026{4} Farah &amp; Daniel. All rights reserved. This course and all accompanying materials are protected by copyright law. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations used in reviews and certain other noncommercial uses permitted by copyright law. This content is intended for individual use only. Sharing, reselling, or reproducing this material for commercial purposes is strictly prohibited. For permissions or inquiries, contact: contact@6figurehost.com
+@@110
+{1}Next →{2}Our story
+@@111
+© {1}2026{2} 6 Figure Host. All rights reserved. For individual use only.
+@@112
+Feedback &amp; review
+@@113
+Privacy policy
+@@114
+Introduction · Farah &amp; Daniel
+@@115
+Our {1}story{2}
+@@116
+From being broke and sleeping on the couch to a 6-figure business that runs by itself and multiple homes around the world.
+@@117
+about 5 min
+@@118
+Lesson
+@@119
+Back
+@@120
+ We both left our hometown with our entire life in a suitcase
+@@121
+In our early twenties, we both left our home countries behind (Belgium and Brazil) and moved to Barcelona with nothing but a suitcase, a little savings, and a whole lot of uncertainty. No safety net. No family nearby. Just the belief that{1} there had to be more to life than doing things the “normal” way.{2}
+@@122
+ In 2017, Farah rented a room from Daniel
+@@123
+Daniel was living in a tiny room while he was renting out the bigger rooms of his shared rental apartment. It was actually a {1}walk-in closet with no exterior windows{2}, turned into a bedroom. Farah rented one of those bigger rooms, and that’s how {3}we met: as housemates in a shared apartment{4},{5} both trying to make ends meet in one of Europe’s most expensive cities.{6}
+@@124
+ Farah got her own rental apartment (and ended up broke)
+@@125
+After a few months, Farah moved into her own place. After paying a huge deposit and buying the basics, {1}she had only €67.50 left in her bank account.{2} She even found some of her furniture on the street and made a bed from pallets. Rent was high, savings were gone, and things were getting tight. Going back to cold Belgium because the money ran out? She wasn’t going to let that happen. So she got creative.
+@@126
+Farah sublet her bedroom and sometimes slept on the couch, behind a giant beach blanket she hung from a hook above the fridge to the curtain railing by the window. {1}It wasn’t glamorous, but it worked.{2}
+@@127
+ The “wait a second…” moment: let’s go all in
+@@128
+At first, it was just a way to help pay the rent. But soon we realized… {1}WAIT. We can actually make serious money doing this?!{2}
+@@129
+So we went ALL IN.
+@@130
+We couldn’t afford a team yet, so we both did everything ourselves: cleaning, check-ins, guest messages and maintenance, even watching YouTube tutorials on how to fix a toilet.
+@@131
+ We built systems and started working smarter, not harder

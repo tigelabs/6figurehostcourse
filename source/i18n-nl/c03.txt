@@ -1,0 +1,223 @@
+@@454
+Rule type
+@@455
+What it means
+@@456
+Example
+@@457
+Minimum stay requirements
+@@458
+Some cities only allow short-term rentals if stays are longer than a specific number of days.
+@@459
+{1}Barcelona:{2} Only allowed if the stay is 31+ days unless you have a tourist license
+@@460
+Tourist license or permit
+@@461
+Many cities require a special license to operate legally.
+@@462
+{1}Paris:{2} Requires registration number and permit for short-term rentals
+@@463
+Zoning restrictions
+@@464
+Not all areas within a city allow short-term rentals.
+@@465
+{1}New York City:{2} Some buildings and zones prohibit short-term listings entirely
+@@466
+Primary residence requirement
+@@467
+In some cities, you can only rent out your primary residence and not an investment property.
+@@468
+{1}San Francisco:{2} Must be your primary residence and registered with the city
+@@469
+Limit on rental nights
+@@470
+Some places limit how many nights per year you can rent out a property.
+@@471
+{1}London:{2} Max 90 nights per year without a permit
+@@472
+Co-op and HOA rules
+@@473
+Apartment buildings and homeowner associations may have their own restrictions.
+@@474
+{1}Varies:{2} Always check building policies separately from city laws
+@@475
+City and country you want to host in
+@@476
+AI prompt: discover the local rental rules in your area
+@@477
+Copy
+@@478
+Can you help me find the current rules for renting out a property in {1}{2}? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).
+
+For each type of rental, I want to know:
+- If it is legal, and under which conditions
+- Whether I need a license, permit or registration
+- Any minimum or maximum stay rules, or limits on the number of nights per year
+- Tax obligations (income tax, tourist or occupancy tax)
+- Zoning restrictions, primary residence rules or building/HOA rules
+- What a landlord needs to agree to if I want to sublet
+- Whether I can do this as a private individual, or need to register as self-employed or a company
+
+Please include any helpful links or resources to official government sites if available.
+
+At the end, add a short summary I can copy into my notes, in this format:
+- Short-term rentals (under 1 month): allowed / not allowed / with conditions
+- Mid-term rentals (1–6 months): allowed / not allowed / with conditions
+- Long-term rentals: allowed / not allowed / with conditions
+- Subletting (rental arbitrage): allowed / not allowed / with conditions
+- License or permit needed: yes / no (and which one)
+- Minimum stay: ...
+- Taxes: ...
+- Other important rules: ...
+@@479
+Copy and open in:
+@@480
+ChatGPT
+@@481
+Gemini
+@@482
+Claude
+@@483
+Your notes: what you found about the local rules
+@@484
+Legal setup: private, self-employed or company?
+@@485
+Let’s be real, no one gets excited about legal paperwork. Luckily, you don’t need a complicated legal setup to get started. But it’s important to know your options and to declare your income from day one.
+@@486
+You have three main options: {1}rent out as a private individual, start as self-employed, or register a company.{2} Which one fits depends on your country, what you offer your guests and how big you want to grow.
+@@487
+Option 1: rent out as a private individual
+@@488
+Many people don’t know this: {1}in many countries you can rent out a place as a private person, without registering as self-employed or opening a company.{2} You simply declare the rental income on your personal tax return once a year, and you can usually deduct costs like rent, utilities, furniture and cleaning.
+@@489
+This usually works when:
+@@490
+{1}You only rent out the space.{2} Cleaning between guests, keys and basic maintenance are normal for any landlord.
+@@491
+{1}You don’t offer hotel-like services during the stay,{2} such as a reception, daily cleaning, meals, laundry or airport transfers.
+@@492
+{1}You keep it small:{2} one or a few listings, and no staff on your payroll.
+@@493
+Once you start offering hotel-like services or grow into a real operation with staff, tax authorities usually see it as a business. Then you need to register as self-employed or open a company, and in some countries you also charge VAT.
+@@494
+Example: how it works
+@@495
+Spain
+@@496
+If you rent out an apartment you own without hotel-like services, you declare it as rental income in your yearly income tax return (IRPF). No need to become autónomo. If you sublet a place you rent (rental arbitrage), the income is also taxed in your yearly return, unless it’s run as a business. Offer hotel-like services and it becomes a business: you register as autónomo and usually charge 10% VAT.
+@@497
+Belgium
+@@498
+If you rent out one or a few places without extra services, you can do it as a private individual. You declare it on your yearly tax return: for the property, tax is based on its cadastral income ({1}kadastraal inkomen{2}), and if it’s furnished, 40% of the rent counts as income from the furniture. Offer services like breakfast or cleaning during the stay, and do it regularly? Then it becomes a professional activity: you register as self-employed (this can be a side activity, {3}zelfstandige in bijberoep{4}) and usually charge 6% VAT.
+@@499
+United States
+@@500
+Most hosts report their rental income as rental income on Schedule E, without self-employment tax. If you provide substantial services, like daily cleaning, meals or concierge, it counts as a business (Schedule C).
+@@501
+{1}Always declare your income.{2} Since 2023, platforms like Airbnb and Booking.com share hosts’ income with the tax authorities for every listing in the EU. Renting out as a private individual doesn’t mean tax-free: it just means less admin.
+@@502
+Option 2 and 3: self-employed or a company
+@@503
+When you’re growing, offering hotel-like services or hiring a team, it’s time for an official setup.
+@@504
+Category
+@@505
+Self-employed
+@@506
+Register an official company
+@@507
+Getting started quickly with low risk and minimal costs
+@@508
+Scaling your business, hiring people, and protecting yourself legally
+@@509
+• Easy and cheap to register{1}• Less paperwork and admin{2}• Great for testing the waters
+@@510
+• Separates personal &amp; business assets{1}• More credibility with landlords and banks{2}• Possible tax advantages{3}• Easier to partner or raise capital
+@@511
+• No legal separation{1}• You’re personally liable{2}• Might seem less professional
+@@512
+• More complex setup{1}• Ongoing admin and costs{2}• Likely need an accountant
+@@513
+Ideal for
+@@514
+If you’re just starting or managing 1–2 listings with services
+@@515
+If you’re growing fast, managing multiple properties, or hiring a team
+@@516
+Private individual
+@@517
+Declare the rental income on your personal tax return.
+@@518
+You only rent out the space (cleaning between guests is fine).
+@@519
+You don’t offer extra services during the stay.
+@@520
+Your cleaner or handyman works as a freelancer.
+@@521
+Your country allows it.
+@@522
+I'll start as a private individual
+@@523
+Register as a freelancer or sole trader.
+@@524
+You offer extra services during the stay, like breakfast, laundry or transfers.
+@@525
+Or your country doesn’t let you rent out as a private individual.
+@@526
+You run a few listings yourself, with freelancers helping you.
+@@527
+I'll start as self-employed
+@@528
+Company
+@@529
+Register an official business, like a limited company.
+@@530
+You run multiple properties and keep growing.
+@@531
+You want to hire employees on a payroll.
+@@532
+You want to keep your personal money separate and protected.
+@@533
+You want partners, investors or a business loan.
+@@534
+I'll open a company
+@@535
+How to double-check before you decide
+@@536
+The rules are different in every country, so don’t rely on one source. Follow these steps to be sure:
+@@537
+{1}Start with AI.{2} Use the AI prompt in Section 1 to get a quick overview. It’s a great starting point, but AI can be wrong or out of date.
+@@538
+{1}Check your tax office’s website.{2} Search for “renting out property” or “rental income” on the official site, for example the Agencia Tributaria in Spain, the FOD Financiën / SPF Finances in Belgium or the IRS in the US. Many tax offices also have a free helpline or chat.
+@@539
+{1}Check your city or region{2} for licenses and registration. That’s a separate question from taxes.
+@@540
+{1}Talk to a local accountant or tax advisor{2} (in Spain: a {3}gestor{4} or {5}asesor fiscal{6}). Tell them exactly what you plan to do: own or rented property, how long guests stay, and whether you offer extra services.
+@@541
+{1}Get the answer in writing.{2} Ask for it by email and keep it with your documents.
+@@542
+Decide: private individual, self-employed or company (no need to register yet){1}For now, just decide your setup. You can register right before your listing goes live or once you start making money.{2}
+@@543
+{1}← Back{2}Choose your business model
+@@544
+{1}Next →{2}Think like a business owner
+@@545
+Part 1 · Lesson 3
+@@546
+Think like a business owner, {1}not just a host{2}
+@@547
+Mindset, extra income and the tools you need.
+@@548
+4 sections · about 5 min
+@@549
+{1}1{2}Overcoming fear of getting started
+@@550
+{1}2{2}Think big: our most profitable apartment
+@@551
+{1}3{2}Creative ways to make extra money (optional)
+@@552
+{1}4{2}Must-have business tools for hosts
+@@553
+Overcoming fear of getting started
+@@554
+Getting started is often the hardest part. It’s completely normal to feel uncertain, nervous, or even overwhelmed when stepping into something new. You might be thinking, “What if something goes wrong?” or “Am I really ready for this?” These doubts are common, but they’re also what keep most people stuck on the sidelines.

@@ -1,0 +1,327 @@
+@@2201
+Send it in the shared WhatsApp group.
+@@2202
+Always update the message with the remaining balance using this format: REMAINING BALANCE: €[new balance after the expense]
+@@2203
+Example: picture of the receipt of toilet paper €4.30. REMAINING BALANCE: €145.70
+@@2204
+Contact details
+@@2205
+Owner property
+@@2206
+Manager
+@@2207
+Cleaner
+@@2208
+Cleaner (backup)
+@@2209
+Laundry service
+@@2210
+Pool &amp; garden guy
+@@2211
+Trash service
+@@2212
+Important codes
+@@2213
+Code front door
+@@2214
+Code lock box
+@@2215
+Codes are stored only in this browser, on this device. Change them here whenever you change them at the property.
+@@2216
+{1}← Back{2}Setup checklist
+@@2217
+{1}Next →{2}Profit calculator
+@@2218
+Tool · Profit &amp; ROI
+@@2219
+Profit &amp; ROI {1}calculator{2}
+@@2220
+Smart hosts run the numbers first, emotion comes second.
+@@2221
+Before signing a lease or investing in furniture, it’s crucial to understand your numbers. This Profit &amp; ROI Calculator helps you estimate how much income a property can generate and how long it will take to earn back your initial investment.
+@@2222
+It’s designed to give you a quick, realistic snapshot of: monthly and yearly profit, return on investment (ROI), break-even timeline, and how your numbers shift at different occupancy rates.
+@@2223
+{1}Step 1:{2} choose your currency and fill in your business expenses.
+@@2224
+{1}Step 2:{2} pick your business model and enter your numbers under “Enter your data here”. The tables update automatically.
+@@2225
+Review the results at different occupancy rates (70%, 85%, 95%) to see how scenarios play out.
+@@2226
+For more explanation of a field, tap “What is this?” under it. Your numbers are saved on this device.
+@@2227
+Step 1 {1}business expenses overview{2}
+@@2228
+Calculate your business expenses first. If you need help estimating any costs, use the AI prompt below. Once completed, your expenses automatically flow into the three calculators in step 2.
+@@2229
+Choose currency
+@@2230
+Changes the currency everywhere in the course.
+@@2231
+Monthly costs
+@@2232
+Utilities
+@@2233
+Electricity
+@@2234
+Gas (optional)
+@@2235
+Internet
+@@2236
+Water
+@@2237
+Insurance (optional)
+@@2238
+Total
+@@2239
+Team
+@@2240
+Cleaner 1
+@@2241
+Cleaner 2 (optional)
+@@2242
+Manager (optional)
+@@2243
+Pool cleaner (optional)
+@@2244
+Gardener (optional)
+@@2245
+Accountant (optional)
+@@2246
+Other costs
+@@2247
+Supplies
+@@2248
+Monthly maintenance
+@@2249
+One-time costs
+@@2250
+Set up
+@@2251
+Outside area (optional)
+@@2252
+Not sure what the setup will cost? The {1}setup checklist{2} gives you an estimated budget, room by room.
+@@2253
+Total monthly costs
+@@2254
+Total one-time costs
+@@2255
+AI prompt: estimate my costs
+@@2256
+You are a short-term rental business expert.
+
+I am planning a short-term rental property in {1}{2}, with [# BEDROOMS] bedrooms, cleaned [CLEANING FREQUENCY PER MONTH] times per month.
+
+Please give me realistic average monthly and one-time cost estimates for this destination, based on typical short-term rental operations.
+
+Use {3}{4} for all numbers.
+
+Break down the costs in the following structure:
+Monthly expenses: Utilities (electricity, gas if applicable, internet, water, insurance), Team (cleaner based on the cleaning frequency above, handyman, property manager if commonly used in this destination, pool cleaner if applicable, gardener if applicable, accountant / admin), Other monthly expenses (supplies such as toiletries and consumables based on turnover, maintenance reserve).
+
+One-time setup costs: Kitchen setup, living room setup, bedroom setup, bathroom setup, laundry setup, outdoor / pool area if applicable.
+
+For each cost, provide:
+- A realistic average range (low–high)
+- A recommended estimate to use for financial planning
+
+Also mention:
+- Any costs that are commonly underestimated in this destination
+- Whether costs are higher or lower than average compared to similar markets
+
+Keep the answer practical, realistic, and suitable for plugging directly into a profit &amp; ROI calculator.
+@@2257
+Need a little help? Fill in your info in the brackets, then copy and paste into your AI assistant.
+@@2258
+Step 2 {1}run the numbers for your business model{2}
+@@2259
+Renting a property
+@@2260
+Buying a property
+@@2261
+Leasing a property
+@@2262
+Rental arbitrage {1}profit calculator{2}
+@@2263
+Enter your data here
+@@2264
+Monthly rent
+@@2265
+What is this?
+@@2266
+How much is the monthly rental?
+@@2267
+Security deposit
+@@2268
+0 monthly rent
+@@2269
+1 monthly rent
+@@2270
+2 monthly rents
+@@2271
+3 monthly rents
+@@2272
+4 monthly rents
+@@2273
+5 monthly rents
+@@2274
+Select how many months of deposit the agency or owner is asking.
+@@2275
+Extra admin costs
+@@2276
+Extra admin costs can include rental taxes, agency fees ...
+@@2277
+Rooms
+@@2278
+How many rooms are you going to rent?
+@@2279
+Nightly price per room
+@@2280
+This is the price that guests will pay for your room per night. To estimate the nightly rate, we recommend doing two types of research:
+@@2281
+Check similar listings on the Airbnb platform.
+@@2282
+Use a market data tool like AirROI to review local metrics.
+@@2283
+Airbnb applies platform fees and taxes of approximately 17%, depending on the country. These fees are typically paid by the guest. Therefore, the prices you see on Airbnb as a traveler usually already include this additional 17%.
+@@2284
+Total initial investment
+@@2285
+Monthly expenses
+@@2286
+From step 1. 
+@@2287
+Change them
+@@2288
+Occupancy rate
+@@2289
+Monthly income
+@@2290
+Monthly profit
+@@2291
+Yearly profit
+@@2292
+ROI
+@@2293
+Break even
+@@2294
+Worst-case
+@@2295
+Average
+@@2296
+Best-case
+@@2297
+What do the columns mean?
+@@2298
+{1}Occupancy rate.{2} The occupancy rate is the percentage of nights your place is booked. For example: if your property gets booked for 15 days in the month and the other 15 days are not rented, your occupancy rate is 50%. Worst-case, average and best-case are the worst, average and best occupancy in the zone where you are going to start. You can change each percentage.
+@@2299
+{1}Monthly income.{2} How much you would earn per month before deducting any expenses — also called gross income.
+@@2300
+{1}Monthly costs.{2} The costs to manage a property: cleaners, cleaning products, handyman services, utility bills (water, electricity, gas, internet) ... You can change them in step 1.
+@@2301
+{1}Monthly profit.{2} Your estimated income after subtracting all recurring monthly costs, such as rent, team, utilities and cleaning costs.
+@@2302
+{1}ROI.{2} Your yearly return on investment, as a percentage.
+@@2303
+{1}Break even.{2} How long (in months) it will take to recover your initial investment.
+@@2304
+5 year profit
+@@2305
+Scenario
+@@2306
+×1 property
+@@2307
+×2 properties
+@@2308
+×4 properties
+@@2309
+Your estimated profit after 5 years with 1, 2 or 4 similar properties.
+@@2310
+Profit and months for break even
+@@2311
+{1}{2}Profit
+@@2312
+{1}{2}Initial capital
+@@2313
+At your average occupancy rate. The lines cross halfway to break even; the capital line reaches zero at break even.
+@@2314
+Months
+@@2315
+Profit
+@@2316
+Initial capital
+@@2317
+The table doesn’t include taxes, because they differ in every country. You still need to consider:
+@@2318
+Company income tax
+@@2319
+It’s fine to start small without a company, but be aware of the company income tax if in the future you plan to open a company to manage your properties.
+@@2320
+Touristic tax
+@@2321
+Some cities apply tourist taxes directly through the Airbnb platform. You need to check what applies at your place.
+@@2322
+Dividends income tax
+@@2323
+If you already have a company to manage your property and plan to take profit from the company to your personal account, you should consider the applicable dividend taxes where you are a tax resident.
+@@2324
+Property owner {1}profit calculator{2}
+@@2325
+Property price
+@@2326
+How much does the property cost?
+@@2327
+Extra admin costs can include purchase taxes, agency fees ...
+@@2328
+Leasehold {1}profit calculator{2}
+@@2329
+Lease price
+@@2330
+How much do you pay for the lease?
+@@2331
+*A leasehold is when you rent a property long-term, often for several years, with the right to use it as your own. In places like Bali, foreigners can’t own land, so leaseholds are the most common way to legally control and profit from a property without actually buying it. You pay upfront or yearly, and in return, you get full use of the property for the length of the lease.
+@@2332
+{1}Note:{2} Taxes are not included in this calculator, as they vary by country. Be sure to account for local income or corporate tax, tourist/occupancy taxes, and dividend or capital gain tax if applicable.
+@@2333
+Use this tool before committing to any property. If the numbers don’t look good on paper, it’s not worth the risk.
+@@2334
+© All rights reserved. Do not share, copy, reproduce or sell any part of this document unless you have written permission from Farah and Daniel. All infringements will be prosecuted.
+@@2335
+{1}← Back{2}Property manual
+@@2336
+{1}Next →{2}Property finance tracker
+@@2337
+Tool · income &amp; expenses
+@@2338
+Property finance {1}tracker{2}
+@@2339
+Track income, expenses and profit for every property.
+@@2340
+Keep track of your income and expenses from your very first booking. It makes your tax return easier and shows you exactly which property earns the most. Update it once a month.
+@@2341
+{1}← Back{2}Profit calculator
+@@2342
+{1}Next →{2}Staff agreement templates
+@@2343
+Bonus · for your team
+@@2344
+Staff agreement {1}templates{2}
+@@2345
+Four ready-made agreements for your manager, cleaner, handyman and pool &amp; garden team.
+@@2346
+Put every agreement in writing. It avoids confusion about tasks, payment and responsibilities, and it protects you and your team. These are the four templates we use ourselves. You’ll find more about building your team in {1}Lesson 10{2}.
+@@2347
+{1}← Back{2}Property finance tracker
+@@2348
+{1}Next →{2}Label system
+@@2349
+Bonus · for guests &amp; team
+@@2350
+Label {1}system{2}
+@@2351
+What to label, how to do it, and a printable label sheet.
+@@2352
+Labels are one of the cheapest ways to save time. They keep your team organized and answer guests’ questions before they ask. More about this in {1}Lesson 11{2}.
+@@2353
+Clear labeling helps your team stay organized, reduces guest confusion, and saves time during turnovers.

@@ -1,0 +1,250 @@
+@@listing-desc
+BESCHRIJVING
+[beschrijving van de woning, bijv.: boetiekvilla, gedeeld appartement,...] @ [Instagram-account of tag van de woning]
+Je krijgt toegang tot je eigen privé-[kamer/suite/appartement]. De rest van [de woning/het huis/het gebouw], inclusief [het zwembad/de woonkamer/de keuken/de tuin], deel je met andere gasten.
+
+Gelegen in een [rustige/levendige/centrale/afgelegen] omgeving, op een paar minuten van [belangrijke bezienswaardigheden, buurten of attracties].
+
+Je hebt exclusief toegang tot je eigen [kamer/suite/appartement] met een [eigen/gedeelde] badkamer, een [maat]bed, schone lakens, handdoeken en [eventuele extra voorzieningen]. Snelle wifi aanwezig.
+
+Dagelijkse [schoonmaak/huishoudelijke service] inbegrepen, zodat je helemaal kunt ontspannen en van je verblijf kunt genieten.
+
+DE RUIMTE
+Deze [woning/dit huis/dit appartement] ligt in een [rustige/vriendelijke] woonwijk.
+
+Het ligt tussen [lokale kenmerken, bijv. winkels, strand, natuur] en biedt de perfecte mix van [rust/gemak/cultuur/avontuur].
+
+Het gedeelde [zwembad/de gedeelde tuin/lounge] is ideaal om [te zonnen/te werken/te ontspannen]. Het design combineert [stijlwoorden: minimalistisch/boho/industrieel] elementen met comfort en functionaliteit.
+
+Het is een [fotogenieke/stijlvolle/gastvrije] ruimte, perfect om tot rust te komen of op afstand te werken. In tegenstelling tot veel andere woningen in de buurt hebben wij [betrouwbare toegang/geen vocht/makkelijk parkeren/enz.].
+
+[Voeg unieke comfortdetails toe, bijv. een matras van hoge kwaliteit van [merk], verduisterende gordijnen of geluidsisolatie.] Minimumleeftijd: [bijv. 12+ / 18+ / alleen volwassenen]. [Huisdieren toegestaan op aanvraag / Geen huisdieren toegestaan]. Bagage afgeven mogelijk vanaf [tijdstip].
+
+TOEGANG VOOR GASTEN
+Je hebt toegang tot:
+- Je privé-[kamer/suite/appartement]
+- [Eigen/gedeelde] badkamer
+- Gedeelde [zwembad/keuken/woonkamer/buitenruimte]
+
+Deze woning heeft [#] privé-[kamers/suites], voor in totaal maximaal [#] gasten. Deze boeking omvat [#] privé-[kamer/suite] voor maximaal [#] gasten.
+
+TIJDENS JE VERBLIJF
+Deze woning is perfect voor gasten die houden van [privacy/contact met anderen/allebei]. [Optioneel: vermeld self check-in, 24/7 ondersteuning of beschikbaarheid van de host.]
+
+OVERIGE BIJZONDERHEDEN
+We hebben een [waterfiltersysteem/milieuvriendelijke oplossing/beveiligingscamera/afzuigventilator] geplaatst voor je [comfort/veiligheid/gemak].
+
+De [keuken/woonruimte/het zwembad/de buitenruimte] deel je met andere gasten, tenzij je de hele woning hebt geboekt. Alleen je [slaapkamer/badkamer] is privé.
+@@house-rules
+- Uitchecken om [11:00 uur].
+- Geen feestjes of evenementen. Rusttijden van [22:00 tot 8:00 uur]. Houd rekening met de buren.
+- Niet roken of vapen binnen. Roken mag alleen op het balkon, met de deur dicht.
+- Geen huisdieren.
+- Maximaal [# gasten]. Bezoek alleen met toestemming van de host.
+- Zet gebruikte vaat in de gootsteen of vaatwasser.
+- Doe de deur op slot en sluit de ramen als je weggaat.
+@@house-rules-shared
+- Uitchecken om [11:00 uur]. Verlaat dan het hele appartement, niet alleen je kamer.
+- Geen feestjes of evenementen. Rusttijden van [22:00 tot 8:00 uur]. Houd rekening met de andere gasten en de buren.
+- Niet roken of vapen binnen. Roken mag alleen op het balkon, met de deur dicht.
+- Geen huisdieren.
+- Bezoek alleen met toestemming van de host.
+- Houd de gedeelde ruimtes netjes en bewaar je spullen in je kamer.
+- Slaap in je eigen kamer, niet in de gedeelde ruimtes.
+- Zet gebruikte vaat in de gootsteen of vaatwasser.
+- Gebruik in de keuken de plank met het label van je kamer.
+- Doe de deur op slot en sluit de ramen als je weggaat.
+@@qr-shared
+Zoals vermeld in de advertentie heb je toegang tot [# privésuite] met een [eigen badkamer], geschikt voor [maximaal # gasten].
+Het [zwembad, de keuken en de woonkamer] deel je met andere gasten.
+Er zijn [# suites in totaal] in de woning, dus er kunnen tegelijk maximaal [# gasten] verblijven. Elke suite is volledig privé en veilig.
+Laat het me weten als je nog vragen hebt.
+@@qr-people
+De woning heeft in totaal [# privésuites], voor in totaal maximaal [# gasten].
+Deze boeking omvat [# suite] voor maximaal [# gasten].
+De woning is ingericht om te delen: alles is duidelijk gelabeld, zodat je je eigen plek hebt in de koelkast, de keuken en de badkamer. De gedeelde ruimtes worden regelmatig schoongemaakt, zodat ze voor iedereen schoon en comfortabel blijven.
+@@qr-night
+Ja, omdat het self check-in met een digitale code is, kun je op elk moment van de nacht aankomen, zonder extra kosten.
+@@qr-night2
+Ja, omdat het self check-in met een digitale code is, kun je op elk moment van de nacht aankomen, zonder extra kosten.
+Kom je na middernacht aan? Dan even ter controle:
+Kun je bevestigen dat je aankomt in de nacht van [datum] op [datum]?
+Is je check-in na 00:00 uur, dan moet je vanaf de dag ervoor boeken, omdat die nacht nog bij die kalenderdatum hoort.
+Kom je bijvoorbeeld op de 7e om 1:00 uur aan, dan moet je boeking op de 6e beginnen en niet op de 7e. Een boeking vanaf de 7e geeft namelijk pas toegang na de check-intijd [..uur] op de 7e.
+@@qr-disc-no
+Helaas bieden we geen kortingen aan. We ontvangen wel gasten voor langere verblijven en boekingen van meerdere kamers, maar we richten ons vooral op korte verblijven, dus we bieden geen lagere prijzen voor lange verblijven of meerdere kamers. We zouden je toch heel graag ontvangen en je bent van harte welkom.
+@@qr-disc-yes
+Ja, we geven 10% korting bij langere verblijven. Als je je reisdata invult, wordt de korting automatisch toegepast.
+@@qr-visit
+Helaas is het niet gebruikelijk om bezichtigingen te regelen voor Airbnb-boekingen. Het platform staat niet toe dat we contactgegevens delen voordat een reservering is bevestigd, en de kamer is op dit moment bezet, dus we moeten de privacy van de gast respecteren.
+Je bent via Airbnb volledig beschermd: als de kamer niet precies is zoals beschreven of niet overeenkomt met de foto’s, heb je recht op terugbetaling of vervangende accommodatie. Zo weet je zeker dat je precies krijgt wat je in de advertentie ziet.
+Heb je nog andere vragen, stel ze dan gerust hier. We leggen alles graag uit, zodat je je helemaal zeker voelt.
+@@qr-park
+Er is gratis parkeergelegenheid direct voor de woning, met ruimte voor [aantal parkeerplaatsen]. Meestal is er plek, maar dat is niet gegarandeerd.
+@@qr-third
+Volgens het beleid van Airbnb zijn boekingen voor derden niet toegestaan. Zou je de huidige reservering kunnen annuleren (je krijgt je geld volledig terug), zodat de gast een eigen account kan maken en zelf kan boeken? We kunnen ook een uitzondering maken als je je inloggegevens met de gast deelt, zodat we via jouw account kunnen communiceren.
+Dat is belangrijk, omdat we alle check-ininstructies en andere details hier sturen en we direct met de gast moeten kunnen communiceren.
+@@qr-refund
+Je krijgt alleen je geld volledig terug als je binnen 48 uur na de boeking annuleert, en minstens 14 dagen voor de check-in.
+- Annuleer je tussen 7 en 14 dagen voor de check-in, dan krijg je 50% terug.
+- Annuleer je minder dan 7 dagen voor de check-in of tijdens je verblijf, dan krijg je niets terug.
+Bij het boeken ben je akkoord gegaan met dit beleid. Het is er om ons als hosts te beschermen, omdat we de kamer speciaal voor jou hebben gereserveerd op de data die je koos en we op korte termijn waarschijnlijk geen nieuwe boeking meer krijgen. We hopen dat je het begrijpt.
+
+Voor meer info kun je het volledige beleid in onze advertentie lezen of rechtstreeks contact opnemen met Airbnb.
+@@qr-lug-in
+Je kunt je bagage vanaf [tijdstip, bijv. 11:00 uur] afgeven en in je suite achterlaten. De suite wordt dan nog schoongemaakt, maar is uiterlijk op de check-intijd, [tijdstip, bijv. 15:00 uur], klaar en schoon.
+@@qr-exc
+Ja, geen zorgen, iedereen maakt weleens een fout, dus we geven je je geld volledig terug, min €15 administratiekosten. Om te annuleren ga je naar de details van je boeking en annuleer je daar. Zodra je dat doet, krijg ik een e-mail waarin ik de volledige terugbetaling accepteer.
+Doe dit wel binnen het komende uur, zodat onze kalender weer vrijkomt. Helaas kan ik als host niet voor je annuleren, want dan moet ik een boete betalen en verlies ik mijn Superhost-status.
+Heb je hulp nodig bij het annuleren, neem dan rechtstreeks contact op met de klantenservice van Airbnb.
+@@qr-dates
+Helaas kunnen we wijzigingen van de data alleen goedkeuren als ze minstens 14 dagen voor je oorspronkelijke check-indatum worden aangevraagd. Omdat we afhankelijk zijn van onze boekingen, reserveren we deze data speciaal voor jou en zouden we op het laatste moment geen nieuwe goede boeking meer voor deze data krijgen.
+
+Volgens ons annuleringsbeleid krijg je, als je check-in nog 7 dagen weg is, wel 50% terug als je besluit te annuleren. We hopen dat je het begrijpt.
+@@qr-transfer
+We raden je aan om luchthavenvervoer via ons te boeken, omdat we een betere prijs bieden dan de meeste taxi’s op het vliegveld. Ophalen kost [prijs invullen].
+Is dat goed voor je? Bevestig het dan en stuur me je vluchtgegevens.
+@@qr-getthere
+Je ontvangt de check-ininstructies op de dag van aankomst om 11:00 uur. Wil je de precieze locatie nu al bekijken, zoek dan op [adres] in Google Maps.
+@@qr-money
+Helaas kunnen we geen uitzonderingen maken op het annuleringsbeleid, en binnen 7 dagen voor de check-in of tijdens het verblijf is terugbetaling niet mogelijk.
+Bij het boeken ben je akkoord gegaan met ons beleid. Het is er om ons als hosts te beschermen, omdat we de kamer speciaal voor jou hebben gereserveerd op de data die je koos en we op korte termijn waarschijnlijk geen nieuwe boeking meer krijgen. Voor meer info kun je het volledige beleid in onze advertentie lezen of rechtstreeks contact opnemen met Airbnb.
+Wil je meer flexibiliteit? Dan kun je de volgende keer dat je via Airbnb boekt een zoekfilter gebruiken om alleen advertenties met een flexibel annuleringsbeleid te zien. Wij bieden die optie helaas niet aan, omdat we echt afhankelijk zijn van onze reserveringen.
+@@qr-lug-s
+Je kunt je bagage achterlaten in [plek]. Kom alleen terug om je bagage op te halen en gebruik de gemeenschappelijke ruimtes niet meer, zodat we de ruimte schoon en rustig kunnen houden voor de nieuwe gasten. Rond welke tijd kom je hem ophalen? Uiterlijk ophalen om [tijdstip].
+@@qr-lug-p
+Je kunt je bagage achterlaten in [plek]. Rond welke tijd kom je hem ophalen? Uiterlijk ophalen om [tijdstip].
+@@qr-lug-n
+Helaas hebben we geen veilige ruimte om bagage op te slaan. We raden wel een bagageopslag in de buurt aan die veel van onze gasten gebruiken. Hier is de link: [link invullen]
+@@qr-locked
+Hoi,
+Het is al na onze check-outtijd van 11:00 uur, en de schoonmaker staat bij je slaapkamerdeur, die op slot lijkt te zijn. Ben je in de buurt? De volgende gasten komen zo aan, dus we moeten beginnen met schoonmaken.
+Een vriendelijke herinnering: we rekenen €50 voor een late check-out om vertraging te voorkomen, omdat we een krappe planning tussen reserveringen hebben. Als je binnen 15 minuten kunt uitchecken, rekenen we dit niet. Ik heb je ook geprobeerd te bellen, maar kreeg je niet te pakken.
+Om op schema te blijven, laat ik de schoonmaker de kamer binnengaan en beginnen met het afhalen van de lakens voor de was.
+Laat zo snel mogelijk iets van je horen. Bedankt!
+@@qr-late
+Hoi,
+Het is al na onze check-outtijd van 11:00 uur. De volgende gasten komen zo aan, dus we moeten beginnen met schoonmaken.
+Een vriendelijke herinnering: we rekenen €50 voor een late check-out om vertraging te voorkomen, omdat we een krappe planning tussen reserveringen hebben. Als je binnen 15 minuten kunt uitchecken (niet alleen uit de kamer, maar ook uit het appartement), rekenen we dit niet.
+We moeten op schema blijven, dus we hopen dat je het begrijpt.
+Bedankt!
+@@qr-thought
+Het spijt me heel erg dat er een misverstand is ontstaan. We bieden precies aan wat je hebt geboekt, want in de advertentie staat meerdere keren vermeld dat de woning gedeeld is. Ik hoop dus dat je begrijpt dat we geen fout hebben gemaakt en je geen onjuiste informatie hebben gegeven.
+Je mag de reservering annuleren, maar dan gelden de annuleringsvoorwaarden waarmee je bij het boeken akkoord bent gegaan. Je kunt annuleren via de details van je reservering, met de knop Annuleren.
+Heb je nog vragen of klachten, neem dan contact op met Airbnb zelf. Zij helpen je verder.
+@@qr-key
+Geen zorgen, we hebben een reservesleutel op een geheime plek in [plek]. De code van het sleutelkluisje is [xxxx]. Als je het opent, vind je de sleutel [waar ze hem vinden].
+Let op: als de sleutel kwijt is, moeten we €50 in rekening brengen voor het vervangen ervan. Hopelijk vind je hem nog terug!
+@@qr-noise-g
+Hoi, ik hoop dat alles goed gaat.
+We kregen een algemene klacht over geluid van een gast, en omdat er meerdere mensen in de woning verblijven, willen we niemand specifiek de schuld geven. Daarom sturen we iedereen een vriendelijke herinnering om de muziek zacht te houden en niet te luid te praten, vooral ’s nachts.
+Als jij hier ook last van hebt gehad, bied ik je mijn oprechte excuses aan. We doen ons best om de situatie onder controle te krijgen. Het comfort van onze gasten (ook dat van jou) heeft onze hoogste prioriteit, zodat iedereen volop van zijn verblijf kan genieten.
+Is er nog iets anders, laat het ons weten. We helpen je graag!
+@@qr-noise-s
+Hoi, ik hoop dat het goed met je gaat. We sturen je dit bericht omdat we helaas een klacht over geluid van andere gasten hebben ontvangen.
+Als host trekken we nooit conclusies na maar één kant van het verhaal, maar we willen je vriendelijk vragen om, als er inderdaad veel lawaai was, het rustig te houden in de villa, vooral ’s nachts.
+De gast heeft me nu om een terugbetaling voor deze nacht gevraagd, dus we moesten contact opnemen met Airbnb om te kijken hoe we dit kunnen oplossen.
+Het comfort van onze gasten is onze prioriteit nummer 1, niet alleen dat van andere gasten, maar ook dat van jou. Laat me weten of je dit bericht hebt ontvangen. Wil je ons nog iets laten weten, dan kan dat natuurlijk.
+Bedankt voor je begrip en medewerking.
+@@qr-clutter
+Hoi, we zagen dat er veel rommel in de gemeenschappelijke ruimtes ligt, dus we sturen iedereen in de villa een vriendelijke herinnering om persoonlijke spullen zoveel mogelijk in de eigen slaapkamer te bewaren, en ze netjes te houden als je ze toch in de gedeelde ruimtes neerlegt.
+Zo houden we het een fijne plek voor alle gasten in de villa. Geldt dit niet voor jou, dan kun je dit bericht negeren. Bedankt en een fijne dag!
+@@qr-reply
+Wat vervelend om te horen! De meeste gasten zijn respectvol en rustig, maar in gedeelde accommodaties is er helaas altijd een klein risico op af en toe wat overlast. Daarom vermelden we in de advertentie dat er geluid kan zijn.
+Dat gezegd hebbende zijn we het er helemaal mee eens dat alles altijd binnen respectvolle grenzen moet blijven.
+We doen ons best om duidelijke huisregels en rusttijden te hanteren, en je kunt ons 24/7 bereiken als er een situatie is die moet worden opgelost.
+We spreken de betrokken gasten aan. Verbetert de situatie niet meteen, laat het ons dan opnieuw weten.
+Jouw comfort heeft onze hoogste prioriteit, en we bieden onze oprechte excuses aan voor het ongemak. Heel erg bedankt dat je het ons hebt laten weten, zodat we actie kunnen ondernemen.
+@@qr-spider
+O nee! Ik snap dat dat heel eng is. Geen zorgen, ze zijn meestal ongevaarlijk (vooral de grote spinnen zien er eng uit, maar zijn ongevaarlijk).
+Normaal gesproken staat er insectenspray [waar, bijv.: onder je wastafel in de badkamer].
+Spuit in de richting van de spin, dan is hij binnen een paar minuten dood. Heb je hulp nodig, laat het ons weten. Ik kan kijken of iemand van ons personeel beschikbaar is om te helpen.
+@@declutter-1
+Hoi allemaal,
+We hebben grondig schoongemaakt en gaan spullen weghalen die vorige huurders hebben achtergelaten, om op te ruimen, alles schoon te houden en ruimte voor jullie vrij te maken.
+
+Om te voorkomen dat we per ongeluk iets weghalen dat van jou is, vragen we je vriendelijk om het volgende te doen vóór [specifieke datum]
+
+🔹 Douche:
+Zet je spullen in het zeepmandje aan de muur of op je eigen plank.
+🔹 Vriezer:
+Haal je spullen uit de bovenste la
+🔹 Koelkastdeur:
+Zet je spullen op je eigen plank of label ze met tape (er ligt een rol op de magnetron).
+🔹 Doos in de gang:
+In de gang staat een doos met eten en spullen die we buiten de persoonlijke planken hebben gevonden.
+Is iets van jou, neem het dan gerust terug!
+
+Zodra iedereen zijn spullen heeft opgehaald, kunnen de overgebleven spullen [de dag voor de deadline] worden “geadopteerd” als je iets wilt houden.
+
+⚠ Op [specifieke datum] worden alle niet-opgehaalde spullen weggehaald, waaronder:
+- Spullen op de vloer van de douche
+- Spullen in de koelkastdeur zonder tape
+- Eten in de bovenste la van de vriezer
+- Spullen in de doos in de gang
+
+Heel erg bedankt voor jullie hulp en medewerking!
+@@declutter-2
+Hoi allemaal,
+
+Even een laatste herinnering: morgen is de deadline om je spullen op te halen, als onderdeel van de opruimronde.
+
+We halen het volgende weg:
+- Spullen die op de vloer van de douche staan
+- Spullen zonder label in de koelkastdeur
+- Eten in de bovenste la van de vriezer
+- Spullen in de doos in de gang
+
+Ligt er nog iets wat je wilt houden, “adopteer” het dan gerust voordat het weg is!
+Bedankt voor jullie medewerking.
+@@sm-1
+Hoi [voornaam gast]
+We kunnen niet wachten om je binnenkort te verwelkomen. Rond welke tijd kom je aan? Inchecken kan vanaf [tijdstip, bijv. 15:00 uur] (bagage afgeven kan al vanaf 11:00 uur).
+Op de dag van aankomst ontvang je om 11:00 uur het exacte adres en de code voor de self check-in. Heb je dan geen wifi, laat het me weten, dan stuur ik het eerder.
+
+OVERIGE INFO:
+- Als je kookt of de keuken gebruikt: was, droog en ruim de vaat op, zodat het netjes blijft. Je hebt een eigen plank in de koelkast en in de keukenkastjes, met een label van je suite.
+- [vul info over de schoonmaak in, bijv.: de slaapkamer wordt dagelijks schoongemaakt en de lakens worden 2x per week verschoond. Wil je nieuwe handdoeken, leg ze dan in de wasmand. Help ons energie te besparen door je handdoeken tijdens je verblijf opnieuw te gebruiken.]
+- WIFI
+  Netwerk: [xxxx]
+  Wachtwoord: [xxxx]
+- Heb je problemen of hulp nodig, laat het ons dan weten! Als we het niet weten, kunnen we het niet oplossen. Jouw comfort is onze prioriteit nummer 1
+
+Hier is een lijst met onze lokale tips:
+[link naar je Airbnb-gids]
+
+Heb je nog andere vragen? Vraag maar raak!
+@@sm-2
+Hoi [voornaam gast]
+De locatie is [locatie] in Google Maps.
+[voeg meer info toe, of zelfs een foto met instructies om het makkelijk te vinden, bijv.: omdat het een nieuw adres is, stoppen sommige taxichauffeurs op de hoofdweg
+- Ga linksaf bij het rijstveld.
+- Ga aan het einde van die straat weer linksaf, vlak voor de kleine zwarte tempel.]
+
+Je komt de villa binnen met deze code op het cijferpaneel: [code, bijv.: 1234#] (tik eerst op het paneel zodat het oplicht, en toets dan het nummer in)
+Je privékamer is SUITE [#]
+De kamer is uiterlijk op de check-intijd [bijv. 15:00 uur] klaar, maar je kunt je bagage ook eerder afgeven.
+Kun je het niet vinden, bel dan 24/7 ons contactpersoon voor noodgevallen [naam manager +00 0000 000 (WhatsApp)].
+Tot snel!
+@@sm-3
+Goedemorgen [voornaam gast]
+Hoe was je eerste nacht? Is alles goed in de villa? Heb je nog iets nodig, laat het ons weten, we helpen je graag :)
+Een fijne dag!
+@@sm-4
+We hopen dat je het fijn hebt gehad bij ons. Morgen is je check-out om precies 11:00 uur.
+We vragen je vriendelijk om op dat tijdstip niet alleen de slaapkamer te verlaten, maar ook buiten de villa te zijn, zodat de schoonmaker zijn werk kan doen.
+
+INSTRUCTIES VOOR DE CHECK-OUT:
+- doe de lichten en de airco uit
+- leg de sleutel op het bureau
+- laat de slaapkamerdeur open (zodat we weten dat je weg bent)
+- wees om 11:00 uur buiten de villa
+
+Wil je je bagage achterlaten? Geen probleem! Je kunt je bagage in het washok (links van suite 2) achterlaten en dezelfde dag ophalen. Laat het ons weten, dan sturen we je de code van het sleutelkluisje met de sleutel.
+Geniet van je laatste dag. Bedankt!
+@@sm-5
+Bedankt voor je verblijf en dat je zo’n fijne gast was!
+Ik laat een beoordeling van 5 sterren voor je achter. Heb je van je verblijf genoten, zou je er dan ook een voor ons willen achterlaten? Omdat onze villa nieuw is, is jouw beoordeling ontzettend waardevol om meer boekingen te krijgen.
+Nog even dit: beoordelingen op Airbnb werken anders dan bij hotels. Alles onder de 5 sterren heeft echt een negatieve invloed op onze advertentie. Is er iets wat we kunnen verbeteren, deel je feedback dan gerust rechtstreeks met ons.
+Wil je ooit terugkomen, dan ontvangen we je graag opnieuw!
+Een geweldige dag gewenst.

@@ -1,0 +1,284 @@
+@@1797
+Maintenance
+@@1798
+Someone on call for small repairs, broken appliances and emergencies.
+@@1799
+Guest support
+@@1800
+Want to step away fully? A co-host or manager answers messages, coordinates cleaning and solves issues.
+@@1801
+Restocking
+@@1802
+Weekly or monthly, with a working capital and receipt tracking.
+@@1803
+Keep for yourself, at least at first
+@@1804
+The foundation you set yourself
+@@1805
+Doing these yourself at the start teaches you the business inside out, so you can delegate them clearly later:
+@@1806
+Guest experience &amp; tone of voice
+@@1807
+Branding &amp; listing optimization
+@@1808
+Reviews &amp; reputation
+@@1809
+Systems: SOPs, templates, trackers
+@@1810
+The recipe for scaling with freedom
+@@1811
+{1}Automate the repetitive. Delegate the physical.{2} Spend your time on what actually grows the business: branding, strategy and experience.
+@@1812
+Communication systems for your team
+@@1813
+Clear communication is the backbone of a smooth operation, especially with several people involved: cleaners, a handyman, a manager. {1}Without systems, things fall through the cracks.{2}
+@@1814
+One group per property
+@@1815
+A WhatsApp group (or your preferred app) with everyone involved, named like {1}[Property name] – Operations team{2}. Use it for:
+@@1816
+Schedule coordination
+@@1817
+Guest updates (late checkouts, early check-ins)
+@@1818
+Damage or missing items, with photos
+@@1819
+Receipts and the remaining working capital
+@@1820
+Access to the property wiki
+@@1821
+Your team should always have the wiki (see bonus template), with:
+@@1822
+Supply list
+@@1823
+Product links
+@@1824
+Emergency contacts
+@@1825
+Appliance how-tos
+@@1826
+Walkthrough videos
+@@1827
+No more repeating yourself, and faster onboarding.
+@@1828
+Response times
+@@1829
+Agree when and how fast people reply. For example:
+@@1830
+Cleaners confirm checkouts within 2 hours
+@@1831
+The emergency contact is reachable by phone while guests are on-site
+@@1832
+The manager sends a daily update when needed
+@@1833
+Pinned messages &amp; folders
+@@1834
+Pin the key info (door codes, checklists, payment info) to the top of the group. For bigger systems, use a shared Google Drive or Dropbox folder.
+@@1835
+Voice notes when helpful
+@@1836
+Not everything needs to be typed. For longer updates or walk-throughs, a quick voice note saves time and feels more human.
+@@1837
+Clarity = fewer mistakes.
+@@1838
+ Miscommunication causes missed cleanings and bad guest experiences. The clearer your systems, the smoother your operations, and the less you’re needed day to day.
+@@1839
+Bonus: scheduled messages that feel personal
+@@1840
+Scheduled messages save you time but that doesn’t mean they should feel robotic. The key is to write them in a warm, friendly tone and include personal touches like the guest’s name.
+@@1841
+When done right, scheduled messages feel like genuine communication while ensuring every guest gets the info they need on time, every time.
+@@1842
+How to set them up
+@@1843
+{1}Where they go:{2} in Airbnb, under “Scheduled messages”. Each one has a trigger and a time, shown above its title here.
+@@1844
+{1}Automatic:{2} once saved, Airbnb sends them to every guest on its own. Use Airbnb’s shortcodes for the guest’s first name so each message feels personal.
+@@1845
+{1}Add your check-in photos{2} to message 2, so the guest gets the pictures without you sending anything.
+@@1846
+{1}Automatic · immediately after booking{2}1. Welcome message
+@@1847
+1. Welcome message
+@@1848
+Scheduled message. Edit the [brackets], then paste it into Airbnb › Scheduled messages.
+@@1849
+{1}Automatic · day of arrival, 11am{2}2. Check-in instructions
+@@1850
+2. Check-in instructions
+@@1851
+{1}Automatic · day after arrival, 10am{2}3. Ask if everything is okay
+@@1852
+3. Ask if everything is okay
+@@1853
+{1}Automatic · day before checkout, 2pm{2}4. Check-out instructions
+@@1854
+4. Check-out instructions
+@@1855
+{1}Automatic · day of checkout, 12pm{2}5. Leave a review
+@@1856
+5. Leave a review
+@@1857
+{1}← Back{2}Streamline your operations
+@@1858
+{1}Next →{2}Scale up to 6 figures
+@@1859
+Part 3 · Lesson 13
+@@1860
+Scale up to {1}6 figures{2}
+@@1861
+When to expand, multiple countries, staying legal.
+@@1862
+5 sections · about 15 min
+@@1863
+{1}1{2}When to expand (and when to wait)
+@@1864
+{1}2{2}Managing multiple listings from different countries
+@@1865
+{1}3{2}Staying legally compliant while scaling
+@@1866
+{1}4{2}Bonus: property finance tracker
+@@1867
+{1}5{2}Congrats!
+@@1868
+When to expand (and when to wait)
+@@1869
+Deciding to expand is one of the most exciting milestones in your hosting journey. {1}But growing too fast or too soon can backfire.{2} Be honest with yourself and tick what’s true today:
+@@1870
+Are you ready to expand?
+@@1871
+✓ You’re ready to expand if:
+@@1872
+{1}Your current listing runs like a well-oiled machine:{2} Systems are in place, guests are happy, reviews are great, and operations don’t depend on you 24/7.
+@@1873
+{1}You’ve built a reliable team:{2} Cleaners, a handyman, and a manager or co-host are already trained and capable of handling turnovers and guest issues without your direct involvement.
+@@1874
+{1}You’ve automated repetitive tasks:{2} Messaging, pricing, and check-ins run with minimal input thanks to tools like automated messaging, dynamic pricing tools, and smart locks.
+@@1875
+{1}You consistently turn a profit:{2} Your current property is generating reliable income, even during low season.
+@@1876
+{1}You have capital (or cash flow) to invest:{2} Expansion requires upfront costs. If you don’t have a buffer, the stress can outweigh the rewards.
+@@1877
+✕ You should wait if:
+@@1878
+{1}You’re still figuring out your systems:{2} If your current property requires constant attention or if things often go wrong, focus on refining your process first.
+@@1879
+{1}Your reviews are mixed or inconsistent:{2} Expanding while you're still trying to deliver a great guest experience can compound problems and hurt your reputation.
+@@1880
+{1}You don’t have a strong team in place:{2} Trying to manage two properties without support will lead to burnout and mistakes.
+@@1881
+{1}Cash flow is tight:{2} Stretching your budget can put pressure on the guest experience, maintenance, and quality, which hurts long-term success.
+@@1882
+Optimize before you expand.
+@@1883
+ Expanding too soon is one of the most common mistakes new hosts make. A second listing should feel like a natural next step, not a leap of faith.
+@@1884
+Managing multiple listings from different countries
+@@1885
+Hosting in several countries lets you diversify your income, tap into different markets and earn year-round. We do it with Barcelona and Bali. {1}It works, as long as you plan for time zones, local rules and remote teams.{2}
+@@1886
+Build strong local teams
+@@1887
+You can’t be everywhere, so your on-the-ground team is everything:
+@@1888
+Cleaner + backup
+@@1889
+Local handyman
+@@1890
+Manager or co-host
+@@1891
+Nearby emergency contact
+@@1892
+Find, test and train them well. Once they’re solid, your properties run with minimal input.
+@@1893
+Standardize everything
+@@1894
+The same systems in every property, so the next one is a copy, not a new project:
+@@1895
+Cleaning checklists
+@@1896
+Guest message templates
+@@1897
+Restock trackers
+@@1898
+SOPs for turnovers and emergencies
+@@1899
+The bonus templates are made for this.
+@@1900
+Automate across time zones
+@@1901
+Scheduled messages keep communication consistent
+@@1902
+Dynamic pricing (PriceLabs, Beyond) adapts to each local market
+@@1903
+Smart locks remove the need to be there
+@@1904
+Check that messages go out in the guest’s time zone, not at 3am
+@@1905
+Know the local laws and taxes
+@@1906
+Every country has its own licenses, registrations and taxes (VAT, tourist tax). Hire a local accountant or legal advisor where needed. More on this in the next section.
+@@1907
+Separate your finances
+@@1908
+A separate bank account, payment method and working capital per property. You’ll see how each one performs, and taxes in each country get simpler.
+@@1909
+Protect your time and sanity
+@@1910
+Batch tasks by time zone, keep one WhatsApp group per property ({1}Lesson 12{2}), and consider a virtual assistant to watch messages while you sleep.
+@@1911
+Our advice
+@@1912
+{1}Start with one country and build solid systems.{2} Once your first international listing runs without your constant involvement, you have a blueprint to copy anywhere. Treat it like a business, not a hobby.
+@@1913
+Staying legally compliant while scaling
+@@1914
+One listing is simple. Several cities or countries? {1}Compliance gets more complex, and more important.{2} You already know the basics from {3}Lesson 2{4}. Here’s your checklist for every new location:
+@@1915
+Research the local rental laws
+@@1916
+Are short stays legal here?
+@@1917
+Night limits per year?
+@@1918
+Zoning restrictions?
+@@1919
+Do you need to live on-site?
+@@1920
+Ask locals
+@@1921
+Local host Facebook groups and the Airbnb Community Center are great for hearing about recent changes.
+@@1922
+Get the right licenses and registrations
+@@1923
+Many cities require a business license, a short-term rental permit, a registration number on your listing and emergency contact info on-site. Without them: hefty fines or removal from the platform. Check the municipality’s website or ask a local attorney.
+@@1924
+Understand your taxes
+@@1925
+You may owe
+@@1926
+Tourist or occupancy tax, income tax (local and foreign if you manage from abroad), and VAT or sales tax in some countries.
+@@1927
+You may need to
+@@1928
+Register as a business, file monthly or quarterly returns, and keep every receipt and expense report.
+@@1929
+Work with an accountant who knows short-term rentals in each country you operate in.
+@@1930
+Follow guest safety rules
+@@1931
+Smoke &amp; CO detectors
+@@1932
+Fire extinguisher
+@@1933
+First-aid kit
+@@1934
+Marked exits
+@@1935
+Insurance
+@@1936
+Even where it’s not mandatory, it protects you and your guests, and may be needed for Airbnb’s host protection.
+@@1937
+Track legal changes
+@@1938
+Short-term rental laws change constantly. What’s legal today might not be tomorrow. Set up Google Alerts, follow local news and stay connected with other hosts.

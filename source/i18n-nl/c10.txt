@@ -1,0 +1,166 @@
+@@1091
+{1}Why it works:{2} Leads with the view guests want and is honest that it’s a shared villa. Guests can already imagine themselves lying in bed, looking out at the pool.
+@@1092
+View listing ↗
+@@1093
+{1}Why it works:{2} A tiny room without windows, and still one of our most requested rooms. People love to stay in a big shared apartment with balconies, even on a lower budget.
+@@1094
+{1}Why it works:{2} It highlights the best feature of the apartment: the huge private rooftop. One word in capitals adds emphasis, and the location does the rest.
+@@1095
+Your listing details (fill in once, used in both prompts)
+@@1096
+Type of place
+@@1097
+Location
+@@1098
+Standout features
+@@1099
+Who it’s ideal for
+@@1100
+Unique vibe or style
+@@1101
+AI prompt: generate a scroll-stopping title
+@@1102
+Act as an expert property rental marketer. Help me write a catchy title of 50 characters or less for my rental listing.
+Here are the details:
+- Type of place: {1}{2}
+- Location: {3}{4}
+- 1–2 standout features: {5}{6}
+- Target audience: {7}{8}
+
+Give me 5 title options that are attention-grabbing and optimized for bookings.
+@@1103
+Your title
+@@1104
+2. Your description = your story
+@@1105
+Once they click, your description should guide the guest through the experience of staying at your place. Think of it as a conversation, not a brochure.
+@@1106
+Break it into short sections to make it easy to skim:
+@@1107
+{1}a. The Space:{2} Describe the vibe, layout, and highlights. Help them imagine being there.
+@@1108
+{1}b. The Experience:{2} What makes your place special? What can they expect? Is it peaceful? Lively? Designed for productivity? Tailor this to your audience.
+@@1109
+{1}c. The Location:{2} Add what’s nearby (cafés, sights, walkability) to make it feel like they’re already there.
+@@1110
+{1}d. Essentials:{2} Mention anything that stands out: fast WiFi, free parking, filtered water, daily cleaning, fully equipped kitchen, etc.
+@@1111
+{1}e. Bonus Tip:{2} Use formatting to your advantage. Short sentences, bullet points, and line breaks help your listing stand out.
+@@1112
+A great title gets the click. A great description closes the deal.
+@@1113
+AI prompt: write a high-converting listing description
+@@1114
+Act as a professional copywriter for property rentals. Help me write a clear, engaging and persuasive listing description that attracts bookings.
+Here are the details:
+- Type of property: {1}{2}
+- Location: {3}{4}
+- Main highlights: {5}{6}
+- Who it’s ideal for: {7}{8}
+- Unique vibe or style: {9}{10}
+I want it to be clear, easy to read, and highlight what makes the stay special. Format it in short paragraphs or bullet points if needed. Write as if you want to convince someone to book right now.
+@@1115
+Listing description fillable template
+@@1116
+Listing description template
+@@1117
+Reset
+@@1118
+*If your listing is private, remove any information related to shared spaces. Replace the parts in [brackets], then copy each section into Airbnb. Saved on this device.
+@@1119
+Take quality photos without hiring a pro
+@@1120
+You don’t need to spend hundreds on a professional photographer to create a high-converting listing. With the right approach, you can take stunning photos yourself, even with a smartphone. The key is understanding what guests want to see and how to showcase your space in the best possible light.
+@@1121
+1. Clean and stage your space
+@@1122
+Before taking any pictures, make sure everything is spotless and styled. Open the curtains, fluff the pillows, and hide cords, visible bins and remotes. The photos must show the place as it really is, but you can remove items that make it look cluttered. Think of it like setting the stage; you want it to look welcoming, calm, and inviting.
+@@1123
+2. Lighting is everything
+@@1124
+Natural light is your best friend. Shoot during the day when your space is the brightest, ideally in the morning or late afternoon. Turn off overhead lights to avoid yellow tones. Open windows and let daylight in.
+@@1125
+3. Use a good phone or camera
+@@1126
+Most modern smartphones are more than enough. Just make sure your lens is clean and the resolution is set to high quality. Avoid using filters or heavy editing. Guests want to see the real space.
+@@1127
+4. Shoot horizontally
+@@1128
+Always take photos in landscape mode (horizontal), not vertical. Airbnb displays your listing photos in landscape, so this format gives a better view of each space.
+@@1129
+5. Capture wide angles
+@@1130
+Stand in corners or doorways to get as much of the room in the shot as possible. Use a wide-angle setting if available, but don’t distort the room. Guests want a real sense of space, not a fisheye view. On an iPhone Pro, the 0.5 lens works best.
+@@1131
+6. Include every important area
+@@1132
+Show everything: entryway, closets, appliances, amenities, parking, balcony, views. If it adds value, capture it. Lack of transparency leads to bad reviews.
+@@1133
+7. Your photo order matters (this is crucial for bookings).
+@@1134
+{1}Your first picture is your million-dollar shot.{2} It’s what sells your listing, and it matters more than anything else: it’s what brings in the clicks, the bookings and the income. Use your most eye-catching image as cover photo. Bedrooms usually perform best. Follow up with 4 key shots of different rooms that highlight your space’s best features. Airbnb shows only the first 5 photos before guests have to click “Show all photos,” so this is where you make a strong first impression and grab their attention.
+@@1135
+Check out our listing as an example
+@@1136
+The first five photos are all a guest sees before clicking
+@@1137
+Real life example
+@@1138
+Sometimes the smallest details make the biggest difference. In one of our Barcelona apartments, we had two identical rooms; same size, same layout, just mirrored. Yet one was always fully booked, while the other struggled to get reservations unless we dropped the price.
+@@1139
+The only difference? The desk.
+@@1140
+Visually, the desk in the popular room made the space look bigger and more inviting. That slight design edge translated into significantly better performance and higher profit. We swapped out the less appealing desk, and suddenly both rooms booked out at full price.
+@@1141
+The takeaway: If your bookings are slow, take a hard look at your listing. Tiny design choices can cost you money.
+@@1142
+Always fully booked
+@@1143
+Struggled to get bookings
+@@1144
+8. Highlight the experience
+@@1145
+Instead of just showing rooms, capture little moments such as a cup on the coffee table, cozy blankets, books on a nightstand. It makes guests imagine themselves staying there.
+@@1146
+Photos are the most important part of your listing. This is where you sell your space before guests read the description. A great listing with bad photos won’t get bookings. But even a simple space with beautiful, clear, well-lit images can perform incredibly well.
+@@1147
+So if photography isn’t your strength, consider asking a friend with a good eye or hiring someone locally. It’s a small investment that can pay off big.
+@@1148
+Section 5
+@@1149
+Important listing details that protect you
+@@1150
+This section can save you from headaches, bad reviews, and refund requests.
+@@1151
+Your listing description isn’t just a sales pitch. It’s also your legal shield. Whatever you clearly mention in writing can protect you from guest complaints, refund requests, and bad reviews.
+@@1152
+So don’t hold back. Be honest, be detailed, and include everything that could potentially become a problem.
+@@1153
+Here’s what to include: {1}House rules: {2} Be clear and specific. No smoking? Quiet hours? Visitors allowed? Extra fee for late check-in? Spell it all out. Don’t assume people will “just know.”
+@@1154
+Special things to note: 
+@@1155
+Is there potential for noise from nearby bars? Are there stairs, shared spaces, or pets on the property? Mention them all.
+@@1156
+Shared Spaces:
+@@1157
+If your listing is not fully private, you need to state this clearly and more than once. Even if it’s already mentioned in the listing, repeat it in the description. Put it in CAPITALS. Make it obvious. Some guests will still “miss it” and claim they didn’t know. If it’s written clearly, Airbnb will side with you.
+@@1158
+Safety &amp; Boundaries
+@@1159
+Include a statement like: "In case of disrespectful, aggressive, or intoxicated behavior, the host reserves the right to cancel the reservation without refund to protect the property and maintain a safe environment.”
+@@1160
+It might feel like you’re being overly cautious, but trust us: you’re not. You’re protecting your peace and your business.
+@@1161
+The more transparent you are, the fewer problems you’ll have. Take time to list everything that matters.
+@@1162
+Copy/paste our house rules
+@@1163
+Guests accept your house rules before booking, so they protect you as a host. But Airbnb has new rules for this. For bookings made from 20 November 2026, your house rules must be in the house rules section of your listing before guests book. You can’t add new rules later by message, with signs in the home or in person.
+@@1164
+Your rules must also be reasonable. That means {1}no fines or penalties, no extra fees{2} for things that are part of your listing, and {3}no chores a cleaner would normally do{4}, like washing dishes, stripping the bed or taking the trash out of the building. Small requests, like putting used dishes in the sink, are still fine. Keep your rules short and clear: guests actually read them that way.
+@@1165
+House rules: private property
+@@1166
+Change the parts in [brackets], then copy into the house rules section of your listing. Saved on this device.
