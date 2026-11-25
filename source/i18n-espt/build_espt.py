@@ -363,3 +363,7 @@ open(P,'w').write(s); print('perf v4 ok')
 s=open(P).read()
 s=s[:s.rfind('</style>')]+"\n.lesson img,.hero img,.lb img{filter:none!important}\n"+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('nofilter ok')
+# prev/next links at the bottom of lessons: plain, no box gradient
+s=open(P).read()
+s=s[:s.rfind('</style>')]+"\n.pn a,.pn a:hover{background:none!important;background-image:none!important;box-shadow:none!important;border:0!important}\n"+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('pn ok')
