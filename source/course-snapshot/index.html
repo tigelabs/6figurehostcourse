@@ -765,7 +765,16 @@ figcaption.ftop{margin:0 0 8px !important;font-weight:700}
 .ba-split-t .btn{margin-top:6px}
 @media (max-width:720px){.ba-split{grid-template-columns:minmax(0,1fr);gap:18px}}
 
-/* search */
+/* course / bonus switch */
+.navsw{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:rgba(244,242,239,.1);border:1px solid rgba(244,242,239,.18)}
+.navsw button{font:700 13.5px/1 var(--body);color:#e2ddd8;background:transparent;border:0;border-radius:999px;padding:9px 18px;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+.navsw button:hover{color:#fff;background:rgba(244,242,239,.08)}
+.navsw button.on{background:var(--paper);color:var(--ink)}
+.navsw button:focus-visible{outline:2px solid #d9b3a8;outline-offset:2px}
+.navsw-top{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.navsw-side{display:none}
+@media (max-width:860px){nav.side{top:56px;bottom:auto;height:calc(100vh - 56px);height:calc(100dvh - 56px)}.navsw-top{display:none}.navsw-side{display:flex;width:100%;background:var(--ink);border:0;margin:0 0 6px}.navsw-side button{flex:1;padding:10px 8px}}
+/* search (unused) */
 .srch{flex:1;display:flex;justify-content:center;min-width:0;position:relative}
 .srch-box{position:relative;width:100%;max-width:440px}
 .srch-box svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);pointer-events:none;color:var(--ink-soft)}
@@ -809,7 +818,7 @@ mark.srch-hit.now{background:#E6C9C1;box-shadow:0 0 0 2px var(--blue-deep)}
 </header>
 <div class="shell">
 <nav aria-label="Guide" class="side" id="side">
-<h6 data-t="4">Intro</h6>
+<div class="navgrp" data-grp="course"><h6 data-t="4">Intro</h6>
 <a href="#start"><span class="n">00</span><span class="t" data-t="5">Start here</span><span class="ring"></span></a>
 <a href="#story"><span class="n"><svg aria-hidden="true" height="14" viewbox="0 0 24 24" width="14"><path d="M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5C17 4.5 14 5 12 6.5zM12 6.5v13" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></path></svg></span><span class="t" data-t="6">Our story</span><span class="ring"></span></a>
 <a class="home" href="#roadmap"><span class="t" data-t="7">Your launch roadmap</span></a>
@@ -829,12 +838,12 @@ mark.srch-hit.now{background:#E6C9C1;box-shadow:0 0 0 2px var(--blue-deep)}
 <a href="#ch11"><span class="n">11</span><span class="t" data-t="21">Streamline your operations</span><span class="ring"></span></a>
 <a href="#ch12"><span class="n">12</span><span class="t" data-t="22">Automate for passive income</span><span class="ring"></span></a>
 <a href="#ch13"><span class="n">13</span><span class="t" data-t="23">Scale up to 6 figures</span><span class="ring"></span></a>
-<h6 data-t="24">Bonus</h6>
+</div><div class="navgrp" data-grp="extras" hidden><h6 data-t="24">Bonus</h6>
 <details class="bundle kitdd"><summary><a class="kitlink" href="#kit"><span class="n">★</span><span class="t" data-t="25">Your host starter kit</span></a><span aria-hidden="true" class="chev"></span></summary><div class="bundle-items"><a href="#calculator"><span class="n">$</span><span class="t" data-t="26">Profit calculator</span></a><a href="#setup"><span class="n">✓</span><span class="t" data-t="27">Setup checklist</span></a><a href="#manual"><span class="n">✓</span><span class="t" data-t="28">Property manual</span></a><details class="bundle"><summary><span class="n">★</span><span class="t" data-t="29">Operations template kit<small>7 resources</small></span><span aria-hidden="true" class="chev"></span></summary><div class="bundle-items"><a href="#bonus-contracts"><span class="n">★</span><span class="t" data-t="30">Staff agreement templates</span></a><a href="#bonus-labels"><span class="n">★</span><span class="t" data-t="31">Label system</span></a><a href="#bonus-inspections"><span class="n">★</span><span class="t" data-t="32">Property inspections</span></a><a href="#bonus-checklists"><span class="n">★</span><span class="t" data-t="33">Staff checklists</span></a><a href="#bonus-booklets"><span class="n">★</span><span class="t" data-t="34">Welcome booklet</span></a><a href="#bonus-sheet"><span class="n">★</span><span class="t" data-t="35">Welcome sheet</span></a><a href="#bonus-declutter"><span class="n">★</span><span class="t" data-t="36">Declutter shared spaces</span></a></div></details><a href="#finance"><span class="n">€</span><span class="t" data-t="37">Property finance tracker</span></a><a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a></div></details>
 <h6 data-t="39">Extras</h6>
 <a href="#library"><span class="n">★</span><span class="t" data-t="40">AI prompt overview</span></a>
 <a href="#addons"><span class="n">★</span><span class="t" data-t="41">Add-ons</span><span class="tag" data-t="42">Coming soon</span></a>
-<a class="aff" href="https://www.airbnb.com/rp/6figurehost" rel="noopener" target="_blank"><span class="t" data-t="43">Become a host</span></a>
+</div><a class="aff" href="https://www.airbnb.com/rp/6figurehost" rel="noopener" target="_blank"><span class="t" data-t="43">Become a host</span></a>
 </nav>
 <main id="main">
 <article class="lesson" id="start">
@@ -852,8 +861,7 @@ mark.srch-hit.now{background:#E6C9C1;box-shadow:0 0 0 2px var(--blue-deep)}
 <p data-t="49">We’re so happy you’re here. This course is everything we’ve learned in almost 10 years of hosting, turned into clear steps you can follow at your own pace.</p>
 <p data-t="50">Imagine having beautiful homes around the world. Places you can stay, rent out, and return to anytime. If you’ve ever dreamed of creating a business that gives you freedom, flexibility and income without being tied to a desk or needing to own real estate, this course is for YOU.</p>
 <p data-t="51">We created this course to help you<strong> launch, run and scale a profitable hosting business that works for you, not the other way around.</strong> Inside, you’ll find a step-by-step roadmap built from real experience. It teaches you how we did it and how you can too.</p>
-<div aria-label="Lesson format" class="vmode" data-langs="pt" role="group"><span class="vlab" data-t="52">This lesson</span><button data-mode="video" data-t="53" type="button">Video + text</button><button data-mode="text" data-t="54" type="button">Text only</button></div>
-<div class="video" data-yt-pt="XQ6Tm3OiO3c"><a class="vplay" rel="noopener" target="_blank"><i></i><span><b data-t="55">Watch the video</b><small data-t="56">Welcome to the course</small></span></a></div>
+
 </section>
 <div class="savebox" role="region" aria-label="Save and restore your data"><div class="sb-tx"><h3>IMPORTANT</h3><p>Everything saves automatically on this device and browser. Want to continue your work on a different device? Save your data here, then restore it on the new device.</p><p><strong>Don’t clear your browser history or site data, or everything you filled in will be deleted.</strong></p></div><div class="sb-btns"><button class="sb-save" id="sb-save" type="button">Save your data</button><button class="sb-restore" id="sb-restore" type="button">Restore your data</button><input accept="application/json,.json" hidden id="sb-file" type="file"/></div></div>
 <section class="part" id="start-p1"><div class="eyebrow"><span data-t="57">Section 1</span></div><h2 data-t="58">Overview of the course</h2>
@@ -4050,95 +4058,21 @@ function applyLang(){
   var z=document.getElementById('lbzoom');if(z)z.textContent=_('Zoom in');
 }
 $$('.lang button[data-lang]').forEach(function(b){b.addEventListener('click',function(){if(b.disabled)return;S.fields.lang=b.dataset.lang;save();applyLang();});});
-/* search (markup injected here so the i18n numbering of the static page stays unchanged) */
+/* course / bonus switch in the top bar (replaces search) */
 (function(){
-var g=$('header.top .grow');if(g){var d=document.createElement('div');d.innerHTML='<div class="srch" id="srch" role="search"><button type="button" class="srch-btn" id="srchBtn" aria-label="Search the course"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button><div class="srch-box"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input type="search" id="srchIn" placeholder="Search the course…" autocomplete="off" spellcheck="false" aria-label="Search the course" aria-controls="srchRes" aria-expanded="false"><kbd>/</kbd><button type="button" class="srch-x" id="srchX" aria-label="Clear search">Clear</button></div><div class="srch-res" id="srchRes" role="listbox" aria-label="Search results"></div></div>';g.parentNode.replaceChild(d.firstChild,g);}
-var wrap=$('#srch'),inp=$('#srchIn'),res=$('#srchRes');if(!wrap||!inp)return;
-var IDX=null,items=[],act=-1;
-function norm(t){return (t||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
-function esc(t){return t.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-var SEL='h1,h2,h3,h4,h5,p,li,td,th,summary,dt,dd,blockquote,figcaption,label,.pbox,.card .lab';
-function build(){
-  IDX=[];
-  $$('.lesson').forEach(function(l){
-    var pn=pageName(l.id)||(($('h1',l)||{}).textContent||l.id);
-    $$(SEL,l).forEach(function(el){
-      if(el.closest('script,style,button,.srch,.donebox .cel-btns'))return;
-      // skip containers whose text is already covered by an inner indexed block
-      if(el.querySelector(SEL))return;
-      var t=(el.textContent||'').replace(/\s+/g,' ').trim();if(t.length<2)return;
-      IDX.push({el:el,page:l.id,pn:pn.replace(/\s+/g,' ').trim(),t:t,n:norm(t),h:/^H[1-5]$/.test(el.tagName)||el.tagName==='SUMMARY'});
-    });
-  });
-}
-function snip(t,q){
-  var n=norm(t),i=n.indexOf(q),a=Math.max(0,i-60),b=Math.min(t.length,i+q.length+90);
-  var pre=(a>0?'…':'')+t.slice(a,i),hit=t.slice(i,i+q.length),post=t.slice(i+q.length,b)+(b<t.length?'…':'');
-  return esc(pre)+'<mark>'+esc(hit)+'</mark>'+esc(post);
-}
-function run(){
-  var raw=inp.value.trim(),q=norm(raw);
-  wrap.classList.toggle('has',!!raw);
-  if(q.length<2){close();return;}
-  if(!IDX)build();
-  var hits=IDX.filter(function(x){return x.n.indexOf(q)>-1;});
-  hits.sort(function(a,b){return (b.h-a.h);}); // headings first within the stable order
-  var byPage={},order=[];
-  hits.forEach(function(x){if(!byPage[x.page]){byPage[x.page]=[];order.push(x.page);}byPage[x.page].push(x);});
-  // keep course order for pages
-  var pos={};$$('.lesson').forEach(function(l,i){pos[l.id]=i;});order.sort(function(a,b){return pos[a]-pos[b];});
-  items=[];var h='',shown=0,MAX=60;
-  if(!hits.length)h='<div class="sr-none">No results for “'+esc(raw)+'”. Try another word.</div>';
-  else h='<div class="sr-more">'+hits.length+' result'+(hits.length>1?'s':'')+' in '+order.length+' page'+(order.length>1?'s':'')+'</div>';
-  order.forEach(function(pg){
-    var list=byPage[pg];if(shown>=MAX)return;
-    h+='<div class="sr-h">'+esc(list[0].pn)+'</div>';
-    list.slice(0,6).forEach(function(x){if(shown>=MAX)return;items.push(x);h+='<a href="#'+pg+'" role="option" data-i="'+(items.length-1)+'">'+(x.h?'<b class="sr-p">Heading</b>':'')+snip(x.t,q)+'</a>';shown++;});
-    if(list.length>6)h+='<div class="sr-more">+ '+(list.length-6)+' more on this page</div>';
-  });
-  res.innerHTML=h;act=-1;wrap.classList.add('open');inp.setAttribute('aria-expanded','true');
-}
-function close(){wrap.classList.remove('open');inp.setAttribute('aria-expanded','false');act=-1;}
-function clearMarks(){$$('mark.srch-hit').forEach(function(m){var p=m.parentNode;p.replaceChild(document.createTextNode(m.textContent),m);p.normalize();});}
-function markIn(el,q){
-  var w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),nodes=[],n,first=null;
-  while((n=w.nextNode()))nodes.push(n);
-  nodes.forEach(function(tn){
-    var t=tn.nodeValue,nt=norm(t);if(nt.length!==t.length)return; // safe only when lengths match
-    var i=nt.indexOf(q);if(i<0)return;
-    var frag=document.createDocumentFragment(),last=0;
-    while(i>-1){frag.appendChild(document.createTextNode(t.slice(last,i)));var m=document.createElement('mark');m.className='srch-hit';m.textContent=t.slice(i,i+q.length);frag.appendChild(m);if(!first)first=m;last=i+q.length;i=nt.indexOf(q,last);}
-    frag.appendChild(document.createTextNode(t.slice(last)));tn.parentNode.replaceChild(frag,tn);
-  });
-  return first;
-}
-function go(x){
-  var q=norm(inp.value.trim());
-  close();wrap.classList.remove('mob');inp.blur();clearMarks();
-  var cur=(location.hash||'#start').slice(1);
-  if(cur!==x.page)location.hash='#'+x.page;
-  setTimeout(function(){
-    var d=x.el.closest('details');while(d){d.open=true;d=d.parentElement&&d.parentElement.closest('details');}
-    var m=markIn(x.el,q)||x.el;if(m.classList)m.classList.add('now');
-    var y=m.getBoundingClientRect().top+window.scrollY-120;window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
-  },80);
-}
-inp.addEventListener('input',run);
-inp.addEventListener('focus',function(){if(inp.value.trim().length>1)run();});
-inp.addEventListener('keydown',function(e){
-  var as=$$('a',res);
-  if(e.key==='ArrowDown'||e.key==='ArrowUp'){if(!as.length)return;e.preventDefault();act=(act+(e.key==='ArrowDown'?1:-1)+as.length)%as.length;as.forEach(function(a,i){a.classList.toggle('act',i===act);});as[act].scrollIntoView({block:'nearest'});}
-  else if(e.key==='Enter'){e.preventDefault();var k=act>-1?act:0;if(items[k])go(items[k]);}
-  else if(e.key==='Escape'){if(wrap.classList.contains('open'))close();else{inp.value='';wrap.classList.remove('has','mob');inp.blur();}}
-});
-res.addEventListener('click',function(e){var a=e.target.closest('a[data-i]');if(!a)return;e.preventDefault();go(items[+a.dataset.i]);});
-$('#srchX').addEventListener('click',function(){inp.value='';clearMarks();close();wrap.classList.remove('has');if(wrap.classList.contains('mob'))wrap.classList.remove('mob');else inp.focus();});
-$('#srchBtn').addEventListener('click',function(){wrap.classList.add('mob');setTimeout(function(){inp.focus();},0);});
-document.addEventListener('click',function(e){if(!wrap.contains(e.target)){close();if(!inp.value.trim())wrap.classList.remove('mob');}});
-document.addEventListener('keydown',function(e){
-  var tag=(document.activeElement||{}).tagName;if(/INPUT|TEXTAREA|SELECT/.test(tag)||document.activeElement.isContentEditable)return;
-  if(e.key==='/'||((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k')){e.preventDefault();if(getComputedStyle($('#srchBtn')).display!=='none')wrap.classList.add('mob');inp.focus();inp.select();}
-});
+  var g=$('header.top .grow');if(!g)return;
+  function mk(cls){var d=document.createElement('div');d.className='navsw '+cls;d.setAttribute('role','group');d.setAttribute('aria-label','Show in menu');
+    d.innerHTML='<button type="button" data-sw="course">Course</button><button type="button" data-sw="extras">Bonus &amp; extras</button>';return d;}
+  var top=mk('navsw-top');g.parentNode.insertBefore(top,g);
+  var side=$('#side');var inSide=mk('navsw-side');side.insertBefore(inSide,side.firstChild);
+  var cur='course';
+  function set(k){cur=k;$$('.navgrp').forEach(function(n){n.hidden=n.dataset.grp!==k;});
+    if(k==='extras'){var kd=$('.side .kitdd');if(kd)kd.open=true;}$$('.navsw button').forEach(function(b){var on=b.dataset.sw===k;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');});}
+  $$('.navsw button').forEach(function(b){b.addEventListener('click',function(){set(b.dataset.sw);
+    if(b.closest('.navsw-top')&&getComputedStyle($('#menuBtn')).display!=='none'){side.classList.add('open');$('#menuBtn').setAttribute('aria-expanded','true');}
+    side.scrollTop=0;});});
+  function sync(){var on=$('.side a.on');var grp=on&&on.closest('.navgrp');if(grp)set(grp.dataset.grp);}
+  set('course');window.addEventListener('hashchange',function(){setTimeout(sync,0);});setTimeout(sync,0);
 })();
 applyLang();route();
 })();
