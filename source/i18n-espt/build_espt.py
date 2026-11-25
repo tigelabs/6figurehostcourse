@@ -143,3 +143,28 @@ for L in ('es','pt'):
     s=s.replace('/*HREF_%s*/{}'%L.upper(),json.dumps(h),1).replace('/*DL_%s*/{}'%L.upper(),json.dumps(DLM[L]),1)
 assert '/*HREF' not in s and '/*DL_' not in s
 open(P,'w').write(s); print('maps ok')
+# --- plain text language switch: ENG | NL | ESP | POR ---
+s=open(P).read()
+i=s.find('<div class="lang" id="langSel">'); j=s.find('</div></div>',i)+12
+assert i>0
+LBL=[('en','ENG','Switch to English','English'),('nl','NL','Switch to Dutch','Nederlands'),('es','ESP','Switch to Spanish','Español'),('pt','POR','Switch to Portuguese','Português (Brasil)')]
+btns='<span class="lsep" aria-hidden="true">|</span>'.join('<button type="button" data-lang="%s" aria-label="%s" title="%s" aria-pressed="false">%s</button>'%(k,a,t,c) for k,c,a,t in LBL)
+s=s[:i]+'<div class="lang" id="langSel" role="group" aria-label="Language">'+btns+'</div>'+s[j:]
+ci=s.find('.lang{position:relative;flex:none}'); cj=s.find('.lang .lc-flag .flag{width:22px;height:15px}}',ci)+len('.lang .lc-flag .flag{width:22px;height:15px}}')
+assert ci>0 and cj>ci
+s=s[:ci]+('.lang{display:flex;align-items:center;gap:2px;flex:none}\n'
+'.lang button{font:700 12px/1 var(--body);letter-spacing:.06em;color:rgba(244,242,239,.7);background:transparent;border:0;border-radius:6px;padding:6px 6px;cursor:pointer;transition:color .15s}\n'
+'.lang button:hover{color:#f4f2ef}\n'
+'.lang button.on{color:#f4f2ef;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}\n'
+'.lang button:focus-visible{outline:2px solid #fff;outline-offset:1px}\n'
+'.lang .lsep{color:rgba(244,242,239,.45);font-size:12px}\n'
+'@media (max-width:860px){.lang button{padding:5px 3px;font-size:11px}.lang .lsep{font-size:11px}}')+s[cj:]
+s=s.replace(',.lang-menu button.on,',',',1)
+a=s.find("$$('.lang-menu button').forEach(function(b){var on="); b=s.find("});",s.find("$('.lc-code',c)",a))+3
+assert a>0
+s=s[:a]+"$$('.lang button[data-lang]').forEach(function(b){var on=b.dataset.lang===LANG;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');});"+s[b:]
+a=s.find("(function(){var cur=document.getElementById('langCur')"); b=s.find("})();",a)+5
+assert a>0
+s=s[:a]+"$$('.lang button[data-lang]').forEach(function(b){b.addEventListener('click',function(){S.fields.lang=b.dataset.lang;save();applyLang();});});"+s[b:]
+assert 'langCur' not in s and 'lang-menu' not in s
+open(P,'w').write(s); print('plain switch ok')

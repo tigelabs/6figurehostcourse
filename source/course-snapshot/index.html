@@ -531,7 +531,7 @@ th,.btn,.rlink,.pweek,.share,.share h2,.share h3,.share p,.chip.rec,.cel-badge{c
 .btn:hover,.rlink:hover{background:var(--blue-dark);color:#fff}
 .share .btn{background:var(--ink);color:var(--paper)}
 /* dark green #313A33 on the dark filled blocks; text, lines and borders stay ink */
-.hero,.video,.side .home,.side .home.on,.side .n,.pills b,.btn.dark,.donebtn,.share .btn,.cel-next,.choice.sel,.seg button.on,.vmode button.on,.tabs button.on,.filters button.on,.score button.on,.lang-menu button.on,.task input:checked,.chip.must,.tipbox,.addon,.copy header,.toast,.bar i{background:var(--green)}
+.hero,.video,.side .home,.side .home.on,.side .n,.pills b,.btn.dark,.donebtn,.share .btn,.cel-next,.choice.sel,.seg button.on,.vmode button.on,.tabs button.on,.filters button.on,.score button.on,.task input:checked,.chip.must,.tipbox,.addon,.copy header,.toast,.bar i{background:var(--green)}
 .btn.dark:hover{background:#252C27}
 .donebtn.is{background:var(--good)}
 /* terracotta and dark brown never touch: no dark outline on terracotta fills, light tint shadows next to dark outlines */
@@ -770,20 +770,13 @@ figcaption.ftop{margin:0 0 8px !important;font-weight:700}
 .rb-where b{color:#fff;font-weight:600}
 @media (prefers-reduced-motion:reduce){.resume-btn,.resume-btn .rb-a{transition:none}.resume-btn:hover{transform:none}}
 /* language switch */
-.lang{position:relative;flex:none}
-.lang .lang-cur{display:inline-flex;align-items:center;gap:7px;font:700 12px/1 var(--body);letter-spacing:.04em;color:#f4f2ef;background:rgba(244,242,239,.12);border:1px solid rgba(244,242,239,.22);border-radius:999px;padding:6px 10px 6px 7px;cursor:pointer;transition:background .15s}
-.lang .lang-cur:hover,.lang .lang-cur[aria-expanded="true"]{background:rgba(244,242,239,.22)}
-.lang .lang-cur:focus-visible{outline:2px solid #fff;outline-offset:2px}
-.lang .lc-flag{display:block}.lang .lc-chev{width:12px;height:12px;opacity:.8;transition:transform .15s}
-.lang .lang-cur[aria-expanded="true"] .lc-chev{transform:rotate(180deg)}
-.lang .flag{width:20px;height:14px;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(0,0,0,.14)}
-.lang-menu{position:absolute;right:0;top:calc(100% + 8px);z-index:80;min-width:200px;background:var(--paper);border:1.5px solid var(--ink);border-radius:14px;padding:6px;box-shadow:0 12px 30px rgba(56,51,48,.22);display:flex;flex-direction:column;gap:2px}
-.lang-menu[hidden]{display:none}
-.lang-menu button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;font:600 14px/1.2 var(--body);color:var(--ink);background:transparent;border:0;border-radius:9px;padding:9px 10px;cursor:pointer}
-.lang-menu button:hover{background:var(--stone)}
-.lang-menu button.on{background:var(--ink);color:var(--paper)}
-.lang-menu button:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
-@media (max-width:860px){.lang .lang-cur{padding:5px 7px 5px 6px}.lang .lc-code{display:none}.lang .lc-flag .flag{width:22px;height:15px}}
+.lang{display:flex;align-items:center;gap:2px;flex:none}
+.lang button{font:700 12px/1 var(--body);letter-spacing:.06em;color:rgba(244,242,239,.7);background:transparent;border:0;border-radius:6px;padding:6px 6px;cursor:pointer;transition:color .15s}
+.lang button:hover{color:#f4f2ef}
+.lang button.on{color:#f4f2ef;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.lang button:focus-visible{outline:2px solid #fff;outline-offset:1px}
+.lang .lsep{color:rgba(244,242,239,.45);font-size:12px}
+@media (max-width:860px){.lang button{padding:5px 3px;font-size:11px}.lang .lsep{font-size:11px}}
 /* course / bonus switch */
 .navsw{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:rgba(244,242,239,.1);border:1px solid rgba(244,242,239,.18)}
 .navsw button{font:700 13.5px/1 var(--body);color:#e2ddd8;background:transparent;border:0;border-radius:999px;padding:9px 18px;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
@@ -833,7 +826,7 @@ mark.srch-hit.now{background:#E6C9C1;box-shadow:0 0 0 2px var(--blue-deep)}
 <button aria-controls="side" aria-expanded="false" class="menu-btn" data-t="1" id="menuBtn">Menu</button>
 <a class="brand" href="#start"><span class="s" data-t="2">6 figure</span><span class="d" data-t="3">Host Course</span></a>
 <span class="grow"></span>
-<div aria-label="Guide progress" class="prog"><span id="pct">0%</span><div class="bar"><i id="barFill"></i></div></div> <div class="lang" id="langSel"><button type="button" class="lang-cur" id="langCur" aria-haspopup="menu" aria-expanded="false" aria-controls="langMenu" aria-label="Choose language"><span class="lc-flag"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fukc"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fuk2c"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fukc)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fuk2c)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg></span><span class="lc-code">EN</span><svg class="lc-chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="lang-menu" id="langMenu" role="menu" aria-label="Language" hidden><button type="button" role="menuitemradio" aria-checked="false" data-lang="en" aria-label="Switch to English" lang="en"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="fukm"><path d="M0 0v30h60V0z"/></clipPath><clipPath id="fuk2m"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath><g clip-path="url(#fukm)"><path d="M0 0v30h60V0z" fill="#012169"/><path d="M0 0l60 30m0-30L0 30" stroke="#fff" stroke-width="6"/><path d="M0 0l60 30m0-30L0 30" clip-path="url(#fuk2m)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg><span>English</span></button><button type="button" role="menuitemradio" aria-checked="false" data-lang="nl" aria-label="Switch to Dutch" lang="nl"><svg class="flag" viewBox="0 0 9 6" aria-hidden="true"><path fill="#21468B" d="M0 0h9v6H0z"/><path fill="#fff" d="M0 0h9v4H0z"/><path fill="#AE1C28" d="M0 0h9v2H0z"/></svg><span>Nederlands</span></button><button type="button" role="menuitemradio" aria-checked="false" data-lang="es" aria-label="Switch to Spanish" lang="es"><svg class="flag" viewBox="0 0 750 500" aria-hidden="true"><path fill="#AA151B" d="M0 0h750v500H0z"/><path fill="#F1BF00" d="M0 125h750v250H0z"/></svg><span>Español</span></button><button type="button" role="menuitemradio" aria-checked="false" data-lang="pt" aria-label="Switch to Portuguese" lang="pt"><svg class="flag" viewBox="0 0 20 14" aria-hidden="true"><path fill="#009C3B" d="M0 0h20v14H0z"/><path fill="#FFDF00" d="M10 1.6 18.3 7 10 12.4 1.7 7z"/><circle cx="10" cy="7" r="3.1" fill="#002776"/></svg><span>Português (Brasil)</span></button></div></div>
+<div aria-label="Guide progress" class="prog"><span id="pct">0%</span><div class="bar"><i id="barFill"></i></div></div> <div class="lang" id="langSel" role="group" aria-label="Language"><button type="button" data-lang="en" aria-label="Switch to English" title="English" aria-pressed="false">ENG</button><span class="lsep" aria-hidden="true">|</span><button type="button" data-lang="nl" aria-label="Switch to Dutch" title="Nederlands" aria-pressed="false">NL</button><span class="lsep" aria-hidden="true">|</span><button type="button" data-lang="es" aria-label="Switch to Spanish" title="Español" aria-pressed="false">ESP</button><span class="lsep" aria-hidden="true">|</span><button type="button" data-lang="pt" aria-label="Switch to Portuguese" title="Português (Brasil)" aria-pressed="false">POR</button></div>
 </header>
 <div class="shell">
 <nav aria-label="Guide" class="side" id="side">
@@ -4167,7 +4160,7 @@ function applyLang(){
   var HREF={nl:HREF_NL,es:HREF_ES,pt:HREF_PT},DL={nl:DL_NL,es:DL_ES,pt:DL_PT};
   $$('a[href]').forEach(function(a){if(a.dataset.hen===undefined)a.dataset.hen=a.getAttribute('href');var e=a.dataset.hen;a.setAttribute('href',(HREF[LANG]&&HREF[LANG][e])?HREF[LANG][e]:e);});
   $$('[data-download]').forEach(function(b){if(b.dataset.den===undefined){b.dataset.den=b.dataset.download;b.dataset.nen=b.dataset.name;}var k=b.dataset.den.replace(/^files\/|\.pdf$/g,'');if(DL[LANG]&&DL[LANG][k]){b.dataset.download='files/'+LANG+'/'+DL[LANG][k]+'.pdf';b.dataset.name=DL[LANG][k]+'.pdf';}else{b.dataset.download=b.dataset.den;b.dataset.name=b.dataset.nen;}});
-  $$('.lang-menu button').forEach(function(b){var on=b.dataset.lang===LANG;b.classList.toggle('on',on);b.setAttribute('aria-checked',on?'true':'false');if(on){var c=document.getElementById('langCur');if(c){$('.lc-flag',c).innerHTML=$('svg',b).outerHTML.replace(/fuk(2?)m/g,'fuk$1c');$('.lc-code',c).textContent=LANG.toUpperCase();}}});
+  $$('.lang button[data-lang]').forEach(function(b){var on=b.dataset.lang===LANG;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false');});
   RLAST=null;loadEdits();drawCustom();paint();refresh();videos();
   var z=document.getElementById('lbzoom');if(z)z.textContent=_('Zoom in');
   $$('figure img, .brochure img').forEach(function(i){i.setAttribute('aria-label',_((i.alt||'Image')+'. Open larger'));});
@@ -4175,16 +4168,7 @@ function applyLang(){
   $$('[data-star]').forEach(function(e){e.setAttribute('aria-label',_(e.dataset.star+' out of 5'));});
   try{document.dispatchEvent(new Event('sixfig-lang'));}catch(e){}
 }
-(function(){var cur=document.getElementById('langCur'),menu=document.getElementById('langMenu');if(!cur||!menu)return;
-  function open(o){menu.hidden=!o;cur.setAttribute('aria-expanded',o?'true':'false');if(o){var on=$('button.on',menu)||$('button',menu);on.focus();}}
-  cur.addEventListener('click',function(e){e.stopPropagation();open(menu.hidden);});
-  document.addEventListener('click',function(e){if(!menu.hidden&&!menu.contains(e.target))open(false);});
-  menu.addEventListener('keydown',function(e){var bs=$$('button',menu),i=bs.indexOf(document.activeElement);
-    if(e.key==='Escape'){open(false);cur.focus();}
-    else if(e.key==='ArrowDown'){e.preventDefault();bs[(i+1)%bs.length].focus();}
-    else if(e.key==='ArrowUp'){e.preventDefault();bs[(i-1+bs.length)%bs.length].focus();}});
-  $$('button[data-lang]',menu).forEach(function(b){b.addEventListener('click',function(){S.fields.lang=b.dataset.lang;save();applyLang();open(false);cur.focus();});});
-})();
+$$('.lang button[data-lang]').forEach(function(b){b.addEventListener('click',function(){S.fields.lang=b.dataset.lang;save();applyLang();});});
 /* course / bonus switch in the top bar (replaces search) */
 (function(){
   var g=$('header.top .grow');if(!g)return;
