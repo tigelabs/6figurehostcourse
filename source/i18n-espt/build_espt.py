@@ -192,7 +192,7 @@ fx=('\n/* finish: soft gradients + material textures. Terracotta carries the pla
 +TS+'{background-image:var(--tex-t),var(--grad-t)!important;background-size:620px auto,100% 100%!important;background-position:center,center!important;background-repeat:repeat,no-repeat!important;background-blend-mode:luminosity,normal!important}\n'
 +TH+'{background-image:var(--tex-t),var(--grad-th)!important}\n'
 +GS+'{background-image:var(--tex-g),var(--grad-g)!important;background-size:cover,100% 100%!important;background-position:center,center!important;background-repeat:no-repeat,no-repeat!important;background-blend-mode:soft-light,normal!important}\n'
-'.btn,.rlink,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.btn.dark{box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 2px 8px rgba(56,51,48,.16)}\n'
+''
 '')
 i=s.rfind('</style>'); s=s[:i]+fx+s[i:]
 open(P,'w').write(s); print('fx ok')
@@ -205,11 +205,11 @@ SIDE={1:'right',2:'right',3:'right',4:'left',5:'right'}
 css=['\n/* plant shadows: soft light through a window, pinned to the page so they scroll with it */',
  '#main{position:relative;overflow-x:clip}',
  '#main::before,#main::after{content:"";position:absolute;pointer-events:none;z-index:3;background-repeat:no-repeat;background-size:contain}',
- '#main::before{top:0;right:0;width:min(58%,720px);height:min(1080px,120vh);background-position:top right;opacity:.24;background-image:var(--shade-top,url(img/shade-1.webp))}',
- '#main::after{bottom:0;left:0;width:min(46%,560px);height:760px;background-position:top right;opacity:.2;background-image:var(--shade-bot,url(img/shade-5.webp));transform:scale(-1,-1)}',
+ '#main::before{top:0;right:0;width:min(58%,720px);height:min(1080px,120vh);background-position:top right;opacity:.13;background-image:var(--shade-top,url(img/shade-1.webp))}',
+ '#main::after{bottom:0;left:0;width:min(46%,560px);height:760px;background-position:top right;opacity:.11;background-image:var(--shade-bot,url(img/shade-5.webp));transform:scale(-1,-1)}',
  '#main.sh-l::before{right:auto;left:0;background-position:top left}',
  '#main.sh-r::after{left:auto;right:0;background-position:top left;transform:scaleY(-1)}',
- '@media (max-width:860px){#main::before{width:78%;height:720px;opacity:.2}#main::after{width:70%;height:520px;opacity:.16}}',
+ '@media (max-width:860px){#main::before{width:78%;height:720px;opacity:.11}#main::after{width:70%;height:520px;opacity:.09}}',
  '@media print{#main::before,#main::after{display:none}}']
 open(P,'w').write(s)
 s=s[:s.rfind('</style>')]+'\n'.join(css)+'\n'+s[s.rfind('</style>'):]
@@ -232,3 +232,100 @@ fx=('\n/* buttons keep only the soft gradient */\n'+BT+'{background-image:var(--
  +BG+'{background-image:var(--grad-g)!important;background-size:100% 100%!important;background-repeat:no-repeat!important;background-blend-mode:normal!important}\n')
 i=s.rfind('</style>'); s=s[:i]+fx+s[i:]
 open(P,'w').write(s); print('buttons ok')
+# --- dynamic rewrites of text-heavy sections (L4 s1+s4, L5 s1+s3, L6 s1+s2 intro) ---
+sys.path.insert(0,'/home/claude/nl')
+from newcontent import T as NT
+s=open(P).read()
+def t(i,tag='span',cls=''):
+    c=' class="%s"'%cls if cls else ''
+    return '<%s%s data-t="%s">%s</%s>'%(tag,c,i,NT[i][0],tag)
+def orig(i):
+    m=re.search(r'<(\w+)([^>]*) data-t="%s"([^>]*)>(.*?)</\1>'%i,s,re.S); assert m,i; return m.group(0)
+def li(ids): return '<ul>'+''.join(t(i,'li') for i in ids)+'</ul>'
+def card(inner,cls=''): return '<div class="vk-card%s">%s</div>'%((' '+cls) if cls else '',inner)
+def n(k): return '<span class="vk-n">%s</span>'%k
+def tag(i): return '<div class="vk-tag">%s</div>'%t(i)
+def tip(i): return '<div class="vk-tip">%s</div>'%t(i,'span')
+def gold(k,p): return '<div class="gold"><span class="gold-k" data-t="%s">%s</span><p><strong data-t="%s">%s</strong></p></div>'%(k,NT[k][0],p,NT[p][0])
+def steps(items):
+    out=[]
+    for j,(h,p) in enumerate(items,1):
+        wide=' vk-wide' if (j==len(items) and len(items)%2) else ''
+        out.append('<div class="vk-step%s">%s%s%s</div>'%(wide,n(j),t(h,'h4'),t(p,'p') if p else ''))
+    return '<div class="vk-steps">'+''.join(out)+'</div>'
+def repl(a_marker,b_marker,new,start_after=True):
+    global s
+    a=s.find(a_marker); assert a>0,a_marker
+    a2=a+len(a_marker) if start_after else a
+    b=s.find(b_marker,a2); assert b>0,b_marker
+    s=s[:a2]+new+s[b:]
+# L4 s1
+new=(t('3001','p')+'<div class="vk-two">'+card(tag('3002')+t('3003','h4')+t('3004','p'))+card(tag('3005')+t('3006','h4')+t('3007','p'),'vk-yes')+'</div>'
+ +tip('3008')+t('3009','h4')
+ +'<div class="vk-two">'+card(n(1)+t('3010','h4')+t('3011','p')+li(['3012','3013']))+card(n(2)+t('3014','h4')+t('3015','p')+li(['3016','3017','3018','3019']))+'</div>'
+ +'<div class="vk-stat"><b data-t="3020">%s</b>%s</div>'%(NT['3020'][0],t('3021'))
+ +t('3022','h4')+steps([(k,None) for k in ['3023','3024','3025','3026','3027']])
+ +tip('3028')+gold('3029','3030')+'\n')
+a=s.find('<p class="sub" data-t="629">'); a=s.find('</p>',a)+5; b=s.find('</section>',a); s=s[:a]+new+s[b:]
+# L4 s4
+h661=orig('661')
+new=(t('3031','p')+h661+steps([('3032','3033'),('3034','3035'),('3036','3037'),('3038','3039'),('3040','3041'),('3042','3043'),('3044','3045')])
+ +'<h4 data-t="688">What to look for</h4><div class="vk-g3">'+card(t('3046','h4')+t('3047','p'),'vk-yes')+card(t('3048','h4')+t('3049','p'),'vk-no')+card(t('3050','h4')+t('3051','p'))+'</div>\n')
+a=s.find('<h2 data-t="679">'); a=s.find('</h2>',a)+5; b=s.find('<p class="tip" data-t="692">',a); s=s[:a]+new+s[b:]
+# L5 s1
+plat=''.join(orig(i) for i in ['709','710','711','712','713','714'])
+new=(t('3052','p')+tip('3053')+'<div class="vk-two">'+card(n(1)+t('3054','h4')+t('3055','p')+t('3056','p'))+card(n(2)+t('3057','h4')+'<ul>'+plat+'</ul>')+'</div>\n')
+a=s.find('<h2 data-t="702">'); a=s.find('</h2>',a)+5; b=s.find('<div class="checklist">',a); s=s[:a]+'\n'+new+s[b:]
+# L5 s3
+costs=''.join(orig(i) for i in ['746','747','748','749','750'])
+new=(t('3058','p')+'<div class="vk-two">'+card(t('3059','h4')+t('3060','p'))+card(t('3061','h4')+t('3062','p'),'vk-yes')+'</div>'
+ +orig('745')+'<ul class="hd-ticks">'+costs+'</ul>'
+ +'<div class="vk-two">'+card(tag('3063')+t('3064','h4')+li(['3065','3066','3067']),'vk-yes')+card(tag('3068')+t('3069','h4')+li(['3070','3071','3072','3073']))+'</div>'
+ +gold('3074','3075')+'\n')
+a=s.find('<h3 data-t="742">'); a=s.find('</h3>',a)+5; b=s.find('<div class="card">',a); s=s[:a]+'\n'+new+s[b:]
+# L6 s1 top
+offer=''.join(orig(i) for i in ['800','801','802','803'])
+new=(t('3076','p')+'<p><em><strong data-t="797">%s</strong></em></p>'%re.search(r'data-t="797">(.*?)</strong>',s).group(1)
+ +t('3077','h4')+'<div class="trio3">'+''.join('<div><b data-t="%s">%s</b><span data-t="%s">%s</span></div>'%(b_,NT[b_][0],c_,NT[c_][0]) for b_,c_ in [('3078','3079'),('3080','3081'),('3082','3083')])+'</div>'
+ +t('3084','p')+card(tag('3085')+orig('799')+'<ul>'+offer+'</ul>','vk-yes')+tip('3086')
+ +'<div class="vk-grid3">'+card(n(1)+t('3087','h4')+t('3088','p'))+card(n(2)+t('3089','h4')+t('3090','p'))+card(n(3)+t('3091','h4')+t('3092','p'))+card(n(4)+t('3093','h4')+t('3094','p'))+'</div>\n')
+a=s.find('<p class="sub" data-t="795">'); a=s.find('</p>',a)+5; b=s.find('<p class="hd-open">',a); s=s[:a]+'\n'+new+s[b:]
+# L6 coliving
+new='<div class="vk-two">'+card(t('3095','h4')+t('3096','p'),'vk-no')+card(t('3097','h4')+t('3098','p'),'vk-yes')+'</div>'+tip('3100')+'\n'
+a=s.find('<h4 class="tc" data-t="823">'); a=s.find('</h4>',a)+5; b=s.find('<h4 class="tc" data-t="826">',a); s=s[:a]+'\n'+new+s[b:]
+# L6 s2 intro
+a=s.find('<p data-t="867">'); b=s.find('<h3 data-t="869">',a); s=s[:a]+t('3101','p')+tip('3102')+'\n'+s[b:]
+# translations
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for i,v in NT.items():
+    for L,x in zip(('nl','es','pt'),v[1:]): d[L]['u'][i]=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+s=s[:s.rfind('</style>')]+'\n.vk-g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:14px 0 20px}.vk-g3 .vk-card h4{font-size:15.5px}@media (max-width:760px){.vk-g3{grid-template-columns:1fr}}\n.vk-steps .vk-step h4:only-of-type:last-child{margin-bottom:0!important}\n'+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('rewrites ok')
+
+# --- finish v2: gradients right-to-left, softer navbar, boxes depth, tables, cherry, third shadow ---
+s=open(P).read()
+fx2="""
+/* finish v2 */
+:root{--grad-t:linear-gradient(to left,#A86555 0%,#97594B 55%,#82473A 100%);--grad-th:linear-gradient(to left,#93574A 0%,#80493D 55%,#6C3B30 100%);--grad-g:linear-gradient(to left,#3B463D 0%,#313A33 55%,#262D27 100%);--grad-b:linear-gradient(to left,#4C4743 0%,#383330 55%,#2A2624 100%)}
+.top{background-image:url(img/tex-terra-soft.webp),linear-gradient(to right,#AA6757 0%,#9C5C4D 55%,#8A4E41 100%)!important}
+.donebtn,.donebox .donebtn,.donebox .donebtn:hover,.savebox,.copy.tog:not(.open),.ba-b,.navsw-side,.srch-x{background-image:var(--grad-b)!important;background-size:100% 100%!important;background-repeat:no-repeat!important}
+.card,.vk-card:not(.vk-yes),.vk-step,.jour-c,.rf,.tips4 div,.donebox,.tool,details.obj,.platbox,.flow-step>div,.tiles>div,.pn a,.cel-card,.pbox,.mk,.tex-c,.decide,.opt,.notes,.rev-card,.chartcard,.hd-box,.brochure,.res,.map a,.choice:not(.sel),.mbadge{background-image:linear-gradient(to left,rgba(255,255,255,.55) 0%,rgba(255,255,255,.18) 45%,rgba(0,0,0,.02) 100%)}
+.cmp{border:1px solid #CFCAC2}
+.cmp tbody th{border-right:1px solid #D3CEC7}
+.cmp thead th{border-bottom:1px solid #CFCAC2}
+.cherry{background:var(--paper)!important;border-color:#E2CE9C}
+.cherry .bubble,.cherry .bubble:after{background:var(--stone)}
+.side a.aff .t{flex:none;text-align:center}
+.vk-card:not(.vk-yes):not(.vk-no) .vk-tag{background:rgba(160,95,80,.12);color:#A05F50}
+.lesson.on{position:relative}
+.lesson.on::after{content:"";position:absolute;pointer-events:none;z-index:3;top:42%;width:620px;height:820px;background:var(--shade-mid,url(img/shade-2.webp)) no-repeat top left/contain;opacity:.1;left:-300px}
+#main.sh-m .lesson.on::after{left:auto;right:-300px;background-position:top right;transform:scaleX(-1)}
+@media (max-width:860px){.lesson.on::after{width:420px;height:560px;left:-160px;opacity:.08}#main.sh-m .lesson.on::after{right:-160px}}
+@media print{.lesson.on::after{display:none}}
+"""
+s=s[:s.rfind('</style>')]+fx2+s[s.rfind('</style>'):]
+o="m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]==='l');"
+assert o in s
+s=s.replace(o,o+"var c=((i+3)%5)+1;if(c===a||c===b)c=((i+4)%5)+1;m.style.setProperty('--shade-mid','url(img/shade-'+c+'.webp)');m.classList.toggle('sh-m',i%2===1);")
+open(P,'w').write(s); print('finish v2 ok')
