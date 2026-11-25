@@ -196,3 +196,29 @@ fx=('\n/* finish: soft gradients + material textures. Terracotta carries the pla
 '')
 i=s.rfind('</style>'); s=s[:i]+fx+s[i:]
 open(P,'w').write(s); print('fx ok')
+# --- plant shadows: one per page, scrolls with the page ---
+s=open(P).read()
+ids=re.findall(r'<section[^>]*class="lesson[^"]*"[^>]*id="([^"]+)"|<section[^>]*id="([^"]+)"[^>]*class="lesson',s)
+ids=[a or b for a,b in ids]
+if not ids: ids=re.findall(r'class="lesson[^"]*" id="([^"]+)"',s)
+SIDE={1:'right',2:'right',3:'right',4:'left',5:'right'}
+css=['\n/* plant shadows: soft light through a window, pinned to the page so they scroll with it */',
+ '#main{position:relative;overflow-x:clip}',
+ '#main::before,#main::after{content:"";position:absolute;pointer-events:none;z-index:3;background-repeat:no-repeat;background-size:contain}',
+ '#main::before{top:0;right:0;width:min(58%,720px);height:min(1080px,120vh);background-position:top right;opacity:.24;background-image:var(--shade-top,url(img/shade-1.webp))}',
+ '#main::after{bottom:0;left:0;width:min(46%,560px);height:760px;background-position:top right;opacity:.2;background-image:var(--shade-bot,url(img/shade-5.webp));transform:scale(-1,-1)}',
+ '#main.sh-l::before{right:auto;left:0;background-position:top left}',
+ '#main.sh-r::after{left:auto;right:0;background-position:top left;transform:scaleY(-1)}',
+ '@media (max-width:860px){#main::before{width:78%;height:720px;opacity:.2}#main::after{width:70%;height:520px;opacity:.16}}',
+ '@media print{#main::before,#main::after{display:none}}']
+open(P,'w').write(s)
+s=s[:s.rfind('</style>')]+'\n'.join(css)+'\n'+s[s.rfind('</style>'):]
+# JS: pick shades per page on route change
+js=("<script>(function(){var m=document.getElementById('main');if(!m)return;var L=[].slice.call(document.querySelectorAll('.lesson')).map(function(e){return e.id;});"
+ "var SIDE={1:'r',2:'r',3:'r',4:'l',5:'r'};"
+ "function set(){var on=document.querySelector('.lesson.on');var i=Math.max(0,L.indexOf(on?on.id:''));var a=(i%5)+1,b=((i+2)%5)+1;if(b===a)b=(a%5)+1;"
+ "m.style.setProperty('--shade-top','url(img/shade-'+a+'.webp)');m.style.setProperty('--shade-bot','url(img/shade-'+b+'.webp)');"
+ "m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]==='l');}"
+ "set();window.addEventListener('hashchange',function(){setTimeout(set,0);});new MutationObserver(set).observe(m,{subtree:true,attributes:true,attributeFilter:['class']});})();</script>")
+i=s.rfind('</body>'); s=s[:i]+js+s[i:]
+open(P,'w').write(s); print('shades ok')

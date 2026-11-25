@@ -4216,6 +4216,16 @@ document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().ge
 .btn:hover,.rlink:hover,.revbtn:hover,.resume-btn:hover,.side a.aff:hover,.ig-btn:hover,.commcta .cc-btn:hover,.hero .herobtn:hover,.tnote a.tbtn:hover{background-image:var(--tex-t),var(--grad-th)!important}
 .hero,.video,.side .home,.side .home.on,.btn.dark,.btn.dark:hover,.share .btn,.share .btn:hover,.cel-next,.vk-stat,.gold,.finale,.trio3 div,.commcta,.vk-yes,.tipbox,.addon,.copy header,.toast{background-image:var(--tex-g),var(--grad-g)!important;background-size:cover,100% 100%!important;background-position:center,center!important;background-repeat:no-repeat,no-repeat!important;background-blend-mode:soft-light,normal!important}
 .btn,.rlink,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.btn.dark{box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 2px 8px rgba(56,51,48,.16)}
+
+/* plant shadows: soft light through a window, pinned to the page so they scroll with it */
+#main{position:relative;overflow-x:clip}
+#main::before,#main::after{content:"";position:absolute;pointer-events:none;z-index:3;background-repeat:no-repeat;background-size:contain}
+#main::before{top:0;right:0;width:min(58%,720px);height:min(1080px,120vh);background-position:top right;opacity:.24;background-image:var(--shade-top,url(img/shade-1.webp))}
+#main::after{bottom:0;left:0;width:min(46%,560px);height:760px;background-position:top right;opacity:.2;background-image:var(--shade-bot,url(img/shade-5.webp));transform:scale(-1,-1)}
+#main.sh-l::before{right:auto;left:0;background-position:top left}
+#main.sh-r::after{left:auto;right:0;background-position:top left;transform:scaleY(-1)}
+@media (max-width:860px){#main::before{width:78%;height:720px;opacity:.2}#main::after{width:70%;height:520px;opacity:.16}}
+@media print{#main::before,#main::after{display:none}}
 </style>
 <script>
 (function(){
@@ -4235,5 +4245,5 @@ document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().ge
   });
 })();
 </script>
-</body>
+<script>(function(){var m=document.getElementById('main');if(!m)return;var L=[].slice.call(document.querySelectorAll('.lesson')).map(function(e){return e.id;});var SIDE={1:'r',2:'r',3:'r',4:'l',5:'r'};function set(){var on=document.querySelector('.lesson.on');var i=Math.max(0,L.indexOf(on?on.id:''));var a=(i%5)+1,b=((i+2)%5)+1;if(b===a)b=(a%5)+1;m.style.setProperty('--shade-top','url(img/shade-'+a+'.webp)');m.style.setProperty('--shade-bot','url(img/shade-'+b+'.webp)');m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]==='l');}set();window.addEventListener('hashchange',function(){setTimeout(set,0);});new MutationObserver(set).observe(m,{subtree:true,attributes:true,attributeFilter:['class']});})();</script></body>
 </html>
