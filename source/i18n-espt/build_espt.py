@@ -179,3 +179,20 @@ k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k
 for L,v in {'nl':'Host-starterskit','es':'Kit de inicio para anfitriones','pt':'Kit inicial de anfitrião'}.items(): d[L]['u']['2523']=v
 s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
 open(P,'w').write(s); print('starter kit ok',n)
+# --- texture + gradient finish (terracotta: wall texture, green: paper texture, both at 50%) ---
+s=open(P).read()
+TS='.top,.btn,.rlink,.share,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.side a.aff,.cel-badge,.pweek,.ba-a,.chip.rec,.side .tag'
+TH='.btn:hover,.rlink:hover,.revbtn:hover,.resume-btn:hover,.side a.aff:hover,.ig-btn:hover,.commcta .cc-btn:hover,.hero .herobtn:hover,.tnote a.tbtn:hover'
+GS='.hero,.video,.side .home,.side .home.on,.btn.dark,.btn.dark:hover,.share .btn,.share .btn:hover,.cel-next,.vk-stat,.gold,.finale,.trio3 div,.commcta,.vk-yes,.tipbox,.addon,.copy header,.toast'
+fx=('\n/* finish: soft gradients + material textures. Terracotta carries the plaster wall, green carries the paper (both images at 50% opacity) */\n'
+':root{--tex-t:url(img/tex-terra.webp);--tex-g:url(img/tex-paper.webp);'
+'--grad-t:linear-gradient(135deg,#B06C5C 0%,#A05F50 52%,#8C5245 100%);'
+'--grad-th:linear-gradient(135deg,#9A5A4C 0%,#8A4F42 52%,#763F34 100%);'
+'--grad-g:linear-gradient(135deg,#3D483F 0%,#313A33 52%,#262D27 100%)}\n'
++TS+'{background-image:var(--tex-t),var(--grad-t)!important;background-size:620px auto,100% 100%!important;background-position:center,center!important;background-repeat:repeat,no-repeat!important;background-blend-mode:luminosity,normal!important}\n'
++TH+'{background-image:var(--tex-t),var(--grad-th)!important}\n'
++GS+'{background-image:var(--tex-g),var(--grad-g)!important;background-size:cover,100% 100%!important;background-position:center,center!important;background-repeat:no-repeat,no-repeat!important;background-blend-mode:soft-light,normal!important}\n'
+'.btn,.rlink,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.btn.dark{box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 2px 8px rgba(56,51,48,.16)}\n'
+'')
+i=s.rfind('</style>'); s=s[:i]+fx+s[i:]
+open(P,'w').write(s); print('fx ok')
