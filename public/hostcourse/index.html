@@ -4226,6 +4226,11 @@ document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().ge
 #main.sh-r::after{left:auto;right:0;background-position:top left;transform:scaleY(-1)}
 @media (max-width:860px){#main::before{width:78%;height:720px;opacity:.2}#main::after{width:70%;height:520px;opacity:.16}}
 @media print{#main::before,#main::after{display:none}}
+
+/* buttons keep only the soft gradient */
+.btn,.rlink,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.side a.aff,.cel-badge,.chip.rec,.side .tag,.pweek,.ba-a{background-image:var(--grad-t)!important;background-size:100% 100%!important;background-repeat:no-repeat!important;background-blend-mode:normal!important}
+.btn:hover,.rlink:hover,.revbtn:hover,.resume-btn:hover,.side a.aff:hover,.ig-btn:hover,.commcta .cc-btn:hover,.hero .herobtn:hover,.tnote a.tbtn:hover{background-image:var(--grad-th)!important}
+.btn.dark,.btn.dark:hover,.share .btn,.share .btn:hover,.cel-next,.side .home,.side .home.on,.toast,.vk-yes{background-image:var(--grad-g)!important;background-size:100% 100%!important;background-repeat:no-repeat!important;background-blend-mode:normal!important}
 </style>
 <script>
 (function(){

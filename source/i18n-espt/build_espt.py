@@ -222,3 +222,13 @@ js=("<script>(function(){var m=document.getElementById('main');if(!m)return;var 
  "set();window.addEventListener('hashchange',function(){setTimeout(set,0);});new MutationObserver(set).observe(m,{subtree:true,attributes:true,attributeFilter:['class']});})();</script>")
 i=s.rfind('</body>'); s=s[:i]+js+s[i:]
 open(P,'w').write(s); print('shades ok')
+# --- buttons: gradient only, no texture ---
+s=open(P).read()
+BT='.btn,.rlink,.ig-btn,.commcta .cc-btn,.hero .herobtn,.revbtn,.resume-btn,.tnote a.tbtn,.side a.aff,.cel-badge,.chip.rec,.side .tag,.pweek,.ba-a'
+BTH='.btn:hover,.rlink:hover,.revbtn:hover,.resume-btn:hover,.side a.aff:hover,.ig-btn:hover,.commcta .cc-btn:hover,.hero .herobtn:hover,.tnote a.tbtn:hover'
+BG='.btn.dark,.btn.dark:hover,.share .btn,.share .btn:hover,.cel-next,.side .home,.side .home.on,.toast,.vk-yes'
+fx=('\n/* buttons keep only the soft gradient */\n'+BT+'{background-image:var(--grad-t)!important;background-size:100% 100%!important;background-repeat:no-repeat!important;background-blend-mode:normal!important}\n'
+ +BTH+'{background-image:var(--grad-th)!important}\n'
+ +BG+'{background-image:var(--grad-g)!important;background-size:100% 100%!important;background-repeat:no-repeat!important;background-blend-mode:normal!important}\n')
+i=s.rfind('</style>'); s=s[:i]+fx+s[i:]
+open(P,'w').write(s); print('buttons ok')
