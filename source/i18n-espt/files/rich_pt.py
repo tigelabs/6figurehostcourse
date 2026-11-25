@@ -1,0 +1,21 @@
+COPY="© Todos os direitos reservados. Não compartilhe, copie, reproduza nem venda nenhuma parte deste documento sem a autorização por escrito de Farah Cuyvers e Daniel Martí. Todas as violações serão processadas. "
+RICH={
+('AIRBNB CLEANING ','Checklists'):['Checklists de LIMPEZA ','do Airbnb'],
+(' ','TURNOVER',' ','checklist'):[' ','CHECKLIST',' ','troca de hóspede'],
+('DEEP ','Cleaning'):['FAXINA ','pesada'],
+('POOL ','And',' ','GARDEN'):['PISCINA ','e',' ','JARDIM'],
+('BUY FREQUENTLY  ','Consumables'):['COMPRA FREQUENTE  ','Itens de consumo'],
+('BUY ONCE   ','Reusable items'):['COMPRA ÚNICA   ','Itens reutilizáveis'],
+('INVENTORY ','Overview'):['VISÃO GERAL DO ','inventário'],
+('LINEN & GUEST ','essentials'):['ROUPA DE CAMA E ','básicos'],
+}
+WELCOME=["\n","Constância é a chave para oferecer uma experiência de qualidade, e isso começa com um sistema claro. Estes checklists foram feitos para que você ou seu time sigam sempre o mesmo processo, garantindo que o imóvel fique impecável, funcional e acolhedor.\n\n","Você vai encontrar 3 tipos de checklists:","\n\n","Limpeza de troca de hóspede:"," tarefas diárias ou após o check-out para deixar o espaço pronto para a próxima chegada.\n\n","Faxina pesada:"," tarefas a fazer a cada 1–3 meses (ou quando necessário) para manter a higiene e o bom estado do imóvel no longo prazo.\n\n","Manutenção de piscina e jardim:"," cuidados de rotina para manter as áreas externas seguras, limpas e bonitas, algo especialmente importante em climas tropicais.\n\n","Cada checklist traz frequências recomendadas, ferramentas e ordem de execução, para a limpeza ser eficiente e nada ser esquecido. Imprima seus checklists e deixe-os num lugar visível do imóvel, de preferência plastificados para poder reutilizar. Use canetas para quadro branco para marcar as tarefas sem precisar imprimir de novo. Você também pode compartilhá-los na wiki digital do imóvel, para o seu time ter fácil acesso. ","\n\n",COPY]
+TURN=["Um checklist de troca de hóspede é um guia claro, passo a passo, que sua faxineira ou seu time pode seguir toda vez que um hóspede faz o check-out. Ele garante que todas as tarefas essenciais sejam feitas sempre do mesmo jeito, desde trocar os lençóis e repor os itens até verificar danos e deixar o espaço pronto para a próxima chegada. Com um checklist detalhado, você reduz erros, economiza tempo com mensagens de vai e vem e mantém um alto padrão de limpeza e apresentação.\n\nEste checklist também foi ","pensado com uma ordem otimizada."," Seguindo os passos numa ordem específica, sua faxineira trabalha com mais eficiência e entra e sai menos vezes de cada cômodo."," O objetivo é que vire uma rotina repetível: seguir os passos na ordem certa, ","o que economiza tempo e energia em cada troca.\n\nDICA DE PROFISSIONAL: inclua fotos de referência de como arrumar a cama e das áreas principais do imóvel. Assim seu time mantém a consistência e o espaço sempre fica igual às fotos do anúncio."]
+INV=["\n","Controlar seus suprimentos e sua roupa de cama é essencial para a operação fluir, principalmente quando você escala ou trabalha com um time. Esta visão geral do inventário te ajuda a se manter organizado, evitar faltas de última hora e tornar as reposições em grande quantidade mais eficientes.\n\nEla tem duas seções:\n\nRoupa de cama e básicos dos hóspedes: tudo o que seus hóspedes usam diretamente, como toalhas, lençóis e protetores de travesseiro.\n\nProdutos de limpeza: divididos em Compra única (ferramentas reutilizáveis) e Compra frequente (itens de consumo que acabam).\n\n💡 Dica: faça uma checagem rápida do estoque a cada 2 semanas ou no fim de cada mês. Você pode passar isso para o seu gerente ou para a faxineira e usar o checklist para atualizar as quantidades, marcar o que precisa ser trocado e acompanhar o consumo ao longo do tempo.\n\nTer constância com o inventário mantém a qualidade alta, evita estresse desnecessário e garante que você esteja sempre pronto para receber hóspedes.\n\n",COPY]
+def rich_lookup(runs):
+    k=tuple(runs)
+    if k in RICH: return RICH[k]
+    if len(runs)==13 and runs[1].startswith('Consistency'): return WELCOME
+    if len(runs)==5 and runs[0].startswith('A turnover checklist'): return TURN
+    if len(runs)==3 and runs[1].startswith('Keeping track'): return INV
+    return None

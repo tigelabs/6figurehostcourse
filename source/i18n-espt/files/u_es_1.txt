@@ -1,0 +1,531 @@
+@@0
+INSPECCIÓN DE LIMPIEZA
+@@1
+Checklist
+@@2
+Revisa el interior del cubo de basura (¿limpio o huele?)
+@@3
+Revisa el interior del microondas (¿limpio?)
+@@4
+Interior del congelador (¿cosas acumuladas o hielo?)
+@@5
+Interruptores de la luz (¿sucios o no funcionan?)
+@@6
+Revisa los enchufes (¿limpios?)
+@@7
+Detrás de las puertas, debajo de las camas y las baldas altas
+@@8
+Comprueba que las sábanas y las toallas estén en buen estado
+@@9
+Revisa los protectores de colchón y de almohada (lávalos si están manchados)
+@@10
+Limpia o cambia la cortina de ducha, si la hay
+@@11
+Revisa si hay moho en los azulejos y en las juntas de la ducha
+@@12
+Comprueba que la presión del cabezal de la ducha sea buena
+@@13
+Revisa el cajón de los cubiertos (¿limpio?)
+@@14
+Busca telarañas en las esquinas, sobre todo en los techos
+@@15
+Revisa las aspas de los ventiladores y las rejillas de ventilación (¿sin polvo?)
+@@16
+Quita el polvo de las lámparas y las pantallas
+@@17
+Revisa la cerradura digital y límpiale las huellas
+@@18
+Limpia y desinfecta los mandos a distancia
+@@19
+Revisa que el lavadero esté ordenado y limpio
+@@20
+Revisa la cesta de objetos perdidos y retira lo que haya
+@@21
+¡¡¡STOP!!! ANTES DE USAR ESTE DOCUMENTO: HAZ CLIC EN ARCHIVO > HACER UNA COPIA
+@@22
+ACUERDO DE SERVICIOS DE LIMPIEZA
+@@23
+Este Acuerdo de servicios de limpieza («Acuerdo») se celebra entre:
+@@24
+Cliente (propietario/gestor del alojamiento):
+@@25
+ Nombre: [Tu nombre completo]
+ Dirección: [Tu dirección]
+ Teléfono/email: [Datos de contacto]
+@@26
+Y
+@@27
+Limpiadora (proveedora del servicio):
+@@28
+ Nombre: [Nombre completo de la limpiadora]
+ Dirección: [Dirección de la limpiadora]
+ Teléfono/email: [Datos de contacto]
+@@29
+Fecha de inicio:
+@@30
+[Fecha de inicio del acuerdo]
+@@31
+Dirección del alojamiento:
+@@32
+[Dirección del alojamiento que se va a limpiar]
+@@33
+Este acuerdo
+@@34
+establece las condiciones en las que la
+@@35
+Limpiadora
+@@36
+prestará servicios de limpieza y cambio de huésped para el/los alojamiento(s) de Airbnb/alquiler de corta duración en régimen de
+@@37
+trabajo autónomo (contratista independiente)
+@@38
+.
+@@39
+1. Alcance del trabajo
+@@40
+La Limpiadora se compromete a realizar los servicios de limpieza que se describen a continuación:
+@@41
+Limpieza de cambio de huésped del alojamiento después del check-out
+@@42
+Hacer la cama con ropa de cama limpia
+@@43
+Reponer los consumibles (papel higiénico, jabón, etc.)
+@@44
+Sacar la basura y cambiar las bolsas
+@@45
+Limpieza general a fondo (baño, cocina, suelos, ventanas, polvo)
+@@46
+Comunicar de inmediato cualquier daño o problema de mantenimiento y enviar fotos
+@@47
+Encargarse de lavar y secar la ropa de cama
+@@48
+Reposición básica (con recibos y dentro del presupuesto)
+@@49
+[Cualquier otra tarea específica de tu alojamiento]
+@@50
+2. Horario
+@@51
+La Limpiadora se compromete a estar disponible según el calendario de salidas de los huéspedes. Los cambios de huésped se harán normalmente entre
+@@52
+[Franja horaria, p. ej., 11:00 – 15:00]
+@@53
+, y deben terminarse antes del siguiente check-in, salvo que se acuerde otra cosa.
+@@54
+3. Retribución
+@@55
+El Cliente se compromete a pagar a la Limpiadora:
+@@56
+Tarifa fija por cambio de huésped:
+@@57
+[Importe] €
+@@58
+Servicios extra (colada, limpieza a fondo, etc.):
+@@59
+[Importe, si corresponde] €
+@@60
+El pago se hará mediante [Método de pago] con periodicidad [semanal/quincenal/por cambio de huésped].
+@@61
+Este acuerdo
+@@62
+no
+@@63
+constituye una relación laboral. La parte contratada actúa como
+@@64
+profesional autónoma
+@@65
+, y es responsable de sus propios impuestos y cotizaciones sociales.
+@@66
+4. Material
+@@67
+Los productos de limpieza los aportará:
+ ☐ El Cliente
+ ☐ La Limpiadora (se le reembolsa con recibo)
+ ☐ Responsabilidad compartida (especificar: [La limpiadora se encargará de comprar el material con un fondo de caja mensual que aporta el cliente.])
+@@68
+Se transferirá un fondo de caja de
+@@69
+[importe] €
+@@70
+al principio de cada mes, que se usará exclusivamente para productos de limpieza y reposición de básicos. Después de cada compra, la limpiadora debe enviar una
+@@71
+foto del recibo
+@@72
+al
+@@73
+grupo de WhatsApp
+@@74
+designado, junto con el
+@@75
+saldo restante actualizado
+@@76
+El fondo de caja se revisará y se
+@@77
+repondrá a final de cada mes
+@@78
+según los recibos enviados. Cualquier mal uso o falta de recibos puede suponer la reducción o la cancelación del fondo de caja.
+@@79
+5. Conducta y confidencialidad
+@@80
+La Limpiadora tratará con respeto y cuidado las pertenencias de los huéspedes y el alojamiento.
+@@81
+La Limpiadora se compromete a no revelar ninguna información confidencial sobre el alojamiento, los huéspedes o el propietario.
+@@82
+Queda totalmente prohibido fumar, beber alcohol o recibir visitas no autorizadas durante la limpieza.
+@@83
+6. Resolución
+@@84
+Cualquiera de las partes puede resolver este acuerdo con un
+@@85
+preaviso por escrito de [14/30] días
+@@86
+. Se podrá resolver de forma inmediata en caso de ausencias repetidas, negligencia o incumplimiento de las normas de conducta.
+@@87
+7. Responsabilidad
+@@88
+La Limpiadora asume la responsabilidad de cualquier daño causado por negligencia durante la limpieza. El Cliente no es responsable de las lesiones sufridas durante el trabajo, salvo que se deban a condiciones inseguras del alojamiento.
+@@89
+8. Emergencias y comunicación
+@@90
+En caso de cualquier emergencia o problema, la Limpiadora debe contactar de inmediato con el Cliente en: [Número de teléfono/WhatsApp].
+@@91
+Firmas
+@@92
+Nombre del Cliente:
+@@93
+________________________
+ Firma: _____________________________
+ Fecha: _____________________
+@@94
+Nombre de la Limpiadora:
+@@95
+______________________
+ Firma: _____________________________
+ Fecha: _____________________
+@@96
+¡¡¡STOP!!! ANTES DE USAR ESTE DOCUMENTO: HAZ CLIC EN ARCHIVO > HACER UNA COPIA (borra esto después)
+@@97
+ACUERDO CON EL MANITAS
+@@98
+Este acuerdo establece las condiciones en las que el Manitas («Contratista») realizará trabajos generales de mantenimiento y reparación como autónomo en el alojamiento que es propiedad del Cliente o que este gestiona («Propietario/gestor del alojamiento»).
+@@99
+1. Partes
+@@100
+Cliente:
+@@101
+[Nombre completo]
+@@102
+Contratista:
+@@103
+[Dirección completa del alojamiento]
+@@104
+2. Alcance del trabajo
+@@105
+El Contratista se compromete a realizar las tareas generales de reparación y mantenimiento que hagan falta, entre ellas:
+@@106
+Arreglar problemas de fontanería o electricidad (no especializados)
+@@107
+Colgar baldas, espejos, barras de cortina, etc.
+@@108
+Montar o reparar muebles
+@@109
+Retoques de pintura
+@@110
+Reparar puertas, cerraduras o electrodomésticos
+@@111
+Arreglos urgentes (p. ej., fugas, muebles rotos)
+@@112
+Cualquier trabajo especializado fuera de este alcance debe hablarse y acordarse previamente.
+@@113
+3. Condiciones de pago
+@@114
+☐ Tarifa por hora: [importe] €/hora
+ ☐ Por tarea o trabajo: [importe o definición de las tareas] €
+ ☐ Tarifa mínima por desplazamiento: [importe] €
+@@115
+Los pagos se harán mediante:
+ ☐ Transferencia bancaria
+ ☐ Efectivo
+ ☐ Otro: [ ]
+@@116
+Frecuencia de pago:
+ ☐ Después de cada tarea
+ ☐ Resumen mensual
+ ☐ Otra: [ ]
+@@117
+4. Disponibilidad
+@@118
+El Contratista se compromete a estar disponible para:
+ ☐ Mantenimiento programado (no urgente)
+ ☐ Reparaciones urgentes en un plazo de [X] horas
+ ☐ Comunicación por grupo de WhatsApp para asignar tareas
+@@119
+Si el Contratista no está disponible, debe avisar al Cliente y, cuando sea posible, recomendar una alternativa.
+@@120
+5. Herramientas y materiales
+@@121
+☐ El Contratista aporta sus propias herramientas
+ ☐ Los materiales los aporta el Cliente (si hacen falta)
+ ☐ El Contratista compra los materiales (se le reembolsan con recibo por WhatsApp, incluida la actualización del saldo)
+@@122
+Se puede establecer un sistema de fondo de caja. Los recibos deben fotografiarse y publicarse en el grupo de WhatsApp designado, con el saldo restante claramente actualizado.
+@@123
+6. Duración y resolución
+@@124
+Este acuerdo es indefinido mientras no se resuelva. Cualquiera de las partes puede resolverlo con 14 días de preaviso. En caso de incumplimiento de las condiciones o falta de fiabilidad, podrá resolverse de forma inmediata.
+@@125
+7. Contratista independiente
+@@126
+El Contratista no es un empleado y es responsable de sus propios impuestos, seguridad social y seguros. Este acuerdo no constituye una relación laboral ni garantiza trabajo futuro.
+@@127
+Firmado el:
+@@128
+[Fecha]
+@@129
+Firma del Cliente:
+@@130
+Firma del Contratista:
+@@131
+INSPECCIÓN DE MANTENIMIENTO
+@@132
+Aprieta los tornillos sueltos (baldas, tiradores, ollas y sartenes)
+@@133
+Repón lo que falte o esté roto (mandos, menaje de cocina, bombillas)
+@@134
+Revisa todas las luces, lámparas y bombillas (cámbialas si hace falta)
+@@135
+Prueba todos los mandos a distancia (tele, ventilador, aire acondicionado)
+@@136
+Revisa y limpia los filtros del aire acondicionado
+@@137
+Comprueba que el aire acondicionado enfríe bien
+@@138
+Revisa si hay hormigas o insectos
+@@139
+Prueba las cerraduras de las puertas (dormitorios, baños, entrada)
+@@140
+Revisa el nivel de batería o el funcionamiento de la cerradura digital
+@@141
+Abre y cierra todas las ventanas y puertas correderas (comprueba que funcionen bien)
+@@142
+Revisa si las cortinas/estores están dañados o sucios
+@@143
+Revisa si hay moho o humedad (sobre todo en las esquinas)
+@@144
+Comprueba que todos los ganchos y colgadores estén bien fijados
+@@145
+Revisa si hay desconchones de pintura o marcas en la pared
+@@146
+Tapa los agujeros o las zonas dañadas de la pared con masilla
+@@147
+Repinta pequeñas zonas donde haga falta (lleva pintura del mismo tono y un rodillo pequeño)
+@@148
+Revisa los electrodomésticos de la cocina
+@@149
+Revisa si hay fugas debajo del fregadero y en los armarios
+@@150
+Prueba la conexión wifi en cada habitación
+@@151
+Revisa el botiquín y repón lo que haga falta
+@@152
+Tira de la cadena de todos los váteres y revisa si hay fugas
+@@153
+ACUERDO DE MANTENIMIENTO DE PISCINA Y JARDÍN
+@@154
+Este acuerdo establece las condiciones en las que el Proveedor de mantenimiento de piscina y jardín («Contratista») se encargará como autónomo del mantenimiento de las zonas exteriores del alojamiento que es propiedad del Cliente o que este gestiona («Propietario/gestor del alojamiento»).
+@@155
+2. Servicios prestados
+@@156
+El Contratista se compromete a prestar los siguientes servicios:
+@@157
+Mantenimiento de la piscina
+@@158
+Limpiar la piscina (recoger hojas, aspirar, cepillar)
+@@159
+Medir y equilibrar los productos químicos de la piscina
+@@160
+Revisar y mantener filtros, bombas y equipos de la piscina
+@@161
+Asegurar que el nivel del agua sea el adecuado
+@@162
+Mantenimiento del jardín y del exterior
+@@163
+Cortar el césped y perfilar los bordes
+@@164
+Regar las plantas y cuidar el paisajismo
+@@165
+Quitar malas hierbas y plantas muertas
+@@166
+Barrer o limpiar las zonas comunes exteriores (caminos, terrazas, etc.)
+@@167
+Tareas opcionales (si se acuerdan):
+ ☐ Control de plagas
+ ☐ Abonado de las plantas
+ ☐ Mantenimiento del sistema de riego
+@@168
+3. Frecuencia
+@@169
+☐ 1 vez por semana
+ ☐ 2 veces por semana
+ ☐ Otra: [Especificar]
+@@170
+4. Retribución
+@@171
+El Cliente se compromete a pagar al Contratista:
+@@172
+☐ Tarifa mensual fija: [importe] €
+ ☐ Por visita: [importe] €
+ ☐ Otra (especificar): [detalles]
+@@173
+Los pagos se harán mediante:
+ ☐ Efectivo ☐ Transferencia bancaria ☐ Otro: [ ]
+@@174
+Calendario de pagos:
+ ☐ Mensual (a final de cada mes)
+ ☐ Después de cada visita
+ ☐ Otro: [ ]
+@@175
+5. Material y equipos
+@@176
+☐ El Contratista aporta todos los equipos y el material
+ ☐ El Cliente aporta el material (con fondo de caja: el Contratista debe enviar foto del recibo + actualización del saldo por el grupo de WhatsApp)
+@@177
+6. Comunicación
+@@178
+El Contratista se compromete a:
+@@179
+Estar localizable por WhatsApp para coordinarse o para emergencias
+@@180
+Comunicar cualquier daño, problema o incidente en el alojamiento
+@@181
+Avisar al Cliente si no puede hacer una visita programada
+@@182
+7. Resolución
+@@183
+Cualquiera de las partes puede resolver este acuerdo con un preaviso mínimo de 14 días. Si alguna de las partes incumple este acuerdo, podrá resolverse de forma inmediata.
+@@184
+8. Contratista independiente
+@@185
+El Contratista no es un empleado. Se trata de un acuerdo con un profesional autónomo. El Contratista es responsable de sus propios impuestos, seguros y obligaciones legales.
+@@186
+ACUERDO CON EL GESTOR DEL ALOJAMIENTO
+@@187
+se celebra entre:
+@@188
+El Propietario/Cliente
+@@189
+: [Tu nombre completo o el nombre de tu empresa]
+ y
+@@190
+El Gestor del alojamiento
+@@191
+: [Nombre completo del gestor]
+ en la fecha: [Fecha]
+@@192
+1. Objeto
+@@193
+Este acuerdo establece las condiciones en las que el Gestor del alojamiento gestionará la operativa diaria del/los alojamiento(s) de Airbnb/alquiler de corta duración en régimen de
+@@194
+El Gestor del alojamiento se compromete a realizar las siguientes tareas:
+@@195
+Comunicación con los huéspedes (antes de la llegada, durante la estancia, reseñas después de la estancia)
+@@196
+Coordinación de check-ins y check-outs
+@@197
+Gestión del calendario y los precios (salvo que se acuerde otra cosa)
+@@198
+Control de calidad después de las limpiezas
+@@199
+Comunicación de daños o incidencias
+@@200
+Coordinación de limpiadoras, mantenimiento o manitas cuando haga falta
+@@201
+Control de suministros e inventario
+@@202
+Coordinación de la respuesta a emergencias (disponible por teléfono en el horario acordado)
+@@203
+El Gestor del alojamiento recibirá como retribución:
+ ☐ [Tarifa mensual fija de ___ €
+@@204
+]
+ ☐ [Porcentaje de los ingresos mensuales:
+@@205
+%]
+ ☐ [Por reserva:
+@@206
+€ por reserva]
+@@207
+El pago se hará con periodicidad
+@@208
+mensual
+@@209
+, mediante [Método de pago preferido], en un plazo de [X] días desde la recepción de la factura.
+@@210
+4. Fondo de caja y gastos
+@@211
+El Cliente aportará un
+@@212
+fondo de caja mensual
+@@213
+de [importe] € para pequeñas compras y reposiciones.
+@@214
+El Gestor debe enviar
+@@215
+fotos de los recibos
+@@216
+grupo de WhatsApp designado
+@@217
+También debe comunicar el
+@@218
+después de cada compra
+@@219
+El fondo de caja se
+@@220
+repondrá a final de mes
+@@221
+, si está justificado
+@@222
+Los gastos o reparaciones de mayor importe requieren la aprobación previa del Cliente.
+@@223
+5. Disponibilidad
+@@224
+El Gestor del alojamiento se compromete a:
+@@225
+Estar localizable para emergencias o consultas de los huéspedes en un horario razonable
+@@226
+Comunicarse con regularidad con el Cliente por WhatsApp o por la plataforma acordada
+@@227
+Avisar con
+@@228
+[X] días de antelación
+@@229
+de cualquier ausencia o periodo sin disponibilidad previsto
+@@230
+6. Confidencialidad
+@@231
+Toda la información de los huéspedes, los procesos internos y los documentos compartidos deben tratarse como confidenciales y no compartirse sin permiso.
+@@232
+7. Duración y resolución
+@@233
+Este acuerdo empieza el [Fecha de inicio] y sigue vigente hasta que cualquiera de las partes avise con un
+@@234
+preaviso por escrito de [14/30] días
+@@235
+. El Cliente puede resolver el acuerdo de forma inmediata en caso de negligencia grave o mala conducta.
+@@236
+8. Notas adicionales
+@@237
+☐ El Gestor del alojamiento no puede delegar sus responsabilidades en terceros sin aprobación por escrito
+ ☐ Este acuerdo puede modificarse por escrito, con la firma de ambas partes
+@@238
+Firmado:
+Cliente/Propietario
+@@239
+: _____________________ Fecha: ___________
+@@240
+Gestor del alojamiento
+@@241
+: _____________________ Fecha: ___________
+@@242
+Bienvenida
+@@243
+Checklists de LIMPIEZA de AIRBNB

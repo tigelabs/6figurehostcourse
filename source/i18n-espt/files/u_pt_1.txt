@@ -1,0 +1,531 @@
+@@0
+INSPEÇÃO DE LIMPEZA
+@@1
+Checklist
+@@2
+Verifique dentro da lixeira (limpa ou com cheiro?)
+@@3
+Verifique dentro do micro-ondas (limpo?)
+@@4
+Dentro do freezer (itens acumulados ou gelo?)
+@@5
+Interruptores (sujos ou sem funcionar?)
+@@6
+Verifique as tomadas (limpas?)
+@@7
+Atrás das portas, embaixo das camas e prateleiras altas
+@@8
+Verifique se os lençóis e as toalhas estão em bom estado
+@@9
+Verifique os protetores de colchão e de travesseiro (lave se estiverem manchados)
+@@10
+Limpe ou troque a cortina do chuveiro, se houver
+@@11
+Verifique se há mofo nos azulejos e no rejunte do box
+@@12
+Verifique se a pressão do chuveiro está boa
+@@13
+Verifique a gaveta de talheres (limpa?)
+@@14
+Procure teias de aranha nos cantos, principalmente no teto
+@@15
+Verifique as pás dos ventiladores e as saídas de ar (sem poeira?)
+@@16
+Tire o pó das luminárias e cúpulas
+@@17
+Verifique a fechadura digital e limpe as marcas de dedo
+@@18
+Limpe e higienize os controles remotos
+@@19
+Verifique se a lavanderia está organizada e limpa
+@@20
+Verifique o cesto de achados e perdidos e retire os itens
+@@21
+PARE!!! ANTES DE USAR ESTE DOCUMENTO: CLIQUE EM ARQUIVO > FAZER UMA CÓPIA
+@@22
+ACORDO DE SERVIÇOS DE LIMPEZA
+@@23
+Este Acordo de serviços de limpeza (“Acordo”) é firmado entre:
+@@24
+Contratante (proprietário/gestor do imóvel):
+@@25
+ Nome: [Seu nome completo]
+ Endereço: [Seu endereço]
+ Telefone/e-mail: [Contato]
+@@26
+E
+@@27
+Faxineira (prestadora de serviço):
+@@28
+ Nome: [Nome completo da faxineira]
+ Endereço: [Endereço da faxineira]
+ Telefone/e-mail: [Contato]
+@@29
+Data de início:
+@@30
+[Data de início do acordo]
+@@31
+Endereço do imóvel:
+@@32
+[Endereço do imóvel a ser limpo]
+@@33
+Este acordo
+@@34
+define as condições em que a
+@@35
+Faxineira
+@@36
+prestará serviços de limpeza e de troca de hóspede para o(s) imóvel(is) de Airbnb/aluguel de curta duração, de forma
+@@37
+autônoma (sem vínculo empregatício)
+@@38
+.
+@@39
+1. Escopo do trabalho
+@@40
+A Faxineira se compromete a realizar os serviços de limpeza descritos abaixo:
+@@41
+Limpeza de troca de hóspede do imóvel após o check-out
+@@42
+Arrumar a cama com roupa de cama limpa
+@@43
+Repor os itens de consumo (papel higiênico, sabonete etc.)
+@@44
+Levar o lixo para fora e trocar os sacos de lixo
+@@45
+Limpeza pesada geral (banheiro, cozinha, pisos, janelas, tirar o pó)
+@@46
+Comunicar imediatamente qualquer dano ou problema de manutenção e enviar fotos
+@@47
+Ser responsável por lavar e secar a roupa de cama
+@@48
+Reposição básica (com recibos e dentro do orçamento)
+@@49
+[Qualquer outra tarefa específica do seu imóvel]
+@@50
+2. Horário
+@@51
+A Faxineira se compromete a estar disponível de acordo com o calendário de check-outs dos hóspedes. As trocas de hóspede normalmente acontecem entre
+@@52
+[Faixa de horário, ex.: 11h – 15h]
+@@53
+, e precisam estar concluídas antes do próximo check-in, salvo combinação diferente.
+@@54
+3. Remuneração
+@@55
+O Contratante se compromete a pagar à Faxineira:
+@@56
+Valor fixo por troca de hóspede:
+@@57
+€[Valor]
+@@58
+Serviços extras (lavanderia, limpeza pesada etc.):
+@@59
+€[Valor, se aplicável]
+@@60
+O pagamento será feito via [Forma de pagamento], com periodicidade [semanal/quinzenal/por troca de hóspede].
+@@61
+Este acordo
+@@62
+não
+@@63
+constitui vínculo empregatício. A parte contratada atua como
+@@64
+prestadora de serviço autônoma
+@@65
+, sendo responsável pelos próprios impostos e contribuições sociais.
+@@66
+4. Materiais
+@@67
+Os produtos de limpeza serão fornecidos por:
+ ☐ O Contratante
+ ☐ A Faxineira (reembolsada mediante recibo)
+ ☐ Responsabilidade compartilhada (especificar: [A faxineira cuidará da compra dos materiais usando um capital de giro mensal fornecido pelo contratante.])
+@@68
+Um capital de giro de
+@@69
+€[valor]
+@@70
+será transferido no início de cada mês e deve ser usado exclusivamente para produtos de limpeza e reposição de itens básicos. Após cada compra, a faxineira deve enviar uma
+@@71
+foto do recibo
+@@72
+no
+@@73
+grupo de WhatsApp
+@@74
+designado, junto com o
+@@75
+saldo restante atualizado
+@@76
+O capital de giro será revisado e
+@@77
+completado no fim de cada mês
+@@78
+com base nos recibos enviados. Qualquer uso indevido ou falta de recibos pode levar à redução ou ao cancelamento do capital de giro.
+@@79
+5. Conduta e confidencialidade
+@@80
+A Faxineira tratará os pertences dos hóspedes e o imóvel com respeito e cuidado.
+@@81
+A Faxineira se compromete a não divulgar nenhuma informação confidencial sobre o imóvel, os hóspedes ou o proprietário.
+@@82
+É estritamente proibido fumar, consumir bebidas alcoólicas ou receber visitas não autorizadas durante a limpeza.
+@@83
+6. Rescisão
+@@84
+Qualquer uma das partes pode rescindir este acordo com
+@@85
+aviso prévio por escrito de [14/30] dias
+@@86
+. A rescisão imediata pode ocorrer em caso de faltas repetidas, negligência ou violação das regras de conduta.
+@@87
+7. Responsabilidade
+@@88
+A Faxineira se responsabiliza por qualquer dano causado por negligência durante a limpeza. O Contratante não é responsável por lesões sofridas durante o trabalho, a menos que sejam causadas por condições inseguras do imóvel.
+@@89
+8. Emergências e comunicação
+@@90
+Em caso de qualquer emergência ou problema, a Faxineira deve falar imediatamente com o Contratante pelo: [Número de telefone/WhatsApp].
+@@91
+Assinaturas
+@@92
+Nome do Contratante:
+@@93
+________________________
+ Assinatura: _____________________________
+ Data: _____________________
+@@94
+Nome da Faxineira:
+@@95
+______________________
+ Assinatura: _____________________________
+ Data: _____________________
+@@96
+PARE!!! ANTES DE USAR ESTE DOCUMENTO: CLIQUE EM ARQUIVO > FAZER UMA CÓPIA (apague isto depois)
+@@97
+ACORDO COM O FAZ-TUDO
+@@98
+Este acordo define as condições em que o Faz-tudo (“Prestador”) realizará, de forma autônoma, serviços gerais de manutenção e reparos no imóvel de propriedade ou sob gestão do Contratante (“Proprietário/gestor do imóvel”).
+@@99
+1. Partes envolvidas
+@@100
+Contratante:
+@@101
+[Nome completo]
+@@102
+Prestador:
+@@103
+[Endereço completo do imóvel]
+@@104
+2. Escopo do trabalho
+@@105
+O Prestador se compromete a realizar tarefas gerais de reparo e manutenção conforme a necessidade, que podem incluir:
+@@106
+Resolver problemas hidráulicos ou elétricos (não especializados)
+@@107
+Instalar prateleiras, espelhos, varões de cortina etc.
+@@108
+Montar ou consertar móveis
+@@109
+Retoques de pintura
+@@110
+Consertos de portas, fechaduras ou eletrodomésticos
+@@111
+Consertos urgentes (ex.: vazamentos, móveis quebrados)
+@@112
+Qualquer trabalho especializado fora deste escopo deve ser conversado e combinado com antecedência.
+@@113
+3. Condições de pagamento
+@@114
+☐ Valor por hora: €[valor]/hora
+ ☐ Por tarefa ou serviço: €[valor ou definição das tarefas]
+ ☐ Taxa mínima de visita: €[valor]
+@@115
+Os pagamentos serão feitos via:
+ ☐ Transferência bancária
+ ☐ Dinheiro
+ ☐ Outro: [ ]
+@@116
+Frequência de pagamento:
+ ☐ Após cada tarefa
+ ☐ Resumo mensal
+ ☐ Outra: [ ]
+@@117
+4. Disponibilidade
+@@118
+O Prestador se compromete a estar disponível para:
+ ☐ Manutenção programada (não urgente)
+ ☐ Reparos de emergência em até [X] horas
+ ☐ Comunicação pelo grupo de WhatsApp para distribuição de tarefas
+@@119
+Se o Prestador não estiver disponível, deve avisar o Contratante e, quando possível, indicar uma alternativa.
+@@120
+5. Ferramentas e materiais
+@@121
+☐ O Prestador usa as próprias ferramentas
+ ☐ Materiais fornecidos pelo Contratante (se necessário)
+ ☐ O Prestador compra os materiais (reembolsado mediante recibo pelo WhatsApp, com atualização do saldo)
+@@122
+Pode ser criado um sistema de capital de giro. Os recibos devem ser fotografados e postados no grupo de WhatsApp designado, com o saldo restante claramente atualizado.
+@@123
+6. Vigência e rescisão
+@@124
+Este acordo tem prazo indeterminado, até ser rescindido. Qualquer uma das partes pode rescindi-lo com 14 dias de aviso prévio. Em caso de descumprimento das condições ou falta de confiabilidade, a rescisão pode ser imediata.
+@@125
+7. Prestador independente
+@@126
+O Prestador não é empregado e é responsável pelos próprios impostos, previdência e seguros. Este acordo não constitui vínculo empregatício nem garante trabalho futuro.
+@@127
+Assinado em:
+@@128
+[Data]
+@@129
+Assinatura do Contratante:
+@@130
+Assinatura do Prestador:
+@@131
+INSPEÇÃO DE MANUTENÇÃO
+@@132
+Aperte parafusos soltos (prateleiras, puxadores, panelas e frigideiras)
+@@133
+Reponha itens que estão faltando ou quebrados (controles, utensílios de cozinha, lâmpadas)
+@@134
+Verifique todas as luzes, luminárias e lâmpadas (troque se necessário)
+@@135
+Teste todos os controles remotos (TV, ventilador, ar-condicionado)
+@@136
+Verifique e limpe os filtros do ar-condicionado
+@@137
+Teste se o ar-condicionado está gelando bem
+@@138
+Verifique se há formigas ou insetos
+@@139
+Teste as fechaduras das portas (quartos, banheiros, entrada)
+@@140
+Verifique o nível da bateria ou o funcionamento da fechadura digital
+@@141
+Abra e feche todas as janelas e portas de correr (veja se deslizam bem)
+@@142
+Verifique se as cortinas/persianas estão danificadas ou sujas
+@@143
+Verifique se há mofo ou umidade (principalmente nos cantos)
+@@144
+Verifique se todos os ganchos e suportes de parede estão bem presos
+@@145
+Verifique se há tinta descascada ou marcas na parede
+@@146
+Tape furos ou partes danificadas da parede com massa
+@@147
+Repinte pequenas áreas onde for preciso (leve tinta no mesmo tom e um rolinho pequeno)
+@@148
+Verifique os eletrodomésticos da cozinha
+@@149
+Verifique se há vazamentos embaixo da pia e nos armários
+@@150
+Teste a conexão Wi-Fi em cada cômodo
+@@151
+Verifique o kit de primeiros socorros e reponha se necessário
+@@152
+Dê descarga em todos os vasos sanitários e verifique se há vazamentos
+@@153
+ACORDO DE MANUTENÇÃO DE PISCINA E JARDIM
+@@154
+Este acordo define as condições em que o Prestador de manutenção de piscina e jardim (“Prestador”) cuidará, de forma autônoma, das áreas externas do imóvel de propriedade ou sob gestão do Contratante (“Proprietário/gestor do imóvel”).
+@@155
+2. Serviços prestados
+@@156
+O Prestador se compromete a prestar os seguintes serviços:
+@@157
+Manutenção da piscina
+@@158
+Limpar a piscina (peneirar, aspirar, escovar)
+@@159
+Testar e equilibrar os produtos químicos da piscina
+@@160
+Verificar e manter filtros, bombas e equipamentos da piscina
+@@161
+Garantir que o nível da água esteja adequado
+@@162
+Manutenção do jardim e da área externa
+@@163
+Cortar a grama e aparar as bordas
+@@164
+Regar as plantas e cuidar do paisagismo
+@@165
+Tirar ervas daninhas e plantas mortas
+@@166
+Varrer ou limpar as áreas comuns externas (caminhos, terraços etc.)
+@@167
+Tarefas opcionais (se combinadas):
+ ☐ Controle de pragas
+ ☐ Adubação das plantas
+ ☐ Manutenção do sistema de irrigação
+@@168
+3. Frequência
+@@169
+☐ 1x por semana
+ ☐ 2x por semana
+ ☐ Outra: [Especificar]
+@@170
+4. Remuneração
+@@171
+O Contratante se compromete a pagar ao Prestador:
+@@172
+☐ Valor mensal fixo: €[valor]
+ ☐ Por visita: €[valor]
+ ☐ Outro (especificar): [detalhes]
+@@173
+Os pagamentos serão feitos via:
+ ☐ Dinheiro ☐ Transferência bancária ☐ Outro: [ ]
+@@174
+Calendário de pagamento:
+ ☐ Mensal (no fim de cada mês)
+ ☐ Após cada visita
+ ☐ Outro: [ ]
+@@175
+5. Materiais e equipamentos
+@@176
+☐ O Prestador fornece todos os equipamentos e materiais
+ ☐ O Contratante fornece os materiais (com capital de giro: o Prestador deve enviar foto do recibo + atualização do saldo pelo grupo de WhatsApp)
+@@177
+6. Comunicação
+@@178
+O Prestador se compromete a:
+@@179
+Estar disponível pelo WhatsApp para coordenação ou emergências
+@@180
+Comunicar qualquer dano, problema ou incidente no imóvel
+@@181
+Avisar o Contratante se não puder fazer uma visita programada
+@@182
+7. Rescisão
+@@183
+Qualquer uma das partes pode rescindir este acordo com aviso prévio mínimo de 14 dias. Se uma das partes descumprir este acordo, ele pode ser rescindido imediatamente.
+@@184
+8. Prestador independente
+@@185
+O Prestador não é empregado. Este é um acordo de prestação de serviços autônomos. O Prestador é responsável pelos próprios impostos, seguros e obrigações legais.
+@@186
+ACORDO COM O GERENTE DO IMÓVEL
+@@187
+é firmado entre:
+@@188
+O Proprietário/Contratante
+@@189
+: [Seu nome completo ou nome da empresa]
+ e
+@@190
+O Gerente do imóvel
+@@191
+: [Nome completo do gerente]
+ na data: [Data]
+@@192
+1. Objetivo
+@@193
+Este acordo define as condições em que o Gerente do imóvel cuidará da operação do dia a dia do(s) imóvel(is) de Airbnb/aluguel de curta duração, de forma
+@@194
+O Gerente do imóvel se compromete a realizar as seguintes tarefas:
+@@195
+Comunicação com os hóspedes (antes da chegada, durante a estadia, avaliações após a estadia)
+@@196
+Coordenação de check-in/check-out
+@@197
+Gestão do calendário e dos preços (salvo combinação diferente)
+@@198
+Controle de qualidade após as faxinas
+@@199
+Comunicação de danos ou problemas
+@@200
+Coordenação de faxineiras, manutenção ou faz-tudo quando necessário
+@@201
+Controle de suprimentos e inventário
+@@202
+Coordenação de respostas a emergências (disponível por telefone no horário combinado)
+@@203
+O Gerente do imóvel será remunerado com:
+ ☐ [Valor mensal fixo de €___
+@@204
+]
+ ☐ [Porcentagem da receita mensal:
+@@205
+%]
+ ☐ [Por reserva: €
+@@206
+por reserva]
+@@207
+O pagamento será feito em
+@@208
+base mensal
+@@209
+, via [Forma de pagamento preferida], em até [X] dias após o recebimento da nota fiscal.
+@@210
+4. Capital de giro e despesas
+@@211
+O Contratante fornecerá um
+@@212
+capital de giro mensal
+@@213
+de €[valor] para pequenas compras e reposição.
+@@214
+O Gerente deve enviar
+@@215
+fotos dos recibos
+@@216
+grupo de WhatsApp designado
+@@217
+Também deve informar o
+@@218
+após cada compra
+@@219
+O capital de giro será
+@@220
+completado no fim do mês
+@@221
+, se justificado
+@@222
+Despesas ou reparos maiores precisam de aprovação prévia do Contratante.
+@@223
+5. Disponibilidade
+@@224
+O Gerente do imóvel se compromete a:
+@@225
+Estar disponível para emergências ou dúvidas dos hóspedes em horários razoáveis
+@@226
+Manter contato frequente com o Contratante pelo WhatsApp ou pela plataforma combinada
+@@227
+Avisar com
+@@228
+[X] dias de antecedência
+@@229
+sobre qualquer folga ou ausência planejada
+@@230
+6. Confidencialidade
+@@231
+Todas as informações dos hóspedes, processos internos e documentos compartilhados devem ser tratados como confidenciais e não podem ser compartilhados sem autorização.
+@@232
+7. Vigência e rescisão
+@@233
+Este acordo começa em [Data de início] e continua válido até que uma das partes envie
+@@234
+aviso prévio por escrito de [14/30] dias
+@@235
+. O Contratante pode rescindir o acordo imediatamente em caso de negligência grave ou má conduta.
+@@236
+8. Observações adicionais
+@@237
+☐ O Gerente do imóvel não pode repassar suas responsabilidades a terceiros sem aprovação por escrito
+ ☐ Este acordo pode ser alterado por escrito, com a assinatura das duas partes
+@@238
+Assinado:
+Contratante/Proprietário
+@@239
+: _____________________ Data: ___________
+@@240
+Gerente do imóvel
+@@241
+: _____________________ Data: ___________
+@@242
+Boas-vindas
+@@243
+Checklists de LIMPEZA do AIRBNB

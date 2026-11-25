@@ -1,0 +1,6 @@
+names={'cleaning-inspection':'inspeccion-limpieza','maintenance-inspection':'inspeccion-mantenimiento','cleaning-services-agreement':'acuerdo-servicios-limpieza','handyman-agreement':'acuerdo-manitas','pool-garden-maintenance-agreement':'acuerdo-mantenimiento-piscina-jardin','property-manager-agreement':'acuerdo-gestor-alojamiento'}
+xnames={'checklists':'checklists-limpieza','inventory':'resumen-inventario','finance':'control-financiero'}
+SHEETS={'Welcome':'Bienvenida','Turnover checklist':'Cambio de huésped','Deep cleaning':'Limpieza a fondo','Pool Garden':'Piscina jardín','Cleaning supplies (buy frequent':'Limpieza (compra frecuente)','Cleaning supplies (reusable)':'Limpieza (reutilizable)','Linen & guest essentials':'Ropa de cama y básicos','Start here':'Empieza aquí','Overview':'Resumen','Property 1':'Alojamiento 1','Property 2':'Alojamiento 2','Property 3':'Alojamiento 3'}
+LIT={'All amounts in ':'Todos los importes en ','Property 1':'Alojamiento 1','Property 2':'Alojamiento 2','Property 3':'Alojamiento 3','PROPERTY 1':'ALOJAMIENTO 1','PROPERTY 2':'ALOJAMIENTO 2','PROPERTY 3':'ALOJAMIENTO 3'}
+T_EXTRA={' basis.':'.','PROPERTY 3':'ALOJAMIENTO 3','Income, expenses and profit per month':'Ingresos, gastos y beneficio por mes'}
+STOP=['¡¡¡STOP!!!']
