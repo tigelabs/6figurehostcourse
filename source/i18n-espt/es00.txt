@@ -1,0 +1,224 @@
+@@1
+Menú
+@@4
+Intro
+@@5
+Empieza aquí
+@@6
+Nuestra historia
+@@7
+Tu hoja de ruta
+@@8
+Parte 1: Construye tus cimientos
+@@9
+Elige tu modelo de negocio
+@@10
+Normativa y reglas locales
+@@11
+Piensa como un empresario
+@@12
+Haz un estudio de mercado
+@@13
+Encuentra la vivienda adecuada
+@@14
+Convence a los propietarios
+@@15
+Parte 2: Lanza tu primer anuncio
+@@16
+Prepara tu espacio
+@@17
+Crea un anuncio que venda
+@@18
+Ofrece una experiencia de 5 estrellas
+@@19
+Parte 3: Sistemas para ingresos pasivos y escalar
+@@20
+Crea tu equipo ideal
+@@21
+Optimiza tus operaciones
+@@22
+Automatiza para tener ingresos pasivos
+@@23
+Escala hasta las 6 cifras
+@@24
+Bonus
+@@25
+Tu kit de inicio para anfitriones
+@@26
+Calculadora de beneficios
+@@27
+Checklist de equipamiento
+@@28
+Manual de la vivienda
+@@29
+Kit de plantillas operativas{1}7 recursos{2}
+@@30
+Plantillas de acuerdos con el personal
+@@31
+Sistema de etiquetas
+@@32
+Inspecciones de la vivienda
+@@33
+Checklists para el personal
+@@34
+Guía de bienvenida
+@@35
+Hoja de bienvenida
+@@36
+Ordena los espacios compartidos
+@@37
+Control financiero de la vivienda
+@@38
+Errores frecuentes
+@@39
+Extras
+@@40
+Resumen de prompts de IA
+@@41
+Extras
+@@42
+Próximamente
+@@43
+Hazte anfitrión
+@@45
++ kit de inicio para anfitriones
+@@46
+Tu curso paso a paso para crear un negocio de alquiler con ingresos pasivos, {1}incluso sin tener una vivienda en propiedad.{2}
+@@47
+por Farah &amp; Daniel
+@@48
+Bienvenida
+@@49
+Nos alegra mucho que estés aquí. Este curso reúne todo lo que hemos aprendido en casi 10 años como anfitriones, convertido en pasos claros que puedes seguir a tu ritmo.
+@@50
+Imagina tener casas preciosas por todo el mundo. Sitios donde alojarte, que puedes alquilar y a los que siempre puedes volver. Si alguna vez has soñado con un negocio que te dé libertad, flexibilidad e ingresos sin estar atado a una mesa ni tener que comprar inmuebles, este curso es para TI.
+@@51
+Hemos creado este curso para ayudarte a{1} lanzar, gestionar y escalar un negocio de alojamiento rentable que trabaje para ti, y no al revés.{2} Dentro encontrarás una hoja de ruta paso a paso basada en experiencia real. Te enseña cómo lo hicimos nosotros y cómo puedes hacerlo tú.
+@@57
+Sección 1
+@@58
+Resumen del curso
+@@59
+{1}En la Parte 1 construimos los cimientos.{2} Conocerás los distintos modelos de negocio (incluido cómo empezar sin comprar una vivienda), cómo ponerte en regla, cómo desarrollar la mentalidad adecuada y cómo encontrar tu primera vivienda rentable, aunque convencer a propietarios te ponga nervioso.
+@@60
+{1}En la Parte 2 nos centramos en lanzar tu anuncio y recibir a tus primeros huéspedes.{2} Aprenderás a preparar y amueblar tu espacio, a escribir un anuncio que venda y a gestionar tu vivienda de forma eficiente con sistemas sencillos.
+@@61
+{1}En la Parte 3 escalamos hasta las 6 cifras.{2} Aprenderás a automatizar tareas, a crear tu equipo ideal y a crecer sin quemarte. Aquí es donde tu anuncio se convierte en un negocio de verdad que genera ingresos pasivos.
+@@62
+Hemos incluido todo lo que necesitas: plantillas listas para usar, calculadoras, guiones, casos reales y herramientas que eliminan las conjeturas y te ahorran horas.
+@@63
+Construyamos algo rentable, sostenible y pensado para el estilo de vida que de verdad quieres.
+@@64
+Sección 2
+@@65
+Cómo usar este curso
+@@66
+Este curso te guía paso a paso para lanzar y hacer crecer tu negocio de alojamiento. Encontrarás{1} instrucciones claras, tareas prácticas y estrategias probadas{2} que hemos ido perfeccionando durante años de experiencia.
+@@67
+En ciertos momentos recibirás {1}tareas concretas que completar.{2} Las encontrarás todas organizadas en {3}tu hoja de ruta{4}, aquí en el curso. Úsala para no perder el rumbo, marcar tu progreso y no agobiarte.
+@@68
+También verás {1}prompts de IA listos para usar {2}a lo largo del curso. Te ayudan a escribir más rápido y a conseguir mejores resultados con menos esfuerzo.
+@@69
+Usa este curso como tu manual. Ve paso a paso, sé constante y no dejes que los pequeños contratiempos te frenen.
+@@70
+Pasa a la acción por el camino
+@@71
+Cada lección termina con {1}tus tareas{2}. Márcalas y la barra de progreso de arriba avanza.
+@@72
+Cada prompt y cada plantilla tienen un botón {1}Copiar{2}, para que puedas copiarlos y pegarlos en tu herramienta de IA favorita (como ChatGPT, Gemini o Claude). Escribe tus datos una vez (como tu ciudad) y el curso los añade a todos los prompts por ti.
+@@73
+Elige tu moneda
+@@74
+Moneda
+@@86
+Esto cambia la moneda en todo el curso, como en la checklist de equipamiento, la calculadora de beneficios y los prompts de IA. Puedes cambiarla cuando quieras.
+@@87
+Sección 3
+@@88
+¿Tienes lo que hace falta?
+@@89
+Gestionar un negocio de alojamiento puede ser divertido, gratificante y muy rentable, pero también requiere la mentalidad adecuada.
+@@90
+La verdad es que {1}de vez en cuando algo se romperá.{2} A veces te tocarán huéspedes difíciles, pero forma parte del juego. Por eso tienes un equipo que te ayuda y por eso Airbnb ofrece protección para anfitriones.
+@@91
+El 99 % de los huéspedes son maravillosos, respetuosos, amables y agradecidos, pero siempre hay ese 1 % que da problemas, se queja injustamente o intenta conseguir un descuento señalando pequeños defectos. Pero, sinceramente, merece la pena.
+@@92
+“El 99 % de los huéspedes que recibirás son geniales, pero ay, ese 1 %…”
+@@93
+Recuerda también que{1} la gente está fuera de su rutina habitual.{2} Pueden tener jet lag, hambre, cansancio o estrés, y a veces reaccionan de forma totalmente irracional. Tu trabajo (o el de tu gestor) es no tomártelo como algo personal y mantener la calma y la profesionalidad.
+@@94
+Aprenderás muchísimo por el camino: no solo sobre ser anfitrión, sino también sobre las personas. Es fascinante ver lo distintos que son los huéspedes, cómo se relacionan las culturas y cómo creces al aprender a mantener la calma en situaciones inesperadas.
+@@95
+Este camino te pondrá a prueba, te formará y te hará crecer como empresario y como persona.
+@@96
+Además del beneficio, la experiencia por sí sola ya merece la pena. {1}Crear un negocio es una de las mejores formas de desarrollo personal que te puedes regalar.{2}
+@@97
+Al principio, cosas como una mala reseña o un huésped difícil pueden afectarte mucho. Pero con cada situación que resuelves te vuelves más fuerte y resiliente, y con el tiempo las gestionarás con mucha más facilidad.
+@@98
+Únete a la comunidad
+@@99
+No tienes que descubrirlo todo tú solo
+@@100
+Únete a anfitriones que están construyendo su negocio a la vez que tú. Haz tus preguntas, comparte tus logros y tu progreso y aprende de personas que van unos pasos por delante.
+@@101
+Consigue respuestas cuando te atasques
+@@102
+Celebra cada reserva con gente que lo entiende
+@@103
+Descubre qué les está funcionando ahora a otros anfitriones
+@@104
+Únete a la comunidad {1}→{2}
+@@105
+Saluda y cuéntanos desde dónde empiezas. Nos encantará conocerte.
+@@106
+Tus tareas de esta página
+@@107
+Lee la introducción
+@@108
+Completar esta página →
+@@109
+{1}Aviso de copyright.{2} © {3}2026{4} Farah &amp; Daniel. Todos los derechos reservados. Este curso y todos los materiales que lo acompañan están protegidos por la ley de propiedad intelectual. Ninguna parte de esta publicación puede reproducirse, distribuirse ni transmitirse de ninguna forma ni por ningún medio, incluidas fotocopias, grabaciones u otros métodos electrónicos o mecánicos, sin el permiso previo y por escrito del editor, salvo en el caso de citas breves en reseñas y otros usos no comerciales permitidos por la ley. Este contenido es solo para uso individual. Queda estrictamente prohibido compartir, revender o reproducir este material con fines comerciales. Para permisos o consultas: contact@6figurehost.com
+@@110
+{1}Siguiente →{2}Nuestra historia
+@@111
+© {1}2026{2} 6 Figure Host. Todos los derechos reservados. Solo para uso individual.
+@@112
+Comentarios y valoración
+@@113
+Política de privacidad
+@@114
+Introducción · Farah &amp; Daniel
+@@115
+Nuestra {1}historia{2}
+@@116
+De estar sin un duro y dormir en el sofá a un negocio de 6 cifras que funciona solo y varias casas por todo el mundo.
+@@117
+unos 5 min
+@@118
+Lección
+@@119
+Volver
+@@120
+ Los dos dejamos nuestra ciudad con toda nuestra vida en una maleta
+@@121
+Con veintipocos años, los dos dejamos atrás nuestros países (Bélgica y Brasil) y nos mudamos a Barcelona con nada más que una maleta, algunos ahorros y muchísima incertidumbre. Sin red de seguridad. Sin familia cerca. Solo con la convicción de que{1} la vida tenía que ser algo más que hacer las cosas de la forma “normal”.{2}
+@@122
+ En 2017, Farah le alquiló una habitación a Daniel
+@@123
+Daniel vivía en una habitación diminuta mientras alquilaba las habitaciones grandes de su piso compartido. En realidad era un {1}vestidor sin ventanas al exterior{2} convertido en dormitorio. Farah alquiló una de esas habitaciones grandes, y así {3}nos conocimos: como compañeros de piso{4},{5} los dos intentando llegar a fin de mes en una de las ciudades más caras de Europa.{6}
+@@124
+ Farah consiguió su propio piso de alquiler (y se quedó sin dinero)
+@@125
+Unos meses después, Farah se mudó a su propio piso. Tras pagar una fianza enorme y comprar lo básico, {1}le quedaban solo 67,50 € en la cuenta.{2} Incluso encontró algunos muebles en la calle y se hizo una cama con palés. El alquiler era alto, los ahorros se habían acabado y las cosas se estaban poniendo difíciles. ¿Volver a la fría Bélgica porque se había quedado sin dinero? No iba a permitirlo. Así que se puso creativa.
+@@126
+Farah subalquiló su dormitorio y a veces dormía en el sofá, detrás de un pareo gigante que colgó desde un gancho encima de la nevera hasta la barra de la cortina junto a la ventana. {1}No era glamuroso, pero funcionaba.{2}
+@@127
+ El momento “espera un segundo…”: vamos a por todas
+@@128
+Al principio era solo una forma de ayudar a pagar el alquiler. Pero pronto nos dimos cuenta… {1}ESPERA. ¿¡De verdad se puede ganar dinero en serio con esto!?{2}
+@@129
+Así que fuimos A POR TODAS.
+@@130
+Todavía no podíamos pagar un equipo, así que hacíamos todo nosotros: limpieza, check-ins, mensajes a huéspedes y mantenimiento, incluso veíamos tutoriales de YouTube sobre cómo arreglar un váter.
+@@131
+ Creamos sistemas y empezamos a trabajar de forma más inteligente, no más dura

@@ -1,0 +1,217 @@
+@@454
+Tipo de regra
+@@455
+O que significa
+@@456
+Exemplo
+@@457
+Estadia mínima obrigatória
+@@458
+Algumas cidades só permitem aluguel de curta duração se a estadia passar de um certo número de dias.
+@@459
+{1}Barcelona:{2} só é permitido com estadias de 31 dias ou mais, a não ser que você tenha licença turística
+@@460
+Licença turística ou alvará
+@@461
+Muitas cidades exigem uma licença especial para operar legalmente.
+@@462
+{1}Paris:{2} exige número de registro e autorização para aluguel de curta duração
+@@463
+Restrições de zoneamento
+@@464
+Nem todas as áreas de uma cidade permitem aluguel de curta duração.
+@@465
+{1}Nova York:{2} alguns prédios e zonas proíbem totalmente anúncios de curta duração
+@@466
+Exigência de residência principal
+@@467
+Em algumas cidades, você só pode alugar sua residência principal, e não um imóvel de investimento.
+@@468
+{1}São Francisco:{2} precisa ser sua residência principal e estar registrada na prefeitura
+@@469
+Limite de noites de aluguel
+@@470
+Alguns lugares limitam quantas noites por ano você pode alugar um imóvel.
+@@471
+{1}Londres:{2} máximo de 90 noites por ano sem autorização
+@@472
+Regras do condomínio
+@@473
+Prédios e condomínios podem ter suas próprias restrições.
+@@474
+{1}Varia:{2} sempre confira a convenção do prédio separadamente das leis da cidade
+@@475
+Cidade e país onde você quer hospedar
+@@476
+Prompt de IA: descubra as regras de aluguel da sua região
+@@477
+Copiar
+@@478
+Você pode me ajudar a encontrar as regras atuais para alugar um imóvel em {1}{2}? Quero entender as regras para aluguel de curta duração (menos de 1 mês), aluguel de média duração (de 1 a 6 meses) e aluguel de longa duração, e para sublocar um imóvel que eu alugo (rental arbitrage).
+
+Para cada tipo de aluguel, quero saber:
+- Se é legal, e em que condições
+- Se preciso de licença, alvará ou registro
+- Regras de estadia mínima ou máxima, ou limites de noites por ano
+- Obrigações fiscais (imposto de renda, taxa de turismo)
+- Restrições de zoneamento, regras de residência principal ou regras do prédio/condomínio
+- Com o que o proprietário precisa concordar se eu quiser sublocar
+- Se posso fazer isso como pessoa física ou se preciso me registrar como autônomo ou abrir empresa
+
+Inclua links ou recursos úteis de sites oficiais do governo, se houver.
+
+No final, adicione um resumo curto que eu possa copiar nas minhas anotações, neste formato:
+- Aluguel de curta duração (menos de 1 mês): permitido / não permitido / com condições
+- Aluguel de média duração (1–6 meses): permitido / não permitido / com condições
+- Aluguel de longa duração: permitido / não permitido / com condições
+- Sublocação (rental arbitrage): permitido / não permitido / com condições
+- Licença ou alvará necessário: sim / não (e qual)
+- Estadia mínima: ...
+- Impostos: ...
+- Outras regras importantes: ...
+@@479
+Copiar e abrir em:
+@@483
+Suas anotações: o que você descobriu sobre as regras locais
+@@484
+Estrutura legal: pessoa física, autônomo ou empresa?
+@@485
+Sejamos sinceros, ninguém fica animado com burocracia. Felizmente, você não precisa de uma estrutura legal complicada para começar. Mas é importante conhecer suas opções e declarar sua renda desde o primeiro dia.
+@@486
+Você tem três opções principais: {1}alugar como pessoa física, começar como autônomo ou abrir uma empresa.{2} Qual faz sentido depende do seu país, do que você oferece aos hóspedes e de quanto você quer crescer.
+@@487
+Opção 1: alugar como pessoa física
+@@488
+Muita gente não sabe disso: {1}em muitos países você pode alugar um imóvel como pessoa física, sem se registrar como autônomo nem abrir empresa.{2} Basta declarar a renda do aluguel na sua declaração anual de imposto de renda, e normalmente você pode deduzir custos como aluguel, contas, móveis e limpeza.
+@@489
+Isso costuma funcionar quando:
+@@490
+{1}Você só aluga o espaço.{2} Limpeza entre hóspedes, chaves e manutenção básica são normais para qualquer locador.
+@@491
+{1}Você não oferece serviços de hotelaria durante a estadia,{2} como recepção, limpeza diária, refeições, lavanderia ou transfer do aeroporto.
+@@492
+{1}Você mantém tudo pequeno:{2} um ou poucos anúncios, e ninguém na folha de pagamento.
+@@493
+Quando você passa a oferecer serviços de hotelaria ou cresce até ter uma operação de verdade com funcionários, as autoridades fiscais geralmente consideram isso uma atividade empresarial. Aí você precisa se registrar como autônomo ou abrir empresa, e em alguns países também cobra imposto sobre consumo (como o IVA).
+@@494
+Exemplo: como funciona
+@@495
+Espanha
+@@496
+Se você aluga um apartamento próprio sem serviços de hotelaria, declara como renda de aluguel na sua declaração anual de imposto de renda (IRPF). Não precisa se tornar autónomo. Se você subloca um imóvel que aluga (rental arbitrage), a renda também é tributada na declaração anual, a não ser que funcione como empresa. Ofereça serviços de hotelaria e vira atividade empresarial: você se registra como autónomo e normalmente cobra 10% de IVA.
+@@497
+Bélgica
+@@498
+Se você aluga um ou poucos imóveis sem serviços extras, pode fazer isso como pessoa física. Você declara na sua declaração anual: para o imóvel, o imposto é baseado na renda cadastral ({1}kadastraal inkomen{2}), e se ele for mobiliado, 40% do aluguel conta como renda dos móveis. Oferece serviços como café da manhã ou limpeza durante a estadia, e faz isso com frequência? Então vira atividade profissional: você se registra como autônomo (pode ser como atividade secundária, {3}zelfstandige in bijberoep{4}) e normalmente cobra 6% de IVA.
+@@499
+Estados Unidos
+@@500
+A maioria dos anfitriões declara a renda como renda de aluguel no Schedule E, sem o imposto de autônomo. Se você presta serviços substanciais, como limpeza diária, refeições ou concierge, conta como atividade empresarial (Schedule C).
+@@501
+{1}Sempre declare sua renda.{2} Desde 2023, plataformas como Airbnb e Booking.com compartilham com as autoridades fiscais a renda dos anfitriões de todos os anúncios na UE. Alugar como pessoa física não significa ficar isento de impostos: significa só menos burocracia.
+@@502
+Opções 2 e 3: autônomo ou empresa
+@@503
+Quando você cresce, oferece serviços de hotelaria ou contrata uma equipe, é hora de formalizar.
+@@504
+Categoria
+@@505
+Autônomo
+@@506
+Abrir uma empresa
+@@507
+Começar rápido, com pouco risco e custo mínimo
+@@508
+Escalar o negócio, contratar pessoas e se proteger legalmente
+@@509
+• Fácil e barato de registrar{1}• Menos burocracia{2}• Ótimo para testar
+@@510
+• Separa patrimônio pessoal e da empresa{1}• Mais credibilidade com proprietários e bancos{2}• Possíveis vantagens fiscais{3}• Mais fácil ter sócios ou captar dinheiro
+@@511
+• Sem separação legal{1}• Você responde pessoalmente{2}• Pode parecer menos profissional
+@@512
+• Abertura mais complexa{1}• Burocracia e custos contínuos{2}• Provavelmente vai precisar de contador
+@@513
+Ideal para
+@@514
+Se você está começando ou administra 1–2 anúncios com serviços
+@@515
+Se você está crescendo rápido, administra vários imóveis ou contrata uma equipe
+@@516
+Pessoa física
+@@517
+Declare a renda do aluguel na sua declaração de imposto de renda.
+@@518
+Você só aluga o espaço (limpeza entre hóspedes pode).
+@@519
+Você não oferece serviços extras durante a estadia.
+@@520
+Sua faxineira ou seu faz-tudo trabalham como autônomos.
+@@521
+Seu país permite.
+@@522
+Vou começar como pessoa física
+@@523
+Registre-se como autônomo ou empresário individual.
+@@524
+Você oferece serviços extras durante a estadia, como café da manhã, lavanderia ou transfer.
+@@525
+Ou seu país não permite alugar como pessoa física.
+@@526
+Você administra alguns anúncios, com a ajuda de autônomos.
+@@527
+Vou começar como autônomo
+@@528
+Empresa
+@@529
+Abra uma empresa formal, como uma sociedade limitada.
+@@530
+Você administra vários imóveis e continua crescendo.
+@@531
+Você quer contratar funcionários com carteira assinada.
+@@532
+Você quer manter seu dinheiro pessoal separado e protegido.
+@@533
+Você quer sócios, investidores ou um empréstimo empresarial.
+@@534
+Vou abrir uma empresa
+@@535
+Como confirmar antes de decidir
+@@536
+As regras mudam em cada país, então não confie numa fonte só. Siga estes passos para ter certeza:
+@@537
+{1}Comece com a IA.{2} Use o prompt de IA da Seção 1 para ter uma visão rápida. É um ótimo ponto de partida, mas a IA pode errar ou estar desatualizada.
+@@538
+{1}Consulte o site da autoridade fiscal.{2} Procure “aluguel de imóvel” ou “renda de aluguel” no site oficial, por exemplo a Agencia Tributaria na Espanha, o FOD Financiën / SPF Finances na Bélgica ou o IRS nos EUA. Muitas autoridades fiscais também têm atendimento gratuito por telefone ou chat.
+@@539
+{1}Consulte sua prefeitura ou região{2} sobre licenças e registro. É uma questão separada dos impostos.
+@@540
+{1}Converse com um contador local{2} (na Espanha: um {3}gestor{4} ou {5}asesor fiscal{6}). Conte exatamente o que você pretende fazer: imóvel próprio ou alugado, quanto tempo os hóspedes ficam e se você oferece serviços extras.
+@@541
+{1}Peça a resposta por escrito.{2} Peça por e-mail e guarde com seus documentos.
+@@542
+Decida: pessoa física, autônomo ou empresa (ainda não precisa se registrar){1}Por enquanto, só defina sua estrutura. Você pode se registrar logo antes do anúncio entrar no ar ou quando começar a ganhar dinheiro.{2}
+@@543
+{1}← Voltar{2}Escolha seu modelo de negócio
+@@544
+{1}Próximo →{2}Pense como dono de negócio
+@@545
+Parte 1 · Aula 3
+@@546
+Pense como dono de negócio, {1}não só como anfitrião{2}
+@@547
+Mentalidade, renda extra e as ferramentas que você precisa.
+@@548
+4 seções · cerca de 5 min
+@@549
+{1}1{2}Como superar o medo de começar
+@@550
+{1}2{2}Pense grande: nosso apartamento mais lucrativo
+@@551
+{1}3{2}Jeitos criativos de ganhar dinheiro extra (opcional)
+@@552
+{1}4{2}Ferramentas essenciais para anfitriões
+@@553
+Como superar o medo de começar
+@@554
+Começar costuma ser a parte mais difícil. É totalmente normal se sentir inseguro, nervoso ou até sobrecarregado ao entrar em algo novo. Talvez você pense: “E se algo der errado?” ou “Será que estou mesmo pronto para isso?”. Essas dúvidas são comuns, mas também são o que deixa a maioria das pessoas parada na arquibancada.

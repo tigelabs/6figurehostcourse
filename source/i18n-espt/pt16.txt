@@ -1,0 +1,284 @@
+@@1797
+Manutenção
+@@1798
+Alguém de plantão para pequenos reparos, eletrodomésticos quebrados e emergências.
+@@1799
+Atendimento aos hóspedes
+@@1800
+Quer se afastar totalmente? Um coanfitrião ou gerente responde às mensagens, coordena a limpeza e resolve os problemas.
+@@1801
+Reposição
+@@1802
+Semanal ou mensal, com capital de giro e controle dos recibos.
+@@1803
+Fique com isso, pelo menos no começo
+@@1804
+A base que você mesmo define
+@@1805
+Fazer isso você mesmo no começo te ensina o negócio de ponta a ponta, para depois delegar com clareza:
+@@1806
+Experiência do hóspede e tom de voz
+@@1807
+Marca e otimização do anúncio
+@@1808
+Avaliações e reputação
+@@1809
+Sistemas: POPs, modelos, planilhas
+@@1810
+A receita para escalar com liberdade
+@@1811
+{1}Automatize o repetitivo. Delegue o físico.{2} Use seu tempo no que realmente faz o negócio crescer: marca, estratégia e experiência.
+@@1812
+Sistemas de comunicação para o seu time
+@@1813
+Uma comunicação clara é a espinha dorsal de uma operação tranquila, principalmente com várias pessoas envolvidas: faxineiras, um faz-tudo, um gerente. {1}Sem sistemas, as coisas escapam.{2}
+@@1814
+Um grupo por imóvel
+@@1815
+Um grupo de WhatsApp (ou o app que você preferir) com todos os envolvidos, com um nome como {1}[Nome do imóvel] – Time de operações{2}. Use para:
+@@1816
+Coordenar horários
+@@1817
+Atualizações dos hóspedes (check-outs tardios, check-ins antecipados)
+@@1818
+Danos ou itens faltando, com fotos
+@@1819
+Recibos e o capital de giro restante
+@@1820
+Acesso à wiki do imóvel
+@@1821
+Seu time deve ter sempre a wiki (veja o modelo bônus), com:
+@@1822
+Lista de suprimentos
+@@1823
+Links dos produtos
+@@1824
+Contatos de emergência
+@@1825
+Instruções dos eletrodomésticos
+@@1826
+Vídeos explicativos
+@@1827
+Chega de se repetir, e a integração de pessoas novas fica mais rápida.
+@@1828
+Tempos de resposta
+@@1829
+Combinem quando e com que rapidez cada um responde. Por exemplo:
+@@1830
+As faxineiras confirmam os check-outs em até 2 horas
+@@1831
+O contato de emergência está disponível por telefone enquanto há hóspedes no imóvel
+@@1832
+O gerente manda uma atualização diária quando necessário
+@@1833
+Mensagens fixadas e pastas
+@@1834
+Fixe as informações principais (senhas da porta, checklists, dados de pagamento) no topo do grupo. Para sistemas maiores, use uma pasta compartilhada no Google Drive ou no Dropbox.
+@@1835
+Áudios quando ajudar
+@@1836
+Nem tudo precisa ser digitado. Para atualizações mais longas ou explicações, um áudio rápido economiza tempo e parece mais humano.
+@@1837
+Clareza = menos erros.
+@@1838
+ Falhas de comunicação causam faxinas esquecidas e experiências ruins para os hóspedes. Quanto mais claros seus sistemas, mais tranquila sua operação, e menos você é necessário no dia a dia.
+@@1839
+Bônus: mensagens programadas que parecem pessoais
+@@1840
+As mensagens programadas te economizam tempo, mas isso não significa que precisem parecer robóticas. O segredo é escrevê-las num tom caloroso e simpático e incluir toques pessoais, como o nome do hóspede.
+@@1841
+Bem feitas, as mensagens programadas parecem uma comunicação genuína e garantem que todo hóspede receba as informações de que precisa na hora certa, sempre.
+@@1842
+Como configurar
+@@1843
+{1}Onde colocar:{2} no Airbnb, em “Mensagens programadas”. Cada uma tem um gatilho e um horário, mostrados aqui acima do título.
+@@1844
+{1}Automáticas:{2} depois de salvas, o Airbnb as envia sozinho a todos os hóspedes. Use os códigos de atalho do Airbnb para o primeiro nome do hóspede, para cada mensagem parecer pessoal.
+@@1845
+{1}Inclua suas fotos de check-in{2} na mensagem 2, para o hóspede receber as imagens sem você precisar enviar nada.
+@@1846
+{1}Automática · logo após a reserva{2}1. Mensagem de boas-vindas
+@@1847
+1. Mensagem de boas-vindas
+@@1848
+Mensagem programada. Edite os [colchetes] e cole em Airbnb › Mensagens programadas.
+@@1849
+{1}Automática · dia da chegada, 11h{2}2. Instruções de check-in
+@@1850
+2. Instruções de check-in
+@@1851
+{1}Automática · dia seguinte à chegada, 10h{2}3. Perguntar se está tudo bem
+@@1852
+3. Perguntar se está tudo bem
+@@1853
+{1}Automática · véspera do check-out, 14h{2}4. Instruções de check-out
+@@1854
+4. Instruções de check-out
+@@1855
+{1}Automática · dia do check-out, 12h{2}5. Deixar uma avaliação
+@@1856
+5. Deixar uma avaliação
+@@1857
+{1}← Voltar{2}Organize sua operação
+@@1858
+{1}Próximo →{2}Escale até os 6 dígitos
+@@1859
+Parte 3 · Aula 13
+@@1860
+Escale até os {1}6 dígitos{2}
+@@1861
+Quando expandir, vários países, ficar dentro da lei.
+@@1862
+5 seções · cerca de 15 min
+@@1863
+{1}1{2}Quando expandir (e quando esperar)
+@@1864
+{1}2{2}Gerenciar vários anúncios em países diferentes
+@@1865
+{1}3{2}Ficar dentro da lei enquanto escala
+@@1866
+{1}4{2}Bônus: controle financeiro dos imóveis
+@@1867
+{1}5{2}Parabéns!
+@@1868
+Quando expandir (e quando esperar)
+@@1869
+Decidir expandir é um dos marcos mais empolgantes da sua jornada como anfitrião. {1}Mas crescer rápido demais ou cedo demais pode sair pela culatra.{2} Seja honesto com você mesmo e marque o que é verdade hoje:
+@@1870
+Você está pronto para expandir?
+@@1871
+✓ Você está pronto para expandir se:
+@@1872
+{1}Seu anúncio atual funciona como um relógio:{2} os sistemas estão montados, os hóspedes estão felizes, as avaliações são ótimas e a operação não depende de você 24/7.
+@@1873
+{1}Você montou um time de confiança:{2} faxineiras, um faz-tudo e um gerente ou coanfitrião já treinados e capazes de cuidar das trocas de hóspede e dos problemas sem você precisar se envolver.
+@@1874
+{1}Você automatizou as tarefas repetitivas:{2} mensagens, preços e check-ins funcionam quase sozinhos graças a ferramentas como mensagens automáticas, precificação dinâmica e fechaduras inteligentes.
+@@1875
+{1}Você tem lucro de forma constante:{2} seu imóvel atual gera uma renda confiável, mesmo na baixa temporada.
+@@1876
+{1}Você tem capital (ou fluxo de caixa) para investir:{2} expandir exige custos iniciais. Se você não tem uma reserva, o estresse pode pesar mais que a recompensa.
+@@1877
+✕ É melhor esperar se:
+@@1878
+{1}Você ainda está ajustando seus sistemas:{2} se o seu imóvel atual exige atenção constante ou se as coisas dão errado com frequência, foque primeiro em aprimorar seu processo.
+@@1879
+{1}Suas avaliações são irregulares:{2} expandir enquanto você ainda tenta oferecer uma ótima experiência pode multiplicar os problemas e prejudicar sua reputação.
+@@1880
+{1}Você não tem um time sólido:{2} tentar gerenciar dois imóveis sem apoio vai te levar ao esgotamento e a erros.
+@@1881
+{1}O fluxo de caixa está apertado:{2} esticar o orçamento pode pressionar a experiência do hóspede, a manutenção e a qualidade, o que prejudica o sucesso no longo prazo.
+@@1882
+Otimize antes de expandir.
+@@1883
+ Expandir cedo demais é um dos erros mais comuns de quem está começando. Um segundo anúncio deve parecer um próximo passo natural, não um salto no escuro.
+@@1884
+Gerenciar vários anúncios em países diferentes
+@@1885
+Ser anfitrião em vários países permite diversificar sua renda, entrar em mercados diferentes e faturar o ano inteiro. A gente faz isso com Barcelona e Bali. {1}Funciona, desde que você planeje os fusos horários, as regras locais e os times à distância.{2}
+@@1886
+Monte times locais sólidos
+@@1887
+Você não pode estar em todo lugar, então seu time local é tudo:
+@@1888
+Faxineira + reserva
+@@1889
+Faz-tudo local
+@@1890
+Gerente ou coanfitrião
+@@1891
+Contato de emergência por perto
+@@1892
+Encontre, teste e treine bem essas pessoas. Quando estiverem sólidas, seus imóveis funcionam quase sozinhos.
+@@1893
+Padronize tudo
+@@1894
+Os mesmos sistemas em todos os imóveis, para o próximo ser uma cópia, não um projeto novo:
+@@1895
+Checklists de limpeza
+@@1896
+Modelos de mensagem para hóspedes
+@@1897
+Planilhas de reposição
+@@1898
+POPs para trocas de hóspede e emergências
+@@1899
+Os modelos bônus foram feitos para isso.
+@@1900
+Automatize levando em conta os fusos horários
+@@1901
+As mensagens programadas mantêm a comunicação consistente
+@@1902
+A precificação dinâmica (PriceLabs, Beyond) se adapta a cada mercado local
+@@1903
+As fechaduras inteligentes eliminam a necessidade de estar lá
+@@1904
+Confira se as mensagens saem no fuso horário do hóspede, não às 3 da manhã
+@@1905
+Conheça as leis e os impostos locais
+@@1906
+Cada país tem suas próprias licenças, registros e impostos (IVA, taxa de turismo). Contrate um contador ou assessor jurídico local quando precisar. Mais sobre isso na próxima seção.
+@@1907
+Separe suas finanças
+@@1908
+Uma conta bancária, um meio de pagamento e um capital de giro separados por imóvel. Você vai ver como cada um performa, e os impostos em cada país ficam mais simples.
+@@1909
+Proteja seu tempo e sua sanidade
+@@1910
+Agrupe as tarefas por fuso horário, mantenha um grupo de WhatsApp por imóvel ({1}aula 12{2}) e pense num assistente virtual para acompanhar as mensagens enquanto você dorme.
+@@1911
+Nosso conselho
+@@1912
+{1}Comece com um país e monte sistemas sólidos.{2} Quando seu primeiro anúncio internacional funcionar sem você estar o tempo todo em cima, você terá um modelo para copiar em qualquer lugar. Trate isso como um negócio, não como um hobby.
+@@1913
+Ficar dentro da lei enquanto escala
+@@1914
+Um anúncio é simples. Várias cidades ou países? {1}Cumprir as regras fica mais complexo, e mais importante.{2} Você já conhece o básico da {3}aula 2{4}. Este é seu checklist para cada novo local:
+@@1915
+Pesquise as leis locais de aluguel
+@@1916
+Estadias curtas são permitidas aqui?
+@@1917
+Limite de noites por ano?
+@@1918
+Restrições de zoneamento?
+@@1919
+Você precisa morar no imóvel?
+@@1920
+Pergunte a quem é de lá
+@@1921
+Grupos de Facebook de anfitriões locais e a Central da Comunidade do Airbnb são ótimos para saber das mudanças recentes.
+@@1922
+Tenha as licenças e os registros certos
+@@1923
+Muitas cidades exigem alvará de funcionamento, licença de aluguel de curta duração, um número de registro no anúncio e informações de contato de emergência no imóvel. Sem isso: multas pesadas ou remoção da plataforma. Consulte o site da prefeitura ou pergunte a um advogado local.
+@@1924
+Entenda seus impostos
+@@1925
+Você pode ter que pagar
+@@1926
+Taxa de turismo ou de ocupação, imposto de renda (local e no exterior, se você gerencia de fora) e IVA ou imposto sobre vendas em alguns países.
+@@1927
+Você pode precisar
+@@1928
+Abrir uma empresa, entregar declarações mensais ou trimestrais e guardar todos os recibos e comprovantes de despesas.
+@@1929
+Trabalhe com um contador que conheça aluguel de curta duração em cada país onde você atua.
+@@1930
+Siga as regras de segurança para hóspedes
+@@1931
+Detectores de fumaça e de CO
+@@1932
+Extintor de incêndio
+@@1933
+Kit de primeiros socorros
+@@1934
+Saídas sinalizadas
+@@1935
+Seguro
+@@1936
+Mesmo onde não é obrigatório, ele protege você e seus hóspedes, e pode ser necessário para a proteção para anfitriões do Airbnb.
+@@1937
+Acompanhe as mudanças na lei
+@@1938
+As leis de aluguel de curta duração mudam o tempo todo. O que é permitido hoje pode não ser amanhã. Configure alertas no Google, acompanhe as notícias locais e mantenha contato com outros anfitriões.

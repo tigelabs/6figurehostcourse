@@ -1,0 +1,166 @@
+@@1091
+{1}Por qué funciona:{2} Empieza con las vistas que quieren los huéspedes y es honesto sobre que es una villa compartida. Los huéspedes ya se imaginan tumbados en la cama, mirando la piscina.
+@@1092
+Ver anuncio ↗
+@@1093
+{1}Por qué funciona:{2} Una habitación diminuta sin ventanas y, aun así, una de nuestras habitaciones más solicitadas. A la gente le encanta alojarse en un piso compartido grande con balcones, incluso con un presupuesto más ajustado.
+@@1094
+{1}Por qué funciona:{2} Destaca lo mejor del piso: la enorme azotea privada. Una palabra en mayúsculas añade énfasis, y la ubicación hace el resto.
+@@1095
+Los datos de tu anuncio (rellénalos una vez, se usan en los dos prompts)
+@@1096
+Tipo de alojamiento
+@@1097
+Ubicación
+@@1098
+Puntos fuertes
+@@1099
+Para quién es ideal
+@@1100
+Ambiente o estilo único
+@@1101
+Prompt de IA: genera un título que frene el scroll
+@@1102
+Actúa como un experto en marketing de alquiler vacacional. Ayúdame a escribir un título atractivo de 50 caracteres o menos para mi anuncio.
+Estos son los datos:
+- Tipo de alojamiento: {1}{2}
+- Ubicación: {3}{4}
+- 1–2 puntos fuertes: {5}{6}
+- Público objetivo: {7}{8}
+
+Dame 5 opciones de título que llamen la atención y estén optimizadas para conseguir reservas.
+@@1103
+Tu título
+@@1104
+2. Tu descripción = tu historia
+@@1105
+Cuando hacen clic, tu descripción debe guiar al huésped por la experiencia de alojarse en tu espacio. Piensa en ella como una conversación, no como un folleto.
+@@1106
+Divídela en secciones cortas para que se lea de un vistazo:
+@@1107
+{1}a. El espacio:{2} describe el ambiente, la distribución y lo más destacado. Ayúdales a imaginarse allí.
+@@1108
+{1}b. La experiencia:{2} ¿qué hace especial tu espacio? ¿Qué pueden esperar? ¿Es tranquilo? ¿Animado? ¿Pensado para trabajar? Adáptalo a tu público.
+@@1109
+{1}c. La ubicación:{2} añade lo que hay cerca (cafeterías, lugares de interés, si se puede ir andando a todo) para que sientan que ya están allí.
+@@1110
+{1}d. Lo esencial:{2} menciona todo lo que destaque: wifi rápido, parking gratis, agua filtrada, limpieza diaria, cocina totalmente equipada, etc.
+@@1111
+{1}e. Consejo extra:{2} aprovecha el formato. Las frases cortas, las viñetas y los saltos de línea hacen que tu anuncio destaque.
+@@1112
+Un buen título consigue el clic. Una buena descripción cierra la reserva.
+@@1113
+Prompt de IA: escribe una descripción que convierta
+@@1114
+Actúa como un redactor publicitario profesional especializado en alquileres. Ayúdame a escribir una descripción clara, atractiva y persuasiva que consiga reservas.
+Estos son los datos:
+- Tipo de alojamiento: {1}{2}
+- Ubicación: {3}{4}
+- Puntos fuertes principales: {5}{6}
+- Para quién es ideal: {7}{8}
+- Ambiente o estilo único: {9}{10}
+Quiero que sea clara, fácil de leer y que destaque lo que hace especial la estancia. Usa párrafos cortos o viñetas si hace falta. Escribe como si quisieras convencer a alguien de reservar ahora mismo.
+@@1115
+Plantilla rellenable para la descripción del anuncio
+@@1116
+Plantilla de descripción del anuncio
+@@1117
+Restablecer
+@@1118
+*Si tu alojamiento es privado, elimina toda la información sobre espacios compartidos. Sustituye las partes entre [corchetes] y copia cada sección en Airbnb. Se guarda en este dispositivo.
+@@1119
+Haz fotos de calidad sin contratar a un profesional
+@@1120
+No necesitas gastarte cientos de euros en un fotógrafo profesional para tener un anuncio que convierta. Con el enfoque adecuado, puedes hacer fotos espectaculares tú mismo, incluso con el móvil. La clave es entender qué quieren ver los huéspedes y cómo mostrar tu espacio de la mejor manera posible.
+@@1121
+1. Limpia y prepara tu espacio
+@@1122
+Antes de hacer ninguna foto, asegúrate de que todo esté impecable y bien colocado. Abre las cortinas, ahueca los cojines y esconde cables, papeleras a la vista y mandos. Las fotos tienen que mostrar el espacio tal como es, pero puedes quitar cosas que lo hagan parecer desordenado. Piensa en ello como preparar un escenario: quieres que se vea acogedor, tranquilo y apetecible.
+@@1123
+2. La iluminación lo es todo
+@@1124
+La luz natural es tu mejor aliada. Haz las fotos de día, cuando tu espacio tenga más luz, idealmente por la mañana o a última hora de la tarde. Apaga las luces del techo para evitar tonos amarillentos. Abre las ventanas y deja entrar la luz del día.
+@@1125
+3. Usa un buen móvil o una buena cámara
+@@1126
+La mayoría de los móviles actuales son más que suficientes. Solo asegúrate de que el objetivo esté limpio y la resolución configurada en alta calidad. Evita los filtros y la edición excesiva. Los huéspedes quieren ver el espacio real.
+@@1127
+4. Haz las fotos en horizontal
+@@1128
+Haz siempre las fotos en modo horizontal, no en vertical. Airbnb muestra las fotos de tu anuncio en horizontal, así que este formato da una mejor visión de cada espacio.
+@@1129
+5. Captura planos amplios
+@@1130
+Ponte en las esquinas o en las puertas para que entre en la foto la mayor parte posible de la habitación. Usa el gran angular si lo tienes, pero sin deformar la habitación. Los huéspedes quieren una idea real del espacio, no un efecto ojo de pez. En un iPhone Pro, el objetivo 0,5 es el que mejor funciona.
+@@1131
+6. Incluye todas las zonas importantes
+@@1132
+Enséñalo todo: entrada, armarios, electrodomésticos, servicios, parking, balcón, vistas. Si aporta valor, fotografíalo. La falta de transparencia lleva a malas reseñas.
+@@1133
+7. El orden de tus fotos importa (es clave para las reservas).
+@@1134
+{1}Tu primera foto es tu foto del millón.{2} Es la que vende tu anuncio y la que más importa: es la que trae los clics, las reservas y los ingresos. Usa tu imagen más llamativa como foto de portada. Los dormitorios suelen funcionar mejor. Después pon 4 fotos clave de distintas estancias que destaquen lo mejor de tu espacio. Airbnb solo muestra las 5 primeras fotos antes de que el huésped tenga que pulsar “Mostrar todas las fotos”, así que aquí es donde causas una buena primera impresión y captas su atención.
+@@1135
+Mira nuestro anuncio como ejemplo
+@@1136
+Las cinco primeras fotos son lo único que ve un huésped antes de hacer clic
+@@1137
+Ejemplo real
+@@1138
+A veces los detalles más pequeños marcan la mayor diferencia. En uno de nuestros pisos de Barcelona teníamos dos habitaciones idénticas: mismo tamaño, misma distribución, solo que en espejo. Aun así, una estaba siempre llena, mientras que a la otra le costaba conseguir reservas si no bajábamos el precio.
+@@1139
+¿La única diferencia? El escritorio.
+@@1140
+Visualmente, el escritorio de la habitación más popular hacía que el espacio pareciera más grande y acogedor. Esa pequeña ventaja de diseño se tradujo en un rendimiento mucho mejor y más beneficio. Cambiamos el escritorio menos atractivo y, de repente, las dos habitaciones se llenaban a precio completo.
+@@1141
+La lección: si tus reservas van lentas, revisa tu anuncio a fondo. Las pequeñas decisiones de diseño te pueden costar dinero.
+@@1142
+Siempre llena
+@@1143
+Le costaba conseguir reservas
+@@1144
+8. Destaca la experiencia
+@@1145
+En lugar de enseñar solo las habitaciones, captura pequeños momentos, como una taza en la mesa de centro, mantas acogedoras o libros en la mesilla. Así los huéspedes se imaginan alojándose allí.
+@@1146
+Las fotos son lo más importante de tu anuncio. Es donde vendes tu espacio antes de que los huéspedes lean la descripción. Un anuncio genial con malas fotos no conseguirá reservas. Pero incluso un espacio sencillo con fotos bonitas, nítidas y bien iluminadas puede funcionar increíblemente bien.
+@@1147
+Así que, si la fotografía no es lo tuyo, plantéate pedírselo a un amigo con buen ojo o contratar a alguien de la zona. Es una pequeña inversión que puede salir muy rentable.
+@@1148
+Sección 5
+@@1149
+Detalles importantes del anuncio que te protegen
+@@1150
+Esta sección te puede ahorrar quebraderos de cabeza, malas reseñas y solicitudes de reembolso.
+@@1151
+La descripción de tu anuncio no es solo un argumento de venta. También es tu escudo legal. Todo lo que menciones claramente por escrito te puede proteger de quejas de huéspedes, solicitudes de reembolso y malas reseñas.
+@@1152
+Así que no te cortes. Sé honesto, detallado e incluye todo lo que pueda llegar a ser un problema.
+@@1153
+Esto es lo que debes incluir: {1}Normas de la casa: {2} sé claro y concreto. ¿No se fuma? ¿Horario de silencio? ¿Se permiten visitas? ¿Recargo por llegada tardía? Explícalo todo. No des por hecho que la gente “ya lo sabrá”.
+@@1154
+Cosas especiales a tener en cuenta:
+@@1155
+¿Puede haber ruido de bares cercanos? ¿Hay escaleras, espacios compartidos o mascotas en la vivienda? Menciónalo todo.
+@@1156
+Espacios compartidos:
+@@1157
+Si tu alojamiento no es totalmente privado, tienes que decirlo claramente y más de una vez. Aunque ya aparezca en el anuncio, repítelo en la descripción. Ponlo en MAYÚSCULAS. Que sea evidente. Algunos huéspedes aun así “no lo verán” y dirán que no lo sabían. Si está escrito con claridad, Airbnb te dará la razón.
+@@1158
+Seguridad y límites
+@@1159
+Incluye una frase como: "En caso de comportamiento irrespetuoso, agresivo o bajo los efectos del alcohol u otras sustancias, el anfitrión se reserva el derecho de cancelar la reserva sin reembolso para proteger la vivienda y mantener un entorno seguro.”
+@@1160
+Puede parecer que te pasas de prudente, pero créenos: no es así. Estás protegiendo tu tranquilidad y tu negocio.
+@@1161
+Cuanto más transparente seas, menos problemas tendrás. Tómate tu tiempo para incluir todo lo que importa.
+@@1162
+Copia y pega nuestras normas de la casa
+@@1163
+Los huéspedes aceptan tus normas de la casa antes de reservar, así que te protegen como anfitrión. Pero Airbnb tiene nuevas reglas para esto. Para las reservas hechas a partir del 20 de noviembre de 2026, tus normas tienen que estar en la sección de normas de la casa de tu anuncio antes de que los huéspedes reserven. No puedes añadir normas nuevas después por mensaje, con carteles en la vivienda ni en persona.
+@@1164
+Tus normas también tienen que ser razonables. Eso significa {1}nada de multas ni penalizaciones, nada de cargos extra{2} por cosas que forman parte de tu anuncio, y {3}nada de tareas que normalmente haría una limpiadora{4}, como fregar los platos, quitar las sábanas o sacar la basura del edificio. Las peticiones pequeñas, como dejar los platos usados en el fregadero, siguen estando bien. Mantén tus normas breves y claras: así los huéspedes sí las leen.
+@@1165
+Normas de la casa: alojamiento privado
+@@1166
+Cambia las partes entre [corchetes] y cópialas en la sección de normas de la casa de tu anuncio. Se guarda en este dispositivo.

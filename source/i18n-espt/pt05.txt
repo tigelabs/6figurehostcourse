@@ -1,0 +1,175 @@
+@@639
+2. Demanda pelo próprio imóvel
+@@640
+Essa é a parte que a maioria dos novos anfitriões deixa passar. {1}Muitos hóspedes nem viajam pela cidade. Eles viajam pela estadia.{2} Não procuram uma cama perto do mercado ou do metrô. Procuram uma experiência, e topam dirigir uma hora a mais para ter isso.
+@@641
+Quando o imóvel é o motivo da viagem, uma localização que parece “ruim” no papel deixa de ser um problema. Pode até virar o diferencial: tranquilo, reservado, cercado de natureza, longe de tudo.
+@@642
+Uma cabana ou casa na árvore no meio do mato, a uma hora da cidade mais próxima, que casais reservam para um fim de semana sem sinal de celular.
+@@643
+Uma villa no meio dos arrozais, a 20 minutos da praia e dos restaurantes, que os hóspedes escolhem pela vista, pela piscina privativa e pelo silêncio.
+@@644
+Uma casa de design numa cidadezinha sem nada em volta, reservada para aniversários e bodas por causa de como fica nas fotos.
+@@645
+Uma fazenda ou casa de campo com ofurô, lareira e animais, onde as famílias vão para desconectar por alguns dias.
+@@646
+Em todos esses casos, ninguém procurou pela cidadezinha. As pessoas acharam um lugar onde queriam ficar e planejaram a viagem em torno dele. Isso também significa menos concorrência: você não é um de 300 apartamentos parecidos no mesmo bairro, você é o único lugar como o seu.
+@@647
+Qual é o seu caso?
+@@648
+{1}Não corra só atrás dos destinos turísticos óbvios. {2}Para cada imóvel que você olhar, pergunte:
+@@649
+Quem vem para cá, e por quê?
+@@650
+Elas vêm pela região, ou viriam por este imóvel?
+@@651
+Quando a demanda é maior?
+@@652
+Que tipo de estadia é mais comum: viagens curtas, fins de semana, mudanças por um mês?
+@@653
+Se a localização é comum, o que poderia tornar a estadia especial: uma vista, uma piscina, um ofurô, o design, privacidade total?
+@@654
+Use o AirROI e os filtros de busca do próprio Airbnb para explorar a demanda em regiões específicas. Veja taxas de ocupação, diárias médias e concorrência. Pesquise também no Airbnb hospedagens diferentonas na sua região e veja quão cheios estão os calendários.
+@@655
+O objetivo não é só estar numa “região boa”. O objetivo é ter o imóvel certo para o hóspede certo: num lugar onde as pessoas já querem estar, ou especial o bastante para as pessoas virem por ele.
+@@656
+Como usar o AirROI
+@@657
+para analisar o potencial de lucro
+@@658
+Antes de fechar com um imóvel, você precisa saber uma coisa: {1}ele vai dar dinheiro de verdade?{2}
+@@659
+O {1}AirROI{2} é a ferramenta que recomendamos para essa pesquisa. Ele mostra quanto um aluguel por temporada pode render num lugar específico, com base em dados reais de reservas. A calculadora e os dados de mercado são gratuitos.
+@@660
+A calculadora do AirROI: digite um endereço e o número de quartos.
+@@661
+Passo a passo:
+@@662
+Acesse AirROI.com e abra a {1}Calculadora{2}
+@@663
+Digite o endereço (ou a região) que você está pesquisando e o número de quartos
+@@664
+O AirROI compara com cerca de 50 imóveis parecidos por perto e mostra:
+@@665
+Quanto um aluguel por temporada poderia render ali
+@@666
+Projeções de receita mês a mês
+@@667
+Os anúncios comparáveis que ele usou
+@@668
+Adicione seus custos operacionais para ir da receita ao lucro líquido
+@@669
+Abra o mapa do mercado para explorar a região e comparar bairros
+@@670
+Leve a diária e a ocupação que você encontrou para a sua {1}calculadora de lucro{2}
+@@671
+Mesmo com bons dados, não confie numa fonte só. Confira no próprio Airbnb, no Booking.com ou em grupos locais de aluguel no Facebook. Se duas fontes derem números muito diferentes para o mesmo imóvel, tenha cuidado e use o menor.
+@@672
+Entender os números desde o início é fundamental para construir um negócio de hospedagem lucrativo. Deixe os dados, e não o achismo, guiarem suas escolhas.
+@@673
+Pesquisa de mercado com IA
+@@674
+{1}Hoje você também pode fazer essa pesquisa com IA.{2} Um assistente de IA que pesquisa na internet consegue juntar em poucos minutos as diárias, a ocupação e o tipo de viajante que visita a sua região.
+@@675
+Use como segunda fonte, junto com o AirROI, e não no lugar dele. Preencha os colchetes, copie o prompt e cole no seu assistente de IA.
+@@676
+Prompt de IA: pesquisa de mercado da sua região
+@@677
+Aja como um analista do mercado de aluguel por temporada e pesquise na internet dados atuais.
+
+Estou avaliando um {1}{2} em {3}{4}, {5}{6}, para alugar como {7}{8}.
+
+Me dê, cada um numa tabela curta:
+1. Diárias de anúncios parecidos (baixa, típica, alta) na alta e na baixa temporada
+2. Ocupação por mês, e quais meses são alta e baixa temporada
+3. Quem viaja para cá, por quê, e o que espera de uma hospedagem
+
+Depois me diga em três linhas se isso parece uma boa oportunidade e o que faria este imóvel se destacar.
+
+Cite a fonte de cada número e diga claramente quando estiver estimando. Se precisar de mais informações, me faça até três perguntas antes de responder.
+@@678
+A IA pode errar números ou usar dados antigos. Confira as diárias com anúncios reais no Airbnb e compare a ocupação com o AirROI antes de colocar qualquer coisa na sua {1}calculadora de lucro{2}.
+@@679
+Pesquise direto no Airbnb
+@@680
+A melhor ferramenta gratuita de pesquisa é o próprio Airbnb. Antes de fechar com um imóvel, {1}pesquise sua região como um hóspede faria{2}. Em vinte minutos você vê com quem realmente concorre, quanto os hóspedes pagam e o que eles valorizam.
+@@681
+Abra o {1}Airbnb{2} e pesquise sua região como hóspede. Dê zoom no mapa até aparecer só o bairro que você está olhando.
+@@682
+Ajuste os filtros para o seu imóvel: espaço inteiro ou quarto, número de quartos, número de hóspedes.
+@@683
+Confira os preços em datas diferentes: um dia de semana e um fim de semana, com um mês e com três meses de antecedência, alta e baixa temporada. Anote sempre o preço baixo, o típico e o alto.
+@@684
+Abra de 5 a 10 anúncios parecidos com o seu e olhe os calendários. Muitas datas bloqueadas nas próximas semanas geralmente indicam boa demanda. Lembre que uma data bloqueada também pode ter sido bloqueada pelo anfitrião, então olhe vários anúncios, não só um.
+@@685
+Veja o número de avaliações e quando as últimas foram escritas. Um anúncio com muitas avaliações recentes está sendo reservado com frequência.
+@@686
+Estude os melhores anúncios da região, principalmente os marcados como Preferido dos hóspedes: foto de capa, título, comodidades e preço. Esse é o padrão que você precisa igualar ou superar.
+@@687
+Leia as avaliações, boas e ruins. Os hóspedes contam exatamente o que amaram e o que faltou. As duas coisas são ideias para o seu anúncio.
+@@688
+No que prestar atenção
+@@689
+{1}Uma brecha no mercado:{2} muitos apartamentos parecidos, mas nada para grupos, nada com espaço de trabalho, nada com piscina? Essa brecha pode ser o seu anúncio.
+@@690
+{1}Concorrência demais:{2} centenas de anúncios parecidos com calendários livres e preços baixos são um sinal de alerta.
+@@691
+{1}O preço que os hóspedes realmente pagam:{2} o total que o hóspede vê pode incluir taxas de limpeza e de serviço. Compare os totais, não só a diária.
+@@692
+Repita essa pesquisa a cada poucos meses, também depois do lançamento. Preços, concorrência e o que os hóspedes esperam mudam o tempo todo.
+@@693
+{1}← Voltar{2}Pense como dono de negócio
+@@694
+{1}Próximo →{2}Encontre o imóvel certo
+@@695
+Parte 1 · Aula 5
+@@696
+Encontre o {1}imóvel{2} certo
+@@697
+Onde achar imóveis, sinais de alerta e os números.
+@@698
+{1}1{2}Como encontrar o imóvel certo
+@@699
+{1}2{2}Sinais de alerta na hora de escolher um imóvel
+@@700
+{1}3{2}Calcule os custos e o potencial de lucro
+@@701
+{1}4{2}Bônus: matriz de decisão para novos imóveis
+@@702
+Como encontrar o imóvel certo
+@@703
+Boa notícia: você não precisa de anúncios especiais “liberados para Airbnb” para começar. {1}Para o rental arbitrage, basta olhar anúncios de aluguel normais em portais imobiliários normais{2} e apresentar sua ideia ao proprietário. Você aluga o imóvel do jeito normal, mas chega com uma proposta melhor. Como apresentar, você aprende na próxima aula.
+@@704
+Lembre que {1}para muitos proprietários, vai ser a primeira vez que eles ouvem falar de algo assim.{2} Isso é totalmente normal. Seu papel é explicar com clareza e fazer com que eles se sintam seguros.
+@@705
+1. Comece pelas regras legais
+@@706
+Antes de começar a procurar, tenha certeza de que conhece as regras da sua região (veja a {1}Aula 2{2}). Confira o que é permitido para estadias curtas e de média duração, e se você precisa de licença. Algumas cidades só permitem estadias curtas com licença, enquanto estadias de média duração, de 31 noites ou mais, são permitidas (como em Barcelona). Sublocar sempre exige a autorização por escrito do proprietário no contrato.
+@@707
+2. Procure nas plataformas certas
+@@708
+Você encontra imóveis adequados em:
+@@709
+Portais imobiliários normais, como Idealista, Fotocasa ou o equivalente da sua região
+@@710
+Facebook Marketplace e grupos locais (procure proprietários flexíveis)
+@@711
+Plataformas de aluguel mobiliado e de média duração, como Spotahome ou Flatio
+@@712
+Imobiliárias (pergunte por proprietários que querem um inquilino confiável de longo prazo)
+@@713
+O próprio Airbnb (fale com proprietários que não moram no imóvel; alguns topam acordos de coanfitrião)
+@@714
+Indicação ou contatos locais (especialmente útil em lugares como Bali ou Portugal)
+@@715
+Procure imóveis e entre em contato com imobiliárias ou proprietários{1}Na próxima aula, você aprende a abordar proprietários: {2}Convença os proprietários →{3}{4}
+@@716
+Sinais de alerta na hora de escolher um imóvel
+@@717
+Nem todo imóvel serve para alugar a hóspedes, seja em estadias curtas ou de média duração, mesmo que pareça lindo, barato ou perfeitamente localizado. Alguns lugares têm problemas escondidos que podem te custar tempo, dinheiro e muito estresse. O segredo é aprender a identificar esses sinais de alerta antes de fechar.
+@@718
+Fique de olho nisto:
+@@719
+Regras rígidas do prédio ou do condomínio
+@@720
+Se você está olhando um apartamento num prédio com condomínio, pergunte quais são as regras para aluguel de curta duração e sublocação. Alguns prédios proíbem ou restringem muito as estadias curtas, enquanto estadias de um mês ou mais costumam ser permitidas. Com estadias curtas, o porteiro ou vizinhos curiosos vão notar rápido o entra e sai de hóspedes.

@@ -1,0 +1,175 @@
+@@639
+2. Demanda de la propia vivienda
+@@640
+Esta es la parte que la mayoría de los anfitriones nuevos pasan por alto. {1}Muchos huéspedes no viajan por la ciudad. Viajan por la estancia.{2} No buscan una cama cerca del supermercado o del metro. Buscan una experiencia, y no les importa conducir una hora más para conseguirla.
+@@641
+Cuando la vivienda es el motivo del viaje, una ubicación que sobre el papel parece “mala” deja de ser un problema. Puede convertirse incluso en el punto fuerte: tranquila, privada, rodeada de naturaleza, lejos de todo.
+@@642
+Una cabaña o una casa en el árbol en el bosque, a una hora de la ciudad más cercana, que las parejas reservan para un fin de semana sin cobertura.
+@@643
+Una villa en medio de los arrozales, a 20 minutos de la playa y los restaurantes, que los huéspedes eligen por las vistas, la piscina privada y el silencio.
+@@644
+Una casa de diseño en un pueblo pequeño sin nada alrededor, reservada para cumpleaños y aniversarios por lo bien que queda en las fotos.
+@@645
+Una granja o una casa de campo con jacuzzi, chimenea y animales, donde las familias van a desconectar unos días.
+@@646
+En todos estos casos, nadie buscó el pueblo. Encontraron un sitio donde querían alojarse y luego planificaron el viaje en torno a él. Eso también significa menos competencia: no eres uno de 300 pisos similares en el mismo barrio, eres el único sitio como el tuyo.
+@@647
+¿Cuál tienes tú?
+@@648
+{1}No persigas solo los destinos turísticos obvios. {2}Para cada vivienda que veas, pregúntate:
+@@649
+¿Quién viene aquí y por qué?
+@@650
+¿Vienen por la zona o vendrían por esta vivienda?
+@@651
+¿Cuándo es mayor la demanda?
+@@652
+¿Qué tipo de estancias son más habituales: viajes cortos, escapadas de fin de semana, traslados de un mes?
+@@653
+Si la ubicación es normal, ¿qué podría hacer especial la estancia: unas vistas, una piscina, un jacuzzi, el diseño, privacidad total?
+@@654
+Usa AirROI y los filtros de búsqueda de Airbnb para explorar la demanda en zonas concretas. Fíjate en las tasas de ocupación, los precios medios por noche y la competencia. Busca también en Airbnb alojamientos singulares de tu región y comprueba lo llenos que tienen los calendarios.
+@@655
+El objetivo no es solo estar en una “buena zona”. El objetivo es tener la vivienda adecuada para el huésped adecuado: en un lugar donde la gente ya quiere estar, o lo bastante especial como para que vengan expresamente por ella.
+@@656
+Cómo usar AirROI
+@@657
+para analizar el potencial de beneficio
+@@658
+Antes de comprometerte con una vivienda, necesitas saber una cosa: {1}¿de verdad va a dar dinero?{2}
+@@659
+{1}AirROI{2} es la herramienta que recomendamos para este análisis. Te muestra lo que puede ganar un alquiler de corta duración en un lugar concreto, a partir de datos reales de reservas. Su calculadora y sus datos de mercado son gratuitos.
+@@660
+La calculadora de AirROI: introduce una dirección y el número de dormitorios.
+@@661
+Paso a paso:
+@@662
+Entra en AirROI.com y abre la {1}Calculadora{2}
+@@663
+Escribe la dirección (o la zona) que estás analizando y el número de dormitorios
+@@664
+AirROI la compara con unas 50 viviendas similares cercanas y te muestra:
+@@665
+Lo que podría ganar un alquiler de corta duración allí
+@@666
+Previsiones de ingresos mes a mes
+@@667
+Los anuncios comparables que ha usado
+@@668
+Añade tus costes operativos para pasar de ingresos a ingresos netos
+@@669
+Abre el mapa de mercado para explorar la zona y comparar barrios
+@@670
+Lleva el precio por noche y la ocupación que hayas encontrado a tu {1}calculadora de beneficios{2}
+@@671
+Incluso con buenos datos, no te fíes de una sola fuente. Contrasta con el propio Airbnb, Booking.com o grupos locales de alquiler en Facebook. Si dos fuentes dan cifras muy distintas para la misma vivienda, ten cuidado y quédate con la más baja.
+@@672
+Entender los números desde el principio es clave para crear un negocio de alojamiento rentable. Deja que los datos, no las suposiciones, guíen tus decisiones.
+@@673
+Estudio de mercado con IA
+@@674
+{1}Hoy en día también puedes hacer este análisis con IA.{2} Un asistente de IA que pueda buscar en internet puede reunir en pocos minutos los precios por noche, la ocupación y el tipo de viajero que visita tu zona.
+@@675
+Úsalo como segunda fuente junto a AirROI, no en su lugar. Rellena los corchetes, copia el prompt y pégalo en tu asistente de IA.
+@@676
+Prompt de IA: estudio de mercado de tu zona
+@@677
+Actúa como analista del mercado de alquiler de corta duración y busca en internet datos actuales.
+
+Estoy valorando un {1}{2} en {3}{4}, {5}{6}, para alquilarlo como {7}{8}.
+
+Dame, en una tabla corta para cada punto:
+1. Precios por noche de anuncios similares (bajo, habitual, alto) en temporada alta y baja
+2. Ocupación por mes, y qué meses son temporada alta y baja
+3. Quién viaja aquí, por qué y qué espera de un alojamiento
+
+Después dime en tres líneas si parece una buena oportunidad y qué haría destacar a esta vivienda.
+
+Indica la fuente de cada cifra y di claramente cuándo estás estimando. Si necesitas más datos míos, hazme hasta tres preguntas antes de responder.
+@@678
+La IA puede equivocarse con las cifras o usar datos antiguos. Contrasta los precios por noche con anuncios reales de Airbnb y compara la ocupación con AirROI antes de meter nada en tu {1}calculadora de beneficios{2}.
+@@679
+Investiga directamente en Airbnb
+@@680
+La mejor herramienta de análisis gratuita es el propio Airbnb. Antes de comprometerte con una vivienda, {1}busca en tu zona como lo haría un huésped{2}. En veinte minutos verás con quién compites de verdad, cuánto pagan los huéspedes y qué les importa.
+@@681
+Abre {1}Airbnb{2} y busca en tu zona como huésped. Acerca el mapa hasta que solo se vea el barrio que estás mirando.
+@@682
+Pon los filtros según tu vivienda: alojamiento entero o habitación, número de dormitorios, número de huéspedes.
+@@683
+Mira los precios para fechas distintas: un día entre semana y un fin de semana, con un mes y con tres meses de antelación, temporada alta y baja. Anota cada vez el precio bajo, el habitual y el alto.
+@@684
+Abre entre 5 y 10 anuncios parecidos al tuyo y mira sus calendarios. Muchas fechas bloqueadas en las próximas semanas suelen indicar buena demanda. Ten en cuenta que una fecha bloqueada también puede haberla bloqueado el anfitrión, así que mira varios anuncios, no solo uno.
+@@685
+Fíjate en el número de reseñas y en cuándo se escribieron las últimas. Un anuncio con muchas reseñas recientes se reserva con regularidad.
+@@686
+Estudia los mejores anuncios de la zona, sobre todo los que tienen la etiqueta Favorito entre huéspedes: su foto de portada, título, servicios y precio. Ese es el nivel que tienes que igualar o superar.
+@@687
+Lee las reseñas, las buenas y las malas. Los huéspedes te cuentan exactamente lo que les encantó y lo que echaron en falta. Ambas cosas son ideas para tu propio anuncio.
+@@688
+En qué fijarte
+@@689
+{1}Un hueco en el mercado:{2} ¿muchos pisos parecidos, pero nada para grupos, nada con zona de trabajo, nada con piscina? Ese hueco puede ser tu anuncio.
+@@690
+{1}Demasiada competencia:{2} cientos de anuncios similares con calendarios libres y precios bajos son una señal de alerta.
+@@691
+{1}El precio que pagan de verdad los huéspedes:{2} el total que ve un huésped puede incluir gastos de limpieza y de servicio. Compara totales, no solo el precio por noche.
+@@692
+Repite esta búsqueda cada pocos meses, también después del lanzamiento. Los precios, la competencia y lo que esperan los huéspedes cambian constantemente.
+@@693
+{1}← Volver{2}Piensa como un empresario
+@@694
+{1}Siguiente →{2}Encuentra la vivienda adecuada
+@@695
+Parte 1 · Lección 5
+@@696
+Encuentra la {1}vivienda{2} adecuada
+@@697
+Dónde encontrar viviendas, señales de alerta y los números.
+@@698
+{1}1{2}Cómo encontrar la vivienda adecuada
+@@699
+{1}2{2}Señales de alerta al elegir una vivienda
+@@700
+{1}3{2}Calcula los costes y el potencial de beneficio
+@@701
+{1}4{2}Bonus: matriz de decisión para nuevas viviendas
+@@702
+Cómo encontrar la vivienda adecuada
+@@703
+Buenas noticias: no necesitas anuncios especiales “aptos para Airbnb” para empezar. {1}Para el rental arbitrage puedes mirar simplemente anuncios de alquiler normales en portales inmobiliarios normales{2} y proponerle tu idea al propietario. Alquilas la vivienda de la forma habitual, pero llegas con una oferta mejor. Cómo presentarla lo aprenderás en la siguiente lección.
+@@704
+Ten en cuenta que {1}para muchos propietarios será la primera vez que oyen hablar de algo así.{2} Es totalmente normal. Tu trabajo es explicarlo con claridad y que se sientan seguros.
+@@705
+1. Empieza por las normas legales
+@@706
+Antes de empezar a buscar, asegúrate de conocer las normas de tu zona (ver {1}Lección 2{2}). Comprueba qué está permitido para estancias cortas y de media duración, y si necesitas licencia. Algunas ciudades solo permiten estancias cortas con licencia, mientras que las de media duración de 31 noches o más están permitidas (como en Barcelona). Subarrendar siempre requiere el permiso por escrito del propietario en el contrato.
+@@707
+2. Busca en las plataformas adecuadas
+@@708
+Puedes encontrar viviendas adecuadas en:
+@@709
+Portales inmobiliarios normales, como Idealista, Fotocasa o el equivalente de tu zona
+@@710
+Facebook Marketplace y grupos locales (busca propietarios flexibles)
+@@711
+Plataformas de alquiler amueblado y de media duración como Spotahome o Flatio
+@@712
+Inmobiliarias (pregunta por propietarios que busquen un inquilino fiable a largo plazo)
+@@713
+El propio Airbnb (contacta con propietarios que no viven allí; algunos están abiertos a acuerdos de coanfitrión)
+@@714
+El boca a boca o contactos locales (especialmente útil en lugares como Bali o Portugal)
+@@715
+Busca viviendas y contacta con inmobiliarias o propietarios{1}En la siguiente lección aprenderás a presentar tu propuesta a los propietarios: {2}Convence a los propietarios →{3}{4}
+@@716
+Señales de alerta al elegir una vivienda
+@@717
+No todas las viviendas sirven para alquilar a huéspedes, ya sea en corta o media duración, aunque parezcan bonitas, baratas o perfectamente ubicadas. Algunos sitios tienen problemas ocultos que pueden costarte tiempo, dinero y muchísimo estrés. La clave es aprender a detectar estas señales de alerta antes de comprometerte.
+@@718
+Esto es lo que debes vigilar:
+@@719
+Normas estrictas del edificio o de la comunidad de propietarios
+@@720
+Si estás mirando un piso en un edificio con comunidad de propietarios, pregunta por sus normas sobre alquiler de corta duración y subarriendo. Algunos edificios prohíben o restringen mucho las estancias cortas, mientras que las de un mes o más suelen estar permitidas. Con estancias cortas, un conserje o unos vecinos curiosos notarán rápido el ir y venir de huéspedes.

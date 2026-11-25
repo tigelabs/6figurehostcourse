@@ -1,0 +1,242 @@
+@@1675
+✓ Evitar reseñas negativas
+@@1676
+✓ Mantener bajo tu presupuesto de mantenimiento
+@@1677
+✓ Conservar el valor de la vivienda con el tiempo
+@@1678
+La constancia lo es todo.
+@@1679
+ Añade un recordatorio periódico a tu calendario y hazlo parte de tu sistema como anfitrión. Un alojamiento bien cuidado hace que los huéspedes repitan.
+@@1680
+Bonus: checklists, manual del alojamiento e inventario
+@@1681
+Checklists de inspección del alojamiento
+@@1682
+Para mantener un nivel alto en todos tus alojamientos, es fundamental tener sistemas de inspección claros. La checklist de mantenimiento ayuda a tu gestor a detectar y arreglar pequeños problemas antes de que se conviertan en reparaciones caras, para que todo funcione, sea seguro y esté listo para los huéspedes.
+@@1683
+Por su parte, la checklist de inspección de limpieza está pensada para mantener la limpieza, el orden y la higiene de tu alojamiento más allá del cambio de huésped básico, centrándose en tareas más a fondo que a menudo se pasan por alto. Las dos listas deben usarse con regularidad (al menos una vez al mes para el mantenimiento y cada semana para la limpieza) para proteger tu alojamiento, impresionar a los huéspedes y reducir las reseñas negativas.
+@@1684
+Checklist de inspección de mantenimiento
+@@1685
+Úsala al menos una vez al mes.
+@@1686
+Checklist de inspección de limpieza
+@@1687
+Úsala cada semana.
+@@1688
+Haz tu propia copia
+@@1689
+Este es tu centro de referencia para todo lo relacionado con el alojamiento. Desde cómo hacer el check-in y dónde están las toallas de repuesto hasta los contactos de emergencia, las instrucciones de los electrodomésticos y las guías de reposición: todo está aquí.
+@@1690
+Tanto si estás formando a alguien nuevo del equipo como si gestionas a distancia o simplemente quieres que todo vaya sobre ruedas, este sistema centralizado mantiene a todos alineados y hace que tu negocio funcione como un reloj.
+@@1691
+Rellénalo una vez, aquí en el curso, y luego cópialo o descárgalo para tu equipo.
+@@1692
+Abrir tu manual del alojamiento
+@@1693
+Checklists de limpieza para cambios de huésped y limpiezas a fondo
+@@1694
+La constancia es clave para ofrecer una experiencia de calidad, y eso empieza con un sistema claro. Estas checklists están pensadas para que tú o tu equipo sigáis siempre el mismo proceso, de modo que tu alojamiento esté siempre impecable, funcional y acogedor.
+@@1695
+Imprime tus checklists y ponlas en un sitio visible, mejor plastificadas para poder reutilizarlas. Usa rotuladores de pizarra blanca para marcar las tareas sin tener que volver a imprimirlas.
+@@1696
+Añade fotos de referencia de cómo se hace la cama y de las zonas clave del alojamiento. Así tu equipo mantiene la coherencia y el espacio siempre se ve igual que en las fotos del anuncio.
+@@1697
+Checklist de cambio de huésped
+@@1698
+37 pasos en el orden que más tiempo ahorra a tu limpiadora.
+@@1699
+Checklist de limpieza a fondo
+@@1700
+Tareas por zona, cada una con su frecuencia y una cuadrícula de fechas para marcar.
+@@1701
+Checklist de piscina y jardín
+@@1702
+Plantas, jardín y piscina, con sus frecuencias.
+@@1703
+Resumen del inventario
+@@1704
+Llevar el control de tus suministros y de la ropa de cama es esencial para que todo funcione, sobre todo cuando escalas o trabajas con un equipo. Este resumen del inventario te ayuda a mantener el orden, evitar faltas de última hora y hacer las reposiciones al por mayor de forma más eficiente.
+@@1705
+Control de suministros y ropa de cama.
+@@1706
+{1}← Volver{2}Forma tu equipo ideal
+@@1707
+{1}Siguiente →{2}Automatiza para tener ingresos pasivos
+@@1708
+Parte 3 · Lección 12
+@@1709
+Automatiza para tener {1}ingresos{2} pasivos
+@@1710
+Self check-in, qué automatizar y qué delegar.
+@@1711
+{1}1{2}Cómo configurar el self check-in
+@@1712
+{1}2{2}Qué automatizar y qué delegar
+@@1713
+{1}3{2}Sistemas de comunicación para tu equipo
+@@1714
+{1}4{2}Bonus: mensajes programados que parecen personales
+@@1715
+Cómo configurar el self check-in
+@@1716
+(llaves, cerraduras y códigos)
+@@1717
+El self check-in es uno de los mejores sistemas que puedes montar como anfitrión. Ahorra tiempo, reduce el estrés y permite a los huéspedes llegar cuando les venga bien, incluso en mitad de la noche. {1}Así es como lo haces fluido y seguro, en 5 pasos.{2}
+@@1718
+Elige tu método de self check-in
+@@1719
+Toca el método que vas a usar:
+@@1720
+Cerradura inteligente
+@@1721
+Un código digital único para cada huésped, gestionado a distancia. Ideal para automatizarlo todo (TTLock, Nuki, Igloohome). {1}Compra una que también se abra con llave{2}, para emergencias.
+@@1722
+Mi método de check-in
+@@1723
+Caja de llaves
+@@1724
+Una caja física con código que guarda una llave. Fácil de instalar, sobre todo si tu puerta principal usa una llave tradicional.
+@@1725
+Portero inteligente
+@@1726
+En un edificio con portero automático, un dispositivo como Nuki Opener, Bticino Home+Control o Ring Intercom abre la puerta del portal cuando el huésped llama. {1}Combínalo con una cerradura inteligente{2} para hacer check-ins totalmente a distancia.
+@@1727
+Entrega de llaves
+@@1728
+En un punto cercano, o en persona por parte de tu equipo. Menos ideal, pero útil si el acceso digital no es posible. Solo ten en cuenta los horarios de apertura.
+@@1729
+Controla todo a distancia con un hub
+@@1730
+Conecta tu cerradura o tu portero inteligente a una pasarela wifi o a un hub de casa inteligente (como el Nuki Bridge, el TTLock Gateway o Amazon Alexa). Así puedes cambiar los códigos y abrir la puerta desde cualquier sitio, sin estar allí.
+@@1731
+Consejo para la entrega de llaves
+@@1732
+Usamos
+@@1734
+ para dos de nuestros pisos: los huéspedes recogen las llaves en tiendas, taquillas o cafeterías asociadas cercanas.
+@@1735
+Dónde colocarla
+@@1736
+Bien fijada a una pared, verja o barandilla cerca de la entrada, bien iluminada por la noche, y mostrada con fotos en tu guía de check-in.
+@@1737
+Asegúrate de que el wifi o el Bluetooth funcionen bien en la puerta, y comprueba que el código funciona antes de que llegue el huésped.
+@@1738
+Configura tus códigos
+@@1739
+Un código único por reserva, activo desde el check-in hasta el check-out, más un código maestro para emergencias.
+@@1740
+Cambia el código de vez en cuando, siempre que haga falta (por ejemplo, si crees que se ha compartido). No uses nunca códigos obvios como 0000 o 1234.
+@@1741
+Crea una guía de check-in a prueba de errores
+@@1742
+Imagina a tu huésped: cansado, quizá con jet lag, delante de un edificio que no ha visto nunca. {1}Tus instrucciones tienen que ser tan claras que hasta un niño pueda seguirlas.{2}
+@@1743
+Instrucciones paso a paso, desde la puerta de la calle hasta el sitio exacto de la caja de llaves
+@@1744
+Fotos de la entrada, la cerradura y el camino hasta la puerta, con flechas y marcas
+@@1745
+Wifi, parking y todo lo que necesiten antes de entrar
+@@1746
+Los mismos pasos escritos también en tu mensaje, aunque envíes imágenes o un PDF
+@@1747
+Enviada el día antes o la mañana del check-in
+@@1748
+Atajo con IA:
+@@1749
+ pide a ChatGPT o a Claude que convierta tus fotos en una guía de check-in clara con pasos numerados, como esta.
+@@1750
+Las pilas se agotan y los códigos dejan de funcionar. Ten siempre un plan B:
+@@1751
+Una llave de reserva escondida cerca
+@@1752
+Un vecino, coanfitrión o gestor cerca
+@@1753
+Un código maestro o una apertura manual
+@@1754
+Cerraduras digitales
+@@1755
+Supercómodas, pero alguien tiene que revisar y cambiar las pilas con regularidad. Geniales, siempre que tu equipo esté pendiente.
+@@1756
+Llaves físicas
+@@1757
+Se pierden a menudo. En Barcelona, a veces los huéspedes las pierden cuando les roban el bolso, y muchos se olvidan de dejarlas en el sitio correcto.
+@@1758
+{1}El self check-in solo es tranquilo cuando funciona de forma fiable.{2} Prueba tu sistema, actualiza tus instrucciones con regularidad y ten siempre una llave o un contacto de reserva preparados.
+@@1759
+Qué automatizar y qué delegar
+@@1760
+La clave para llevar tu negocio con menos estrés es saber qué {1}automatizar{2}, qué {3}delegar{4} y qué necesita de verdad {5}de ti{6}.
+@@1761
+Automatiza
+@@1762
+lo repetitivo
+@@1763
+Delega
+@@1764
+lo físico
+@@1765
+Quédate
+@@1766
+con lo que hace crecer el negocio
+@@1767
+Automatiza: todo lo que ocurre siempre de la misma manera, una y otra vez
+@@1768
+Mensajes programados
+@@1769
+Usa los mensajes programados de la bandeja de entrada de Airbnb para los mensajes de bienvenida, la información de check-in, las instrucciones de check-out, las peticiones de reseña y las respuestas a preguntas frecuentes. Tienes plantillas en el bonus de abajo.
+@@1770
+Que sea sencillo.
+@@1771
+ ¿Lo entendería un niño de 5 años? Los viajeros tienen poca capacidad de atención. En el mensaje de check-in, comparte solo lo que necesitan para entrar. Las recomendaciones locales van en un enlace aparte, o en un mensaje de seguimiento al día siguiente de la llegada.
+@@1772
+Activa “enviar en reservas de última hora y estancias cortas”
+@@1773
+Para los mensajes esenciales, de modo que los huéspedes de última hora también los reciban, reserven cuando reserven y por el tiempo que sea.
+@@1774
+Activa esta opción
+@@1775
+Añade tus fotos de check-in al mensaje
+@@1776
+Airbnb ya permite fotos en los mensajes programados. Añade una vez tus fotos de check-in paso a paso y todos los huéspedes las recibirán automáticamente. Prácticamente cero trabajo para ti.
+@@1777
+Precios
+@@1778
+Una herramienta de precios dinámicos como PriceLabs, Wheelhouse o Beyond Pricing ajusta tus precios por noche según la demanda, los eventos y la competencia. Los propios {1}conjuntos de reglas{2} de Airbnb también pueden subir o bajar los precios automáticamente, por ejemplo con descuentos de última hora o en temporada alta.
+@@1779
+Conjuntos de reglas de Airbnb
+@@1780
+Calendarios, cerraduras y limpieza
+@@1781
+Sincronización de calendarios
+@@1782
+¿También estás en otras plataformas (Booking.com, Vrbo)? Sincroniza tus calendarios para evitar dobles reservas.
+@@1783
+Cerraduras inteligentes
+@@1784
+Códigos creados a distancia que se activan o desactivan automáticamente para cada huésped.
+@@1785
+Acceso al calendario para la limpiadora
+@@1786
+Dale a tu limpiadora acceso a la vista del calendario, para que siempre vea las próximas reservas (sin acceso a los mensajes, para que no vea tus ingresos).
+@@1787
+Mantén la conversación en Airbnb, no en WhatsApp
+@@1788
+No mandes a los huéspedes a WhatsApp. Acabas respondiendo en dos sitios, y solo los mensajes del chat de Airbnb cuentan para el equipo de soporte de Airbnb. Si hay un incidente, un conflicto o un huésped dice que dijiste algo, los mensajes fuera de Airbnb no se tienen en cuenta.
+@@1789
+Solo damos un número de teléfono para emergencias. Cuando los huéspedes aun así escriben ahí para pedir las instrucciones de check-in, respondemos con una frase y luego contestamos bien en el chat de Airbnb:
+@@1790
+Tú, en WhatsApp
+@@1791
+Este es un número de emergencias. Te respondo en el chat de Airbnb.
+@@1792
+{1}Eso marca el límite.{2} A partir de ahí, el huésped habla contigo por Airbnb.
+@@1793
+Delega: todo lo que requiere presencia física o trato personal
+@@1794
+No deberías estar limpiando tu propio alojamiento ni haciendo check-ins a altas horas de la noche. Forma un equipo de confianza para todo lo que se hace in situ:
+@@1795
+Limpieza y colada
+@@1796
+Una limpiadora de confianza y una checklist estándar, para que se haga siempre de la misma manera.

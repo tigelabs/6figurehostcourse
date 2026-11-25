@@ -1,0 +1,327 @@
+@@2201
+Envie no grupo de WhatsApp compartilhado.
+@@2202
+Atualize sempre a mensagem com o saldo restante usando este formato: SALDO RESTANTE: €[novo saldo depois da despesa]
+@@2203
+Exemplo: foto do recibo do papel higiênico €4,30. SALDO RESTANTE: €145,70
+@@2204
+Contatos
+@@2205
+Proprietário do imóvel
+@@2206
+Gerente
+@@2207
+Faxineira
+@@2208
+Faxineira (reserva)
+@@2209
+Serviço de lavanderia
+@@2210
+Responsável pela piscina e jardim
+@@2211
+Coleta de lixo
+@@2212
+Senhas importantes
+@@2213
+Senha da porta da frente
+@@2214
+Senha do cofre de chaves
+@@2215
+As senhas ficam salvas só neste navegador, neste dispositivo. Altere aqui sempre que mudar no imóvel.
+@@2216
+{1}← Voltar{2}Checklist de montagem
+@@2217
+{1}Próximo →{2}Calculadora de lucro
+@@2218
+Ferramenta · lucro e ROI
+@@2219
+{1}Calculadora{2} de lucro e ROI
+@@2220
+Anfitriões inteligentes fazem as contas primeiro; a emoção vem depois.
+@@2221
+Antes de assinar um contrato de aluguel ou investir em móveis, é fundamental entender seus números. Esta calculadora de lucro e ROI te ajuda a estimar quanta renda um imóvel pode gerar e quanto tempo vai levar para recuperar seu investimento inicial.
+@@2222
+Ela foi feita para te dar uma visão rápida e realista de: lucro mensal e anual, retorno sobre o investimento (ROI), prazo de retorno e como seus números mudam com diferentes taxas de ocupação.
+@@2223
+{1}Passo 1:{2} escolha sua moeda e preencha as despesas do seu negócio.
+@@2224
+{1}Passo 2:{2} escolha seu modelo de negócio e coloque seus números em “Insira seus dados aqui”. As tabelas se atualizam automaticamente.
+@@2225
+Analise os resultados com diferentes taxas de ocupação (70%, 85%, 95%) para ver como cada cenário se comporta.
+@@2226
+Para mais explicações sobre um campo, toque em “O que é isso?” embaixo dele. Seus números ficam salvos neste dispositivo.
+@@2227
+Passo 1 {1}visão geral das despesas do negócio{2}
+@@2228
+Calcule primeiro as despesas do seu negócio. Se precisar de ajuda para estimar algum custo, use o prompt de IA abaixo. Depois de preenchidas, suas despesas vão automaticamente para as três calculadoras do passo 2.
+@@2229
+Escolha a moeda
+@@2230
+Muda a moeda em todo o curso.
+@@2231
+Custos mensais
+@@2232
+Contas básicas
+@@2233
+Luz
+@@2234
+Gás (opcional)
+@@2235
+Internet
+@@2236
+Água
+@@2237
+Seguro (opcional)
+@@2238
+Total
+@@2239
+Time
+@@2240
+Faxineira 1
+@@2241
+Faxineira 2 (opcional)
+@@2242
+Gerente (opcional)
+@@2243
+Piscineiro (opcional)
+@@2244
+Jardineiro (opcional)
+@@2245
+Contador (opcional)
+@@2246
+Outros custos
+@@2247
+Suprimentos
+@@2248
+Manutenção mensal
+@@2249
+Custos únicos
+@@2250
+Montagem
+@@2251
+Área externa (opcional)
+@@2252
+Não sabe quanto vai custar a montagem? O {1}checklist de montagem{2} te dá um orçamento estimado, cômodo por cômodo.
+@@2253
+Total de custos mensais
+@@2254
+Total de custos únicos
+@@2255
+Prompt de IA: estime meus custos
+@@2256
+Você é especialista em negócios de aluguel de curta duração.
+
+Estou planejando um imóvel de aluguel de curta duração em {1}{2}, com [Nº DE QUARTOS] quartos, limpo [Nº DE FAXINAS POR MÊS] vezes por mês.
+
+Me dê estimativas realistas dos custos médios mensais e únicos para este destino, com base na operação típica de um aluguel de curta duração.
+
+Use {3}{4} em todos os valores.
+
+Divida os custos nesta estrutura:
+Despesas mensais: contas básicas (luz, gás se houver, internet, água, seguro), time (faxineira de acordo com a frequência de limpeza acima, faz-tudo, gerente do imóvel se for comum neste destino, piscineiro se houver, jardineiro se houver, contador / administrativo), outras despesas mensais (suprimentos como produtos de higiene e consumíveis de acordo com a rotatividade, reserva para manutenção).
+
+Custos únicos de montagem: cozinha, sala, quarto, banheiro, lavanderia, área externa / piscina se houver.
+
+Para cada custo, informe:
+- Uma faixa média realista (mínimo–máximo)
+- Uma estimativa recomendada para o planejamento financeiro
+
+Mencione também:
+- Os custos que costumam ser subestimados neste destino
+- Se os custos são maiores ou menores que a média em comparação com mercados parecidos
+
+Mantenha a resposta prática, realista e pronta para colocar direto numa calculadora de lucro e ROI.
+@@2257
+Precisa de uma ajudinha? Preencha suas informações entre os colchetes e depois copie e cole no seu assistente de IA.
+@@2258
+Passo 2 {1}faça as contas do seu modelo de negócio{2}
+@@2259
+Alugar um imóvel
+@@2260
+Comprar um imóvel
+@@2261
+Arrendar um imóvel de longo prazo
+@@2262
+Rental arbitrage {1}calculadora de lucro{2}
+@@2263
+Insira seus dados aqui
+@@2264
+Aluguel mensal
+@@2265
+O que é isso?
+@@2266
+Qual é o valor do aluguel mensal?
+@@2267
+Caução
+@@2268
+0 meses de aluguel
+@@2269
+1 mês de aluguel
+@@2270
+2 meses de aluguel
+@@2271
+3 meses de aluguel
+@@2272
+4 meses de aluguel
+@@2273
+5 meses de aluguel
+@@2274
+Selecione quantos meses de caução a imobiliária ou o proprietário está pedindo.
+@@2275
+Custos administrativos extras
+@@2276
+Os custos administrativos extras podem incluir impostos do aluguel, taxas da imobiliária...
+@@2277
+Quartos
+@@2278
+Quantos quartos você vai alugar?
+@@2279
+Diária por quarto
+@@2280
+É o preço que os hóspedes vão pagar pelo seu quarto por noite. Para estimar a diária, recomendamos fazer dois tipos de pesquisa:
+@@2281
+Veja anúncios parecidos na plataforma do Airbnb.
+@@2282
+Use uma ferramenta de dados de mercado como o AirROI para analisar as métricas locais.
+@@2283
+O Airbnb aplica taxas da plataforma e impostos de aproximadamente 17%, dependendo do país. Essas taxas normalmente são pagas pelo hóspede. Por isso, os preços que você vê no Airbnb como viajante geralmente já incluem esses 17% a mais.
+@@2284
+Investimento inicial total
+@@2285
+Despesas mensais
+@@2286
+Do passo 1.
+@@2287
+Alterar
+@@2288
+Taxa de ocupação
+@@2289
+Renda mensal
+@@2290
+Lucro mensal
+@@2291
+Lucro anual
+@@2292
+ROI
+@@2293
+Retorno do investimento
+@@2294
+Pior cenário
+@@2295
+Média
+@@2296
+Melhor cenário
+@@2297
+O que significam as colunas?
+@@2298
+{1}Taxa de ocupação.{2} A taxa de ocupação é a porcentagem de noites em que seu imóvel está reservado. Por exemplo: se seu imóvel é reservado por 15 dias no mês e os outros 15 não são alugados, sua taxa de ocupação é de 50%. Pior cenário, média e melhor cenário são a pior, a média e a melhor ocupação na região onde você vai começar. Você pode alterar cada porcentagem.
+@@2299
+{1}Renda mensal.{2} Quanto você ganharia por mês antes de descontar qualquer despesa; também chamada de renda bruta.
+@@2300
+{1}Custos mensais.{2} Os custos para gerenciar um imóvel: faxineiras, produtos de limpeza, serviços de faz-tudo, contas (água, luz, gás, internet)... Você pode alterá-los no passo 1.
+@@2301
+{1}Lucro mensal.{2} Sua renda estimada depois de descontar todos os custos mensais recorrentes, como aluguel, time, contas e limpeza.
+@@2302
+{1}ROI.{2} Seu retorno anual sobre o investimento, em porcentagem.
+@@2303
+{1}Retorno do investimento.{2} Quanto tempo (em meses) vai levar para recuperar seu investimento inicial.
+@@2304
+Lucro em 5 anos
+@@2305
+Cenário
+@@2306
+×1 imóvel
+@@2307
+×2 imóveis
+@@2308
+×4 imóveis
+@@2309
+Seu lucro estimado depois de 5 anos com 1, 2 ou 4 imóveis parecidos.
+@@2310
+Lucro e meses até o retorno
+@@2311
+{1}{2}Lucro
+@@2312
+{1}{2}Capital inicial
+@@2313
+Na sua taxa de ocupação média. As linhas se cruzam na metade do caminho até o retorno; a linha do capital chega a zero no ponto de retorno.
+@@2314
+Meses
+@@2315
+Lucro
+@@2316
+Capital inicial
+@@2317
+A tabela não inclui impostos, porque eles variam em cada país. Mesmo assim, você precisa considerar:
+@@2318
+Imposto de renda da empresa
+@@2319
+Não tem problema começar pequeno sem empresa, mas fique atento ao imposto de renda da empresa se no futuro você pretende abrir uma empresa para gerenciar seus imóveis.
+@@2320
+Taxa de turismo
+@@2321
+Algumas cidades cobram taxas de turismo direto pela plataforma do Airbnb. Você precisa verificar o que se aplica no seu caso.
+@@2322
+Imposto sobre dividendos
+@@2323
+Se você já tem uma empresa para gerenciar seu imóvel e pretende passar o lucro da empresa para sua conta pessoal, deve considerar os impostos sobre dividendos aplicáveis onde você tem residência fiscal.
+@@2324
+Imóvel próprio {1}calculadora de lucro{2}
+@@2325
+Preço do imóvel
+@@2326
+Quanto custa o imóvel?
+@@2327
+Os custos administrativos extras podem incluir impostos de compra, taxas da imobiliária...
+@@2328
+Arrendamento de longo prazo {1}calculadora de lucro{2}
+@@2329
+Preço do arrendamento
+@@2330
+Quanto você paga pelo arrendamento?
+@@2331
+*Um leasehold é quando você aluga um imóvel por longo prazo, muitas vezes por vários anos, com o direito de usá-lo como se fosse seu. Em lugares como Bali, estrangeiros não podem ser donos de terrenos, então o leasehold é a forma mais comum de controlar legalmente um imóvel e lucrar com ele sem comprá-lo. Você paga adiantado ou anualmente e, em troca, tem o uso total do imóvel durante todo o arrendamento.
+@@2332
+{1}Observação:{2} os impostos não estão incluídos nesta calculadora, porque variam de país para país. Lembre-se de considerar o imposto de renda local ou corporativo, as taxas de turismo/ocupação e o imposto sobre dividendos ou ganho de capital, se for o caso.
+@@2333
+Use esta ferramenta antes de se comprometer com qualquer imóvel. Se os números não fecham no papel, não vale o risco.
+@@2334
+© Todos os direitos reservados. Não compartilhe, copie, reproduza nem venda nenhuma parte deste documento sem a autorização por escrito de Farah e Daniel. Todas as violações serão processadas.
+@@2335
+{1}← Voltar{2}Manual do imóvel
+@@2336
+{1}Próximo →{2}Controle financeiro dos imóveis
+@@2337
+Ferramenta · receitas e despesas
+@@2338
+{1}Controle financeiro{2} dos imóveis
+@@2339
+Acompanhe receitas, despesas e lucro de cada imóvel.
+@@2340
+Controle suas receitas e despesas desde a primeira reserva. Isso facilita sua declaração de impostos e mostra exatamente qual imóvel rende mais. Atualize uma vez por mês.
+@@2341
+{1}← Voltar{2}Calculadora de lucro
+@@2342
+{1}Próximo →{2}Modelos de acordo com o time
+@@2343
+Bônus · para o seu time
+@@2344
+{1}Modelos{2} de acordo com o time
+@@2345
+Quatro acordos prontos para seu gerente, sua faxineira, seu faz-tudo e seu time de piscina e jardim.
+@@2346
+Coloque todos os acordos por escrito. Isso evita confusão sobre tarefas, pagamentos e responsabilidades, e protege você e seu time. Estes são os quatro modelos que nós mesmos usamos. Você encontra mais sobre como montar seu time na {1}aula 10{2}.
+@@2347
+{1}← Voltar{2}Controle financeiro dos imóveis
+@@2348
+{1}Próximo →{2}Sistema de etiquetas
+@@2349
+Bônus · para hóspedes e time
+@@2350
+{1}Sistema{2} de etiquetas
+@@2351
+O que etiquetar, como fazer e uma folha de etiquetas para imprimir.
+@@2352
+Etiquetas são uma das formas mais baratas de economizar tempo. Elas mantêm seu time organizado e respondem às perguntas dos hóspedes antes que eles perguntem. Mais sobre isso na {1}aula 11{2}.
+@@2353
+Uma boa etiquetagem ajuda seu time a se manter organizado, reduz a confusão dos hóspedes e economiza tempo nas trocas de hóspede.

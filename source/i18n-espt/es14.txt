@@ -1,0 +1,286 @@
+@@1531
+Recuerda: las tareas más importantes están organizadas para ti, en orden, en tu bonus “Hoja de ruta: checklist de tareas para lanzar tu primer anuncio”. {1}Úsala como guía paso a paso{2} para no desviarte y no olvidar nada importante.
+@@1532
+Gestionar suministros y reposición
+@@1533
+Entre bastidores, cómo gestionas los suministros y la colada puede hacer triunfar o arruinar la experiencia del huésped (y tu salud mental). {1}El objetivo: nada de carreras de última hora a por papel higiénico ni estrés por sábanas que faltan.{2}
+@@1534
+Monta un sistema de inventario claro
+@@1535
+Haz una lista de todo lo imprescindible, desde papel higiénico y jabón hasta estropajos, bolsas de basura y café. Controla cuánto se gasta por semana o por huésped y fija un {1}stock mínimo{2}. Cuando llegues a él, repón.
+@@1536
+Consejo profesional
+@@1537
+Registra el consumo y las cantidades en un tracker de Notion o Google Sheets. Encontrarás una plantilla en los recursos bonus.
+@@1538
+Decide quién repone y dale un fondo de caja
+@@1539
+Decide quién compra los suministros (la limpiadora, el gestor o tú), con qué frecuencia y cómo se lo vas a reembolsar.
+@@1540
+Fondo de caja:
+@@1541
+ una cantidad mensual fija en efectivo o en un monedero digital, para que tu equipo nunca tenga que pagar de su bolsillo. Recárgalo cada mes o cuando se esté acabando.
+@@1542
+Ajústate al presupuesto
+@@1543
+Guarda todos los recibos en una carpeta compartida o en un tracker de Notion. Aún más fácil: un grupo de WhatsApp donde tu equipo publique una foto de cada recibo y el saldo que queda.
+@@1544
+SOP, plantillas de tareas y manual del alojamiento
+@@1545
+para que todo funcione sin problemas
+@@1546
+Si quieres que tu alojamiento funcione como un reloj, sobre todo cuando no estás, {1}los SOP (procedimientos operativos estándar) son tu arma secreta.{2} Son simplemente instrucciones claras y por escrito de cómo se hacen las cosas, para que nunca tengas que explicar lo mismo dos veces.
+@@1547
+Los SOP que te conviene tener
+@@1548
+Checklist de limpieza
+@@1549
+Tareas habitación por habitación, por orden de prioridad
+@@1550
+Flujo del cambio de huésped
+@@1551
+Qué pasa entre el check-out y el siguiente huésped
+@@1552
+Check-in del huésped
+@@1553
+Desde los mensajes automáticos hasta la entrega de llaves o las cerraduras inteligentes
+@@1554
+Reposición y suministros
+@@1555
+Qué tiene que haber siempre en stock
+@@1556
+Comunicar incidencias
+@@1557
+Qué hacer si algo se rompe o un huésped se queja
+@@1558
+Emergencias
+@@1559
+Contactos, solución de problemas, fugas de agua, llaves perdidas, etc.
+@@1560
+Calendario de mantenimiento
+@@1561
+Revisiones mensuales o trimestrales para evitar reparaciones caras
+@@1562
+Ponlo todo en un mismo sitio
+@@1563
+{1}Tu manual del alojamiento.{2} Un Google Doc compartido, una página de Notion o una carpeta impresa en el alojamiento, siempre que tu equipo pueda encontrarlo. Es uno de los mejores sistemas para ahorrar tiempo que puedes crear.
+@@1564
+Abrir el manual del alojamiento
+@@1565
+Etiquetas y pequeños detalles
+@@1566
+Etiquetas para dar claridad y coherencia
+@@1567
+Unas etiquetas claras mantienen organizado a tu equipo, confunden menos a los huéspedes y ahorran tiempo en cada cambio de huésped.
+@@1568
+✓ Todo vuelve a su sitio
+@@1569
+✓ Los nuevos del equipo aprenden más rápido
+@@1570
+✓ Más intuitivo para los huéspedes
+@@1571
+✓ Menos pérdidas o mal uso de los suministros
+@@1572
+✓ Menos preguntas cada día
+@@1573
+Para los huéspedes
+@@1574
+Qué etiquetar
+@@1575
+Baldas de la nevera (con el nombre de la habitación o suite)
+@@1576
+Armarios y cajones de la cocina (compartidos o privados)
+@@1577
+Dispensadores de agua (“Solo agua potable”)
+@@1578
+Cubos de basura y de reciclaje
+@@1579
+El programa de la lavadora que recomiendas
+@@1580
+Almacenaje del baño (“Compartido” / “Privado”)
+@@1581
+Para tu equipo
+@@1582
+Baldas o cajas de productos de limpieza
+@@1583
+Cajas de reposición (“Toallas de repuesto”, “Reserva de papel higiénico”)
+@@1584
+La caja de objetos perdidos
+@@1585
+Herramientas de jardín o productos de piscina
+@@1586
+Instrucciones del ciclo de lavado en la lavadora
+@@1587
+Cestos de ropa (“Toallas sucias”, “Sábanas manchadas”, “Listo para lavar”)
+@@1588
+Consejos para las etiquetas:
+@@1589
+ usa etiquetas plastificadas o impermeables en cocinas, baños y exteriores. Añade iconos o códigos de colores si tu equipo habla distintos idiomas (iconos gratis en
+@@1591
+). Mantén la misma tipografía, tamaño y redacción, y ten una plastificadora sencilla o una etiquetadora para renovarlas.
+@@1592
+Que sea sencillo:
+@@1593
+ “Balda suite 1”, “Solo recambios”, “No es para huéspedes”. Un idioma más iconos, nunca un muro de texto.
+@@1594
+Pequeños detalles que ahorran grandes quebraderos de cabeza
+@@1595
+Cuando tu operativa ya funciona, son las cosas pequeñas que nadie piensa en documentar las que más te frenan. {1}Estos detalles extra te ahorran horas de mensajes y de apagar fuegos:{2}
+@@1596
+Etiqueta la lavadora
+@@1597
+Ponemos una etiqueta de “LAVAR” en el programa correcto, para que los huéspedes no elijan un ciclo de 3 horas. Ahorra energía, y mucha gente no sabe usarla.
+@@1598
+Etiqueta cómo funcionan las cosas
+@@1599
+La cafetera, el calentador… sobre todo en pisos compartidos.
+@@1600
+Fotografíalo todo
+@@1601
+Cuadro eléctrico, caldera, mandos de la calefacción, router del wifi. Guarda las fotos en tu manual para cuando tengas que explicar algo.
+@@1602
+Un juego extra de protectores
+@@1603
+Protectores de almohada y de colchón de repuesto en cada alojamiento, para que ninguna cama se quede sin protección.
+@@1604
+Sartenes de acero inoxidable
+@@1605
+Duran más y parecen limpias durante más tiempo.
+@@1606
+Compra cucharillas de sobra
+@@1607
+Siempre desaparecen. Siempre.
+@@1608
+Instrucciones visuales para la basura
+@@1609
+Fotos con etiquetas o iconos que muestren a los huéspedes exactamente dónde y cómo separar los residuos.
+@@1610
+{1}¿“Algo no funciona”? Pide primero un vídeo rápido.{2} O haz una videollamada antes de enviar a mantenimiento. Muchas veces no está roto, simplemente se está usando mal. Este paso te ahorra tiempo y desplazamientos innecesarios, y te ayuda a diagnosticar más rápido.
+@@1611
+Especial espacios compartidos
+@@1612
+Lo imprescindible que debes saber
+@@1613
+Los pisos compartidos, en los que los huéspedes tienen habitaciones privadas pero comparten la cocina, el baño o el salón, pueden ser muy rentables. {1}Pero tienen sus propias normas, sistemas y puntos de fricción.{2} Así es como se gestionan sin problemas:
+@@1614
+Límites claros desde el primer día
+@@1615
+Añade normas de la casa claras a tu anuncio.
+@@1616
+Privado frente a compartido, por escrito
+@@1617
+Sé concreto en tu anuncio y en tus mensajes. Añade fotos, planos y las normas de las zonas compartidas (horario de silencio, nada de objetos personales en los espacios comunes).
+@@1618
+Una cerradura en cada puerta de dormitorio
+@@1619
+Que se pueda cerrar por dentro y por fuera. Innegociable por seguridad, privacidad y confianza.
+@@1620
+Espacios propios y etiquetados
+@@1621
+Etiqueta baldas, cajones e incluso las zonas de la nevera en cocinas y baños compartidos.
+@@1622
+Limpia más a menudo
+@@1623
+Incluso a diario en alojamientos con mucha rotación. La limpieza es uno de los principales motivos de malas reseñas en los espacios compartidos.
+@@1624
+Ten de sobra
+@@1625
+Toallas, papel higiénico, cubiertos pequeños y tazas, para que haya suficiente para todos.
+@@1626
+Resuelve los conflictos rápido
+@@1627
+Si un huésped se queja de otro, responde rápido, mantente neutral y ofrece una solución, como cambiar de habitación o reforzar las normas. Las respuestas rápidas de la {1}lección 9{2} tienen plantillas para esto.
+@@1628
+Consejo profesional:
+@@1629
+ pon un cartel amable con las normas de la casa (o una miniguía de bienvenida) en el salón o en la cocina. Es una forma sutil de orientar el comportamiento y evitar situaciones incómodas.
+@@1630
+El proceso de 3 pasos para despejar los espacios compartidos
+@@1631
+Con el tiempo, las cocinas y los baños compartidos se llenan de cosas que han dejado huéspedes anteriores. Eso significa desorden, confusión e incluso problemas de higiene. {1}Haz limpieza y despeja como mínimo cada 3 meses{2}, sin quitar lo que todavía se está usando. Primero, elige tu método:
+@@1632
+Método A
+@@1633
+El sistema de “objetos perdidos”
+@@1634
+Elige un único sitio para las cosas que se quedan, como una cesta en el baño o un cajón del congelador. Todo lo que se deje ahí se retira después de un plazo fijo. Ideal para botes de champú, comida del congelador y objetos olvidados.
+@@1635
+Método B
+@@1636
+El sistema de etiquetas
+@@1637
+Deja cinta y un rotulador cerca del almacenaje compartido (puerta de la nevera, despensa). Los huéspedes etiquetan sus cosas con su nombre. Todo lo que no tenga etiqueta se retira.
+@@1638
+Zonas clave:
+@@1639
+Botes de la ducha
+@@1640
+Congelador y puerta de la nevera
+@@1641
+Cajones y baldas sin etiqueta
+@@1642
+Objetos sueltos en las zonas comunes
+@@1643
+Empieza con una limpieza a fondo
+@@1644
+Limpia la cocina, el baño y el pasillo. Es el mejor momento para detectar objetos olvidados, comida caducada y cosas que ocupan espacio. Después llévalas a tu sitio de retirada, o empieza a etiquetar.
+@@1645
+Comunícalo con claridad y amabilidad
+@@1646
+Aunque hayas hablado con alguien en persona, envía un mensaje con el método y un plazo corto. Envía un recordatorio el día antes de retirar nada.
+@@1647
+Fija una fecha de retirada clara
+@@1648
+Da a la gente 48–72 horas para recoger sus cosas y luego retira lo que quede. Opcional: deja que los objetos restantes se “adopten” antes de tirarlos.
+@@1649
+Puedes enviarlos por WhatsApp, por Airbnb o como mensaje de grupo después de la limpieza a fondo:
+@@1650
+Plantilla de mensaje: aviso de limpieza general
+@@1651
+Edita las partes entre [corchetes] y luego cópialo. Tus cambios se guardan en este dispositivo.
+@@1652
+Plantilla de mensaje: último recordatorio
+@@1653
+Inspecciones periódicas del alojamiento
+@@1654
+(cada 6 meses)
+@@1655
+Por muy limpio y bien gestionado que esté tu alojamiento, el desgaste es inevitable. Por eso hacer una puesta a punto completa{1} cada 6 meses{2} es clave para mantener un nivel alto, evitar quejas y que tu alojamiento se vea fresco y profesional. Puedes hacerlo tú o un gestor.
+@@1656
+No tiene que ser una gran reforma; piensa en ello como una revisión de mantenimiento a fondo.
+@@1657
+Inspección de mantenimiento
+@@1658
+Tapa los agujeros o arañazos de la pared con masilla
+@@1659
+Vuelve a pintar las zonas rozadas o manchadas para un acabado limpio
+@@1660
+Revisa si hay señales de moho, fugas o humedad
+@@1661
+Aprieta los tornillos sueltos (baldas, tiradores, accesorios)
+@@1662
+Repón lo que falte o esté roto (mandos, menaje de cocina, bombillas)
+@@1663
+Limpia a fondo o cambia los filtros de aire y revisa los aparatos de aire acondicionado
+@@1664
+Inspección de limpieza
+@@1665
+Incluso con una gran limpiadora, con el tiempo se pueden pasar cosas por alto. Haz una visita sorpresa o pide a tu gestor un recorrido por videollamada. Revisa estos detalles que a menudo se olvidan:
+@@1666
+El interior del cubo de basura (¿limpio o huele?)
+@@1667
+El interior del microondas (¿limpio?)
+@@1668
+El interior del congelador (¿cosas acumuladas o hielo?)
+@@1669
+Los interruptores de la luz (¿sucios o no funcionan?)
+@@1670
+Los enchufes (¿limpios?)
+@@1671
+Detrás de las puertas, debajo de las camas y las baldas altas
+@@1672
+Empezar una nueva inspección
+@@1673
+Descargar en PDF para imprimir
+@@1674
+Esta rutina de puesta a punto cada 6 meses te ayuda a:

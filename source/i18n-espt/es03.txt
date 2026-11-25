@@ -1,0 +1,217 @@
+@@454
+Tipo de norma
+@@455
+Qué significa
+@@456
+Ejemplo
+@@457
+Estancia mínima obligatoria
+@@458
+Algunas ciudades solo permiten el alquiler de corta duración si la estancia supera un número determinado de días.
+@@459
+{1}Barcelona:{2} solo se permite si la estancia es de 31 días o más, salvo que tengas licencia turística
+@@460
+Licencia turística o permiso
+@@461
+Muchas ciudades exigen una licencia especial para operar legalmente.
+@@462
+{1}París:{2} exige número de registro y permiso para el alquiler de corta duración
+@@463
+Restricciones por zonas
+@@464
+No todas las zonas de una ciudad permiten el alquiler de corta duración.
+@@465
+{1}Nueva York:{2} algunos edificios y zonas prohíben por completo los anuncios de corta duración
+@@466
+Obligación de residencia habitual
+@@467
+En algunas ciudades solo puedes alquilar tu vivienda habitual y no una vivienda de inversión.
+@@468
+{1}San Francisco:{2} debe ser tu residencia habitual y estar registrada en el ayuntamiento
+@@469
+Límite de noches de alquiler
+@@470
+Algunos lugares limitan cuántas noches al año puedes alquilar una vivienda.
+@@471
+{1}Londres:{2} máximo 90 noches al año sin permiso
+@@472
+Normas de la comunidad de propietarios
+@@473
+Los edificios y las comunidades de propietarios pueden tener sus propias restricciones.
+@@474
+{1}Varía:{2} revisa siempre los estatutos del edificio además de la normativa municipal
+@@475
+Ciudad y país donde quieres ser anfitrión
+@@476
+Prompt de IA: descubre las normas de alquiler de tu zona
+@@477
+Copiar
+@@478
+¿Puedes ayudarme a encontrar las normas actuales para alquilar una vivienda en {1}{2}? Quiero entender las normas para el alquiler de corta duración (menos de 1 mes), el alquiler de media duración (de 1 a 6 meses) y el alquiler de larga duración, y para subarrendar una vivienda que alquilo (rental arbitrage).
+
+Para cada tipo de alquiler, quiero saber:
+- Si es legal y en qué condiciones
+- Si necesito licencia, permiso o registro
+- Cualquier norma sobre estancia mínima o máxima, o límites de noches al año
+- Obligaciones fiscales (IRPF, tasa turística)
+- Restricciones por zonas, obligación de residencia habitual o normas del edificio/comunidad de propietarios
+- Qué tiene que aceptar el propietario si quiero subarrendar
+- Si puedo hacerlo como particular o tengo que darme de alta como autónomo o crear una empresa
+
+Incluye enlaces o recursos útiles de páginas oficiales de la administración si los hay.
+
+Al final, añade un breve resumen que pueda copiar en mis notas, con este formato:
+- Alquiler de corta duración (menos de 1 mes): permitido / no permitido / con condiciones
+- Alquiler de media duración (1–6 meses): permitido / no permitido / con condiciones
+- Alquiler de larga duración: permitido / no permitido / con condiciones
+- Subarrendamiento (rental arbitrage): permitido / no permitido / con condiciones
+- Licencia o permiso necesario: sí / no (y cuál)
+- Estancia mínima: ...
+- Impuestos: ...
+- Otras normas importantes: ...
+@@479
+Copiar y abrir en:
+@@483
+Tus notas: lo que has descubierto sobre la normativa local
+@@484
+Forma legal: ¿particular, autónomo o empresa?
+@@485
+Seamos sinceros, a nadie le emociona el papeleo legal. Por suerte, no necesitas una estructura legal complicada para empezar. Pero es importante que conozcas tus opciones y declares tus ingresos desde el primer día.
+@@486
+Tienes tres opciones principales: {1}alquilar como particular, empezar como autónomo o crear una empresa.{2} Cuál te encaja depende de tu país, de lo que ofreces a tus huéspedes y de cuánto quieras crecer.
+@@487
+Opción 1: alquilar como particular
+@@488
+Mucha gente no lo sabe: {1}en muchos países puedes alquilar una vivienda como particular, sin darte de alta como autónomo ni crear una empresa.{2} Simplemente declaras los ingresos del alquiler en tu declaración de la renta una vez al año, y normalmente puedes deducir gastos como el alquiler, los suministros, los muebles y la limpieza.
+@@489
+Esto suele funcionar cuando:
+@@490
+{1}Solo alquilas el espacio.{2} La limpieza entre huéspedes, las llaves y el mantenimiento básico son normales para cualquier arrendador.
+@@491
+{1}No ofreces servicios de tipo hotelero durante la estancia,{2} como recepción, limpieza diaria, comidas, lavandería o traslados al aeropuerto.
+@@492
+{1}Lo mantienes pequeño:{2} uno o pocos anuncios y nadie en nómina.
+@@493
+En cuanto empiezas a ofrecer servicios de tipo hotelero o creces hasta tener una operación real con personal, Hacienda suele considerarlo una actividad económica. Entonces tienes que darte de alta como autónomo o crear una empresa, y en algunos países también cobras IVA.
+@@494
+Ejemplo: cómo funciona
+@@495
+España
+@@496
+Si alquilas un piso de tu propiedad sin servicios de tipo hotelero, lo declaras como rendimiento del capital inmobiliario en tu declaración anual del IRPF. No hace falta hacerse autónomo. Si subarriendas una vivienda que alquilas (rental arbitrage), los ingresos también tributan en tu declaración anual, salvo que se gestione como una actividad económica. Si ofreces servicios de tipo hotelero, pasa a ser una actividad económica: te das de alta como autónomo y normalmente cobras un 10 % de IVA.
+@@497
+Bélgica
+@@498
+Si alquilas una o pocas viviendas sin servicios adicionales, puedes hacerlo como particular. Lo declaras en tu declaración anual: por la vivienda, el impuesto se calcula sobre su renta catastral ({1}kadastraal inkomen{2}), y si está amueblada, el 40 % del alquiler cuenta como ingreso por los muebles. ¿Ofreces servicios como desayuno o limpieza durante la estancia, y lo haces de forma habitual? Entonces pasa a ser una actividad profesional: te das de alta como autónomo (puede ser como actividad secundaria, {3}zelfstandige in bijberoep{4}) y normalmente cobras un 6 % de IVA.
+@@499
+Estados Unidos
+@@500
+La mayoría de los anfitriones declaran sus ingresos como rentas de alquiler en el Schedule E, sin el impuesto de autónomos. Si prestas servicios sustanciales, como limpieza diaria, comidas o conserjería, se considera una actividad económica (Schedule C).
+@@501
+{1}Declara siempre tus ingresos.{2} Desde 2023, plataformas como Airbnb y Booking.com comparten con Hacienda los ingresos de los anfitriones de cada anuncio en la UE. Alquilar como particular no significa no pagar impuestos: solo significa menos papeleo.
+@@502
+Opciones 2 y 3: autónomo o empresa
+@@503
+Cuando creces, ofreces servicios de tipo hotelero o contratas un equipo, es momento de formalizarlo.
+@@504
+Categoría
+@@505
+Autónomo
+@@506
+Crear una empresa
+@@507
+Empezar rápido con poco riesgo y costes mínimos
+@@508
+Escalar tu negocio, contratar personas y protegerte legalmente
+@@509
+• Fácil y barato de dar de alta{1}• Menos papeleo y gestión{2}• Ideal para probar
+@@510
+• Separa el patrimonio personal y el del negocio{1}• Más credibilidad ante propietarios y bancos{2}• Posibles ventajas fiscales{3}• Más fácil asociarte o conseguir capital
+@@511
+• Sin separación legal{1}• Respondes personalmente{2}• Puede parecer menos profesional
+@@512
+• Puesta en marcha más compleja{1}• Gestión y costes continuos{2}• Probablemente necesites un gestor
+@@513
+Ideal para
+@@514
+Si estás empezando o gestionas 1–2 anuncios con servicios
+@@515
+Si creces rápido, gestionas varias viviendas o contratas un equipo
+@@516
+Particular
+@@517
+Declara los ingresos del alquiler en tu declaración de la renta.
+@@518
+Solo alquilas el espacio (la limpieza entre huéspedes no es problema).
+@@519
+No ofreces servicios adicionales durante la estancia.
+@@520
+Tu limpiadora o tu manitas trabajan como autónomos.
+@@521
+Tu país lo permite.
+@@522
+Empezaré como particular
+@@523
+Date de alta como autónomo o empresario individual.
+@@524
+Ofreces servicios adicionales durante la estancia, como desayuno, lavandería o traslados.
+@@525
+O tu país no te permite alquilar como particular.
+@@526
+Gestionas tú unos pocos anuncios, con autónomos que te ayudan.
+@@527
+Empezaré como autónomo
+@@528
+Empresa
+@@529
+Crea una empresa oficial, como una sociedad limitada (SL).
+@@530
+Gestionas varias viviendas y sigues creciendo.
+@@531
+Quieres contratar empleados en nómina.
+@@532
+Quieres mantener tu dinero personal separado y protegido.
+@@533
+Quieres socios, inversores o un préstamo para empresas.
+@@534
+Crearé una empresa
+@@535
+Cómo comprobarlo antes de decidir
+@@536
+Las normas cambian en cada país, así que no te fíes de una sola fuente. Sigue estos pasos para estar seguro:
+@@537
+{1}Empieza con la IA.{2} Usa el prompt de IA de la Sección 1 para tener una visión rápida. Es un buen punto de partida, pero la IA puede equivocarse o estar desactualizada.
+@@538
+{1}Consulta la web de Hacienda.{2} Busca “alquiler de vivienda” o “rendimientos del capital inmobiliario” en la web oficial, por ejemplo la Agencia Tributaria en España, el FOD Financiën / SPF Finances en Bélgica o el IRS en EE. UU. Muchas administraciones tributarias tienen también un teléfono o chat de ayuda gratuito.
+@@539
+{1}Consulta a tu ayuntamiento o comunidad autónoma{2} sobre licencias y registros. Es una cuestión distinta de los impuestos.
+@@540
+{1}Habla con un gestor o asesor fiscal local{2} (en España: un {3}gestor{4} o un {5}asesor fiscal{6}). Cuéntale exactamente lo que piensas hacer: vivienda propia o alquilada, cuánto tiempo se quedan los huéspedes y si ofreces servicios adicionales.
+@@541
+{1}Pide la respuesta por escrito.{2} Pídela por correo electrónico y guárdala con tus documentos.
+@@542
+Decide: particular, autónomo o empresa (aún no hace falta darte de alta){1}De momento, solo decide tu forma legal. Puedes darte de alta justo antes de que tu anuncio se publique o cuando empieces a ganar dinero.{2}
+@@543
+{1}← Volver{2}Elige tu modelo de negocio
+@@544
+{1}Siguiente →{2}Piensa como un empresario
+@@545
+Parte 1 · Lección 3
+@@546
+Piensa como un empresario, {1}no solo como un anfitrión{2}
+@@547
+Mentalidad, ingresos extra y las herramientas que necesitas.
+@@548
+4 secciones · unos 5 min
+@@549
+{1}1{2}Supera el miedo a empezar
+@@550
+{1}2{2}Piensa en grande: nuestro piso más rentable
+@@551
+{1}3{2}Formas creativas de ganar dinero extra (opcional)
+@@552
+{1}4{2}Herramientas imprescindibles para anfitriones
+@@553
+Supera el miedo a empezar
+@@554
+Empezar suele ser lo más difícil. Es totalmente normal sentir inseguridad, nervios o incluso agobio al lanzarte a algo nuevo. Puede que pienses: “¿Y si algo sale mal?” o “¿De verdad estoy preparado para esto?”. Estas dudas son comunes, pero también son lo que mantiene a la mayoría de la gente en el banquillo.

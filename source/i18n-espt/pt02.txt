@@ -1,0 +1,338 @@
+@@285
+{1}No rental arbitrage, você precisa de algum orçamento.{2} Antes de chegar o primeiro hóspede, você paga o depósito, o primeiro aluguel e os móveis para deixar o imóvel pronto.
+@@286
+{1}Para você ter uma ideia: para nossos apartamentos em Barcelona, precisamos de uns €10.000 para começar.{2} O seu valor depende do imóvel e da localização. Ainda assim é uma fração do que custaria comprar, e quando as reservas começam, você recupera rápido.
+@@287
+Já tem {1}um imóvel próprio{2}? Melhor ainda. Você tem um bem que pode te render dinheiro. Alugando por uma plataforma como Airbnb ou Booking.com, você pode ganhar muito mais com ele, seja uma segunda casa, um imóvel de investimento ou até um quarto vago.
+@@288
+Com a estrutura certa, ele pode virar uma fonte constante de renda passiva.
+@@289
+Aqui está um resumo dos modelos de negócio mais comuns. Toque no que combina com você.
+@@290
+Coanfitrião
+@@291
+Você administra o imóvel de outra pessoa em troca de uma parte da receita.
+@@292
+Prós
+@@293
+Baixo risco
+@@294
+Baixo investimento inicial
+@@295
+Ótimo jeito de começar
+@@296
+Contras
+@@297
+Menos controle
+@@298
+Precisa provar seu valor
+@@299
+Ideal para
+@@300
+Iniciantes com orçamento limitado e boa organização
+@@301
+Orçamento para começar
+@@302
+Quase nada
+@@303
+Este é o meu modelo
+@@304
+Rental arbitrage
+@@305
+Você aluga um imóvel por longo prazo e subloca para hóspedes.
+@@306
+Alto potencial de renda
+@@307
+Controle total
+@@308
+Escala rápido
+@@309
+Precisa de autorização do proprietário
+@@310
+Precisa seguir as leis locais
+@@311
+Crescimento rápido com capital inicial moderado
+@@312
+Depósito, primeiro aluguel e móveis
+@@313
+Imóvel próprio
+@@314
+Você compra o imóvel e aluga para hóspedes.
+@@315
+Constrói patrimônio
+@@316
+Liberdade total
+@@317
+Investimento de longo prazo
+@@318
+Custo inicial alto
+@@319
+Mais responsabilidade financeira
+@@320
+Quem busca patrimônio e controle no longo prazo
+@@321
+O mais alto: entrada mais mobília
+@@322
+Suas tarefas
+@@323
+Aluguel de média {1}x{2} curta duração
+@@324
+Escolha o tipo de estadia que combina com seus objetivos, sua localização e seu estilo de vida.
+@@325
+Aluguel de média duração
+@@326
+Os hóspedes ficam de 1 a 6 meses (às vezes mais): principalmente estudantes, nômades digitais, expatriados, pessoas se mudando a trabalho e viajantes em férias longas.
+@@327
+Um calendário de média duração: cada anúncio é reservado por um hóspede durante o mês inteiro.
+@@328
+Aluguel de curta duração
+@@329
+As reservas vão de 1 noite a algumas semanas: principalmente turistas de férias, além de viagens de fim de semana e viajantes a negócios.
+@@330
+Um calendário de curta duração: muitos hóspedes, cada um fica algumas noites.
+@@331
+Veja como os dois se comparam.
+@@332
+Média duração
+@@333
+Curta duração
+@@334
+De 1 a 6 meses (às vezes mais)
+@@335
+De 1 noite a algumas semanas
+@@336
+Hóspedes típicos
+@@337
+Estudantes, nômades digitais, expatriados, pessoas se mudando, férias longas
+@@338
+Principalmente turistas, além de viagens de fim de semana e viajantes a negócios
+@@339
+Renda
+@@340
+Diária mais baixa, mas estável e previsível
+@@341
+Diárias mais altas, com mais altos e baixos
+@@342
+Trabalho
+@@343
+Baixo: poucas trocas de hóspede e menos custo de limpeza
+@@344
+Mais alto: limpezas frequentes e mensagens de hóspedes
+@@345
+Seu calendário
+@@346
+Menos flexível: um hóspede pode ocupar o mês inteiro
+@@347
+Mais flexível, mais controle e mais visibilidade nas buscas
+@@348
+Desgaste
+@@349
+Os hóspedes moram ali como em casa e podem pedir mais manutenção
+@@350
+Os hóspedes passam a maior parte do dia passeando, mas conte com um hóspede difícil de vez em quando
+@@351
+Regras locais
+@@352
+Muitas vezes é a opção que funciona onde estadias curtas são restritas
+@@353
+Muitas vezes exige licença ou alvará
+@@354
+Renda estável e passiva com pouco trabalho
+@@355
+Lucro máximo, com sistemas fortes
+@@356
+Escolha seu tipo de estadia
+@@357
+Toque na opção que mais combina com você.
+@@358
+Os hóspedes ficam de 1 a 6 meses (às vezes mais).
+@@359
+Escolha isto se…
+@@360
+Você quer mais tranquilidade e menos trabalho no dia a dia.
+@@361
+As regras locais não permitem aluguel de curta duração.
+@@362
+Você prefere uma renda estável e previsível à maior renda possível.
+@@363
+Sua região tem uma baixa temporada forte, ou muitos estudantes, expatriados e profissionais remotos.
+@@364
+Vou oferecer estadias de média duração
+@@365
+As reservas vão de 1 noite a algumas semanas.
+@@366
+Você quer a maior renda possível.
+@@367
+O aluguel de curta duração é permitido na sua região, ou você tem (ou pode conseguir) uma licença.
+@@368
+Sua região recebe muitos turistas ou viajantes a negócios o ano todo.
+@@369
+Você está pronto para montar sistemas fortes: limpeza, check-in e mensagens aos hóspedes.
+@@370
+Vou oferecer estadias de curta duração
+@@371
+Ainda em dúvida? Você também pode combinar os dois: curta duração na alta temporada e média duração na baixa, desde que as regras locais permitam.
+@@372
+Imóveis compartilhados {1}x{2} privados
+@@373
+A segunda escolha é o que os hóspedes realmente reservam: o espaço inteiro, um quarto ou os dois.
+@@374
+Imóveis privados
+@@375
+Os hóspedes têm uso exclusivo do imóvel ou suíte inteiro, com entrada, quarto e banheiro privativos.
+@@376
+Espaços compartilhados
+@@377
+Os hóspedes alugam um quarto num imóvel maior e dividem as áreas comuns (cozinha, piscina, sala).
+@@378
+Bom saber: “coliving”.
+@@379
+ A maioria das pessoas que administra espaços compartilhados chama isso de
+@@380
+coliving
+@@381
+. É a mesma estrutura: quartos privativos e áreas comuns compartilhadas. Em cidades com regras mais rígidas e mais tensão em torno do aluguel por temporada, apresentar seu imóvel como coliving pode facilitar as conversas.
+@@382
+Anuncie dos dois jeitos
+@@383
+Você anuncia o mesmo imóvel de dois jeitos ao mesmo tempo: como espaço inteiro e por quarto. É o formato que normalmente usamos.
+@@384
+Um imóvel tem vários anúncios: um para o imóvel inteiro e um para cada quarto. Uma família ou um grupo de amigos pode reservar o espaço inteiro. Um viajante sozinho ou um casal pode reservar só um quarto e dividir a cozinha, a sala ou a piscina com outros hóspedes. A reserva que chegar primeiro fica com as datas.*
+@@385
+Os calendários precisam estar sincronizados.
+@@386
+ Se um quarto for reservado, o imóvel inteiro fica bloqueado nessas datas, e vice-versa. Senão você corre o risco de reserva dupla.
+@@387
+Veja como os três se comparam.
+@@388
+Privado
+@@389
+Compartilhado
+@@390
+Dos dois jeitos
+@@391
+Os hóspedes reservam
+@@392
+O espaço inteiro
+@@393
+Um quarto, dividindo as áreas comuns
+@@394
+O espaço inteiro ou um quarto
+@@395
+Preço
+@@396
+O mais alto por noite
+@@397
+Menor por reserva, mas maior por metro quadrado
+@@398
+Flexível: você vende dos dois jeitos e vê o que rende mais
+@@399
+Ocupação
+@@400
+Uma reserva por vez
+@@401
+Alta demanda, porque é mais acessível para os viajantes
+@@402
+A mais alta: os quartos preenchem os buracos que uma reserva do espaço inteiro deixa
+@@403
+Hóspedes
+@@404
+O preferido da maioria dos viajantes: melhores avaliações, menos reclamações
+@@405
+Ótimo para hóspedes sozinhos e sociáveis, mas mais chance de barulho ou conflito
+@@406
+Funciona para grupos e famílias e também para quem viaja sozinho
+@@407
+Custos
+@@408
+Mais altos: você mobília e mantém o espaço inteiro
+@@409
+Menores por hóspede
+@@410
+Os mesmos móveis, a mesma equipe e a mesma estrutura servem para os dois
+@@411
+Esforço
+@@412
+O mais fácil: as expectativas são simples
+@@413
+Mais regras da casa, etiquetas e comunicação clara
+@@414
+O que exige mais preparação: mais anúncios para administrar, e estadia mínima e preços pedem mais atenção
+@@415
+Um mercado amplo de viajantes
+@@416
+Destinos populares entre mochileiros e nômades digitais
+@@417
+Imóveis com vários quartos
+@@418
+Escolha sua estrutura
+@@419
+Os hóspedes têm uso exclusivo do imóvel ou suíte inteiro.
+@@420
+Você quer a estrutura mais fácil de administrar.
+@@421
+Você quer as melhores avaliações e diárias mais altas.
+@@422
+Seu imóvel é um estúdio ou apartamento que funciona melhor como uma unidade só.
+@@423
+Você consegue arcar com custos maiores de montagem e manutenção.
+@@424
+Vou anunciar um espaço privado
+@@425
+Os hóspedes alugam um quarto e dividem as áreas comuns.
+@@426
+Sua região atrai mochileiros, viajantes sozinhos ou nômades digitais.
+@@427
+Você quer a maior renda por metro quadrado.
+@@428
+Você não se importa com regras da casa, etiquetas e comunicação clara.
+@@429
+Seu imóvel tem vários quartos e boas áreas comuns.
+@@430
+Vou anunciar espaços compartilhados
+@@431
+O mesmo imóvel anunciado como espaço inteiro e por quarto.
+@@432
+Seu imóvel tem vários quartos.
+@@433
+Sua região atrai tanto grupos quanto viajantes sozinhos.
+@@434
+Você quer a maior ocupação.
+@@435
+Você está pronto para mais preparação no começo.
+@@436
+Vou oferecer os dois
+@@437
+Não existe uma fórmula única. O segredo é escolher com intenção, com base na sua localização, na sua personalidade, no seu público-alvo e nos sistemas que você está disposto a montar.
+@@438
+{1}← Voltar{2}Seu roteiro de lançamento
+@@439
+{1}Próximo →{2}Leis e regras locais
+@@440
+Parte 1 · Aula 2
+@@441
+Leis e {1}regras{2} locais
+@@442
+A parte chata (que protege seu negócio).
+@@443
+2 seções · cerca de 15 min
+@@444
+{1}1{2}Entendendo as regras locais
+@@445
+{1}2{2}Estrutura legal: pessoa física, autônomo ou empresa?
+@@446
+Entendendo as regras locais
+@@447
+{1}As regras de aluguel de imóveis variam muito de lugar para lugar, mas isso também traz oportunidades. {2}Em geral, cidades com mais turismo têm regras mais rígidas por causa da falta de moradia, dos limites ao turismo e do controle do governo local.
+@@448
+Cidades como Barcelona, Paris, Nova York e Amsterdã costumam exigir licenças, limitar o número de noites de aluguel ou restringir o aluguel de curta duração a certas zonas.
+@@449
+{1}Isso não quer dizer que lugares muito regulados estejam fora de questão.{2} Hoje administramos vários apartamentos de sucesso em Barcelona, uma das cidades mais difíceis para o Airbnb. Eles não têm licença turística, mas todos são legais.
+@@450
+{1}Em Barcelona, qualquer pessoa pode criar um anúncio numa plataforma como o Airbnb sem licença, desde que as estadias sejam de 31 noites ou mais.{2} Pouca gente sabe disso, e é justamente aí que está a oportunidade.
+@@451
+Estadias mensais costumam render menos por noite que as reservas curtas, mas continuam muito lucrativas. Além disso, têm menos trocas de hóspede, menos gestão no dia a dia e mais estabilidade. Talvez você nem precise de um gerente ou de uma equipe em tempo integral.
+@@452
+Por outro lado, {1}algumas regiões são bem mais flexíveis e fáceis para começar.{2} Lugares como Bali, partes do México, Portugal e o sul da Espanha são conhecidos por serem mais abertos ao aluguel de curta duração, principalmente em áreas turísticas ou com estadias mais longas. Por isso escolher a localização certa é fundamental.
+@@453
+Antes de anunciar qualquer imóvel, é essencial entender as leis e regras locais da sua região. Cada cidade tem suas próprias regras para aluguel de curta duração. Algumas exigem licenças ou alvarás específicos, outras limitam o número de noites que você pode alugar e, em algumas zonas, o aluguel de curta duração não é permitido de jeito nenhum.

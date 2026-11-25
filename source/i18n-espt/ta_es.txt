@@ -1,0 +1,250 @@
+@@listing-desc
+DESCRIPCIÓN
+[descripción del alojamiento, p. ej.: villa boutique, piso compartido,...] @ [usuario de Instagram o etiqueta del alojamiento]
+Tendrás acceso a tu propia [habitación/suite/piso] privada. El resto del [alojamiento/casa/edificio], incluida la [piscina/salón/cocina/jardín], se comparte con otros huéspedes.
+
+Situado en una zona [tranquila/animada/céntrica/apartada], a pocos minutos de [lugares emblemáticos, barrios o atracciones].
+
+Tendrás acceso exclusivo a tu propia [habitación/suite/piso] con baño [privado/compartido], cama [medida], sábanas limpias, toallas y [otros servicios]. Wifi rápido disponible.
+
+[Limpieza/servicio de limpieza] diaria incluida para que puedas relajarte y disfrutar al máximo de tu estancia.
+
+EL ALOJAMIENTO
+Este [alojamiento/casa/piso] está en un barrio residencial [tranquilo/agradable].
+
+Se encuentra entre [lugares de la zona, p. ej., tiendas, playa, naturaleza], con la combinación perfecta de [tranquilidad/comodidad/cultura/aventura].
+
+La [piscina/jardín/zona de estar] compartida es ideal para [tomar el sol/trabajar/relajarse]. El diseño combina elementos [palabras de estilo: minimalista/boho/industrial] con comodidad y funcionalidad.
+
+Es un espacio [fotogénico/con estilo/acogedor], perfecto para desconectar o teletrabajar. A diferencia de muchos otros alojamientos de la zona, tenemos [acceso fiable/sin humedad/aparcamiento fácil/etc.].
+
+[Añade detalles de comodidad únicos, p. ej., colchón de alta calidad de [marca], cortinas opacas o aislamiento acústico.] Edad mínima: [p. ej., 12+ / 18+ / solo adultos]. [Mascotas permitidas bajo petición / No se admiten mascotas]. Se puede dejar el equipaje a partir de las [hora].
+
+ACCESO DE LOS HUÉSPEDES
+Tendrás acceso a:
+- Tu [habitación/suite/piso] privada
+- Baño [privado/compartido]
+- [Piscina/cocina/salón/espacio exterior] compartido
+
+Este alojamiento tiene [#] [habitaciones/suites] privadas, con capacidad para [#] huéspedes en total. Esta reserva incluye [#] [habitación/suite] privada para un máximo de [#] huéspedes.
+
+DURANTE TU ESTANCIA
+Este alojamiento es perfecto para huéspedes que valoran [la privacidad/el ambiente social/ambas cosas]. [Opcional: menciona el self check-in, la asistencia 24/7 o la disponibilidad del anfitrión.]
+
+OTRAS COSAS A TENER EN CUENTA
+Hemos instalado [un sistema de filtrado de agua/una solución ecológica/una cámara de seguridad/un extractor] para tu [comodidad/seguridad/conveniencia].
+
+La [cocina/zona de estar/piscina/espacio exterior] se comparte con otros huéspedes, salvo que hayas reservado el alojamiento entero. Solo tu [dormitorio/baño] es privado.
+@@house-rules
+- El check-out es a las [11:00].
+- No se permiten fiestas ni eventos. El horario de silencio es de [22:00 a 8:00]. Respeta a los vecinos, por favor.
+- No se puede fumar ni vapear dentro. Solo se puede fumar en el balcón, con la puerta cerrada.
+- No se admiten mascotas.
+- Máximo [# huéspedes]. Las visitas solo están permitidas con el permiso del anfitrión.
+- Deja los platos usados en el fregadero o en el lavavajillas, por favor.
+- Cierra la puerta con llave y las ventanas cuando salgas, por favor.
+@@house-rules-shared
+- El check-out es a las [11:00]. A esa hora tienes que haber salido de todo el piso, no solo de tu habitación.
+- No se permiten fiestas ni eventos. El horario de silencio es de [22:00 a 8:00]. Respeta a los demás huéspedes y a los vecinos, por favor.
+- No se puede fumar ni vapear dentro. Solo se puede fumar en el balcón, con la puerta cerrada.
+- No se admiten mascotas.
+- Las visitas solo están permitidas con el permiso del anfitrión.
+- Mantén ordenadas las zonas compartidas y guarda tus cosas en tu habitación, por favor.
+- Duerme en tu propia habitación, no en las zonas compartidas, por favor.
+- Deja los platos usados en el fregadero o en el lavavajillas, por favor.
+- En la cocina, usa la balda con la etiqueta de tu habitación, por favor.
+- Cierra la puerta con llave y las ventanas cuando salgas, por favor.
+@@qr-shared
+Como se indica en el anuncio, tendrás acceso a [# suite privada] con [baño privado], para [hasta # huéspedes].
+La [piscina, la cocina y el salón] se comparten con otros huéspedes.
+En el alojamiento hay [# suites en total], así que puede haber hasta [# huéspedes] alojados al mismo tiempo. Cada suite es totalmente privada y segura.
+Si tienes cualquier otra pregunta, dímelo.
+@@qr-people
+El alojamiento tiene un total de [# suites privadas], con capacidad para [# huéspedes] en total.
+Esta reserva incluye [# suite] para un máximo de [# huéspedes].
+El alojamiento está pensado para compartirse: todo está bien etiquetado, así que tienes tu propio espacio privado en la nevera, en la cocina y en el baño. Las zonas compartidas se limpian con regularidad, para que estén limpias y cómodas para todos.
+@@qr-night
+Sí, como el check-in es autónomo con un código digital, puedes llegar a cualquier hora de la noche sin coste extra.
+@@qr-night2
+Sí, como el check-in es autónomo con un código digital, puedes llegar a cualquier hora de la noche sin coste extra.
+Si llegas después de medianoche, solo para confirmar:
+¿Puedes confirmarme que llegas la noche entre el [fecha] y el [fecha]?
+Si tu check-in es después de las 00:00, tienes que reservar desde el día anterior, porque esa noche sigue perteneciendo a esa fecha del calendario.
+Por ejemplo, si llegas a la 1:00 del día 7, tu reserva tiene que empezar el día 6, no el 7. Una reserva desde el día 7 solo da acceso a partir de la hora de check-in [..h] del día 7.
+@@qr-disc-no
+Lo sentimos, pero no ofrecemos descuentos. Aunque aceptamos estancias de media duración y reservas de varias habitaciones, nos centramos sobre todo en estancias cortas, así que no tenemos precios más bajos para estancias largas ni para varias habitaciones. Aun así, nos encantaría recibirte y eres más que bienvenido.
+@@qr-disc-yes
+Sí, ofrecemos un 10 % de descuento en estancias largas. Cuando introduzcas tus fechas de viaje, el descuento se aplicará automáticamente.
+@@qr-visit
+Lo sentimos, pero no es habitual organizar visitas para las reservas de Airbnb. La plataforma no nos permite compartir datos de contacto antes de que se confirme una reserva, y ahora mismo la habitación está ocupada, así que tenemos que respetar la privacidad del huésped.
+Estás totalmente protegido a través de Airbnb: si la habitación no es exactamente como se describe o no coincide con las fotos, tienes derecho a un reembolso o a un alojamiento alternativo. Eso garantiza que lo que ves en el anuncio es exactamente lo que vas a recibir.
+Si tienes cualquier otra pregunta, puedes hacerla aquí: estaremos encantados de aclararte lo que necesites para que te sientas totalmente seguro.
+@@qr-park
+Hay parking gratuito justo delante del alojamiento, con espacio para [número de plazas]. Normalmente hay sitio, pero no está garantizado.
+@@qr-third
+Según la política de Airbnb, no se permiten las reservas para terceros. ¿Podrías cancelar la reserva actual (recibirás el reembolso completo) para que el huésped cree su propia cuenta y reserve directamente? Otra opción: podemos hacer una excepción si compartes tus datos de acceso con el huésped, para que podamos comunicarnos a través de tu cuenta.
+Es importante porque por aquí enviamos todas las instrucciones de check-in y otros detalles, y necesitamos poder comunicarnos directamente con el huésped.
+@@qr-refund
+Solo recibirás un reembolso completo si cancelas en las 48 horas siguientes a la reserva, siempre que falten al menos 14 días para el check-in.
+- Si cancelas entre 7 y 14 días antes del check-in, recibirás un reembolso del 50 %.
+- Si cancelas a menos de 7 días del check-in o durante tu estancia, no hay reembolso.
+Al reservar aceptaste esta política. Ten en cuenta que existe para protegernos como anfitriones, porque reservamos la habitación específicamente para ti en las fechas que elegiste y probablemente no podremos conseguir otra reserva con tan poco margen. Esperamos que lo entiendas.
+
+Para más información, puedes leer la política completa en nuestro anuncio o contactar directamente con Airbnb.
+@@qr-lug-in
+Puedes dejar tu equipaje a partir de las [hora, p. ej., 11:00] en tu suite. Ten en cuenta que la suite todavía se estará limpiando, pero estará lista y limpia como muy tarde a la hora del check-in, [hora, p. ej., 15:00].
+@@qr-exc
+Sí, no te preocupes, todos nos equivocamos a veces, así que te haremos el reembolso completo menos 15 € de gastos de gestión. Para cancelar, entra en los detalles de tu reserva y cancela desde ahí. Cuando lo hagas, me llegará un email y aceptaré el reembolso completo.
+Por favor, hazlo durante la próxima hora para que nuestro calendario vuelva a quedar libre. Por desgracia, como anfitrión no puedo cancelar por ti, porque tendría que pagar una penalización y perdería mi estatus de Superanfitrión.
+Si necesitas ayuda para cancelar, puedes contactar directamente con el soporte de Airbnb.
+@@qr-dates
+Lo sentimos, pero solo podemos aprobar cambios de fecha si se solicitan al menos 14 días antes de la fecha de check-in original. Como dependemos de nuestras reservas, guardamos estas fechas específicamente para ti y no podríamos conseguir otra buena reserva para esas fechas a última hora.
+
+Aun así, según nuestra política de cancelación, si todavía faltan 7 días para tu check-in, puedes recibir un reembolso del 50 % si decides cancelar. Esperamos que lo entiendas.
+@@qr-transfer
+Te recomendamos reservar el traslado desde el aeropuerto con nosotros, porque tenemos mejor precio que la mayoría de los taxis del aeropuerto. La recogida cuesta [precio].
+Si te parece bien, confírmamelo y pásame los datos de tu vuelo.
+@@qr-getthere
+Recibirás las instrucciones de check-in el día de tu llegada a las 11:00. Si ya quieres ver la ubicación exacta, puedes buscar [dirección] en Google Maps.
+@@qr-money
+Lo sentimos, pero no podemos hacer excepciones con la política de cancelación y no hay reembolsos posibles a menos de 7 días del check-in ni durante la estancia.
+Al reservar aceptaste nuestra política. Ten en cuenta que existe para protegernos como anfitriones, porque reservamos la habitación específicamente para ti en las fechas que elegiste y probablemente no podremos conseguir otra reserva con tan poco margen. Para más información, puedes leer la política completa en nuestro anuncio o contactar directamente con Airbnb.
+Si prefieres más flexibilidad, la próxima vez que reserves en Airbnb puedes usar el filtro de búsqueda para ver solo anuncios con política de cancelación flexible. Por desgracia, nosotros no tenemos esa opción porque dependemos mucho de nuestras reservas.
+@@qr-lug-s
+Puedes dejar tu equipaje en [lugar]. Vuelve solo para recogerlo y evita usar las zonas comunes, para que podamos mantener el espacio limpio y tranquilo para los nuevos huéspedes. ¿Sobre qué hora volverás a recogerlo? Como muy tarde, a las [hora].
+@@qr-lug-p
+Puedes dejar tu equipaje en [lugar]. ¿Sobre qué hora volverás a recogerlo? Como muy tarde, a las [hora].
+@@qr-lug-n
+Lo sentimos, pero no tenemos un espacio seguro para guardar equipaje. Eso sí, te recomendamos una consigna cercana que usan muchos de nuestros huéspedes. Aquí tienes el enlace: [enlace]
+@@qr-locked
+Hola:
+Ya ha pasado la hora de check-out de las 11:00 y la limpiadora está en la puerta de tu habitación, que parece cerrada con llave. ¿Estás cerca? Los siguientes huéspedes llegan pronto, así que tenemos que empezar a limpiar.
+Solo un recordatorio amable: tenemos un cargo por salida tardía de 50 € para evitar retrasos, porque el tiempo entre reservas es muy justo. Aun así, si haces el check-out en los próximos 15 minutos, no lo aplicaremos. También he intentado llamarte, pero no he podido localizarte.
+Para no retrasarnos, la limpiadora entrará en la habitación y empezará a quitar las sábanas para lavarlas.
+Respóndenos lo antes posible, por favor. ¡Gracias!
+@@qr-late
+Hola:
+Ya ha pasado la hora de check-out de las 11:00. Los siguientes huéspedes llegan pronto, así que tenemos que empezar a limpiar.
+Solo un recordatorio amable: tenemos un cargo por salida tardía de 50 € para evitar retrasos, porque el tiempo entre reservas es muy justo. Aun así, si haces el check-out en los próximos 15 minutos (no solo fuera de la habitación, sino también fuera del piso), no lo aplicaremos.
+Tenemos que cumplir el horario, así que esperamos que lo entiendas.
+¡Gracias!
+@@qr-thought
+Siento mucho el malentendido. Ofrecemos exactamente lo que reservaste, ya que en el anuncio se menciona varias veces que es compartido. Así que espero que entiendas que no hemos cometido ningún error ni te hemos dado información incorrecta.
+Puedes cancelar la reserva, pero se aplicarán las condiciones de cancelación que aceptaste al reservar. Para cancelar, ve a los detalles de tu reserva y busca el botón de cancelar.
+Si tienes más preguntas o quejas, contacta con Airbnb directamente. Ellos te ayudarán.
+@@qr-key
+No te preocupes, tenemos una llave de repuesto en un sitio secreto en [lugar]. El código de la caja de llaves es [xxxx]. Cuando la abras, la encontrarás [dónde está]
+Ten en cuenta que, si la llave se pierde, tendremos que cobrar 50 € para cubrir el coste de reponerla. ¡Ojalá aparezca!
+@@qr-noise-g
+Hola, espero que todo vaya bien.
+Hemos recibido una queja general por ruido de un huésped y, como hay varias personas en el alojamiento, no queremos culpar a nadie en concreto. Por eso escribimos a todos para recordaros amablemente que bajéis la música y no habléis muy alto, sobre todo por la noche.
+Si a ti también te ha afectado, te pido disculpas de corazón; estamos haciendo lo posible para controlar la situación. La comodidad de nuestros huéspedes (incluido tú) es nuestra mayor prioridad, para que todos podáis disfrutar al máximo de la estancia.
+Si hay cualquier otra cosa, dínoslo. ¡Estamos para ayudar!
+@@qr-noise-s
+Hola, espero que estés bien. Te escribimos porque, por desgracia, hemos recibido una queja por ruido de otros huéspedes.
+Como anfitriones, nunca sacamos conclusiones tras escuchar solo una versión, pero queremos pedirte amablemente que, si de verdad hubo mucho ruido, procures mantener la tranquilidad en la villa, sobre todo por la noche.
+El huésped nos ha pedido un reembolso por esta noche, así que hemos tenido que contactar con Airbnb para ver cómo resolver la situación.
+La comodidad de nuestros huéspedes es nuestra prioridad n.º 1, no solo la de los demás, también la tuya. Dime si has recibido este mensaje y, si hay algo más que quieras contarnos, puedes hacerlo.
+Gracias por tu comprensión y colaboración.
+@@qr-clutter
+Hola, hemos visto que hay muchas cosas por medio en las zonas comunes, así que enviamos este mensaje a todos los de la villa con un recordatorio amable: guardad las cosas personales en vuestra habitación en la medida de lo posible y, si las dejáis en las zonas compartidas, mantenedlas ordenadas.
+Así conseguimos que sea un espacio agradable para todos los huéspedes de la villa. Si no va contigo, puedes ignorar este mensaje. ¡Gracias y que tengas un gran día!
+@@qr-reply
+¡Sentimos mucho oír eso! Aunque la mayoría de los huéspedes son respetuosos y tranquilos, por desgracia en los alojamientos compartidos siempre hay un pequeño riesgo de molestias puntuales; por eso indicamos en el anuncio que puede haber ruido.
+Dicho esto, estamos totalmente de acuerdo en que todo debe mantenerse siempre dentro de unos límites respetuosos.
+Hacemos todo lo posible por tener normas de la casa y horarios de silencio claros, y estamos disponibles 24/7 por si surge alguna situación que haya que controlar.
+Hablaremos con los huéspedes implicados y, si la situación no mejora de inmediato, vuelve a avisarnos, por favor.
+Tu comodidad es nuestra prioridad, y te pedimos disculpas sinceras por las molestias. Muchas gracias por avisarnos para que podamos actuar.
+@@qr-spider
+¡Oh, no! Entiendo que da mucho miedo. No te preocupes, normalmente son inofensivas (sobre todo las arañas grandes parecen peligrosas, pero son inofensivas).
+Normalmente debería haber insecticida [dónde, p. ej., debajo del lavabo del baño]
+Puedes rociar en dirección a la araña y morirá en un par de minutos. Si necesitas ayuda, dínoslo. Puedo comprobar si hay alguien del equipo disponible para ayudarte.
+@@declutter-1
+Hola a todos:
+Hemos hecho una limpieza a fondo y vamos a retirar las cosas que han dejado inquilinos anteriores, para despejar, mantener todo limpio y dejaros más espacio.
+
+Para asegurarnos de no retirar por error nada que sea vuestro, os pedimos amablemente que hagáis lo siguiente antes del [fecha concreta]
+
+🔹 Ducha:
+Poned vuestras cosas en la cesta para el jabón de la pared o en vuestra balda.
+🔹 Congelador:
+Sacad vuestras cosas del cajón de arriba
+🔹 Puerta de la nevera:
+Poned vuestras cosas en vuestra balda o etiquetadlas con cinta (hay un rollo encima del microondas).
+🔹 Caja del pasillo:
+En el pasillo hay una caja con comida y objetos que hemos encontrado fuera de las baldas personales.
+Si algo es vuestro, ¡recuperadlo sin problema!
+
+Cuando todos hayáis recogido vuestras cosas, lo que quede se podrá “adoptar” [el día antes de la fecha límite] si queréis quedaros con algo.
+
+⚠ El [fecha concreta] se retirará todo lo que nadie haya reclamado, incluido:
+- Lo que esté en el suelo de la ducha
+- Lo que esté en la puerta de la nevera sin cinta
+- La comida del cajón de arriba del congelador
+- Lo que esté en la caja del pasillo
+
+¡Muchas gracias por vuestra ayuda y colaboración!
+@@declutter-2
+Hola a todos:
+
+Solo un último recordatorio rápido: mañana es la fecha límite para recoger vuestras cosas dentro de la limpieza general.
+
+Vamos a retirar lo siguiente:
+- Lo que quede en el suelo de la ducha
+- Lo que esté sin etiquetar en la puerta de la nevera
+- La comida del cajón de arriba del congelador
+- Lo que esté en la caja del pasillo
+
+Si todavía queda algo que queráis conservar, ¡“adoptadlo” antes de que se retire!
+Gracias por vuestra colaboración.
+@@sm-1
+Hola, [nombre del huésped]:
+¡Tenemos muchas ganas de recibirte! ¿Sobre qué hora llegarás? El check-in es a partir de las [hora, p. ej., 15:00] (pero puedes dejar el equipaje a partir de las 11:00).
+El día de tu llegada, a las 11:00, recibirás la dirección exacta y el código para el self check-in. Si no vas a tener wifi, dímelo y te lo envío antes.
+
+OTRA INFORMACIÓN:
+- Si cocinas o usas la cocina, friega, seca y guarda los platos para que todo esté ordenado. Tienes tu propia balda en la nevera y en los armarios de la cocina con la etiqueta de tu suite.
+- [información sobre la limpieza, p. ej.: se limpia la habitación a diario y se cambian las sábanas 2 veces por semana. Si quieres toallas nuevas, puedes dejarlas en el cesto de la ropa. Ayúdanos a ahorrar energía reutilizando las toallas durante tu estancia.]
+- WIFI
+  Red: [xxxx]
+  Contraseña: [xxxx]
+- Si tienes cualquier problema o necesitas ayuda, ¡dínoslo! Si no lo sabemos, no podemos solucionarlo. Tu comodidad es nuestra prioridad n.º 1
+
+Aquí tienes una lista con nuestras recomendaciones locales:
+[enlace a tu guía de Airbnb]
+
+¿Tienes alguna otra pregunta? ¡Pregunta sin problema!
+@@sm-2
+Hola, [nombre del huésped]:
+La ubicación es [ubicación] en Google Maps.
+[añade más información o incluso una foto con instrucciones para encontrarlo fácilmente, p. ej.: como es una dirección nueva, algunos taxistas paran en la calle principal
+- Gira a la izquierda en el arrozal.
+- Al final de esa calle, vuelve a girar a la izquierda justo antes del pequeño templo negro.]
+
+Puedes entrar en la villa con este código del teclado: [código, p. ej., 1234#] (primero toca el teclado para que se encienda y después marca el número)
+Tu habitación privada es la SUITE [#]
+La habitación estará lista como muy tarde a la hora del check-in [p. ej., 15:00], pero si quieres dejar el equipaje antes, puedes.
+Si no lo encuentras, puedes llamar a nuestro contacto de emergencia 24/7 [nombre del gestor +00 0000 000 (WhatsApp)].
+¡Hasta pronto!
+@@sm-3
+Buenos días, [nombre del huésped]:
+¿Qué tal la primera noche? ¿Va todo bien en la villa? Si necesitas cualquier cosa, dínoslo, estamos para ayudarte :)
+¡Que tengas un gran día!
+@@sm-4
+Esperamos que lo hayas pasado genial con nosotros. Mañana es tu check-out, a las 11:00 en punto.
+Te pedimos amablemente que a esa hora no solo hayas dejado la habitación, sino que también estés fuera de la villa, para que la limpiadora pueda hacer su magia.
+
+INSTRUCCIONES DE CHECK-OUT:
+- apaga las luces y el aire acondicionado
+- deja la llave en el escritorio
+- deja abierta la puerta de la habitación (así sabemos que te has ido)
+- sal de la villa antes de las 11:00
+
+¿Necesitas dejar el equipaje? ¡Sin problema! Puedes dejarlo en el lavadero (a la izquierda de la suite 2) y recogerlo el mismo día. Dínoslo y te enviaremos el código de la caja con la llave.
+Que disfrutes muchísimo de tu último día. ¡Gracias!
+@@sm-5
+¡Gracias por alojarte con nosotros y por ser un huésped genial!
+Te voy a dejar una reseña de 5 estrellas. Si has disfrutado de la estancia, ¿podrías dejarnos una tú también? Como nuestra villa es nueva, tu reseña es muy valiosa para conseguir más reservas.
+Un apunte rápido: las valoraciones de Airbnb no funcionan como las de los hoteles. Cualquier cosa por debajo de 5 estrellas afecta de verdad a nuestro anuncio de forma negativa. Si hay algo que podamos mejorar, puedes contárnoslo directamente.
+Si algún día piensas volver, ¡nos encantará recibirte de nuevo!
+Que tengas un día increíble.

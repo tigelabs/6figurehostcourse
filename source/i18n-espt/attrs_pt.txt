@@ -1,0 +1,423 @@
+@@a0
+Adicione sua própria tarefa
+@@a1
+Exemplo: Florianópolis, Brasil
+@@a2
+Exemplo: Aluguel de curta duração é permitido? Precisa de licença? Estadia mínima? Taxa de turismo? Links para fontes oficiais…
+@@a3
+Exemplo: Maria
+@@a4
+Exemplo: no QuintoAndar
+@@a5
+Exemplo: profissionais e nômades digitais
+@@a6
+Exemplo: média duração
+@@a7
+Exemplo: €1.500
+@@a8
+Exemplo: Daniel
+@@a9
+Exemplo: +55 11 90000-0000
+@@a10
+ex.: villa, apartamento, loft
+@@a11
+cidade, bairro, o que tem por perto
+@@a12
+ex.: piscina, terraço, Wi-Fi rápido, vista
+@@a13
+ex.: casais, nômades digitais, famílias
+@@a14
+ex.: minimalista, tropical, tranquilo
+@@a15
+ex.: Loft boho com vista do terraço no centro de Barcelona
+@@a16
+Exemplo: moedor de café
+@@a17
+Exemplo: 30
+@@a18
+ex.: Casa Mewali
+@@a19
+Coloque o endereço completo
+@@a20
+Coloque os detalhes
+@@a21
+Instruções de acesso passo a passo
+@@a22
+ex.: a partir das 15h
+@@a23
+ex.: até as 11h
+@@a24
+Coloque nome + número
+@@a25
+Link para a galeria
+@@a26
+Link opcional para uma imagem ou esboço
+@@a27
+Paleta de cores, guia de estilo, regras de decoração
+@@a28
+Link para o seu checklist de limpeza
+@@a29
+ex.: 3 dias
+@@a30
+ex.: trocadas se deixadas no cesto de roupa
+@@a31
+ex.: papel higiênico, sabonete, sacos de lixo etc.
+@@a32
+ex.: embaixo da pia da cozinha ou no depósito
+@@a33
+Onde encontrar
+@@a34
+Nome da pessoa responsável ou função
+@@a35
+ex.: €50/mês
+@@a36
+Nome + número
+@@a37
+Processo ou instruções do grupo
+@@a38
+Links para PDFs ou fotos dos manuais importantes
+@@a39
+ex.: lâmpadas e pilhas reserva: onde ficam
+@@a40
+Copie do seu anúncio no Airbnb ou use uma versão simplificada
+@@a41
+Incêndio, vazamento de água, hóspede trancado do lado de fora etc.
+@@a42
+Valor em €
+@@a43
+Link de convite
+@@a44
+nome e telefone
+@@a45
+Somente água potável
+Reciclável
+Lixo comum
+Quarto 1
+Quarto 2
+Quarto 3
+Toalhas reserva
+Estoque de papel higiênico
+Produtos de limpeza
+Achados e perdidos
+Toalhas dos hóspedes: não são para a praia
+LAVAR: programa rápido 30°
+@@a46
+Exemplo: na aula 5, não entendi…
+@@a47
+Progresso do guia
+@@a48
+Guia
+@@a49
+Salvar e restaurar seus dados
+@@a51
+Comunidade no Facebook
+@@a52
+Você já tem um imóvel?
+@@a53
+O imóvel é mobiliado?
+@@a54
+O que você vai anunciar?
+@@a55
+Modelo de descrição do anúncio
+@@a56
+Regras da casa: acomodação privativa
+@@a57
+Regras da casa: acomodação compartilhada
+@@a58
+A acomodação é privativa ou compartilhada com outros hóspedes?
+@@a59
+Número de pessoas na acomodação
+@@a60
+Pergunta se é possível fazer o check-in à noite
+@@a61
+Check-in à noite, se for depois da meia-noite
+@@a62
+Tem desconto se eu ficar um mês? (se você não oferece)
+@@a63
+Tem desconto se eu ficar um mês? (se você oferece)
+@@a64
+Posso visitar a acomodação?
+@@a65
+Tem estacionamento?
+@@a66
+Alguém reserva para outra pessoa
+@@a67
+Posso cancelar e receber reembolso total? (política de cancelamento rígida, recomendada)
+@@a68
+Guarda de malas antes do check-in
+@@a69
+Exceção à política de cancelamento (reembolso total até 12h após a reserva)
+@@a70
+Quer mudar as datas a menos de 14 dias do check-in
+@@a71
+Transfer do aeroporto
+@@a72
+Como chegar à villa
+@@a73
+Cancelamento, quer o dinheiro de volta
+@@a74
+Guarda de malas depois do check-out: sim (acomodação compartilhada)
+@@a75
+Guarda de malas depois do check-out: sim (acomodação privativa)
+@@a76
+Guarda de malas depois do check-out: não é possível
+@@a77
+O quarto continua trancado depois do horário de saída
+@@a78
+Não fez o check-out depois das 11h
+@@a79
+Achei que era privativo, mas é compartilhado
+@@a80
+Perdi a chave do quarto
+@@a81
+Reclamação de barulho (em geral), acomodação compartilhada
+@@a82
+Reclamação: barulho alto (hóspede específico), acomodação compartilhada
+@@a83
+Hóspedes deixando bagunça, acomodação compartilhada
+@@a84
+Resposta a uma reclamação, acomodação compartilhada
+@@a85
+Socorro, tem uma aranha no meu quarto
+@@a86
+Modelo de mensagem: aviso de destralhe
+@@a87
+Modelo de mensagem: último lembrete
+@@a88
+1. Mensagem de boas-vindas
+@@a89
+2. Instruções de check-in
+@@a90
+3. Perguntar se está tudo bem
+@@a91
+4. Instruções de check-out
+@@a92
+5. Deixar uma avaliação
+@@a93
+Já tenho
+@@a94
+Quantidade
+@@a95
+Preço real por item
+@@a96
+Não preciso
+@@a97
+Modelo de negócio
+@@a98
+Taxa de ocupação do pior cenário, em porcentagem
+@@a99
+Taxa de ocupação média, em porcentagem
+@@a100
+Taxa de ocupação do melhor cenário, em porcentagem
+@@a101
+Gráfico de linhas: o lucro acumulado sobe e o capital inicial restante cai até o ponto de retorno, na taxa de ocupação média
+@@a102
+Suas etiquetas, uma por linha
+@@a103
+Visualizador de imagens
+@@a104
+Fechar
+@@a105
+Villa minimalista de concreto com uma espreguiçadeira ao lado da piscina
+@@a106
+Farah no aeroporto com uma mochila e uma mala
+@@a107
+A praia de Barcelona ao pôr do sol
+@@a108
+Daniel com uma bolsa de viagem, tirando uma selfie no espelho
+@@a109
+O quarto minúsculo em que Daniel morava enquanto alugava os quartos maiores
+@@a110
+Farah e Daniel quando se conheceram
+@@a111
+O quarto que Farah alugou do Daniel
+@@a112
+Uma cama feita de paletes de madeira no primeiro apartamento da Farah
+@@a113
+Farah pendurando uma canga na frente do sofá
+@@a114
+Farah no notebook no apartamento vazio
+@@a115
+Farah esfregando um colchão na cozinha
+@@a116
+Daniel de fones de ouvido, olhando para a câmera
+@@a117
+Farah segurando um rodo e usando luvas de borracha
+@@a118
+Um aspirador de pó no meio de um apartamento durante uma troca de hóspede
+@@a119
+Farah e Daniel num terraço em Barcelona
+@@a120
+Farah trabalhando no celular e no notebook
+@@a121
+Farah assinando um contrato
+@@a122
+Um terraço com vista para Barcelona ao pôr do sol
+@@a123
+A piscina da nossa villa em Bali em construção
+@@a124
+Farah e Daniel segurando um gato na villa em Bali
+@@a125
+A piscina e o chuveiro externo da villa em Bali
+@@a126
+Farah e Daniel em frente à Sagrada Família
+@@a127
+Farah e Daniel tirando uma selfie no espelho
+@@a128
+Farah e Daniel brindando à beira-mar ao pôr do sol
+@@a129
+Um notebook aberto numa cama mostrando o curso 6-Figure Host
+@@a130
+Farah e Daniel numa sacada em Barcelona
+@@a131
+Farah e Daniel na praia ao anoitecer
+@@a132
+Calendário de reservas com cinco anúncios, cada um reservado por um único hóspede durante o mês inteiro
+@@a133
+Calendário de reservas com quatro anúncios, cada um cheio de reservas curtas de hóspedes diferentes
+@@a134
+Antes: um quarto com paredes amarelas, um tapete vermelho e móveis que não combinam
+@@a135
+Depois: o mesmo quarto pintado de branco, com camas de madeira, roupa de cama de linho e um guarda-roupa
+@@a136
+Antes: a enorme sala aberta com paredes amarelas; o lado direito, onde depois criamos dois quartos, está circulado
+@@a137
+Depois: o lado esquerdo da sala, pintado de branco, com a mesa de jantar e o sofá
+@@a138
+Depois: o lado direito da sala com a nova parede branca e as duas portas dos quartos novos circuladas
+@@a139
+Um dos quartos novos com a porta aberta; uma seta aponta para a pequena janela interna que dá para a sala
+@@a140
+O primeiro quarto novo: uma cama de casal, uma escrivaninha e uma janela interna
+@@a141
+O segundo quarto novo: uma cama de casal e uma mesinha
+@@a142
+Antes: a antiga lavanderia escura, com uma máquina de lavar e bagunça
+@@a143
+Depois: o novo banheiro com box de vidro e piso de ladrilhos estampados
+@@a144
+Nosso menor quarto: uma cama de solteiro, uma escada de bambu e um ar-condicionado portátil, sem janela
+@@a145
+O menor quarto visto do outro lado, com escrivaninha, luminária e cesto de roupa
+@@a146
+Antes: a grande sala aberta com a cozinha, uma mesa de jantar e muito espaço vazio
+@@a147
+Depois: a cozinha e a área de jantar, agora um pouco menores, ao lado do quarto novo
+@@a148
+Depois: o quarto novo com cama de casal, escrivaninha e sacada própria, visto da cozinha
+@@a149
+A página da calculadora de Airbnb do AirROI, com um campo para o endereço e um seletor de quartos
+@@a150
+Um imóvel deixado sujo e malcuidado: inquilinos comuns nem sempre cuidam bem dele, e o proprietário só descobre quando eles saem.
+@@a151
+Aluguel atrasado ou não pago: o risco de correr atrás do inquilino todo mês. Nenhum proprietário quer isso.
+@@a152
+Danos e brigas pela caução: quem paga o quê? A saída muitas vezes termina numa discussão sobre a caução.
+@@a153
+Reclamações dos vizinhos: barulho, festas, gente entrando e saindo. E quem recebe a ligação irritada é o proprietário.
+@@a154
+Avaliação da hóspede Iveta, Austrália, cinco estrelas: Absolutely amazing! The way the place is so clean and customer oriented and detailed is unbelievable. You can see that hosts put their heart in it and it’s great for people who value quality. Absolutely recommend!
+@@a155
+Casa Mewali: a piscina compartilhada com as suítes ao redor, atrás de janelas pretas em arco
+@@a156
+Uma suíte da Casa Mewali com cama de madeira e portas que se abrem direto para a piscina
+@@a157
+Tirando o piso laminado antigo de um quarto com sacada
+@@a158
+Antes: o banheiro com uma banheira antiga
+@@a159
+Depois: o mesmo banheiro com box com chuveiro e piso que imita madeira
+@@a160
+Capa do folheto informativo para proprietários, com o título Rental arbitrage: a reliable way to rent your property without the usual tenant headaches, acima da foto de um quarto
+@@a161
+Um quarto claro com cama de casal, escrivaninha, ar-condicionado portátil, arara de roupas aberta e um painel de feltro em forma de nuvem na parede
+@@a162
+A cama baú aberta, mostrando um grande espaço de armazenamento embaixo
+@@a163
+A escrivaninha com uma luminária e a página de boas-vindas ao lado de uma arara simples com cabides de madeira e um cesto
+@@a164
+O lado de dentro da porta do quarto com uma corrente de segurança, ao lado de um gancho para a chave do quarto e um suporte de parede para o controle do ar-condicionado com uma pequena etiqueta
+@@a165
+Casa Mewali antes e depois: a mesma piscina e as mesmas paredes, primeiro brancas e lisas com grama, depois com tinta em tom quente, cascalho, cortinas e vasos de barro
+@@a166
+Nosso anúncio com o título Pool view suite in beautiful shared villa | 2
+@@a167
+Nosso anúncio com o título Cosy bedroom in the best location in center
+@@a168
+Nosso anúncio com o título BIG private sunny rooftop in top location
+@@a169
+Nosso anúncio no Airbnb “Pool view suite in beautiful shared villa”: uma foto de capa grande do quarto e quatro fotos menores do quarto, da sala e da piscina; Preferido dos hóspedes com 4,97 em 65 avaliações
+@@a170
+Anúncio no Airbnb do quarto com a escrivaninha que o fazia parecer maior
+@@a171
+Anúncio no Airbnb do quarto espelhado com a escrivaninha menos atraente
+@@a172
+Seção do anúncio O espaço mencionando a piscina e a cozinha compartilhadas
+@@a173
+Mensagem de boas-vindas lembrando o hóspede de que a villa é compartilhada
+@@a174
+Seção do anúncio Sobre este espaço informando que o resto da villa é compartilhado
+@@a175
+Mensagem aos hóspedes avisando sobre obras próximas e que o preço inclui um desconto
+@@a176
+Seção do anúncio Outros pontos a observar mencionando o barulho da obra e o desconto
+@@a177
+Acordo com o gerente do imóvel
+@@a178
+Acordo de serviços de limpeza
+@@a179
+Acordo com o faz-tudo
+@@a180
+Acordo de manutenção de piscina e jardim
+@@a181
+Fechadura inteligente com teclado numa porta
+@@a182
+Cofre de chaves tradicional com segredo numa grade
+@@a183
+Interfone inteligente ao lado de uma porta de entrada
+@@a184
+Chaves sendo entregues pessoalmente
+@@a185
+Exemplo de guia de check-in passo a passo com fotos numeradas: o endereço, a senha da porta, as escadas, a porta e o quarto
+@@a186
+Configuração de mensagem programada do Airbnb com a opção Enviar para reservas de última hora e estadias curtas ativada
+@@a187
+Tela do Airbnb Defina seus preços e disponibilidade por temporada, com um botão para criar um conjunto de regras
+@@a196
+Cidade, país
+@@a197
+ex.: apartamento de 2 quartos, quarto privativo, villa
+@@a198
+bairro ou região
+@@a199
+curta duração, média duração ou ambas
+@@a200
+Nome do proprietário
+@@a201
+onde você encontrou
+@@a202
+Seu nome
+@@a203
+Seu telefone
+@@a204
+tipo de hóspedes
+@@a205
+tipo de estadias
+@@a206
+valor
+@@a207
+cidade/bairro
+@@a208
+ex.: piscina, terraço, tudo a pé, design, vista
+@@a209
+ex.: loft moderno, villa aconchegante
+@@a210
+ex.: luz natural, Wi-Fi rápido, piscina, cozinha, sacada
+@@a211
+ex.: casais, quem trabalha remoto, famílias
+@@a212
+ex.: minimalista, tropical, estiloso, tranquilo
+@@a213
+DESTINO
+@@a214
+MOEDA

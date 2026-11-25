@@ -1,0 +1,327 @@
+@@2201
+Envíala al grupo de WhatsApp compartido.
+@@2202
+Actualiza siempre el mensaje con el saldo restante usando este formato: SALDO RESTANTE: [nuevo saldo después del gasto] €
+@@2203
+Ejemplo: foto del recibo del papel higiénico, 4,30 €. SALDO RESTANTE: 145,70 €
+@@2204
+Datos de contacto
+@@2205
+Propietario del alojamiento
+@@2206
+Gestor
+@@2207
+Limpiadora
+@@2208
+Limpiadora (de reserva)
+@@2209
+Servicio de lavandería
+@@2210
+Encargado de piscina y jardín
+@@2211
+Servicio de recogida de basura
+@@2212
+Códigos importantes
+@@2213
+Código de la puerta principal
+@@2214
+Código de la caja de llaves
+@@2215
+Los códigos solo se guardan en este navegador, en este dispositivo. Cámbialos aquí cada vez que los cambies en el alojamiento.
+@@2216
+{1}← Volver{2}Checklist de equipamiento
+@@2217
+{1}Siguiente →{2}Calculadora de beneficios
+@@2218
+Herramienta · beneficios y ROI
+@@2219
+{1}Calculadora{2} de beneficios y ROI
+@@2220
+Los anfitriones listos hacen números primero; la emoción va después.
+@@2221
+Antes de firmar un contrato de alquiler o invertir en muebles, es fundamental que entiendas tus números. Esta calculadora de beneficios y ROI te ayuda a estimar cuántos ingresos puede generar una vivienda y cuánto tardarás en recuperar tu inversión inicial.
+@@2222
+Está pensada para darte una visión rápida y realista de: el beneficio mensual y anual, el retorno de la inversión (ROI), el plazo para recuperar la inversión y cómo cambian tus números con distintas tasas de ocupación.
+@@2223
+{1}Paso 1:{2} elige tu moneda y rellena los gastos de tu negocio.
+@@2224
+{1}Paso 2:{2} elige tu modelo de negocio e introduce tus números en “Introduce aquí tus datos”. Las tablas se actualizan automáticamente.
+@@2225
+Revisa los resultados con distintas tasas de ocupación (70 %, 85 %, 95 %) para ver cómo se comportan los escenarios.
+@@2226
+Para más explicación sobre un campo, toca “¿Qué es esto?” debajo de él. Tus números se guardan en este dispositivo.
+@@2227
+Paso 1 {1}resumen de los gastos del negocio{2}
+@@2228
+Calcula primero los gastos de tu negocio. Si necesitas ayuda para estimar algún coste, usa el prompt de IA de abajo. Una vez completados, tus gastos pasan automáticamente a las tres calculadoras del paso 2.
+@@2229
+Elige la moneda
+@@2230
+Cambia la moneda en todo el curso.
+@@2231
+Costes mensuales
+@@2232
+Suministros básicos
+@@2233
+Electricidad
+@@2234
+Gas (opcional)
+@@2235
+Internet
+@@2236
+Agua
+@@2237
+Seguro (opcional)
+@@2238
+Total
+@@2239
+Equipo
+@@2240
+Limpiadora 1
+@@2241
+Limpiadora 2 (opcional)
+@@2242
+Gestor (opcional)
+@@2243
+Limpieza de piscina (opcional)
+@@2244
+Jardinero (opcional)
+@@2245
+Gestor contable (opcional)
+@@2246
+Otros costes
+@@2247
+Suministros
+@@2248
+Mantenimiento mensual
+@@2249
+Costes únicos
+@@2250
+Equipamiento
+@@2251
+Zona exterior (opcional)
+@@2252
+¿No sabes cuánto costará el equipamiento? La {1}checklist de equipamiento{2} te da un presupuesto estimado, habitación por habitación.
+@@2253
+Total de costes mensuales
+@@2254
+Total de costes únicos
+@@2255
+Prompt de IA: estima mis costes
+@@2256
+Eres un experto en negocios de alquiler de corta duración.
+
+Estoy planeando un alojamiento de alquiler de corta duración en {1}{2}, con [N.º DE DORMITORIOS] dormitorios, que se limpiará [N.º DE LIMPIEZAS AL MES] veces al mes.
+
+Dame estimaciones realistas de los costes medios mensuales y únicos para este destino, basadas en la operativa habitual de un alquiler de corta duración.
+
+Usa {3}{4} para todas las cifras.
+
+Desglosa los costes con esta estructura:
+Gastos mensuales: suministros básicos (electricidad, gas si corresponde, internet, agua, seguro), equipo (limpiadora según la frecuencia de limpieza indicada, manitas, gestor del alojamiento si es habitual en este destino, limpieza de piscina si corresponde, jardinero si corresponde, gestor contable / administración), otros gastos mensuales (suministros como productos de aseo y consumibles según la rotación, reserva para mantenimiento).
+
+Costes únicos de equipamiento: cocina, salón, dormitorio, baño, lavadero, zona exterior / piscina si corresponde.
+
+Para cada coste, indica:
+- Un rango medio realista (bajo–alto)
+- Una estimación recomendada para la planificación financiera
+
+Menciona también:
+- Los costes que se suelen subestimar en este destino
+- Si los costes son más altos o más bajos que la media en comparación con mercados similares
+
+Que la respuesta sea práctica, realista y apta para introducirla directamente en una calculadora de beneficios y ROI.
+@@2257
+¿Necesitas un poco de ayuda? Rellena tus datos entre los corchetes y luego cópialo y pégalo en tu asistente de IA.
+@@2258
+Paso 2 {1}haz los números de tu modelo de negocio{2}
+@@2259
+Alquilar una vivienda
+@@2260
+Comprar una vivienda
+@@2261
+Arrendar una vivienda a largo plazo
+@@2262
+Rental arbitrage {1}calculadora de beneficios{2}
+@@2263
+Introduce aquí tus datos
+@@2264
+Alquiler mensual
+@@2265
+¿Qué es esto?
+@@2266
+¿Cuánto es el alquiler mensual?
+@@2267
+Fianza
+@@2268
+0 meses de alquiler
+@@2269
+1 mes de alquiler
+@@2270
+2 meses de alquiler
+@@2271
+3 meses de alquiler
+@@2272
+4 meses de alquiler
+@@2273
+5 meses de alquiler
+@@2274
+Selecciona cuántos meses de fianza pide la agencia o el propietario.
+@@2275
+Gastos administrativos extra
+@@2276
+Los gastos administrativos extra pueden incluir impuestos del alquiler, honorarios de la agencia...
+@@2277
+Habitaciones
+@@2278
+¿Cuántas habitaciones vas a alquilar?
+@@2279
+Precio por noche por habitación
+@@2280
+Es el precio que pagarán los huéspedes por tu habitación cada noche. Para estimar el precio por noche, te recomendamos hacer dos tipos de investigación:
+@@2281
+Mira anuncios similares en la plataforma de Airbnb.
+@@2282
+Usa una herramienta de datos de mercado como AirROI para revisar las métricas locales.
+@@2283
+Airbnb aplica comisiones de la plataforma e impuestos de aproximadamente el 17 %, según el país. Normalmente los paga el huésped. Por eso, los precios que ves en Airbnb como viajero suelen incluir ya ese 17 % adicional.
+@@2284
+Inversión inicial total
+@@2285
+Gastos mensuales
+@@2286
+Del paso 1.
+@@2287
+Cambiarlos
+@@2288
+Tasa de ocupación
+@@2289
+Ingresos mensuales
+@@2290
+Beneficio mensual
+@@2291
+Beneficio anual
+@@2292
+ROI
+@@2293
+Recuperación de la inversión
+@@2294
+Peor escenario
+@@2295
+Media
+@@2296
+Mejor escenario
+@@2297
+¿Qué significan las columnas?
+@@2298
+{1}Tasa de ocupación.{2} La tasa de ocupación es el porcentaje de noches en que tu alojamiento está reservado. Por ejemplo: si tu alojamiento se reserva 15 días del mes y los otros 15 no se alquilan, tu tasa de ocupación es del 50 %. El peor escenario, la media y el mejor escenario son la ocupación más baja, media y más alta de la zona donde vas a empezar. Puedes cambiar cada porcentaje.
+@@2299
+{1}Ingresos mensuales.{2} Cuánto ganarías al mes antes de restar ningún gasto; también se llaman ingresos brutos.
+@@2300
+{1}Costes mensuales.{2} Los costes de gestionar un alojamiento: limpiadoras, productos de limpieza, servicios de manitas, facturas de suministros (agua, luz, gas, internet)... Puedes cambiarlos en el paso 1.
+@@2301
+{1}Beneficio mensual.{2} Tus ingresos estimados después de restar todos los costes mensuales recurrentes, como el alquiler, el equipo, los suministros y la limpieza.
+@@2302
+{1}ROI.{2} Tu retorno de la inversión anual, en porcentaje.
+@@2303
+{1}Recuperación de la inversión.{2} Cuánto tiempo (en meses) tardarás en recuperar tu inversión inicial.
+@@2304
+Beneficio a 5 años
+@@2305
+Escenario
+@@2306
+×1 alojamiento
+@@2307
+×2 alojamientos
+@@2308
+×4 alojamientos
+@@2309
+Tu beneficio estimado después de 5 años con 1, 2 o 4 alojamientos similares.
+@@2310
+Beneficio y meses hasta recuperar la inversión
+@@2311
+{1}{2}Beneficio
+@@2312
+{1}{2}Capital inicial
+@@2313
+Con tu tasa de ocupación media. Las líneas se cruzan a mitad del camino hacia la recuperación; la línea del capital llega a cero en el punto de recuperación.
+@@2314
+Meses
+@@2315
+Beneficio
+@@2316
+Capital inicial
+@@2317
+La tabla no incluye impuestos, porque cambian en cada país. Aun así, debes tener en cuenta:
+@@2318
+Impuesto de sociedades
+@@2319
+Está bien empezar en pequeño sin empresa, pero ten en cuenta el impuesto de sociedades si en el futuro piensas crear una empresa para gestionar tus alojamientos.
+@@2320
+Tasa turística
+@@2321
+Algunas ciudades aplican tasas turísticas directamente a través de la plataforma de Airbnb. Tienes que comprobar qué se aplica en tu caso.
+@@2322
+Impuesto sobre dividendos
+@@2323
+Si ya tienes una empresa para gestionar tu alojamiento y piensas pasar beneficios de la empresa a tu cuenta personal, debes tener en cuenta los impuestos sobre dividendos aplicables donde tengas tu residencia fiscal.
+@@2324
+Vivienda en propiedad {1}calculadora de beneficios{2}
+@@2325
+Precio de la vivienda
+@@2326
+¿Cuánto cuesta la vivienda?
+@@2327
+Los gastos administrativos extra pueden incluir impuestos de compraventa, honorarios de la agencia...
+@@2328
+Arrendamiento a largo plazo {1}calculadora de beneficios{2}
+@@2329
+Precio del arrendamiento
+@@2330
+¿Cuánto pagas por el arrendamiento?
+@@2331
+*Un leasehold es cuando alquilas una vivienda a largo plazo, a menudo durante varios años, con derecho a usarla como si fuera tuya. En lugares como Bali, los extranjeros no pueden ser propietarios de terrenos, así que el leasehold es la forma más habitual de controlar legalmente una vivienda y sacarle rendimiento sin comprarla. Pagas por adelantado o cada año y, a cambio, tienes el uso completo de la vivienda durante todo el arrendamiento.
+@@2332
+{1}Nota:{2} esta calculadora no incluye impuestos, porque varían según el país. Asegúrate de tener en cuenta el impuesto local sobre la renta o de sociedades, las tasas turísticas o de ocupación y el impuesto sobre dividendos o sobre ganancias patrimoniales, si corresponde.
+@@2333
+Usa esta herramienta antes de comprometerte con cualquier vivienda. Si los números no salen sobre el papel, no merece la pena el riesgo.
+@@2334
+© Todos los derechos reservados. No compartas, copies, reproduzcas ni vendas ninguna parte de este documento sin permiso por escrito de Farah y Daniel. Cualquier infracción será perseguida legalmente.
+@@2335
+{1}← Volver{2}Manual del alojamiento
+@@2336
+{1}Siguiente →{2}Control financiero de tus alojamientos
+@@2337
+Herramienta · ingresos y gastos
+@@2338
+{1}Control financiero{2} de tus alojamientos
+@@2339
+Controla los ingresos, los gastos y el beneficio de cada alojamiento.
+@@2340
+Lleva el control de tus ingresos y gastos desde tu primera reserva. Te facilita la declaración de impuestos y te muestra exactamente qué alojamiento gana más. Actualízalo una vez al mes.
+@@2341
+{1}← Volver{2}Calculadora de beneficios
+@@2342
+{1}Siguiente →{2}Plantillas de acuerdos con el equipo
+@@2343
+Bonus · para tu equipo
+@@2344
+{1}Plantillas{2} de acuerdos con el equipo
+@@2345
+Cuatro acuerdos listos para tu gestor, tu limpiadora, tu manitas y tu equipo de piscina y jardín.
+@@2346
+Pon todos los acuerdos por escrito. Evita confusiones sobre tareas, pagos y responsabilidades, y te protege a ti y a tu equipo. Son las cuatro plantillas que usamos nosotros. Encontrarás más sobre cómo formar tu equipo en la {1}lección 10{2}.
+@@2347
+{1}← Volver{2}Control financiero de tus alojamientos
+@@2348
+{1}Siguiente →{2}Sistema de etiquetas
+@@2349
+Bonus · para huéspedes y equipo
+@@2350
+{1}Sistema{2} de etiquetas
+@@2351
+Qué etiquetar, cómo hacerlo y una hoja de etiquetas para imprimir.
+@@2352
+Las etiquetas son una de las formas más baratas de ahorrar tiempo. Mantienen organizado a tu equipo y responden a las preguntas de los huéspedes antes de que las hagan. Más sobre esto en la {1}lección 11{2}.
+@@2353
+Un buen etiquetado ayuda a tu equipo a mantener el orden, reduce la confusión de los huéspedes y ahorra tiempo en los cambios de huésped.

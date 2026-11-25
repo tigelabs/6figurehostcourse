@@ -1,0 +1,338 @@
+@@285
+{1}Para el rental arbitrage sí necesitas algo de presupuesto.{2} Antes de que llegue tu primer huésped, pagas la fianza, el primer mes de alquiler y los muebles para dejar la vivienda lista.
+@@286
+{1}Para que te hagas una idea: para nuestros pisos de Barcelona necesitamos unos 10.000 € para empezar.{2} Tu cifra dependerá de la vivienda y de la ubicación. Sigue siendo una fracción de lo que costaría comprar, y en cuanto empiezas a recibir reservas, lo recuperas rápido.
+@@287
+¿Ya tienes {1}una vivienda en propiedad{2}? Mejor aún. Tienes un activo que puede darte dinero. Alquilándola en una plataforma como Airbnb o Booking.com puedes sacarle mucho más partido, ya sea una segunda residencia, una vivienda de inversión o incluso una habitación libre.
+@@288
+Con la configuración adecuada, puede convertirse en una fuente estable de ingresos pasivos.
+@@289
+Aquí tienes un resumen de los modelos de negocio más habituales. Toca el que encaje contigo.
+@@290
+Coanfitrión
+@@291
+Gestionas la vivienda de otra persona a cambio de una parte de los ingresos.
+@@292
+Ventajas
+@@293
+Bajo riesgo
+@@294
+Poca inversión inicial
+@@295
+Una forma genial de empezar
+@@296
+Inconvenientes
+@@297
+Menos control
+@@298
+Tienes que demostrar lo que vales
+@@299
+Ideal para
+@@300
+Principiantes con poco presupuesto y buena capacidad de organización
+@@301
+Presupuesto para empezar
+@@302
+Casi nada
+@@303
+Este es mi modelo
+@@304
+Rental arbitrage
+@@305
+Alquilas una vivienda a largo plazo y la subarriendas a huéspedes.
+@@306
+Alto potencial de ingresos
+@@307
+Control total
+@@308
+Escala rápido
+@@309
+Necesitas permiso del propietario
+@@310
+Debes cumplir la normativa local
+@@311
+Crecimiento rápido con un capital inicial moderado
+@@312
+Fianza, primer mes de alquiler y muebles
+@@313
+Propiedad
+@@314
+Compras la vivienda y la alquilas a huéspedes.
+@@315
+Creas patrimonio
+@@316
+Libertad total
+@@317
+Inversión a largo plazo
+@@318
+Costes iniciales altos
+@@319
+Más responsabilidad financiera
+@@320
+Personas que buscan patrimonio y control a largo plazo
+@@321
+El más alto: una entrada más el amueblado
+@@322
+Tus tareas
+@@323
+Alquiler de media {1}vs.{2} corta duración
+@@324
+Elige el tipo de estancia que encaje con tus objetivos, tu ubicación y tu estilo de vida.
+@@325
+Alquiler de media duración
+@@326
+Los huéspedes se quedan de 1 a 6 meses (a veces más): sobre todo estudiantes, nómadas digitales, expatriados, personas que se trasladan por trabajo y viajeros en unas vacaciones largas.
+@@327
+Un calendario de media duración: cada anuncio lo reserva un huésped durante todo el mes.
+@@328
+Alquiler de corta duración
+@@329
+Las reservas van de 1 noche a unas semanas: sobre todo turistas de vacaciones, además de escapadas de fin de semana y viajeros de negocios.
+@@330
+Un calendario de corta duración: muchos huéspedes, cada uno se queda unas noches.
+@@331
+Así se comparan los dos.
+@@332
+Media duración
+@@333
+Corta duración
+@@334
+De 1 a 6 meses (a veces más)
+@@335
+De 1 noche a unas semanas
+@@336
+Huéspedes típicos
+@@337
+Estudiantes, nómadas digitales, expatriados, personas que se mudan, vacaciones largas
+@@338
+Sobre todo turistas, además de escapadas de fin de semana y viajeros de negocios
+@@339
+Ingresos
+@@340
+Precio por noche más bajo, pero estable y previsible
+@@341
+Precios por noche más altos, con más altibajos
+@@342
+Carga de trabajo
+@@343
+Baja: pocos cambios de huésped y menos gastos de limpieza
+@@344
+Más alta: limpiezas frecuentes y mensajes de huéspedes
+@@345
+Tu calendario
+@@346
+Menos flexible: un huésped puede ocupar todo el mes
+@@347
+Más flexible, más control y más visibilidad en los resultados de búsqueda
+@@348
+Desgaste
+@@349
+Los huéspedes viven ahí como en casa y pueden pedir más mantenimiento
+@@350
+Los huéspedes pasan casi todo el día fuera, pero cuenta con algún huésped difícil de vez en cuando
+@@351
+Normativa local
+@@352
+A menudo es la opción que funciona donde las estancias cortas están restringidas
+@@353
+A menudo necesita licencia o permiso
+@@354
+Ingresos estables y pasivos con poco trabajo
+@@355
+Máximo beneficio, con buenos sistemas
+@@356
+Elige tu tipo de estancia
+@@357
+Toca la opción que mejor encaje contigo.
+@@358
+Los huéspedes se quedan de 1 a 6 meses (a veces más).
+@@359
+Elige esto si…
+@@360
+Quieres más tranquilidad y menos trabajo diario.
+@@361
+La normativa local no permite el alquiler de corta duración.
+@@362
+Prefieres ingresos estables y previsibles antes que los ingresos más altos posibles.
+@@363
+Tu zona tiene una temporada baja marcada, o muchos estudiantes, expatriados y teletrabajadores.
+@@364
+Ofreceré estancias de media duración
+@@365
+Las reservas van de 1 noche a unas semanas.
+@@366
+Quieres los ingresos más altos posibles.
+@@367
+El alquiler de corta duración está permitido en tu zona, o tienes (o puedes conseguir) una licencia.
+@@368
+Tu zona recibe muchos turistas o viajeros de negocios todo el año.
+@@369
+Estás listo para montar buenos sistemas: limpieza, check-in y mensajes a huéspedes.
+@@370
+Ofreceré estancias de corta duración
+@@371
+¿Todavía no lo tienes claro? También puedes combinar ambos: corta duración en temporada alta y media duración en temporada baja, siempre que la normativa local lo permita.
+@@372
+Viviendas compartidas {1}vs.{2} privadas
+@@373
+La segunda decisión es qué reservan realmente los huéspedes: el alojamiento entero, una habitación o ambos.
+@@374
+Viviendas privadas
+@@375
+Los huéspedes tienen uso exclusivo de toda la vivienda o suite, con entrada, dormitorio y baño privados.
+@@376
+Espacios compartidos
+@@377
+Los huéspedes alquilan una habitación en una vivienda más grande y comparten las zonas comunes (cocina, piscina, salón).
+@@378
+Bueno saberlo: “coliving”.
+@@379
+ La mayoría de la gente que gestiona espacios compartidos lo llama
+@@380
+coliving
+@@381
+. Es el mismo concepto: habitaciones privadas y zonas comunes compartidas. En ciudades con normas más estrictas y más tensión en torno al alquiler de corta duración, presentar tu vivienda como un coliving puede facilitar las conversaciones.
+@@382
+Anúncialo de las dos formas
+@@383
+Anuncias la misma vivienda de dos formas a la vez: como alojamiento entero y por habitaciones. Este es el formato que solemos usar nosotros.
+@@384
+Una vivienda tiene varios anuncios: uno para la vivienda entera y uno para cada dormitorio. Una familia o un grupo de amigos puede reservar todo el alojamiento. Un viajero solo o una pareja puede reservar una sola habitación y compartir la cocina, el salón o la piscina con otros huéspedes. La reserva que entra primero se queda con las fechas.*
+@@385
+Los calendarios deben estar sincronizados.
+@@386
+ Si se reserva una habitación, se bloquea toda la vivienda para esas fechas, y al revés. Si no, te arriesgas a una doble reserva.
+@@387
+Así se comparan los tres.
+@@388
+Privado
+@@389
+Compartido
+@@390
+De las dos formas
+@@391
+Los huéspedes reservan
+@@392
+El alojamiento entero
+@@393
+Una habitación, compartiendo las zonas comunes
+@@394
+El alojamiento entero o una habitación
+@@395
+Precio
+@@396
+El más alto por noche
+@@397
+Menor por reserva, pero más por metro cuadrado
+@@398
+Flexible: lo vendes de las dos formas y ves qué da más
+@@399
+Ocupación
+@@400
+Una reserva cada vez
+@@401
+Mucha demanda, porque es más asequible para los viajeros
+@@402
+La más alta: las habitaciones llenan los huecos que deja una reserva del alojamiento entero
+@@403
+Huéspedes
+@@404
+La preferida de la mayoría de viajeros: mejores reseñas, menos quejas
+@@405
+Genial para viajeros solos y sociables, pero más riesgo de ruido o conflictos
+@@406
+Funciona para grupos y familias y también para viajeros solos
+@@407
+Costes
+@@408
+Más altos: amueblas y mantienes todo el espacio
+@@409
+Menores por huésped
+@@410
+Los mismos muebles, el mismo equipo y la misma configuración sirven para ambos
+@@411
+Esfuerzo
+@@412
+El más sencillo: las expectativas son simples
+@@413
+Más normas de la casa, etiquetas y comunicación clara
+@@414
+El que más preparación requiere: más anuncios que gestionar, y la estancia mínima y los precios exigen más reflexión
+@@415
+Un mercado amplio de viajeros
+@@416
+Zonas populares entre mochileros y nómadas digitales
+@@417
+Viviendas con varios dormitorios
+@@418
+Elige tu configuración
+@@419
+Los huéspedes tienen uso exclusivo de toda la vivienda o suite.
+@@420
+Quieres la configuración más fácil de gestionar.
+@@421
+Quieres las mejores reseñas y precios por noche más altos.
+@@422
+Tu vivienda es un estudio o un piso que funciona mejor como una sola unidad.
+@@423
+Puedes asumir costes de puesta en marcha y de mantenimiento más altos.
+@@424
+Anunciaré un espacio privado
+@@425
+Los huéspedes alquilan una habitación y comparten las zonas comunes.
+@@426
+Tu zona atrae a mochileros, viajeros solos o nómadas digitales.
+@@427
+Quieres el máximo ingreso por metro cuadrado.
+@@428
+No te importa trabajar con normas de la casa, etiquetas y comunicación clara.
+@@429
+Tu vivienda tiene varios dormitorios y buenas zonas comunes.
+@@430
+Anunciaré espacios compartidos
+@@431
+La misma vivienda anunciada como alojamiento entero y por habitaciones.
+@@432
+Tu vivienda tiene varios dormitorios.
+@@433
+Tu zona atrae tanto a grupos como a viajeros solos.
+@@434
+Quieres la ocupación más alta.
+@@435
+Estás listo para más preparación al principio.
+@@436
+Ofreceré las dos opciones
+@@437
+No hay una solución única. La clave es elegir con intención, según tu ubicación, tu personalidad, tu público objetivo y los sistemas que estés dispuesto a crear.
+@@438
+{1}← Volver{2}Tu hoja de ruta
+@@439
+{1}Siguiente →{2}Normativa y reglas locales
+@@440
+Parte 1 · Lección 2
+@@441
+Normativa y {1}reglas{2} locales
+@@442
+La parte aburrida (que protege tu negocio).
+@@443
+2 secciones · unos 15 min
+@@444
+{1}1{2}Entender la normativa local
+@@445
+{1}2{2}Forma legal: ¿particular, autónomo o empresa?
+@@446
+Entender la normativa local
+@@447
+{1}Las normas sobre el alquiler de viviendas varían mucho según dónde estés, pero eso también ofrece oportunidades. {2}En general, las ciudades con más turismo suelen tener normas más estrictas por la escasez de vivienda, los límites al turismo y el control de las administraciones locales.
+@@448
+Ciudades como Barcelona, París, Nueva York y Ámsterdam suelen exigir licencias, limitar el número de noches de alquiler o restringir el alquiler de corta duración a ciertas zonas.
+@@449
+{1}Eso no significa que los lugares muy regulados estén descartados.{2} Ahora mismo gestionamos varios pisos de éxito en Barcelona, una de las ciudades más difíciles para Airbnb. No tienen licencia turística, pero todos son legales.
+@@450
+{1}En Barcelona, cualquiera puede crear un anuncio en una plataforma como Airbnb sin licencia, siempre que las estancias sean de 31 noches o más.{2} Poca gente lo sabe, y ahí está precisamente la oportunidad.
+@@451
+Aunque las estancias mensuales suelen generar menos ingresos por noche que las reservas cortas, siguen siendo muy rentables. Además, implican menos cambios de huésped, menos gestión diaria y más estabilidad. Puede que ni siquiera necesites un gestor ni un equipo a tiempo completo.
+@@452
+Por otro lado, {1}algunas zonas son mucho más flexibles y fáciles para empezar.{2} Lugares como Bali, partes de México, Portugal y el sur de España son conocidos por ser más abiertos al alquiler de corta duración, sobre todo en zonas turísticas o con estancias más largas. Por eso es clave elegir bien la ubicación.
+@@453
+Antes de anunciar cualquier vivienda, es fundamental entender las leyes y normas locales de tu zona. Cada ciudad tiene sus propias reglas para el alquiler de corta duración. Algunas exigen licencias o permisos específicos, otras limitan el número de noches que puedes alquilar y en algunas zonas el alquiler de corta duración no está permitido en absoluto.

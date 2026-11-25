@@ -1,0 +1,204 @@
+@@721
+{1}Señal de alerta:{2} contratos que mencionan “prohibido subarrendar”, “prohibido el uso comercial” o restricciones sobre la frecuencia de huéspedes.
+@@722
+Propietarios o administradores poco colaboradores
+@@723
+Si un propietario parece incómodo con tu plan o no te da permiso por escrito, no sigas adelante. Un sí vago de palabra no te protegerá si algo sale mal. Quieres un acuerdo claro desde el principio.
+@@724
+{1}Señal de alerta:{2} propietarios que esquivan el tema, dicen “ya veremos cómo va” o se niegan a poner nada por escrito.
+@@725
+Vecinos problemáticos o paredes finas
+@@726
+Los vecinos enfadados son una de las formas más rápidas de perder un anuncio. Si compartes pared con gente que odia el ruido, los huéspedes o los desconocidos en el edificio, te estás buscando quejas y posibles problemas legales.
+@@727
+{1}Señal de alerta:{2} conflictos anteriores en el edificio, quejas de otros inquilinos o paredes extrafinas.
+@@728
+Mala distribución o poca privacidad
+@@729
+Los huéspedes valoran la privacidad, la funcionalidad y la comodidad. Evita viviendas con distribuciones raras, sin puertas entre zonas de dormir o con baños que parecen demasiado expuestos. Esto puede traer malas reseñas y baja ocupación. Los huéspedes de media duración, como los nómadas digitales, también necesitan un buen sitio para trabajar y wifi rápido.
+@@730
+{1}Señal de alerta:{2} estudios que intentan parecer pisos de 2 dormitorios, baños compartidos o nada de aislamiento acústico.
+@@731
+Ubicaciones difíciles de llegar o sin aparcamiento
+@@732
+La ubicación no es solo estar en el centro. Es ser cómoda. Si la vivienda es difícil de encontrar, está lejos del transporte o no tiene ningún aparcamiento, puede echar para atrás a posibles huéspedes. Los huéspedes de media duración, como estudiantes y teletrabajadores, también quieren tiendas, cafeterías y transporte público cerca.
+@@733
+{1}Señal de alerta:{2} zonas aisladas sin transporte público o pisos en ciudad con aparcamiento caro o inexistente.
+@@734
+Demasiadas cosas personales o desperfectos
+@@735
+Las viviendas que siguen llenas de cosas del propietario, obras de arte caras o muebles delicados pueden dar muchos dolores de cabeza. Para ser anfitrión necesitas un espacio listo para huéspedes, resistente y fácil de limpiar.
+@@736
+{1}Señal de alerta:{2} viviendas abarrotadas, objetos sentimentales o frágiles y espacios que no se han “entregado” del todo.
+@@737
+Sin historial
+@@738
+Si la vivienda nunca se ha alquilado y el propietario duda, tómatelo como una prueba. Prueba con un contrato más corto o pide un periodo de prueba para reducir tu riesgo.
+@@739
+{1}Señal de alerta:{2} alquiler alto, ningún dato que respalde la demanda o propietarios que esperan un compromiso de un año entero sin flexibilidad.
+@@740
+{1}En resumen:{2} es mejor renunciar a un trato arriesgado que arrepentirte después. Confía en tu instinto, investiga y no hagas concesiones en claridad legal, calidad de la ubicación o experiencia del huésped. Una buena vivienda es la base de un negocio de alojamiento rentable y sin estrés.
+@@741
+Calcula los costes y el potencial de beneficio
+@@742
+Lo que cuesta de verdad empezar {1}(y cómo mantenerlo bajo){2}
+@@743
+Una de las grandes preguntas que se hace la gente es: {1}¿cuánto cuesta realmente empezar un negocio de alojamiento? La buena noticia es que probablemente mucho menos de lo que crees,{2} sobre todo si no compras una vivienda.
+@@744
+Si haces rental arbitrage, tus costes principales serán el primer mes de alquiler, la fianza y amueblar el espacio. Si eres coanfitrión, tus costes son casi cero porque trabajas con la vivienda de otra persona. En cualquier caso, puedes empezar con poco y crecer con cabeza.
+@@745
+Estos son los costes iniciales habituales del rental arbitrage:
+@@746
+Primer mes de alquiler
+@@747
+Fianza (normalmente un mes)
+@@748
+Muebles y básicos
+@@749
+Productos de limpieza
+@@750
+Fotografía (puedes hacerla tú con un buen móvil)
+@@751
+Para mantener los costes bajos, empieza de forma sencilla. No necesitas muebles de lujo ni un interiorismo sofisticado para impresionar a los huéspedes. Necesitas limpieza, comodidad y funcionalidad. Usa plataformas de segunda mano como Facebook Marketplace o Wallapop, compra en lotes o amuebla poco a poco y mejora a medida que ganes.
+@@752
+Además, céntrate en lo que de verdad importa a los huéspedes: {1}una buena cama, wifi rápido, un espacio limpio y una comunicación clara. Eso es lo que te consigue reservas y reseñas de cinco estrellas.{2}
+@@753
+Empezar pequeño y reinvertir los beneficios es exactamente como construimos nuestro negocio. No le des demasiadas vueltas, no gastes de más y no intentes que sea perfecto. Lanza con cabeza, mantenlo sencillo y mejora a medida que creces.
+@@754
+Haz tus propios números
+@@755
+¿Quieres ver qué significan estos costes para tu beneficio? Usa la calculadora de beneficios y ROI. Te permite introducir los costes previstos, los precios por noche, la ocupación y otras cifras clave para estimar tu beneficio mensual y el retorno de la inversión. Úsala para comparar viviendas, detectar señales de alerta y tomar decisiones inteligentes basadas en datos.
+@@756
+Abrir la calculadora de beneficios
+@@757
+Bonus: matriz de decisión para nuevas viviendas
+@@758
+Antes de comprometerte con cualquier vivienda, tienes que asegurarte de que de verdad es una inversión inteligente. En lugar de dejarte llevar por las “sensaciones” o enamorarte de una cocina bonita, esta herramienta te ayuda a evaluar posibles viviendas según lo que de verdad importa.
+@@759
+Puntúa cada categoría, súmalo todo y tendrás una idea clara de si merece tu tiempo y tu dinero.
+@@760
+Matriz de decisión
+@@761
+Nombre de la vivienda
+@@762
+Demanda en la zona
+@@763
+¿Hay mucha demanda de huéspedes (de corta o media duración), según AirROI o tu estudio local?
+@@764
+Permiso legal
+@@765
+¿Está permitido legalmente el alquiler de corta o media duración en esta zona?
+@@766
+Potencial de beneficio
+@@767
+¿Cuál es el beneficio mensual estimado después de gastos? Usa tu {1}calculadora de ROI{2} como ayuda.
+@@768
+Estado de la vivienda
+@@769
+¿Está lista para entrar a vivir o necesita una gran reforma o inversión?
+@@770
+Costes iniciales
+@@771
+¿Qué tan asumibles son la fianza, los muebles y la puesta en marcha comparados con tu presupuesto disponible?
+@@772
+Facilidad de gestión
+@@773
+¿Será fácil gestionar los check-ins, la limpieza y la atención a huéspedes en esta ubicación?
+@@774
+Atractivo para los huéspedes
+@@775
+¿Es fotogénica, está bien ubicada y es probable que impresione a los huéspedes? ¿Tiene características únicas?
+@@776
+Relación con el propietario (si no compras)
+@@777
+¿Está el propietario abierto al alquiler de corta o media duración o al rental arbitrage? ¿Es fácil comunicarse con él y es fiable?
+@@778
+Potencial de crecimiento
+@@779
+¿Podrías gestionar más viviendas en este edificio o zona más adelante?
+@@780
+Vecinos y comunidad
+@@781
+¿Los vecinos son amables o tolerantes con los huéspedes? ¿Está el edificio abierto al alquiler de corta o media duración?
+@@782
+Puntuación total
+@@783
+Puntuar otra vivienda
+@@784
+{1}← Volver{2}Haz un estudio de mercado
+@@785
+{1}Siguiente →{2}Convence a los propietarios
+@@786
+Parte 1 · Lección 6
+@@787
+Convence a los {1}propietarios{2}
+@@788
+Si quieres subarrendar legalmente (rental arbitrage).
+@@789
+4 secciones · unos 25 min
+@@790
+{1}1{2}Por qué los propietarios dicen que sí
+@@791
+{1}2{2}Cómo responder a las objeciones
+@@792
+{1}3{2}Bonus: guiones, plantillas de email y presentación en persona
+@@793
+{1}4{2}Cerrar el trato
+@@794
+Por qué los propietarios dicen que sí
+@@795
+(y cómo plantear tu oferta)
+@@796
+La mayoría de la gente da por hecho que los propietarios dirán que no al subarriendo. Pero la verdad es que muchos dicen que sí cuando la oferta se plantea bien.
+@@797
+¿Por qué? Porque les resuelves un problema real.
+@@798
+La mayoría de los propietarios quieren exactamente tres cosas: ingresos fiables, una vivienda bien cuidada y el menor estrés posible. Los inquilinos tradicionales de larga duración pueden traer riesgos como impagos, mala comunicación, desperfectos o incluso conflictos legales.
+@@799
+Con el rental arbitrage ofreces una alternativa inteligente:
+@@800
+Pagos constantes y puntuales
+@@801
+Limpieza profesional después de cada huésped
+@@802
+Mantenimiento e inspecciones continuos
+@@803
+Una gestión organizada que no les da trabajo
+@@804
+Cuando presentes tu propuesta a un propietario, ten en cuenta esto: si está alquilando una vivienda, probablemente tiene al menos dos (una para vivir y otra para alquilar). Eso suele significar que tiene mentalidad de negocio o de emprendedor.
+@@805
+Puede que esté más abierto de lo que crees, sobre todo si ve que te tomas esto como un negocio serio y no como un trabajillo extra.
+@@806
+Tu éxito como anfitrión depende de mantener su vivienda en perfecto estado, porque las malas reseñas acaban con las reservas. Así que te interesa cuidar su vivienda mejor de lo que lo haría la mayoría de los inquilinos de larga duración.
+@@807
+Para generar confianza, enséñale tus sistemas. Explícale la checklist de limpieza, las plantillas de comunicación con huéspedes y tus procedimientos (los encontrarás todos en este curso). Demuéstrale que no improvisas, sino que diriges un negocio bien organizado y centrado en el huésped. Eso le da tranquilidad.
+@@808
+Sobre todo, deja claro que respetas muchísimo a los vecinos y a la comunidad. Filtras a los huéspedes, respetas las normas de la casa y mantienes las horas de silencio, porque unos vecinos contentos son la clave del éxito a largo plazo. Si planteas bien tu oferta, no solo estás pidiendo permiso. Estás ofreciendo algo en lo que todos ganan.
+@@809
+Los propietarios listos de hecho estarían encantados de trabajar con inquilinos profesionales, porque les resuelves sus mayores quebraderos de cabeza.
+@@810
+Céntrate en su mayor miedo: los malos inquilinos
+@@811
+{1}Ahora compáralo con alquilarte a ti, un inquilino profesional.{2} El propietario puede contar con:
+@@812
+Alquiler garantizado, sin retrasos en los pagos
+@@813
+Una vivienda en perfecto estado
+@@814
+Limpieza profesional después de cada estancia
+@@815
+Reparaciones inmediatas por expertos si hay desperfectos
+@@816
+Cámaras de seguridad en el exterior
+@@817
+Protocolos de filtrado de huéspedes
+@@818
+Inspecciones periódicas de la vivienda
+@@819
+Tu mejor argumento para convencer a un propietario
+@@820
+Cuanto mejor cuides la vivienda, más reseñas de 5 estrellas tendrás y más beneficio. Necesitas que la casa siga en perfecto estado para que esto funcione.
+@@821
+Por eso tus intereses y los del propietario son los mismos: un huésped que encuentra la casa sucia o dañada deja una mala reseña, y las malas reseñas te cuestan dinero. Así que cuidas su vivienda mejor que casi cualquier inquilino. Reseñas como esta son por las que trabajas:
+@@822
+{1}Todos ganan:{2} él no tiene ningún quebradero de cabeza y tú consigues una vivienda que puedes subarrendar legalmente y con beneficio. Pero no funcionará si solo le escribes: {3}“Hola, ¿puedo hacer Airbnb?”{4} Tienes que vender la idea, mostrarle los beneficios y ponérselo fácil para decir que sí. Puede que escribas a 10 propietarios y solo uno diga que sí, pero un sí es todo lo que necesitas.
