@@ -193,7 +193,7 @@ Socorro, tem uma aranha no meu quarto
 @@1366
 Parte 3 · Aula 10
 @@1367
-Você não está sozinho. Monte o {1}time{2} dos sonhos
+Você não está sozinho. Monte o time dos {1}sonhos{2}
 @@1368
 Agência ou time próprio, e como encontrar pessoas de confiança.
 @@1369

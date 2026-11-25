@@ -67,7 +67,7 @@ Descargar etiquetas para imprimir
 @@2387
 Bonus · cada 6 meses
 @@2388
-{1}Inspecciones{2} del alojamiento
+Inspecciones del {1}alojamiento{2}
 @@2389
 Inspecciones de mantenimiento y limpieza, para marcar aquí o descargar.
 @@2390
@@ -89,7 +89,7 @@ Descargar las checklists
 @@2398
 Bonus · limpieza y cambios de huésped
 @@2399
-{1}Checklists{2} para el equipo
+Checklists para el {1}equipo{2}
 @@2400
 Checklists de cambio de huésped, limpieza a fondo y piscina y jardín para tu equipo.
 @@2401
@@ -101,7 +101,7 @@ Da a tu equipo checklists claras para que cada cambio de huésped quede igual, l
 @@2404
 Bonus · para tus huéspedes
 @@2405
-{1}Guía{2} de bienvenida
+Guía de {1}bienvenida{2}
 @@2406
 Una guía de bienvenida completa para tus huéspedes, editable en Canva.
 @@2407
@@ -111,7 +111,7 @@ Una buena guía de bienvenida responde a las preguntas de tus huéspedes antes d
 @@2409
 {1}Siguiente →{2}Hoja de bienvenida
 @@2410
-{1}Hoja{2} de bienvenida
+Hoja de {1}bienvenida{2}
 @@2411
 ¿Prefieres algo sencillo? Esta hoja de bienvenida de una página cubre lo esencial. Enmárcala para que esté siempre limpia y a la vista. Más sobre esto en la {1}lección 7{2}.
 @@2412
@@ -169,7 +169,7 @@ Puedes enviarlo por WhatsApp, por Airbnb o como mensaje de grupo después de una
 @@2438
 Bonus · aprende de los nuestros
 @@2439
-{1}Errores{2} comunes
+Errores {1}comunes{2}
 @@2440
 Tanto si estás empezando como si ya gestionas varios anuncios, estos son los errores que más tiempo, dinero y tranquilidad cuestan a los anfitriones. {1}La mayoría los cometimos nosotros, para que tú no tengas que hacerlo.{2}
 @@2441
@@ -245,7 +245,7 @@ La conclusión
 @@2476
 {1}Siguiente →{2}Resumen de prompts de IA
 @@2477
-{1}Resumen{2} de prompts de IA
+Prompts de IA: {1}resumen{2}
 @@2478
 Todos los prompts de IA y mensajes para copiar y pegar del curso, en un solo lugar.
 @@2479

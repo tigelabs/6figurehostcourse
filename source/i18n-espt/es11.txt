@@ -95,7 +95,7 @@ Vaciar la checklist
 @@1214
 Parte 2 · Lección 9
 @@1215
-Ofrece una experiencia inolvidable para conseguir {1}reseñas{2} de 5 estrellas
+Ofrece una experiencia inolvidable para conseguir reseñas de 5 {1}estrellas{2}
 @@1216
 Expectativas, quejas y un gran servicio.
 @@1217

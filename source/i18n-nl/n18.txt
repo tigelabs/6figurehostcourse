@@ -294,7 +294,7 @@ Gebruik deze tool voordat je je aan een woning verbindt. Kloppen de cijfers op p
 @@2337
 Tool · inkomsten &amp; uitgaven
 @@2338
-Financiële {1}tracker{2} voor je woning
+Financiële tracker voor je {1}woning{2}
 @@2339
 Houd inkomsten, uitgaven en winst per woning bij.
 @@2340

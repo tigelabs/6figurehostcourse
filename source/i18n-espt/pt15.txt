@@ -67,7 +67,7 @@ Controle de suprimentos e roupa de cama.
 @@1708
 Parte 3 · Aula 12
 @@1709
-Automatize para ter {1}renda{2} passiva
+Automatize para ter renda {1}passiva{2}
 @@1710
 Self check-in, o que automatizar, o que delegar.
 @@1711

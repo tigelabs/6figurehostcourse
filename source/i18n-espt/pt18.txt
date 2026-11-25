@@ -35,7 +35,7 @@ As senhas ficam salvas só neste navegador, neste dispositivo. Altere aqui sempr
 @@2218
 Ferramenta · lucro e ROI
 @@2219
-{1}Calculadora{2} de lucro e ROI
+Calculadora de ROI e {1}lucro{2}
 @@2220
 Anfitriões inteligentes fazem as contas primeiro; a emoção vem depois.
 @@2221
@@ -294,7 +294,7 @@ Use esta ferramenta antes de se comprometer com qualquer imóvel. Se os números
 @@2337
 Ferramenta · receitas e despesas
 @@2338
-{1}Controle financeiro{2} dos imóveis
+Controle financeiro dos {1}imóveis{2}
 @@2339
 Acompanhe receitas, despesas e lucro de cada imóvel.
 @@2340
@@ -306,7 +306,7 @@ Controle suas receitas e despesas desde a primeira reserva. Isso facilita sua de
 @@2343
 Bônus · para o seu time
 @@2344
-{1}Modelos{2} de acordo com o time
+Modelos de acordo com o {1}time{2}
 @@2345
 Quatro acordos prontos para seu gerente, sua faxineira, seu faz-tudo e seu time de piscina e jardim.
 @@2346
@@ -318,7 +318,7 @@ Coloque todos os acordos por escrito. Isso evita confusão sobre tarefas, pagame
 @@2349
 Bônus · para hóspedes e time
 @@2350
-{1}Sistema{2} de etiquetas
+Sistema de {1}etiquetas{2}
 @@2351
 O que etiquetar, como fazer e uma folha de etiquetas para imprimir.
 @@2352

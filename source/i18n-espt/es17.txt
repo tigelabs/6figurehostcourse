@@ -125,7 +125,7 @@ Leer
 @@2001
 Bonus · muebles, decoración e imprescindibles
 @@2002
-{1}Checklist{2} completa de equipamiento
+Checklist completa de {1}equipamiento{2}
 @@2003
 Todo lo que hay que comprar, habitación por habitación.
 @@2004
@@ -433,7 +433,7 @@ Toca ✕ en un artículo que no necesites y pasará aquí. Toca ↺ para recuper
 @@2155
 Bonus · la wiki de tu alojamiento
 @@2156
-{1}Manual{2} del alojamiento
+Manual del {1}alojamiento{2}
 @@2157
 Todo lo que tu equipo necesita saber, en un solo lugar.
 @@2158

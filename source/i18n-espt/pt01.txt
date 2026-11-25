@@ -45,7 +45,7 @@ Inspire-se com a nossa história
 @@154
 Introdução · seu plano
 @@155
-Seu {1}roteiro{2} de lançamento
+Seu roteiro de {1}lançamento{2}
 @@156
 Seu roteiro de 30 dias para lançar seu primeiro anúncio.
 @@157

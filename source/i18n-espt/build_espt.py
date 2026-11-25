@@ -15,6 +15,8 @@ SW={'Switch to English':{'nl':'Overschakelen naar Engels','es':'Cambiar a inglé
     'Choose language':{'nl':'Kies een taal','es':'Elige el idioma','pt':'Escolha o idioma'}}
 k0=s.find('var I18N=')+len('var I18N=')
 d,end=json.JSONDecoder().raw_decode(s[k0:])
+for k,v in [x for f in sorted(glob.glob('/home/claude/nl/n[0-9][0-9].txt')) for x in parse(f).items()]:
+    d['nl']['u'][k]=re.sub(r'\{(\d+)\}',lambda m:items[k]['tags'][int(m.group(1))-1],v)
 for L in ('es','pt'):
     u={}
     for f in sorted(glob.glob('/home/claude/nl/%s[0-9][0-9].txt'%L)):

@@ -121,7 +121,7 @@ Liever iets eenvoudigs? Dit welkomstblad van één pagina bevat de basis. Lijst 
 @@2414
 Bonus · voor gedeelde woningen
 @@2415
-{1}Gedeelde ruimtes{2} opruimen
+Gedeelde ruimtes {1}opruimen{2}
 @@2416
 Een eenvoudig proces in 3 stappen, met berichten die klaar zijn om te versturen.
 @@2417

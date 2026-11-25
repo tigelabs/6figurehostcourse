@@ -35,7 +35,7 @@ Los códigos solo se guardan en este navegador, en este dispositivo. Cámbialos 
 @@2218
 Herramienta · beneficios y ROI
 @@2219
-{1}Calculadora{2} de beneficios y ROI
+Calculadora de ROI y {1}beneficios{2}
 @@2220
 Los anfitriones listos hacen números primero; la emoción va después.
 @@2221
@@ -294,7 +294,7 @@ Usa esta herramienta antes de comprometerte con cualquier vivienda. Si los núme
 @@2337
 Herramienta · ingresos y gastos
 @@2338
-{1}Control financiero{2} de tus alojamientos
+Control financiero de tus {1}alojamientos{2}
 @@2339
 Controla los ingresos, los gastos y el beneficio de cada alojamiento.
 @@2340
@@ -306,7 +306,7 @@ Lleva el control de tus ingresos y gastos desde tu primera reserva. Te facilita 
 @@2343
 Bonus · para tu equipo
 @@2344
-{1}Plantillas{2} de acuerdos con el equipo
+Plantillas de acuerdos con el {1}equipo{2}
 @@2345
 Cuatro acuerdos listos para tu gestor, tu limpiadora, tu manitas y tu equipo de piscina y jardín.
 @@2346
@@ -318,7 +318,7 @@ Pon todos los acuerdos por escrito. Evita confusiones sobre tareas, pagos y resp
 @@2349
 Bonus · para huéspedes y equipo
 @@2350
-{1}Sistema{2} de etiquetas
+Sistema de {1}etiquetas{2}
 @@2351
 Qué etiquetar, cómo hacerlo y una hoja de etiquetas para imprimir.
 @@2352

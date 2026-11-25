@@ -311,7 +311,7 @@ No hay una solución única. La clave es elegir con intención, según tu ubicac
 @@440
 Parte 1 · Lección 2
 @@441
-Normativa y {1}reglas{2} locales
+Normativa y reglas {1}locales{2}
 @@442
 La parte aburrida (que protege tu negocio).
 @@443

@@ -311,7 +311,7 @@ Não existe uma fórmula única. O segredo é escolher com intenção, com base 
 @@440
 Parte 1 · Aula 2
 @@441
-Leis e {1}regras{2} locais
+Leis e regras {1}locais{2}
 @@442
 A parte chata (que protege seu negócio).
 @@443

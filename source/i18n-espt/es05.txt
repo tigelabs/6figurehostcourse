@@ -124,7 +124,7 @@ Repite esta búsqueda cada pocos meses, también después del lanzamiento. Los p
 @@695
 Parte 1 · Lección 5
 @@696
-Encuentra la {1}vivienda{2} adecuada
+Encuentra la vivienda {1}adecuada{2}
 @@697
 Dónde encontrar viviendas, señales de alerta y los números.
 @@698

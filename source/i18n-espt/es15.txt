@@ -67,7 +67,7 @@ Control de suministros y ropa de cama.
 @@1708
 Parte 3 · Lección 12
 @@1709
-Automatiza para tener {1}ingresos{2} pasivos
+Automatiza para tener ingresos {1}pasivos{2}
 @@1710
 Self check-in, qué automatizar y qué delegar.
 @@1711

@@ -67,7 +67,7 @@ Baixar etiquetas para imprimir
 @@2387
 Bônus · a cada 6 meses
 @@2388
-{1}Inspeções{2} do imóvel
+Inspeções do {1}imóvel{2}
 @@2389
 Inspeções de manutenção e limpeza, para marcar aqui ou baixar.
 @@2390
@@ -89,7 +89,7 @@ Baixar os checklists
 @@2398
 Bônus · limpeza e trocas de hóspede
 @@2399
-{1}Checklists{2} para o time
+Checklists para o {1}time{2}
 @@2400
 Checklists de troca de hóspede, faxina pesada e piscina e jardim para o seu time.
 @@2401
@@ -101,7 +101,7 @@ Dê ao seu time checklists claros, para que toda troca fique igual, não importa
 @@2404
 Bônus · para os seus hóspedes
 @@2405
-{1}Guia{2} de boas-vindas
+Guia de {1}boas-vindas{2}
 @@2406
 Um guia de boas-vindas completo para os seus hóspedes, editável no Canva.
 @@2407
@@ -111,7 +111,7 @@ Um bom guia de boas-vindas responde às perguntas dos hóspedes antes que eles p
 @@2409
 {1}Próximo →{2}Folha de boas-vindas
 @@2410
-{1}Folha{2} de boas-vindas
+Folha de {1}boas-vindas{2}
 @@2411
 Prefere algo simples? Esta folha de boas-vindas de uma página cobre o essencial. Coloque num quadro para ficar sempre limpa e à vista. Mais sobre isso na {1}aula 7{2}.
 @@2412
@@ -169,7 +169,7 @@ Você pode mandar isto por WhatsApp, pelo Airbnb ou num grupo depois de uma faxi
 @@2438
 Bônus · aprenda com os nossos
 @@2439
-{1}Erros{2} comuns
+Erros {1}comuns{2}
 @@2440
 Esteja você começando ou já gerenciando vários anúncios, estas são as armadilhas que mais custam tempo, dinheiro e paz de espírito aos anfitriões. {1}A gente cometeu a maioria delas, para você não precisar cometer.{2}
 @@2441
@@ -245,7 +245,7 @@ A lição
 @@2476
 {1}Próximo →{2}Visão geral dos prompts de IA
 @@2477
-{1}Visão geral{2} dos prompts de IA
+Prompts de IA: {1}resumo{2}
 @@2478
 Todos os prompts de IA e mensagens para copiar e colar do curso, num só lugar.
 @@2479

@@ -35,7 +35,7 @@ Conte sua experiência, compartilhe seu progresso e tire dúvidas com pessoas qu
 @@1956
 {1}Próximo →{2}Seu kit inicial de anfitrião
 @@1957
-{1}Kit{2} inicial de anfitrião
+Kit inicial de {1}anfitrião{2}
 @@1958
 Todos os modelos, ferramentas e recursos bônus do curso, num só lugar.
 @@1959
@@ -125,7 +125,7 @@ Ler
 @@2001
 Bônus · móveis, decoração e itens essenciais
 @@2002
-{1}Checklist{2} completo de montagem
+Checklist completo de {1}montagem{2}
 @@2003
 Tudo o que comprar, cômodo por cômodo.
 @@2004
@@ -433,7 +433,7 @@ Toque em ✕ num item de que você não precisa e ele vem para cá. Toque em ↺
 @@2155
 Bônus · a wiki do seu imóvel
 @@2156
-{1}Manual{2} do imóvel
+Manual do {1}imóvel{2}
 @@2157
 Tudo o que seu time precisa saber, num só lugar.
 @@2158

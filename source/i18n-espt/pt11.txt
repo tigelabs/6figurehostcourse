@@ -95,7 +95,7 @@ Limpar o checklist
 @@1214
 Parte 2 · Aula 9
 @@1215
-Ofereça uma experiência inesquecível para ter {1}avaliações{2} 5 estrelas
+Ofereça uma experiência inesquecível para ter avaliações 5 {1}estrelas{2}
 @@1216
 Expectativas, reclamações e um ótimo atendimento.
 @@1217

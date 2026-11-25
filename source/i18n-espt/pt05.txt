@@ -124,7 +124,7 @@ Repita essa pesquisa a cada poucos meses, também depois do lançamento. Preços
 @@695
 Parte 1 · Aula 5
 @@696
-Encontre o {1}imóvel{2} certo
+Encontre o imóvel {1}certo{2}
 @@697
 Onde achar imóveis, sinais de alerta e os números.
 @@698
