@@ -1,0 +1,21 @@
+COPY_NL="© Alle rechten voorbehouden. Deel, kopieer, verveelvoudig of verkoop geen enkel deel van dit document zonder schriftelijke toestemming van Farah Cuyvers en Daniel Martí. Elke inbreuk wordt vervolgd. "
+RICH={
+('AIRBNB CLEANING ','Checklists'):['AIRBNB SCHOONMAAK-','checklists'],
+(' ','TURNOVER',' ','checklist'):[' ','CHECKLIST',' ','wisselingen'],
+('DEEP ','Cleaning'):['GROTE ','schoonmaak'],
+('POOL ','And',' ','GARDEN'):['ZWEMBAD ','en',' ','TUIN'],
+('BUY FREQUENTLY  ','Consumables'):['VAAK KOPEN  ','Verbruiksartikelen'],
+('BUY ONCE   ','Reusable items'):['EÉN KEER KOPEN   ','Herbruikbare spullen'],
+('INVENTORY ','Overview'):['INVENTARIS','overzicht'],
+('LINEN & GUEST ','essentials'):['BEDDENGOED & ','basisspullen'],
+}
+WELCOME_NL=["\n","Consistentie is essentieel voor een gastervaring van hoge kwaliteit, en dat begint met een duidelijk systeem. Met deze checklists volgen jij of je team elke keer hetzelfde proces, zodat je woning brandschoon, functioneel en gastvrij blijft.\n\n","Je vindt 3 soorten checklists:","\n\n","Schoonmaak bij wisselingen:"," dagelijkse taken of taken na de check-out om de ruimte klaar te maken voor de volgende gast.\n\n","Grote schoonmaak:"," taken die elke 1–3 maanden (of wanneer nodig) gedaan moeten worden voor hygiëne en een goede staat van de woning op lange termijn.\n\n","Onderhoud van zwembad & tuin:"," vaste zorg om buitenruimtes veilig, schoon en mooi te houden, vooral belangrijk in tropische klimaten.\n\n","Elke checklist bevat aanbevolen frequenties, hulpmiddelen en een volgorde van uitvoering, zodat de schoonmaak efficiënt verloopt en niets wordt vergeten. Print je checklists en hang ze op een zichtbare plek in de woning, het liefst gelamineerd zodat je ze opnieuw kunt gebruiken. Gebruik uitwisbare stiften om taken af te vinken zonder opnieuw te printen. Je kunt ze ook delen in je digitale woningwiki, zodat je team er makkelijk bij kan. ","\n\n",COPY_NL]
+TURN_NL=["Een checklist voor wisselingen is een duidelijke, stapsgewijze gids die je schoonmaker of team elke keer kan volgen als een gast uitcheckt. Zo worden alle essentiële taken steeds op dezelfde manier uitgevoerd, van het verschonen van de lakens en het aanvullen van de voorraad tot het controleren op schade en het klaarmaken van de ruimte voor de volgende gast. Met een gedetailleerde checklist beperk je fouten, bespaar je tijd aan heen-en-weer communicatie en houd je de netheid en presentatie op een hoog niveau.\n\nDeze checklist is ook ","ontworpen met een geoptimaliseerde volgorde."," Door de stappen in een vaste volgorde te doen, werkt je schoonmaker efficiënter en hoeft hij minder vaak elke kamer in en uit te lopen."," Het doel is dat het een vaste routine wordt: de stappen in de juiste volgorde volgen, ","wat bij elke wissel tijd en energie bespaart.\n\nPRO-TIP: voeg referentiefoto’s toe van hoe het bed opgemaakt wordt en van de belangrijkste plekken in de woning. Zo blijft je team consequent en ziet de ruimte er altijd precies zo uit als op de foto’s van de advertentie."]
+INV_NL=["\n","Je voorraad en beddengoed bijhouden is essentieel voor een soepele operatie, vooral als je opschaalt of met een team werkt. Met dit inventarisoverzicht blijf je georganiseerd, voorkom je tekorten op het laatste moment en vul je efficiënter in grote hoeveelheden aan.\n\nHet bestaat uit twee delen:\n\nBeddengoed & basisspullen voor gasten: alles wat je gasten direct gebruiken, zoals handdoeken, lakens en kussenbeschermers.\n\nSchoonmaakmiddelen: verdeeld in Eén keer kopen (herbruikbare spullen) en Vaak kopen (verbruiksartikelen die opraken).\n\n💡 Tip: controleer de voorraad elke 2 weken of aan het einde van elke maand. Je kunt dit aan je manager of schoonmaker geven en de checklist gebruiken om hoeveelheden bij te werken, spullen te markeren die vervangen moeten worden en het verbruik in de loop van de tijd bij te houden.\n\nEen consequente inventaris houdt de kwaliteit hoog, voorkomt onnodige stress en zorgt dat je altijd klaar bent voor gasten.\n\n",COPY_NL]
+def rich_lookup(runs):
+    k=tuple(runs)
+    if k in RICH: return RICH[k]
+    if len(runs)==13 and runs[1].startswith('Consistency'): return WELCOME_NL
+    if len(runs)==5 and runs[0].startswith('A turnover checklist'): return TURN_NL
+    if len(runs)==3 and runs[1].startswith('Keeping track'): return INV_NL
+    return None
