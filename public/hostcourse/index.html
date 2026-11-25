@@ -4194,6 +4194,14 @@ document.querySelectorAll('.yr').forEach(function(e){e.textContent=new Date().ge
 #main.sh-m .lesson.on::after{left:auto;right:-300px;background-position:top right;transform:scaleX(-1)}
 @media (max-width:860px){.lesson.on::after{width:420px;height:560px;left:-160px;opacity:.08}#main.sh-m .lesson.on::after{right:-160px}}
 @media print{.lesson.on::after{display:none}}
+
+/* finish v3 */
+.top{background-image:url(img/tex-terra-soft.webp),linear-gradient(to right,#7E4639 0%,#93564A 50%,#AE6B5B 100%)!important}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(img/micro-cement.webp) center/cover no-repeat}
+#main,.lesson.on{isolation:isolate}
+#main::before,#main::after,.lesson.on::after{z-index:-1!important}
+.pills button{background-color:var(--stone)}
+@media print{body::before{display:none}}
 </style>
 <script>
 (function(){

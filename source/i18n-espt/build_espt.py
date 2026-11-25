@@ -329,3 +329,17 @@ o="m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]===
 assert o in s
 s=s.replace(o,o+"var c=((i+3)%5)+1;if(c===a||c===b)c=((i+4)%5)+1;m.style.setProperty('--shade-mid','url(img/shade-'+c+'.webp)');m.classList.toggle('sh-m',i%2===1);")
 open(P,'w').write(s); print('finish v2 ok')
+
+# --- finish v3: shadows behind content, cement background, navbar dark-left ---
+s=open(P).read()
+fx3="""
+/* finish v3 */
+.top{background-image:url(img/tex-terra-soft.webp),linear-gradient(to right,#7E4639 0%,#93564A 50%,#AE6B5B 100%)!important}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:url(img/micro-cement.webp) center/cover no-repeat}
+#main,.lesson.on{isolation:isolate}
+#main::before,#main::after,.lesson.on::after{z-index:-1!important}
+.pills button{background-color:var(--stone)}
+@media print{body::before{display:none}}
+"""
+s=s[:s.rfind('</style>')]+fx3+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('finish v3 ok')
