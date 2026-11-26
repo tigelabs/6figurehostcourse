@@ -7,7 +7,7 @@
 <meta name="description" content="Start here: the 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
 <meta property="og:title" content="6-Figure Host">
 <meta property="og:description" content="The 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
-<meta property="og:image" content="https://6figurehost.com/assets/sales/us-mc.webp">
+<meta property="og:image" content="https://6figurehost.com/assets/sales/links-avatar.webp">
 <meta name="theme-color" content="#e1ded9">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -118,14 +118,20 @@ a{color:inherit}
 
 .banner{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;border-radius:20px;box-shadow:0 24px 50px -28px rgba(56,51,48,.55)}
 .top .banner+.ava{margin-top:-74px;position:relative}
+
+/* bar: Show/Hide left, title centred, Copy right */
+.bar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:12px}
+.bar .tg{justify-self:start}
+.bar .cpb{justify-self:end}
+.bar .bt{align-items:center;text-align:center}
+.ava{object-position:50% 50%}
 @media (prefers-reduced-motion:reduce){.btn,.toast{transition:none}}
 </style>
 </head>
 <body>
 <main class="wrap">
 <header class="top">
-<img class="banner" src="/assets/sales/links-banner.webp" width="1080" height="864" alt="A calm bedroom in one of our rentals in Bali: a teak bed with white linen and a woven pendant lamp">
-<img class="ava" src="/assets/sales/us-mc.webp" width="675" height="843" alt="6-Figure Host">
+<img class="ava" src="/assets/sales/links-avatar.webp" width="480" height="480" alt="6-Figure Host">
 <a class="logo" href="https://6figurehost.com/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
 <p class="bio">10+ years of hosting in Barcelona and Bali, without owning a single home.</p>
 </header>
@@ -143,7 +149,7 @@ a{color:inherit}
 <label class="lbl" for="city">City and country you want to host in</label>
 <input id="city" class="in" type="text" placeholder="Example: Antwerp, Belgium" autocomplete="off">
 <div class="box" id="box">
-<div class="bar" id="bar"><span class="bt"><b>AI prompt</b><small id="tg-l">Tap to unfold</small></span><span class="acts"><button type="button" class="tg" id="tg" aria-expanded="false" aria-controls="txt">Show</button><button type="button" class="cpb" id="cp">Copy</button></span></div>
+<div class="bar" id="bar"><button type="button" class="tg" id="tg" aria-expanded="false" aria-controls="txt">Show</button><span class="bt"><b>AI prompt</b><small id="tg-l">Tap to unfold</small></span><button type="button" class="cpb" id="cp">Copy</button></div>
 <div class="txt" id="txt">Can you help me find the current rules for renting out a property in <mark id="cityShown">[City, Country]</mark>? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).
 
 For each type of rental, I want to know:
@@ -166,7 +172,6 @@ At the end, add a short summary I can copy into my notes, in this format:
 - Minimum stay: ...
 - Taxes: ...
 - Other important rules: ...</div>
-<div class="openrow"><span>Copy and open in:</span><a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a><a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a><a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></div>
 </div>
 <p class="note">AI can make mistakes. Always confirm the answer on the official government sites it links to.</p>
 </section>
@@ -181,9 +186,9 @@ At the end, add a short summary I can copy into my notes, in this format:
 (function(){
   var PRE='Can you help me find the current rules for renting out a property in ', POST='? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).\n\nFor each type of rental, I want to know:\n- If it is legal, and under which conditions\n- Whether I need a license, permit or registration\n- Any minimum or maximum stay rules, or limits on the number of nights per year\n- Tax obligations (income tax, tourist or occupancy tax)\n- Zoning restrictions, primary residence rules or building/HOA rules\n- What a landlord needs to agree to if I want to sublet\n- Whether I can do this as a private individual, or need to register as self-employed or a company\n\nPlease include any helpful links or resources to official government sites if available.\n\nAt the end, add a short summary I can copy into my notes, in this format:\n- Short-term rentals (under 1 month): allowed / not allowed / with conditions\n- Mid-term rentals (1–6 months): allowed / not allowed / with conditions\n- Long-term rentals: allowed / not allowed / with conditions\n- Subletting (rental arbitrage): allowed / not allowed / with conditions\n- License or permit needed: yes / no (and which one)\n- Minimum stay: ...\n- Taxes: ...\n- Other important rules: ...';
   function $(i){return document.getElementById(i)}
-  var city=$('city'),shown=$('cityShown'),box=$('box'),tg=$('tg'),tgl=$('tg-l'),cp=$('cp'),gpt=$('gpt'),gem=$('gem'),cla=$('cla'),toast=$('toast'),tt;
+  var city=$('city'),shown=$('cityShown'),box=$('box'),tg=$('tg'),tgl=$('tg-l'),cp=$('cp'),toast=$('toast'),tt;
   function prompt(){return PRE+((city.value||'').trim()||'[City, Country]')+POST;}
-  function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';var e=encodeURIComponent(prompt());gpt.href='https://chatgpt.com/?q='+e;cla.href='https://claude.ai/new?q='+e;}
+  function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';}
   function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},1800);}
   function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy'},2000);}
     function fb(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}
@@ -192,7 +197,7 @@ At the end, add a short summary I can copy into my notes, in this format:
   city.addEventListener('input',upd);
   document.getElementById('bar').addEventListener('click',function(e){if(e.target===cp)return;set(!box.classList.contains('open'));});
   cp.addEventListener('click',function(e){e.stopPropagation();copy();});
-  [gpt,gem,cla].forEach(function(a){a.addEventListener('click',copy);});
+  
   upd();
   // Black Friday countdown: opens 27 Nov 00:00 Barcelona time, ends 1 Dec 00:00
   var START=Date.parse('2026-11-26T23:00:00Z'),END=Date.parse('2026-11-30T23:00:00Z'),bf=$('bf'),bft=$('bf-t');
