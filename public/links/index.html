@@ -133,6 +133,11 @@ button.bar i::before{content:"";width:7px;height:7px;border-right:2px solid var(
 .box.open button.bar i::before{transform:translateY(2px) rotate(-135deg)}
 .rules .tip{font-size:12.5px;color:var(--muted);margin:-4px 0 0}
 .txt{user-select:text;-webkit-user-select:text}
+
+.copybtn{align-self:center;font:inherit;font-weight:700;font-size:15px;min-height:46px;padding:10px 26px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.copybtn::before{content:"";width:12px;height:14px;border:1.8px solid currentColor;border-radius:3px;box-shadow:3px -3px 0 -1.5px var(--cream),3px -3px 0 0 currentColor}
+.copybtn:hover,.copybtn.done{background:var(--ink);color:var(--cream)}
+.copybtn.done::before{box-shadow:none}
 @media (prefers-reduced-motion:reduce){.btn,.toast{transition:none}}
 </style>
 </head>
@@ -180,7 +185,8 @@ At the end, add a short summary I can copy into my notes, in this format:
 - Taxes: ...
 - Other important rules: ...</div>
 </div>
-<p class="tip">*Copy it into your favorite AI tool (e.g. ChatGPT or Claude).</p>
+<button type="button" class="copybtn" id="cp">Copy prompt</button>
+<p class="tip">*Copies the full prompt with your destination. Paste it into your favorite AI tool (e.g. ChatGPT or Claude).</p>
 <p class="note">AI can make mistakes. Always confirm the answer on the official government sites it links to.</p>
 </section>
 
@@ -194,7 +200,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 (function(){
   var PRE='Can you help me find the current rules for renting out a property in ', POST='? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).\n\nFor each type of rental, I want to know:\n- If it is legal, and under which conditions\n- Whether I need a license, permit or registration\n- Any minimum or maximum stay rules, or limits on the number of nights per year\n- Tax obligations (income tax, tourist or occupancy tax)\n- Zoning restrictions, primary residence rules or building/HOA rules\n- What a landlord needs to agree to if I want to sublet\n- Whether I can do this as a private individual, or need to register as self-employed or a company\n\nPlease include any helpful links or resources to official government sites if available.\n\nAt the end, add a short summary I can copy into my notes, in this format:\n- Short-term rentals (under 1 month): allowed / not allowed / with conditions\n- Mid-term rentals (1–6 months): allowed / not allowed / with conditions\n- Long-term rentals: allowed / not allowed / with conditions\n- Subletting (rental arbitrage): allowed / not allowed / with conditions\n- License or permit needed: yes / no (and which one)\n- Minimum stay: ...\n- Taxes: ...\n- Other important rules: ...';
   function $(i){return document.getElementById(i)}
-  var city=$('city'),shown=$('cityShown'),box=$('box'),tg=$('tg'),tgl=$('tg-l'),toast=$('toast'),tt;
+  var city=$('city'),shown=$('cityShown'),box=$('box'),tg=$('tg'),tgl=$('tg-l'),toast=$('toast'),cp=$('cp'),tt,ct;
   function prompt(){return PRE+((city.value||'').trim()||'[City, Country]')+POST;}
   function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';}
   function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},1800);}
@@ -203,6 +209,10 @@ At the end, add a short summary I can copy into my notes, in this format:
   tg.addEventListener('click',function(){set(!box.classList.contains('open'));});
   
   
+  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';cp.classList.add('done');say('Prompt copied. Paste it into your AI tool');clearTimeout(ct);ct=setTimeout(function(){cp.textContent='Copy prompt';cp.classList.remove('done')},2200);}
+    function fb(){var a=document.createElement('textarea');a.value=t;a.setAttribute('readonly','');a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();}
+  cp.addEventListener('click',copy);
   upd();
   // Black Friday countdown: opens 27 Nov 00:00 Barcelona time, ends 1 Dec 00:00
   var START=Date.parse('2026-11-26T23:00:00Z'),END=Date.parse('2026-11-30T23:00:00Z'),bf=$('bf'),bft=$('bf-t');
