@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel &amp; Farah · 6-Figure Host</title>
+<meta name="description" content="Start here: the 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
+<meta property="og:title" content="Daniel &amp; Farah · 6-Figure Host">
+<meta property="og:description" content="The 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
+<meta property="og:image" content="https://6figurehost.com/assets/sales/us-mc.webp">
+<meta name="theme-color" content="#e1ded9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Arimo:ital,wght@0,400;0,700;1,400&amp;family=Libre+Baskerville:ital,wght@0,400;1,400&amp;family=Pinyon+Script&amp;display=swap" rel="stylesheet">
+<style>
+:root{--paper:#e1ded9;--paperx:#F4F2EF;--cream:#fdfaf3;--ink:#383330;--muted:#55504b;--rule:#c9c3bc;--terra:#a05f50;--terra-lt:#d09585;
+--body:Arial,"Arimo",Helvetica,sans-serif;--display:Impact,"Impact LT Std","Anton",sans-serif;--serif:"Libre Baskerville",Baskerville,Georgia,serif;--script:"Citadel Script","Pinyon Script",cursive}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--terra);outline-offset:3px}
+.wrap{max-width:520px;margin:0 auto;padding:clamp(28px,6vw,56px) 20px 48px;display:flex;flex-direction:column;gap:28px}
+.top{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+.logo{display:flex;align-items:baseline;gap:6px;text-decoration:none;line-height:1}
+.logo .sc{font-family:var(--script);font-size:28px;color:var(--terra)}
+.logo .dp{font-family:var(--display);font-size:24px;text-transform:uppercase;letter-spacing:.02em}
+.ava{width:118px;height:118px;border-radius:50%;object-fit:cover;object-position:50% 30%;border:4px solid var(--cream);box-shadow:0 18px 36px -18px rgba(56,51,48,.55);margin-top:6px}
+.name{font-family:var(--script);font-size:40px;color:var(--terra);line-height:1;margin:6px 0 0}
+.bio{font-size:16px;line-height:1.55;margin:0;max-width:30em}
+.bio b{font-weight:700}
+.btns{display:flex;flex-direction:column;gap:12px}
+.btn{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:64px;padding:14px 22px 14px 24px;border-radius:999px;text-decoration:none;font-weight:700;font-size:17px;transition:transform .15s ease,box-shadow .15s ease}
+.btn small{display:block;font-weight:400;font-size:13px;opacity:.85;margin-top:2px}
+.btn i{flex:none;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-style:normal}
+.btn i::before{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-top:2px solid currentColor;transform:translateX(-1px) rotate(45deg)}
+.btn.main{background:var(--terra);color:var(--cream)}
+.btn.main i{background:rgba(253,250,243,.18)}
+.btn.alt{background:var(--cream);color:var(--ink);border:1px solid var(--rule)}
+.btn.alt i{background:var(--paperx)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 30px -18px rgba(56,51,48,.6)}
+.rules{background:var(--cream);border:1px solid var(--rule);border-radius:20px;padding:24px 20px;display:flex;flex-direction:column;gap:14px;box-shadow:0 26px 50px -34px rgba(56,51,48,.55)}
+.rules .eyebrow{font-family:var(--script);font-size:30px;color:var(--terra);line-height:1}
+.rules h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:30px;line-height:1.02;margin:0;letter-spacing:.005em}
+.rules p{margin:0;font-size:15px;line-height:1.55}
+.lbl{font-weight:700;font-size:13px;letter-spacing:.04em}
+.in{font:inherit;font-size:17px;padding:14px 16px;border:1.5px solid var(--ink);border-radius:12px;background:#fff;color:var(--ink);width:100%}
+.in:focus{outline:2px solid var(--terra);outline-offset:2px}
+.box{border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;background:#fff}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--ink);color:var(--cream);padding:10px 10px 10px 16px;cursor:pointer;user-select:none}
+.bar>span{font-weight:700;font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;line-height:1.35}
+.bar .acts{display:flex;gap:8px;flex:none}
+.tg,.cp{font:inherit;font-weight:700;font-size:13px;border-radius:999px;padding:8px 14px;min-height:36px;cursor:pointer}
+.tg{background:transparent;color:var(--cream);border:1.5px solid var(--cream);display:inline-flex;align-items:center;gap:6px}
+.tg::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-2px,-2px)}
+.box.open .tg::after{transform:rotate(-135deg) translate(-2px,-2px)}
+.cp{background:var(--cream);color:var(--ink);border:0}
+.txt{white-space:pre-line;padding:18px;font-size:14.5px;line-height:1.6;max-height:340px;overflow:auto}
+.txt mark{background:#efdcd5;color:var(--ink);font-weight:700;padding:1px 6px;border-radius:4px}
+.box:not(.open) .txt{display:none}
+.open-in{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:12px 16px;border-top:1px solid #d9d3cc}
+.open-in span{font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-right:2px}
+.open-in a{border:1.5px solid var(--ink);border-radius:999px;padding:7px 16px;min-height:38px;display:inline-flex;align-items:center;text-decoration:none;font-weight:700;font-size:14px}
+.open-in a:hover{background:var(--ink);color:var(--cream)}
+.note{font-size:12.5px;color:var(--muted)}
+.foot{text-align:center;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.foot a{color:var(--ink);font-weight:700}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--cream);padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none}
+.toast.on{opacity:1;transform:translateX(-50%)}
+@media (prefers-reduced-motion:reduce){.btn,.toast{transition:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="top">
+<a class="logo" href="https://6figurehost.com/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
+<img class="ava" src="/assets/sales/us-mc.webp" width="675" height="843" alt="Daniel and Farah">
+<p class="name">Daniel &amp; Farah</p>
+<p class="bio">10+ years of hosting in Barcelona and Bali. <b>We don’t own a single one of our homes.</b> Here is how we do it.</p>
+</header>
+
+<nav class="btns" aria-label="Links">
+<a class="btn main" href="https://6figurehost.com/"><span>Visit our website<small>Start here: choose your path</small></span><i aria-hidden="true"></i></a>
+<a class="btn alt" href="https://6figurehost.com/course/"><span>The 6-Figure Host Course<small>13 lessons, host starter kit and calculator</small></span><i aria-hidden="true"></i></a>
+</nav>
+
+<section class="rules" aria-labelledby="rules-h">
+<span class="eyebrow">Free tool</span>
+<h2 id="rules-h">Check the rules where you want to host</h2>
+<p>A tool from lesson 2 of our course. Type your city, copy the prompt and paste it into your AI assistant. In a minute you know what is allowed: short, mid and long-term rentals, and subletting.</p>
+<label class="lbl" for="city">City and country you want to host in</label>
+<input id="city" class="in" type="text" placeholder="Example: Antwerp, Belgium" autocomplete="off">
+<div class="box" id="box">
+<div class="bar" id="bar"><span>AI prompt: local rental rules</span><span class="acts"><button type="button" class="tg" id="tg" aria-expanded="false" aria-controls="txt">Show</button><button type="button" class="cp" id="cp">Copy</button></span></div>
+<div class="txt" id="txt">Can you help me find the current rules for renting out a property in <mark id="cityShown">[City, Country]</mark>? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).
+
+For each type of rental, I want to know:
+- If it is legal, and under which conditions
+- Whether I need a license, permit or registration
+- Any minimum or maximum stay rules, or limits on the number of nights per year
+- Tax obligations (income tax, tourist or occupancy tax)
+- Zoning restrictions, primary residence rules or building/HOA rules
+- What a landlord needs to agree to if I want to sublet
+- Whether I can do this as a private individual, or need to register as self-employed or a company
+
+Please include any helpful links or resources to official government sites if available.
+
+At the end, add a short summary I can copy into my notes, in this format:
+- Short-term rentals (under 1 month): allowed / not allowed / with conditions
+- Mid-term rentals (1–6 months): allowed / not allowed / with conditions
+- Long-term rentals: allowed / not allowed / with conditions
+- Subletting (rental arbitrage): allowed / not allowed / with conditions
+- License or permit needed: yes / no (and which one)
+- Minimum stay: ...
+- Taxes: ...
+- Other important rules: ...</div>
+<div class="open-in"><span>Copy and open in:</span><a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a><a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a><a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></div>
+</div>
+<p class="note">AI can make mistakes. Always confirm the answer on the official government sites it links to.</p>
+</section>
+
+<footer class="foot">
+<span>Questions? <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a></span>
+<span>© 2026 Daniel &amp; Farah · Passion to profit LLC</span>
+</footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  var PRE='Can you help me find the current rules for renting out a property in ', POST='? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).\n\nFor each type of rental, I want to know:\n- If it is legal, and under which conditions\n- Whether I need a license, permit or registration\n- Any minimum or maximum stay rules, or limits on the number of nights per year\n- Tax obligations (income tax, tourist or occupancy tax)\n- Zoning restrictions, primary residence rules or building/HOA rules\n- What a landlord needs to agree to if I want to sublet\n- Whether I can do this as a private individual, or need to register as self-employed or a company\n\nPlease include any helpful links or resources to official government sites if available.\n\nAt the end, add a short summary I can copy into my notes, in this format:\n- Short-term rentals (under 1 month): allowed / not allowed / with conditions\n- Mid-term rentals (1–6 months): allowed / not allowed / with conditions\n- Long-term rentals: allowed / not allowed / with conditions\n- Subletting (rental arbitrage): allowed / not allowed / with conditions\n- License or permit needed: yes / no (and which one)\n- Minimum stay: ...\n- Taxes: ...\n- Other important rules: ...';
+  var city=document.getElementById('city'),shown=document.getElementById('cityShown'),box=document.getElementById('box'),bar=document.getElementById('bar'),tg=document.getElementById('tg'),cp=document.getElementById('cp');
+  var gpt=document.getElementById('gpt'),cla=document.getElementById('cla'),gem=document.getElementById('gem'),toast=document.getElementById('toast'),tt;
+  function prompt(){return PRE+((city.value||'').trim()||'[City, Country]')+POST;}
+  function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';var e=encodeURIComponent(prompt());gpt.href='https://chatgpt.com/?q='+e;cla.href='https://claude.ai/new?q='+e;}
+  function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},1800);}
+  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy'},2000);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();
+    function fb(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}}
+  function set(o){box.classList.toggle('open',o);tg.setAttribute('aria-expanded',o?'true':'false');tg.textContent=o?'Hide':'Show';}
+  city.addEventListener('input',upd);
+  bar.addEventListener('click',function(e){if(e.target===cp)return;set(!box.classList.contains('open'));});
+  cp.addEventListener('click',function(e){e.stopPropagation();copy();});
+  [gpt,gem,cla].forEach(function(a){a.addEventListener('click',copy);});
+  upd();
+})();
+</script>
+</body>
+</html>
