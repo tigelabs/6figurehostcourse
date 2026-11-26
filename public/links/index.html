@@ -102,6 +102,19 @@ a{color:inherit}
 .open-in a{display:inline;border:0;padding:0;min-height:0;font-size:11.5px;font-weight:700;text-decoration:underline;color:var(--ink)}
 .open-in a:hover{background:none;color:var(--terra)}
 .rules .note{font-size:12px}
+
+/* prompt box like the course: dark bar with Show and Copy, open-in buttons below */
+.bar{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--ink);color:var(--cream);padding:12px 12px 12px 18px;cursor:pointer;user-select:none;text-align:left}
+.bar .bt{display:flex;flex-direction:column;gap:2px}
+.bar .bt b{font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.bar .bt small{font-size:12px;color:var(--terra-lt);font-weight:700;text-transform:none;letter-spacing:0}
+.bar .acts{display:flex;gap:8px;flex:none}
+.tg{display:inline-flex}
+.cpb{font:inherit;font-weight:700;font-size:13px;border-radius:999px;padding:8px 16px;min-height:36px;cursor:pointer;background:var(--cream);color:var(--ink);border:0}
+.openrow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;padding:12px 14px 14px;border-top:1px solid #d9d3cc}
+.openrow span{width:100%;font-weight:700;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase}
+.openrow a{border:1.5px solid var(--ink);border-radius:999px;padding:7px 16px;min-height:38px;display:inline-flex;align-items:center;text-decoration:none;font-weight:700;font-size:14px;color:var(--ink)}
+.openrow a:hover{background:var(--ink);color:var(--cream)}
 @media (prefers-reduced-motion:reduce){.btn,.toast{transition:none}}
 </style>
 </head>
@@ -126,7 +139,7 @@ a{color:inherit}
 <label class="lbl" for="city">City and country you want to host in</label>
 <input id="city" class="in" type="text" placeholder="Example: Antwerp, Belgium" autocomplete="off">
 <div class="box" id="box">
-<button type="button" class="unfold" id="tg" aria-expanded="false" aria-controls="txt"><span><b>AI prompt</b><small id="tg-l">Tap to unfold</small></span><i aria-hidden="true"></i></button>
+<div class="bar" id="bar"><span class="bt"><b>AI prompt</b><small id="tg-l">Tap to unfold</small></span><span class="acts"><button type="button" class="tg" id="tg" aria-expanded="false" aria-controls="txt">Show</button><button type="button" class="cpb" id="cp">Copy</button></span></div>
 <div class="txt" id="txt">Can you help me find the current rules for renting out a property in <mark id="cityShown">[City, Country]</mark>? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).
 
 For each type of rental, I want to know:
@@ -149,9 +162,8 @@ At the end, add a short summary I can copy into my notes, in this format:
 - Minimum stay: ...
 - Taxes: ...
 - Other important rules: ...</div>
+<div class="openrow"><span>Copy and open in:</span><a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a><a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a><a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></div>
 </div>
-<button type="button" class="cp" id="cp">Copy prompt</button>
-<p class="open-in">Copy and open in <a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a> · <a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a> · <a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></p>
 <p class="note">AI can make mistakes. Always confirm the answer on the official government sites it links to.</p>
 </section>
 
@@ -169,13 +181,13 @@ At the end, add a short summary I can copy into my notes, in this format:
   function prompt(){return PRE+((city.value||'').trim()||'[City, Country]')+POST;}
   function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';var e=encodeURIComponent(prompt());gpt.href='https://chatgpt.com/?q='+e;cla.href='https://claude.ai/new?q='+e;}
   function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},1800);}
-  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy prompt'},2000);}
+  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy'},2000);}
     function fb(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();}
-  function set(o){box.classList.toggle('open',o);tg.setAttribute('aria-expanded',o?'true':'false');tgl.textContent=o?'Tap to fold':'Tap to unfold';}
+  function set(o){box.classList.toggle('open',o);tg.setAttribute('aria-expanded',o?'true':'false');tgl.textContent=o?'Tap to fold':'Tap to unfold';tg.textContent=o?'Hide':'Show';}
   city.addEventListener('input',upd);
-  tg.addEventListener('click',function(){set(!box.classList.contains('open'));});
-  cp.addEventListener('click',copy);
+  document.getElementById('bar').addEventListener('click',function(e){if(e.target===cp)return;set(!box.classList.contains('open'));});
+  cp.addEventListener('click',function(e){e.stopPropagation();copy();});
   [gpt,gem,cla].forEach(function(a){a.addEventListener('click',copy);});
   upd();
   // Black Friday countdown: opens 27 Nov 00:00 Barcelona time, ends 1 Dec 00:00
