@@ -367,3 +367,19 @@ open(P,'w').write(s); print('nofilter ok')
 s=open(P).read()
 s=s[:s.rfind('</style>')]+"\n.pn a,.pn a:hover{background:none!important;background-image:none!important;box-shadow:none!important;border:0!important}\n"+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('pn ok')
+
+# --- progress sync for the team dashboard: a short summary only (lessons done, ticked-task count, last page, language) ---
+s=open(P).read()
+sync="""<script>
+(function(){var KEY='sixfig-course-v1',L=['start','story','roadmap','ch1','ch2','ch3','ch4','ch5','ch6','ch7','ch8','ch9','ch10','ch11','ch12','ch13'],last='',t0=0,tm;
+if(!/^https?:$/.test(location.protocol)||!/(^|\\.)6figurehost\\.com$|pages\\.dev$|^localhost$|^127\\.0\\.0\\.1$/.test(location.hostname))return;
+function snap(){var S={};try{S=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}var d=S.done||{},t=S.tasks||{},f=S.fields||{};
+return JSON.stringify({done:L.filter(function(k){return !!d[k]}),tasks:Object.keys(t).filter(function(k){return !!t[k]}).length,last:String(f.last_pos||location.hash.slice(1)||'').slice(0,40),lang:f.lang||'en'})}
+function send(force){var b=snap(),now=Date.now();if(!force&&b===last&&now-t0<15*60e3)return;if(!force&&now-t0<60e3){clearTimeout(tm);tm=setTimeout(function(){send(true)},60e3-(now-t0));return}
+last=b;t0=now;try{fetch('/api/progress',{method:'POST',headers:{'Content-Type':'application/json'},body:b,keepalive:true,credentials:'same-origin'}).catch(function(){})}catch(e){}}
+setTimeout(function(){send(true)},4000);setInterval(send,60e3);
+document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')send()});})();
+</script>
+"""
+i=s.rfind('</body>'); s=s[:i]+sync+s[i:]
+open(P,'w').write(s); print('sync ok')

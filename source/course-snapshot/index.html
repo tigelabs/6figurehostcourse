@@ -4229,5 +4229,15 @@ body{background:var(--stone) url(img/micro-cement.webp) 0 0/1800px auto repeat}
   });
 })();
 </script>
-<script>(function(){var m=document.getElementById('main');if(!m)return;var L=[].slice.call(document.querySelectorAll('.lesson')).map(function(e){return e.id;});var SIDE={1:'r',2:'r',3:'r',4:'l',5:'r'};function set(){var on=document.querySelector('.lesson.on');var i=Math.max(0,L.indexOf(on?on.id:''));var a=(i%5)+1,b=((i+2)%5)+1;if(b===a)b=(a%5)+1;m.style.setProperty('--shade-top','url(img/shade-'+a+'.webp)');m.style.setProperty('--shade-bot','url(img/shade-'+b+'.webp)');m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]==='l');var c=((i+3)%5)+1;if(c===a||c===b)c=((i+4)%5)+1;m.style.setProperty('--shade-mid','url(img/shade-'+c+'.webp)');m.classList.toggle('sh-m',i%2===1);}set();window.addEventListener('hashchange',function(){setTimeout(set,0);});new MutationObserver(set).observe(m,{subtree:true,attributes:true,attributeFilter:['class']});})();</script></body>
+<script>(function(){var m=document.getElementById('main');if(!m)return;var L=[].slice.call(document.querySelectorAll('.lesson')).map(function(e){return e.id;});var SIDE={1:'r',2:'r',3:'r',4:'l',5:'r'};function set(){var on=document.querySelector('.lesson.on');var i=Math.max(0,L.indexOf(on?on.id:''));var a=(i%5)+1,b=((i+2)%5)+1;if(b===a)b=(a%5)+1;m.style.setProperty('--shade-top','url(img/shade-'+a+'.webp)');m.style.setProperty('--shade-bot','url(img/shade-'+b+'.webp)');m.classList.toggle('sh-l',SIDE[a]==='l');m.classList.toggle('sh-r',SIDE[b]==='l');var c=((i+3)%5)+1;if(c===a||c===b)c=((i+4)%5)+1;m.style.setProperty('--shade-mid','url(img/shade-'+c+'.webp)');m.classList.toggle('sh-m',i%2===1);}set();window.addEventListener('hashchange',function(){setTimeout(set,0);});new MutationObserver(set).observe(m,{subtree:true,attributes:true,attributeFilter:['class']});})();</script><script>
+(function(){var KEY='sixfig-course-v1',L=['start','story','roadmap','ch1','ch2','ch3','ch4','ch5','ch6','ch7','ch8','ch9','ch10','ch11','ch12','ch13'],last='',t0=0,tm;
+if(!/^https?:$/.test(location.protocol)||!/(^|\.)6figurehost\.com$|pages\.dev$|^localhost$|^127\.0\.0\.1$/.test(location.hostname))return;
+function snap(){var S={};try{S=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}var d=S.done||{},t=S.tasks||{},f=S.fields||{};
+return JSON.stringify({done:L.filter(function(k){return !!d[k]}),tasks:Object.keys(t).filter(function(k){return !!t[k]}).length,last:String(f.last_pos||location.hash.slice(1)||'').slice(0,40),lang:f.lang||'en'})}
+function send(force){var b=snap(),now=Date.now();if(!force&&b===last&&now-t0<15*60e3)return;if(!force&&now-t0<60e3){clearTimeout(tm);tm=setTimeout(function(){send(true)},60e3-(now-t0));return}
+last=b;t0=now;try{fetch('/api/progress',{method:'POST',headers:{'Content-Type':'application/json'},body:b,keepalive:true,credentials:'same-origin'}).catch(function(){})}catch(e){}}
+setTimeout(function(){send(true)},4000);setInterval(send,60e3);
+document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')send()});})();
+</script>
+</body>
 </html>

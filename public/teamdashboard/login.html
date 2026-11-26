@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Launch Room login</title>
+<title>Team dashboard login</title>
 <link rel="icon" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,15 +29,15 @@ button:hover{background:#834B3F}button:disabled{opacity:.6;cursor:wait}
 </style>
 </head>
 <body>
-<header class="top"><i>6 figure</i><b>Launch room</b></header>
+<header class="top"><i>6 figure</i><b>Team dashboard</b></header>
 <main>
   <form class="card" id="f">
     <p class="eyb">Private · Farah &amp; Daniel</p>
-    <h1>Launch <em>room</em></h1>
-    <p>Our launch planner. Enter the team password to open it.</p>
+    <h1>Team <em>dashboard</em></h1>
+    <p>The Launch Room and the students log. Enter the team password to open it.</p>
     <label for="pw">Password</label>
     <input id="pw" type="password" autocomplete="current-password" required autofocus>
-    <button id="b">Open the Launch Room</button>
+    <button id="b">Open the dashboard</button>
     <div class="err" id="err" role="alert"></div>
   </form>
 </main>
@@ -47,10 +47,10 @@ const f=document.getElementById('f'),b=document.getElementById('b'),err=document
 f.addEventListener('submit',async e=>{e.preventDefault();err.style.display='none';b.disabled=true;b.textContent='Opening…';
   try{const r=await fetch('/api/team/login',{method:'POST',credentials:'same-origin',headers:{'content-type':'application/json'},body:JSON.stringify({password:document.getElementById('pw').value})});
     const j=await r.json().catch(()=>({}));
-    if(r.ok){location.href='/launchroom/';return}
+    if(r.ok){var n=new URLSearchParams(location.search).get('next')||'';location.href=/^\/teamdashboard\/[a-z0-9\/-]*$/.test(n)?n:'/teamdashboard/';return}
     err.textContent=j.error||'Could not log in. Try again.';err.style.display='block'}
   catch(_){err.textContent='No connection. Check your internet and try again.';err.style.display='block'}
-  b.disabled=false;b.textContent='Open the Launch Room'});
+  b.disabled=false;b.textContent='Open the dashboard'});
 }
 </script>
 </body>

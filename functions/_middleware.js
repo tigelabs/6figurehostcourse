@@ -3,8 +3,8 @@
 import { readSession, getCode, productsOf } from '../src/lib.js';
 import { isTeam } from '../src/team.js';
 
-const TEAM = '/launchroom';
-const TEAM_PUBLIC = new Set(['/launchroom/login', '/launchroom/login.html']);
+const TEAM = '/teamdashboard';
+const TEAM_PUBLIC = new Set(['/teamdashboard/login', '/teamdashboard/login.html']);
 
 const COURSE = '/hostcourse';
 const COURSE_PUBLIC = new Set([
@@ -26,7 +26,12 @@ export async function onRequest(context) {
     return Response.redirect(new URL('/hostcourse/login' + url.search, url).toString(), 301);
   }
 
-  // Private Launch Room (Farah & Daniel only).
+  // Old Launch Room address: it now lives inside the team dashboard.
+  if (lower === '/launchroom' || lower.startsWith('/launchroom/')) {
+    return Response.redirect(new URL('/teamdashboard/launchroom/', url).toString(), 301);
+  }
+
+  // Private team dashboard (Farah & Daniel only): Launch Room, Students log.
   if (lower === TEAM || lower.startsWith(TEAM + '/')) {
     if (path === TEAM) return Response.redirect(new URL(TEAM + '/', url).toString(), 301);
     if (TEAM_PUBLIC.has(path)) {
@@ -35,7 +40,7 @@ export async function onRequest(context) {
       return out;
     }
     if (!(await isTeam(env, request))) {
-      if (path.endsWith('/') || path.endsWith('.html')) return Response.redirect(new URL(TEAM + '/login', url).toString(), 302);
+      if (path.endsWith('/') || path.endsWith('.html')) { const to = new URL(TEAM + '/login', url); if (path !== TEAM + '/') to.searchParams.set('next', path); return Response.redirect(to.toString(), 302); }
       return new Response('Not found', { status: 404 });
     }
     const r = await next(), out = new Response(r.body, r);

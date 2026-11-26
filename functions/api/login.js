@@ -1,4 +1,4 @@
-import { normalizeCode, getCode, putCode, makeSession, sessionCookie, json, MAX_DEVICES_DEFAULT, tooMany, countFail } from '../../src/lib.js';
+import { normalizeCode, getCode, putCode, makeSession, sessionCookie, json, MAX_DEVICES_DEFAULT, tooMany, countFail, noteLogin } from '../../src/lib.js';
 
 export async function onRequestPost({ request, env }) {
   let body = {};
@@ -21,9 +21,9 @@ export async function onRequestPost({ request, env }) {
       return json({ error: `This code is already in use on ${max} devices. Email us at contact@6figurehost.com and we’ll reset it for you.` }, 403);
     }
     rec.devices.push(device);
-    rec.lastLogin = new Date().toISOString();
-    await putCode(env, rec);
   }
+  noteLogin(rec, request, device, 'code');
+  await putCode(env, rec);
   const token = await makeSession(env, code, device);
   return json({ ok: true }, 200, { 'Set-Cookie': sessionCookie(token) });
 }

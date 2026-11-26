@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Students log · 6 Figure Host</title>
+<link rel="icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#E1DED9;--paper:#F4F3F2;--beige:#EBE9E5;--ink:#383330;--soft:#4A4541;--mute:#7A746D;--edge:#383330;--line2:#DAD6D0;--terra:#A05F50;--terra2:#834B3F;--tint:#F1DDD7;--green:#313A33;--sgreen:#5B7360;
+--disp:Anton,Impact,'Arial Narrow Bold',sans-serif;--ser:'Instrument Serif',Georgia,serif;--body:Arimo,Arial,Helvetica,sans-serif}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.top{background:var(--terra);color:#F4F3F2;display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px max(4vw,16px)}
+.logo{display:flex;align-items:baseline;gap:8px;margin-right:auto;color:inherit;text-decoration:none}
+.logo i{font:italic 30px/1 var(--ser)}.logo b{font:19px/1 var(--disp);text-transform:uppercase;letter-spacing:.03em}
+.top a.pill{font-size:12px;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:99px;color:#F4F3F2;text-decoration:none}
+main{padding:clamp(18px,3vw,36px) max(3vw,14px) 60px;max-width:1500px;margin:0 auto}
+h1{font:400 clamp(32px,4.4vw,50px)/1.02 var(--disp);text-transform:uppercase;letter-spacing:.02em;margin:0}
+h1 em{font:italic 400 1.05em var(--ser);text-transform:none;letter-spacing:0;color:var(--terra)}
+.sub{color:var(--mute);font-size:13px;margin:4px 0 20px}
+.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-bottom:20px}
+.kpi{background:var(--paper);border:1.5px solid var(--edge);border-radius:14px;padding:14px 16px}
+.kpi.dark{background:var(--green);color:#F4F3F2;border-color:var(--green)}
+.kpi b{display:block;font:400 34px/1 var(--disp);letter-spacing:.01em}
+.kpi span{font-size:13px;opacity:.85}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.bar input[type=search]{flex:1 1 260px;border:1.5px solid var(--edge);border-radius:8px;padding:9px 12px;background:var(--paper);min-height:42px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chips button{border:1.5px solid var(--edge);background:var(--paper);border-radius:99px;padding:6px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.chips button i{font-style:normal;opacity:.6;margin-left:4px}
+.btn{background:var(--terra);color:#F4F3F2;border:0;border-radius:8px;padding:9px 14px;min-height:42px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--edge)}
+label.tg{display:flex;gap:6px;align-items:center;font-size:13px;cursor:pointer}
+.wrap{overflow-x:auto;border:1.5px solid var(--edge);border-radius:14px;background:var(--paper)}
+table{width:100%;border-collapse:collapse;min-width:1050px}
+th{background:var(--green);color:#F4F3F2;text-align:left;font-size:12px;letter-spacing:.06em;padding:10px 12px;white-space:nowrap;position:sticky;top:0}
+th button{all:unset;cursor:pointer}th button:after{content:" ↕";opacity:.4}th button.on:after{content:attr(data-dir);opacity:1}
+td{padding:10px 12px;border-top:1px solid var(--line2);vertical-align:middle}
+tr.row{cursor:pointer}tr.row:hover td{background:var(--beige)}
+.who b{display:block;font-weight:700}.who small{color:var(--mute)}
+code{font:600 13px 'Courier New',monospace;letter-spacing:.5px;white-space:nowrap}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--beige);margin:1px 2px 1px 0;white-space:nowrap}
+.st-on{background:#DCE5DD;color:#2F4733}.st-off{background:var(--tint);color:var(--terra2)}.st-new{background:#EFE6D6;color:#6B5330}
+.prog{display:flex;align-items:center;gap:8px;min-width:170px}
+.track{flex:1;height:8px;border-radius:99px;background:var(--line2);overflow:hidden}
+.track i{display:block;height:100%;background:var(--terra);border-radius:99px}
+.prog small{white-space:nowrap;color:var(--soft)}
+.muted{color:var(--mute)}
+.det td{background:var(--beige);padding:16px 18px}
+.dgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;font-size:14px}
+.dgrid h4{margin:0 0 6px;font:400 16px var(--disp);text-transform:uppercase;letter-spacing:.03em}
+.dgrid ul{margin:0;padding-left:18px}
+.lsn{display:flex;flex-wrap:wrap;gap:4px}
+.lsn span{font-size:12px;padding:2px 7px;border-radius:6px;background:var(--paper);border:1px solid var(--line2)}
+.lsn span.d{background:var(--green);color:#F4F3F2;border-color:var(--green)}
+.note{background:var(--tint);border-radius:10px;padding:10px 14px;font-size:14px;margin:0 0 16px}
+.empty{padding:30px;text-align:center;color:var(--mute)}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.dgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="/teamdashboard/"><i>6 figure</i><b>Team dashboard</b></a>
+  <a class="pill" href="/teamdashboard/launchroom/">Launch room</a>
+  <a class="pill" href="/api/team/logout">Log out</a>
+</header>
+<main>
+  <h1>Students <em>log</em></h1>
+  <p class="sub" id="sub">Loading…</p>
+  <p class="note">Progress shows up the next time a student opens the course after 26 November. Before that, the course only saved progress in the student's own browser. Notes and answers are never sent, only lessons done, tasks ticked, last page and language.</p>
+  <div class="kpis" id="kpis"></div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search name, email or code" aria-label="Search students">
+    <div class="chips" id="chips" role="group" aria-label="Filter"></div>
+    <label class="tg"><input type="checkbox" id="hideTest" checked> Hide test codes</label>
+    <button class="btn ghost" id="reload">Refresh</button>
+    <button class="btn" id="csv">Download CSV</button>
+  </div>
+  <div class="wrap"><table>
+    <thead><tr>
+      <th><button data-k="name">Student</button></th>
+      <th><button data-k="code">Code</button></th>
+      <th>Bought</th>
+      <th><button data-k="status">Status</button></th>
+      <th><button data-k="lastLogin">Last login</button></th>
+      <th><button data-k="active">Last active</button></th>
+      <th><button data-k="pct">Progress</button></th>
+      <th><button data-k="devices">Devices</button></th>
+      <th><button data-k="createdAt">Joined</button></th>
+    </tr></thead>
+    <tbody id="tb"><tr><td colspan="9" class="empty">Loading…</td></tr></tbody>
+  </table></div>
+</main>
+<script>
+(function(){
+var LS=['start','story','roadmap','ch1','ch2','ch3','ch4','ch5','ch6','ch7','ch8','ch9','ch10','ch11','ch12','ch13'];
+var NAME={start:'Start here',story:'Our story',roadmap:'Launch roadmap',ch1:'1 Business model',ch2:'2 Legal & local rules',ch3:'3 Business owner',ch4:'4 Market research',ch5:'5 Right property',ch6:'6 Pitch landlords',ch7:'7 Set up your space',ch8:'8 Listing that sells',ch9:'9 5-star experience',ch10:'10 Dream team',ch11:'11 Operations',ch12:'12 Automate',ch13:'13 Scale up',kit:'Host starter kit',calculator:'Calculator',setup:'Setup checklist',manual:'Property manual',finance:'Finance tracker',library:'AI prompts',addons:'Add-ons'};
+var LANG={en:'English',nl:'Dutch',es:'Spanish',pt:'Portuguese'};
+var all=[],filter='all',sortK='createdAt',sortDir=-1,open={};
+var $=function(i){return document.getElementById(i)};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function ago(iso){if(!iso)return '';var s=(Date.now()-Date.parse(iso))/1000;if(s<90)return 'just now';if(s<3600)return Math.round(s/60)+' min ago';if(s<86400)return Math.round(s/3600)+' h ago';if(s<86400*30)return Math.round(s/86400)+' days ago';return new Date(iso).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'})}
+function when(iso){return iso?new Date(iso).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):''}
+function status(x){if(!x.isOn)return['Off','st-off'];if(!x.loggedIn)return['Never logged in','st-new'];return['Active','st-on']}
+var FILTERS=[['all','All'],['never','Never logged in'],['week','Active this week'],['started','Started lessons'],['finished','Finished'],['off','Refunded or off']];
+function pass(x){var wk=Date.now()-7*864e5;
+  if($('hideTest').checked&&/test/.test(x.source))return false;
+  if(filter==='never'&&(x.loggedIn||!x.isOn))return false;
+  if(filter==='week'&&!(x.active&&Date.parse(x.active)>wk))return false;
+  if(filter==='started'&&!(x.n>0))return false;
+  if(filter==='finished'&&!(x.n===LS.length))return false;
+  if(filter==='off'&&x.isOn)return false;
+  var q=$('q').value.trim().toLowerCase();
+  if(q&&(x.name+' '+x.email+' '+x.code).toLowerCase().indexOf(q)<0)return false;
+  return true}
+function val(x,k){if(k==='status')return status(x)[0];if(k==='name')return(x.name||x.email||'').toLowerCase();return x[k]==null?'':x[k]}
+function render(){
+  var base=all.filter(function(x){return !($('hideTest').checked&&/test/.test(x.source))}),wk=Date.now()-7*864e5;
+  var c=function(f){return base.filter(f).length};
+  var started=base.filter(function(x){return x.n>0});
+  var avg=started.length?Math.round(started.reduce(function(a,x){return a+x.pct},0)/started.length):0;
+  $('kpis').innerHTML=[['dark',base.length,'access codes'],['',c(function(x){return x.loggedIn}),'logged in at least once'],['',c(function(x){return x.active&&Date.parse(x.active)>wk}),'active in the last 7 days'],['',avg+'%','average progress (of those who started)'],['',c(function(x){return x.n===LS.length}),'finished the course']].map(function(k){return '<div class="kpi '+k[0]+'"><b>'+k[1]+'</b><span>'+k[2]+'</span></div>'}).join('');
+  $('chips').innerHTML=FILTERS.map(function(f){var n=f[0]==='all'?base.length:all.filter(function(x){var o=filter;filter=f[0];var r=pass(x);filter=o;return r}).length;return '<button data-f="'+f[0]+'" aria-pressed="'+(filter===f[0])+'">'+f[1]+'<i>'+n+'</i></button>'}).join('');
+  var rows=all.filter(pass).sort(function(a,b){var va=val(a,sortK),vb=val(b,sortK);return(va>vb?1:va<vb?-1:0)*sortDir});
+  document.querySelectorAll('th button').forEach(function(b){b.classList.toggle('on',b.dataset.k===sortK);b.dataset.dir=sortDir>0?' ↑':' ↓'});
+  if(!rows.length){$('tb').innerHTML='<tr><td colspan="9" class="empty">No students match this filter.</td></tr>';return}
+  $('tb').innerHTML=rows.map(function(x){var s=status(x),p=x.progress;
+    var prog=p?'<div class="prog"><div class="track"><i style="width:'+x.pct+'%"></i></div><small>'+x.n+' / '+LS.length+'</small></div><small class="muted">'+esc(p.last?('On: '+(NAME[p.last]||p.last.replace(/^ch(\d+).*/,'Lesson $1'))):'')+'</small>':'<span class="muted">No data yet</span>';
+    var r='<tr class="row" data-c="'+esc(x.code)+'"><td class="who"><b>'+esc(x.name||'(no name)')+'</b><small>'+esc(x.email||'no email')+'</small></td>'+
+      '<td><code>'+esc(x.code)+'</code><br><small class="muted">'+esc(x.source)+'</small></td>'+
+      '<td>'+x.products.map(function(s){return '<span class="tag">'+esc(s)+'</span>'}).join('')+'</td>'+
+      '<td><span class="tag '+s[1]+'">'+s[0]+'</span></td>'+
+      '<td>'+(x.lastLogin?esc(ago(x.lastLogin))+(x.loginCount?'<br><small class="muted">'+x.loginCount+(x.loginCount===1?' login':' logins')+'</small>':''):(x.devices?'<span class="muted">before log started</span>':'<span class="muted">never</span>'))+'</td>'+
+      '<td>'+(x.active?esc(ago(x.active)):'<span class="muted">-</span>')+'</td>'+
+      '<td>'+prog+'</td><td>'+x.devices+'</td><td>'+esc(ago(x.createdAt))+'</td></tr>';
+    if(open[x.code]){
+      var logins=(x.logins||[]).map(function(l){return '<li>'+esc(when(l.at))+' · device '+l.device+(l.city||l.country?' · '+esc([l.city,l.country].filter(Boolean).join(', ')):'')+(l.how==='purchase'?' · after purchase':'')+'</li>'}).join('')||'<li class="muted">No logins recorded yet</li>';
+      var pays=(x.payments||[]).map(function(q){return '<li>'+esc(when(q.at))+' · '+esc(q.skus.join(', '))+'</li>'}).join('')+(x.refunds||[]).map(function(q){return '<li>Refund '+esc(when(q.at))+' · '+esc(q.skus.join(', '))+'</li>'}).join('')+(x.refundedAt?'<li>Refunded '+esc(when(x.refundedAt))+'</li>':'')||'<li class="muted">No Stripe payments on this code</li>';
+      r+='<tr class="det"><td colspan="9"><div class="dgrid">'+
+        '<div><h4>Lessons</h4><div class="lsn">'+LS.map(function(l){return '<span class="'+(p&&p.done.indexOf(l)>-1?'d':'')+'">'+esc(NAME[l])+'</span>'}).join('')+'</div>'+(p?'<p class="muted" style="margin:8px 0 0">'+p.tasks+' tasks ticked · '+esc(LANG[p.lang]||p.lang)+' · first seen '+esc(when(p.first))+'</p>':'')+'</div>'+
+        '<div><h4>Login history</h4><ul>'+logins+'</ul></div>'+
+        '<div><h4>Purchases</h4><ul>'+pays+'</ul><p class="muted" style="margin:8px 0 0">Created '+esc(when(x.createdAt))+'</p></div>'+
+        '</div></td></tr>'}
+    return r}).join('')}
+function load(){$('sub').textContent='Loading…';
+  fetch('/api/team/students',{credentials:'same-origin',cache:'no-store'}).then(function(r){if(r.status===401){location.href='/teamdashboard/login?next=/teamdashboard/students/';throw 0}return r.json()}).then(function(d){
+    all=(d.students||[]).map(function(x){x.isOn=x.active;x.n=x.progress?x.progress.done.length:-1;x.pct=x.progress?Math.round(x.n/LS.length*100):-1;x.active=x.progress?x.progress.at:'';x.loggedIn=!!(x.loginCount||x.devices||x.lastLogin);return x});
+    $('sub').textContent='Updated '+when(d.at)+' · data can take up to a minute to appear';render()}).catch(function(e){if(e!==0)$('sub').textContent='Could not load the students. Check your connection and press Refresh.'})}
+document.addEventListener('click',function(e){
+  var f=e.target.closest('[data-f]');if(f){filter=f.dataset.f;render();return}
+  var h=e.target.closest('th button');if(h){var k=h.dataset.k;if(sortK===k)sortDir=-sortDir;else{sortK=k;sortDir=(k==='name'||k==='code'||k==='status')?1:-1}render();return}
+  var r=e.target.closest('tr.row');if(r){open[r.dataset.c]=!open[r.dataset.c];render()}});
+$('q').addEventListener('input',render);$('hideTest').addEventListener('change',render);$('reload').addEventListener('click',load);
+$('csv').addEventListener('click',function(){var rows=all.filter(pass);var q=function(v){v=String(v==null?'':v);return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v};
+  var out=[['name','email','code','source','products','status','logins','last_login','last_active','lessons_done','progress_pct','last_page','tasks_ticked','language','devices','joined']].concat(rows.map(function(x){var p=x.progress||{};return[x.name,x.email,x.code,x.source,x.products.join(' '),status(x)[0],x.loginCount,x.lastLogin,x.active,x.n<0?'':x.n,x.pct<0?'':x.pct,p.last||'',p.tasks==null?'':p.tasks,p.lang||'',x.devices,x.createdAt]}));
+  var b=new Blob([out.map(function(r){return r.map(q).join(',')}).join('\n')],{type:'text/csv'});var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='students-'+new Date().toISOString().slice(0,10)+'.csv';a.click()});
+load();
+})();
+</script>
+</body>
+</html>

@@ -100,6 +100,15 @@ export async function countFail(env, request, name, seconds) {
   try { const n = Number((await env.CODES.get(key)) || 0); await env.CODES.put(key, String(n + 1), { expirationTtl: Math.max(60, seconds) }); } catch {}
 }
 
+// Keep a short login history on the code record (for the team dashboard).
+export function noteLogin(rec, request, device, how = 'code') {
+  const cf = request.cf || {};
+  rec.lastLogin = new Date().toISOString();
+  rec.loginCount = (rec.loginCount || 0) + 1;
+  const entry = { at: rec.lastLogin, how, device: rec.devices.indexOf(device) + 1, country: cf.country || '', city: cf.city || '' };
+  rec.logins = [entry, ...(rec.logins || [])].slice(0, 15);
+}
+
 export function json(data, status = 200, headers = {}) {
   return new Response(JSON.stringify(data), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', ...headers } });
 }

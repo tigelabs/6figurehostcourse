@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6 Figure Host Team dashboard</title>
+<link rel="icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:wght@400;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#E1DED9;--paper:#F4F3F2;--ink:#383330;--soft:#4A4541;--mute:#7A746D;--edge:#383330;--line2:#DAD6D0;--terra:#A05F50;--terra2:#834B3F;--tint:#F1DDD7;--green:#313A33;
+--disp:Anton,Impact,'Arial Narrow Bold',sans-serif;--ser:'Instrument Serif',Georgia,serif;--body:Arimo,Arial,Helvetica,sans-serif}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+:focus-visible{outline:2px solid var(--terra);outline-offset:2px}
+.top{background:var(--terra);color:#F4F3F2;display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:12px max(4vw,16px)}
+.logo{display:flex;align-items:baseline;gap:8px;margin-right:auto;color:inherit;text-decoration:none}
+.logo i{font:italic 30px/1 var(--ser)}.logo b{font:19px/1 var(--disp);text-transform:uppercase;letter-spacing:.03em}
+.top a.out{font-size:12px;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:99px;color:#F4F3F2;text-decoration:none}
+main{padding:clamp(22px,4vw,48px) max(4vw,16px) 60px;max-width:1100px;margin:0 auto}
+h1{font:400 clamp(36px,5vw,56px)/1.02 var(--disp);text-transform:uppercase;letter-spacing:.02em;margin:0 0 6px}
+h1 em{font:italic 400 1.05em var(--ser);text-transform:none;letter-spacing:0;color:var(--terra)}
+.lead{color:var(--soft);margin:0 0 28px;max-width:60ch}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.tile{display:flex;flex-direction:column;gap:10px;background:var(--paper);border:1.5px solid var(--edge);border-radius:16px;padding:24px 24px 20px;color:inherit;text-decoration:none;transition:transform .15s}
+.tile:hover{transform:translateY(-2px)}
+.tile.dark{background:var(--green);color:#F4F3F2;border-color:var(--green)}
+.tile h2{font:400 30px/1.05 var(--disp);text-transform:uppercase;letter-spacing:.02em;margin:0}
+.tile h2 em{font:italic 400 1.08em var(--ser);text-transform:none;letter-spacing:0;color:var(--terra)}
+.tile.dark h2 em{color:#E6C9C1}
+.tile p{margin:0;opacity:.85;font-size:15px}
+.tile .go{margin-top:auto;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--terra)}
+.tile.dark .go{color:#E6C9C1}
+.stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 2px;font-size:14px}
+.stats b{display:block;font:400 30px/1 var(--disp)}
+@media (max-width:720px){.tiles{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.tile{transition:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="/teamdashboard/"><i>6 figure</i><b>Team dashboard</b></a>
+  <a class="out" href="/api/team/logout">Log out</a>
+</header>
+<main>
+  <h1>Team <em>dashboard</em></h1>
+  <p class="lead">Private to Farah and Daniel. Plan the launch and see how students are doing in the course.</p>
+  <div class="tiles">
+    <a class="tile dark" href="/teamdashboard/students/">
+      <h2>Students <em>log</em></h2>
+      <p>Every access code: email, logins, devices and course progress.</p>
+      <div class="stats" id="stats"></div>
+      <span class="go">Open students log</span>
+    </a>
+    <a class="tile" href="/teamdashboard/launchroom/">
+      <h2>Launch <em>room</em></h2>
+      <p>The Black Friday planner: calendar, emails, posts, checklist and results.</p>
+      <span class="go">Open launch room</span>
+    </a>
+  </div>
+</main>
+<script>
+fetch('/api/team/students',{credentials:'same-origin'}).then(function(r){if(r.status===401){location.href='/teamdashboard/login';throw 0}return r.json()}).then(function(d){
+  var s=(d.students||[]).filter(function(x){return !/test/.test(x.source)}),wk=Date.now()-7*864e5;
+  var n=function(f){return s.filter(f).length};
+  document.getElementById('stats').innerHTML='<span><b>'+s.length+'</b>codes</span><span><b>'+n(function(x){return x.loginCount||x.devices})+'</b>logged in</span><span><b>'+n(function(x){var a=x.progress&&x.progress.at;return a&&Date.parse(a)>wk})+'</b>active this week</span>';
+}).catch(function(){});
+</script>
+</body>
+</html>

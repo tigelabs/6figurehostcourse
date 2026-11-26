@@ -162,7 +162,7 @@ select.sm,input.sm{border:1.5px solid var(--line);background:var(--paper);border
 /* Site version: the planner is saved on 6figurehost.com (Cloudflare KV) instead of Claude's artifact storage. */
 (()=>{const API='/api/team/';let D={items:{},checks:{},days:{},meta:{}};const subs=[];let ready;
 const fire=()=>subs.forEach(f=>{try{f()}catch(e){console.error(e)}});
-const toLogin=()=>{location.href='/launchroom/login'};
+const toLogin=()=>{location.href='/teamdashboard/login?next=/teamdashboard/launchroom/'};
 async function pull(){const r=await fetch(API+'data',{cache:'no-store',credentials:'same-origin'});if(r.status===401){toLogin();return}if(!r.ok)throw{code:'unavailable'};D=await r.json();fire()}
 ready=pull().catch(()=>{});
 setInterval(()=>{if(!document.hidden)pull().catch(()=>{})},15000);
@@ -181,7 +181,7 @@ window.claude={use:async n=>n==='db'?db:n==='user'?{can:async()=>true}:null};
 </head>
 <body>
 <header class="top">
-  <div class="logo"><i>6 figure</i><b>Launch room</b></div>
+  <a class="logo" href="/teamdashboard/" style="color:inherit;text-decoration:none" title="Back to the team dashboard"><i>6 figure</i><b>Launch room</b></a>
   <div class="clocks"><span>Barcelona<b id="cBcn">--:--</b></span><span>Bali<b id="cBali">--:--</b></span></div>
   <span class="sync" id="sync">Connecting…</span>
   <a href="/api/team/logout" class="sync" style="color:#F4F3F2;text-decoration:none">Log out</a>

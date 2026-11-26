@@ -1,7 +1,7 @@
 // Called by the thank-you page. Checks the payment with Stripe, gives the buyer their code,
 // logs this device in, and says which guides can still be offered.
 // POST {session_id, device} -> {code, name, products, offers:[...]}
-import { makeSession, sessionCookie, putCode, productsOf, json, MAX_DEVICES_DEFAULT } from '../../../src/lib.js';
+import { makeSession, sessionCookie, putCode, productsOf, json, MAX_DEVICES_DEFAULT, noteLogin } from '../../../src/lib.js';
 import { fulfillSession } from '../../../src/fulfill.js';
 
 export async function onRequestPost({ request, env }) {
@@ -17,8 +17,11 @@ export async function onRequestPost({ request, env }) {
   const device = String(b.device || '').slice(0, 80);
   if (fresh && device) {
     const max = Number(env.MAX_DEVICES || MAX_DEVICES_DEFAULT);
-    if (!rec.devices.includes(device) && rec.devices.length < max) { rec.devices.push(device); await putCode(env, rec); }
-    if (rec.devices.includes(device)) headers['Set-Cookie'] = sessionCookie(await makeSession(env, rec.code, device));
+    if (!rec.devices.includes(device) && rec.devices.length < max) rec.devices.push(device);
+    if (rec.devices.includes(device)) {
+      if (!rec.lastLogin || Date.now() - Date.parse(rec.lastLogin) > 60e3) { noteLogin(rec, request, device, 'purchase'); await putCode(env, rec); }
+      headers['Set-Cookie'] = sessionCookie(await makeSession(env, rec.code, device));
+    }
   }
   const owned = productsOf(rec);
   // An old thank-you link no longer shows the code (it is in the welcome email).

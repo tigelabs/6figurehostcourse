@@ -1,4 +1,4 @@
-// Private Launch Room for Farah & Daniel (/launchroom/).
+// Private Launch Room for Farah & Daniel (/teamdashboard/launchroom/).
 // Storage (KV binding "CODES"):
 //   team:pw          -> {salt, hash, iter}  PBKDF2-SHA256 of the team password (never stored in plain text)
 //   team:launchroom  -> {items:{}, checks:{}, days:{}, meta:{}}  the whole planner
