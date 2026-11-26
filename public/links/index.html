@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daniel &amp; Farah · 6-Figure Host</title>
+<title>6-Figure Host</title>
 <meta name="description" content="Start here: the 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
-<meta property="og:title" content="Daniel &amp; Farah · 6-Figure Host">
+<meta property="og:title" content="6-Figure Host">
 <meta property="og:description" content="The 6-Figure Host website, the online course, and a free AI tool to check the rental rules in your city.">
 <meta property="og:image" content="https://6figurehost.com/assets/sales/us-mc.webp">
 <meta name="theme-color" content="#e1ded9">
@@ -67,21 +67,56 @@ a{color:inherit}
 .foot a{color:var(--ink);font-weight:700}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--cream);padding:12px 20px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none}
 .toast.on{opacity:1;transform:translateX(-50%)}
+
+/* centred layout */
+.wrap,.top,.rules,.foot{text-align:center}
+.top{gap:12px}
+.logo{justify-content:center}
+.logo .sc{font-size:34px}.logo .dp{font-size:30px}
+.ava{margin-top:0}
+.btn{justify-content:center;text-align:center;font-size:18px;min-height:60px;padding:14px 24px}
+.bf{display:flex;flex-direction:column;align-items:center;gap:10px;margin-top:6px}
+.bf[hidden]{display:none}
+.bf-t{margin:0;font-weight:700;font-size:15px}
+.bf-t b{color:var(--terra)}
+.cd{display:flex;gap:8px;justify-content:center}
+.cd span{min-width:62px;background:var(--ink);color:var(--cream);border-radius:12px;padding:8px 6px 7px;display:flex;flex-direction:column;align-items:center}
+.cd b{font-family:var(--display);font-weight:400;font-size:26px;line-height:1}
+.cd i{font-style:normal;font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.75;margin-top:3px}
+.rules{align-items:stretch}
+.rules .lbl{text-align:center}
+.in{text-align:center}
+.box{border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;background:#fff}
+.unfold{width:100%;font:inherit;display:flex;align-items:center;justify-content:center;gap:14px;background:var(--paperx);color:var(--ink);border:0;padding:16px 18px;cursor:pointer;position:relative}
+.unfold span{display:flex;flex-direction:column;align-items:center;gap:2px}
+.unfold b{font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+.unfold small{font-size:13px;color:var(--terra);font-weight:700}
+.unfold i{width:34px;height:34px;border-radius:50%;background:var(--ink);display:grid;place-items:center;flex:none}
+.unfold i::before{content:"";width:8px;height:8px;border-right:2px solid var(--cream);border-bottom:2px solid var(--cream);transform:translateY(-2px) rotate(45deg);transition:transform .2s}
+.box.open .unfold i::before{transform:translateY(2px) rotate(-135deg)}
+.box.open .unfold{border-bottom:1px solid #d9d3cc}
+.txt{text-align:left}
+.cp{display:block;width:100%;font:inherit;font-weight:700;font-size:17px;min-height:56px;border:0;border-radius:999px;background:var(--terra);color:var(--cream);cursor:pointer}
+.cp:hover{filter:brightness(1.05)}
+.open-in{display:block;margin:-6px 0 0;padding:0;border:0;font-size:11.5px;color:var(--muted)}
+.open-in a{display:inline;border:0;padding:0;min-height:0;font-size:11.5px;font-weight:700;text-decoration:underline;color:var(--ink)}
+.open-in a:hover{background:none;color:var(--terra)}
+.rules .note{font-size:12px}
 @media (prefers-reduced-motion:reduce){.btn,.toast{transition:none}}
 </style>
 </head>
 <body>
 <main class="wrap">
 <header class="top">
+<img class="ava" src="/assets/sales/us-mc.webp" width="675" height="843" alt="6-Figure Host">
 <a class="logo" href="https://6figurehost.com/" aria-label="6 Figure Host home"><span class="sc">6 Figure</span><span class="dp">Host</span></a>
-<img class="ava" src="/assets/sales/us-mc.webp" width="675" height="843" alt="Daniel and Farah">
-<p class="name">Daniel &amp; Farah</p>
-<p class="bio">10+ years of hosting in Barcelona and Bali. <b>We don’t own a single one of our homes.</b> Here is how we do it.</p>
+<p class="bio">10+ years of hosting in Barcelona and Bali, without owning a single home.</p>
 </header>
 
 <nav class="btns" aria-label="Links">
-<a class="btn main" href="https://6figurehost.com/"><span>Visit our website<small>Start here: choose your path</small></span><i aria-hidden="true"></i></a>
-<a class="btn alt" href="https://6figurehost.com/course/"><span>The 6-Figure Host Course<small>13 lessons, host starter kit and calculator</small></span><i aria-hidden="true"></i></a>
+<a class="btn main" href="https://6figurehost.com/">6 Figure Host</a>
+<a class="btn alt" href="https://6figurehost.com/course/">Course</a>
+<div class="bf" id="bf" hidden><p class="bf-t" id="bf-t">Black Friday opens in</p><div class="cd" id="cd"><span><b id="cd-d">00</b><i>days</i></span><span><b id="cd-h">00</b><i>hours</i></span><span><b id="cd-m">00</b><i>min</i></span><span><b id="cd-s">00</b><i>sec</i></span></div></div>
 </nav>
 
 <section class="rules" aria-labelledby="rules-h">
@@ -91,7 +126,7 @@ a{color:inherit}
 <label class="lbl" for="city">City and country you want to host in</label>
 <input id="city" class="in" type="text" placeholder="Example: Antwerp, Belgium" autocomplete="off">
 <div class="box" id="box">
-<div class="bar" id="bar"><span>AI prompt: local rental rules</span><span class="acts"><button type="button" class="tg" id="tg" aria-expanded="false" aria-controls="txt">Show</button><button type="button" class="cp" id="cp">Copy</button></span></div>
+<button type="button" class="unfold" id="tg" aria-expanded="false" aria-controls="txt"><span><b>AI prompt</b><small id="tg-l">Tap to unfold</small></span><i aria-hidden="true"></i></button>
 <div class="txt" id="txt">Can you help me find the current rules for renting out a property in <mark id="cityShown">[City, Country]</mark>? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).
 
 For each type of rental, I want to know:
@@ -114,34 +149,45 @@ At the end, add a short summary I can copy into my notes, in this format:
 - Minimum stay: ...
 - Taxes: ...
 - Other important rules: ...</div>
-<div class="open-in"><span>Copy and open in:</span><a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a><a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a><a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></div>
 </div>
+<button type="button" class="cp" id="cp">Copy prompt</button>
+<p class="open-in">Copy and open in <a id="gpt" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a> · <a id="gem" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini</a> · <a id="cla" href="https://claude.ai/new" target="_blank" rel="noopener">Claude</a></p>
 <p class="note">AI can make mistakes. Always confirm the answer on the official government sites it links to.</p>
 </section>
 
 <footer class="foot">
 <span>Questions? <a href="mailto:contact@6figurehost.com">contact@6figurehost.com</a></span>
-<span>© 2026 Daniel &amp; Farah · Passion to profit LLC</span>
+<span>© 2026 6-Figure Host · Passion to profit LLC</span>
 </footer>
 </main>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
   var PRE='Can you help me find the current rules for renting out a property in ', POST='? I want to understand the rules for short-term rentals (under 1 month), mid-term rentals (1 to 6 months) and long-term rentals, and for subletting a property I rent (rental arbitrage).\n\nFor each type of rental, I want to know:\n- If it is legal, and under which conditions\n- Whether I need a license, permit or registration\n- Any minimum or maximum stay rules, or limits on the number of nights per year\n- Tax obligations (income tax, tourist or occupancy tax)\n- Zoning restrictions, primary residence rules or building/HOA rules\n- What a landlord needs to agree to if I want to sublet\n- Whether I can do this as a private individual, or need to register as self-employed or a company\n\nPlease include any helpful links or resources to official government sites if available.\n\nAt the end, add a short summary I can copy into my notes, in this format:\n- Short-term rentals (under 1 month): allowed / not allowed / with conditions\n- Mid-term rentals (1–6 months): allowed / not allowed / with conditions\n- Long-term rentals: allowed / not allowed / with conditions\n- Subletting (rental arbitrage): allowed / not allowed / with conditions\n- License or permit needed: yes / no (and which one)\n- Minimum stay: ...\n- Taxes: ...\n- Other important rules: ...';
-  var city=document.getElementById('city'),shown=document.getElementById('cityShown'),box=document.getElementById('box'),bar=document.getElementById('bar'),tg=document.getElementById('tg'),cp=document.getElementById('cp');
-  var gpt=document.getElementById('gpt'),cla=document.getElementById('cla'),gem=document.getElementById('gem'),toast=document.getElementById('toast'),tt;
+  function $(i){return document.getElementById(i)}
+  var city=$('city'),shown=$('cityShown'),box=$('box'),tg=$('tg'),tgl=$('tg-l'),cp=$('cp'),gpt=$('gpt'),gem=$('gem'),cla=$('cla'),toast=$('toast'),tt;
   function prompt(){return PRE+((city.value||'').trim()||'[City, Country]')+POST;}
   function upd(){shown.textContent=(city.value||'').trim()||'[City, Country]';var e=encodeURIComponent(prompt());gpt.href='https://chatgpt.com/?q='+e;cla.href='https://claude.ai/new?q='+e;}
   function say(m){toast.textContent=m;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('on')},1800);}
-  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy'},2000);}
-    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();
-    function fb(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}}
-  function set(o){box.classList.toggle('open',o);tg.setAttribute('aria-expanded',o?'true':'false');tg.textContent=o?'Hide':'Show';}
+  function copy(){var t=prompt();function ok(){cp.textContent='Copied!';say('Prompt copied');setTimeout(function(){cp.textContent='Copy prompt'},2000);}
+    function fb(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(a);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();}
+  function set(o){box.classList.toggle('open',o);tg.setAttribute('aria-expanded',o?'true':'false');tgl.textContent=o?'Tap to fold':'Tap to unfold';}
   city.addEventListener('input',upd);
-  bar.addEventListener('click',function(e){if(e.target===cp)return;set(!box.classList.contains('open'));});
-  cp.addEventListener('click',function(e){e.stopPropagation();copy();});
+  tg.addEventListener('click',function(){set(!box.classList.contains('open'));});
+  cp.addEventListener('click',copy);
   [gpt,gem,cla].forEach(function(a){a.addEventListener('click',copy);});
   upd();
+  // Black Friday countdown: opens 27 Nov 00:00 Barcelona time, ends 1 Dec 00:00
+  var START=Date.parse('2026-11-26T23:00:00Z'),END=Date.parse('2026-11-30T23:00:00Z'),bf=$('bf'),bft=$('bf-t');
+  function two(n){return (n<10?'0':'')+n}
+  function tick(){var now=Date.now(),to,label;
+    if(now<START){to=START;label='Black Friday opens in';}
+    else if(now<END){to=END;label='<b>Black Friday is live.</b> Ends in';}
+    else{bf.hidden=true;return;}
+    bf.hidden=false;bft.innerHTML=label;var d=Math.max(0,Math.floor((to-now)/1000));
+    $('cd-d').textContent=two(Math.floor(d/86400));$('cd-h').textContent=two(Math.floor(d%86400/3600));$('cd-m').textContent=two(Math.floor(d%3600/60));$('cd-s').textContent=two(d%60);}
+  tick();setInterval(tick,1000);
 })();
 </script>
 </body>
