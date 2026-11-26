@@ -19,6 +19,11 @@ export async function onRequestPost({ request, env }) {
     const n = Number((await env.CODES.get(key)) || 0);
     if (n >= 8) return json({ error: 'Too many signups from this connection. Please try again in an hour.' }, 429);
     await env.CODES.put(key, String(n + 1), { expirationTtl: 3600 });
+    // The same address can sign up at most twice a day, so nobody can flood someone else's inbox.
+    const mk = `mc-mail:${email}:${new Date().toISOString().slice(0, 10)}`;
+    const m = Number((await env.CODES.get(mk)) || 0);
+    if (m >= 2) return json({ ok: true });
+    await env.CODES.put(mk, String(m + 1), { expirationTtl: 86400 });
   } catch {}
 
   const list = Number(env.MC_LIST_ID || 2);

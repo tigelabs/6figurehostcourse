@@ -7,10 +7,14 @@
 // POST /api/admin/deactivate  {code}                    -> switch a code off
 // POST /api/admin/activate    {code}                    -> switch a code back on
 // POST /api/admin/setup       {}                        -> create the ACCESS_CODE attribute in Brevo (run once)
-import { normalizeCode, getCode, putCode, createCode, sendWelcome, brevo, json } from '../../../src/lib.js';
+import { normalizeCode, getCode, putCode, createCode, sendWelcome, brevo, json, safeEqual, tooMany, countFail } from '../../../src/lib.js';
 
 export async function onRequestPost({ request, env, params }) {
-  if (!env.ADMIN_KEY || request.headers.get('x-admin-key') !== env.ADMIN_KEY) return json({ error: 'unauthorized' }, 401);
+  if (await tooMany(env, request, 'admin', 10, 3600)) return json({ error: 'Too many attempts. Try again later.' }, 429);
+  if (!env.ADMIN_KEY || !safeEqual(request.headers.get('x-admin-key') || '', env.ADMIN_KEY)) {
+    await countFail(env, request, 'admin', 3600);
+    return json({ error: 'unauthorized' }, 401);
+  }
   let b = {};
   try { b = await request.json(); } catch {}
   const action = params.action;

@@ -21,6 +21,8 @@ export async function onRequestPost({ request, env }) {
     if (rec.devices.includes(device)) headers['Set-Cookie'] = sessionCookie(await makeSession(env, rec.code, device));
   }
   const owned = productsOf(rec);
-  return json({ code: rec.code, name: rec.name, email: rec.email, products: owned,
+  // An old thank-you link no longer shows the code (it is in the welcome email).
+  const recent = Date.now() / 1000 - session.created < 7 * 86400;
+  return json({ code: recent ? rec.code : null, name: rec.name, email: recent ? rec.email : '', products: owned,
     offers: ['barcelona', 'bali'].filter(s => !owned.includes(s)), canOneClick: !!rec.stripePaymentMethod }, 200, headers);
 }

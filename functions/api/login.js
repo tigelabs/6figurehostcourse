@@ -1,10 +1,4 @@
-import { normalizeCode, getCode, putCode, makeSession, sessionCookie, json, MAX_DEVICES_DEFAULT } from '../../src/lib.js';
-import { SEED_HASHES } from '../../src/seed.js';
-
-async function sha256(t) {
-  const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t));
-  return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
-}
+import { normalizeCode, getCode, putCode, makeSession, sessionCookie, json, MAX_DEVICES_DEFAULT, tooMany, countFail } from '../../src/lib.js';
 
 export async function onRequestPost({ request, env }) {
   let body = {};
@@ -14,11 +8,10 @@ export async function onRequestPost({ request, env }) {
   if (!code) return json({ error: 'That doesn’t look like a valid code. It looks like HOST-7K4M-Q2XP.' }, 400);
   if (!device) return json({ error: 'Your browser blocked the login. Please enable cookies and try again.' }, 400);
 
-  let rec = await getCode(env, code);
-  if (!rec && SEED_HASHES.has(await sha256(code))) {
-    rec = { code, email: '', name: '', orderId: '', active: true, devices: [], createdAt: new Date().toISOString(), source: 'review' };
-    await putCode(env, rec);
-  }
+  // Guessing codes: after 20 wrong tries from one connection, wait 15 minutes.
+  if (await tooMany(env, request, 'login', 20, 900)) return json({ error: 'Too many attempts. Please wait 15 minutes and try again.' }, 429);
+  const rec = await getCode(env, code);
+  if (!rec) await countFail(env, request, 'login', 900);
   if (!rec) return json({ error: 'We couldn’t find this code. Please check it against your welcome email.' }, 401);
   if (!rec.active) return json({ error: 'This code is no longer active. If you think this is a mistake, email us at contact@6figurehost.com.' }, 403);
 

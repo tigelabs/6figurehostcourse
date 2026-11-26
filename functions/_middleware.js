@@ -14,7 +14,12 @@ const COURSE_PUBLIC = new Set([
 export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
-  const path = url.pathname;
+  // Encoded slashes or backslashes (/hostcourse%2Findex.html) would slip past the path checks below
+  // while the file server still decodes them, so they are refused outright.
+  if (/%2f|%5c|\\/i.test(url.pathname)) return new Response('Not found', { status: 404 });
+  let path;
+  try { path = decodeURIComponent(url.pathname).replace(/\/{2,}/g, '/'); } catch { return new Response('Not found', { status: 404 }); }
+  const lower = path.toLowerCase();
 
   // Old course address: send people to the new one.
   if (path === '/login' || path === '/login.html') {
@@ -22,7 +27,7 @@ export async function onRequest(context) {
   }
 
   // Private Launch Room (Farah & Daniel only).
-  if (path === TEAM || path.startsWith(TEAM + '/')) {
+  if (lower === TEAM || lower.startsWith(TEAM + '/')) {
     if (path === TEAM) return Response.redirect(new URL(TEAM + '/', url).toString(), 301);
     if (TEAM_PUBLIC.has(path)) {
       const r = await next(), out = new Response(r.body, r);
@@ -39,7 +44,7 @@ export async function onRequest(context) {
     return out;
   }
 
-  if (path !== COURSE && !path.startsWith(COURSE + '/')) return next();
+  if (lower !== COURSE && !lower.startsWith(COURSE + '/')) return next();
   if (path === COURSE) return Response.redirect(new URL(COURSE + '/', url).toString(), 301);
   if (COURSE_PUBLIC.has(path)) return next();
 
@@ -49,7 +54,8 @@ export async function onRequest(context) {
   const isPage = path.endsWith('/') || path.endsWith('.html');
   const guide = path.match(/^\/hostcourse\/guides\/(barcelona|bali)\b/);
   const calc = path.startsWith('/hostcourse/calculator/');
-  if (ok && (isPage || guide || calc)) {
+  const isFile = /\.(pdf|docx?|xlsx?|zip)$/i.test(path);
+  if (ok && (isPage || guide || calc || isFile)) {
     const rec = await getCode(env, session.c);
     ok = !!(rec && rec.active && rec.devices.includes(session.d));
     if (ok) {

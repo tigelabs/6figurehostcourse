@@ -58,6 +58,12 @@ function fromB64url(s) {
   while (s.length % 4) s += '=';
   return atob(s);
 }
+export function safeEqual(a, b) {
+  a = String(a); b = String(b);
+  if (a.length !== b.length) return false;
+  let r = 0; for (let i = 0; i < a.length; i++) r |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return r === 0;
+}
 async function hmac(secret, data) {
   const key = await crypto.subtle.importKey('raw', enc.encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
   return b64url(await crypto.subtle.sign('HMAC', key, enc.encode(data)));
@@ -74,12 +80,24 @@ export async function readSession(env, request) {
   if (!m) return null;
   const [payload, sig] = m[1].split('.');
   if (!payload || !sig) return null;
-  if ((await hmac(env.SESSION_SECRET, payload)) !== sig) return null;
+  if (!env.SESSION_SECRET || !safeEqual(await hmac(env.SESSION_SECRET, payload), sig)) return null;
   try { return JSON.parse(fromB64url(payload)); } catch { return null; }
 }
 
 export function sessionCookie(value, maxAgeDays = 400) {
   return `${COOKIE}=${value}; Path=/; Max-Age=${maxAgeDays * 86400}; HttpOnly; Secure; SameSite=Lax`;
+}
+
+// Simple per-IP counter in KV, for login and admin attempts.
+export async function tooMany(env, request, name, limit, seconds) {
+  const ip = request.headers.get('CF-Connecting-IP') || 'x';
+  const key = `rl:${name}:${ip}`;
+  try { return Number((await env.CODES.get(key)) || 0) >= limit; } catch { return false; }
+}
+export async function countFail(env, request, name, seconds) {
+  const ip = request.headers.get('CF-Connecting-IP') || 'x';
+  const key = `rl:${name}:${ip}`;
+  try { const n = Number((await env.CODES.get(key)) || 0); await env.CODES.put(key, String(n + 1), { expirationTtl: Math.max(60, seconds) }); } catch {}
 }
 
 export function json(data, status = 200, headers = {}) {
