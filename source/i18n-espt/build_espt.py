@@ -540,3 +540,107 @@ p.xref a{color:#A05F50;font-weight:700}
 """
 s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('guests lesson ok')
+
+# --- Difficult guests additions (real coliving case, escalation line, reviews) + bonus lesson "Big damage & AirCover" ---
+import case as _c; importlib.reload(_c)
+C=_c.T
+s=open(P).read()
+def ct(i,tag='span',cls=''):
+    c=' class="%s"'%cls if cls else ''
+    return '<%s%s data-t="%s">%s</%s>'%(tag,c,i,C[i][0],tag)
+def bubble(who,label,i): return '<div class="msg %s"><small data-t="%s">%s</small>%s</div>'%(who,label,(G.get(label) or C.get(label))[0],ct(i,'p'))
+def cext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s ↗</a>'%(i,href,C[i][0])
+def fig(src,cap,alt,w,h): return '<figure><img alt="%s" decoding="async" height="%d" loading="lazy" src="img/%s" width="%d"/><figcaption data-t="%s">%s</figcaption></figure>'%(alt,h,src,w,cap,C[cap][0])
+# 1) escalation line, after "Keep your word"
+esc=('<h3 data-t="3300">'+C['3300'][0]+'</h3>'+ct('3301','p')
+ +'<div class="gx-line">'+gt('3235','span','vk-tag')+ct('3302','p')+'</div>'
+ +'<div class="vk-tip">'+ct('3303')+'</div>\n')
+a=s.find('<span class="gold-k" data-t="3237">'); a=s.find('</div>',a)+6
+s=s[:a]+'\n'+esc+s[a:]
+# 2) real case, after the example conversations (before "Airbnb's rules are on your side")
+case=('<div class="case">'+'<h3 data-t="3304">'+C['3304'][0]+'</h3>'+ct('3305','p','case-sub')+ct('3306','p')
+ +'<ol class="case-steps">'+''.join(ct(i,'li') for i in ['3307','3308','3309','3310','3311','3312'])+'</ol>'
+ +ct('3313','h4')+'<div class="chat">'+bubble('h','3260','3314')+bubble('g','3318','3315')+bubble('h','3260','3316')+bubble('g','3319','3317')+'</div>'
+ +'<div class="vk-card vk-yes case-learn">'+ct('3320','h4')+'<ul>'+''.join(ct(i,'li') for i in ['3321','3322','3323','3324','3325'])+'</ul></div>'
+ +'</div>\n')
+a=s.find('<h3 data-t="3262">'); s=s[:a]+case+s[a:]
+# 3) reviews, before "Spot it before they book"
+rev=('<h3 data-t="3327">'+C['3327'][0]+'</h3>'+ct('3328','p')
+ +'<div class="vk-g3">'+gcard(gn(1)+ct('3329','h4')+ct('3330','p'))+gcard(gn(2)+ct('3331','h4')+ct('3332','p'))+gcard(gn(3)+ct('3333','h4')+ct('3334','p'),'vk-no')+'</div>'
+ +cext('https://www.airbnb.com/help/article/3582','3335')+'\n')
+a=s.find('<h3 data-t="3269">'); s=s[:a]+rev+s[a:]
+# extra task
+a=s.find('<input data-task="bg-t3"'); a=s.find('</label>',a)+8
+s=s[:a]+'<label class="task"><input data-task="bg-t4" type="checkbox"/><span data-t="3336">%s</span></label>'%C['3336'][0]+s[a:]
+# 4) damage lesson
+st=lambda items:'<div class="vk-steps">'+''.join('<div class="vk-step%s">%s%s%s</div>'%(' vk-wide' if (j==len(items) and len(items)%2) else '',gn(j),ct(h,'h4'),ct(q,'p')) for j,(h,q) in enumerate(items,1))+'</div>'
+FOOT2=s[s.find('<div class="foot">',s.find('<article class="lesson" id="bonus-guests"')):]
+FOOT2=FOOT2[:FOOT2.find('</div>\n</article>')+6]
+dmg=('<article class="lesson" id="bonus-damage">\n'
+ '<header class="lhead"><div class="lh-main">'+ct('3400','span','eyebrow')+'<h1 data-t="3401">'+C['3401'][0]+'</h1>'+ct('3402','p','sub')+'</div>'
+ '<div class="lh-side"><span aria-hidden="true" class="mbadge sym"><small data-t="3201">Bonus</small><b>★</b></span><button class="backlink" hidden="" type="button"><span aria-hidden="true">←</span> <span class="bl-t" data-t="119">Back</span></button></div>\n</header>\n'
+ +ct('3403','p')+'\n'
+ +'<h3 data-t="3404">'+C['3404'][0]+'</h3>'+st([('3405','3406'),('3407','3408'),('3409','3410'),('3411','3412'),('3413','3414')])+'\n'
+ +'<h3 data-t="3415">'+C['3415'][0]+'</h3>'+ct('3416','p')+'<div class="vk-tip">'+ct('3417')+'</div>'+cext('https://www.airbnb.com/help/article/3215','3418')+'\n'
+ +'<h3 data-t="3419">'+C['3419'][0]+'</h3>'+ct('3420','p')
+ +'<div class="vk-two">'+gcard(ct('3421','h4')+'<ul>'+''.join(ct(i,'li') for i in ['3422','3423','3424'])+'</ul>','vk-yes')+gcard(ct('3425','h4')+'<ul>'+''.join(ct(i,'li') for i in ['3426','3427','3428'])+'</ul>','vk-no')+'</div>'
+ +cext('https://www.airbnb.com/help/article/542','3445')
+ +'<h4 data-t="3429">'+C['3429'][0]+'</h4>'+st([('3430','3431'),('3432','3433'),('3434','3435'),('3436','3437'),('3438','3439')])
+ +'<div class="vk-tip">'+ct('3444')+'</div>\n'
+ +'<h3 data-t="3440">'+C['3440'][0]+'</h3>'+ct('3441','p')
+ +'<figure class="shot">'+'<img alt="Airbnb Resolution Center with reimbursement requests" decoding="async" height="768" loading="lazy" src="img/resolution-center.webp" width="1400"/><figcaption data-t="3442">'+C['3442'][0]+'</figcaption></figure>'
+ +'<a class="btn" data-t="3443" href="https://www.airbnb.com/resolutions" rel="noopener" target="_blank">'+C['3443'][0]+'</a>\n'
+ +'<div class="case">'+'<h3 data-t="3446">'+C['3446'][0]+'</h3>'+ct('3447','p','case-sub')+ct('3448','p')
+ +'<div class="trio3 case-nums"><div><b>5</b><span data-t="3454">'+C['3454'][0]+'</span></div><div><b>4–5</b><span data-t="3455">'+C['3455'][0]+'</span></div><div><b>€2,500</b><span data-t="3456">'+C['3456'][0]+'</span></div><div><b>~95%</b><span data-t="3457">'+C['3457'][0]+'</span></div></div>'
+ +'<div class="case-grid">'+fig('case-sewage-message.webp','3458','Guest message: the bathroom is full of sewage',800,788)+fig('case-sewage-bathroom.webp','3459','Flooded bathroom floor',900,1200)+fig('case-sewage-shower.webp','3460','Shower tray full of sewage water',900,1600)+'</div>'
+ +ct('3449','h4')+'<ol class="case-steps">'+''.join(ct(i,'li') for i in ['3450','3451','3452','3453'])+'</ol>'
+ +'<div class="case-grid">'+fig('case-sewage-van.webp','3461','Drain company van in Barcelona',900,1200)+fig('case-sewage-tech.webp','3462','Technician unblocking the pipe',900,1200)+fig('case-sewage-shower2.webp','3460','Shower after the water drained',900,1549)+'</div>'
+ +'<figure class="shot">'+'<img alt="Email from Airbnb approving a reimbursement under Host damage protection" decoding="async" height="241" loading="lazy" src="img/case-sewage-airbnb.webp" width="1100"/><figcaption data-t="3463">'+C['3463'][0]+'</figcaption></figure>'
+ +'</div>\n'
+ +'<div class="checklist"><div class="label"><span data-t="322">Your tasks</span></div>'
+ +''.join('<label class="task"><input data-task="bd-t%d" type="checkbox"/><span data-t="%s">%s</span></label>'%(j,i,C[i][0]) for j,i in enumerate(['3466','3467','3468','3469'],1))+'</div>\n'
+ +'<div class="gold"><span class="gold-k" data-t="3464">'+C['3464'][0]+'</span><p data-t="3465">'+C['3465'][0]+'</p></div>\n'
+ +'<div class="pn"><a data-t="3345" href="#bonus-guests">'+C['3345'][0]+'</a><a class="next" data-t="3346" href="#bonus-mistakes">'+C['3346'][0]+'</a></div>\n'
+ +FOOT2+'\n</article>\n')
+a=s.find('<article class="lesson" id="bonus-mistakes"'); s=s[:a]+dmg+s[a:]
+# chain: guests -> damage -> mistakes
+s=s.replace('<a class="next" data-t="3293" href="#bonus-mistakes">'+G['3293'][0]+'</a>','<a class="next" data-t="3340" href="#bonus-damage">'+C['3340'][0]+'</a>',1)
+s=s.replace('<a data-t="3295" href="#bonus-guests">'+G['3295'][0]+'</a>','<a data-t="3341" href="#bonus-damage">'+C['3341'][0]+'</a>',1)
+assert 'href="#bonus-damage"><small>Next' in s and 'data-t="3341"' in s
+# sidebar
+o='<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">Difficult guests</span></a>'
+assert o in s
+s=s.replace(o,o+'\n<a href="#bonus-damage"><span class="n">★</span><span class="t" data-t="3342">Big damage &amp; AirCover</span></a>',1)
+# cross-links
+i=s.find('<p class="xref" data-t="3290">',s.find('<p data-t="1278">')); j=s.find('</p>',i)+4
+s=s[:j]+'<p class="xref" data-t="3343">'+C['3343'][0]+'</p>'+s[j:]
+i=s.find('<p data-t="2454">'); j=s.find('</p>',i)+4
+s=s[:j]+'<a data-t="3344" href="#bonus-damage">'+C['3344'][0]+'</a>'+s[j:]
+# every prompt / template box folds (except the ones already inside a dropdown)
+o="if(!inLib&&AI.indexOf(t.getAttribute('data-t'))<0)return;"
+assert o in s
+s=s.replace(o,"if(!inLib&&c.closest('details'))return;")
+# translations
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for i,v in C.items():
+    for L,x in zip(('nl','es','pt'),v[1:]): d[L]['u'][i]=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+css="""
+/* real cases + damage lesson */
+.case{background:var(--paper);border:1.5px solid var(--ink);border-radius:18px;padding:20px 22px;margin:22px 0}
+.case>h3{margin-top:8px}.case .case-sub{margin:-4px 0 10px;color:#A05F50;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.case-steps{counter-reset:cs;list-style:none;padding:0;margin:14px 0}
+.case-steps li{counter-increment:cs;position:relative;padding:0 0 12px 38px;margin:0}
+.case-steps li::before{content:counter(cs);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:8px;background:#A05F50;background-image:var(--grad-t);color:#F4F2EF;font:700 13px/26px var(--body,Arial),Arial,sans-serif;text-align:center}
+.case .chat{margin:8px 0 16px}
+.case-learn{margin-top:8px}
+.case-nums{grid-template-columns:repeat(4,minmax(0,1fr))!important;margin:14px 0}
+.case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
+.case-grid figure,figure.shot{margin:0}
+.case-grid img{width:100%;height:240px;object-fit:cover;border-radius:12px;display:block;border:1px solid #DAD6D0}
+figure.shot{margin:14px 0}figure.shot img{width:100%;max-width:none!important;height:auto;border-radius:12px;display:block;border:1px solid #DAD6D0;background:#fff}
+.case-grid figcaption,figure.shot figcaption{font-size:13px;color:var(--ink-soft,#4A4541);margin-top:6px;line-height:1.4}
+@media (max-width:760px){.case-grid{grid-template-columns:1fr 1fr}.case-nums{grid-template-columns:1fr 1fr!important}}
+"""
+s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('case + damage ok')
