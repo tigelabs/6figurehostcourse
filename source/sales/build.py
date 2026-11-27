@@ -57,7 +57,7 @@ def page(path, title, desc, body, active='', foot=True):
 <meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp?v=2">
 %s
 <link rel="stylesheet" href="/assets/sales.css?v=20261124z">
-<script src="/assets/offer.js?v=8" defer></script>
+<script src="/assets/offer.js?v=9" defer></script>
 </head>
 <body>
 <div class="pg">

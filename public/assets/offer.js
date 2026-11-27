@@ -50,8 +50,8 @@
       set('bar', '<b>Black Friday</b> opens 27 November: the course for ' + m(O.bfOne) + ' instead of ' + m(O.reg) + '. Starts in');
       set('headline', 'Black Friday opens 27 November: ' + m(O.bfOne) + ' for 4 days only');
     } else if (bf) {
-      set('bar', '<b>Black Friday:</b> the course for ' + m(O.bfOne) + ' instead of ' + m(O.reg) + ', or ' + n + ' × ' + m(P.split) + '. Ends 30 November at midnight.');
-      set('headline', 'Black Friday price ends 30 November at midnight');
+      set('bar', '<b>Black Friday:</b> the course for ' + m(O.bfOne) + ' instead of ' + m(O.reg) + '. This price is gone when the timer hits zero.');
+      set('headline', 'Black Friday price: gone when the timer hits zero');
     } else {
       set('bar', 'The new interactive 6-Figure Host Course: one payment of ' + m(O.reg) + ', or ' + n + ' × ' + m(P.split) + '.');
       set('headline', '');
