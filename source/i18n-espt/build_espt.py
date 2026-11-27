@@ -414,3 +414,28 @@ for tid,(name,paths) in ICONS.items():
     s=_re.sub(r'((?:data-t="%s">|"%s": ")<strong>)[a-e]\. '%(tid,tid),r'\1',s)
 s=s[:s.rfind('</style>')]+'\n'.join(css)+'\n'+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('desc icons ok')
+
+# --- numbered headings as rounded number badges (lesson 8 first; extend NUM_LESSONS after approval) ---
+NUM_LESSONS=['ch8']
+s=open(P).read()
+import re as _re
+def _numify(s, lid):
+    a=s.find('<article class="lesson" id="%s"'%lid); assert a>0, lid
+    b=s.find('<article class="lesson"',a+10); b=b if b>0 else s.find('</main>',a)
+    part=s[a:b]; ids=[]
+    def rep(m):
+        ids.append(m.group(3))
+        return '<h4 class="num-h" data-n="%s" data-t="%s">%s'%(m.group(2),m.group(3),m.group(4))
+    part=_re.sub(r'<h4( )data-t="(?P<x>\d+)">(\d+)\.\s','',part) if False else part
+    part=_re.sub(r'<h4 data-t="(\d+)">(\d+)\.\s',lambda m:(ids.append(m.group(1)),'<h4 class="num-h" data-n="%s" data-t="%s">'%(m.group(2),m.group(1)))[1],part)
+    s=s[:a]+part+s[b:]
+    for t in ids:
+        s=_re.sub(r'("%s": ")\d+\.\s'%t,r'\1',s)
+    return s, ids
+for _l in NUM_LESSONS:
+    s,_ids=_numify(s,_l); print('num',_l,len(_ids))
+s=s[:s.rfind('</style>')]+"""
+h4.num-h{display:flex;align-items:center;gap:12px}
+h4.num-h::before{content:attr(data-n);flex:none;display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--grad-t,#A05F50);background-color:#A05F50;color:#F4F2EF;font:400 18px/1 var(--disp,Anton),Impact,sans-serif;letter-spacing:0}
+"""+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('num-h ok')
