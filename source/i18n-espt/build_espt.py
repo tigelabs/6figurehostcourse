@@ -722,3 +722,26 @@ b0=s.find('<div class="bundle-items">',a)+len('<div class="bundle-items">')
 e=s.find('</div></details>\n<h6 data-t="3201">',b0); assert e>0
 s=s[:a]+s[b0:e]+s[e+len('</div></details>'):]
 open(P,'w').write(s); print('kit flattened')
+# --- breathing room between text and boxes/tables, everywhere in the course ---
+s=open(P).read()
+BOX='.tw,table,.card,.vk-two,.vk-g3,.vk-grid3,.vk-steps,.vk-card,.vk-list,.copy,.checklist,.resgrid,.choices,.ba,figure,.tool,.shots,.two,.mk-grid,.opts,.tabs,.pboxes,.gx-line,details.gx,details.obj,.chips,.tiles,.trio,.trio3,.platbox,.tex,.gold,.vk-tip,.case,.btnrow,a.btn,blockquote,.flow,.decide,.cel-card,.rev-card,.chartcard'
+TXT='p:not(.ba-cap):not(.hd-big):not(.gx-why):not(.added):not(.tip):not(.case-sub),ul,ol,h3,h4'
+css=('\n/* spacing rhythm: text <-> boxes */\n'
+ '.lesson :is(p,ul,ol,blockquote,h3,h4,p.tip) + :is(%s){margin-top:24px!important}\n'
+ '.lesson :is(%s) + :is(%s){margin-top:28px!important}\n'
+ '.lesson :is(%s) + h3{margin-top:40px!important}\n'
+ '.lesson .lh-main + *, .lesson .eyebrow + h2{margin-top:revert}\n')%(BOX,BOX,TXT,BOX)
+s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('spacing ok')
+# --- terracotta bullets, and numbered lists as number badges, everywhere ---
+s=open(P).read()
+OLS='.lesson ol:is(:not([class]),.steps-list):not(.donebox ol):not(#calculator ol)'
+css=('\n/* bullets + numbered lists in the course style */\n'
+ '.lesson ul>li::marker{color:#A05F50;font-size:1.15em}\n'
+ +OLS+'{list-style:none;counter-reset:olc;padding-left:0}\n'
+ +OLS+'>li{counter-increment:olc;position:relative;padding-left:38px;margin:0 0 12px}\n'
+ +OLS+'>li::marker{content:none}\n'
+ +OLS+'>li::before{content:counter(olc);position:absolute;left:0;top:0;width:26px;height:26px;border-radius:8px;background:#A05F50;background-image:var(--grad-t);color:#F4F2EF;font:700 13px/26px var(--body,Arial),Arial,sans-serif;text-align:center;font-style:normal}\n'
+ +OLS+'>li>ul{margin-top:8px}\n')
+s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('lists ok')
