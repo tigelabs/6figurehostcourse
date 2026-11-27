@@ -416,7 +416,7 @@ s=s[:s.rfind('</style>')]+'\n'.join(css)+'\n'+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('desc icons ok')
 
 # --- numbered headings as rounded number badges (lesson 8 first; extend NUM_LESSONS after approval) ---
-NUM_LESSONS=['ch8']
+NUM_LESSONS=None  # None = every lesson
 s=open(P).read()
 import re as _re
 def _numify(s, lid):
@@ -432,10 +432,111 @@ def _numify(s, lid):
     for t in ids:
         s=_re.sub(r'("%s": ")\d+\.\s'%t,r'\1',s)
     return s, ids
-for _l in NUM_LESSONS:
+for _l in (NUM_LESSONS or _re.findall(r'<article class="lesson" id="([^"]+)"',s)):
     s,_ids=_numify(s,_l); print('num',_l,len(_ids))
 s=s[:s.rfind('</style>')]+"""
 h4.num-h{display:flex;align-items:center;gap:10px}
-h4.num-h::before{content:attr(data-n);flex:none;display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:rgba(160,95,80,.12);color:#A05F50;font:700 13px/1 var(--body,Arial),Arial,sans-serif;letter-spacing:0}
+h4.num-h::before{content:attr(data-n);flex:none;display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:#A05F50;background-image:var(--grad-t);color:#F4F2EF;font:700 13px/1 var(--body,Arial),Arial,sans-serif;letter-spacing:0}
 """+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('num-h ok')
+
+# --- Bonus lesson "Difficult guests"; sidebar: old "Bonus" group becomes "Tools", new "Bonus" group ---
+import importlib, guests as _g; importlib.reload(_g)
+G=_g.T
+s=open(P).read()
+def gt(i,tag='span',cls=''):
+    c=' class="%s"'%cls if cls else ''
+    return '<%s%s data-t="%s">%s</%s>'%(tag,c,i,G[i][0],tag)
+def gn(k): return '<span class="vk-n">%s</span>'%k
+def gcard(inner,cls=''): return '<div class="vk-card%s">%s</div>'%((' '+cls) if cls else '',inner)
+def chat(title,msgs,why):
+    out='<div class="gx"><div class="gx-h">'+gt('3297','span','vk-tag')+gt(title,'h4')+'</div><div class="chat">'
+    for who,i in msgs:
+        out+='<div class="msg %s">%s%s</div>'%(who, gt('3259' if who=='g' else '3260','small'), gt(i,'p'))
+    return out+'</div><p class="gx-why"><b data-t="3261">%s</b> <span data-t="%s">%s</span></p></div>'%(G['3261'][0],why,G[why][0])
+def ext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s ↗</a>'%(i,href,G[i][0])
+FOOT=s[s.find('<div class="foot">',s.find('<article class="lesson" id="bonus-mistakes"')):]
+FOOT=FOOT[:FOOT.find('</div>\n</article>')+6]
+art=('<article class="lesson" id="bonus-guests">\n'
+ '<header class="lhead"><div class="lh-main">'+gt('3203','span','eyebrow')+'<h1 data-t="3204">'+G['3204'][0]+'</h1>'+gt('3205','p','sub')+'</div>'
+ '<div class="lh-side"><span aria-hidden="true" class="mbadge sym"><small data-t="3201">Bonus</small><b>★</b></span><button class="backlink" hidden="" type="button"><span aria-hidden="true">←</span> <span class="bl-t" data-t="119">Back</span></button></div>\n</header>\n'
+ +gt('3207','p')+'\n'
+ +'<h3 data-t="3208">'+G['3208'][0]+'</h3>'+gt('3209','p')+gt('3210','p')
+ +'<div class="vk-two">'+gcard(gt('3211','h4')+gt('3212','p'),'vk-no')+gcard(gt('3213','h4')+gt('3214','p'),'vk-yes')+'</div>\n'
+ +'<h3 data-t="3215">'+G['3215'][0]+'</h3>'+gt('3216','p')
+ +'<div class="vk-steps">'+''.join('<div class="vk-step%s">%s%s%s</div>'%(' vk-wide' if j==5 else '',gn(j),gt(h,'h4'),gt(q,'p')) for j,(h,q) in enumerate([('3217','3218'),('3219','3220'),('3221','3222'),('3223','3224'),('3225','3226')],1))+'</div>\n'
+ +'<h3 data-t="3227">'+G['3227'][0]+'</h3>'+gt('3228','p')
+ +'<div class="vk-g3">'+gcard(gn(1)+gt('3229','h4')+gt('3230','p'))+gcard(gn(2)+gt('3231','h4')+gt('3232','p'))+gcard(gn(3)+gt('3233','h4')+gt('3234','p'))+'</div>'
+ +'<div class="gx-line">'+gt('3235','span','vk-tag')+gt('3236','p')+'</div>'
+ +'<div class="gold"><span class="gold-k" data-t="3237">'+G['3237'][0]+'</span><p data-t="3238">'+G['3238'][0]+'</p></div>\n'
+ +'<h3 data-t="3239">'+G['3239'][0]+'</h3>'+gt('3240','p')
+ +chat('3241',[('g','3242'),('h','3243'),('g','3244'),('h','3245')],'3246')
+ +chat('3247',[('g','3248'),('h','3249'),('g','3250'),('h','3251')],'3252')
+ +chat('3253',[('g','3254'),('h','3255'),('g','3256'),('h','3257')],'3258')+'\n'
+ +'<h3 data-t="3262">'+G['3262'][0]+'</h3>'
+ +'<div class="vk-two">'+gcard(gt('3263','h4')+gt('3264','p')+ext('https://www.airbnb.com/help/article/2673','3265'))+gcard(gt('3266','h4')+gt('3267','p')+ext('https://www.airbnb.com/help/article/2799','3268'))+'</div>\n'
+ +'<h3 data-t="3269">'+G['3269'][0]+'</h3>'
+ +gcard('<ul>'+''.join(gt(i,'li') for i in ['3270','3271','3272','3273'])+'</ul>','vk-no')
+ +'<div class="vk-tip">'+gt('3274')+'</div>\n'
+ +'<h3 data-t="3275">'+G['3275'][0]+'</h3>'
+ +'<div class="vk-g3">'+gcard(gt('3276','h4')+gt('3277','p'))+gcard(gt('3278','h4')+gt('3279','p'))+gcard(gt('3280','h4')+gt('3281','p'))+'</div>'
+ +'<div class="copy"><header><span data-t="3282">'+G['3282'][0]+'</span><span><button class="btn-s cp" data-t="477" type="button">Copy</button></span></header><div class="src" data-t="3283">'+G['3283'][0]+'</div>'
+ +'<div class="ai-links"><span data-t="479">Copy and open in:</span><a data-t="480" href="https://chatgpt.com/" rel="noopener" target="_blank">ChatGPT</a><a data-t="481" href="https://gemini.google.com/" rel="noopener" target="_blank">Gemini</a><a data-t="482" href="https://claude.ai/" rel="noopener" target="_blank">Claude</a></div></div>\n'
+ +'<div class="checklist"><div class="label"><span data-t="322">Your tasks</span></div>'
+ +''.join('<label class="task"><input data-task="bg-t%d" type="checkbox"/><span data-t="%s">%s</span></label>'%(j,i,G[i][0]) for j,i in enumerate(['3284','3285','3286'],1))+'</div>\n'
+ +'<div class="gold"><span class="gold-k" data-t="3287">'+G['3287'][0]+'</span><p data-t="3288">'+G['3288'][0]+'</p></div>\n'
+ +'<div class="pn"><a data-t="3292" href="#bonus-declutter">'+G['3292'][0]+'</a><a class="next" data-t="3293" href="#bonus-mistakes">'+G['3293'][0]+'</a></div>\n'
+ +FOOT+'\n</article>\n')
+a=s.find('<article class="lesson" id="bonus-mistakes"'); assert a>0
+s=s[:a]+art+s[a:]
+# prev/next chain: declutter -> guests -> mistakes
+import re as _re2
+s=_re2.sub(r'<a class="next" data-t="2437" href="#bonus-mistakes">.*?</a>','<a class="next" data-t="3294" href="#bonus-guests">'+G['3294'][0]+'</a>',s,1,flags=_re2.S)
+s=_re2.sub(r'<a data-t="2475" href="#bonus-declutter">.*?</a>','<a data-t="3295" href="#bonus-guests">'+G['3295'][0]+'</a>',s,1,flags=_re2.S)
+# mistakes badge says Bonus (24 now means Tools)
+m0=s.find('<article class="lesson" id="bonus-mistakes"'); m1=s.find('</header>',m0)
+s=s[:m0]+s[m0:m1].replace('<small data-t="24">Bonus</small>','<small data-t="3201">Bonus</small>')+s[m1:]
+# sidebar
+old='<a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a></div></details>'
+assert old in s
+s=s.replace(old,'</div></details>\n<h6 data-t="3201">Bonus</h6>\n<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">Difficult guests</span></a>\n<a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a>',1)
+s=s.replace('<h6 data-t="24">Bonus</h6>','<h6 data-t="24">Tools</h6>',1)
+s=_re2.sub(r'(data-t="24"[^>]*>)Bonus<',r'\1Tools<',s)
+# cross-links
+for after in ['<p data-t="1278">','<p data-t="97">']:
+    i=s.find(after); assert i>0, after; j=s.find('</p>',i)+4
+    s=s[:j]+'<p class="xref" data-t="3290">'+G['3290'][0]+'</p>'+s[j:]
+i=s.find('<span data-t="2449">Taking it personally</span>'); j=s.find('</p>',i)+4
+s=s[:j]+'<a data-t="3291" href="#bonus-guests">'+G['3291'][0]+'</a>'+s[j:]
+# translations
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for i,v in G.items():
+    for L,x in zip(('nl','es','pt'),v[1:]): d[L]['u'][i]=x
+for L,x in zip(('nl','es','pt'),G['3202'][1:]): d[L]['u']['24']=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+css="""
+/* bonus: difficult guests */
+.gx{background:var(--paper);border:1.5px solid var(--ink);border-radius:16px;padding:18px 20px;margin:16px 0}
+.gx-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}.gx-h h4{margin:0}
+.chat{display:flex;flex-direction:column;gap:8px}
+.chat .msg{max-width:78%;padding:9px 14px 10px;border-radius:16px;font-size:15px;line-height:1.45}
+.chat .msg small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:2px}
+.chat .msg p{margin:0}
+.chat .msg.g{align-self:flex-start;background:var(--stone);border-bottom-left-radius:4px}
+.chat .msg.h{align-self:flex-end;background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-bottom-right-radius:4px}
+.gx-why{margin:12px 0 0;font-size:14px;color:var(--ink-soft,#4A4541)}.gx-why b{color:#A05F50}
+.gx-line{background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-radius:16px;padding:18px 22px;margin:16px 0}
+.gx-line p{margin:10px 0 0;font:italic 400 21px/1.35 var(--serif,'Instrument Serif'),Georgia,serif}
+.gx-line .vk-tag{background:rgba(244,242,239,.14);color:#F4F2EF}
+a.gx-ext{display:inline-block;margin-top:6px;font-size:13px;font-weight:700;color:#A05F50}
+p.xref{font-size:14px;background:rgba(160,95,80,.08);border-left:3px solid #A05F50;border-radius:0 10px 10px 0;padding:8px 12px}
+p.xref a{color:#A05F50;font-weight:700}
+@media (max-width:640px){.chat .msg{max-width:92%}}
+.copy+.checklist{margin-top:22px}
+.vk-g3 .vk-card>.vk-n{margin-bottom:10px}
+/* all numbered markers in the course: small terracotta rounded square, white number */
+.vk-n{width:26px!important;height:26px!important;border-radius:8px!important;background:#A05F50!important;background-image:var(--grad-t)!important;color:#F4F2EF!important;font-size:13px!important}
+.vk-step .vk-n{top:18px}
+"""
+s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('guests lesson ok')
