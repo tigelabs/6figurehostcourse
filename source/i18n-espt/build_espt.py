@@ -442,18 +442,22 @@ open(P,'w').write(s); print('num-h ok')
 
 # --- Bonus lesson "Difficult guests"; sidebar: old "Bonus" group becomes "Tools", new "Bonus" group ---
 import importlib, guests as _g; importlib.reload(_g)
-G=_g.T
+G=dict(_g.T)
+import overrides as _o; importlib.reload(_o); G.update(_o.O)
 s=open(P).read()
 def gt(i,tag='span',cls=''):
     c=' class="%s"'%cls if cls else ''
     return '<%s%s data-t="%s">%s</%s>'%(tag,c,i,G[i][0],tag)
 def gn(k): return '<span class="vk-n">%s</span>'%k
 def gcard(inner,cls=''): return '<div class="vk-card%s">%s</div>'%((' '+cls) if cls else '',inner)
-def chat(title,msgs,why):
-    out='<div class="gx"><div class="gx-h">'+gt('3297','span','vk-tag')+gt(title,'h4')+'</div><div class="chat">'
+def chat(title,msgs,why,extra=''):
+    out=('<details class="gx"><summary class="gx-h"><span class="gx-k" data-t="3297">'+G['3297'][0]+'</span>'+gt(title,'h4')
+         +'<span aria-hidden="true" class="gx-chev"></span></summary><div class="gx-body"><div class="chat">')
     for who,i in msgs:
         out+='<div class="msg %s">%s%s</div>'%(who, gt('3259' if who=='g' else '3260','small'), gt(i,'p'))
-    return out+'</div><p class="gx-why"><b data-t="3261">%s</b> <span data-t="%s">%s</span></p></div>'%(G['3261'][0],why,G[why][0])
+    out+='</div><p class="gx-why"><b data-t="3261">%s</b> <span data-t="%s">%s</span></p>'%(G['3261'][0],why,G[why][0])
+    if extra: out+='<p class="gx-link"><a data-t="%s" href="#ch9-p4">%s</a></p>'%(extra,G[extra][0])
+    return out+'</div></details>'
 def ext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s ↗</a>'%(i,href,G[i][0])
 FOOT=s[s.find('<div class="foot">',s.find('<article class="lesson" id="bonus-mistakes"')):]
 FOOT=FOOT[:FOOT.find('</div>\n</article>')+6]
@@ -470,9 +474,9 @@ art=('<article class="lesson" id="bonus-guests">\n'
  +'<div class="gx-line">'+gt('3235','span','vk-tag')+gt('3236','p')+'</div>'
  +'<div class="gold"><span class="gold-k" data-t="3237">'+G['3237'][0]+'</span><p data-t="3238">'+G['3238'][0]+'</p></div>\n'
  +'<h3 data-t="3239">'+G['3239'][0]+'</h3>'+gt('3240','p')
- +chat('3241',[('g','3242'),('h','3243'),('g','3244'),('h','3245')],'3246')
+ +chat('3241',[('g','3242'),('h','3243'),('g','3244'),('h','3245')],'3246','3361')
  +chat('3247',[('g','3248'),('h','3249'),('g','3250'),('h','3251')],'3252')
- +chat('3253',[('g','3254'),('h','3255'),('g','3256'),('h','3257')],'3258')+'\n'
+ +chat('3253',[('g','3254'),('h','3255'),('g','3256'),('h','3257')],'3258','3362')+'\n'
  +'<h3 data-t="3262">'+G['3262'][0]+'</h3>'
  +'<div class="vk-two">'+gcard(gt('3263','h4')+gt('3264','p')+ext('https://www.airbnb.com/help/article/2673','3265'))+gcard(gt('3266','h4')+gt('3267','p')+ext('https://www.airbnb.com/help/article/2799','3268'))+'</div>\n'
  +'<h3 data-t="3269">'+G['3269'][0]+'</h3>'
@@ -499,7 +503,7 @@ s=s[:m0]+s[m0:m1].replace('<small data-t="24">Bonus</small>','<small data-t="320
 # sidebar
 old='<a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a></div></details>'
 assert old in s
-s=s.replace(old,'</div></details>\n<h6 data-t="3201">Bonus</h6>\n<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">Difficult guests</span></a>\n<a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a>',1)
+s=s.replace(old,'</div></details>\n<h6 data-t="3201">Bonus</h6>\n<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">'+G['3296'][0]+'</span></a>\n<a href="#bonus-mistakes"><span class="n">★</span><span class="t" data-t="38">Common mistakes</span></a>',1)
 s=s.replace('<h6 data-t="24">Bonus</h6>','<h6 data-t="24">Tools</h6>',1)
 s=_re2.sub(r'(data-t="24"[^>]*>)Bonus<',r'\1Tools<',s)
 # cross-links
@@ -516,8 +520,8 @@ for L,x in zip(('nl','es','pt'),G['3202'][1:]): d[L]['u']['24']=x
 s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
 css="""
 /* bonus: difficult guests */
-.gx{background:var(--paper);border:1.5px solid var(--ink);border-radius:16px;padding:18px 20px;margin:16px 0}
-.gx-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}.gx-h h4{margin:0}
+.gx{background:var(--paper);border:1.5px solid var(--ink);border-radius:16px;margin:12px 0}
+details.gx{padding:0}details.gx>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:14px;padding:16px 20px}details.gx>summary::-webkit-details-marker{display:none}.gx-k{grid-column:1;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#A05F50}.gx-h h4{grid-column:1;margin:2px 0 0}.gx-chev{grid-column:2;grid-row:1/span 2;width:30px;height:30px;border-radius:99px;border:1.5px solid var(--ink);position:relative}.gx-chev::after{content:'';position:absolute;left:10px;top:8px;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .2s}details.gx[open] .gx-chev::after{transform:rotate(-135deg);top:12px}.gx-body{padding:0 20px 18px}p.gx-link{margin:10px 0 0;font-size:14px}p.gx-link a{color:#A05F50;font-weight:700}
 .chat{display:flex;flex-direction:column;gap:8px}
 .chat .msg{max-width:78%;padding:9px 14px 10px;border-radius:16px;font-size:15px;line-height:1.45}
 .chat .msg small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin-bottom:2px}
@@ -525,8 +529,8 @@ css="""
 .chat .msg.g{align-self:flex-start;background:var(--stone);border-bottom-left-radius:4px}
 .chat .msg.h{align-self:flex-end;background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-bottom-right-radius:4px}
 .gx-why{margin:12px 0 0;font-size:14px;color:var(--ink-soft,#4A4541)}.gx-why b{color:#A05F50}
-.gx-line{background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-radius:16px;padding:18px 22px;margin:16px 0}
-.gx-line p{margin:10px 0 0;font:italic 400 21px/1.35 var(--serif,'Instrument Serif'),Georgia,serif}
+.gx-line{background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-radius:16px;padding:26px 30px 28px;margin:18px 0}
+.gx-line p{margin:16px 0 0;max-width:62ch;font:italic 400 21px/1.35 var(--serif,'Instrument Serif'),Georgia,serif}
 .gx-line .vk-tag{background:rgba(244,242,239,.14);color:#F4F2EF}
 a.gx-ext{display:inline-block;margin-top:6px;font-size:13px;font-weight:700;color:#A05F50}
 p.xref{font-size:14px;background:rgba(160,95,80,.08);border-left:3px solid #A05F50;border-radius:0 10px 10px 0;padding:8px 12px}
@@ -543,7 +547,7 @@ open(P,'w').write(s); print('guests lesson ok')
 
 # --- Difficult guests additions (real coliving case, escalation line, reviews) + bonus lesson "Big damage & AirCover" ---
 import case as _c; importlib.reload(_c)
-C=_c.T
+C=dict(_c.T); C.update(_o.O)
 s=open(P).read()
 def ct(i,tag='span',cls=''):
     c=' class="%s"'%cls if cls else ''
@@ -608,9 +612,9 @@ s=s.replace('<a class="next" data-t="3293" href="#bonus-mistakes">'+G['3293'][0]
 s=s.replace('<a data-t="3295" href="#bonus-guests">'+G['3295'][0]+'</a>','<a data-t="3341" href="#bonus-damage">'+C['3341'][0]+'</a>',1)
 assert 'href="#bonus-damage"><small>Next' in s and 'data-t="3341"' in s
 # sidebar
-o='<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">Difficult guests</span></a>'
+o='<a href="#bonus-guests"><span class="n">★</span><span class="t" data-t="3296">'+G['3296'][0]+'</span></a>'
 assert o in s
-s=s.replace(o,o+'\n<a href="#bonus-damage"><span class="n">★</span><span class="t" data-t="3342">Big damage &amp; AirCover</span></a>',1)
+s=s.replace(o,o+'\n<a href="#bonus-damage"><span class="n">★</span><span class="t" data-t="3342">'+C['3342'][0].replace('&','&amp;')+'</span></a>',1)
 # cross-links
 i=s.find('<p class="xref" data-t="3290">',s.find('<p data-t="1278">')); j=s.find('</p>',i)+4
 s=s[:j]+'<p class="xref" data-t="3343">'+C['3343'][0]+'</p>'+s[j:]
@@ -620,8 +624,12 @@ s=s[:j]+'<a data-t="3344" href="#bonus-damage">'+C['3344'][0]+'</a>'+s[j:]
 o="if(!inLib&&AI.indexOf(t.getAttribute('data-t'))<0)return;"
 assert o in s
 s=s.replace(o,"if(!inLib&&c.closest('details'))return;")
+i=s.find('<span data-t="1326">'); i=s.find('</div></div>',i)+12
+_ta=_o.TA[0].replace('&','&amp;').replace('<','&lt;')
+s=s[:i]+'<div class="copy"><header><span data-t="3360">%s</span><span><button class="btn-s ghost reset" data-t="1117" type="button">Reset</button><button class="btn-s cp" data-t="477" type="button">Copy</button></span></header><textarea aria-label="%s" data-edit="qr-disc-value" id="ed-qr-disc-value" rows="10">%s</textarea><div class="hint"><span data-t="1320">Quick reply. Edit the [brackets], then copy it into Airbnb › Quick replies.</span></div></div>'%(C['3360'][0],C['3360'][0],_ta)+s[i:]
 # translations
 k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for L,x in zip(('nl','es','pt'),_o.TA[1:]): d[L]['ta']['qr-disc-value']=x
 for i,v in C.items():
     for L,x in zip(('nl','es','pt'),v[1:]): d[L]['u'][i]=x
 s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
