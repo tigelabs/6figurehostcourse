@@ -607,7 +607,7 @@ dmg=('<article class="lesson" id="bonus-damage">\n'
  +'<div class="case-grid">'+fig('case-sewage-message.webp','3458','Guest message: the bathroom is full of sewage',800,788)+fig('case-sewage-bathroom.webp','3459','Flooded bathroom floor',900,1200)+fig('case-sewage-shower.webp','3460','Shower tray full of sewage water',900,1600)+'</div>'
  +ct('3449','h4')+'<ol class="case-steps">'+''.join(ct(i,'li') for i in ['3450','3451','3452','3453'])+'</ol>'
  +'<div class="case-grid">'+fig('case-sewage-van.webp','3461','Drain company van in Barcelona',900,1200)+fig('case-sewage-tech.webp','3462','Technician unblocking the pipe',900,1200)+fig('case-sewage-shower2.webp','3460','Shower after the water drained',900,1549)+'</div>'
- +'<figure class="shot">'+'<img alt="Email from Airbnb approving a reimbursement under Host damage protection" decoding="async" height="241" loading="lazy" src="img/case-sewage-airbnb.webp" width="1100"/><figcaption data-t="3463">'+C['3463'][0]+'</figcaption></figure>'
+ +'<figure class="shot">'+'<img alt="Email from Airbnb approving a reimbursement under Host damage protection" decoding="async" height="829" loading="lazy" src="img/case-sewage-airbnb.webp" width="1400"/><figcaption data-t="3463">'+C['3463'][0]+'</figcaption></figure>'
  +'</div>\n'
  +'<div class="checklist"><div class="label"><span data-t="322">Your tasks</span></div>'
  +''.join('<label class="task"><input data-task="bd-t%d" type="checkbox"/><span data-t="%s">%s</span></label>'%(j,i,C[i][0]) for j,i in enumerate(['3466','3467','3468','3469'],1))+'</div>\n'
@@ -654,7 +654,7 @@ css="""
 .case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
 .case-grid figure,figure.shot{margin:0}
 .case-grid img{width:100%;height:240px;object-fit:cover;border-radius:12px;display:block;border:1px solid #DAD6D0}
-figure.shot{margin:14px 0}figure.shot img{width:100%;max-width:none!important;height:auto;border-radius:12px;display:block;border:1px solid #DAD6D0;background:#fff}
+figure.shot{margin:14px 0;max-width:none!important;width:100%!important}figure.shot img{width:100%;max-width:none!important;height:auto;border-radius:12px;display:block;border:1px solid #DAD6D0;background:#fff}
 .case-grid figcaption,figure.shot figcaption{font-size:13px;color:var(--ink-soft,#4A4541);margin-top:6px;line-height:1.4}
 @media (max-width:760px){.case-grid{grid-template-columns:1fr 1fr}.case-nums{grid-template-columns:1fr 1fr!important}}
 """
