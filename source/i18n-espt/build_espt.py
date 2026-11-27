@@ -391,3 +391,26 @@ a=s.index('<div class="plats"><span data-t="1071">'); b=s.index('</div>',a)+6
 s=s[:a]+'<div class="plats"><span data-t="1071">Platforms:</span><a class="pl-main" data-t="1072" href="https://www.airbnb.com/rp/6figurehost" rel="noopener" target="_blank">Airbnb</a><a data-t="1073" href="https://join.booking.com/" rel="noopener" target="_blank">Booking.com</a><a data-t="1074" href="https://www.vrbo.com/list-your-property" rel="noopener" target="_blank">Vrbo</a></div>'+s[b:]
 s=s[:s.rfind('</style>')]+"\n.plats a.pl-main{background:var(--grad-t,#A05F50);background-color:#A05F50;border-color:#A05F50;color:#F4F2EF}.plats a.pl-main:hover{background:#8A4E41;border-color:#8A4E41;color:#F4F2EF}\n"+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('plats ok')
+
+# --- lesson 8 "Your description = your story": icons instead of a. b. c. d. e. ---
+s=open(P).read()
+import re as _re, urllib.parse as _up
+ICONS={
+ '1107':('house','<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h14V9"/><path d="M10 20v-6h4v6"/>'),
+ '1108':('run','<circle cx="14" cy="4.5" r="2"/><path d="M8 21l3-6 3 3v3"/><path d="M6 12l3-4 5 1 3 4h3"/><path d="M11 15l1.5-5.5"/>'),
+ '1109':('pin','<path d="M12 21s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9" r="2.6"/>'),
+ '1110':('wifi','<path d="M2.5 9a14 14 0 0 1 19 0"/><path d="M5.5 12.5a9.5 9.5 0 0 1 13 0"/><path d="M8.7 15.8a4.8 4.8 0 0 1 6.6 0"/><circle cx="12" cy="19" r="1.2" fill="#000"/>'),
+ '1111':('spark','<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/>'),
+}
+css=['\n.desc-ic{position:relative;padding-left:40px}',
+ '.desc-ic::before{content:"";position:absolute;left:0;top:0;width:28px;height:28px;border-radius:8px;background:rgba(160,95,80,.12)}',
+ '.desc-ic::after{content:"";position:absolute;left:5px;top:5px;width:18px;height:18px;background:#A05F50;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat}']
+for tid,(name,paths) in ICONS.items():
+    svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+paths+'</svg>'
+    css.append('.desc-ic.ic-%s{--ic:url("data:image/svg+xml,%s")}'%(name,_up.quote(svg,safe='')))
+    o='<p data-t="%s">'%tid; assert o in s, tid
+    s=s.replace(o,'<p class="desc-ic ic-%s" data-t="%s">'%(name,tid),1)
+    n0=len(s)
+    s=_re.sub(r'((?:data-t="%s">|"%s": ")<strong>)[a-e]\. '%(tid,tid),r'\1',s)
+s=s[:s.rfind('</style>')]+'\n'.join(css)+'\n'+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('desc icons ok')
