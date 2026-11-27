@@ -735,7 +735,7 @@ s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('spacing ok')
 # --- terracotta bullets, and numbered lists as number badges, everywhere ---
 s=open(P).read()
-OLS='.lesson ol:is(:not([class]),.steps-list):not(.donebox ol):not(#calculator ol)'
+OLS='.lesson ol:is(:not([class]),.steps-list):not(.donebox ol)'
 css=('\n/* bullets + numbered lists in the course style */\n'
  '.lesson ul>li::marker{color:#A05F50;font-size:1.15em}\n'
  +OLS+'{list-style:none;counter-reset:olc;padding-left:0}\n'
@@ -745,3 +745,17 @@ css=('\n/* bullets + numbered lists in the course style */\n'
  +OLS+'>li>ul{margin-top:8px}\n')
 s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('lists ok')
+
+# --- calculator "How to use it": no "Step 1:" labels, the number badge is enough ---
+s=open(P).read()
+import re as _re3
+def _cap(t): return t[:1].upper()+t[1:]
+for i in ['2223','2224']:
+    m=_re3.search(r'(<li data-t="%s">)<strong>[^<]*\d:</strong>\s*(.)'%i,s); assert m,i
+    s=s[:m.start()]+m.group(1)+m.group(2).upper()+s[m.end():]
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for L in ('nl','es','pt'):
+    for i in ['2223','2224']:
+        d[L]['u'][i]=_cap(_re3.sub(r'^<strong>[^<]*\d:</strong>\s*','',d[L]['u'][i]))
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+open(P,'w').write(s); print('calc steps ok')
