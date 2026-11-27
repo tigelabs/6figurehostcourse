@@ -564,7 +564,7 @@ s=s[:a]+'\n'+esc+s[a:]
 # 2) real case, after the example conversations (before "Airbnb's rules are on your side")
 case=('<div class="case">'+'<h3 data-t="3304">'+C['3304'][0]+'</h3>'+ct('3305','p','case-sub')+ct('3306','p')
  +'<ol class="case-steps">'+''.join(ct(i,'li') for i in ['3307','3308','3309','3310','3311','3312'])+'</ol>'
- +ct('3313','h4')+'<div class="chat">'+bubble('h','3260','3314')+bubble('g','3318','3315')+bubble('h','3260','3316')+bubble('g','3319','3317')+'</div>'
+ +ct('3313','h4')+ct('3374','p')+'<div class="chat">'+bubble('h key','3376','3370')+bubble('g','3318','3371')+ct('3375','p','chat-note')+bubble('h','3260','3314')+bubble('g','3318','3315')+bubble('h','3260','3316')+ct('3377','p','chat-day')+bubble('g','3318','3372')+bubble('h','3260','3373')+'</div>'
  +'<div class="vk-card vk-yes case-learn">'+ct('3320','h4')+'<ul>'+''.join(ct(i,'li') for i in ['3321','3322','3323','3324','3325'])+'</ul></div>'
  +'</div>\n')
 a=s.find('<h3 data-t="3262">'); s=s[:a]+case+s[a:]
@@ -640,7 +640,7 @@ css="""
 .case-steps{counter-reset:cs;list-style:none;padding:0;margin:14px 0}
 .case-steps li{counter-increment:cs;position:relative;padding:0 0 12px 38px;margin:0}
 .case-steps li::before{content:counter(cs);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:8px;background:#A05F50;background-image:var(--grad-t);color:#F4F2EF;font:700 13px/26px var(--body,Arial),Arial,sans-serif;text-align:center}
-.case .chat{margin:8px 0 16px}
+.case .chat{margin:8px 0 16px}.chat .msg.key{box-shadow:0 0 0 3px rgba(160,95,80,.45)}.chat .msg.key small{opacity:1;color:#E6C9C1}.chat p.chat-note{align-self:center;max-width:80%;text-align:center;font-size:13px;font-weight:700;color:#A05F50;background:rgba(160,95,80,.1);border-radius:99px;padding:6px 14px;margin:4px 0}.chat p.chat-day{align-self:center;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft,#4A4541);margin:6px 0}
 .case-learn{margin-top:8px}
 .case-nums{grid-template-columns:repeat(4,minmax(0,1fr))!important;margin:14px 0}
 .case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
