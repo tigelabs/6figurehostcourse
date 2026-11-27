@@ -715,6 +715,9 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .lock .sc.fav{color:var(--terra)}
 .calc .vtab .ipad{background:#161412;border:1px solid #57504a;box-shadow:0 30px 60px -24px rgba(0,0,0,.75),inset 0 0 0 2px #24201d}
 .calc .vtab .ipad::before{background:#4a4440}
+
+/* 2026-11-27: small "price goes up" line under the buy buttons during Black Friday */
+.upnote{display:block;font-size:11.5px;line-height:1.35;opacity:.8;margin-top:7px;font-weight:400;letter-spacing:0;text-transform:none}
 </style>
 
 <style>.nav{background:var(--cream);border-bottom:1.5px solid var(--ink);padding:0 24px;position:sticky;top:0;z-index:20}
@@ -776,7 +779,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <li><span><b>Pitch landlords with our exact scripts.</b> Fill in your details, copy, send.</span></li>
 </ul>
 <div class="ctawrap">
-<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a>
+<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <small>Secure checkout. Lifetime access. Works on phone and laptop.</small>
 </div>
 </div>
@@ -887,7 +890,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 </div>
 <p class="bodyp" style="margin-top:48px">AI can give you a hundred generic tips in ten seconds. It cannot tell you how we convinced a Barcelona landlord to say yes to subletting, or how to use a property to its full potential, with real-life examples from us. This course isn't built from theory; it's built from experience.</p>
 <div class="ctawrap" style="margin-top:28px">
-<a class="cta light" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a>
+<a class="cta light" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <small>Secure checkout. Lifetime access.</small>
 </div>
 </div>
@@ -1017,7 +1020,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 </div>
 <div class="ctawrap">
 <p class="lead">Every system behind these results is inside the course.</p>
-<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a>
+<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 </div>
 </section>
@@ -1156,7 +1159,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p class="pr-sub">The lowest total price.</p>
 <p class="pr-save"><span data-h="saveTxt"></span></p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator, host starter kit and scripts included (value <span><span data-h="vBonus"></span></span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta" data-a-href="co" target="_blank"><span data-h="btnOne"></span></a>
+<a class="cta" data-a-href="co" target="_blank"><span data-h="btnOne"></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 <div class="pr-card">
 <h3>Split pay</h3>
@@ -1165,7 +1168,7 @@ At the end, add a short summary I can copy into my notes, in this format:
 <p class="pr-sub"><span data-h="splitTot"></span> total, paid monthly</p>
 <p class="pr-save pr-save2">Start today, pay in 3 months</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator, host starter kit and scripts included (value <span><span data-h="vBonus"></span></span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta ghost" data-a-href="coSplit" target="_blank"><span data-h="btnSplit"></span></a>
+<a class="cta ghost" data-a-href="coSplit" target="_blank"><span data-h="btnSplit"></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Goes up to 3 × <span data-h="p79"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 </div>
 <p class="pr-note">Secure payment by Stripe. Digital product, no refunds after purchase.</p>
@@ -1215,7 +1218,7 @@ var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInters
 <h2 class="lock row"><span class="sc">Now it's</span><span class="dp">your turn</span></h2>
 <p class="lead">Imagine checking your phone and seeing your first booking come in. The first lesson takes about ten minutes. Let's launch your first listing together.</p>
 <div class="endbox">
-<a class="cta big" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a>
+<a class="cta big" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <ul class="assure"><li>Secure checkout</li><li>Lifetime access</li><li>Free updates for life</li></ul>
 </div>
 </div>

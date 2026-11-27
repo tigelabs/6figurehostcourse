@@ -63,6 +63,15 @@
     // Before Black Friday the course is not on sale yet: buy buttons say "Coming soon".
     $$('a[data-buy]').forEach(function (a) { var pre = phase === 'pre'; a.textContent = pre ? 'Coming soon on Black Friday' : a.getAttribute('data-buy'); a.classList.toggle('is-soon', pre); if (pre) a.setAttribute('aria-disabled', 'true'); else a.removeAttribute('aria-disabled'); });
     $$('a[href*="/checkout"]').forEach(function (a) { var h = a.getAttribute('href'); var course = !/item=(calculator|barcelona|bali)/.test(h); if (course && phase === 'pre') { a.classList.add('is-soon'); a.setAttribute('aria-disabled', 'true'); } });
+    // During Black Friday: a small line under each course buy button with the price after Black Friday.
+    $$('a.cta[href*="/checkout"]').forEach(function (a) {
+      if (/item=(calculator|barcelona|bali)/.test(a.getAttribute('href'))) return;
+      var nx = a.nextElementSibling, el = nx && nx.classList.contains('upnote') ? nx : null;
+      if (!el) { el = document.createElement('small'); el.className = 'upnote'; a.parentNode.insertBefore(el, a.nextSibling); }
+      var split = /plan=split/.test(a.getAttribute('href'));
+      el.textContent = split ? 'Goes up to ' + O.months + ' × ' + m(O.regSplit) + ' when Black Friday ends (30 Nov)' : 'Price goes up to ' + m(O.reg) + ' when Black Friday ends (30 Nov)';
+      el.hidden = phase !== 'bf';
+    });
     show('countdown', phase !== 'after');
     show('headline', phase !== 'after');
     $$('[data-o="cur"] button').forEach(function (b) { b.setAttribute('aria-checked', b.getAttribute('data-cur') === O.cur ? 'true' : 'false'); });

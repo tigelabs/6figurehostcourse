@@ -462,3 +462,7 @@
 .feat li.hl .dp3{color:inherit}
 .feat li{transition:transform .2s ease,box-shadow .2s ease}
 @media (hover:hover) and (prefers-reduced-motion:no-preference){.feat li:hover{transform:scale(1.03);box-shadow:-1.5px -1.5px 0 0 var(--ink),0 14px 30px -18px rgba(56,51,48,.45);position:relative;z-index:1}}
+
+/* 2026-11-27: small "price goes up" line under the buy buttons during Black Friday */
+.upnote{display:block;font-size:11.5px;line-height:1.35;opacity:.8;margin-top:7px;font-weight:400;letter-spacing:0;text-transform:none}
+.upnote[hidden]{display:none}
