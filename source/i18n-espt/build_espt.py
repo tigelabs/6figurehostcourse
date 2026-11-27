@@ -458,7 +458,7 @@ def chat(title,msgs,why,extra=''):
     out+='</div><p class="gx-why"><b data-t="3261">%s</b> <span data-t="%s">%s</span></p>'%(G['3261'][0],why,G[why][0])
     if extra: out+='<p class="gx-link"><a data-t="%s" href="#ch9-p4">%s</a></p>'%(extra,G[extra][0])
     return out+'</div></details>'
-def ext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s ↗</a>'%(i,href,G[i][0])
+def ext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s</a>'%(i,href,G[i][0])
 FOOT=s[s.find('<div class="foot">',s.find('<article class="lesson" id="bonus-mistakes"')):]
 FOOT=FOOT[:FOOT.find('</div>\n</article>')+6]
 art=('<article class="lesson" id="bonus-guests">\n'
@@ -553,7 +553,7 @@ def ct(i,tag='span',cls=''):
     c=' class="%s"'%cls if cls else ''
     return '<%s%s data-t="%s">%s</%s>'%(tag,c,i,C[i][0],tag)
 def bubble(who,label,i): return '<div class="msg %s"><small data-t="%s">%s</small>%s</div>'%(who,label,(G.get(label) or C.get(label))[0],ct(i,'p'))
-def cext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s ↗</a>'%(i,href,C[i][0])
+def cext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s</a>'%(i,href,C[i][0])
 def fig(src,cap,alt,w,h): return '<figure><img alt="%s" decoding="async" height="%d" loading="lazy" src="img/%s" width="%d"/><figcaption data-t="%s">%s</figcaption></figure>'%(alt,h,src,w,cap,C[cap][0])
 # 1) escalation line, after "Keep your word"
 esc=('<h3 data-t="3300">'+C['3300'][0]+'</h3>'+ct('3301','p')
@@ -562,9 +562,17 @@ esc=('<h3 data-t="3300">'+C['3300'][0]+'</h3>'+ct('3301','p')
 a=s.find('<span class="gold-k" data-t="3237">'); a=s.find('</div>',a)+6
 s=s[:a]+'\n'+esc+s[a:]
 # 2) real case, after the example conversations (before "Airbnb's rules are on your side")
+def tog(label,inner): return '<details class="cs-msg"><summary data-t="%s">%s</summary><div class="chat">%s</div></details>'%(label,C[label][0],inner)
+case_steps=[
+ ct('3307')+tog('3385',bubble('h','3378','3380')),
+ ct('3308')+tog('3385',bubble('g','3318','3381')),
+ ct('3309')+tog('3385',bubble('g','3319','3382')),
+ ct('3311')+tog('3385',ct('3374','p','chat-note')+bubble('h key','3376','3370')),
+ ct('3383')+tog('3385',bubble('g','3318','3371')+ct('3375','p','chat-note')),
+ ct('3384')+tog('3386',bubble('h','3260','3314')+bubble('g','3318','3315')+bubble('h','3260','3316')+ct('3377','p','chat-day')+bubble('g','3318','3372')+bubble('h','3260','3373')),
+]
 case=('<div class="case">'+'<h3 data-t="3304">'+C['3304'][0]+'</h3>'+ct('3305','p','case-sub')+ct('3306','p')
- +'<ol class="case-steps">'+''.join(ct(i,'li') for i in ['3307','3308','3309','3310','3311','3312'])+'</ol>'
- +ct('3313','h4')+ct('3374','p')+'<div class="chat">'+bubble('h key','3376','3370')+bubble('g','3318','3371')+ct('3375','p','chat-note')+bubble('h','3260','3314')+bubble('g','3318','3315')+bubble('h','3260','3316')+ct('3377','p','chat-day')+bubble('g','3318','3372')+bubble('h','3260','3373')+'</div>'
+ +'<ol class="case-steps">'+''.join('<li>%s</li>'%x for x in case_steps)+'</ol>'
  +'<div class="vk-card vk-yes case-learn">'+ct('3320','h4')+'<ul>'+''.join(ct(i,'li') for i in ['3321','3322','3323','3324','3325'])+'</ul></div>'
  +'</div>\n')
 a=s.find('<h3 data-t="3262">'); s=s[:a]+case+s[a:]
@@ -641,7 +649,7 @@ css="""
 .case-steps li{counter-increment:cs;position:relative;padding:0 0 12px 38px;margin:0}
 .case-steps li::before{content:counter(cs);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:8px;background:#A05F50;background-image:var(--grad-t);color:#F4F2EF;font:700 13px/26px var(--body,Arial),Arial,sans-serif;text-align:center}
 .case .chat{margin:8px 0 16px}.chat .msg.key{box-shadow:0 0 0 3px rgba(160,95,80,.45)}.chat .msg.key small{opacity:1;color:#E6C9C1}.chat p.chat-note{align-self:center;max-width:80%;text-align:center;font-size:13px;font-weight:700;color:#A05F50;background:rgba(160,95,80,.1);border-radius:99px;padding:6px 14px;margin:4px 0}.chat p.chat-day{align-self:center;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft,#4A4541);margin:6px 0}
-.case-learn{margin-top:8px}
+.case-learn{margin-top:8px}details.cs-msg{margin:8px 0 4px}details.cs-msg>summary{display:inline-flex;align-items:center;gap:8px;cursor:pointer;list-style:none;font-size:13px;font-weight:700;color:#A05F50;border:1.5px solid #A05F50;border-radius:99px;padding:3px 12px}details.cs-msg>summary::-webkit-details-marker{display:none}details.cs-msg>summary::after{content:'';width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .2s}details.cs-msg[open]>summary::after{transform:rotate(-135deg) translateY(-1px)}details.cs-msg .chat{margin:12px 0 6px}
 .case-nums{grid-template-columns:repeat(4,minmax(0,1fr))!important;margin:14px 0}
 .case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
 .case-grid figure,figure.shot{margin:0}
@@ -652,3 +660,9 @@ figure.shot{margin:14px 0}figure.shot img{width:100%;max-width:none!important;he
 """
 s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('case + damage ok')
+
+# --- no 45° arrows on links anywhere in the course (underline is enough) ---
+s=open(P).read()
+n=s.count('↗')
+s=s.replace(' ↗','').replace('↗','')
+open(P,'w').write(s); print('arrows removed',n)
