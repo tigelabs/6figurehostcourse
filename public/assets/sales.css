@@ -805,3 +805,8 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 /* 2026-11-27: small "price goes up" line under the buy buttons during Black Friday */
 .upnote{display:block;font-size:11.5px;line-height:1.35;opacity:.8;margin-top:7px;font-weight:400;letter-spacing:0;text-transform:none}
 .upnote[hidden]{display:none}
+
+/* 2026-11-27: in the pricing cards every buy button is terracotta; info tags (Best value, Black Friday saving) are dark */
+.pr-card .cta,.pr-card .cta.ghost{background:var(--terra);border-color:var(--terra);color:var(--cream)}
+.pr-badge{background:var(--ink);color:var(--cream)}
+.pr-save:not(.pr-save2){background:var(--ink);color:var(--cream)}
