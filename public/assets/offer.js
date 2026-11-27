@@ -72,6 +72,7 @@
       el.textContent = split ? 'Goes up to ' + O.months + ' × ' + m(O.regSplit) + ' when Black Friday ends (30 Nov)' : 'Price goes up to ' + m(O.reg) + ' when Black Friday ends (30 Nov)';
       el.hidden = phase !== 'bf';
     });
+    set('barbtn', phase === 'bf' ? 'Get the Black Friday price' : phase === 'pre' ? 'See the offer' : 'Get the course');
     show('countdown', phase !== 'after');
     show('headline', phase !== 'after');
     $$('[data-o="cur"] button').forEach(function (b) { b.setAttribute('aria-checked', b.getAttribute('data-cur') === O.cur ? 'true' : 'false'); });

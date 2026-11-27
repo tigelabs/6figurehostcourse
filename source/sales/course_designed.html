@@ -761,7 +761,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <span data-if="isBf" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>, or 3 × <span data-h="p54"></span>. Ends 30 November at midnight.</p></span>
 <span data-if="isAfter" style="display:contents"><p>The interactive 6 Figure Host Course: one payment of <span data-h="p297"></span>, or 3 × <span data-h="p79"></span>.</p></span>
 <span data-if="showCd" style="display:contents"><span class="cd sm"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></span></span>
-<a href="#pricing"><span data-h="barBtn"></span></a>
+<a data-a-href="co"><span data-h="barBtn"></span></a>
 </div>
 </div>
 
@@ -1277,7 +1277,7 @@ class Component extends DCLogic {
     var vCourse = REG, vCalc = amt(97), vKit = amt(150), vScripts = amt(50);
     return {
       isPre: phase === 'pre', isBf: bf, isAfter: phase === 'after', showCd: phase !== 'after', cd: cd,
-      barBtn: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : bf ? 'Get the Black Friday price' : 'See the offer',
+      barBtn: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : bf ? 'Get the Black Friday price' : 'Get the course',
       ctaTxt: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : 'Get instant access for ' + m(one),
       btnOne: phase === 'pre' ? 'Coming soon: 27 November' : 'One-time payment',
       btnSplit: phase === 'pre' ? 'Coming soon: 27 November' : 'Split pay',
