@@ -701,3 +701,17 @@ for L,x in zip(('nl','es','pt'),('bijv. keukenkast, links van de boiler + link n
     d[L]['a']['e.g. kitchen cupboard, left of the boiler + photo link']=x
 s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
 open(P,'w').write(s); print('placeholder ok')
+# --- Damage & AirCover: no task list ---
+s=open(P).read()
+a0=s.find('<article class="lesson" id="bonus-damage"'); a1=s.find('</article>',a0)
+part=s[a0:a1]; i=part.find('<div class="checklist">'); j=part.find('</div>\n',part.find('bd-t4',i))+7
+assert i>0 and j>i
+s=s[:a0]+part[:i]+part[j:]+s[a1:]
+open(P,'w').write(s); print('damage tasks removed')
+# --- Difficult guests: no task list ---
+s=open(P).read()
+a0=s.find('<article class="lesson" id="bonus-guests"'); a1=s.find('</article>',a0)
+part=s[a0:a1]; i=part.find('<div class="checklist">'); j=part.find('</div>\n',part.find('bg-t4',i))+7
+assert i>0 and j>i
+s=s[:a0]+part[:i]+part[j:]+s[a1:]
+open(P,'w').write(s); print('guests tasks removed')
