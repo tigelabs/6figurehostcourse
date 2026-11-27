@@ -666,3 +666,38 @@ s=open(P).read()
 n=s.count('↗')
 s=s.replace(' ↗','').replace('↗','')
 open(P,'w').write(s); print('arrows removed',n)
+
+# --- Damage & AirCover: let the guest stop the damage (main valves), linked to the property manual ---
+import manualdmg as _m; importlib.reload(_m)
+M=_m.T
+s=open(P).read()
+mt=lambda i,tag='span',cls='':'<%s%s data-t="%s">%s</%s>'%(tag,(' class="%s"'%cls) if cls else '',i,M[i][0],tag)
+mcard=lambda a,b:'<div class="vk-card">%s%s</div>'%(mt(a,'h4'),mt(b,'p'))
+sec=('<h3 data-t="3480">'+M['3480'][0]+'</h3>'+mt('3481','p')
+ +'<div class="vk-g3">'+mcard('3482','3483')+mcard('3484','3485')+mcard('3486','3487')+'</div>'
+ +'<details class="gx" open=""><summary class="gx-h"><span class="gx-k" data-t="3297">Example</span>'+mt('3488','h4')+'<span aria-hidden="true" class="gx-chev"></span></summary><div class="gx-body"><div class="chat">'
+ +'<div class="msg g"><small data-t="3259">Guest</small>'+mt('3489','p')+'</div><div class="msg h"><small data-t="3260">You</small>'+mt('3490','p')+'</div></div>'
+ +'<p class="gx-why"><b data-t="3261">Why it works</b> '+mt('3491')+'</p></div></details>'
+ +'<div class="vk-tip">'+mt('3492')+'</div>'
+ +'<p class="btn-row"><a class="btn" data-t="3493" href="#manual">'+M['3493'][0]+'</a></p>\n')
+a=s.find('<h3 data-t="3415">'); assert a>0
+s=s[:a]+sec+s[a:]
+a=s.find('<label class="task"><input data-task="bd-t1"'); assert a>0
+s=s[:a]+'<label class="task"><input data-task="bd-t0" type="checkbox"/><span data-t="3494">%s</span></label>'%M['3494'][0]+s[a:]
+# property manual: fields in "Handling emergencies"
+o='<label data-t="2195" for="pm-emg">What to do in emergencies</label><textarea data-field="pm_emg" id="pm-emg" placeholder="Fire, water leak, guest locked out, etc."></textarea></div>'
+assert o in s
+f=''.join('<div class="field"><label data-t="%s" for="pm-%s">%s</label><input autocomplete="off" data-field="pm_%s" id="pm-%s" placeholder="e.g. kitchen cupboard, left of the boiler + photo link"/></div>'%(i,k,M[i][0],k,k) for i,k in [('3495','water'),('3496','gas'),('3497','power')])
+s=s.replace(o,o+f,1)
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for i,v in M.items():
+    for L,x in zip(('nl','es','pt'),v[1:]): d[L]['u'][i]=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+s=s[:s.rfind('</style>')]+'\np.btn-row{margin:16px 0 30px}\n'+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('manual valves ok')
+s=open(P).read()
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for L,x in zip(('nl','es','pt'),('bijv. keukenkast, links van de boiler + link naar foto','p. ej., armario de la cocina, a la izquierda del calentador + enlace a la foto','ex.: armário da cozinha, à esquerda do aquecedor + link da foto')):
+    d[L]['a']['e.g. kitchen cupboard, left of the boiler + photo link']=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+open(P,'w').write(s); print('placeholder ok')
