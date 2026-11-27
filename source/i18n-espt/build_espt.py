@@ -435,7 +435,7 @@ def _numify(s, lid):
 for _l in NUM_LESSONS:
     s,_ids=_numify(s,_l); print('num',_l,len(_ids))
 s=s[:s.rfind('</style>')]+"""
-h4.num-h{display:flex;align-items:center;gap:12px}
-h4.num-h::before{content:attr(data-n);flex:none;display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--grad-t,#A05F50);background-color:#A05F50;color:#F4F2EF;font:400 18px/1 var(--disp,Anton),Impact,sans-serif;letter-spacing:0}
+h4.num-h{display:flex;align-items:center;gap:10px}
+h4.num-h::before{content:attr(data-n);flex:none;display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:rgba(160,95,80,.12);color:#A05F50;font:700 13px/1 var(--body,Arial),Arial,sans-serif;letter-spacing:0}
 """+s[s.rfind('</style>'):]
 open(P,'w').write(s); print('num-h ok')
