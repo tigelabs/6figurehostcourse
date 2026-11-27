@@ -383,3 +383,11 @@ document.addEventListener('visibilitychange',function(){if(document.visibilitySt
 """
 i=s.rfind('</body>'); s=s[:i]+sync+s[i:]
 open(P,'w').write(s); print('sync ok')
+
+# --- lesson 8: platforms row: no arrows/asterisk, only Airbnb, Booking.com, Vrbo; Airbnb highlighted ---
+s=open(P).read()
+import re as _re
+a=s.index('<div class="plats"><span data-t="1071">'); b=s.index('</div>',a)+6
+s=s[:a]+'<div class="plats"><span data-t="1071">Platforms:</span><a class="pl-main" data-t="1072" href="https://www.airbnb.com/rp/6figurehost" rel="noopener" target="_blank">Airbnb</a><a data-t="1073" href="https://join.booking.com/" rel="noopener" target="_blank">Booking.com</a><a data-t="1074" href="https://www.vrbo.com/list-your-property" rel="noopener" target="_blank">Vrbo</a></div>'+s[b:]
+s=s[:s.rfind('</style>')]+"\n.plats a.pl-main{background:var(--grad-t,#A05F50);background-color:#A05F50;border-color:#A05F50;color:#F4F2EF}.plats a.pl-main:hover{background:#8A4E41;border-color:#8A4E41;color:#F4F2EF}\n"+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('plats ok')
