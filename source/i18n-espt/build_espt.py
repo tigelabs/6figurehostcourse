@@ -715,3 +715,10 @@ part=s[a0:a1]; i=part.find('<div class="checklist">'); j=part.find('</div>\n',pa
 assert i>0 and j>i
 s=s[:a0]+part[:i]+part[j:]+s[a1:]
 open(P,'w').write(s); print('guests tasks removed')
+# --- sidebar: tools straight in the menu (no "Your host starter kit" dropdown) ---
+s=open(P).read()
+a=s.find('<details class="bundle kitdd">'); assert a>0
+b0=s.find('<div class="bundle-items">',a)+len('<div class="bundle-items">')
+e=s.find('</div></details>\n<h6 data-t="3201">',b0); assert e>0
+s=s[:a]+s[b0:e]+s[e+len('</div></details>'):]
+open(P,'w').write(s); print('kit flattened')
