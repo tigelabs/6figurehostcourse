@@ -54,7 +54,11 @@ def page(path, title, desc, body, active='', foot=True):
 <meta name="description" content="%s">
 <meta property="og:title" content="%s">
 <meta property="og:description" content="%s">
-<meta property="og:image" content="https://6figurehost.com/assets/course-mockup.webp?v=2">
+<meta property="og:image" content="https://6figurehost.com/assets/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://6figurehost.com/assets/share.jpg">
 %s
 <link rel="stylesheet" href="/assets/sales.css?v=20261124z">
 <script src="/assets/offer.js?v=9" defer></script>
