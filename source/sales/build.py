@@ -497,7 +497,7 @@ MC_CSS = """<style>
 .mcv2-sub{margin:0 0 14px;font-family:var(--body);font-style:normal;font-weight:400;font-size:clamp(16px,1.5vw,19px);opacity:.92}
 .mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
 .mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
-.mcv2-frame{position:relative}.mcv2-unmute{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border:0;border-radius:999px;background:var(--orange,#c8734f);color:#fff;font:600 15px/1 var(--body);cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);z-index:2}.mcv2-unmute:hover{filter:brightness(1.07)}.mcv2-unmute:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.mcv2-frame{position:relative}.mcv2-unmute{position:absolute;left:50%;top:62px;transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border:0;border-radius:999px;background:var(--orange,#c8734f);color:#fff;font:600 15px/1 var(--body);cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);z-index:2}.mcv2-unmute:hover{filter:brightness(1.07)}.mcv2-unmute:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .mcv2-play{all:unset;box-sizing:border-box;position:relative;display:block;width:100%;height:100%;cursor:pointer}
 .mcv2-play img{display:block;width:100%;height:100%;object-fit:cover}
 .mcv2-play::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55))}
