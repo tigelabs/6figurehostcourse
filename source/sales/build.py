@@ -589,7 +589,7 @@ def free_masterclass_page():
 <div class="fm-side">
 <div class="fm-box">
 <h1 class="fm-h">Free masterclass</h1>
-<p class="fm-sub">How we went from struggling to pay rent to building a <span style="white-space:nowrap">6-figure</span> Airbnb business — and how you can do it too</p>
+<p class="fm-sub">How we went from struggling to pay rent to building a <span style="white-space:nowrap">6-figure</span> Airbnb business and how you can do it too</p>
 <p class="fm-txt">Even if you don’t own property, have no real estate license or don't know where to start 💸🏡</p>
 <form class="fm-form" id="fm-form" novalidate>
 <label class="fm-l"><span class="fm-sr">Email address</span><input name="email" type="email" autocomplete="email" placeholder="Email address" required maxlength="200"></label>
