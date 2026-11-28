@@ -474,19 +474,24 @@ def home_page():
 # ---------------------------------------------------------------- masterclass video
 MC_SECTION = """<section class="mcv2" aria-label="Free masterclass video">
 <div class="mcv2-in">
-<h1 class="mcv2-h">Free masterclass</h1>
+<p class="mcv2-k">Free masterclass</p>
+<h1 class="mcv2-t">How we went from struggling to pay rent to building a <span style="white-space:nowrap">6-figure</span> Airbnb business and how you can do it too</h1>
 <p class="mcv2-sub">Everything we learned in 10+ years of hosting, in one free class.</p>
 <div class="mcv2-frame" id="mcv2-frame"><button type="button" class="mcv2-play" id="mcv2-play" aria-label="Play the free masterclass video"><img src="/assets/sales/mc-thumb.webp" width="1280" height="720" alt="Daniel and Farah smiling at sunset in Bali"><span class="mcv2-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="34" height="34"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="mcv2-cap">Watch the free masterclass</span></button></div>
 <script>(function(){var b=document.getElementById('mcv2-play');if(!b)return;b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&modestbranding=1&playsinline=1&autoplay=1';f.title='6-Figure Host masterclass';f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';f.allowFullscreen=true;b.replaceWith(f);});})();</script>
 <div class="mcv2-note"><p>*In the video we still mention our old guide and its price. We have now upgraded it to the full 6-Figure Host Course, which has much more value. It is normally sold for <s><span data-h="p297"></span></s>, but with the masterclass discount it is <b><span data-h="p197"></span></b>. We will update this masterclass soon.</p></div>
+<span data-if="showCd" style="display:contents"><div class="mcv2-cd"><p>Black Friday ends in</p><div class="cd"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></div></div></span>
 </div>
 </section>
 """
 MC_CSS = """<style>
 /* free masterclass page = the course sales page with the masterclass video on top */
-.mcv2{background:#3b2d26;color:var(--cream);padding:clamp(40px,6vw,80px) clamp(20px,4.5vw,72px) clamp(48px,6vw,88px)}
+.mcv2{background:#211814;color:var(--cream);padding:clamp(40px,6vw,80px) clamp(20px,4.5vw,72px) clamp(48px,6vw,88px)}
 .mcv2-in{max-width:980px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
-.mcv2-h{margin:0;font-family:var(--script);font-weight:400;font-size:clamp(52px,7vw,92px);line-height:1;color:var(--terra-lt)}
+.mcv2-k{margin:0;font-family:var(--script);font-size:clamp(30px,3vw,40px);line-height:1;color:#fff}
+.mcv2-t{margin:4px 0 6px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(38px,4.6vw,68px);line-height:1;letter-spacing:.005em;color:#fff;max-width:26ch}
+.mcv2-cd{margin-top:18px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.mcv2-cd p{margin:0;font-weight:700;font-size:15px}
 .mcv2-sub{margin:0 0 14px;font-family:var(--body);font-style:normal;font-weight:400;font-size:clamp(16px,1.5vw,19px);opacity:.92}
 .mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
 .mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
