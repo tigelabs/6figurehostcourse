@@ -759,3 +759,74 @@ for L in ('nl','es','pt'):
         d[L]['u'][i]=_cap(_re3.sub(r'^<strong>[^<]*\d:</strong>\s*','',d[L]['u'][i]))
 s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
 open(P,'w').write(s); print('calc steps ok')
+
+# --- Difficult guests: rework of 28 Nov (rebuilds the page body) ---
+import rework as _rw; importlib.reload(_rw)
+X={}; X.update(G); X.update(C); X.update(_rw.T)
+_314=[]
+for v,h in zip(X['3314'],_rw.HL):
+    v=re.sub(r'<b>(.*?)</b>',lambda m:m.group(1),v,flags=re.S)
+    assert h in v,(h,v[:80]); _314.append(v.replace(h,'<span class="hl-t">'+h+'</span>'))
+X['3314']=tuple(_314)
+def xt(i,tag='span',cls=''):
+    return '<%s%s data-t="%s">%s</%s>'%(tag,(' class="%s"'%cls) if cls else '',i,X[i][0],tag)
+def xb(who,label,i): return '<div class="msg %s"><small data-t="%s">%s</small>%s</div>'%(who,label,X[label][0],xt(i,'p'))
+def xtog(label,inner): return '<details class="cs-msg"><summary data-t="%s">%s</summary><div class="chat">%s</div></details>'%(label,X[label][0],inner)
+def xcard(inner,cls=''): return '<div class="vk-card%s">%s</div>'%((' '+cls) if cls else '',inner)
+def xsteps(items):
+    return '<div class="vk-steps">'+''.join('<div class="vk-step%s">%s%s%s</div>'%(' vk-wide' if (j==len(items) and len(items)%2) else '',gn(j),xt(h,'h4'),xt(q,'p')) for j,(h,q) in enumerate(items,1))+'</div>'
+def xext(href,i): return '<a class="gx-ext" data-t="%s" href="%s" rel="noopener" target="_blank">%s</a>'%(i,href,X[i][0])
+body=(
+ xt('3207','p')+'\n'
+ +'<h3 data-t="3208">'+X['3208'][0]+'</h3>'+xt('3209','p')+xt('3210','p')
+ +'<div class="vk-two">'+xcard(xt('3211','h4')+xt('3212','p'),'vk-no')+xcard(xt('3213','h4')+xt('3214','p'),'vk-yes')+'</div>\n'
+ +'<h3 data-t="3215">'+X['3215'][0]+'</h3>'+xt('3216','p')
+ +'<div class="co-box">'+xt('3500','h4')+xt('3501','p')+xt('3502','p','co-quotes')+'</div>'
+ +xsteps([('3217','3218'),('3219','3220'),('3221','3222'),('3223','3224'),('3225','3226'),('3503','3504')])+'\n'
+ +'<h3 data-t="3227">'+X['3227'][0]+'</h3>'+xt('3228','p')
+ +'<div class="vk-g3">'+xcard(gn(1)+xt('3229','h4')+xt('3230','p')+xt('3505','p','ex-q'))+xcard(gn(2)+xt('3231','h4')+xt('3232','p')+xt('3506','p','ex-q'))+xcard(gn(3)+xt('3233','h4')+xt('3234','p')+xt('3507','p','ex-q'))+'</div>'
+ +xt('3508','p')
+ +'<div class="gx-line">'+xt('3235','span','vk-tag')+xt('3236','p')+'</div>'
+ +'<div class="gold"><span class="gold-k" data-t="3237">'+X['3237'][0]+'</span><p data-t="3238">'+X['3238'][0]+'</p></div>\n'
+ +'<h3 data-t="3300">'+X['3300'][0]+'</h3>'+xt('3301','p')
+ +'<div class="gx-line">'+xt('3235','span','vk-tag')+xt('3302','p')+'</div>'
+ +'<div class="vk-tip">'+xt('3303')+'</div>\n'
+ +'<div class="case"><h3 data-t="3304">'+X['3304'][0]+'</h3>'+xt('3305','p','case-sub')+xt('3306','p')
+ +'<ol class="case-steps">'
+   +'<li>'+xt('3307')+'</li><li>'+xt('3308')+'</li><li>'+xt('3309')+'</li>'
+   +'<li>'+xt('3311')+xtog('3385',xt('3374','p','chat-note')+xb('h key','3376','3370'))+'</li>'
+   +'<li>'+xt('3383')+xtog('3385',xb('g','3318','3371')+xt('3375','p','chat-note'))+'</li>'
+   +'<li>'+xt('3384')+xtog('3386',xb('h','3260','3314')+xb('g','3318','3315')+xb('h','3260','3316')+xt('3377','p','chat-day')+xb('g','3318','3372')+xb('h','3260','3373'))+'</li>'
+ +'</ol>'
+ +'<div class="vk-card vk-yes case-learn">'+xt('3320','h4')+'<ul>'+''.join(xt(i,'li') for i in ['3321','3322','3323','3324','3325'])+'</ul></div></div>\n'
+ +'<h3 data-t="3262">'+X['3262'][0]+'</h3>'
+ +'<div class="vk-two">'+xcard(xt('3263','h4')+xt('3264','p')+xext('https://www.airbnb.com/help/article/2673','3265'))+xcard(xt('3266','h4')+xt('3267','p')+xext('https://www.airbnb.com/help/article/2799','3268'))+'</div>\n'
+ +'<h3 data-t="3327">'+X['3327'][0]+'</h3>'+xt('3328','p')
+ +'<div class="vk-g3">'+xcard(gn(1)+xt('3329','h4')+xt('3330','p'))+xcard(gn(2)+xt('3331','h4')+xt('3332','p'))+xcard(gn(3)+xt('3333','h4')+xt('3334','p'))+'</div>'
+ +xext('https://www.airbnb.com/help/article/3582','3335')
+ +'<div class="realtalk">'+xt('3509','p')+xt('3510','p')+'</div>\n'
+ +'<h3 data-t="3269">'+X['3269'][0]+'</h3>'
+ +xcard('<ul>'+''.join(xt(i,'li') for i in ['3270','3271','3272','3273'])+'</ul>','vk-no')
+ +'<div class="vk-tip">'+xt('3274')+'</div>\n'
+ +'<h3 data-t="3275">'+X['3275'][0]+'</h3>'
+ +'<div class="vk-g3">'+xcard(xt('3276','h4')+xt('3277','p'))+xcard(xt('3278','h4')+xt('3279','p')+'<a class="gx-ext" data-t="3511" href="#ch8-p5">'+X['3511'][0]+'</a>')+xcard(xt('3280','h4')+xt('3281','p'))+'</div>'
+)
+s=open(P).read()
+a0=s.find('<article class="lesson" id="bonus-guests"'); h=s.find('</header>',a0)+len('</header>'); pc=s.find('<div class="copy">',h); assert a0>0 and pc>h
+s=s[:h]+'\n'+body+'\n'+s[pc:]
+k0=s.find('var I18N=')+len('var I18N='); d,end=json.JSONDecoder().raw_decode(s[k0:])
+for i in list(_rw.T)+['3314']:
+    for L,x in zip(('nl','es','pt'),X[i][1:]): d[L]['u'][i]=x
+s=s[:k0]+json.dumps(d,ensure_ascii=False).replace('</','<\\/')+s[k0+end:]
+css="""
+/* difficult guests rework */
+.gx-line p{font:400 17px/1.6 var(--body,Arial),Arial,sans-serif!important;font-style:normal!important}
+.co-box{background:#313A33;background-image:var(--grad-g);color:#F4F2EF;border-radius:16px;padding:22px 26px;margin:20px 0}
+.co-box h4{margin:0 0 8px;color:#F4F2EF}.co-box p{margin:0 0 10px}.co-box p.co-quotes{margin:12px 0 0;padding-left:14px;border-left:3px solid #A05F50;color:#E6C9C1;font-style:italic}
+.vk-card p.ex-q{margin:10px 0 0;padding-top:10px;border-top:1px dashed #CFCAC2;font-size:14px;font-style:italic;color:#A05F50}
+.chat .msg .hl-t{background:#A05F50;color:#F4F2EF;border-radius:4px;padding:1px 5px;font-weight:700;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.realtalk{background:rgba(160,95,80,.1);border-left:4px solid #A05F50;border-radius:0 14px 14px 0;padding:16px 20px;margin:20px 0}
+.realtalk p{margin:0 0 8px}.realtalk p:last-child{margin:0}
+"""
+s=s[:s.rfind('</style>')]+css+s[s.rfind('</style>'):]
+open(P,'w').write(s); print('guests rework ok')
