@@ -489,9 +489,10 @@ MC_CSS = """<style>
 .mcv2{background:#211814;color:var(--cream);padding:clamp(40px,6vw,80px) clamp(20px,4.5vw,72px) clamp(48px,6vw,88px)}
 .mcv2-in{max-width:980px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
 .mcv2-k{margin:0;font-family:var(--script);font-size:clamp(30px,3vw,40px);line-height:1;color:#fff}
-.mcv2-t{margin:4px 0 6px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(38px,4.6vw,68px);line-height:1;letter-spacing:.005em;color:#fff;max-width:26ch}
+.mcv2-t{margin:6px 0 4px;font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(28px,3vw,44px);line-height:1.06;letter-spacing:.01em;color:#fff;max-width:34ch;text-wrap:balance}
 .mcv2-cd{margin-top:18px;display:flex;flex-direction:column;align-items:center;gap:10px}
 .mcv2-cd p{margin:0;font-weight:700;font-size:15px}
+@media (max-width:700px){.mcv2-t{font-size:26px}.mcv2-btn{width:60px;height:60px}.mcv2-btn svg{width:26px;height:26px}.mcv2-cap{bottom:12px;font-size:18px}}
 .mcv2-sub{margin:0 0 14px;font-family:var(--body);font-style:normal;font-weight:400;font-size:clamp(16px,1.5vw,19px);opacity:.92}
 .mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
 .mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
