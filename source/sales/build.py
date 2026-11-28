@@ -486,7 +486,7 @@ MC_CSS = """<style>
 .mcv2{background:#3b2d26;color:var(--cream);padding:clamp(40px,6vw,80px) clamp(20px,4.5vw,72px) clamp(48px,6vw,88px)}
 .mcv2-in{max-width:980px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
 .mcv2-h{margin:0;font-family:var(--script);font-weight:400;font-size:clamp(52px,7vw,92px);line-height:1;color:var(--terra-lt)}
-.mcv2-sub{margin:0 0 14px;font-family:var(--serif);font-style:italic;font-size:clamp(16px,1.6vw,19px);opacity:.9}
+.mcv2-sub{margin:0 0 14px;font-family:var(--body);font-style:normal;font-weight:400;font-size:clamp(16px,1.5vw,19px);opacity:.92}
 .mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
 .mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
 .mcv2-note{margin-top:14px;max-width:760px;background:rgba(253,250,243,.08);border:1px solid rgba(253,250,243,.18);border-radius:14px;padding:14px 18px}
