@@ -476,7 +476,8 @@ MC_SECTION = """<section class="mcv2" aria-label="Free masterclass video">
 <div class="mcv2-in">
 <h1 class="mcv2-h">Free masterclass</h1>
 <p class="mcv2-sub">Everything we learned in 10+ years of hosting, in one free class.</p>
-<div class="mcv2-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<div class="mcv2-frame" id="mcv2-frame"><button type="button" class="mcv2-play" id="mcv2-play" aria-label="Play the free masterclass video"><img src="/assets/sales/mc-thumb.webp" width="1280" height="720" alt="Daniel and Farah smiling at sunset in Bali"><span class="mcv2-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="34" height="34"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span><span class="mcv2-cap">Watch the free masterclass</span></button></div>
+<script>(function(){var b=document.getElementById('mcv2-play');if(!b)return;b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&modestbranding=1&playsinline=1&autoplay=1';f.title='6-Figure Host masterclass';f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';f.allowFullscreen=true;b.replaceWith(f);});})();</script>
 <div class="mcv2-note"><p>*In the video we still mention our old guide and its price. We have now upgraded it to the full 6-Figure Host Course, which has much more value. It is normally sold for <s><span data-h="p297"></span></s>, but with the masterclass discount it is <b><span data-h="p197"></span></b>. We will update this masterclass soon.</p></div>
 </div>
 </section>
@@ -489,6 +490,14 @@ MC_CSS = """<style>
 .mcv2-sub{margin:0 0 14px;font-family:var(--body);font-style:normal;font-weight:400;font-size:clamp(16px,1.5vw,19px);opacity:.92}
 .mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
 .mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
+.mcv2-play{all:unset;box-sizing:border-box;position:relative;display:block;width:100%;height:100%;cursor:pointer}
+.mcv2-play img{display:block;width:100%;height:100%;object-fit:cover}
+.mcv2-play::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55))}
+.mcv2-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:88px;height:88px;border-radius:50%;background:var(--terra);color:#fff;display:grid;place-items:center;z-index:1;box-shadow:0 14px 30px -10px rgba(0,0,0,.6);transition:transform .2s}
+.mcv2-btn svg{margin-left:4px}
+.mcv2-play:hover .mcv2-btn{transform:translate(-50%,-50%) scale(1.07)}
+.mcv2-play:focus-visible{outline:3px solid var(--cream);outline-offset:3px}
+.mcv2-cap{position:absolute;left:0;right:0;bottom:22px;z-index:1;text-align:center;font-family:var(--display);text-transform:uppercase;font-size:clamp(20px,2.4vw,32px);letter-spacing:.01em;color:#fff}
 .mcv2-note{margin-top:14px;max-width:760px;background:rgba(253,250,243,.08);border:1px solid rgba(253,250,243,.18);border-radius:14px;padding:14px 18px}
 .mcv2-note p{margin:0;font-size:14.5px;line-height:1.55;text-align:center}
 .mcv2-note b{color:#fff}
