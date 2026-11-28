@@ -16,9 +16,11 @@
     usd: { reg: 343, bf: 170, split: 114, splitBf: 57 }
   };
   var O = window.FH_OFFER = { phase: phase, start: START, end: END, months: 3, rate: RATE };
+  // Coming from the free masterclass page (?offer=mc): after Black Friday the course keeps the discounted price.
+  O.mcOffer = /[?&]offer=mc\b/.test(location.search);
   var P = {};
   function setPrices() {
-    var t = TABLE[O.cur] || TABLE.usd, bf = phase === 'bf';
+    var t = TABLE[O.cur] || TABLE.usd, bf = phase === 'bf' || (O.mcOffer && phase === 'after');
     P.one = bf ? t.bf : t.reg; P.was = bf ? t.reg : 0; P.split = bf ? t.splitBf : t.split; P.splitWas = bf ? t.split : 0;
     O.one = P.one; O.was = P.was; O.split = P.split; O.splitWas = P.splitWas; O.reg = t.reg; O.bfOne = t.bf; O.regSplit = t.split;
   }

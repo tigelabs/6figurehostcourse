@@ -767,8 +767,10 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <div class="bar obar">
 <div class="in">
 <span data-if="isPre" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>. Starts in</p></span>
-<span data-if="isBf" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>. This price is gone when the timer hits zero.</p></span>
+<span data-if="isBfUp" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>. This price is gone when the timer hits zero.</p></span>
+<span data-if="isBfMc" style="display:contents"><p><b>Black Friday:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>.</p></span>
 <span data-if="isAfter" style="display:contents"><p>The interactive 6 Figure Host Course: one payment of <span data-h="p297"></span>, or 3 × <span data-h="p79"></span>.</p></span>
+<span data-if="isMc" style="display:contents"><p><b>Masterclass discount:</b> the course for <span data-h="p197"></span> instead of <span data-h="p297"></span>.</p></span>
 <span data-if="showCd" style="display:contents"><span class="cd sm"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></span></span>
 <a data-a-href="co"><span data-h="barBtn"></span></a>
 </div>
@@ -788,7 +790,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 <li><span><b>Pitch landlords with our exact scripts.</b> Fill in your details, copy, send.</span></li>
 </ul>
 <div class="ctawrap">
-<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <small>Secure checkout. Lifetime access. Works on phone and laptop.</small>
 </div>
 </div>
@@ -899,7 +901,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 </div>
 <p class="bodyp" style="margin-top:48px">AI can give you a hundred generic tips in ten seconds. It cannot tell you how we convinced a Barcelona landlord to say yes to subletting, or how to use a property to its full potential, with real-life examples from us. This course isn't built from theory; it's built from experience.</p>
 <div class="ctawrap" style="margin-top:28px">
-<a class="cta light" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta light" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <small>Secure checkout. Lifetime access.</small>
 </div>
 </div>
@@ -1029,7 +1031,7 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 </div>
 <div class="ctawrap">
 <p class="lead">Every system behind these results is inside the course.</p>
-<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 </div>
 </section>
@@ -1151,33 +1153,33 @@ At the end, add a short summary I can copy into my notes, in this format:
 <li><span>Landlord scripts, pitch brochure and AI prompts</span><b><span data-h="v50"></span></b></li>
 </ul>
 <p class="vs-tot"><span>Total value</span><b><span data-h="v544"></span></b></p>
-<p class="vs-you">Your price: <b><span data-if="isBf" style="display:contents"><s><span data-h="p297"></span></s> </span><span data-h="one"></span></b></p>
+<p class="vs-you">Your price: <b><span data-if="isDisc" style="display:contents"><s><span data-h="p297"></span></s> </span><span data-h="one"></span></b></p>
 <a class="cta" href="#pricing">Choose how you pay</a>
 </div>
 </div>
 <div class="pricing" id="pricing">
-<span data-if="isPre" style="display:contents"><p class="pr-head">Black Friday opens 27 November: <span data-h="p197"></span> for 4 days only</p></span><span data-if="isBf" style="display:contents"><p class="pr-head">Black Friday price: gone when the timer hits zero</p></span>
+<span data-if="isPre" style="display:contents"><p class="pr-head">Black Friday opens 27 November: <span data-h="p197"></span> for 4 days only</p></span><span data-if="isBfUp" style="display:contents"><p class="pr-head">Black Friday price: gone when the timer hits zero</p></span><span data-if="isBfMc" style="display:contents"><p class="pr-head">Black Friday price: <span data-h="p197"></span> instead of <span data-h="p297"></span></p></span><span data-if="isMc" style="display:contents"><p class="pr-head">Your masterclass discount: <span data-h="p197"></span> instead of <span data-h="p297"></span></p></span>
 <span data-if="showCd" style="display:contents"><div class="cd"><span data-for="cd" data-as="u" style="display:contents"><template><span class="cd-u"><b>{{u.v}}</b><i>{{u.l}}</i></span></template></span></div></span>
 <div class="prmock"><img src="/assets/course-mockup-wide.webp?v=1" width="1540" height="1050" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy"></div>
 <div class="curt"><span>Choose your currency</span><div class="cur" role="radiogroup" aria-label="Currency"><button type="button" role="radio" data-a-aria-checked="eurOn" data-on-click="setEur">€ EUR</button><button type="button" role="radio" data-a-aria-checked="usdOn" data-on-click="setUsd">$ USD</button></div></div>
 <div class="pr-cards">
 <div class="pr-card best"><span class="pr-badge">Best value</span>
 <h3>One-time payment</h3>
-<span data-if="isBf" style="display:contents"><p class="pr-was"><s><span data-h="p297"></span></s></p></span>
+<span data-if="isDisc" style="display:contents"><p class="pr-was"><s><span data-h="p297"></span></s></p></span>
 <p class="pr-now"><span data-h="one"></span></p>
 <p class="pr-sub">The lowest total price.</p>
 <p class="pr-save"><span data-h="saveTxt"></span></p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator, host starter kit and scripts included (value <span><span data-h="vBonus"></span></span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta" data-a-href="co" target="_blank"><span data-h="btnOne"></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta" data-a-href="co" target="_blank"><span data-h="btnOne"></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 <div class="pr-card">
 <h3>Split pay</h3>
-<span data-if="isBf" style="display:contents"><p class="pr-was"><s>3 × <span data-h="p79"></span></s></p></span>
+<span data-if="isDisc" style="display:contents"><p class="pr-was"><s>3 × <span data-h="p79"></span></s></p></span>
 <p class="pr-now">3 × <span data-h="split"></span></p>
 <p class="pr-sub"><span data-h="splitTot"></span> total, paid monthly</p>
 <p class="pr-save pr-save2">Start today, pay in 3 months</p>
 <ul class="ticks"><li><span>Lifetime access to the course</span></li><li><span>Profit Calculator, host starter kit and scripts included (value <span><span data-h="vBonus"></span></span>)</span></li><li><span>All future updates</span></li></ul>
-<a class="cta ghost" data-a-href="coSplit" target="_blank"><span data-h="btnSplit"></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Goes up to 3 × <span data-h="p79"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta ghost" data-a-href="coSplit" target="_blank"><span data-h="btnSplit"></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Goes up to 3 × <span data-h="p79"></span> when Black Friday ends (30 Nov)</small></span>
 </div>
 </div>
 <p class="pr-note">Secure payment by Stripe. Digital product, no refunds after purchase.</p>
@@ -1227,7 +1229,7 @@ var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isInters
 <h2 class="lock row"><span class="sc">Now it's</span><span class="dp">your turn</span></h2>
 <p class="lead">Imagine checking your phone and seeing your first booking come in. The first lesson takes about ten minutes. Let's launch your first listing together.</p>
 <div class="endbox">
-<a class="cta big" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBf" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
+<a class="cta big" data-a-href="co" target="_blank"><span><span data-h="ctaTxt"></span></span></a><span data-if="isBfUp" style="display:contents"><small class="upnote">Price goes up to <span data-h="p297"></span> when Black Friday ends (30 Nov)</small></span>
 <ul class="assure"><li>Secure checkout</li><li>Lifetime access</li><li>Free updates for life</li></ul>
 </div>
 </div>
@@ -1261,7 +1263,10 @@ class Component extends DCLogic {
     }
     var qp = null; try { qp = (location.search.match(/[?&]phase=(pre|bf|after)/) || [])[1]; } catch (e) {}
     var phase = qp || (now < START ? 'pre' : now < END ? 'bf' : 'after');
-    var bf = phase === 'bf';
+    // On the free masterclass page (window.FH_MC) the discount stays after Black Friday, as the "masterclass discount".
+    var MC = !!window.FH_MC;
+    if (MC && phase === 'after') phase = 'mc';
+    var bf = phase === 'bf' || phase === 'mc';
     var self = this;
     var RATE = 1.156;   // EUR -> USD, the same rate as the Stripe prices (23 Nov 2026)
     function amt(n) { return cur === 'eur' ? n : Math.round(n * RATE); }
@@ -1285,14 +1290,14 @@ class Component extends DCLogic {
     }
     var vCourse = REG, vCalc = amt(97), vKit = amt(150), vScripts = amt(50);
     return {
-      isPre: phase === 'pre', isBf: bf, isAfter: phase === 'after', showCd: phase !== 'after', cd: cd,
-      barBtn: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : bf ? 'Get the Black Friday price' : 'Get the course',
+      isPre: phase === 'pre', isBf: phase === 'bf', isBfUp: phase === 'bf' && !MC, isBfMc: phase === 'bf' && MC, isDisc: bf, isMc: phase === 'mc', isAfter: phase === 'after', showCd: phase === 'pre' || (phase === 'bf' && !MC), cd: cd,
+      barBtn: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : phase === 'bf' ? 'Get the Black Friday price' : phase === 'mc' ? 'Get the masterclass price' : 'Get the course',
       ctaTxt: phase === 'pre' ? 'Coming soon: Black Friday, 27 November' : 'Get instant access for ' + m(one),
       btnOne: phase === 'pre' ? 'Coming soon: 27 November' : 'One-time payment',
       btnSplit: phase === 'pre' ? 'Coming soon: 27 November' : 'Split pay',
       p197: m(BF), p297: m(REG), p79: m(REG_SPLIT), p54: m(BF_SPLIT),
       one: m(one), split: m(split), splitTot: m(split * MONTHS),
-      saveTxt: bf ? 'Black Friday: you save ' + m(REG - BF) : 'Lifetime access, no subscription',
+      saveTxt: phase === 'bf' ? 'Black Friday: you save ' + m(REG - BF) : phase === 'mc' ? 'Masterclass discount: you save ' + m(REG - BF) : 'Lifetime access, no subscription',
       v297: m(vCourse), v97: m(vCalc), v150: m(vKit), v544: m(vCourse + vCalc + vKit + vScripts), v50: m(vScripts), vBonus: m(vCalc + vKit + vScripts),
       city: st.city || '', cityShown: cityShown, copyTxt: st.copied ? 'Copied!' : 'Copy',
       setCity: function (e) { self.setState({ city: e && e.target ? e.target.value : '' }); },
@@ -1300,8 +1305,8 @@ class Component extends DCLogic {
       gptUrl: 'https://chatgpt.com/?q=' + enc, claudeUrl: 'https://claude.ai/new?q=' + enc,
       eurOn: cur === 'eur' ? 'true' : 'false', usdOn: cur === 'usd' ? 'true' : 'false',
       setEur: function () { saveCur('eur'); }, setUsd: function () { saveCur('usd'); },
-      co: '/checkout?cur=' + cur,
-      coSplit: '/checkout?plan=split&cur=' + cur
+      co: '/checkout?cur=' + cur + (MC ? '&offer=mc' : ''),
+      coSplit: '/checkout?plan=split&cur=' + cur + (MC ? '&offer=mc' : '')
     };
   }
 }

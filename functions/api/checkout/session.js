@@ -15,12 +15,12 @@ export async function onRequestPost({ request, env }) {
   // Add-ons: the calculator only with a guide (it is already in the course). City guides are "coming soon".
   const allowed = main === 'course' ? [] : ['barcelona', 'bali', 'calculator'].filter(x => x !== main);
   if (!split) for (const x of Array.isArray(b.extras) ? b.extras : []) if (allowed.includes(x) && !skus.includes(x)) skus.push(x);
-  const prices = skus.map(s => s === 'course' ? coursePrice(env, split ? 'split' : 'one') : priceFor(env, s));
+  const prices = skus.map(s => s === 'course' ? coursePrice(env, split ? 'split' : 'one', Date.now(), b.offer === 'mc') : priceFor(env, s));
   if (!env.STRIPE_SECRET_KEY || prices.some(p => !p)) return json({ error: 'Checkout is not set up yet.' }, 503);
   const origin = new URL(request.url).origin;
   const line_items = {};
   prices.forEach((price, i) => { line_items[i] = { price, quantity: 1 }; });
-  const meta = { skus: skus.join(','), ...(split ? { split: String(SPLIT_MONTHS) } : {}) };
+  const meta = { skus: skus.join(','), ...(split ? { split: String(SPLIT_MONTHS) } : {}), ...(b.offer === 'mc' ? { offer: 'masterclass' } : {}) };
   const common = {
       line_items,
       metadata: meta,

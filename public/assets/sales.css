@@ -810,3 +810,12 @@ s{text-decoration-color:#D9773A;text-decoration-thickness:2px}
 .pr-card .cta,.pr-card .cta.ghost{background:var(--terra);border-color:var(--terra);color:var(--cream)}
 .pr-badge{background:var(--ink);color:var(--cream)}
 .pr-save:not(.pr-save2){background:var(--ink);color:var(--cream)}
+
+/* free masterclass sign-up (2026-11-28) */
+.fm-k{margin:0 0 10px;font-family:var(--script);font-size:34px;line-height:1;color:var(--terra)}
+.fm-h.fm-h2{font-size:clamp(30px,2.9vw,42px);line-height:1.05;margin:0 0 22px}
+.fm-done .fm-in{font-family:var(--display);text-transform:uppercase;font-weight:400;font-size:clamp(36px,3.6vw,52px);line-height:1;color:#000;margin:0 0 12px}
+.fm-done .fm-chk{margin:0 0 10px;font-weight:700}
+.fm-small{font-size:13px;line-height:1.55;color:var(--muted);margin:0}
+.fm-small a{color:var(--ink);font-weight:700}
+.fm-form[hidden],.fm-done[hidden]{display:none}

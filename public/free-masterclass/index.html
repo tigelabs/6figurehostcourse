@@ -23,8 +23,8 @@
 <div class="fm-img"><img src="/assets/sales/mc-signup.webp" width="1344" height="1386" alt="A sunny poolside bench with cushions under a straw roof at one of our villas in Bali"></div>
 <div class="fm-side">
 <div class="fm-box">
-<h1 class="fm-h">Free masterclass</h1>
-<p class="fm-sub">How to launch a profitable Airbnb business and earn your first $10k profit.</p>
+<p class="fm-k">Free masterclass</p>
+<h1 class="fm-h fm-h2">How we went from struggling to pay rent to building a <span style="white-space:nowrap">6-figure</span> Airbnb business — and how you can do it too</h1>
 <p class="fm-txt">Even if you don’t own property, have no real estate license or don't know where to start 💸🏡</p>
 <form class="fm-form" id="fm-form" novalidate>
 <label class="fm-l"><span class="fm-sr">Email address</span><input name="email" type="email" autocomplete="email" placeholder="Email address" required maxlength="200"></label>
@@ -34,8 +34,9 @@
 <p class="fm-status" role="status" aria-live="polite"></p>
 </form>
 <div class="fm-done" id="fm-done" hidden>
-<p class="fm-sub">You’re in! 🎉</p>
-<p class="fm-txt">Check your inbox: we just sent you the link to the masterclass. Can’t find it? Look in your spam or promotions folder.</p>
+<p class="fm-sub fm-in">You’re in</p>
+<p class="fm-txt fm-chk">Check your inbox.</p>
+<p class="fm-small">Check your mail inbox for the link to the masterclass. Can’t find it? Check your spam folder. Still not there? Send us an email at <a href="mailto:6figurehost@gmail.com">6figurehost@gmail.com</a>.</p>
 </div>
 </div>
 </div>
@@ -46,11 +47,12 @@ f.addEventListener('submit',function(e){e.preventDefault();
 var d={email:f.email.value.trim(),first:f.first.value.trim(),website:f.website.value,t:t0};
 if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email)){st.textContent='Please check your email address.';f.email.focus();return}
 if(!d.first){st.textContent='Please add your first name.';f.first.focus();return}
-b.disabled=true;b.textContent='One moment…';st.textContent='';
+// Show "You're in" straight away; the sign-up is sent in the background (we go back to the form only if it fails).
+var done=document.getElementById('fm-done');st.textContent='';f.hidden=true;done.hidden=false;
+function back(msg){done.hidden=true;f.hidden=false;st.textContent=msg;b.disabled=false;}
 fetch('/api/masterclass',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j}})}).then(function(x){
-if(x.ok&&x.j.ok){f.hidden=true;document.getElementById('fm-done').hidden=false}
-else{st.textContent=(x.j&&x.j.error)||'Something went wrong. Please try again.';b.disabled=false;b.textContent='Unlock free access'}
-}).catch(function(){st.textContent='Something went wrong. Check your connection and try again.';b.disabled=false;b.textContent='Unlock free access'})});})();
+if(!(x.ok&&x.j.ok))back((x.j&&x.j.error)||'Something went wrong. Please try again.');
+}).catch(function(){back('Something went wrong. Check your connection and try again.')})});})();
 </script>
 
 </div>

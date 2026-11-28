@@ -472,39 +472,47 @@ def home_page():
 
 
 # ---------------------------------------------------------------- masterclass video
+MC_SECTION = """<section class="mcv2" aria-label="Free masterclass video">
+<div class="mcv2-in">
+<h1 class="mcv2-h">Free masterclass</h1>
+<p class="mcv2-sub">Everything we learned in 10+ years of hosting, in one free class.</p>
+<div class="mcv2-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+<div class="mcv2-note"><p>*In the video we still mention our old guide and its price. We have now upgraded it to the full 6-Figure Host Course, which has much more value. It is normally sold for <s><span data-h="p297"></span></s>, but with the masterclass discount it is <b><span data-h="p197"></span></b>. We will update this masterclass soon.</p></div>
+</div>
+</section>
+"""
+MC_CSS = """<style>
+/* free masterclass page = the course sales page with the masterclass video on top */
+.mcv2{background:#3b2d26;color:var(--cream);padding:clamp(40px,6vw,80px) clamp(20px,4.5vw,72px) clamp(48px,6vw,88px)}
+.mcv2-in{max-width:980px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
+.mcv2-h{margin:0;font-family:var(--script);font-weight:400;font-size:clamp(52px,7vw,92px);line-height:1;color:var(--terra-lt)}
+.mcv2-sub{margin:0 0 14px;font-family:var(--serif);font-style:italic;font-size:clamp(16px,1.6vw,19px);opacity:.9}
+.mcv2-frame{width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 30px 60px -26px rgba(0,0,0,.7)}
+.mcv2-frame iframe{width:100%;height:100%;border:0;display:block}
+.mcv2-note{margin-top:14px;max-width:760px;background:rgba(253,250,243,.08);border:1px solid rgba(253,250,243,.18);border-radius:14px;padding:14px 18px}
+.mcv2-note p{margin:0;font-size:14.5px;line-height:1.55;text-align:center}
+.mcv2-note b{color:#fff}
+</style>
+"""
+
+
 def masterclass_page():
-    body = """OFFERBAR
-<section class="mcv" aria-label="Free masterclass video">
-<div class="mcv-in">
-<p class="mcv-k"><span class="sc">Free masterclass</span></p>
-<div class="mcv-frame"><iframe src="https://www.youtube-nocookie.com/embed/0Bfym8N8JJA?rel=0&amp;modestbranding=1&amp;playsinline=1" title="6-Figure Host masterclass with Farah and Daniel" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
-<p class="mcv-note" data-o="mc-note">*In the video we talk about our old guide and its price. That guide is now the full 6-Figure Host Course: <b>$343</b>.</p>
-<h1 class="mcv-h">From sleeping on the couch to homes around the world</h1>
-<p class="mcv-lead">Everything we learned in ten years of hosting, in one free class.</p>
-<div class="mcv-cta"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $343</span></a><a class="mcv-more" href="/course/">See what’s inside the course</a></div>
-</div>
-</section>
-<section class="sec">
-<div class="in two flip mc-us">
-<img src="/assets/sales/us-mc.webp" width="675" height="844" alt="Farah and Daniel together" loading="lazy">
-<div class="copy">
-<h2 class="lock"><span class="sc b">Our story</span><span class="dp">From a couch to homes around the world</span></h2>
-<p>We met in 2017 as housemates in a shared flat in Barcelona. Farah sublet her bedroom and slept on the couch. One apartment turned into five, then came multiple properties in Bali, and we still don’t own a single one of them.</p>
-</div>
-</div>
-</section>
-<section class="sec sand">
-<div class="in two">
-<div class="copy">
-<h2 class="lock"><span class="sc b">After watching</span><span class="dp">Take the next step</span></h2>
-<p>The masterclass shows you how the model works. The 6-Figure Host Course gives you everything to do it yourself: the launch roadmap, landlord scripts, the profit calculator, contracts and checklists, and our real case studies from Barcelona and Bali.</p>
-<div class="ctawrap"><a class="cta" href="/course/#pricing"><span data-o="cta">Get instant access for $343</span></a><small>One payment or split pay. Lifetime access.</small></div>
-</div>
-<img src="/assets/course-mockup.webp?v=2" width="1400" height="957" alt="The 6-Figure Host Course on a laptop, tablet and phone" loading="lazy">
-</div>
-</section>"""
-    body = body.replace('OFFERBAR', OFFERBAR_HTML.replace('href="#pricing"', 'href="/course/#pricing"'))
-    return page('masterclassvideo/', 'Free masterclass · 6-Figure Host', 'Watch the free masterclass by Daniel & Farah: how to build a profitable rental business in Barcelona, Bali or anywhere, with or without owning property.', body)
+    """The free masterclass page: video on top, then the whole course sales page.
+    After Black Friday it keeps the discounted price, labelled as the masterclass discount (window.FH_MC)."""
+    s = open(os.path.join(HERE, 'course_designed.html'), encoding='utf-8').read()
+    s = s.replace('<title>The 6-Figure Host Course · Daniel &amp; Farah</title>', '<title>Free masterclass · 6-Figure Host</title>', 1)
+    s = s.replace('<meta property="og:title" content="The 6-Figure Host Course · Daniel &amp; Farah">', '<meta property="og:title" content="Free masterclass · 6-Figure Host">', 1)
+    d = 'Watch the free masterclass: how to build a profitable rental business, even without owning property.'
+    s = s.replace('<meta name="description" content="The step-by-step system to build a profitable rental business (even without owning property).">', '<meta name="description" content="%s">' % d, 1)
+    s = s.replace('<meta property="og:description" content="The step-by-step system to build a profitable rental business (even without owning property).">', '<meta property="og:description" content="%s">' % d, 1)
+    s = s.replace('<head>\n', '<head>\n<script>window.FH_MC = true;</script>\n', 1)
+    s = s.replace('</head>', MC_CSS + '</head>', 1)
+    assert '<header class="hero">' in s
+    s = s.replace('<header class="hero">', MC_SECTION + '\n<header class="hero">', 1)
+    out = os.path.join(OUT, 'masterclassvideo')
+    os.makedirs(out, exist_ok=True)
+    open(os.path.join(out, 'index.html'), 'w', encoding='utf-8').write(s)
+    return 'masterclassvideo/index.html'
 
 
 def contact_page():
@@ -571,8 +579,8 @@ def free_masterclass_page():
 <div class="fm-img"><img src="/assets/sales/mc-signup.webp" width="1344" height="1386" alt="A sunny poolside bench with cushions under a straw roof at one of our villas in Bali"></div>
 <div class="fm-side">
 <div class="fm-box">
-<h1 class="fm-h">Free masterclass</h1>
-<p class="fm-sub">How to launch a profitable Airbnb business and earn your first $10k profit.</p>
+<p class="fm-k">Free masterclass</p>
+<h1 class="fm-h fm-h2">How we went from struggling to pay rent to building a <span style="white-space:nowrap">6-figure</span> Airbnb business — and how you can do it too</h1>
 <p class="fm-txt">Even if you don’t own property, have no real estate license or don't know where to start 💸🏡</p>
 <form class="fm-form" id="fm-form" novalidate>
 <label class="fm-l"><span class="fm-sr">Email address</span><input name="email" type="email" autocomplete="email" placeholder="Email address" required maxlength="200"></label>
@@ -582,8 +590,9 @@ def free_masterclass_page():
 <p class="fm-status" role="status" aria-live="polite"></p>
 </form>
 <div class="fm-done" id="fm-done" hidden>
-<p class="fm-sub">You’re in! 🎉</p>
-<p class="fm-txt">Check your inbox: we just sent you the link to the masterclass. Can’t find it? Look in your spam or promotions folder.</p>
+<p class="fm-sub fm-in">You’re in</p>
+<p class="fm-txt fm-chk">Check your inbox.</p>
+<p class="fm-small">Check your mail inbox for the link to the masterclass. Can’t find it? Check your spam folder. Still not there? Send us an email at <a href="mailto:6figurehost@gmail.com">6figurehost@gmail.com</a>.</p>
 </div>
 </div>
 </div>
@@ -594,11 +603,12 @@ f.addEventListener('submit',function(e){e.preventDefault();
 var d={email:f.email.value.trim(),first:f.first.value.trim(),website:f.website.value,t:t0};
 if(!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(d.email)){st.textContent='Please check your email address.';f.email.focus();return}
 if(!d.first){st.textContent='Please add your first name.';f.first.focus();return}
-b.disabled=true;b.textContent='One moment…';st.textContent='';
+// Show "You're in" straight away; the sign-up is sent in the background (we go back to the form only if it fails).
+var done=document.getElementById('fm-done');st.textContent='';f.hidden=true;done.hidden=false;
+function back(msg){done.hidden=true;f.hidden=false;st.textContent=msg;b.disabled=false;}
 fetch('/api/masterclass',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).then(function(r){return r.json().then(function(j){return{ok:r.ok,j:j}})}).then(function(x){
-if(x.ok&&x.j.ok){f.hidden=true;document.getElementById('fm-done').hidden=false}
-else{st.textContent=(x.j&&x.j.error)||'Something went wrong. Please try again.';b.disabled=false;b.textContent='Unlock free access'}
-}).catch(function(){st.textContent='Something went wrong. Check your connection and try again.';b.disabled=false;b.textContent='Unlock free access'})});})();
+if(!(x.ok&&x.j.ok))back((x.j&&x.j.error)||'Something went wrong. Please try again.');
+}).catch(function(){back('Something went wrong. Check your connection and try again.')})});})();
 </script>'''
     return page('free-masterclass/', 'Free masterclass · 6-Figure Host', 'Free masterclass: how to launch a profitable Airbnb business and earn your first $10k profit, even if you don’t own property.', body, foot=False)
 

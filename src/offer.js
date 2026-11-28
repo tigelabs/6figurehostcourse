@@ -11,8 +11,9 @@ const COURSE_PRICES = {
   split: 'price_1UerPpEuGEmbLNAREsE8Ke1k',    // 3 x EUR 99 / USD 114 per month
   splitBf: 'price_1UerPqEuGEmbLNARsFavffvc',  // 3 x EUR 49 / USD 57 per month
 };
-export function coursePrice(env, plan, now = Date.now()) {
-  const bf = phase(now) === 'bf';
+// mc = bought from the free masterclass page: after Black Friday it keeps the discounted price (the "masterclass discount").
+export function coursePrice(env, plan, now = Date.now(), mc = false) {
+  const ph = phase(now), bf = ph === 'bf' || (mc && ph === 'after');
   if (plan === 'split') return bf ? COURSE_PRICES.splitBf : COURSE_PRICES.split;
   return bf ? COURSE_PRICES.oneBf : COURSE_PRICES.one;
 }
